@@ -6,6 +6,7 @@ web + un resumen en Markdown. Se ejecuta solo en GitHub Actions: **no necesita
 servidor, ni claves API, ni pagar nada**.
 
 - Panel: `docs/index.html` (se publica como web con GitHub Pages)
+- **Cápsula diaria en vídeo: `docs/videos/AAAA-MM-DD.mp4`** (vertical 9:16, ~45 s)
 - Resumen diario: `digests/AAAA-MM-DD.md`
 - **Corpus acumulado: `datos/noticias.jsonl` + `datos/noticias.csv`** ← la base de datos
 - Datos de la edición: `docs/data/latest.json`
@@ -27,6 +28,53 @@ servidor, ni claves API, ni pagar nada**.
 El corpus es la parte importante si quieres construir algo encima: crece para siempre,
 no repite noticias y tiene campos limpios (medio, sección, idioma, fecha, enlace,
 extracto, cobertura). Los detalles están en [`datos/README.md`](datos/README.md).
+
+## La cápsula en vídeo
+
+Después de actualizar el panel, el robot monta un vídeo vertical de ~45 s con las cinco
+noticias más relevantes del día: imagen de cada artículo, titular en pantalla y voz en
+off en español. El resultado queda en `docs/videos/` y se ve desde el botón
+**"Ver la cápsula del día"** del panel.
+
+**Cómo funciona** (`capsule.py`, cuatro pasos):
+
+1. **Selección** — las noticias con mejor puntuación que tengan imagen descargable,
+   procurando variedad de secciones.
+2. **Guion** — un modelo escribe el texto en español: gancho, una frase por noticia y
+   cierre. Si no hay clave, cae a una plantilla (más plana, y los titulares en inglés).
+3. **Voz** — `edge-tts` (voces neuronales de Microsoft, gratis) genera el audio y se mide
+   la duración real de cada frase.
+4. **Montaje** — `ffmpeg` panea despacio sobre cada foto, el texto queda fijo encima y el
+   audio manda el ritmo de cada plano.
+
+**Activar el guion con IA** (recomendado, cuesta céntimos al mes):
+
+1. Consigue una clave de [DeepSeek](https://platform.deepseek.com/api_keys) (o de OpenAI).
+2. En el repo: **Settings → Secrets and variables → Actions → New repository secret**.
+3. Nombre: `LLM_API_KEY`. Valor: tu clave. **Save**.
+4. Opcional, en la pestaña *Variables*: `LLM_BASE_URL` (por defecto
+   `https://api.deepseek.com/v1`), `LLM_MODEL` (por defecto `deepseek-chat`) y
+   `CAPSULE_VOICE` (por defecto `es-MX-DaliaNeural`).
+
+Sin clave el robot sigue generando la cápsula con la plantilla: no se rompe nada.
+
+**Probarla en tu PC**
+
+```powershell
+.\run.cmd                          # actualiza los datos
+python capsule.py --dry-run        # ver el guion sin montar nada
+python capsule.py --tts silent     # montar el vídeo sin voz (rápido)
+python capsule.py                  # vídeo completo con voz
+```
+
+**Límites que conviene saber**
+
+- Las imágenes son del medio original. Al publicarlas en redes, cita la fuente (el vídeo
+  ya lo hace en pantalla) y revisa las condiciones de cada medio antes de monetizar.
+- El vídeo se guarda en el repo y en GitHub Pages: cada día pesa ~2-4 MB. Se conservan
+  los últimos 10; el peso se acumula en el historial de Git.
+- Si una noticia no tiene imagen, se dibuja un fondo de marca con el titular: se nota, así
+  que la selección prioriza siempre noticias con foto.
 
 Las revistas de consumo (Vogue, Harper's Bazaar, GQ, Elle...) solo entran cuando la
 noticia es de industria (negocio, retail, sostenibilidad o fichajes). Las fuentes de
@@ -127,6 +175,7 @@ Comprueba que la URL es un RSS válido antes de darla por buena:
 ```
 moda-radar/
 ├── aggregate.py            motor: descarga, limpia, deduplica, clasifica y renderiza
+├── capsule.py              genera la cápsula en vídeo (guion, voz y montaje)
 ├── ui.py                   estilos y plantilla del panel
 ├── sources.json            catálogo de fuentes verificadas
 ├── run.cmd                 ejecución local en Windows
@@ -136,7 +185,8 @@ moda-radar/
 │   └── README.md           diccionario de campos y ejemplos de uso
 ├── docs/
 │   ├── index.html          panel (generado, se sobrescribe cada día)
-│   └── data/               latest.json + un JSON por día (archivo)
+│   ├── data/               latest.json + un JSON por día (archivo)
+│   └── videos/             cápsulas mp4 + portada + index.json
 ├── digests/                un Markdown por día
 ├── memoria/                bitácora de decisiones y fallos
 └── .github/workflows/      tarea programada diaria

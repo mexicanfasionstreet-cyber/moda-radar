@@ -696,6 +696,14 @@ def _recency_bonus(iso):
     return 0.0
 
 
+def video_for(out_dir, date_str):
+    """Enlace relativo a la cápsula del día, si ya se generó."""
+    p = out_dir / "videos" / f"{date_str}.mp4"
+    if p.exists():
+        return f"videos/{date_str}.mp4"
+    return None
+
+
 def pick_hero(items):
     ranked = sorted(items, key=lambda x: x["score"], reverse=True)
     if not ranked:
@@ -847,6 +855,7 @@ def main(argv=None):
     ap.add_argument("--digests", default="digests", help="carpeta de digests Markdown")
     ap.add_argument("--sources", default="sources.json", help="catálogo de fuentes")
     ap.add_argument("--check", action="store_true", help="solo validar las fuentes y salir")
+    ap.add_argument("--render-only", action="store_true", help="regenerar el panel desde latest.json")
     ap.add_argument("--limit", type=int, default=0, help="limitar nº de fuentes (pruebas)")
     args = ap.parse_args(argv)
 
@@ -880,6 +889,25 @@ def main(argv=None):
         print(f"\n{ok} fuentes OK · {bad} con error")
         return 0 if ok else 1
 
+    if args.render_only:
+        payload = json.loads((root / args.out / "data" / "latest.json").read_text(encoding="utf-8"))
+        items = payload["items"]
+        gen = payload.get("generated", "")
+        meta = {
+            "generated": gen,
+            "generated_date": gen[:10],
+            "generated_human": datetime.fromisoformat(gen.replace("Z", "+00:00")).strftime("%d/%m/%Y %H:%M UTC"),
+            "days": payload.get("days", args.days),
+            "sources_ok": payload.get("sources_ok", 0),
+            "sources_failed": payload.get("sources_failed", []),
+            "hero": pick_hero(items),
+            "category_order": CATS,
+            "video": video_for(root / args.out, gen[:10]),
+        }
+        (root / args.out / "index.html").write_text(ui.render(items, meta), encoding="utf-8")
+        print(f"panel regenerado ({'con' if meta['video'] else 'sin'} capsula)")
+        return 0
+
     print(f"moda-radar · {len(sources)} fuentes · ventana {args.days} días")
     items, failures = build(sources, args.days)
     for name, err in failures:
@@ -896,6 +924,7 @@ def main(argv=None):
         "sources_failed": [n for n, _ in failures],
         "hero": hero,
         "category_order": CATS,
+        "video": video_for(out, now.strftime("%Y-%m-%d")),
     }
 
     out = root / args.out

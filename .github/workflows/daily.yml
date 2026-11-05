@@ -9,6 +9,7 @@ on:
     branches: [main]
     paths:
       - "aggregate.py"
+      - "capsule.py"
       - "ui.py"
       - "sources.json"
       - ".github/workflows/daily.yml"
@@ -32,8 +33,23 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Instalar dependencias del video
+        run: pip install --quiet edge-tts pillow
+
       - name: Agregar noticias y generar panel
         run: python aggregate.py --days 4
+
+      - name: Generar la capsula del dia
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          CAPSULE_VOICE: ${{ vars.CAPSULE_VOICE }}
+        run: |
+          python capsule.py || echo "::warning::La capsula fallo; la edicion sigue publicada"
+
+      - name: Rehacer el panel con el enlace al video
+        run: python aggregate.py --render-only
 
       - name: Guardar cambios en el repositorio
         run: |

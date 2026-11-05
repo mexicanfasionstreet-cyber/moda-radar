@@ -36,6 +36,13 @@ header.top{padding:30px 0 18px; border-bottom:1px solid var(--line)}
 .kpis{display:flex; gap:26px; text-align:right}
 .kpi b{display:block; font-family:var(--serif); font-size:24px; font-weight:600; line-height:1}
 .kpi span{font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--dim)}
+.cta{
+  display:inline-flex; align-items:center; gap:9px; margin-top:18px;
+  background:var(--accent); color:#12080b; font-weight:700; font-size:13.5px;
+  letter-spacing:.02em; padding:11px 18px; border-radius:999px;
+}
+.cta:hover{filter:brightness(1.08)}
+.cta .play{font-size:11px}
 
 /* ---------- controles ---------- */
 .controls{
@@ -279,7 +286,14 @@ def render(items, meta):
 
     updated = meta["generated_human"]
     first_date = meta["generated_date"]
+    video = meta.get("video")
+    video_html = (
+        f'<a class="cta" href="{esc(video)}" target="_blank" rel="noopener">'
+        f'<span class="play">▶</span> Ver la cápsula del día</a>'
+        if video else ""
+    )
     html_doc = TEMPLATE.replace("__CSS__", CSS).replace("__JS__", JS)
+    html_doc = html_doc.replace("__VIDEO__", video_html)
     html_doc = html_doc.replace("__CHIPS__", "".join(chips))
     html_doc = html_doc.replace("__OPTS__", opts)
     html_doc = html_doc.replace("__HERO__", hero_html)
@@ -316,6 +330,7 @@ TEMPLATE = """<!doctype html>
       <div class="kpi"><b>__DATE__</b><span>edición</span></div>
     </div>
   </div>
+  __VIDEO__
 </div></header>
 
 <div class="controls"><div class="wrap controls-in">
