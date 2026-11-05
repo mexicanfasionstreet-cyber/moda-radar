@@ -172,9 +172,15 @@ STOP = {
 FASHION_RE = re.compile(
     r"(?<![a-z])(fashion|apparel|clothing|clothes|luxury|beauty|cosmetic|cosmetics|makeup|skincare"
     r"|fragrance|perfume|sneaker|sneakers|shoe|shoes|footwear|designer|couture|runway|garment|textile"
-    r"|boutique|handbag|jewel|jewellery|jewelry|sportswear|athleisure|denim|dress|dresses|jeans|bag|bags"
-    r"|brand|brands|moda|ropa|calzado|textil)(?![a-z])"
+    r"|jewel|jewellery|jewelry|sportswear|athleisure|denim|jeans|moda|calzado|textil)(?![a-z])"
 )
+
+# Google News añade " - El Medio" al final del titular
+PUB_SUFFIX_RE = re.compile(r"\s+[-–—]\s+[^-–—]{2,42}$")
+
+
+def strip_pub_suffix(title):
+    return PUB_SUFFIX_RE.sub("", title).strip() or title
 
 TAG_RE = re.compile(r"<[^>]+>")
 WS_RE = re.compile(r"\s+")
@@ -536,26 +542,31 @@ def build(sources, days):
     results, failures = [], []
 
     def work(src):
-        try:
-            raw = fetch(src["url"])
-            parsed = parse_feed(raw, src)
-            return src, parsed, None
-        except Exception as exc:  # noqa: BLE001
-            return src, [], f"{type(exc).__name__}: {exc}"
+        errors = []
+        urls = [src["url"]] + ([src["fallback"]] if src.get("fallback") else [])
+        for idx, url in enumerate(urls):
+            try:
+                parsed = parse_feed(fetch(url), src)
+                if parsed:
+                    return src, parsed, None, idx > 0
+                errors.append("feed vacio")
+            except Exception as exc:  # noqa: BLE001
+                errors.append(f"{type(exc).__name__}: {exc}")
+        return src, [], " | ".join(errors), False
 
     with cf.ThreadPoolExecutor(max_workers=8) as ex:
-        for src, parsed, err in ex.map(work, sources):
-            if err:
+        for src, parsed, err, mirrored in ex.map(work, sources):
+            if err and not parsed:
                 failures.append((src["name"], err))
                 continue
-            results.append((src, parsed))
+            results.append((src, parsed, mirrored))
 
     items, seen_links = [], set()
-    for src, parsed in results:
+    for src, parsed, mirrored in results:
         kind = src.get("kind", "trade")
         kept = 0
         for it in parsed:
-            title = it["title"]
+            title = strip_pub_suffix(it["title"]) if mirrored else it["title"]
             link = it["link"]
             if not title or not link.startswith("http"):
                 continue
@@ -588,6 +599,7 @@ def build(sources, days):
                     "source": src["short"],
                     "source_name": src["name"],
                     "kind": kind,
+                    "mirror": mirrored,
                     "weight": float(src["weight"]),
                     "lang": src["lang"],
                     "region": src["region"],

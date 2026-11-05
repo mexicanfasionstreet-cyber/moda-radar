@@ -5,6 +5,13 @@ on:
     # 12:00 UTC = 04:00 en Los Ángeles / 07:00 en Nueva York / 13:00 en Madrid
     - cron: "0 12 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "aggregate.py"
+      - "ui.py"
+      - "sources.json"
+      - ".github/workflows/daily.yml"
 
 permissions:
   contents: write
