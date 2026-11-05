@@ -1,14 +1,52 @@
 {
- "generated": "2026-11-05T18:08:59.888536Z",
+ "generated": "2026-11-05T18:17:13.413901Z",
  "days": 4,
- "count": 124,
- "sources_ok": 29,
+ "count": 136,
+ "sources_ok": 31,
  "sources_failed": [
-  "Business of Fashion",
-  "Hypebeast",
-  "Textile World"
+  "Hypebeast"
  ],
  "items": [
+  {
+   "title": "Nike’s Fan-Favorite Air Max Boot Has Just Been Reissued in a Limited-Edition Luxe Version That Sold Out Quickly Last Year",
+   "link": "https://wwd.com/footwear-news/sneaker-news/nike-acg-air-max-goadome-qs-pony-hair-restock-io4635-001-1239402631/",
+   "excerpt": "The beloved ACG boot swaps rugged leather for plush pony hair.",
+   "image": "",
+   "published": "2026-11-05T18:16:30Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "calzado"
+   ],
+   "also": [],
+   "id": "617717723",
+   "score": 8.4
+  },
+  {
+   "title": "Dr. Martens’s New Retail Concept Debuts in Herald Square",
+   "link": "https://wwd.com/footwear-news/shoe-industry-news/dr-martens-herald-square-nyc-store-remodel-details-1239402606/",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-05T18:12:15Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "retail"
+   ],
+   "also": [],
+   "id": "9366929418",
+   "score": 9.15
+  },
   {
    "title": "Pitti Uomo Taps Raxxy Designer to Create Installation at January Edition",
    "link": "https://wwd.com/menswear-news/mens-retail-business/pitti-uomo-raxxy-william-shen-dunhill-kartik-research-1239402025/",
@@ -18,6 +56,7 @@
    "source": "WWD",
    "source_name": "WWD",
    "kind": "trade",
+   "mirror": false,
    "weight": 5.0,
    "lang": "en",
    "region": "us",
@@ -25,7 +64,7 @@
     "diseno"
    ],
    "also": [],
-   "id": "4996986926",
+   "id": "2052618210",
    "score": 8.45
   },
   {
@@ -37,6 +76,7 @@
    "source": "WWD",
    "source_name": "WWD",
    "kind": "trade",
+   "mirror": false,
    "weight": 5.0,
    "lang": "en",
    "region": "us",
@@ -44,7 +84,7 @@
     "personas"
    ],
    "also": [],
-   "id": "1777477449",
+   "id": "3353894529",
    "score": 8.95
   },
   {
@@ -56,6 +96,7 @@
    "source": "WWD",
    "source_name": "WWD",
    "kind": "trade",
+   "mirror": false,
    "weight": 5.0,
    "lang": "en",
    "region": "us",
@@ -63,7 +104,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "9785983011",
+   "id": "8572344813",
    "score": 9.15
   },
   {
@@ -75,6 +116,7 @@
    "source": "WWD",
    "source_name": "WWD",
    "kind": "trade",
+   "mirror": false,
    "weight": 5.0,
    "lang": "en",
    "region": "us",
@@ -82,7 +124,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "8459952551",
+   "id": "84867807",
    "score": 9.55
   },
   {
@@ -94,6 +136,7 @@
    "source": "Glossy",
    "source_name": "Glossy",
    "kind": "trade",
+   "mirror": false,
    "weight": 3.9,
    "lang": "en",
    "region": "us",
@@ -101,7 +144,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "4018537093",
+   "id": "8397706530",
    "score": 8.23
   },
   {
@@ -113,6 +156,7 @@
    "source": "WWD",
    "source_name": "WWD",
    "kind": "trade",
+   "mirror": false,
    "weight": 5.0,
    "lang": "en",
    "region": "us",
@@ -120,7 +164,7 @@
     "cultura"
    ],
    "also": [],
-   "id": "9986492152",
+   "id": "8986560856",
    "score": 8.35
   },
   {
@@ -132,6 +176,7 @@
    "source": "Pambianco",
    "source_name": "Pambianco News",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "it",
    "region": "it",
@@ -139,7 +184,7 @@
     "diseno"
    ],
    "also": [],
-   "id": "2459973410",
+   "id": "9894365636",
    "score": 7.25
   },
   {
@@ -151,6 +196,7 @@
    "source": "Elle",
    "source_name": "Elle",
    "kind": "consumer",
+   "mirror": false,
    "weight": 3.4,
    "lang": "en",
    "region": "us",
@@ -158,7 +204,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "367168323",
+   "id": "7949475356",
    "score": 7.98
   },
   {
@@ -170,6 +216,7 @@
    "source": "WWD",
    "source_name": "WWD",
    "kind": "trade",
+   "mirror": false,
    "weight": 5.0,
    "lang": "en",
    "region": "us",
@@ -177,7 +224,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "1062613794",
+   "id": "9858832130",
    "score": 9.55
   },
   {
@@ -189,6 +236,7 @@
    "source": "Drapers",
    "source_name": "Drapers",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -196,7 +244,7 @@
     "pasarela"
    ],
    "also": [],
-   "id": "7830723584",
+   "id": "969735037",
    "score": 7.69
   },
   {
@@ -208,6 +256,7 @@
    "source": "Retail Dive",
    "source_name": "Retail Dive",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.1,
    "lang": "en",
    "region": "us",
@@ -215,7 +264,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "8063945607",
+   "id": "169489392",
    "score": 8.82
   },
   {
@@ -227,6 +276,7 @@
    "source": "WWD",
    "source_name": "WWD",
    "kind": "trade",
+   "mirror": false,
    "weight": 5.0,
    "lang": "en",
    "region": "us",
@@ -234,7 +284,7 @@
     "pasarela"
    ],
    "also": [],
-   "id": "9896440453",
+   "id": "4911876712",
    "score": 8.65
   },
   {
@@ -246,6 +296,7 @@
    "source": "Fashionista",
    "source_name": "Fashionista",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "en",
    "region": "us",
@@ -253,7 +304,7 @@
     "personas"
    ],
    "also": [],
-   "id": "1735810392",
+   "id": "8223635963",
    "score": 8.1
   },
   {
@@ -265,6 +316,7 @@
    "source": "WWD",
    "source_name": "WWD",
    "kind": "trade",
+   "mirror": false,
    "weight": 5.0,
    "lang": "en",
    "region": "us",
@@ -272,31 +324,33 @@
     "diseno"
    ],
    "also": [],
-   "id": "7182532646",
+   "id": "940163746",
    "score": 8.45
   },
   {
-   "title": "Pierpaolo Piccioli Exits Balenciaga Less Than 18 Months After Joining the Kering-Owned Brand",
-   "link": "https://wwd.com/fashion-news/fashion-features/pierpaolo-piccioli-exits-balenciaga-successor-named-shortly-1239402140/",
-   "excerpt": "Owner Kering will announce his replacement shortly.",
+   "title": "Pierpaolo Piccioli Exits Balenciaga",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWTgtdUtsNDZySDVXUDZRWTZUcVVuQ0E2dHVIM3FaN1ZaYVBRMTZUdjJrbm5DUzRXR19Rc1JodDZYcHl3ODdScTFqUnEtU1RzRW1TN3VLUHZHS19tdXR1SDN0S1phMXZkakQtc1llOGJ1dnVMa2VEOUtnQk1jMmNFOXIyZUZTZFRVVkctdDRUWQ?oc=5",
+   "excerpt": "Pierpaolo Piccioli Exits Balenciaga The Business of Fashion",
    "image": "https://hips.hearstapps.com/hmg-prod/images/e5026377-daa9-4563-86bf-05f7e58477a5.jpeg",
-   "published": "2026-11-05T16:48:09Z",
-   "source": "WWD",
-   "source_name": "WWD",
+   "published": "2026-11-05T16:46:19Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
    "kind": "trade",
+   "mirror": true,
    "weight": 5.0,
    "lang": "en",
-   "region": "us",
+   "region": "global",
    "tags": [
     "personas"
    ],
    "also": [
+    "Drapers",
     "Pambianco News",
     "Elle",
     "Harper's Bazaar ES"
    ],
-   "id": "4385671802",
-   "score": 11.55
+   "id": "3856708887",
+   "score": 12.3
   },
   {
    "title": "Timberland’s Surprise Peanuts Collaboration Featuring a ‘Snoopy’ 6-Inch Waterproof Boot Is Available Right Now",
@@ -304,18 +358,19 @@
    "excerpt": "The just-launched collection includes apparel and boots for men, women and kids.",
    "image": "",
    "published": "2026-11-05T16:23:51Z",
-   "source": "WWD",
-   "source_name": "WWD",
+   "source": "FN",
+   "source_name": "Footwear News",
    "kind": "trade",
-   "weight": 5.0,
+   "mirror": false,
+   "weight": 3.8,
    "lang": "en",
    "region": "us",
    "tags": [
     "calzado"
    ],
    "also": [],
-   "id": "6625655472",
-   "score": 8.55
+   "id": "9286965769",
+   "score": 7.11
   },
   {
    "title": "NikeSkims Takes on the Archival Waffle Racer as the Partnership Expands Its Footwear Assortment",
@@ -326,6 +381,7 @@
    "source": "FN",
    "source_name": "Footwear News",
    "kind": "trade",
+   "mirror": false,
    "weight": 3.8,
    "lang": "en",
    "region": "us",
@@ -333,7 +389,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "5298039251",
+   "id": "3854069925",
    "score": 8.11
   },
   {
@@ -345,6 +401,7 @@
    "source": "Drapers",
    "source_name": "Drapers",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -352,7 +409,7 @@
     "retail"
    ],
    "also": [],
-   "id": "5102209624",
+   "id": "1361293753",
    "score": 8.39
   },
   {
@@ -364,6 +421,7 @@
    "source": "Vogue",
    "source_name": "Vogue",
    "kind": "consumer",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "us",
@@ -371,7 +429,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "7151084017",
+   "id": "3048607049",
    "score": 8.54
   },
   {
@@ -383,6 +441,7 @@
    "source": "Bazaar",
    "source_name": "Harper's Bazaar",
    "kind": "consumer",
+   "mirror": false,
    "weight": 3.4,
    "lang": "en",
    "region": "us",
@@ -390,7 +449,7 @@
     "personas"
    ],
    "also": [],
-   "id": "7625686587",
+   "id": "2492091115",
    "score": 7.18
   },
   {
@@ -402,6 +461,7 @@
    "source": "Fashionista",
    "source_name": "Fashionista",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "en",
    "region": "us",
@@ -409,8 +469,28 @@
     "cultura"
    ],
    "also": [],
-   "id": "4784107813",
+   "id": "4341467352",
    "score": 7.5
+  },
+  {
+   "title": "The Met Fills Galliano Gap With Show on Everyday Fashion",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVDBnY1F3bE81bzh6Q2ZLaG9FOTRHMjZNNGh3WkZoTkZnSkp4X0lLV2ZmWE1kSjYwcE5nZU9XRndXaW9jT3pnZEVKbnUxdmF1ckhWNW50QzRDelU2SW9mUDdId3VfUHhOVFMyUDRnb0I2SU9WX3F6UUdqcTgtSkd0VkltTjlVRUFDZ1hjeEwwVTBqU3hTcVFfZmtYLWhyRXVVa1RIZmd5ZFNySWlJS3VNNQ?oc=5",
+   "excerpt": "The Met Fills Galliano Gap With Show on Everyday Fashion The Business of Fashion",
+   "image": "",
+   "published": "2026-11-05T15:12:44Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "industria"
+   ],
+   "also": [],
+   "id": "922382405",
+   "score": 8.75
   },
   {
    "title": "How Sosandar is bouncing back despite hot weather hitting autumn sales",
@@ -421,6 +501,7 @@
    "source": "Drapers",
    "source_name": "Drapers",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -428,7 +509,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "445573540",
+   "id": "9131123062",
    "score": 8.59
   },
   {
@@ -440,6 +521,7 @@
    "source": "Textile Today",
    "source_name": "Textile Today",
    "kind": "trade",
+   "mirror": false,
    "weight": 2.8,
    "lang": "en",
    "region": "bd",
@@ -447,7 +529,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "9974856954",
+   "id": "2935584611",
    "score": 6.86
   },
   {
@@ -459,6 +541,7 @@
    "source": "NYT",
    "source_name": "New York Times Fashion",
    "kind": "consumer",
+   "mirror": false,
    "weight": 4.4,
    "lang": "en",
    "region": "us",
@@ -466,7 +549,7 @@
     "personas"
    ],
    "also": [],
-   "id": "5442495048",
+   "id": "1097785636",
    "score": 8.58
   },
   {
@@ -478,6 +561,7 @@
    "source": "FN",
    "source_name": "Footwear News",
    "kind": "trade",
+   "mirror": false,
    "weight": 3.8,
    "lang": "en",
    "region": "us",
@@ -485,7 +569,7 @@
     "retail"
    ],
    "also": [],
-   "id": "8636481148",
+   "id": "9611842132",
    "score": 7.91
   },
   {
@@ -497,6 +581,7 @@
    "source": "WWD",
    "source_name": "WWD Business",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.5,
    "lang": "en",
    "region": "us",
@@ -504,7 +589,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "2415495318",
+   "id": "3193826490",
    "score": 8.95
   },
   {
@@ -516,6 +601,7 @@
    "source": "Drapers",
    "source_name": "Drapers",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -523,7 +609,7 @@
     "industria"
    ],
    "also": [],
-   "id": "9873384327",
+   "id": "2557218882",
    "score": 7.79
   },
   {
@@ -535,6 +621,7 @@
    "source": "Drapers",
    "source_name": "Drapers",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -542,7 +629,7 @@
     "industria"
    ],
    "also": [],
-   "id": "3621248687",
+   "id": "7350639788",
    "score": 7.79
   },
   {
@@ -554,6 +641,7 @@
    "source": "Drapers",
    "source_name": "Drapers",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -561,7 +649,7 @@
     "calzado"
    ],
    "also": [],
-   "id": "583250316",
+   "id": "5059978191",
    "score": 7.59
   },
   {
@@ -573,6 +661,7 @@
    "source": "Drapers",
    "source_name": "Drapers",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -580,7 +669,7 @@
     "industria"
    ],
    "also": [],
-   "id": "2366477656",
+   "id": "5388356815",
    "score": 7.79
   },
   {
@@ -592,6 +681,7 @@
    "source": "Drapers",
    "source_name": "Drapers",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -599,7 +689,7 @@
     "pasarela"
    ],
    "also": [],
-   "id": "2097783741",
+   "id": "6536934269",
    "score": 7.69
   },
   {
@@ -611,6 +701,7 @@
    "source": "Drapers",
    "source_name": "Drapers",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -618,27 +709,8 @@
     "retail"
    ],
    "also": [],
-   "id": "8960739804",
+   "id": "886891405",
    "score": 8.39
-  },
-  {
-   "title": "Power 100 2026: Who are this year’s Lifestyle Leaders?",
-   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-lifestyle-leaders-2",
-   "excerpt": "Drapers Power 100 2026: Who are this year’s Lifestyle Leaders? Amer Sports, Barbour, Boden, FatFace, Passenger, Patagonia, Superdry and The White Company make up this year's Lifestyle Leaders. The post Power 100 2026: Who are…",
-   "image": "",
-   "published": "2026-11-05T14:00:31Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "industria"
-   ],
-   "also": [],
-   "id": "443167389",
-   "score": 7.79
   },
   {
    "title": "Storari: “Ancora grandi brand della moda usufruiscono del caporalato”",
@@ -649,6 +721,7 @@
    "source": "Pambianco",
    "source_name": "Pambianco News",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "it",
    "region": "it",
@@ -656,7 +729,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "4493081274",
+   "id": "4573048985",
    "score": 7.95
   },
   {
@@ -668,6 +741,7 @@
    "source": "FN",
    "source_name": "Footwear News",
    "kind": "trade",
+   "mirror": false,
    "weight": 3.8,
    "lang": "en",
    "region": "us",
@@ -675,7 +749,7 @@
     "retail"
    ],
    "also": [],
-   "id": "6258750945",
+   "id": "456991211",
    "score": 7.91
   },
   {
@@ -687,6 +761,7 @@
    "source": "Vogue",
    "source_name": "Vogue",
    "kind": "consumer",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "us",
@@ -694,7 +769,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "2379944565",
+   "id": "3585103947",
    "score": 8.94
   },
   {
@@ -706,6 +781,7 @@
    "source": "Fashionista",
    "source_name": "Fashionista",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "en",
    "region": "us",
@@ -713,7 +789,7 @@
     "retail"
    ],
    "also": [],
-   "id": "4743578144",
+   "id": "4440715060",
    "score": 8.5
   },
   {
@@ -725,6 +801,7 @@
    "source": "FN",
    "source_name": "Footwear News",
    "kind": "trade",
+   "mirror": false,
    "weight": 3.8,
    "lang": "en",
    "region": "us",
@@ -732,7 +809,7 @@
     "calzado"
    ],
    "also": [],
-   "id": "3688984034",
+   "id": "7831592016",
    "score": 7.11
   },
   {
@@ -744,6 +821,7 @@
    "source": "FN",
    "source_name": "Footwear News",
    "kind": "trade",
+   "mirror": false,
    "weight": 3.8,
    "lang": "en",
    "region": "us",
@@ -751,7 +829,7 @@
     "calzado"
    ],
    "also": [],
-   "id": "1180812940",
+   "id": "7245674931",
    "score": 7.11
   },
   {
@@ -763,6 +841,7 @@
    "source": "WhoWhatWear",
    "source_name": "Who What Wear",
    "kind": "consumer",
+   "mirror": false,
    "weight": 3.1,
    "lang": "en",
    "region": "us",
@@ -770,7 +849,7 @@
     "retail"
    ],
    "also": [],
-   "id": "6524065699",
+   "id": "7915958407",
    "score": 6.82
   },
   {
@@ -782,6 +861,7 @@
    "source": "WWD",
    "source_name": "WWD Business",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.5,
    "lang": "en",
    "region": "us",
@@ -791,7 +871,7 @@
    "also": [
     "Vogue"
    ],
-   "id": "5419730347",
+   "id": "7242516935",
    "score": 9.45
   },
   {
@@ -803,6 +883,7 @@
    "source": "Pambianco",
    "source_name": "Pambianco News",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "it",
    "region": "it",
@@ -810,7 +891,7 @@
     "personas"
    ],
    "also": [],
-   "id": "8914683882",
+   "id": "8680670218",
    "score": 7.15
   },
   {
@@ -822,6 +903,7 @@
    "source": "Pambianco",
    "source_name": "Pambianco News",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "it",
    "region": "it",
@@ -829,7 +911,7 @@
     "calzado"
    ],
    "also": [],
-   "id": "7481001522",
+   "id": "7598871654",
    "score": 7.1
   },
   {
@@ -841,6 +923,7 @@
    "source": "Vogue",
    "source_name": "Vogue",
    "kind": "consumer",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "us",
@@ -848,7 +931,7 @@
     "retail"
    ],
    "also": [],
-   "id": "8390527981",
+   "id": "5245999484",
    "score": 7.79
   },
   {
@@ -860,6 +943,7 @@
    "source": "Elle ES",
    "source_name": "Elle España",
    "kind": "consumer",
+   "mirror": false,
    "weight": 3.4,
    "lang": "es",
    "region": "es",
@@ -867,7 +951,7 @@
     "retail"
    ],
    "also": [],
-   "id": "2438817980",
+   "id": "4199881024",
    "score": 7.18
   },
   {
@@ -879,6 +963,7 @@
    "source": "Vogue",
    "source_name": "Vogue",
    "kind": "consumer",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "us",
@@ -886,7 +971,7 @@
     "personas"
    ],
    "also": [],
-   "id": "6580190641",
+   "id": "4850793897",
    "score": 7.74
   },
   {
@@ -898,6 +983,7 @@
    "source": "Pambianco",
    "source_name": "Pambianco News",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "it",
    "region": "it",
@@ -905,27 +991,8 @@
     "diseno"
    ],
    "also": [],
-   "id": "3526889498",
+   "id": "7942549641",
    "score": 6.65
-  },
-  {
-   "title": "New Balance CEO Joe Preston on Why It’s Important to Control Your Own Destiny",
-   "link": "https://wwd.com/footwear-news/shoe-features/new-balance-ceo-joe-preston-wwd-arceo-summit-2026-1239399251/",
-   "excerpt": "The mantra was adopted by the company in 2019 and is still used today.",
-   "image": "",
-   "published": "2026-11-05T08:51:00Z",
-   "source": "FN",
-   "source_name": "Footwear News",
-   "kind": "trade",
-   "weight": 3.8,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "personas"
-   ],
-   "also": [],
-   "id": "6288450902",
-   "score": 6.91
   },
   {
    "title": "Bangladesh, prima intesa sui salari del tessile. Ma le proteste non si fermano",
@@ -936,6 +1003,7 @@
    "source": "Pambianco",
    "source_name": "Pambianco News",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "it",
    "region": "it",
@@ -943,7 +1011,7 @@
     "industria"
    ],
    "also": [],
-   "id": "2744098928",
+   "id": "1196100953",
    "score": 6.95
   },
   {
@@ -955,6 +1023,7 @@
    "source": "The Industry",
    "source_name": "The Industry",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -962,7 +1031,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "9740883517",
+   "id": "5548826810",
    "score": 8.34
   },
   {
@@ -974,6 +1043,7 @@
    "source": "The Industry",
    "source_name": "The Industry",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -981,7 +1051,7 @@
     "personas"
    ],
    "also": [],
-   "id": "5699988689",
+   "id": "1554322864",
    "score": 7.74
   },
   {
@@ -993,6 +1063,7 @@
    "source": "The Industry",
    "source_name": "The Industry",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -1000,7 +1071,7 @@
     "pasarela"
    ],
    "also": [],
-   "id": "2242674974",
+   "id": "3628006215",
    "score": 7.44
   },
   {
@@ -1012,6 +1083,7 @@
    "source": "The Industry",
    "source_name": "The Industry",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -1019,7 +1091,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "765428964",
+   "id": "9091536720",
    "score": 8.34
   },
   {
@@ -1031,6 +1103,7 @@
    "source": "The Industry",
    "source_name": "The Industry",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -1038,7 +1111,7 @@
     "retail"
    ],
    "also": [],
-   "id": "8612513134",
+   "id": "5389184037",
    "score": 8.14
   },
   {
@@ -1050,6 +1123,7 @@
    "source": "The Industry",
    "source_name": "The Industry",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -1057,7 +1131,7 @@
     "diseno"
    ],
    "also": [],
-   "id": "8188350174",
+   "id": "609379944",
    "score": 7.24
   },
   {
@@ -1069,6 +1143,7 @@
    "source": "Textile Today",
    "source_name": "Textile Today",
    "kind": "trade",
+   "mirror": false,
    "weight": 2.8,
    "lang": "en",
    "region": "bd",
@@ -1076,7 +1151,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "9980465046",
+   "id": "4211194806",
    "score": 6.26
   },
   {
@@ -1088,6 +1163,7 @@
    "source": "The Industry",
    "source_name": "The Industry",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -1095,7 +1171,7 @@
     "industria"
    ],
    "also": [],
-   "id": "960172778",
+   "id": "987778278",
    "score": 7.54
   },
   {
@@ -1107,6 +1183,7 @@
    "source": "Pambianco",
    "source_name": "Pambianco News",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "it",
    "region": "it",
@@ -1114,7 +1191,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "960938104",
+   "id": "7614694338",
    "score": 7.75
   },
   {
@@ -1126,6 +1203,7 @@
    "source": "The Industry",
    "source_name": "The Industry",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -1133,27 +1211,28 @@
     "retail"
    ],
    "also": [],
-   "id": "1200842996",
+   "id": "2484616260",
    "score": 8.14
   },
   {
-   "title": "Ronnie Fieg Seeks Balance of Value, Restraint and Risk as Kith Continues to Expand",
-   "link": "https://wwd.com/footwear-news/shoe-features/ronnie-fieg-kith-expansion-values-1239398197/",
-   "excerpt": "The Kith founder partook in a fireside chat at the WWD Apparel and Retail CEO Summit.",
+   "title": "Can Discount Retailers Move Beyond the Bargain Hunt?",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVWlZYzY1Q3Z0M1FLTDd5SWRicUdFckxwWWtQcmg0eS0tNTFFR0V1QlkwUW9LbGJISEgyQjI5VjNhU0RMUTFTMk1DLVd4d09OZmRZLWFlMTZudWJOYzBNajZMSjdWcXZKQUI4d09McUJsNmp3ZkNkY0N0VHNONUhOQlJmdng5NHl3dEJ4V2tza0x0RTdDRnJpVjlZSEt2c3Zqb3JmTQ?oc=5",
+   "excerpt": "Can Discount Retailers Move Beyond the Bargain Hunt? The Business of Fashion",
    "image": "",
-   "published": "2026-11-05T06:28:00Z",
-   "source": "FN",
-   "source_name": "Footwear News",
+   "published": "2026-11-05T05:30:00Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
    "kind": "trade",
-   "weight": 3.8,
+   "mirror": true,
+   "weight": 5.0,
    "lang": "en",
-   "region": "us",
+   "region": "global",
    "tags": [
-    "retail"
+    "industria"
    ],
    "also": [],
-   "id": "2128683850",
-   "score": 7.31
+   "id": "3304538328",
+   "score": 8.15
   },
   {
    "title": "Disney Hosts VIP Breakfast at WWD’s 2026 CEO Summit",
@@ -1164,6 +1243,7 @@
    "source": "WWD",
    "source_name": "WWD Business",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.5,
    "lang": "en",
    "region": "us",
@@ -1171,7 +1251,7 @@
     "personas"
    ],
    "also": [],
-   "id": "8283600103",
+   "id": "5432715374",
    "score": 7.75
   },
   {
@@ -1183,6 +1263,7 @@
    "source": "WWD",
    "source_name": "WWD Business",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.5,
    "lang": "en",
    "region": "us",
@@ -1190,7 +1271,7 @@
     "industria"
    ],
    "also": [],
-   "id": "5122591017",
+   "id": "1764529472",
    "score": 7.55
   },
   {
@@ -1202,6 +1283,7 @@
    "source": "WWD",
    "source_name": "WWD Business",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.5,
    "lang": "en",
    "region": "us",
@@ -1209,7 +1291,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "4126953778",
+   "id": "8172647856",
    "score": 8.35
   },
   {
@@ -1221,6 +1303,7 @@
    "source": "WWD",
    "source_name": "WWD Business",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.5,
    "lang": "en",
    "region": "us",
@@ -1228,7 +1311,7 @@
     "retail"
    ],
    "also": [],
-   "id": "1275581393",
+   "id": "7313590966",
    "score": 8.15
   },
   {
@@ -1240,6 +1323,7 @@
    "source": "WWD",
    "source_name": "WWD Business",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.5,
    "lang": "en",
    "region": "us",
@@ -1247,7 +1331,7 @@
     "personas"
    ],
    "also": [],
-   "id": "4218597234",
+   "id": "4826970463",
    "score": 7.75
   },
   {
@@ -1259,6 +1343,7 @@
    "source": "WWD",
    "source_name": "WWD Business",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.5,
    "lang": "en",
    "region": "us",
@@ -1266,8 +1351,28 @@
     "industria"
    ],
    "also": [],
-   "id": "7131496922",
+   "id": "215409204",
    "score": 7.4
+  },
+  {
+   "title": "How AI Is Changing the Way Business Leaders Make Decisions",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTGFJNU1SaXdmd1BYWkI3SGlGT1ZTWWZ5YjBmSG1aeFZEeHdKZmc5LWZvTkFVc0sxNnE2WnNkNVdpcUNKNDNTU0k0WldwNzlSalRWWjZIa0pZVWQ0VDYxSHJjSmNUZUVNbjVGRF9wal9BY1lXQkFBNGRUM3ppOG41MWdTMGFLUUNuczIyR1oxUnRmWWI0T3V0MUVmbkxuUmYyUWt6Y0dERHQ0OGtaX25lT3RBUEF3Sy1hT2EwVThxTGtUeUJ1Vk13TXVOX3VFNXRmZ3c?oc=5",
+   "excerpt": "How AI Is Changing the Way Business Leaders Make Decisions The Business of Fashion",
+   "image": "",
+   "published": "2026-11-05T05:00:00Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "industria"
+   ],
+   "also": [],
+   "id": "444671924",
+   "score": 8.15
   },
   {
    "title": "How is CVS sneaking brands into its stores without brand approval?",
@@ -1278,6 +1383,7 @@
    "source": "Glossy",
    "source_name": "Glossy",
    "kind": "trade",
+   "mirror": false,
    "weight": 3.9,
    "lang": "en",
    "region": "us",
@@ -1285,7 +1391,7 @@
     "retail"
    ],
    "also": [],
-   "id": "2065396813",
+   "id": "7837599668",
    "score": 7.43
   },
   {
@@ -1297,6 +1403,7 @@
    "source": "Glossy",
    "source_name": "Glossy",
    "kind": "trade",
+   "mirror": false,
    "weight": 3.9,
    "lang": "en",
    "region": "us",
@@ -1304,7 +1411,7 @@
     "belleza"
    ],
    "also": [],
-   "id": "4594973735",
+   "id": "7174730107",
    "score": 6.53
   },
   {
@@ -1316,6 +1423,7 @@
    "source": "Textile Today",
    "source_name": "Textile Today",
    "kind": "trade",
+   "mirror": false,
    "weight": 2.8,
    "lang": "en",
    "region": "bd",
@@ -1323,7 +1431,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "4379172118",
+   "id": "4373917159",
    "score": 6.26
   },
   {
@@ -1335,6 +1443,7 @@
    "source": "Textile Today",
    "source_name": "Textile Today",
    "kind": "trade",
+   "mirror": false,
    "weight": 2.8,
    "lang": "en",
    "region": "bd",
@@ -1342,7 +1451,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "2313224970",
+   "id": "4458140810",
    "score": 6.26
   },
   {
@@ -1354,6 +1463,7 @@
    "source": "Textile Today",
    "source_name": "Textile Today",
    "kind": "trade",
+   "mirror": false,
    "weight": 2.8,
    "lang": "en",
    "region": "bd",
@@ -1361,7 +1471,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "4393323014",
+   "id": "7290772741",
    "score": 6.26
   },
   {
@@ -1373,6 +1483,7 @@
    "source": "Textile Today",
    "source_name": "Textile Today",
    "kind": "trade",
+   "mirror": false,
    "weight": 2.8,
    "lang": "en",
    "region": "bd",
@@ -1380,7 +1491,7 @@
     "industria"
    ],
    "also": [],
-   "id": "3588212117",
+   "id": "6788667634",
    "score": 5.86
   },
   {
@@ -1392,6 +1503,7 @@
    "source": "Glossy",
    "source_name": "Glossy",
    "kind": "trade",
+   "mirror": false,
    "weight": 3.9,
    "lang": "en",
    "region": "us",
@@ -1399,7 +1511,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "9945519894",
+   "id": "6592329077",
    "score": 7.13
   },
   {
@@ -1411,6 +1523,7 @@
    "source": "Glossy",
    "source_name": "Glossy",
    "kind": "trade",
+   "mirror": false,
    "weight": 3.9,
    "lang": "en",
    "region": "us",
@@ -1418,7 +1531,7 @@
     "retail"
    ],
    "also": [],
-   "id": "3203384493",
+   "id": "6608761367",
    "score": 6.93
   },
   {
@@ -1430,6 +1543,7 @@
    "source": "CNBC",
    "source_name": "CNBC Retail",
    "kind": "trade",
+   "mirror": false,
    "weight": 3.6,
    "lang": "en",
    "region": "us",
@@ -1437,7 +1551,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "8126973853",
+   "id": "6217412587",
    "score": 6.77
   },
   {
@@ -1449,6 +1563,7 @@
    "source": "WhoWhatWear",
    "source_name": "Who What Wear",
    "kind": "consumer",
+   "mirror": false,
    "weight": 3.1,
    "lang": "en",
    "region": "us",
@@ -1456,7 +1571,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "1112508538",
+   "id": "7303892464",
    "score": 6.52
   },
   {
@@ -1468,6 +1583,7 @@
    "source": "Pambianco",
    "source_name": "Pambianco News",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "it",
    "region": "it",
@@ -1475,7 +1591,7 @@
     "retail"
    ],
    "also": [],
-   "id": "847303263",
+   "id": "881665595",
    "score": 7.4
   },
   {
@@ -1487,6 +1603,7 @@
    "source": "Fashionista",
    "source_name": "Fashionista",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "en",
    "region": "us",
@@ -1494,7 +1611,7 @@
     "retail"
    ],
    "also": [],
-   "id": "4050351452",
+   "id": "8252641090",
    "score": 7.4
   },
   {
@@ -1506,6 +1623,7 @@
    "source": "Pambianco",
    "source_name": "Pambianco News",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "it",
    "region": "it",
@@ -1513,7 +1631,7 @@
     "cultura"
    ],
    "also": [],
-   "id": "1073655933",
+   "id": "8201139445",
    "score": 6.05
   },
   {
@@ -1525,6 +1643,7 @@
    "source": "WhoWhatWear",
    "source_name": "Who What Wear",
    "kind": "consumer",
+   "mirror": false,
    "weight": 3.1,
    "lang": "en",
    "region": "us",
@@ -1532,7 +1651,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "1256244654",
+   "id": "7339159649",
    "score": 6.52
   },
   {
@@ -1544,6 +1663,7 @@
    "source": "Textile Today",
    "source_name": "Textile Today",
    "kind": "trade",
+   "mirror": false,
    "weight": 2.8,
    "lang": "en",
    "region": "bd",
@@ -1551,7 +1671,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "9405232408",
+   "id": "4898164361",
    "score": 5.76
   },
   {
@@ -1563,6 +1683,7 @@
    "source": "Fashionista",
    "source_name": "Fashionista",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "en",
    "region": "us",
@@ -1570,7 +1691,7 @@
     "belleza"
    ],
    "also": [],
-   "id": "3170728091",
+   "id": "7911761065",
    "score": 6.5
   },
   {
@@ -1582,6 +1703,7 @@
    "source": "Vogue IT",
    "source_name": "Vogue Italia",
    "kind": "consumer",
+   "mirror": false,
    "weight": 4.1,
    "lang": "it",
    "region": "it",
@@ -1589,7 +1711,7 @@
     "personas"
    ],
    "also": [],
-   "id": "1421048790",
+   "id": "9287992266",
    "score": 6.77
   },
   {
@@ -1601,6 +1723,7 @@
    "source": "Fashionista",
    "source_name": "Fashionista",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "en",
    "region": "us",
@@ -1608,8 +1731,28 @@
     "industria"
    ],
    "also": [],
-   "id": "5471693262",
+   "id": "6982070248",
    "score": 6.8
+  },
+  {
+   "title": "Founders Shut Down Coperni",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAyS21WOWtNWmc4cTk2Ykh1LV9pMGgzbHVPSF91NGsyWWRWZGpWckJ1ZDJRNEg2YWhBS2RSOTdWejNqaXoweEwyVnMzS0FMVFZ0T2ctTjdXRVAzVTZFdGZ5WF90NW5HZ1MzWWtEXzAzcWx6MVhvOHVLQi1VVHQxQQ?oc=5",
+   "excerpt": "Founders Shut Down Coperni The Business of Fashion",
+   "image": "",
+   "published": "2026-11-04T13:54:10Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "industria"
+   ],
+   "also": [],
+   "id": "1326794518",
+   "score": 7.5
   },
   {
    "title": "Inside Oner Active’s ‘Ambitious’ First Move Into Physical Retail",
@@ -1620,6 +1763,7 @@
    "source": "Fashionista",
    "source_name": "Fashionista",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "en",
    "region": "us",
@@ -1627,8 +1771,28 @@
     "retail"
    ],
    "also": [],
-   "id": "5396010786",
+   "id": "6419286216",
    "score": 7.4
+  },
+  {
+   "title": "Estée Lauder Sets 2030 Growth, Margin Targets as Turnaround Advances",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQUtXZGN0c0N2SGQ1MWRsSk1TcGVaS2lpY2JfYk9hQ1BfdmlLQmw3dTduX3FET1M3QVh6aXQ0bEJwZUpvdlNjbHZ6dlVKQk1EMUdodUxibDVHR3VtczZCNXFXbmpyNU5iZDVpM3BWX3Z2MUVjdFZBNXdXcEdxYU1jZE5FRTBEYWM?oc=5",
+   "excerpt": "Estée Lauder Sets 2030 Growth, Margin Targets as Turnaround Advances The Business of Fashion",
+   "image": "",
+   "published": "2026-11-04T12:48:50Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "negocio"
+   ],
+   "also": [],
+   "id": "1811038037",
+   "score": 8.45
   },
   {
    "title": "Miista Opens Its First L.A. Store to a Surprisingly Robust Boot Culture",
@@ -1639,6 +1803,7 @@
    "source": "Fashionista",
    "source_name": "Fashionista",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "en",
    "region": "us",
@@ -1646,7 +1811,7 @@
     "retail"
    ],
    "also": [],
-   "id": "8345549581",
+   "id": "3576224116",
    "score": 7.4
   },
   {
@@ -1658,6 +1823,7 @@
    "source": "Elle ES",
    "source_name": "Elle España",
    "kind": "consumer",
+   "mirror": false,
    "weight": 3.4,
    "lang": "es",
    "region": "es",
@@ -1665,7 +1831,7 @@
     "retail"
    ],
    "also": [],
-   "id": "9748311799",
+   "id": "6213324911",
    "score": 6.53
   },
   {
@@ -1677,6 +1843,7 @@
    "source": "Elle ES",
    "source_name": "Elle España",
    "kind": "consumer",
+   "mirror": false,
    "weight": 3.4,
    "lang": "es",
    "region": "es",
@@ -1684,7 +1851,7 @@
     "retail"
    ],
    "also": [],
-   "id": "8432957670",
+   "id": "7417318687",
    "score": 6.53
   },
   {
@@ -1696,6 +1863,7 @@
    "source": "Pambianco",
    "source_name": "Pambianco News",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "it",
    "region": "it",
@@ -1703,7 +1871,7 @@
     "industria"
    ],
    "also": [],
-   "id": "9702297367",
+   "id": "6180994520",
    "score": 6.8
   },
   {
@@ -1715,6 +1883,7 @@
    "source": "Pambianco",
    "source_name": "Pambianco News",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "it",
    "region": "it",
@@ -1722,7 +1891,7 @@
     "cultura"
    ],
    "also": [],
-   "id": "4344510199",
+   "id": "5941492242",
    "score": 6.05
   },
   {
@@ -1734,6 +1903,7 @@
    "source": "Pambianco",
    "source_name": "Pambianco News",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "it",
    "region": "it",
@@ -1741,7 +1911,7 @@
     "industria"
    ],
    "also": [],
-   "id": "330151112",
+   "id": "7367879643",
    "score": 6.45
   },
   {
@@ -1753,6 +1923,7 @@
    "source": "Pambianco",
    "source_name": "Pambianco News",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "it",
    "region": "it",
@@ -1760,7 +1931,7 @@
     "industria"
    ],
    "also": [],
-   "id": "3121300045",
+   "id": "7890664504",
    "score": 6.45
   },
   {
@@ -1772,6 +1943,7 @@
    "source": "Pambianco",
    "source_name": "Pambianco News",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "it",
    "region": "it",
@@ -1779,7 +1951,7 @@
     "industria"
    ],
    "also": [],
-   "id": "4613258437",
+   "id": "4624020302",
    "score": 6.45
   },
   {
@@ -1791,6 +1963,7 @@
    "source": "Guardian",
    "source_name": "The Guardian Fashion",
    "kind": "consumer",
+   "mirror": false,
    "weight": 4.0,
    "lang": "en",
    "region": "uk",
@@ -1798,7 +1971,7 @@
     "personas"
    ],
    "also": [],
-   "id": "2813201452",
+   "id": "2810597639",
    "score": 7.0
   },
   {
@@ -1810,6 +1983,7 @@
    "source": "The Industry",
    "source_name": "The Industry",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -1817,7 +1991,7 @@
     "diseno"
    ],
    "also": [],
-   "id": "6990179473",
+   "id": "4703969426",
    "score": 6.59
   },
   {
@@ -1829,6 +2003,7 @@
    "source": "The Industry",
    "source_name": "The Industry",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -1836,7 +2011,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "6275237617",
+   "id": "6667501113",
    "score": 7.84
   },
   {
@@ -1848,6 +2023,7 @@
    "source": "The Industry",
    "source_name": "The Industry",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -1855,7 +2031,7 @@
     "pasarela"
    ],
    "also": [],
-   "id": "2855770549",
+   "id": "2887368030",
    "score": 6.94
   },
   {
@@ -1867,6 +2043,7 @@
    "source": "The Industry",
    "source_name": "The Industry",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -1874,7 +2051,7 @@
     "pasarela"
    ],
    "also": [],
-   "id": "9444277431",
+   "id": "7670381021",
    "score": 6.94
   },
   {
@@ -1886,6 +2063,7 @@
    "source": "The Industry",
    "source_name": "The Industry",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -1893,7 +2071,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "7532353465",
+   "id": "8390527784",
    "score": 7.44
   },
   {
@@ -1905,6 +2083,7 @@
    "source": "The Industry",
    "source_name": "The Industry",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -1912,7 +2091,7 @@
     "personas"
    ],
    "also": [],
-   "id": "4803099654",
+   "id": "8310732226",
    "score": 7.24
   },
   {
@@ -1924,6 +2103,7 @@
    "source": "The Industry",
    "source_name": "The Industry",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
@@ -1931,8 +2111,28 @@
     "retail"
    ],
    "also": [],
-   "id": "5527257522",
+   "id": "1905762620",
    "score": 7.64
+  },
+  {
+   "title": "How Fashion Has ‘Turbocharged’ Its Diwali Marketing",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQW5YOVYteS04QTdCZkI4WTNNenJYSVM1XzNFSnFMVlpGOFdaMk1ERHdabFRiUk5XZUdGcTBncXJ1NDBEbDZRZXhOZkZDcVNyNWlGMGhxRXBFQTd6SHRCUHFrZ1BKXzhKay1aY1pGRENOTm9uazhKVWpJU2dwRl9DRktwVThFU0tlV3VDcHlGenE1WGs3RVMxeWphOXhTU3c?oc=5",
+   "excerpt": "How Fashion Has ‘Turbocharged’ Its Diwali Marketing The Business of Fashion",
+   "image": "",
+   "published": "2026-11-04T05:30:00Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "industria"
+   ],
+   "also": [],
+   "id": "5774485824",
+   "score": 7.15
   },
   {
    "title": "Glossy+ Research: Marketers express revenue optimism for 2026 holiday season despite economic pressures",
@@ -1943,6 +2143,7 @@
    "source": "Glossy",
    "source_name": "Glossy",
    "kind": "trade",
+   "mirror": false,
    "weight": 3.9,
    "lang": "en",
    "region": "us",
@@ -1950,7 +2151,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "1718094908",
+   "id": "8145321291",
    "score": 6.63
   },
   {
@@ -1962,6 +2163,7 @@
    "source": "Glossy",
    "source_name": "Glossy",
    "kind": "trade",
+   "mirror": false,
    "weight": 3.9,
    "lang": "en",
    "region": "us",
@@ -1969,7 +2171,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "4527264951",
+   "id": "1428271680",
    "score": 6.63
   },
   {
@@ -1981,6 +2183,7 @@
    "source": "Textile Today",
    "source_name": "Textile Today",
    "kind": "trade",
+   "mirror": false,
    "weight": 2.8,
    "lang": "en",
    "region": "bd",
@@ -1988,7 +2191,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "9916540110",
+   "id": "6975736664",
    "score": 5.66
   },
   {
@@ -2000,6 +2203,7 @@
    "source": "Textile Today",
    "source_name": "Textile Today",
    "kind": "trade",
+   "mirror": false,
    "weight": 2.8,
    "lang": "en",
    "region": "bd",
@@ -2007,7 +2211,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "8936920140",
+   "id": "5856776262",
    "score": 5.66
   },
   {
@@ -2019,6 +2223,7 @@
    "source": "Textile Today",
    "source_name": "Textile Today",
    "kind": "trade",
+   "mirror": false,
    "weight": 2.8,
    "lang": "en",
    "region": "bd",
@@ -2026,7 +2231,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "6042109062",
+   "id": "4006325129",
    "score": 5.26
   },
   {
@@ -2038,6 +2243,7 @@
    "source": "Textile Today",
    "source_name": "Textile Today",
    "kind": "trade",
+   "mirror": false,
    "weight": 2.8,
    "lang": "en",
    "region": "bd",
@@ -2045,8 +2251,28 @@
     "industria"
    ],
    "also": [],
-   "id": "3589315567",
+   "id": "4769520463",
    "score": 4.86
+  },
+  {
+   "title": "Georg Stausberg Takes Over As CEO Of The Rieter Group With Immediate Effect",
+   "link": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6aecc829b0824ec392bbf6f4fa8184f0&url=https%3A%2F%2Fwww.textileworld.com%2Ftextile-world%2Fpeople%2F2026%2F11%2Fgeorg-stausberg-takes-over-as-ceo-of-the-rieter-group-with-immediate-effect%2F&c=8083847069683692830&mkt=en-us",
+   "excerpt": "Georg Stausberg, CEO of Barmag, will assume the position of CEO of the Rieter Group with effect from November 4, 2026. Georg Stausberg has more than three decades of experience in the international ...",
+   "image": "",
+   "published": "2026-11-04T03:03:00Z",
+   "source": "Textile World",
+   "source_name": "Textile World",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 3.2,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "personas"
+   ],
+   "also": [],
+   "id": "7455653151",
+   "score": 5.19
   },
   {
    "title": "The Best Early Black Friday Clothing Deals 2026 Are Here",
@@ -2057,6 +2283,7 @@
    "source": "GQ",
    "source_name": "GQ",
    "kind": "consumer",
+   "mirror": false,
    "weight": 3.4,
    "lang": "en",
    "region": "us",
@@ -2064,27 +2291,8 @@
     "retail"
    ],
    "also": [],
-   "id": "8753425618",
+   "id": "502588075",
    "score": 6.18
-  },
-  {
-   "title": "JetBlue raises bag fees for third time in a year as fuel costs bite",
-   "link": "https://www.cnbc.com/2026/11/03/jetblue-checked-bag-fee.html",
-   "excerpt": "JetBlue raised baggage fees for the third time in a year as fuel costs continued to climb.",
-   "image": "",
-   "published": "2026-11-03T22:26:20Z",
-   "source": "CNBC",
-   "source_name": "CNBC Retail",
-   "kind": "trade",
-   "weight": 3.6,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "diseno"
-   ],
-   "also": [],
-   "id": "8326317592",
-   "score": 5.17
   },
   {
    "title": "Must Read: Meg Stalter Stars in Marc Jacobs 'Let It Joy' Campaign, Hugo Boss Lowers Outlook as Q3 Sales Drop",
@@ -2095,6 +2303,7 @@
    "source": "Fashionista",
    "source_name": "Fashionista",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "en",
    "region": "us",
@@ -2102,7 +2311,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "3466919278",
+   "id": "5675192426",
    "score": 7.1
   },
   {
@@ -2114,6 +2323,7 @@
    "source": "Textile Today",
    "source_name": "Textile Today",
    "kind": "trade",
+   "mirror": false,
    "weight": 2.8,
    "lang": "en",
    "region": "bd",
@@ -2121,7 +2331,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "5710436073",
+   "id": "1782940372",
    "score": 5.66
   },
   {
@@ -2133,6 +2343,7 @@
    "source": "Fashionista",
    "source_name": "Fashionista",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "en",
    "region": "us",
@@ -2140,27 +2351,8 @@
     "cultura"
    ],
    "also": [],
-   "id": "4379242398",
+   "id": "2769028510",
    "score": 5.9
-  },
-  {
-   "title": "Yum Brands earnings beat estimates, but cyclospora outbreak weighs on Taco Bell",
-   "link": "https://www.cnbc.com/2026/11/03/yum-brands-yum-q3-2026-earnings.html",
-   "excerpt": "Taco Bell's same-store sales declined as a Cyclospora outbreak tied to lettuce served at its restaurants weighed on traffic.",
-   "image": "",
-   "published": "2026-11-03T15:19:14Z",
-   "source": "CNBC",
-   "source_name": "CNBC Retail",
-   "kind": "trade",
-   "weight": 3.6,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "negocio"
-   ],
-   "also": [],
-   "id": "6901554013",
-   "score": 6.27
   },
   {
    "title": "The Thom Browne Alum Making Playful Workwear Out of Natural Fibers",
@@ -2171,6 +2363,7 @@
    "source": "Fashionista",
    "source_name": "Fashionista",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "en",
    "region": "us",
@@ -2178,7 +2371,7 @@
     "pasarela"
    ],
    "also": [],
-   "id": "5653150450",
+   "id": "9754634552",
    "score": 6.2
   },
   {
@@ -2190,6 +2383,7 @@
    "source": "Textile Today",
    "source_name": "Textile Today",
    "kind": "trade",
+   "mirror": false,
    "weight": 2.8,
    "lang": "en",
    "region": "bd",
@@ -2197,7 +2391,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "8669743818",
+   "id": "5273797832",
    "score": 5.26
   },
   {
@@ -2209,6 +2403,7 @@
    "source": "Textile Today",
    "source_name": "Textile Today",
    "kind": "trade",
+   "mirror": false,
    "weight": 2.8,
    "lang": "en",
    "region": "bd",
@@ -2216,7 +2411,7 @@
     "industria"
    ],
    "also": [],
-   "id": "9531359818",
+   "id": "4470849028",
    "score": 4.86
   },
   {
@@ -2228,6 +2423,7 @@
    "source": "Textile Today",
    "source_name": "Textile Today",
    "kind": "trade",
+   "mirror": false,
    "weight": 2.8,
    "lang": "en",
    "region": "bd",
@@ -2235,8 +2431,28 @@
     "cultura"
    ],
    "also": [],
-   "id": "1186118855",
+   "id": "9994056050",
    "score": 4.46
+  },
+  {
+   "title": "ShopMy Is Taking Its Influencer-Curated Marketplace Offline",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZnE4aTB6V2YxMXFlTk1udFlXMFExaVpxMm1KU3lxa3AyVGhDaGtCWDBLdlF6a3lsckNWYXR4eVNNVUFySWFDWmZZcjI2VldpbWFlRmJzVEJ3U0doNzgzNDBaRXU0b3VFelpMeEJPZno0Z2R2aUlkTzdCNi05QlBoTzRkdHBaT3VKOXRR?oc=5",
+   "excerpt": "ShopMy Is Taking Its Influencer-Curated Marketplace Offline The Business of Fashion",
+   "image": "",
+   "published": "2026-11-03T05:30:00Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "retail"
+   ],
+   "also": [],
+   "id": "5588017815",
+   "score": 7.75
   },
   {
    "title": "Beauty Briefing: Violet Grey’s expansion plans are taking it to Dallas and Aspen",
@@ -2247,6 +2463,7 @@
    "source": "Glossy",
    "source_name": "Glossy",
    "kind": "trade",
+   "mirror": false,
    "weight": 3.9,
    "lang": "en",
    "region": "us",
@@ -2254,7 +2471,7 @@
     "belleza"
    ],
    "also": [],
-   "id": "6210075859",
+   "id": "2041639104",
    "score": 5.53
   },
   {
@@ -2266,6 +2483,7 @@
    "source": "Fashionista",
    "source_name": "Fashionista",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "en",
    "region": "us",
@@ -2273,8 +2491,48 @@
     "cultura"
    ],
    "also": [],
-   "id": "8019168131",
+   "id": "9999165035",
    "score": 5.9
+  },
+  {
+   "title": "Ye Announces ‘Yeezy Season 01’ Runway Show in Los Angeles",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcUE3Q3hzTWlzb2NRMDZHblg2Q3NSMWFXNzgzaFZ0TF9hXzFxQ1BCV0xVajJNQkZJb3N3UUx5OW5QWUVVX08xVHBVV28yZWxkX0JZS2RxakllMlA5N0FTeWVDZ21XRzlHMFJPMmxNVFdkbWhjOHdWdW9hSG55LVFmRWdyNE82NFkyOFYySG44NTVnWFNtNFBwblB4M1NkRDRZRmdRTA?oc=5",
+   "excerpt": "Ye Announces ‘Yeezy Season 01’ Runway Show in Los Angeles The Business of Fashion",
+   "image": "",
+   "published": "2026-11-03T01:17:11Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "pasarela"
+   ],
+   "also": [],
+   "id": "9942471301",
+   "score": 7.05
+  },
+  {
+   "title": "Why Jude Bellingham Is Calvin Klein’s New Star",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSy05MVNJX2xuQ1pJSlNRWEczWnNuSU1DRHlfYmR3bk0zNDAyNHozTThSd3EySTBGcXRCVTRFVUFMZjV1SG5QVzEwdmpQUllwbDZIMUViRGc0MXJrZ3VoaEg5MXdGbnRnMFVxTl8tSlpSZzR2SGZJVGFUaDFmX1RDY2lJV2hYa2ltVFpDR2NLazB4bGZMWXgyeWp1ak1OLVp4ZjVVWldJSQ?oc=5",
+   "excerpt": "Why Jude Bellingham Is Calvin Klein’s New Star The Business of Fashion",
+   "image": "",
+   "published": "2026-11-03T00:06:18Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "industria"
+   ],
+   "also": [],
+   "id": "1462568361",
+   "score": 7.15
   },
   {
    "title": "Inside Sofia Franklyn’s Tell All: From ‘Call Her Daddy’ Feud to Finding Closure",
@@ -2285,6 +2543,7 @@
    "source": "NYT",
    "source_name": "New York Times Fashion",
    "kind": "consumer",
+   "mirror": false,
    "weight": 4.4,
    "lang": "en",
    "region": "us",
@@ -2292,7 +2551,7 @@
     "retail"
    ],
    "also": [],
-   "id": "8458621762",
+   "id": "79633405",
    "score": 6.98
   },
   {
@@ -2304,6 +2563,7 @@
    "source": "Fashionista",
    "source_name": "Fashionista",
    "kind": "trade",
+   "mirror": false,
    "weight": 4.0,
    "lang": "en",
    "region": "us",
@@ -2311,7 +2571,7 @@
     "retail"
    ],
    "also": [],
-   "id": "9258107183",
+   "id": "9212462531",
    "score": 6.5
   },
   {
@@ -2323,6 +2583,7 @@
    "source": "Bazaar UK",
    "source_name": "Harper's Bazaar UK",
    "kind": "consumer",
+   "mirror": false,
    "weight": 3.3,
    "lang": "en",
    "region": "uk",
@@ -2330,8 +2591,28 @@
     "negocio"
    ],
    "also": [],
-   "id": "8447638376",
+   "id": "3303896904",
    "score": 5.86
+  },
+  {
+   "title": "Style Capital Acquires Alessandro Dell’Acqua’s N21",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE05U0lIOXVvZERtTnZuYng2bWFidDUtZkpGNF95R0lJRjFjUnJOZWJqOXhOY0tFNzdZalpjLXd5UkFGSjd0eFpxd2VrRjZSdUxFdTNWVEVUWkoyVUMxSDFSblRnTVROaWNmeFR0SUY1QVFBZw?oc=5",
+   "excerpt": "Style Capital Acquires Alessandro Dell’Acqua’s N21 The Business of Fashion",
+   "image": "",
+   "published": "2026-11-02T15:48:40Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "negocio"
+   ],
+   "also": [],
+   "id": "8746985716",
+   "score": 7.55
   },
   {
    "title": "The Estée Lauder Companies reports continued growth, with fragrance still driving the charge",
@@ -2342,6 +2623,7 @@
    "source": "Glossy",
    "source_name": "Glossy",
    "kind": "trade",
+   "mirror": false,
    "weight": 3.9,
    "lang": "en",
    "region": "us",
@@ -2349,8 +2631,88 @@
     "negocio"
    ],
    "also": [],
-   "id": "6918411432",
+   "id": "8987273313",
    "score": 6.23
+  },
+  {
+   "title": "How John Smedley Is Bringing Innovation to Luxury British Knitwear",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS0Y5bTlOVGRQSE1Obkstb09HanJLLVBvd2ZSTHVtVTZ2TF9ZUTdlTjhFcXNjLVhaaWFoejhRNGdHSTVnQjhUZTlQZEs0NE50Wkhfa3hvc3ljWklyZmlSUnI2RWJlMnNia2JfTWFsUmhtVWxCQkp5YkZNcTJMZTZMbGtOdnBOdmp4WHlxWTBNcVBMdmtKYmt4d1ZFSEdYRXh6bWVEOG9DWWdhUHJRWU1CVGFaRQ?oc=5",
+   "excerpt": "How John Smedley Is Bringing Innovation to Luxury British Knitwear The Business of Fashion",
+   "image": "",
+   "published": "2026-11-02T09:56:33Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "diseno"
+   ],
+   "also": [],
+   "id": "864799912",
+   "score": 6.45
+  },
+  {
+   "title": "With Six Rings, Stavros Karelis and Onassis Are Betting on ‘Cultural-Retail’ in Athens",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUzM1bnFlUEVLX2ZQeVE3UFJNN0ctTXZWTDdYSDRydUU3VVZSSl9FR0hSalhkX2tlXzRhZ3JEZnJrR2VaQjM0N1VvSU1FRm9iektIWnRqcW9SREt0QWxsMHBVbHE1cmZzdG9PVXl2cTdrQmdJX1NpWDJDdlFQQmk4NkVZVWpsa3pzSkpnTEpkSEl6aDJ0MmozUTBsaExtMDJzckQ5MUs3N1JmSl84dzM1OU9lT2dBYTZE?oc=5",
+   "excerpt": "With Six Rings, Stavros Karelis and Onassis Are Betting on ‘Cultural-Retail’ in Athens The Business of Fashion",
+   "image": "",
+   "published": "2026-11-02T05:30:00Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "retail"
+   ],
+   "also": [],
+   "id": "9521706453",
+   "score": 7.35
+  },
+  {
+   "title": "Decoding the Enigma of David Sims",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZk00Ym1lLXNMR0xQOHhJTnRRZlUwT095VGxRcXVwYWREWmZraU9ZdE9KeWUzUjkxMVZlQk5YVWdkeWZ4b2ljUFhjbXZlWFVlbnJnTWVMOFpTRWJJVzY0U3Nld3VOWkRLT0pHaHhnYWlCVU1pRXFNcXJzQmF2R08zWXhVdll4UmpEbkNQcFktQkhIa21qM3VZbVVlTTEtUUp2dUVfTTdwazE?oc=5",
+   "excerpt": "Decoding the Enigma of David Sims The Business of Fashion",
+   "image": "",
+   "published": "2026-11-02T05:30:00Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "industria"
+   ],
+   "also": [],
+   "id": "8293232421",
+   "score": 6.75
+  },
+  {
+   "title": "You Can Finally Rent Chanel on Rent the Runway",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUUhKaEFnVGRpTHN5OGZKcjNjZkVqZzVkWWpmVnM5cVJFblVuMjcwV1ZxMXdVb3NnUHdsQnZUNW5qUXoyZks2dElJT1BYWHNnMGc0RGd0Z3NLdHNDWTlnR1hGZGhPdnVkMXFDUWNWY21nVUpyQWR2Tm4wamV5UW0tZkJuV3hJY001UHYzTGtGVDZYQjFyUVdBSmVuY0xGT3l1anc?oc=5",
+   "excerpt": "You Can Finally Rent Chanel on Rent the Runway The Business of Fashion",
+   "image": "",
+   "published": "2026-11-02T05:30:00Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "pasarela"
+   ],
+   "also": [],
+   "id": "3225071821",
+   "score": 6.65
   },
   {
    "title": "‘Holiday timing is a moving target’: Nordstrom aims to cut through the noise with an unexpected campaign",
@@ -2361,6 +2723,7 @@
    "source": "Glossy",
    "source_name": "Glossy",
    "kind": "trade",
+   "mirror": false,
    "weight": 3.9,
    "lang": "en",
    "region": "us",
@@ -2368,7 +2731,7 @@
     "pasarela"
    ],
    "also": [],
-   "id": "4570697107",
+   "id": "1062771592",
    "score": 5.33
   }
  ]
