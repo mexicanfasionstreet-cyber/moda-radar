@@ -36,9 +36,21 @@ jobs:
       - name: Instalar dependencias del video
         run: |
           if ! command -v ffprobe >/dev/null; then
-            sudo apt-get update -qq
-            sudo apt-get install -y -qq ffmpeg
+            echo "ffmpeg no disponible; probando apt con timeout corto"
+            sudo apt-get update -qq -o Acquire::http::Timeout=20 -o Acquire::Retries=1 || true
+            sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq \
+              -o Acquire::http::Timeout=20 ffmpeg || true
           fi
+          if ! command -v ffprobe >/dev/null; then
+            echo "apt no sirvio; descargando binario estatico"
+            curl -fsSL --retry 2 --max-time 180 \
+              -o /tmp/ff.tar.xz \
+              https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz
+            tar -xJf /tmp/ff.tar.xz -C /tmp
+            dir=$(find /tmp -maxdepth 1 -type d -name 'ffmpeg-*-static' | head -1)
+            sudo cp "$dir/ffmpeg" "$dir/ffprobe" /usr/local/bin/
+          fi
+          ffprobe -version | head -1
           pip install --quiet edge-tts pillow
 
       - name: Agregar noticias y generar panel
