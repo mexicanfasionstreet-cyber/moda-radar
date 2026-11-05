@@ -1,11 +1,10 @@
 {
- "generated": "2026-11-05T18:49:24.242353Z",
+ "generated": "2026-11-05T18:52:02.294982Z",
  "days": 4,
- "count": 135,
- "sources_ok": 30,
+ "count": 136,
+ "sources_ok": 31,
  "sources_failed": [
-  "Hypebeast",
-  "Textile World"
+  "Hypebeast"
  ],
  "items": [
   {
@@ -2455,6 +2454,26 @@
    "also": [],
    "id": "a4caaa47f76c",
    "score": 5.53
+  },
+  {
+   "title": "From Textile Waste To Spinning-Grade Fiber: STADLER Group Engineers Integrated Sorting Solution For IGERS In Italy",
+   "link": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6aecd05253bf44f9929a5ad02426cf4b&url=https%3A%2F%2Fwww.textileworld.com%2Ftextile-world%2F2026%2F11%2Ffrom-textile-waste-to-spinning-grade-fiber-stadler-group-engineers-integrated-sorting-solution-for-igers-in-italy%2F&c=9215284507977087362&mkt=en-us",
+   "excerpt": "STADLER Group, the globally active German company specialized in the planning, production and assembly of turnkey sorting plants, has acted as technology partner to IGERS s.r.l. in the development of ...",
+   "image": "",
+   "published": "2026-11-03T04:38:00Z",
+   "source": "Textile World",
+   "source_name": "Textile World",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 3.2,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "sostenibilidad"
+   ],
+   "also": [],
+   "id": "d67fb4decc0f",
+   "score": 5.39
   },
   {
    "title": "The 2026 CFDA Fashion Award Winners Are...",
