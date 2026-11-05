@@ -38,14 +38,16 @@ off en español. El resultado queda en `docs/videos/` y se ve desde el botón
 
 **Cómo funciona** (`capsule.py`, cuatro pasos):
 
-1. **Selección** — las noticias con mejor puntuación que tengan imagen descargable,
-   procurando variedad de secciones.
-2. **Guion** — un modelo escribe el texto en español: gancho, una frase por noticia y
-   cierre. Si no hay clave, cae a una plantilla (más plana, y los titulares en inglés).
+1. **Selección** — noticias con imagen, procurando variedad de secciones. Si el RSS no
+   trae foto, se busca `og:image` en la propia página (WWD, por ejemplo, nunca la pone en
+   el RSS).
+2. **Guion** — un modelo escribe en español: gancho, dos frases por noticia (qué pasó y
+   por qué importa) y cierre. Sin clave, la plantilla traduce titulares y entradillas al
+   español con un traductor gratuito: correcto, pero más plano.
 3. **Voz** — `edge-tts` (voces neuronales de Microsoft, gratis) genera el audio y se mide
    la duración real de cada frase.
 4. **Montaje** — `ffmpeg` panea despacio sobre cada foto, el texto queda fijo encima y el
-   audio manda el ritmo de cada plano.
+   audio manda el ritmo de cada plano. Duración típica: 55-65 s.
 
 **Activar el guion con IA** (recomendado, cuesta céntimos al mes):
 
