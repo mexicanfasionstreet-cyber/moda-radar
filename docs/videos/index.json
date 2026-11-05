@@ -1,6 +1,6 @@
 {
  "date": "2026-11-05",
- "duration": 66.3,
+ "duration": 66.4,
  "script_source": "plantilla (sin clave API)",
  "hook": "Estas son las noticias que mueven hoy la industria de la moda.",
  "items": [
@@ -15,14 +15,14 @@
    "link": "https://wwd.com/sourcing-journal/sj-denim/kontoor-lifts-2026-guidance-sharpens-focus-wrangler-growth-1239402250/"
   },
   {
-   "title": "Artículo de opinión: Una vaca, dos extremos…",
-   "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/sustainability/op-ed-one-cow-two-ends-of-a-supply-chain-eudr-regulation-leather-1239399323/"
-  },
-  {
    "title": "El nuevo concepto minorista de Dr. Martens debuta…",
    "source": "WWD",
    "link": "https://wwd.com/footwear-news/shoe-industry-news/dr-martens-herald-square-nyc-store-remodel-details-1239402606/"
+  },
+  {
+   "title": "Artículo de opinión: Una vaca, dos extremos…",
+   "source": "WWD",
+   "link": "https://wwd.com/sourcing-journal/sustainability/op-ed-one-cow-two-ends-of-a-supply-chain-eudr-regulation-leather-1239399323/"
   },
   {
    "title": "Dentro de la fiesta en la cabaña…",
