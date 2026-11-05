@@ -38,3 +38,24 @@
 - Publicar en GitHub y verificar la primera ejecución del cron.
 - Revisar si Hypebeast sigue bloqueando desde los runners de GitHub.
 - Valorar un histórico navegable (hoy solo se guardan los JSON por día y los digests).
+
+## 2026-11-05 · puesta en producción
+
+- Repo público `mexicanfasionstreet-cyber/moda-radar`. Pages sirve desde `/docs`; Actions
+  con permiso de escritura. URL: https://mexicanfasionstreet-cyber.github.io/moda-radar/
+- Primera ejecución en la nube: 124 noticias, 29/32 fuentes. Fallos: BoF 403, Hypebeast
+  405, Textile World 301. Los tres funcionan desde casa: el bloqueo es por IP de
+  datacenter (WAF), no por cabeceras. No se arregla cambiando el user-agent.
+- Solución: campo `fallback` en `sources.json`. BoF → Google News RSS (`site:`), Textile
+  World → Bing News RSS. Si la fuente primaria falla se usa el espejo y el ítem se marca
+  `mirror: true`.
+- Hypebeast se queda sin espejo a propósito: su feed de Google News arrastra gaming, cine
+  y deporte (Apple, Lakers, GTA VI) y metía ruido en Negocio.
+- Los espejos no traen imagen ni extracto real: Google devuelve "Titular - Medio", así que
+  se recorta el sufijo y se descarta el extracto cuando repite el titular.
+- Nuevo disparador `push` limitado a `aggregate.py`, `ui.py`, `sources.json` y el propio
+  workflow: un cambio de código relanza la edición sin pulsar nada (y el commit del bot no
+  lo dispara, porque no toca esas rutas).
+- Corregido: las imágenes con ruta relativa (`../storage/...` en Textile Today) se
+  resuelven contra la URL del artículo; las tarjetas sin resumen ya no dejan un hueco.
+- Estado: 137 noticias, 31 fuentes (solo falta Hypebeast).
