@@ -247,10 +247,12 @@ def resolve_images(items, limit=14):
 
 # --------------------------------------------------------------------------- selección
 
-# piezas que no son noticia: opinión, galerías de fotos, crónicas de fiestas
+# piezas que no son noticia: opinión, galerías de fotos, crónicas de fiestas.
+# Los titulares llegan en inglés y en español, así que el patrón cubre ambos.
 FLUFF = re.compile(
-    r"(opini[oó]n|editorial|galer[ií]a|en im[aá]genes|as[ií] fue|dentro de la|"
-    r"todo lo que|lo que (vimos|sabemos)|photocall|fotos: )",
+    r"(opini[oó]n|editorial|galer[ií]a|in pictures|photo gallery|photos:|"
+    r"inside the|as[ií] fue|dentro de la|todo lo que|lo que (vimos|sabemos)|"
+    r"photocall|recap:)",
     re.I,
 )
 
