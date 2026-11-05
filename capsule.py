@@ -271,15 +271,22 @@ def pick_items(items, n=MAX_ITEMS):
         sec = it["tags"][0] if it.get("tags") else "industria"
         return it.get("score", 0) + CAT_BONUS.get(sec, 0)
 
+    con_img = [it for it in items if it.get("image")]
     utiles = [
-        it for it in items
-        if it.get("image") and len(it.get("title", "")) >= 30 and not FLUFF.search(it["title"])
+        it for it in con_img
+        if len(it.get("title", "")) >= 30 and not FLUFF.search(it["title"])
     ]
-    resto = [it for it in items if it.get("image") and it not in utiles]
+    # con imagen pero cortas: sirven de relleno, nunca las descartadas por relleno
+    resto = [
+        it for it in con_img
+        if it not in utiles and not FLUFF.search(it["title"])
+    ]
+    relleno = [it for it in con_img if it not in utiles and it not in resto]
     sin_img = [it for it in items if not it.get("image")]
 
     utiles.sort(key=peso, reverse=True)
     resto.sort(key=peso, reverse=True)
+    relleno.sort(key=peso, reverse=True)
     sin_img.sort(key=peso, reverse=True)
 
     picked, used = [], set()
@@ -299,7 +306,7 @@ def pick_items(items, n=MAX_ITEMS):
                 return picked
             if it not in picked:
                 picked.append(it)
-    for it in sin_img:              # último recurso
+    for it in sin_img + relleno:    # último recurso
         if len(picked) >= n:
             break
         if it not in picked:
