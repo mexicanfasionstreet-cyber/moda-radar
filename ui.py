@@ -216,11 +216,12 @@ def card_html(it):
     link = esc(safe_url(it["link"]))
     excerpt = esc(it["excerpt"])
     ts = esc(it["published"])
+    body_p = f"<p>{excerpt}</p>" if it["excerpt"] else ""
     return f"""<article class="card" data-card data-kind="{esc(it.get('kind', 'trade'))}" data-cat="{esc(' '.join(it['tags']))}" data-src="{esc(it['source'])}" data-ts="{ts}" data-text="{esc(it['title'] + ' ' + it['excerpt'] + ' ' + it['source'] + ' ' + ' '.join(it['tags']))}">
   <a class="{thumb_cls}" href="{link}" target="_blank" rel="noopener">{thumb}<span class="src-badge">{esc(it['source'])}</span></a>
   <div class="body">
     <h3><a href="{link}" target="_blank" rel="noopener">{title}</a></h3>
-    <p>{excerpt}</p>
+    {body_p}
     <div class="meta"><time data-ts="{ts}">{ts[:10]}</time><span class="sep"></span>{tags}</div>
   </div>
 </article>"""

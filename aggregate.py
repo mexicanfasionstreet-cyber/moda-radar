@@ -587,14 +587,19 @@ def build(sources, days):
                 continue
             seen_links.add(can)
             excerpt = truncate(it["body"])
+            if mirrored and norm(excerpt).startswith(norm(title)[:40]):
+                excerpt = ""  # el espejo solo devuelve "Titular - Medio"
             if len(excerpt) < 40:
                 excerpt = ""
+            image = it["image"] or ""
+            if image and not image.startswith("http"):
+                image = urllib.parse.urljoin(link, image)  # rutas relativas de algunos feeds
             items.append(
                 {
                     "title": title,
                     "link": clean_link(link),
                     "excerpt": excerpt,
-                    "image": it["image"],
+                    "image": image,
                     "published": pub,
                     "source": src["short"],
                     "source_name": src["name"],
@@ -641,8 +646,8 @@ def build(sources, days):
             if ent and ev:
                 by_event.setdefault((ent, ev), []).append(it)
             continue
-        # se conserva el extracto del medio principal para no mezclar idiomas
-        if not twin["excerpt"] and it["excerpt"]:
+        # se conserva el extracto del medio principal (y en su idioma)
+        if not twin["excerpt"] and it["excerpt"] and it["lang"] == twin["lang"]:
             twin["excerpt"] = it["excerpt"]
         if not twin["image"] and it["image"]:
             twin["image"] = it["image"]
