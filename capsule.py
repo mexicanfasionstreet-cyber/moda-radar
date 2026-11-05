@@ -247,30 +247,59 @@ def resolve_images(items, limit=14):
 
 # --------------------------------------------------------------------------- selección
 
+# piezas que no son noticia: opinión, galerías de fotos, crónicas de fiestas
+FLUFF = re.compile(
+    r"(opini[oó]n|editorial|galer[ií]a|en im[aá]genes|as[ií] fue|dentro de la|"
+    r"todo lo que|lo que (vimos|sabemos)|photocall|fotos: )",
+    re.I,
+)
+
+# la cápsula es de industria: el negocio manda sobre la pasarela o la cultura
+CAT_BONUS = {
+    "negocio": 1.6, "retail": 1.3, "sostenibilidad": 0.9, "personas": 0.7,
+    "industria": 0.5, "calzado": 0.4, "diseno": 0.3, "pasarela": 0.2,
+    "belleza": 0.1, "cultura": 0.0,
+}
+
+
 def pick_items(items, n=MAX_ITEMS):
-    """Noticias con imagen primero, variedad de secciones después."""
-    con_img = [it for it in items if it.get("image")]
+    """Noticias con imagen primero, variedad de secciones y peso de negocio."""
+
+    def peso(it):
+        sec = it["tags"][0] if it.get("tags") else "industria"
+        return it.get("score", 0) + CAT_BONUS.get(sec, 0)
+
+    utiles = [
+        it for it in items
+        if it.get("image") and len(it.get("title", "")) >= 30 and not FLUFF.search(it["title"])
+    ]
+    resto = [it for it in items if it.get("image") and it not in utiles]
     sin_img = [it for it in items if not it.get("image")]
-    con_img.sort(key=lambda x: x.get("score", 0), reverse=True)
-    sin_img.sort(key=lambda x: x.get("score", 0), reverse=True)
+
+    utiles.sort(key=peso, reverse=True)
+    resto.sort(key=peso, reverse=True)
+    sin_img.sort(key=peso, reverse=True)
 
     picked, used = [], set()
-    for it in con_img:
-        sec = it["tags"][0] if it.get("tags") else "industria"
-        if sec in used:
-            continue
-        picked.append(it)
-        used.add(sec)
+    for grupo in (utiles, resto):
+        for it in grupo:
+            if len(picked) == n:
+                return picked
+            sec = it["tags"][0] if it.get("tags") else "industria"
+            if sec in used:
+                continue
+            picked.append(it)
+            used.add(sec)
         if len(picked) == n:
             return picked
-    for it in con_img:            # repetir sección antes que quedarse sin foto
+        for it in grupo:            # repetir sección antes que quedarse sin foto
+            if len(picked) >= n:
+                return picked
+            if it not in picked:
+                picked.append(it)
+    for it in sin_img:              # último recurso
         if len(picked) >= n:
-            return picked
-        if it not in picked:
-            picked.append(it)
-    for it in sin_img:            # último recurso
-        if len(picked) >= n:
-            return picked
+            break
         if it not in picked:
             picked.append(it)
     return picked[:n]
@@ -359,16 +388,20 @@ def first_sentence(text, minlen=40, maxlen=190):
 
 
 def clip_words(text, n):
-    """Recorta a n palabras cerrando en coma o punto si se puede."""
+    """Recorta a n palabras sin dejar la frase colgando de una coma o un 'de'."""
     text = re.sub(r"\s+", " ", (text or "").strip())
     words = text.split(" ")
     if len(words) <= n:
         return text
-    cut = " ".join(words[:n])
-    coma = cut.rfind(", ")
-    if coma > len(cut) * 0.5:
-        return cut[: coma + 1]
-    return cut.rstrip(",;:.") + "."
+    cut = words[:n]
+    while len(cut) > 6 and cut[-1].lower().strip(",.;:") in TRAILING:
+        cut.pop()
+    frase = " ".join(cut).rstrip(",;:. ")
+    # si hay una coma cerca del final, cortar ahí deja una frase completa
+    coma = frase.rfind(", ")
+    if coma > len(frase) * 0.55:
+        frase = frase[:coma]
+    return frase + "."
 
 
 def template_script(items):
