@@ -1,6 +1,6 @@
 {
  "date": "2026-11-05",
- "duration": 62.8,
+ "duration": 62.1,
  "script_source": "plantilla (sin clave API)",
  "hook": "Estas son las noticias que mueven hoy la industria de la moda.",
  "items": [
@@ -20,14 +20,14 @@
    "link": "https://wwd.com/footwear-news/shoe-industry-news/dr-martens-herald-square-nyc-store-remodel-details-1239402606/"
   },
   {
-   "title": "Artículo de opinión: Una vaca, dos extremos…",
-   "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/sustainability/op-ed-one-cow-two-ends-of-a-supply-chain-eudr-regulation-leather-1239399323/"
+   "title": "El look reciclado de Hunter Schafer es…",
+   "source": "Vogue",
+   "link": "https://www.vogue.com/article/hunter-schafer-nihl-neon-red-carpet-look"
   },
   {
-   "title": "Dentro de la fiesta en la cabaña…",
-   "source": "WWD",
-   "link": "https://wwd.com/eye/parties/sophie-nelisse-kanuk-montreal-party-new-york-1239402653/"
+   "title": "El Met llena el espacio de Galliano…",
+   "source": "BoF",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVDBnY1F3bE81bzh6Q2ZLaG9FOTRHMjZNNGh3WkZoTkZnSkp4X0lLV2ZmWE1kSjYwcE5nZU9XRndXaW9jT3pnZEVKbnUxdmF1ckhWNW50QzRDelU2SW9mUDdId3VfUHhOVFMyUDRnb0I2SU9WX3F6UUdqcTgtSkd0VkltTjlVRUFDZ1hjeEwwVTBqU3hTcVFfZmtYLWhyRXVVa1RIZmd5ZFNySWlJS3VNNQ?oc=5"
   }
  ]
 }
