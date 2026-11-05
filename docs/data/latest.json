@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-05T18:26:13.492908Z",
+ "generated": "2026-11-05T18:49:24.242353Z",
  "days": 4,
- "count": 127,
+ "count": 135,
  "sources_ok": 30,
  "sources_failed": [
-  "Drapers",
-  "Hypebeast"
+  "Hypebeast",
+  "Textile World"
  ],
  "items": [
   {
@@ -47,6 +47,26 @@
    "also": [],
    "id": "0d222d757654",
    "score": 9.15
+  },
+  {
+   "title": "Canada Goose Caught by Europe Softness in Q2",
+   "link": "https://wwd.com/business-news/financial/canada-goose-q2-2026-earnings-dani-reiss-ceo-1239402623/",
+   "excerpt": "CEO Dani Reiss said the brand is as strong as ever, despite weak traffic in Europe and some transitory “product availability” issues.",
+   "image": "",
+   "published": "2026-11-05T18:05:24Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "personas"
+   ],
+   "also": [],
+   "id": "b0f309ba2ee3",
+   "score": 8.95
   },
   {
    "title": "Pitti Uomo Taps Raxxy Designer to Create Installation at January Edition",
@@ -229,6 +249,26 @@
    "score": 9.55
   },
   {
+   "title": "TK Maxx unveils its new Christmas ad",
+   "link": "https://www.drapersonline.com/topics/christmas-trading-topics/tk-maxx-unveils-its-new-christmas-ad",
+   "excerpt": "Drapers TK Maxx unveils its new Christmas ad TK Maxx has returned to its “Festive Farm” campaign in its “Festive Crossing” Christmas advert. The post TK Maxx unveils its new Christmas ad appeared first on Drapers .",
+   "image": "",
+   "published": "2026-11-05T17:02:25Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "pasarela"
+   ],
+   "also": [],
+   "id": "2da7bb6b0125",
+   "score": 7.69
+  },
+  {
    "title": "E.l.f. Beauty growth driven by innovation, not just pricing power",
    "link": "https://www.retaildive.com/news/elf-beauty-q2-earnings-sales-growth-innovation-pricing-power/873868/",
    "excerpt": "The company’s Q2 net sales jumped 51%, with industry analysts in awe of its go-to-market capabilities and Rhode brand strength.",
@@ -294,11 +334,11 @@
    "excerpt": "The 2010 gets embellished and frayed stitching in two colorways.",
    "image": "",
    "published": "2026-11-05T16:55:17Z",
-   "source": "WWD",
-   "source_name": "WWD",
+   "source": "FN",
+   "source_name": "Footwear News",
    "kind": "trade",
    "mirror": false,
-   "weight": 5.0,
+   "weight": 3.8,
    "lang": "en",
    "region": "us",
    "tags": [
@@ -306,12 +346,12 @@
    ],
    "also": [],
    "id": "ef302094eca0",
-   "score": 8.45
+   "score": 7.01
   },
   {
    "title": "Pierpaolo Piccioli Exits Balenciaga",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWTgtdUtsNDZySDVXUDZRWTZUcVVuQ0E2dHVIM3FaN1ZaYVBRMTZUdjJrbm5DUzRXR19Rc1JodDZYcHl3ODdScTFqUnEtU1RzRW1TN3VLUHZHS19tdXR1SDN0S1phMXZkakQtc1llOGJ1dnVMa2VEOUtnQk1jMmNFOXIyZUZTZFRVVkctdDRUWQ?oc=5",
-   "excerpt": "After a little more than a year helming Balenciaga, Pierpaolo Piccioli is exiting his role as the luxury house’s creative director, Kering announced on Thursday. Piccioli’s successor has not yet been named, but Kering said “the…",
+   "excerpt": "Drapers Pierpaolo Piccioli exits Balenciaga Balenciaga has announced the departure of creative director Pierpaolo Piccioli, with his replacement to be announced \"shortly\", marking a third Kering creative director exit in the past…",
    "image": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwODA2OTk0/balenciaga-runway-paris-fashion-week-womenswear-spring-summer-2027.jpg?profile=rss&x=53&y=10",
    "published": "2026-11-05T16:46:19Z",
    "source": "BoF",
@@ -325,13 +365,34 @@
     "personas"
    ],
    "also": [
+    "Drapers",
     "Fashionista",
     "Pambianco News",
     "Elle",
     "Harper's Bazaar ES"
    ],
    "id": "f170cf4cb949",
-   "score": 12.3
+   "score": 13.05
+  },
+  {
+   "title": "Victor Wembanyama Likes to Go Barefoot and Wear Minimalist Shoes for His Health",
+   "link": "https://wwd.com/footwear-news/shoe-trends/victor-wembanyama-barefoot-shoes-nike-louis-vuitton-1239402143/",
+   "excerpt": "The NBA star spoke about his approach to footwear, or lack thereof, in a \"60 Minutes\" interview.",
+   "image": "",
+   "published": "2026-11-05T16:37:17Z",
+   "source": "FN",
+   "source_name": "Footwear News",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 3.8,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "calzado"
+   ],
+   "also": [],
+   "id": "cc1b65599d20",
+   "score": 7.11
   },
   {
    "title": "Timberland’s Surprise Peanuts Collaboration Featuring a ‘Snoopy’ 6-Inch Waterproof Boot Is Available Right Now",
@@ -372,6 +433,26 @@
    "also": [],
    "id": "142fcd88d93b",
    "score": 8.11
+  },
+  {
+   "title": "Drapers reveals Power 100 list 2026",
+   "link": "https://www.drapersonline.com/news/drapers-reveals-power-100-list-2026",
+   "excerpt": "Drapers Drapers reveals Power 100 list 2026 The prestigious Drapers Power 100 list is back for 2026, shining a spotlight on the fashion retail leaders who had the biggest impact on the sector this year. The post Drapers reveals…",
+   "image": "",
+   "published": "2026-11-05T16:00:12Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "retail"
+   ],
+   "also": [],
+   "id": "3a86dc70824f",
+   "score": 8.39
   },
   {
    "title": "Hunter Schafer’s Upcycled Look Is the Antithesis of Fall Dressing",
@@ -454,6 +535,26 @@
    "score": 8.55
   },
   {
+   "title": "How Sosandar is bouncing back despite hot weather hitting autumn sales",
+   "link": "https://www.drapersonline.com/news/how-sosandar-is-bouncing-back-after-rising-temperatures-hit-autumn-sales",
+   "excerpt": "Drapers How Sosandar is bouncing back despite hot weather hitting autumn sales Sosandar almost halved its operating loss (38%) to £0.64m for the six months ended 30 September 2026, despite a \"challenging macro environment\".…",
+   "image": "",
+   "published": "2026-11-05T15:04:00Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "negocio"
+   ],
+   "also": [],
+   "id": "4bbfe3fe4cc6",
+   "score": 8.59
+  },
+  {
    "title": "Policy alignment is critical for green industrial transition",
    "link": "https://textiletoday.com.bd/policy-alignment-is-critical-for-green-industrial-transition",
    "excerpt": "The industrial shift toward lower emissions, cleaner energy and more resource-efficient production is accelerating. But the pace of that transition will depend on how well policy keeps up with market reality. Bangladesh has…",
@@ -532,6 +633,126 @@
    "also": [],
    "id": "7243e05e83e4",
    "score": 8.95
+  },
+  {
+   "title": "Power 100 2026: Who are this year’s Sportswear Superstars?",
+   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-sportswear-superstars",
+   "excerpt": "Drapers Power 100 2026: Who are this year’s Sportswear Superstars? Adidas, Alo, Castore, Gymshark, Lululemon, Nike, On, Sweaty Betty and Vuori make up this year's Sportswear Superstars. The post Power 100 2026: Who are this…",
+   "image": "",
+   "published": "2026-11-05T14:00:47Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "industria"
+   ],
+   "also": [],
+   "id": "fe05c86b52d8",
+   "score": 7.79
+  },
+  {
+   "title": "Power 100 2026: Who are this year’s Mainstream Masters?",
+   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-mainstream-masters",
+   "excerpt": "Drapers Power 100 2026: Who are this year’s Mainstream Masters? Ann Summers , Bectin , Fast Retailing, Hawes & Curtis, Mango, Mint Velvet, Moss, M&S Woman, River Island and TFG London make up this year's Mainstream Masters. The…",
+   "image": "",
+   "published": "2026-11-05T14:00:45Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "industria"
+   ],
+   "also": [],
+   "id": "fe711fb8231a",
+   "score": 7.79
+  },
+  {
+   "title": "Power 100 2026: Who are this year’s Footwear’s Finest?",
+   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-footwears-finest",
+   "excerpt": "Drapers Power 100 2026: Who are this year’s Footwear’s Finest? Birkenstock, Crocs, Dr Martens, Dune London, FitFlop, Footasylum, Kurt Geiger, New Balance and Schuh make up this year's Footwear's Finest. The post Power 100 2026…",
+   "image": "",
+   "published": "2026-11-05T14:00:44Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "calzado"
+   ],
+   "also": [],
+   "id": "c2e44d337629",
+   "score": 7.59
+  },
+  {
+   "title": "Power 100 2026: Who are this year’s Buzz Brands?",
+   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-buzz-brands",
+   "excerpt": "Drapers Power 100 2026: Who are this year’s Buzz Brands? Adanola, Aritzia, Arne, Damson Madder, Nadine Merabi, Never Fully Dressed, Nobody's Child, Odd Muse, Represent, Sézane, Skims, Tala, Tolu Coker, Topshop make up this year's…",
+   "image": "",
+   "published": "2026-11-05T14:00:39Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "industria"
+   ],
+   "also": [],
+   "id": "9d0755475c95",
+   "score": 7.79
+  },
+  {
+   "title": "Power 100 2026: Who are this year’s Catwalk Captains?",
+   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-catwalk-captains-2",
+   "excerpt": "Drapers Power 100 2026: Who are this year’s Catwalk Captains? Alexander McQueen, Burberry, Chanel, Dior Gucci, Hermès, Louis Vuitton, Prada and Valentino make up this year's Catwalk Captains. The post Power 100 2026: Who are this…",
+   "image": "",
+   "published": "2026-11-05T14:00:33Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "pasarela"
+   ],
+   "also": [],
+   "id": "b0b80b9a3211",
+   "score": 7.69
+  },
+  {
+   "title": "Power 100 2026: Who are this year’s Conscious Fashion Crusaders?",
+   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-conscious-fashion-crusaders",
+   "excerpt": "Drapers Power 100 2026: Who are this year’s Conscious Fashion Crusaders? Akyn, Ebay UK, Nigel Cabourn, Reformation, Sojo and Vinted Marketplace make up this year’s Conscious Fashion Crusaders. The post Power 100 2026: Who are…",
+   "image": "",
+   "published": "2026-11-05T14:00:32Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "retail"
+   ],
+   "also": [],
+   "id": "979899febc35",
+   "score": 8.39
   },
   {
    "title": "Storari: “Ancora grandi brand della moda usufruiscono del caporalato”",
@@ -631,26 +852,6 @@
    ],
    "also": [],
    "id": "9f326672a2dc",
-   "score": 7.11
-  },
-  {
-   "title": "EXCLUSIVE: Marni and Hoka Are Back Together Again, This Time Updating the Clifton Sneaker",
-   "link": "https://wwd.com/footwear-news/sneaker-news/hoka-marni-clifton-collaboration-details-release-date-1239400462/",
-   "excerpt": "The duo first came together in April 2025.",
-   "image": "",
-   "published": "2026-11-05T12:30:00Z",
-   "source": "FN",
-   "source_name": "Footwear News",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 3.8,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "calzado"
-   ],
-   "also": [],
-   "id": "dcd8241cd217",
    "score": 7.11
   },
   {
@@ -1134,26 +1335,6 @@
    "also": [],
    "id": "059c8f653394",
    "score": 8.15
-  },
-  {
-   "title": "CEO Sarah Benady on Helping Simon Porte Jacquemus Fulfill His Ambitions for the Brand",
-   "link": "https://wwd.com/business-news/business-features/ceo-sarah-benady-helping-simon-porte-jacquemus-vision-brand-1239397871/",
-   "excerpt": "\"Simon and I want Jacquemus to be the most influential maison of our generation. And we want to do that while staying independent, keeping that notion of freedom, of playfulness that's been there since the very beginning,\" Benady…",
-   "image": "",
-   "published": "2026-11-05T05:01:00Z",
-   "source": "WWD",
-   "source_name": "WWD Business",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.5,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "personas"
-   ],
-   "also": [],
-   "id": "18f7e24fd767",
-   "score": 7.75
   },
   {
    "title": "Getting to Know Google",
@@ -2274,26 +2455,6 @@
    "also": [],
    "id": "a4caaa47f76c",
    "score": 5.53
-  },
-  {
-   "title": "From Textile Waste To Spinning-Grade Fiber: STADLER Group Engineers Integrated Sorting Solution For IGERS In Italy",
-   "link": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6aecca45831b455f964f938e2c3ed1e7&url=https%3A%2F%2Fwww.textileworld.com%2Ftextile-world%2F2026%2F11%2Ffrom-textile-waste-to-spinning-grade-fiber-stadler-group-engineers-integrated-sorting-solution-for-igers-in-italy%2F&c=9215284507977087362&mkt=en-us",
-   "excerpt": "STADLER Group, the globally active German company specialized in the planning, production and assembly of turnkey sorting plants, has acted as technology partner to IGERS s.r.l. in the development of ...",
-   "image": "",
-   "published": "2026-11-03T04:38:00Z",
-   "source": "Textile World",
-   "source_name": "Textile World",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 3.2,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "sostenibilidad"
-   ],
-   "also": [],
-   "id": "d7bb433b883a",
-   "score": 5.39
   },
   {
    "title": "The 2026 CFDA Fashion Award Winners Are...",
