@@ -83,5 +83,5 @@ jobs:
             echo "Sin cambios en esta edición."
           else
             git commit -m "radar: edicion $(date -u +%Y-%m-%d)"
-            git push
+            git push || (git pull --rebase --autostash && git push)
           fi
