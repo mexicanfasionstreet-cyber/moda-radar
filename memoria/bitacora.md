@@ -126,3 +126,17 @@ Cambios:
 - **Duración**: la primera versión con resúmenes se iba a 79 s; recortando a 18 palabras
   queda en 62 s.
 - `--no-llm` ahora fuerza la plantilla (antes se llamaba igual pero no hacía nada).
+
+## 2026-11-05 · imagen que falta y música
+
+- **Nota sin imagen**: The Industry publica en el RSS miniaturas `-150x150.jpg`. El filtro
+  de "mínimo 420 px" las descartaba y la diapositiva caía al degradado. Ahora hay cadena
+  de respaldo: URL del RSS → misma URL sin el sufijo de miniatura (`-150x150` fuera, que
+  en WordPress apunta al original) → `og:image` de la página → y solo si todo falla, la
+  miniatura ampliada y desenfocada como fondo, que se ve intencionado.
+- **Música**: `musica/fondo.mp3` en bucle, con entrada de 2 s y salida de 3 s, mezclada a
+  −30 dB (unos 14 dB por debajo de la voz). La ganancia se calcula midiendo la pista, así
+  que vale cualquier mp3 que se deje en la carpeta. Banderas: `--sin-musica` y `--music`.
+- **Bug**: el clamp de ganancia era `max(-6, …)`, así que nunca atenuaba más de 6 dB y la
+  música quedaba a −26 dB (demasiado presente). Corregido a −30.
+- Pistas CC0 de Freesound vía Openverse. Se pueden sustituir sin tocar código.

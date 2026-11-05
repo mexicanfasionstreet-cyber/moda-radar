@@ -73,10 +73,25 @@ python capsule.py                  # vídeo completo con voz
 
 - Las imágenes son del medio original. Al publicarlas en redes, cita la fuente (el vídeo
   ya lo hace en pantalla) y revisa las condiciones de cada medio antes de monetizar.
-- El vídeo se guarda en el repo y en GitHub Pages: cada día pesa ~2-4 MB. Se conservan
+- El vídeo se guarda en el repo y en GitHub Pages: cada día pesa ~3-4 MB. Se conservan
   los últimos 10; el peso se acumula en el historial de Git.
-- Si una noticia no tiene imagen, se dibuja un fondo de marca con el titular: se nota, así
-  que la selección prioriza siempre noticias con foto.
+- Si una noticia no tiene imagen, se usa la suya en miniatura como fondo desenfocado (o
+  un degradado de marca). La selección prioriza siempre noticias con foto real.
+
+## Música de fondo
+
+La cápsula lleva una pista instrumental al ~30 % del volumen de la voz (−14 dB), con
+entrada y salida suaves y en bucle si es más corta que el vídeo.
+
+- **Cambiar la pista**: deja tu mp3 en `musica/fondo.mp3`. Cualquier duración o formato
+  vale; el volumen se ajusta solo midiendo la pista.
+- **Quitar la música** en una ejecución: `python capsule.py --sin-musica`.
+- **Usar otra pista concreta**: `python capsule.py --music musica/otra.mp3`.
+
+Las tres pistas incluidas son **CC0** (dominio público, sin atribución) descargadas de
+Freesound vía Openverse: `fondo.mp3` (uplifting, 2:40) y dos alternativas de 20 s para
+bucle. Sustitúyelas por las que te gusten: al ser música de fondo no hace falta declarar
+nada, pero si usas una pista con copyright sí necesitarás licencia.
 
 Las revistas de consumo (Vogue, Harper's Bazaar, GQ, Elle...) solo entran cuando la
 noticia es de industria (negocio, retail, sostenibilidad o fichajes). Las fuentes de

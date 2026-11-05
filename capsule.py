@@ -528,42 +528,76 @@ def gradient_canvas(text, seed, monograma=True):
     return img
 
 
-def prepare_photo(item, workdir, idx):
-    """Devuelve (ruta_imagen, tiene_foto)."""
-    img = None
-    if item.get("image"):
-        raw = workdir / f"src{idx}.img"
-        if download_image(item["image"], raw):
-            try:
-                img = Image.open(raw)
-                img = ImageOps.exif_transpose(img).convert("RGB")
-                if min(img.size) < 420:   # miniatura: se vería horrible a 1080 px
-                    img = None
-            except Exception:  # noqa: BLE001
-                img = None
+WP_THUMB = re.compile(r"-\d{2,4}x\d{2,4}(\.[a-z]{3,4})(?:\?.*)?$", re.I)
 
-    if img is None:
-        canvas = gradient_canvas(item["source"], item["link"])
-        tiene = False
+
+def _load_image(url, workdir, idx):
+    if not url:
+        return None
+    dest = workdir / f"src{idx}.img"
+    if not download_image(url, dest):
+        return None
+    try:
+        img = Image.open(dest)
+        return ImageOps.exif_transpose(img).convert("RGB")
+    except Exception:  # noqa: BLE001
+        return None
+
+
+def _cover(img):
+    ratio = ZOOM_W / ZOOM_H
+    w, h = img.size
+    if w / h > ratio:
+        new_w = int(h * ratio)
+        img = img.crop(((w - new_w) // 2, 0, (w + new_w) // 2, h))
     else:
-        # recorte tipo cover a la proporción del lienzo, con margen para el paneo
-        ratio = ZOOM_W / ZOOM_H
-        w, h = img.size
-        if w / h > ratio:
-            new_w = int(h * ratio)
-            img = img.crop(((w - new_w) // 2, 0, (w + new_w) // 2, h))
-        else:
-            new_h = int(w / ratio)
-            img = img.crop((0, max(0, (h - new_h) // 2), w, max(0, (h - new_h) // 2) + new_h))
-        img = img.resize((ZOOM_W, ZOOM_H), Image.LANCZOS)
-        if min(img.size) < 900:  # venía pequeño: suavizar para disimular
-            img = img.filter(ImageFilter.GaussianBlur(1.2))
-        canvas = img
-        tiene = True
+        new_h = int(w / ratio)
+        top = max(0, (h - new_h) // 2)
+        img = img.crop((0, top, w, top + new_h))
+    return img.resize((ZOOM_W, ZOOM_H), Image.LANCZOS)
+
+
+def prepare_photo(item, workdir, idx):
+    """Foto de la noticia. Cadena: RSS → original sin sufijo → og:image → desenfoque."""
+    candidatos = []
+    if item.get("image"):
+        candidatos.append(item["image"])
+        m = WP_THUMB.search(item["image"])
+        if m:  # WordPress suele dar "foto-150x150.jpg"; la original es "foto.jpg"
+            candidatos.append(WP_THUMB.sub(m.group(1), item["image"]))
+
+    buena, pequena = None, None
+    for url in candidatos:
+        img = _load_image(url, workdir, idx)
+        if not img:
+            continue
+        if min(img.size) >= 420:
+            buena = img
+            break
+        pequena = pequena or img
+
+    if buena is None:
+        og = og_image(item["link"])
+        img = _load_image(og, workdir, idx)
+        if img and min(img.size) >= 420:
+            buena = img
+        elif img:
+            pequena = pequena or img
 
     path = workdir / f"photo{idx}.jpg"
-    canvas.save(path, quality=92, subsampling=1)
-    return path, tiene
+    if buena is not None:
+        _cover(buena).save(path, quality=92, subsampling=1)
+        return path, True
+
+    if pequena is not None:
+        # sin foto grande: se usa como fondo abstracto, mucho mejor que un hueco
+        fondo = _cover(pequena).filter(ImageFilter.GaussianBlur(26))
+        fondo = Image.eval(fondo, lambda v: int(v * 0.55))
+        fondo.save(path, quality=90)
+        return path, False
+
+    gradient_canvas(item["source"], item["link"]).save(path, quality=90)
+    return path, False
 
 
 def make_overlay(titular, section, source, out_path, kicker=None, big=False, raw_footer=False):
@@ -712,6 +746,58 @@ def normalize_loudness(path, workdir, target=-17.0):
         return 0.0
 
 
+def music_track(root, pedido=None):
+    """Pista de fondo: --music, o musica/fondo.mp3, o el primer mp3 de musica/."""
+    if pedido:
+        p = root / pedido
+        return p if p.exists() else None
+    d = root / "musica"
+    if not d.is_dir():
+        return None
+    default = d / "fondo.mp3"
+    if default.exists():
+        return default
+    mp3s = sorted(d.glob("*.mp3"))
+    return mp3s[0] if mp3s else None
+
+
+def music_gain(music, target=-30.0):
+    """Ganancia para dejar la música ~14 dB por debajo de la voz."""
+    try:
+        p = subprocess.run(
+            ["ffmpeg", "-i", str(music), "-af", "volumedetect", "-f", "null", "-"],
+            capture_output=True, text=True,
+        )
+        m = re.search(r"mean_volume:\s*(-?\d+(?:\.\d+)?) dB", p.stderr)
+        if not m:
+            return 0.0
+        return max(-30.0, min(24.0, target - float(m.group(1))))
+    except Exception:  # noqa: BLE001
+        return 0.0
+
+
+def add_music(video, music, workdir, dur):
+    """Mezcla la música en bucle, con entrada y salida suaves, sin tapar la voz."""
+    gain = music_gain(music)
+    salida = max(1.0, dur - 3.0)
+    filt = (
+        f"[1:a]volume={gain:.1f}dB,afade=t=in:st=0:d=2,"
+        f"afade=t=out:st={salida:.2f}:d=3[m];"
+        f"[0:a][m]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[a]"
+    )
+    tmp = workdir / "con_musica.mp4"
+    run([
+        "ffmpeg", "-y", "-loglevel", "error", "-i", str(video),
+        "-stream_loop", "-1", "-i", str(music),
+        "-filter_complex", filt,
+        "-map", "0:v", "-map", "[a]",
+        "-c:v", "copy", "-c:a", "aac", "-b:a", "160k", "-ar", "48000",
+        "-shortest", str(tmp),
+    ])
+    shutil.move(str(tmp), str(video))
+    return gain
+
+
 def cover_frame(video, out_path):
     try:
         dur = ffprobe_duration(video)
@@ -733,6 +819,8 @@ def main(argv=None):
     ap.add_argument("--tts", choices=["edge", "silent"], default="edge", help="motor de voz")
     ap.add_argument("--no-llm", action="store_true", help="forzar la plantilla sin IA")
     ap.add_argument("--no-trad", action="store_true", help="no traducir (para depurar la plantilla)")
+    ap.add_argument("--music", default=None, help="pista de fondo (por defecto musica/fondo.mp3)")
+    ap.add_argument("--sin-musica", action="store_true", help="no mezclar música")
     ap.add_argument("--dry-run", action="store_true", help="solo mostrar el guion")
     ap.add_argument("--keep", type=int, default=KEEP_VIDEOS, help="vídeos a conservar")
     ap.add_argument("--workdir", default=".tmp", help="carpeta de trabajo (se borra al final)")
@@ -830,6 +918,12 @@ def main(argv=None):
         concat_slides(slides, final, work)
         ganancia = normalize_loudness(final, work)
         total = ffprobe_duration(final)
+
+        # 6. música de fondo
+        musi = None if args.sin_musica else music_track(root, args.music)
+        g_mus = 0.0
+        if musi:
+            g_mus = add_music(final, musi, work, ffprobe_duration(final))
         cover = cover_frame(final, outdir / f"{fecha}-portada.jpg")
 
         # 6. rotación
@@ -856,6 +950,8 @@ def main(argv=None):
         print(f"\nListo: {final.relative_to(root)} · {total:.1f}s · {size_mb:.1f} MB")
         if ganancia:
             print(f"Audio normalizado: +{ganancia:.1f} dB")
+        if musi:
+            print(f"Musica: {musi.name} ({g_mus:+.1f} dB)")
         if cover:
             print(f"Portada: {cover.relative_to(root)}")
         return 0
