@@ -1,31 +1,31 @@
 {
  "date": "2026-11-05",
- "duration": 68.1,
+ "duration": 66.2,
  "script_source": "IA (deepseek-chat)",
- "hook": "Piccioli deja Balenciaga y ThredUp apuesta por venta en vivo",
+ "hook": "Piccioli deja Balenciaga y suma una salida creativa mas en Kering",
  "items": [
   {
-   "title": "Piccioli deja Balenciaga",
+   "title": "Piccioli sale de Balenciaga",
    "source": "BoF",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWTgtdUtsNDZySDVXUDZRWTZUcVVuQ0E2dHVIM3FaN1ZaYVBRMTZUdjJrbm5DUzRXR19Rc1JodDZYcHl3ODdScTFqUnEtU1RzRW1TN3VLUHZHS19tdXR1SDN0S1phMXZkakQtc1llOGJ1dnVMa2VEOUtnQk1jMmNFOXIyZUZTZFRVVkctdDRUWQ?oc=5"
   },
   {
-   "title": "ThredUp apuesta al live selling",
+   "title": "Nylon reciclado y algas en moda",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/financial/thredup-live-selling-strategy-resale-market-1239403005/"
+   "link": "https://wwd.com/sourcing-journal/sustainability/material-world-nylon-seaweed-sportswear-1239402245/"
   },
   {
-   "title": "Portas crea comunidad retail",
-   "source": "The Industry",
-   "link": "https://www.theindustry.fashion/mary-portas-launches-the-society-of-shopkeepers-on-substack/"
+   "title": "Drapers revela su Power 100",
+   "source": "Drapers",
+   "link": "https://www.drapersonline.com/news/drapers-reveals-power-100-list-2026"
   },
   {
-   "title": "Schafer y su look reciclado",
+   "title": "Schafer apuesta por el upcycling",
    "source": "Vogue",
    "link": "https://www.vogue.com/article/hunter-schafer-nihl-neon-red-carpet-look"
   },
   {
-   "title": "Air Max 90 renovada",
+   "title": "Nuevo Air Max 90 de Nike",
    "source": "WWD",
    "link": "https://wwd.com/footwear-news/sneaker-news/nike-air-max-90-mini-swoosh-cream-ii-im5989-236-1239403261/"
   }
