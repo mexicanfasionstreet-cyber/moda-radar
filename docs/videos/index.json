@@ -1,33 +1,33 @@
 {
  "date": "2026-11-05",
- "duration": 47.4,
+ "duration": 66.3,
  "script_source": "plantilla (sin clave API)",
  "hook": "Estas son las noticias que mueven hoy la industria de la moda.",
  "items": [
   {
-   "title": "Pierpaolo Piccioli Exits Balenciaga",
+   "title": "Pierpaolo Piccioli abandona Balenciaga",
    "source": "BoF",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWTgtdUtsNDZySDVXUDZRWTZUcVVuQ0E2dHVIM3FaN1ZaYVBRMTZUdjJrbm5DUzRXR19Rc1JodDZYcHl3ODdScTFqUnEtU1RzRW1TN3VLUHZHS19tdXR1SDN0S1phMXZkakQtc1llOGJ1dnVMa2VEOUtnQk1jMmNFOXIyZUZTZFRVVkctdDRUWQ?oc=5"
   },
   {
-   "title": "Tapestry Tops Q1 Expectations With 12% Sales Boost",
+   "title": "Kontoor Brands eleva la orientación para 2026…",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/financial/tapestry-q1-2027-earnings-coach-sales-1239399971/"
+   "link": "https://wwd.com/sourcing-journal/sj-denim/kontoor-lifts-2026-guidance-sharpens-focus-wrangler-growth-1239402250/"
   },
   {
-   "title": "Hunter Schafer’s Upcycled Look Is the Antithesis of…",
-   "source": "Vogue",
-   "link": "https://www.vogue.com/article/hunter-schafer-nihl-neon-red-carpet-look"
+   "title": "Artículo de opinión: Una vaca, dos extremos…",
+   "source": "WWD",
+   "link": "https://wwd.com/sourcing-journal/sustainability/op-ed-one-cow-two-ends-of-a-supply-chain-eudr-regulation-leather-1239399323/"
   },
   {
-   "title": "How These Curated Thrift Shops Are Keeping Whimsical…",
-   "source": "Fashionista",
-   "link": "https://fashionista.com/2026/11/new-york-city-thrift-stores-whimsical-trend"
+   "title": "El nuevo concepto minorista de Dr. Martens debuta…",
+   "source": "WWD",
+   "link": "https://wwd.com/footwear-news/shoe-industry-news/dr-martens-herald-square-nyc-store-remodel-details-1239402606/"
   },
   {
-   "title": "TK Maxx revisits ‘Festive Farm’ with first Christmas…",
-   "source": "The Industry",
-   "link": "https://www.theindustry.fashion/tk-maxx-revisits-festive-farm-with-first-christmas-ad-in-three-years/"
+   "title": "Dentro de la fiesta en la cabaña…",
+   "source": "WWD",
+   "link": "https://wwd.com/eye/parties/sophie-nelisse-kanuk-montreal-party-new-york-1239402653/"
   }
  ]
 }

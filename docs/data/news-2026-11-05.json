@@ -1,12 +1,72 @@
 {
- "generated": "2026-11-05T19:06:44.499766Z",
+ "generated": "2026-11-05T19:37:14.677918Z",
  "days": 4,
- "count": 146,
+ "count": 147,
  "sources_ok": 31,
  "sources_failed": [
   "Hypebeast"
  ],
  "items": [
+  {
+   "title": "Kontoor Brands Lifts 2026 Guidance, Sharpens Focus on Wrangler Growth",
+   "link": "https://wwd.com/sourcing-journal/sj-denim/kontoor-lifts-2026-guidance-sharpens-focus-wrangler-growth-1239402250/",
+   "excerpt": "Kontoor announced it will enter Accelerated Share Repurchase agreements this month to repurchase $400 million of Kontoor common stock",
+   "image": "",
+   "published": "2026-11-05T19:29:55Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "negocio"
+   ],
+   "also": [],
+   "id": "dea6bb3189be",
+   "score": 9.55
+  },
+  {
+   "title": "Tanger’s Strong Q3 Spurs Raised Outlook on 2026 Profit and Holiday Sales",
+   "link": "https://wwd.com/business-news/real-estate/tangers-q3-spurs-raised-full-year-outlook-1239401243/",
+   "excerpt": "CEO Stephen Yalof believes consumer confidence has improved after the midterm election, boding well for the holiday season.",
+   "image": "",
+   "published": "2026-11-05T19:20:50Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "negocio"
+   ],
+   "also": [],
+   "id": "2078c75cc232",
+   "score": 9.55
+  },
+  {
+   "title": "How Paris’ Sceners Gallery Is Attracting Younger Collectors",
+   "link": "https://wwd.com/home-design/furniture/sceners-gallery-younger-art-collectors-modern-approach-1239401540/",
+   "excerpt": "In an interview with WWD, cofounder and curator Jonathan Haddad explained how the Paris-based gallery is tapping into younger generations’ growing penchant for collecting art and design.",
+   "image": "",
+   "published": "2026-11-05T19:12:00Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "cultura"
+   ],
+   "also": [],
+   "id": "7c5b1859c4b1",
+   "score": 8.35
+  },
   {
    "title": "Op-Ed: One Cow, Two Ends of a Supply Chain",
    "link": "https://wwd.com/sourcing-journal/sustainability/op-ed-one-cow-two-ends-of-a-supply-chain-eudr-regulation-leather-1239399323/",
@@ -66,6 +126,26 @@
    "also": [],
    "id": "f7664b5b1ebe",
    "score": 8.4
+  },
+  {
+   "title": "Inside Sophie Nélisse and Kanuk’s Montreal-Themed Cabin Party",
+   "link": "https://wwd.com/eye/parties/sophie-nelisse-kanuk-montreal-party-new-york-1239402653/",
+   "excerpt": "The Canadian actress joined the outerwear brand to celebrate Quebec in TriBeCa with maple treats and poutine.",
+   "image": "",
+   "published": "2026-11-05T18:13:23Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "industria"
+   ],
+   "also": [],
+   "id": "993d2d241cff",
+   "score": 8.75
   },
   {
    "title": "Dr. Martens’ New Retail Concept Debuts in Herald Square",
@@ -148,36 +228,16 @@
    "score": 8.95
   },
   {
-   "title": "Cascale Reports 22% Emissions Drop Among Repeat Higg Filers",
-   "link": "https://wwd.com/sourcing-journal/sustainability/cascale-higg-fem-factory-emissions-environmental-baseline-1239401765/",
-   "excerpt": "Among factories filing their fifth Higg assessment, 37 percent met Cascale’s environmental baseline, compared with 24 percent of first-time filers.",
-   "image": "",
-   "published": "2026-11-05T18:00:00Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "sostenibilidad"
-   ],
-   "also": [],
-   "id": "e6bcd06698a1",
-   "score": 9.15
-  },
-  {
    "title": "Mission Accomplished: Delivering Good Gala Raises $2.7 Million",
    "link": "https://wwd.com/business-news/business-features/delivering-good-gala-libby-wadle-michael-osullian-1239401336/",
    "excerpt": "The nonprofit organization helps individuals and families rebuild after hardship or disaster.",
    "image": "",
    "published": "2026-11-05T17:54:33Z",
    "source": "WWD",
-   "source_name": "WWD",
+   "source_name": "WWD Business",
    "kind": "trade",
    "mirror": false,
-   "weight": 5.0,
+   "weight": 4.5,
    "lang": "en",
    "region": "us",
    "tags": [
@@ -185,7 +245,7 @@
    ],
    "also": [],
    "id": "4d5fcf071a27",
-   "score": 9.55
+   "score": 8.95
   },
   {
    "title": "Interparfums, Inc. to launch new Off-White, Longchamp fragrances in 2027",
@@ -213,11 +273,11 @@
    "excerpt": "The exhibition dedicated to sneakers will be on display at the museum in Prato, Italy, until May 2 and features 100 models.",
    "image": "",
    "published": "2026-11-05T17:50:43Z",
-   "source": "WWD",
-   "source_name": "WWD",
+   "source": "FN",
+   "source_name": "Footwear News",
    "kind": "trade",
    "mirror": false,
-   "weight": 5.0,
+   "weight": 3.8,
    "lang": "en",
    "region": "us",
    "tags": [
@@ -225,7 +285,7 @@
    ],
    "also": [],
    "id": "07d6cd84e201",
-   "score": 8.35
+   "score": 6.91
   },
   {
    "title": "Raxxy è il nuovo special guest di Pitti Uomo 111",
@@ -266,26 +326,6 @@
    "also": [],
    "id": "230f28301b7c",
    "score": 7.98
-  },
-  {
-   "title": "LA-Long Beach Watchmen Strike Delayed Again as Talks Run to Friday",
-   "link": "https://wwd.com/sourcing-journal/logistics/port-of-los-angeles-long-beach-watchmen-strike-delayed-friday-1239402057/",
-   "excerpt": "An ILWU union local and their employers agreed to keep contract negotiations alive after failing to reach a deal late Wednesday, leaving the strike threat alive.",
-   "image": "",
-   "published": "2026-11-05T17:15:00Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "negocio"
-   ],
-   "also": [],
-   "id": "8e881e50dc49",
-   "score": 9.55
   },
   {
    "title": "TK Maxx unveils its new Christmas ad",
@@ -454,7 +494,7 @@
    "score": 7.11
   },
   {
-   "title": "NikeSkims Takes on the Archival Waffle Racer as the Partnership Expands Its Footwear Assortment",
+   "title": "NikeSkims Takes on the Archival Waffle Racer as It Expands Its Footwear Assortment",
    "link": "https://wwd.com/footwear-news/sneaker-news/nike-skims-waffle-racer-sneaker-release-1239401512/",
    "excerpt": "NikeSkims previously released its take on the split-toe Nike Air Rift.",
    "image": "",
@@ -467,11 +507,11 @@
    "lang": "en",
    "region": "us",
    "tags": [
-    "negocio"
+    "calzado"
    ],
    "also": [],
    "id": "142fcd88d93b",
-   "score": 8.11
+   "score": 7.11
   },
   {
    "title": "Drapers reveals Power 100 list 2026",
@@ -552,26 +592,6 @@
    "also": [],
    "id": "b645c7d05f58",
    "score": 7.5
-  },
-  {
-   "title": "The Met Fills Galliano Gap With Show on Everyday Fashion",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVDBnY1F3bE81bzh6Q2ZLaG9FOTRHMjZNNGh3WkZoTkZnSkp4X0lLV2ZmWE1kSjYwcE5nZU9XRndXaW9jT3pnZEVKbnUxdmF1ckhWNW50QzRDelU2SW9mUDdId3VfUHhOVFMyUDRnb0I2SU9WX3F6UUdqcTgtSkd0VkltTjlVRUFDZ1hjeEwwVTBqU3hTcVFfZmtYLWhyRXVVa1RIZmd5ZFNySWlJS3VNNQ?oc=5",
-   "excerpt": "",
-   "image": "",
-   "published": "2026-11-05T15:12:44Z",
-   "source": "BoF",
-   "source_name": "Business of Fashion",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "global",
-   "tags": [
-    "industria"
-   ],
-   "also": [],
-   "id": "d50b6c9c9283",
-   "score": 8.55
   },
   {
    "title": "How Sosandar is bouncing back despite hot weather hitting autumn sales",
@@ -851,7 +871,7 @@
    ],
    "also": [],
    "id": "4fb82f536a4f",
-   "score": 8.94
+   "score": 8.34
   },
   {
    "title": "How These Curated Thrift Shops Are Keeping Whimsical NYC Retail Alive",
@@ -871,7 +891,7 @@
    ],
    "also": [],
    "id": "2a30363907f7",
-   "score": 8.5
+   "score": 7.9
   },
   {
    "title": "Fctry Lab Set to Launch New Standalone Shoe Brand Centered Around Personalization",
@@ -1336,26 +1356,6 @@
    "score": 7.55
   },
   {
-   "title": "Remo Ruffini on Reinventing Moncler Into a Global Lifestyle Brand",
-   "link": "https://wwd.com/business-news/business-features/remo-ruffini-moncler-lifestyle-brand-skiwear-1239396128/",
-   "excerpt": "The Italian entrepreneur purchased the brand in 2003 and has grown it into a 3 billion euro group.",
-   "image": "",
-   "published": "2026-11-05T05:01:00Z",
-   "source": "WWD",
-   "source_name": "WWD Business",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.5,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "negocio"
-   ],
-   "also": [],
-   "id": "bb13edb2f24e",
-   "score": 8.35
-  },
-  {
    "title": "Getting to Know Google",
    "link": "https://wwd.com/business-news/technology/google-luxury-brands-conan-liu-1239395215/",
    "excerpt": "Google’s Conan Liu discusses ways luxury brands can help ensure proper brand discovery and proper responses to queries on the search engine.",
@@ -1574,6 +1574,26 @@
    "also": [],
    "id": "f1011b98799b",
    "score": 6.77
+  },
+  {
+   "title": "Marketing jobs in United Kingdom",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5jWlhUbE9KTmE0bFBjRmFZempNdlN5MFdab2NVcVkwOWZCQVBJbnlZT3o4LUI5RVhoamtjTV9WY0VndmR4bkMyNjZvVGJTMkNHc3pwZ1F4MVktcmpRQ0IzNHBKYzczbW5RdnpNMUdRSTZXTDNuV1p3RHF3Tms?oc=5",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-04T18:49:38Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "industria"
+   ],
+   "also": [],
+   "id": "df1375f4bf38",
+   "score": 7.45
   },
   {
    "title": "The Nobody Wants This Costume Designer Shares How She Brings Each Character's Style to Life On-Screen",
