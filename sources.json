@@ -1,0 +1,325 @@
+{
+  "_comment": "Fuentes verificadas el 2026-11-05. Todas responden con RSS/Atom válido. weight = peso editorial (1-5), lang = idioma, region = mercado.",
+  "sources": [
+    {
+      "name": "Business of Fashion",
+      "short": "BoF",
+      "url": "https://www.businessoffashion.com/arc/outboundfeeds/rss/",
+      "weight": 5.0,
+      "lang": "en",
+      "region": "global",
+      "kind": "trade",
+      "generic": false
+    },
+    {
+      "name": "WWD",
+      "short": "WWD",
+      "url": "https://wwd.com/feed/",
+      "weight": 5.0,
+      "lang": "en",
+      "region": "us",
+      "kind": "trade",
+      "generic": false
+    },
+    {
+      "name": "WWD Business",
+      "short": "WWD",
+      "url": "https://wwd.com/business-news/feed/",
+      "weight": 4.5,
+      "lang": "en",
+      "region": "us",
+      "kind": "trade",
+      "generic": false
+    },
+    {
+      "name": "New York Times Fashion",
+      "short": "NYT",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/FashionandStyle.xml",
+      "weight": 4.4,
+      "lang": "en",
+      "region": "us",
+      "kind": "consumer",
+      "generic": false
+    },
+    {
+      "name": "The Industry",
+      "short": "The Industry",
+      "url": "https://www.theindustry.fashion/feed/",
+      "weight": 4.2,
+      "lang": "en",
+      "region": "uk",
+      "kind": "trade",
+      "generic": false
+    },
+    {
+      "name": "Drapers",
+      "short": "Drapers",
+      "url": "https://www.drapersonline.com/rss",
+      "weight": 4.2,
+      "lang": "en",
+      "region": "uk",
+      "kind": "trade",
+      "generic": false
+    },
+    {
+      "name": "Vogue",
+      "short": "Vogue",
+      "url": "https://www.vogue.com/feed/rss",
+      "weight": 4.2,
+      "lang": "en",
+      "region": "us",
+      "kind": "consumer",
+      "generic": false
+    },
+    {
+      "name": "Retail Dive",
+      "short": "Retail Dive",
+      "url": "https://www.retaildive.com/feeds/news/",
+      "weight": 4.1,
+      "lang": "en",
+      "region": "us",
+      "kind": "trade",
+      "generic": true
+    },
+    {
+      "name": "British Vogue",
+      "short": "Vogue UK",
+      "url": "https://www.vogue.co.uk/feed/rss",
+      "weight": 4.1,
+      "lang": "en",
+      "region": "uk",
+      "kind": "consumer",
+      "generic": false
+    },
+    {
+      "name": "Vogue Italia",
+      "short": "Vogue IT",
+      "url": "https://www.vogue.it/feed/rss",
+      "weight": 4.1,
+      "lang": "it",
+      "region": "it",
+      "kind": "consumer",
+      "generic": false
+    },
+    {
+      "name": "Fashionista",
+      "short": "Fashionista",
+      "url": "https://fashionista.com/.rss/full/",
+      "weight": 4.0,
+      "lang": "en",
+      "region": "us",
+      "kind": "trade",
+      "generic": false
+    },
+    {
+      "name": "Pambianco News",
+      "short": "Pambianco",
+      "url": "https://www.pambianconews.com/feed/",
+      "weight": 4.0,
+      "lang": "it",
+      "region": "it",
+      "kind": "trade",
+      "generic": false
+    },
+    {
+      "name": "The Guardian Fashion",
+      "short": "Guardian",
+      "url": "https://www.theguardian.com/fashion/rss",
+      "weight": 4.0,
+      "lang": "en",
+      "region": "uk",
+      "kind": "consumer",
+      "generic": false
+    },
+    {
+      "name": "Vogue España",
+      "short": "Vogue ES",
+      "url": "https://www.vogue.es/feed/rss",
+      "weight": 4.0,
+      "lang": "es",
+      "region": "es",
+      "kind": "consumer",
+      "generic": false
+    },
+    {
+      "name": "Glossy",
+      "short": "Glossy",
+      "url": "https://www.glossy.co/feed/",
+      "weight": 3.9,
+      "lang": "en",
+      "region": "us",
+      "kind": "trade",
+      "generic": false
+    },
+    {
+      "name": "Footwear News",
+      "short": "FN",
+      "url": "https://footwearnews.com/feed/",
+      "weight": 3.8,
+      "lang": "en",
+      "region": "us",
+      "kind": "trade",
+      "generic": false
+    },
+    {
+      "name": "CNBC Retail",
+      "short": "CNBC",
+      "url": "https://www.cnbc.com/id/10001147/device/rss/rss.html",
+      "weight": 3.6,
+      "lang": "en",
+      "region": "us",
+      "kind": "trade",
+      "generic": true
+    },
+    {
+      "name": "Retail Gazette",
+      "short": "Retail Gazette",
+      "url": "https://www.retailgazette.co.uk/feed/",
+      "weight": 3.5,
+      "lang": "en",
+      "region": "uk",
+      "kind": "trade",
+      "generic": true
+    },
+    {
+      "name": "GQ",
+      "short": "GQ",
+      "url": "https://www.gq.com/feed/rss",
+      "weight": 3.4,
+      "lang": "en",
+      "region": "us",
+      "kind": "consumer",
+      "generic": false
+    },
+    {
+      "name": "Elle",
+      "short": "Elle",
+      "url": "https://www.elle.com/rss/all.xml",
+      "weight": 3.4,
+      "lang": "en",
+      "region": "us",
+      "kind": "consumer",
+      "generic": false
+    },
+    {
+      "name": "Elle España",
+      "short": "Elle ES",
+      "url": "https://www.elle.com/es/rss/",
+      "weight": 3.4,
+      "lang": "es",
+      "region": "es",
+      "kind": "consumer",
+      "generic": false
+    },
+    {
+      "name": "Harper's Bazaar",
+      "short": "Bazaar",
+      "url": "https://www.harpersbazaar.com/rss/all.xml",
+      "weight": 3.4,
+      "lang": "en",
+      "region": "us",
+      "kind": "consumer",
+      "generic": false
+    },
+    {
+      "name": "Harper's Bazaar ES",
+      "short": "Bazaar ES",
+      "url": "https://www.harpersbazaar.com/es/rss/all.xml",
+      "weight": 3.3,
+      "lang": "es",
+      "region": "es",
+      "kind": "consumer",
+      "generic": false
+    },
+    {
+      "name": "Harper's Bazaar UK",
+      "short": "Bazaar UK",
+      "url": "https://www.harpersbazaar.com/uk/rss/all.xml",
+      "weight": 3.3,
+      "lang": "en",
+      "region": "uk",
+      "kind": "consumer",
+      "generic": false
+    },
+    {
+      "name": "Hypebeast",
+      "short": "Hypebeast",
+      "url": "https://hypebeast.com/feed",
+      "weight": 3.2,
+      "lang": "en",
+      "region": "hk",
+      "kind": "consumer",
+      "generic": false
+    },
+    {
+      "name": "Textile World",
+      "short": "Textile World",
+      "url": "https://textileworld.com/feed/",
+      "weight": 3.2,
+      "lang": "en",
+      "region": "us",
+      "kind": "trade",
+      "generic": false
+    },
+    {
+      "name": "Who What Wear",
+      "short": "WhoWhatWear",
+      "url": "https://www.whowhatwear.com/rss",
+      "weight": 3.1,
+      "lang": "en",
+      "region": "us",
+      "kind": "consumer",
+      "generic": false
+    },
+    {
+      "name": "Highsnobiety",
+      "short": "Highsnobiety",
+      "url": "https://www.highsnobiety.com/feed/",
+      "weight": 3.1,
+      "lang": "en",
+      "region": "de",
+      "kind": "consumer",
+      "generic": false
+    },
+    {
+      "name": "Refinery29",
+      "short": "Refinery29",
+      "url": "https://www.refinery29.com/en-us/rss.xml",
+      "weight": 3.0,
+      "lang": "en",
+      "region": "us",
+      "kind": "consumer",
+      "generic": false
+    },
+    {
+      "name": "Dazed",
+      "short": "Dazed",
+      "url": "https://www.dazeddigital.com/rss",
+      "weight": 3.0,
+      "lang": "en",
+      "region": "uk",
+      "kind": "consumer",
+      "generic": false
+    },
+    {
+      "name": "i-D",
+      "short": "i-D",
+      "url": "https://i-d.co/feed/",
+      "weight": 3.0,
+      "lang": "en",
+      "region": "uk",
+      "kind": "consumer",
+      "generic": false
+    },
+    {
+      "name": "Textile Today",
+      "short": "Textile Today",
+      "url": "https://www.textiletoday.com.bd/feed/",
+      "weight": 2.8,
+      "lang": "en",
+      "region": "bd",
+      "kind": "trade",
+      "generic": false
+    }
+  ]
+}

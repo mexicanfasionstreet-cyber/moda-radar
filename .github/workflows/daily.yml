@@ -1,0 +1,41 @@
+name: Actualizar radar
+
+on:
+  schedule:
+    # 12:00 UTC = 04:00 en Los Ángeles / 07:00 en Nueva York / 13:00 en Madrid
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: moda-radar
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Agregar noticias y generar panel
+        run: python aggregate.py --days 4
+
+      - name: Guardar cambios en el repositorio
+        run: |
+          git config user.name "moda-radar bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs digests
+          if git diff --cached --quiet; then
+            echo "Sin cambios en esta edición."
+          else
+            git commit -m "radar: edicion $(date -u +%Y-%m-%d)"
+            git push
+          fi
