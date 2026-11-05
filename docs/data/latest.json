@@ -1,13 +1,92 @@
 {
- "generated": "2026-11-05T20:23:13.798486Z",
+ "generated": "2026-11-05T20:48:35.985854Z",
  "days": 4,
- "count": 137,
- "sources_ok": 30,
+ "count": 148,
+ "sources_ok": 31,
  "sources_failed": [
-  "Drapers",
   "Hypebeast"
  ],
  "items": [
+  {
+   "title": "Nike’s Classic Air Max Gets a New Release With Updated Logos and Reflective Details",
+   "link": "https://wwd.com/footwear-news/sneaker-news/nike-air-max-90-mini-swoosh-cream-ii-im5989-236-1239403261/",
+   "excerpt": "The just-released Air Max 90 features rarely seen mini Swoosh embroidery.",
+   "image": "",
+   "published": "2026-11-05T20:40:11Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "industria"
+   ],
+   "also": [],
+   "id": "3d61d13d5b42",
+   "score": 8.75
+  },
+  {
+   "title": "Climate Change Threatens Cotton Supply as Brands Face Growing Sourcing Risks",
+   "link": "https://wwd.com/sourcing-journal/sustainability/climate-change-threatens-cotton-supply-sourcing-risks-1239402836/",
+   "excerpt": "CottonConnect surveyed 124 cotton value chain stakeholders.",
+   "image": "",
+   "published": "2026-11-05T20:37:41Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "industria"
+   ],
+   "also": [],
+   "id": "c645632f024b",
+   "score": 8.75
+  },
+  {
+   "title": "Spinnova Signs Letter Of Intent With Outlast To Develop SPINNOVA® Fibre For Insulation And Temperature Regulation",
+   "link": "https://www.textileworld.com/textile-world/fiber-world/2026/11/spinnova-signs-letter-of-intent-with-outlast-to-develop-spinnova-fibre-for-insulation-and-temperature-regulation/",
+   "excerpt": "JYVÄSKYLÄ, Finland — November 5, 2026 — Spinnova Plc, a materials technology company producing textile fibre from side streams and wood pulp, today announced that it has signed a non-binding letter of intent (“LOI”) with Outlast…",
+   "image": "https://wordpress.textileworld.com/wp-content/uploads/2023/12/Spinnova_logo_black-300x34.png",
+   "published": "2026-11-05T20:37:23Z",
+   "source": "Textile World",
+   "source_name": "Textile World",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 3.2,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "industria"
+   ],
+   "also": [],
+   "id": "bfa7b19258cc",
+   "score": 6.94
+  },
+  {
+   "title": "From Biarritz to Barangaroo: Chanel’s Replica Cruise Show Lights Up Sydney",
+   "link": "https://wwd.com/fashion-news/designer-luxury/from-biarritz-to-barangaroo-1239399606/",
+   "excerpt": "Australian celebrities added their star wattage to Chanel’s first runway presentation in the country on Thursday.",
+   "image": "",
+   "published": "2026-11-05T20:29:24Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "pasarela"
+   ],
+   "also": [],
+   "id": "c2f203017e4e",
+   "score": 8.65
+  },
   {
    "title": "Schotex Global® Names René Gagell Head Of Weaving",
    "link": "https://www.textileworld.com/textile-world/people/2026/11/schotex-global-names-rene-gagell-head-of-weaving/",
@@ -69,7 +148,7 @@
    "score": 8.55
   },
   {
-   "title": "Kontoor Brands Lifts 2026 Guidance, Sharpens Focus on Wrangler Growth",
+   "title": "Kontoor Lifts 2026 Guidance, Sharpens Focus on Wrangler Growth",
    "link": "https://wwd.com/sourcing-journal/sj-denim/kontoor-lifts-2026-guidance-sharpens-focus-wrangler-growth-1239402250/",
    "excerpt": "Kontoor announced it will enter Accelerated Share Repurchase agreements this month to repurchase $400 million of Kontoor common stock",
    "image": "",
@@ -129,6 +208,26 @@
    "score": 8.35
   },
   {
+   "title": "Ye Returns to the Runway With Yeezy Season 01 in Los Angeles",
+   "link": "https://wwd.com/eye/people/ye-yeezy-season-01-runway-show-los-angeles-1239402982/",
+   "excerpt": "The artist and designer staged his first major runway show in more than four years, with Kid Cudi, Big Sean, Jerry Lorenzo and his family in attendance.",
+   "image": "",
+   "published": "2026-11-05T19:06:11Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "pasarela"
+   ],
+   "also": [],
+   "id": "8303557d60d2",
+   "score": 8.65
+  },
+  {
    "title": "Op-Ed: One Cow, Two Ends of a Supply Chain",
    "link": "https://wwd.com/sourcing-journal/sustainability/op-ed-one-cow-two-ends-of-a-supply-chain-eudr-regulation-leather-1239399323/",
    "excerpt": "Inside the EUDR and what it means for the future of leather goods.",
@@ -174,11 +273,11 @@
    "excerpt": "The beloved ACG boot swaps rugged leather for plush pony hair.",
    "image": "",
    "published": "2026-11-05T18:16:30Z",
-   "source": "WWD",
-   "source_name": "WWD",
+   "source": "FN",
+   "source_name": "Footwear News",
    "kind": "trade",
    "mirror": false,
-   "weight": 5.0,
+   "weight": 3.8,
    "lang": "en",
    "region": "us",
    "tags": [
@@ -186,27 +285,7 @@
    ],
    "also": [],
    "id": "f7664b5b1ebe",
-   "score": 8.4
-  },
-  {
-   "title": "Inside Sophie Nélisse and Kanuk’s Montreal-Themed Cabin Party",
-   "link": "https://wwd.com/eye/parties/sophie-nelisse-kanuk-montreal-party-new-york-1239402653/",
-   "excerpt": "The Canadian actress joined the outerwear brand to celebrate Quebec in TriBeCa with maple treats and poutine.",
-   "image": "",
-   "published": "2026-11-05T18:13:23Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "industria"
-   ],
-   "also": [],
-   "id": "993d2d241cff",
-   "score": 8.75
+   "score": 6.96
   },
   {
    "title": "Dr. Martens’ New Retail Concept Debuts in Herald Square",
@@ -214,11 +293,11 @@
    "excerpt": "",
    "image": "",
    "published": "2026-11-05T18:12:15Z",
-   "source": "WWD",
-   "source_name": "WWD",
+   "source": "FN",
+   "source_name": "Footwear News",
    "kind": "trade",
    "mirror": false,
-   "weight": 5.0,
+   "weight": 3.8,
    "lang": "en",
    "region": "us",
    "tags": [
@@ -226,7 +305,7 @@
    ],
    "also": [],
    "id": "0d222d757654",
-   "score": 9.15
+   "score": 7.71
   },
   {
    "title": "Canada Goose Caught by Europe Softness in Q2",
@@ -235,10 +314,10 @@
    "image": "",
    "published": "2026-11-05T18:05:24Z",
    "source": "WWD",
-   "source_name": "WWD",
+   "source_name": "WWD Business",
    "kind": "trade",
    "mirror": false,
-   "weight": 5.0,
+   "weight": 4.5,
    "lang": "en",
    "region": "us",
    "tags": [
@@ -246,7 +325,7 @@
    ],
    "also": [],
    "id": "b0f309ba2ee3",
-   "score": 8.95
+   "score": 8.35
   },
   {
    "title": "Brendan Whitworth Named CEO of Equinox, Marc Mastronardi, President, Will Leave at Yearend",
@@ -369,6 +448,26 @@
    "score": 7.98
   },
   {
+   "title": "TK Maxx unveils its new Christmas ad",
+   "link": "https://www.drapersonline.com/topics/christmas-trading-topics/tk-maxx-unveils-its-new-christmas-ad",
+   "excerpt": "Drapers TK Maxx unveils its new Christmas ad TK Maxx has returned to its “Festive Farm” campaign in its “Festive Crossing” Christmas advert. The post TK Maxx unveils its new Christmas ad appeared first on Drapers .",
+   "image": "",
+   "published": "2026-11-05T17:02:25Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "pasarela"
+   ],
+   "also": [],
+   "id": "2da7bb6b0125",
+   "score": 7.69
+  },
+  {
    "title": "E.l.f. Beauty growth driven by innovation, not just pricing power",
    "link": "https://www.retaildive.com/news/elf-beauty-q2-earnings-sales-growth-innovation-pricing-power/873868/",
    "excerpt": "The company’s Q2 net sales jumped 51%, with industry analysts in awe of its go-to-market capabilities and Rhode brand strength.",
@@ -431,7 +530,7 @@
   {
    "title": "Pierpaolo Piccioli Exits Balenciaga",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWTgtdUtsNDZySDVXUDZRWTZUcVVuQ0E2dHVIM3FaN1ZaYVBRMTZUdjJrbm5DUzRXR19Rc1JodDZYcHl3ODdScTFqUnEtU1RzRW1TN3VLUHZHS19tdXR1SDN0S1phMXZkakQtc1llOGJ1dnVMa2VEOUtnQk1jMmNFOXIyZUZTZFRVVkctdDRUWQ?oc=5",
-   "excerpt": "After a little more than a year helming Balenciaga, Pierpaolo Piccioli is exiting his role as the luxury house’s creative director, Kering announced on Thursday. Piccioli’s successor has not yet been named, but Kering said “the…",
+   "excerpt": "Drapers Pierpaolo Piccioli exits Balenciaga Balenciaga has announced the departure of creative director Pierpaolo Piccioli, with his replacement to be announced \"shortly\", marking a third Kering creative director exit in the past…",
    "image": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwODA2OTk0/balenciaga-runway-paris-fashion-week-womenswear-spring-summer-2027.jpg?profile=rss&x=53&y=10",
    "published": "2026-11-05T16:46:19Z",
    "source": "BoF",
@@ -445,13 +544,14 @@
     "personas"
    ],
    "also": [
+    "Drapers",
     "Fashionista",
     "Pambianco News",
     "Elle",
     "Harper's Bazaar ES"
    ],
    "id": "f170cf4cb949",
-   "score": 12.3
+   "score": 13.05
   },
   {
    "title": "LVMH Deepens China Engagement With ‘New Generations’ Pavilion at CIIE",
@@ -534,6 +634,26 @@
    "score": 7.11
   },
   {
+   "title": "Drapers reveals Power 100 list 2026",
+   "link": "https://www.drapersonline.com/news/drapers-reveals-power-100-list-2026",
+   "excerpt": "Drapers Drapers reveals Power 100 list 2026 The prestigious Drapers Power 100 list is back for 2026, shining a spotlight on the fashion retail leaders who had the biggest impact on the sector this year. The post Drapers reveals…",
+   "image": "",
+   "published": "2026-11-05T16:00:12Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "retail"
+   ],
+   "also": [],
+   "id": "3a86dc70824f",
+   "score": 8.39
+  },
+  {
    "title": "Hunter Schafer’s Upcycled Look Is the Antithesis of Fall Dressing",
    "link": "https://www.vogue.com/article/hunter-schafer-nihl-neon-red-carpet-look",
    "excerpt": "Forget earthy autumnal hues—the star is all-in on neon brights.",
@@ -614,6 +734,26 @@
    "score": 8.55
   },
   {
+   "title": "How Sosandar is bouncing back despite hot weather hitting autumn sales",
+   "link": "https://www.drapersonline.com/news/how-sosandar-is-bouncing-back-after-rising-temperatures-hit-autumn-sales",
+   "excerpt": "Drapers How Sosandar is bouncing back despite hot weather hitting autumn sales Sosandar almost halved its operating loss (38%) to £0.64m for the six months ended 30 September 2026, despite a \"challenging macro environment\".…",
+   "image": "",
+   "published": "2026-11-05T15:04:00Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "negocio"
+   ],
+   "also": [],
+   "id": "4bbfe3fe4cc6",
+   "score": 8.59
+  },
+  {
    "title": "Policy alignment is critical for green industrial transition",
    "link": "https://textiletoday.com.bd/policy-alignment-is-critical-for-green-industrial-transition",
    "excerpt": "The industrial shift toward lower emissions, cleaner energy and more resource-efficient production is accelerating. But the pace of that transition will depend on how well policy keeps up with market reality. Bangladesh has…",
@@ -631,7 +771,7 @@
    ],
    "also": [],
    "id": "163ab91ad0b9",
-   "score": 6.86
+   "score": 6.26
   },
   {
    "title": "John Frieda, Hair-Care Mogul Who Soothed Women’s Curls, Has Died",
@@ -651,7 +791,7 @@
    ],
    "also": [],
    "id": "39a03888497e",
-   "score": 8.58
+   "score": 7.98
   },
   {
    "title": "Steve Madden’s Wholesale Momentum Drives Q3",
@@ -694,6 +834,126 @@
    "score": 8.35
   },
   {
+   "title": "Power 100 2026: Who are this year’s Sportswear Superstars?",
+   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-sportswear-superstars",
+   "excerpt": "Drapers Power 100 2026: Who are this year’s Sportswear Superstars? Adidas, Alo, Castore, Gymshark, Lululemon, Nike, On, Sweaty Betty and Vuori make up this year's Sportswear Superstars. The post Power 100 2026: Who are this…",
+   "image": "",
+   "published": "2026-11-05T14:00:47Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "industria"
+   ],
+   "also": [],
+   "id": "fe05c86b52d8",
+   "score": 7.19
+  },
+  {
+   "title": "Power 100 2026: Who are this year’s Mainstream Masters?",
+   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-mainstream-masters",
+   "excerpt": "Drapers Power 100 2026: Who are this year’s Mainstream Masters? Ann Summers , Bectin , Fast Retailing, Hawes & Curtis, Mango, Mint Velvet, Moss, M&S Woman, River Island and TFG London make up this year's Mainstream Masters. The…",
+   "image": "",
+   "published": "2026-11-05T14:00:45Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "industria"
+   ],
+   "also": [],
+   "id": "fe711fb8231a",
+   "score": 7.19
+  },
+  {
+   "title": "Power 100 2026: Who are this year’s Footwear’s Finest?",
+   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-footwears-finest",
+   "excerpt": "Drapers Power 100 2026: Who are this year’s Footwear’s Finest? Birkenstock, Crocs, Dr Martens, Dune London, FitFlop, Footasylum, Kurt Geiger, New Balance and Schuh make up this year's Footwear's Finest. The post Power 100 2026…",
+   "image": "",
+   "published": "2026-11-05T14:00:44Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "calzado"
+   ],
+   "also": [],
+   "id": "c2e44d337629",
+   "score": 6.99
+  },
+  {
+   "title": "Power 100 2026: Who are this year’s Buzz Brands?",
+   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-buzz-brands",
+   "excerpt": "Drapers Power 100 2026: Who are this year’s Buzz Brands? Adanola, Aritzia, Arne, Damson Madder, Nadine Merabi, Never Fully Dressed, Nobody's Child, Odd Muse, Represent, Sézane, Skims, Tala, Tolu Coker, Topshop make up this year's…",
+   "image": "",
+   "published": "2026-11-05T14:00:39Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "industria"
+   ],
+   "also": [],
+   "id": "9d0755475c95",
+   "score": 7.19
+  },
+  {
+   "title": "Power 100 2026: Who are this year’s Catwalk Captains?",
+   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-catwalk-captains-2",
+   "excerpt": "Drapers Power 100 2026: Who are this year’s Catwalk Captains? Alexander McQueen, Burberry, Chanel, Dior Gucci, Hermès, Louis Vuitton, Prada and Valentino make up this year's Catwalk Captains. The post Power 100 2026: Who are this…",
+   "image": "",
+   "published": "2026-11-05T14:00:33Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "pasarela"
+   ],
+   "also": [],
+   "id": "b0b80b9a3211",
+   "score": 7.09
+  },
+  {
+   "title": "Power 100 2026: Who are this year’s Conscious Fashion Crusaders?",
+   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-conscious-fashion-crusaders",
+   "excerpt": "Drapers Power 100 2026: Who are this year’s Conscious Fashion Crusaders? Akyn, Ebay UK, Nigel Cabourn, Reformation, Sojo and Vinted Marketplace make up this year’s Conscious Fashion Crusaders. The post Power 100 2026: Who are…",
+   "image": "",
+   "published": "2026-11-05T14:00:32Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "retail"
+   ],
+   "also": [],
+   "id": "979899febc35",
+   "score": 7.79
+  },
+  {
    "title": "Storari: “Ancora grandi brand della moda usufruiscono del caporalato”",
    "link": "https://www.pambianconews.com/2026/11/05/storari-ancora-grandi-brand-della-moda-usufruiscono-del-caporalato-499837/",
    "excerpt": "Nella moda la questione della legalità è ancora aperta. Lo conferma il pm milanese Paolo Storari che ha partecipato all’ultima edizione del Venice Sustainable Fashio Forum . Secondo il pubblico ministero, “ci sono ancora grandi…",
@@ -712,26 +972,6 @@
    "also": [],
    "id": "b61d02c1254d",
    "score": 7.35
-  },
-  {
-   "title": "Pane Kicks Off Global Retail Push With Le Bon Marché Pop-up",
-   "link": "https://wwd.com/footwear-news/shoe-features/pane-international-expansion-paris-bon-marche-bangkok-store-1239401539/",
-   "excerpt": "The Paris pop-up runs through Jan. 2 while a first permanent overseas store will open at Bangkok’s CentralWorld mall in early December.",
-   "image": "",
-   "published": "2026-11-05T13:41:19Z",
-   "source": "FN",
-   "source_name": "Footwear News",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 3.8,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "retail"
-   ],
-   "also": [],
-   "id": "0d6f2de5e16e",
-   "score": 7.31
   },
   {
    "title": "Coty Sales Decline 2% as Transition Kicks In",
@@ -1400,7 +1640,7 @@
    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5jWlhUbE9KTmE0bFBjRmFZempNdlN5MFdab2NVcVkwOWZCQVBJbnlZT3o4LUI5RVhoamtjTV9WY0VndmR4bkMyNjZvVGJTMkNHc3pwZ1F4MVktcmpRQ0IzNHBKYzczbW5RdnpNMUdRSTZXTDNuV1p3RHF3Tms?oc=5",
    "excerpt": "",
    "image": "",
-   "published": "2026-11-04T19:48:36Z",
+   "published": "2026-11-04T20:47:58Z",
    "source": "BoF",
    "source_name": "Business of Fashion",
    "kind": "trade",
@@ -1913,7 +2153,7 @@
    ],
    "also": [],
    "id": "f74c89f83b8b",
-   "score": 6.94
+   "score": 6.44
   },
   {
    "title": "Gap unveils holiday campaign ‘Give Your Gift’ with choral rendition of Jackson 5 classic",
@@ -1933,7 +2173,7 @@
    ],
    "also": [],
    "id": "a150530b3c9d",
-   "score": 6.94
+   "score": 6.44
   },
   {
    "title": "Marks & Spencer boss accuses Labour of ‘one of the biggest tax grabs in history’",
@@ -1953,7 +2193,7 @@
    ],
    "also": [],
    "id": "23059602e4c4",
-   "score": 7.44
+   "score": 6.94
   },
   {
    "title": "Asda appoints former Morrisons boss as Group CEO",
@@ -2296,26 +2536,6 @@
    "score": 6.14
   },
   {
-   "title": "Nonwovenn And Technical Materials Group Appoint Ned Dorbin As CEO To Lead Next Phase Of Growth",
-   "link": "https://www.textileworld.com/textile-world/nonwovens-technical-textiles/2026/11/nonwovenn-and-technical-materials-group-appoint-ned-dorbin-as-ceo-to-lead-next-phase-of-growth/",
-   "excerpt": "BRIDGWATER, England— November 3, 2026 — Ned Dorbin has been announced as Chief Executive Officer of Nonwovenn and of Technical Materials Group (TMG), as the combined businesses look to accelerate growth, working towards ambitious…",
-   "image": "https://wordpress.textileworld.com/wp-content/uploads/2024/07/Nonwovenn-logo.png",
-   "published": "2026-11-03T19:21:01Z",
-   "source": "Textile World",
-   "source_name": "Textile World",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 3.2,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "negocio"
-   ],
-   "also": [],
-   "id": "502516d5152c",
-   "score": 6.14
-  },
-  {
    "title": "Must Read: Meg Stalter Stars in Marc Jacobs 'Let It Joy' Campaign, Hugo Boss Lowers Outlook as Q3 Sales Drop",
    "link": "https://fashionista.com/2026/11/meg-stalter-marc-jacobs-let-it-joy-holiday-campaign",
    "excerpt": "These are the stories making headlines in fashion on Tuesday. Meg Stalter Stars in Marc Jacobs ‘Let It Joy’ Campaign Marc Jacobs has unveiled “Let It Joy,” its Winter 2026 holiday campaign starring comedian and Emmy-nominated…",
@@ -2414,6 +2634,26 @@
    "also": [],
    "id": "ed3411397bd9",
    "score": 5.26
+  },
+  {
+   "title": "Retail Still a Weak Spot as Reliance Profits Beat Expectations",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOHdDZldZNzFSMEZleXM1WEdhcmdzblVUd2hDZWZ5Y1ViZ0FsUTNTYzF3aVVxbzVnSUxBaS1MVWlTdXl0T21LWDRHeF9xNFZiVktyV29SMXF2WWxoelotMldIMlN3TmNtbjB3VXpoMzRkYTNISVFOUG1IX1AyZHRpTzdxN2FfcHJSTWdqQ0MyWEQ5d1E0anlhWW9pWWpRUTBTT1NIeVJvZnNFQXhHRGFTUnZhVmxYREJ3?oc=5",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-03T09:42:58Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "retail"
+   ],
+   "also": [],
+   "id": "22804660c428",
+   "score": 7.55
   },
   {
    "title": "BAPEX discovers 97.69 BCF gas well in Noakhali",
@@ -2694,26 +2934,6 @@
    "also": [],
    "id": "9c53258cb841",
    "score": 7.15
-  },
-  {
-   "title": "Decoding the Enigma of David Sims",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZk00Ym1lLXNMR0xQOHhJTnRRZlUwT095VGxRcXVwYWREWmZraU9ZdE9KeWUzUjkxMVZlQk5YVWdkeWZ4b2ljUFhjbXZlWFVlbnJnTWVMOFpTRWJJVzY0U3Nld3VOWkRLT0pHaHhnYWlCVU1pRXFNcXJzQmF2R08zWXhVdll4UmpEbkNQcFktQkhIa21qM3VZbVVlTTEtUUp2dUVfTTdwazE?oc=5",
-   "excerpt": "",
-   "image": "",
-   "published": "2026-11-02T05:30:00Z",
-   "source": "BoF",
-   "source_name": "Business of Fashion",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "global",
-   "tags": [
-    "industria"
-   ],
-   "also": [],
-   "id": "b51c4a204d46",
-   "score": 6.55
   },
   {
    "title": "You Can Finally Rent Chanel on Rent the Runway",

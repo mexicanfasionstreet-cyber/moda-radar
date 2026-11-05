@@ -1,33 +1,33 @@
 {
  "date": "2026-11-05",
- "duration": 62.1,
- "script_source": "plantilla (sin clave API)",
- "hook": "Estas son las noticias que mueven hoy la industria de la moda.",
+ "duration": 63.6,
+ "script_source": "IA (deepseek-chat)",
+ "hook": "Balenciaga pierde a su director creativo y Kering suma su tercera salida",
  "items": [
   {
-   "title": "Pierpaolo Piccioli abandona Balenciaga",
+   "title": "Piccioli sale de Balenciaga",
    "source": "BoF",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWTgtdUtsNDZySDVXUDZRWTZUcVVuQ0E2dHVIM3FaN1ZaYVBRMTZUdjJrbm5DUzRXR19Rc1JodDZYcHl3ODdScTFqUnEtU1RzRW1TN3VLUHZHS19tdXR1SDN0S1phMXZkakQtc1llOGJ1dnVMa2VEOUtnQk1jMmNFOXIyZUZTZFRVVkctdDRUWQ?oc=5"
   },
   {
-   "title": "ThredUp apuesta fuerte por las ventas en vivo…",
+   "title": "ThredUp apuesta al live selling",
    "source": "WWD",
    "link": "https://wwd.com/business-news/financial/thredup-live-selling-strategy-resale-market-1239403005/"
   },
   {
-   "title": "El nuevo concepto minorista de Dr. Martens debuta…",
-   "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-industry-news/dr-martens-herald-square-nyc-store-remodel-details-1239402606/"
+   "title": "Drapers revela Power 100 2026",
+   "source": "Drapers",
+   "link": "https://www.drapersonline.com/news/drapers-reveals-power-100-list-2026"
   },
   {
-   "title": "El look reciclado de Hunter Schafer es…",
+   "title": "Schafer apuesta por el reciclaje",
    "source": "Vogue",
    "link": "https://www.vogue.com/article/hunter-schafer-nihl-neon-red-carpet-look"
   },
   {
-   "title": "El Met llena el espacio de Galliano…",
-   "source": "BoF",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVDBnY1F3bE81bzh6Q2ZLaG9FOTRHMjZNNGh3WkZoTkZnSkp4X0lLV2ZmWE1kSjYwcE5nZU9XRndXaW9jT3pnZEVKbnUxdmF1ckhWNW50QzRDelU2SW9mUDdId3VfUHhOVFMyUDRnb0I2SU9WX3F6UUdqcTgtSkd0VkltTjlVRUFDZ1hjeEwwVTBqU3hTcVFfZmtYLWhyRXVVa1RIZmd5ZFNySWlJS3VNNQ?oc=5"
+   "title": "Nike renueva el Air Max 90",
+   "source": "WWD",
+   "link": "https://wwd.com/footwear-news/sneaker-news/nike-air-max-90-mini-swoosh-cream-ii-im5989-236-1239403261/"
   }
  ]
 }
