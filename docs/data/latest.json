@@ -1,12 +1,52 @@
 {
- "generated": "2026-11-05T18:52:02.294982Z",
+ "generated": "2026-11-05T18:54:22.759400Z",
  "days": 4,
- "count": 136,
+ "count": 137,
  "sources_ok": 31,
  "sources_failed": [
   "Hypebeast"
  ],
  "items": [
+  {
+   "title": "Op-Ed: One Cow, Two Ends of a Supply Chain",
+   "link": "https://wwd.com/sourcing-journal/sustainability/op-ed-one-cow-two-ends-of-a-supply-chain-eudr-regulation-leather-1239399323/",
+   "excerpt": "Inside the EUDR and what it means for the future of leather goods.",
+   "image": "",
+   "published": "2026-11-05T18:53:37Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "sostenibilidad"
+   ],
+   "also": [],
+   "id": "7c945115a332",
+   "score": 9.15
+  },
+  {
+   "title": "From Prada to Valentino: I Can Save $206 on These Investment-Worthy Designer Beauty Products Right Now",
+   "link": "https://www.whowhatwear.com/beauty/sephora-sale-2026-designer-products",
+   "excerpt": "ICYMI, the Sephora Savings Event is on now. During it, you can save serious dollars on some of the best beauty-editor-recommended items . Here are the details: Rouge members save 20%, VIB members save 15%, and Beauty Insiders…",
+   "image": "https://cdn.mos.cms.futurecdn.net/MF6U8av8USrYQ7sg9Yvsdc-1920-80.jpg",
+   "published": "2026-11-05T18:48:43Z",
+   "source": "WhoWhatWear",
+   "source_name": "Who What Wear",
+   "kind": "consumer",
+   "mirror": false,
+   "weight": 3.1,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "negocio"
+   ],
+   "also": [],
+   "id": "478e92b05ea8",
+   "score": 7.62
+  },
   {
    "title": "Nike’s Fan-Favorite Air Max Boot Has Just Been Reissued in a Limited-Edition Luxe Version That Sold Out Quickly Last Year",
    "link": "https://wwd.com/footwear-news/sneaker-news/nike-acg-air-max-goadome-qs-pony-hair-restock-io4635-001-1239402631/",
@@ -286,26 +326,6 @@
    "also": [],
    "id": "b58594496c94",
    "score": 8.82
-  },
-  {
-   "title": "Warby Parker and Rare Beauty Collaborate for New Campaign Starring Katseye’s Megan Skiendiel",
-   "link": "https://wwd.com/pop-culture/celebrity-news/warby-parker-rare-beauty-megan-skiendiel-1239400858/",
-   "excerpt": "The limited-edition collaboration features five coordinating eyewear pieces and blush.",
-   "image": "",
-   "published": "2026-11-05T17:00:00Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "pasarela"
-   ],
-   "also": [],
-   "id": "81e3659d357c",
-   "score": 8.65
   },
   {
    "title": "Must Read: How the Blue Wave Could Impact Fashion, Hair-Care Mogul John Frieda Dies at 75",
@@ -2457,7 +2477,7 @@
   },
   {
    "title": "From Textile Waste To Spinning-Grade Fiber: STADLER Group Engineers Integrated Sorting Solution For IGERS In Italy",
-   "link": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6aecd05253bf44f9929a5ad02426cf4b&url=https%3A%2F%2Fwww.textileworld.com%2Ftextile-world%2F2026%2F11%2Ffrom-textile-waste-to-spinning-grade-fiber-stadler-group-engineers-integrated-sorting-solution-for-igers-in-italy%2F&c=9215284507977087362&mkt=en-us",
+   "link": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6aecd0de3bb44bda9274bcb650b40d80&url=https%3A%2F%2Fwww.textileworld.com%2Ftextile-world%2F2026%2F11%2Ffrom-textile-waste-to-spinning-grade-fiber-stadler-group-engineers-integrated-sorting-solution-for-igers-in-italy%2F&c=9215284507977087362&mkt=en-us",
    "excerpt": "STADLER Group, the globally active German company specialized in the planning, production and assembly of turnkey sorting plants, has acted as technology partner to IGERS s.r.l. in the development of ...",
    "image": "",
    "published": "2026-11-03T04:38:00Z",
@@ -2472,7 +2492,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "d67fb4decc0f",
+   "id": "ff7db6969f7f",
    "score": 5.39
   },
   {
