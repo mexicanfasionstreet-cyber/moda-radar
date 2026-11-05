@@ -7,7 +7,8 @@ servidor, ni claves API, ni pagar nada**.
 
 - Panel: `docs/index.html` (se publica como web con GitHub Pages)
 - Resumen diario: `digests/AAAA-MM-DD.md`
-- Datos crudos: `docs/data/latest.json`
+- **Corpus acumulado: `datos/noticias.jsonl` + `datos/noticias.csv`** ← la base de datos
+- Datos de la edición: `docs/data/latest.json`
 
 ## Cómo funciona
 
@@ -20,7 +21,12 @@ servidor, ni claves API, ni pagar nada**.
    entidad + tipo de acontecimiento (resultados, fichajes, operaciones).
 5. **Clasifica** en una sección: Negocio, Retail, Pasarela, Sostenibilidad, Belleza,
    Movimientos, Cultura, Diseño, Calzado o Industria.
-6. **Genera** el panel HTML (autocontenido, sin dependencias) y el digest Markdown.
+6. **Genera** el panel HTML (autocontenido, sin dependencias), el digest Markdown y
+   **añade las noticias nuevas al corpus acumulado** (`datos/`).
+
+El corpus es la parte importante si quieres construir algo encima: crece para siempre,
+no repite noticias y tiene campos limpios (medio, sección, idioma, fecha, enlace,
+extracto, cobertura). Los detalles están en [`datos/README.md`](datos/README.md).
 
 Las revistas de consumo (Vogue, Harper's Bazaar, GQ, Elle...) solo entran cuando la
 noticia es de industria (negocio, retail, sostenibilidad o fichajes). Las fuentes de
@@ -124,9 +130,14 @@ moda-radar/
 ├── ui.py                   estilos y plantilla del panel
 ├── sources.json            catálogo de fuentes verificadas
 ├── run.cmd                 ejecución local en Windows
+├── datos/
+│   ├── noticias.jsonl      CORPUS: una noticia por línea, crece para siempre
+│   ├── noticias.csv        el mismo corpus en tabla (Excel)
+│   └── README.md           diccionario de campos y ejemplos de uso
 ├── docs/
 │   ├── index.html          panel (generado, se sobrescribe cada día)
 │   └── data/               latest.json + un JSON por día (archivo)
 ├── digests/                un Markdown por día
+├── memoria/                bitácora de decisiones y fallos
 └── .github/workflows/      tarea programada diaria
 ```

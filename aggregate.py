@@ -16,7 +16,9 @@ from __future__ import annotations
 
 import argparse
 import concurrent.futures as cf
+import csv
 import gzip
+import hashlib
 import html
 import json
 import re
@@ -659,7 +661,9 @@ def build(sources, days):
         it.pop("_ev", None)
         it["also"] = it.get("also", [])
         it["published"] = it["published"].isoformat().replace("+00:00", "Z")
-        it["id"] = str(abs(hash(it["link"])) % (10**10))
+        # id estable: hash del enlace (hash() de Python cambia en cada proceso y
+        # rompería la deduplicación del archivo histórico)
+        it["id"] = hashlib.sha1(it["link"].encode("utf-8")).hexdigest()[:12]
         it["score"] = round(
             it["weight"] * 1.2
             + _recency_bonus(it["published"])
@@ -715,6 +719,72 @@ def pick_hero(items):
 
 
 # --------------------------------------------------------------------------- salidas
+
+ARCHIVE_COLS = [
+    "id", "published", "title", "source", "section", "lang",
+    "link", "excerpt", "image", "also", "mirror", "weight",
+]
+
+
+def update_archive(items, root):
+    """Acumula el corpus histórico: un JSON por línea y un CSV para Excel/pandas."""
+    d = root / "datos"
+    d.mkdir(exist_ok=True)
+    jl = d / "noticias.jsonl"
+
+    seen = set()
+    seen_same = set()  # mismo medio + mismo titular + mismo día (directo vs espejo)
+
+    def clave(r):
+        return "|".join([
+            r.get("source", ""),
+            norm(r.get("title", ""))[:70],
+            str(r.get("published", ""))[:10],
+        ])
+
+    if jl.exists():
+        for line in jl.read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            try:
+                row = json.loads(line)
+            except Exception:  # noqa: BLE001
+                continue
+            seen.add(row["id"])
+            seen_same.add(clave(row))
+
+    nuevos = 0
+    with jl.open("a", encoding="utf-8") as f:
+        for it in sorted(items, key=lambda x: x["published"]):
+            row = {
+                "id": it["id"],
+                "published": it["published"],
+                "title": it["title"],
+                "source": it["source"],
+                "section": it["tags"][0],
+                "lang": it["lang"],
+                "link": it["link"],
+                "excerpt": it["excerpt"],
+                "image": it["image"],
+                "also": "; ".join(it["also"]),
+                "mirror": it["mirror"],
+                "weight": it["weight"],
+            }
+            if row["id"] in seen or clave(row) in seen_same:
+                continue
+            f.write(json.dumps(row, ensure_ascii=False) + "\n")
+            seen.add(row["id"])
+            seen_same.add(clave(row))
+            nuevos += 1
+
+    rows = [json.loads(l) for l in jl.read_text(encoding="utf-8").splitlines() if l.strip()]
+    rows.sort(key=lambda r: r.get("published", ""), reverse=True)
+    with (d / "noticias.csv").open("w", encoding="utf-8-sig", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=ARCHIVE_COLS, extrasaction="ignore")
+        w.writeheader()
+        w.writerows(rows)
+    return nuevos, len(rows)
+
 
 def write_digest(items, meta, path):
     lines = []
@@ -846,9 +916,12 @@ def main(argv=None):
 
     write_digest(items, meta, root / args.digests / f"{now.strftime('%Y-%m-%d')}.md")
 
+    nuevos, acumuladas = update_archive(items, root)
+
     print(f"\n{len(items)} noticias · {meta['sources_ok']}/{len(sources)} fuentes · {len(failures)} errores")
     print(f"panel   -> {out / 'index.html'}")
     print(f"digest  -> {root / args.digests / (now.strftime('%Y-%m-%d') + '.md')}")
+    print(f"archivo -> {root / 'datos' / 'noticias.jsonl'} (+{nuevos} nuevas, {acumuladas} en total)")
     return 0
 
 

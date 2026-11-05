@@ -59,3 +59,21 @@
 - Corregido: las imágenes con ruta relativa (`../storage/...` en Textile Today) se
   resuelven contra la URL del artículo; las tarjetas sin resumen ya no dejan un hueco.
 - Estado: 137 noticias, 31 fuentes (solo falta Hypebeast).
+
+## 2026-11-05 · capa de datos (el corpus)
+
+Objetivo del usuario: no el panel ni el bot, sino **acumular información** para construir
+encima. El panel es solo la vista.
+
+- Nuevo `datos/noticias.jsonl`: append-only, una noticia por línea, nunca se reescribe.
+  `datos/noticias.csv` se regenera entero desde el `.jsonl` (con BOM para Excel).
+  `docs/data/news-*.json` sigue guardando la edición completa del día.
+- **Bug corregido antes del primer dato**: el `id` era `hash(link)`, y el hash de Python
+  por defecto cambia en cada proceso. Los ids no habrían sido estables entre ejecuciones
+  y el corpus habría duplicado noticias. Ahora es `sha1(link)[:12]`.
+- Doble deduplicación del corpus: por `id` y por (medio + titular + día). La segunda es
+  necesaria porque BoF entra unos días por el espejo (enlace de Google) y otros directo:
+  el mismo artículo tiene dos enlaces distintos.
+- El workflow hace `git add docs digests datos`.
+- `datos/README.md` documenta los 12 campos y trae ejemplos en pandas / Excel / PowerShell.
+- Crecimiento previsto: ~90 KB/día, ~30 MB/año. Suficiente; si molesta, se rota por año.
