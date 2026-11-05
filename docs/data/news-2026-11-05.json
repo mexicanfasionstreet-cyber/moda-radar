@@ -1,9 +1,10 @@
 {
- "generated": "2026-11-05T18:21:29.724993Z",
+ "generated": "2026-11-05T18:26:13.492908Z",
  "days": 4,
- "count": 137,
- "sources_ok": 31,
+ "count": 127,
+ "sources_ok": 30,
  "sources_failed": [
+  "Drapers",
   "Hypebeast"
  ],
  "items": [
@@ -24,7 +25,7 @@
     "calzado"
    ],
    "also": [],
-   "id": "4168028736",
+   "id": "f7664b5b1ebe",
    "score": 8.4
   },
   {
@@ -44,7 +45,7 @@
     "retail"
    ],
    "also": [],
-   "id": "2948809573",
+   "id": "0d222d757654",
    "score": 9.15
   },
   {
@@ -64,7 +65,7 @@
     "diseno"
    ],
    "also": [],
-   "id": "7421087342",
+   "id": "c453b7690cad",
    "score": 8.45
   },
   {
@@ -84,7 +85,7 @@
     "personas"
    ],
    "also": [],
-   "id": "1404703867",
+   "id": "8f435f98a41e",
    "score": 8.95
   },
   {
@@ -104,7 +105,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "7952619176",
+   "id": "e6bcd06698a1",
    "score": 9.15
   },
   {
@@ -124,7 +125,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "9518869804",
+   "id": "4d5fcf071a27",
    "score": 9.55
   },
   {
@@ -144,7 +145,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "5559444201",
+   "id": "c6b5d98a3c2d",
    "score": 8.23
   },
   {
@@ -164,7 +165,7 @@
     "cultura"
    ],
    "also": [],
-   "id": "4423124275",
+   "id": "07d6cd84e201",
    "score": 8.35
   },
   {
@@ -184,7 +185,7 @@
     "diseno"
    ],
    "also": [],
-   "id": "6976328232",
+   "id": "b67015d0db78",
    "score": 7.25
   },
   {
@@ -204,7 +205,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "4097556836",
+   "id": "230f28301b7c",
    "score": 7.98
   },
   {
@@ -224,28 +225,8 @@
     "negocio"
    ],
    "also": [],
-   "id": "6300349429",
+   "id": "8e881e50dc49",
    "score": 9.55
-  },
-  {
-   "title": "TK Maxx unveils its new Christmas ad",
-   "link": "https://www.drapersonline.com/topics/christmas-trading-topics/tk-maxx-unveils-its-new-christmas-ad",
-   "excerpt": "Drapers TK Maxx unveils its new Christmas ad TK Maxx has returned to its “Festive Farm” campaign in its “Festive Crossing” Christmas advert. The post TK Maxx unveils its new Christmas ad appeared first on Drapers .",
-   "image": "",
-   "published": "2026-11-05T17:02:25Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "pasarela"
-   ],
-   "also": [],
-   "id": "1260863118",
-   "score": 7.69
   },
   {
    "title": "E.l.f. Beauty growth driven by innovation, not just pricing power",
@@ -264,7 +245,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "7969610236",
+   "id": "b58594496c94",
    "score": 8.82
   },
   {
@@ -284,7 +265,7 @@
     "pasarela"
    ],
    "also": [],
-   "id": "761522080",
+   "id": "81e3659d357c",
    "score": 8.65
   },
   {
@@ -304,7 +285,7 @@
     "personas"
    ],
    "also": [],
-   "id": "1021353677",
+   "id": "c895016050cc",
    "score": 8.1
   },
   {
@@ -324,7 +305,7 @@
     "diseno"
    ],
    "also": [],
-   "id": "6385671515",
+   "id": "ef302094eca0",
    "score": 8.45
   },
   {
@@ -349,7 +330,7 @@
     "Elle",
     "Harper's Bazaar ES"
    ],
-   "id": "7277671914",
+   "id": "f170cf4cb949",
    "score": 12.3
   },
   {
@@ -369,7 +350,7 @@
     "calzado"
    ],
    "also": [],
-   "id": "8615717327",
+   "id": "7896cc0654fa",
    "score": 7.11
   },
   {
@@ -389,28 +370,8 @@
     "negocio"
    ],
    "also": [],
-   "id": "7442934395",
+   "id": "142fcd88d93b",
    "score": 8.11
-  },
-  {
-   "title": "Drapers reveals Power 100 list 2026",
-   "link": "https://www.drapersonline.com/news/drapers-reveals-power-100-list-2026",
-   "excerpt": "Drapers Drapers reveals Power 100 list 2026 The prestigious Drapers Power 100 list is back for 2026, shining a spotlight on the fashion retail leaders who had the biggest impact on the sector this year. The post Drapers reveals…",
-   "image": "",
-   "published": "2026-11-05T16:00:12Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "retail"
-   ],
-   "also": [],
-   "id": "4933454010",
-   "score": 8.39
   },
   {
    "title": "Hunter Schafer’s Upcycled Look Is the Antithesis of Fall Dressing",
@@ -429,7 +390,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "7906961798",
+   "id": "ae074a42409d",
    "score": 8.54
   },
   {
@@ -449,7 +410,7 @@
     "personas"
    ],
    "also": [],
-   "id": "4812320199",
+   "id": "d1aa966ddb89",
    "score": 7.18
   },
   {
@@ -469,7 +430,7 @@
     "cultura"
    ],
    "also": [],
-   "id": "8165943686",
+   "id": "b645c7d05f58",
    "score": 7.5
   },
   {
@@ -489,28 +450,8 @@
     "industria"
    ],
    "also": [],
-   "id": "2400872065",
+   "id": "d50b6c9c9283",
    "score": 8.55
-  },
-  {
-   "title": "How Sosandar is bouncing back despite hot weather hitting autumn sales",
-   "link": "https://www.drapersonline.com/news/how-sosandar-is-bouncing-back-after-rising-temperatures-hit-autumn-sales",
-   "excerpt": "Drapers How Sosandar is bouncing back despite hot weather hitting autumn sales Sosandar almost halved its operating loss (38%) to £0.64m for the six months ended 30 September 2026, despite a \"challenging macro environment\".…",
-   "image": "",
-   "published": "2026-11-05T15:04:00Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "negocio"
-   ],
-   "also": [],
-   "id": "1389902949",
-   "score": 8.59
   },
   {
    "title": "Policy alignment is critical for green industrial transition",
@@ -529,7 +470,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "1762872722",
+   "id": "163ab91ad0b9",
    "score": 6.86
   },
   {
@@ -549,7 +490,7 @@
     "personas"
    ],
    "also": [],
-   "id": "7381263315",
+   "id": "39a03888497e",
    "score": 8.58
   },
   {
@@ -569,7 +510,7 @@
     "retail"
    ],
    "also": [],
-   "id": "1043006104",
+   "id": "8484ef790174",
    "score": 7.91
   },
   {
@@ -589,148 +530,8 @@
     "negocio"
    ],
    "also": [],
-   "id": "7172909175",
+   "id": "7243e05e83e4",
    "score": 8.95
-  },
-  {
-   "title": "Power 100 2026: Who are this year’s Sportswear Superstars?",
-   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-sportswear-superstars",
-   "excerpt": "Drapers Power 100 2026: Who are this year’s Sportswear Superstars? Adidas, Alo, Castore, Gymshark, Lululemon, Nike, On, Sweaty Betty and Vuori make up this year's Sportswear Superstars. The post Power 100 2026: Who are this…",
-   "image": "",
-   "published": "2026-11-05T14:00:47Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "industria"
-   ],
-   "also": [],
-   "id": "4230716843",
-   "score": 7.79
-  },
-  {
-   "title": "Power 100 2026: Who are this year’s Mainstream Masters?",
-   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-mainstream-masters",
-   "excerpt": "Drapers Power 100 2026: Who are this year’s Mainstream Masters? Ann Summers , Bectin , Fast Retailing, Hawes & Curtis, Mango, Mint Velvet, Moss, M&S Woman, River Island and TFG London make up this year's Mainstream Masters. The…",
-   "image": "",
-   "published": "2026-11-05T14:00:45Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "industria"
-   ],
-   "also": [],
-   "id": "976590456",
-   "score": 7.79
-  },
-  {
-   "title": "Power 100 2026: Who are this year’s Footwear’s Finest?",
-   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-footwears-finest",
-   "excerpt": "Drapers Power 100 2026: Who are this year’s Footwear’s Finest? Birkenstock, Crocs, Dr Martens, Dune London, FitFlop, Footasylum, Kurt Geiger, New Balance and Schuh make up this year's Footwear's Finest. The post Power 100 2026…",
-   "image": "",
-   "published": "2026-11-05T14:00:44Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "calzado"
-   ],
-   "also": [],
-   "id": "4481473925",
-   "score": 7.59
-  },
-  {
-   "title": "Power 100 2026: Who are this year’s Buzz Brands?",
-   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-buzz-brands",
-   "excerpt": "Drapers Power 100 2026: Who are this year’s Buzz Brands? Adanola, Aritzia, Arne, Damson Madder, Nadine Merabi, Never Fully Dressed, Nobody's Child, Odd Muse, Represent, Sézane, Skims, Tala, Tolu Coker, Topshop make up this year's…",
-   "image": "",
-   "published": "2026-11-05T14:00:39Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "industria"
-   ],
-   "also": [],
-   "id": "1686031080",
-   "score": 7.79
-  },
-  {
-   "title": "Power 100 2026: Who are this year’s Catwalk Captains?",
-   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-catwalk-captains-2",
-   "excerpt": "Drapers Power 100 2026: Who are this year’s Catwalk Captains? Alexander McQueen, Burberry, Chanel, Dior Gucci, Hermès, Louis Vuitton, Prada and Valentino make up this year's Catwalk Captains. The post Power 100 2026: Who are this…",
-   "image": "",
-   "published": "2026-11-05T14:00:33Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "pasarela"
-   ],
-   "also": [],
-   "id": "6691707083",
-   "score": 7.69
-  },
-  {
-   "title": "Power 100 2026: Who are this year’s Conscious Fashion Crusaders?",
-   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-conscious-fashion-crusaders",
-   "excerpt": "Drapers Power 100 2026: Who are this year’s Conscious Fashion Crusaders? Akyn, Ebay UK, Nigel Cabourn, Reformation, Sojo and Vinted Marketplace make up this year’s Conscious Fashion Crusaders. The post Power 100 2026: Who are…",
-   "image": "",
-   "published": "2026-11-05T14:00:32Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "retail"
-   ],
-   "also": [],
-   "id": "6258910332",
-   "score": 8.39
-  },
-  {
-   "title": "Power 100 2026: Who are this year’s Lifestyle Leaders?",
-   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-lifestyle-leaders-2",
-   "excerpt": "Drapers Power 100 2026: Who are this year’s Lifestyle Leaders? Amer Sports, Barbour, Boden, FatFace, Passenger, Patagonia, Superdry and The White Company make up this year's Lifestyle Leaders. The post Power 100 2026: Who are…",
-   "image": "",
-   "published": "2026-11-05T14:00:31Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "industria"
-   ],
-   "also": [],
-   "id": "7819873891",
-   "score": 7.79
   },
   {
    "title": "Storari: “Ancora grandi brand della moda usufruiscono del caporalato”",
@@ -749,7 +550,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "9272957648",
+   "id": "b61d02c1254d",
    "score": 7.95
   },
   {
@@ -769,7 +570,7 @@
     "retail"
    ],
    "also": [],
-   "id": "7379191021",
+   "id": "0d6f2de5e16e",
    "score": 7.91
   },
   {
@@ -789,7 +590,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "909356787",
+   "id": "4fb82f536a4f",
    "score": 8.94
   },
   {
@@ -809,7 +610,7 @@
     "retail"
    ],
    "also": [],
-   "id": "8065169434",
+   "id": "2a30363907f7",
    "score": 8.5
   },
   {
@@ -829,7 +630,7 @@
     "calzado"
    ],
    "also": [],
-   "id": "7367461187",
+   "id": "9f326672a2dc",
    "score": 7.11
   },
   {
@@ -849,7 +650,7 @@
     "calzado"
    ],
    "also": [],
-   "id": "4469178928",
+   "id": "dcd8241cd217",
    "score": 7.11
   },
   {
@@ -869,7 +670,7 @@
     "retail"
    ],
    "also": [],
-   "id": "8404580726",
+   "id": "42abc3122b95",
    "score": 6.82
   },
   {
@@ -891,7 +692,7 @@
    "also": [
     "Vogue"
    ],
-   "id": "6442868402",
+   "id": "1c14a38d6542",
    "score": 9.45
   },
   {
@@ -911,7 +712,7 @@
     "personas"
    ],
    "also": [],
-   "id": "4710850927",
+   "id": "557130ae9d0c",
    "score": 7.15
   },
   {
@@ -931,7 +732,7 @@
     "calzado"
    ],
    "also": [],
-   "id": "8507264060",
+   "id": "c7c9fe8bf130",
    "score": 7.1
   },
   {
@@ -951,7 +752,7 @@
     "retail"
    ],
    "also": [],
-   "id": "9691229853",
+   "id": "dbc8ad686027",
    "score": 7.79
   },
   {
@@ -971,7 +772,7 @@
     "retail"
    ],
    "also": [],
-   "id": "5486790705",
+   "id": "a514f53be634",
    "score": 7.18
   },
   {
@@ -991,7 +792,7 @@
     "personas"
    ],
    "also": [],
-   "id": "2849101294",
+   "id": "65bdec22ccaf",
    "score": 7.74
   },
   {
@@ -1011,7 +812,7 @@
     "diseno"
    ],
    "also": [],
-   "id": "442553301",
+   "id": "aa882b3c0a27",
    "score": 6.65
   },
   {
@@ -1031,7 +832,7 @@
     "industria"
    ],
    "also": [],
-   "id": "1988930448",
+   "id": "735e0f8c1d12",
    "score": 6.95
   },
   {
@@ -1051,7 +852,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "2222497722",
+   "id": "7f418b2b4f87",
    "score": 8.34
   },
   {
@@ -1071,7 +872,7 @@
     "personas"
    ],
    "also": [],
-   "id": "7452729118",
+   "id": "c4114c65905b",
    "score": 7.74
   },
   {
@@ -1091,7 +892,7 @@
     "pasarela"
    ],
    "also": [],
-   "id": "3963743298",
+   "id": "1642807b8641",
    "score": 7.44
   },
   {
@@ -1111,7 +912,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "9372338855",
+   "id": "fd985a81f3f6",
    "score": 8.34
   },
   {
@@ -1131,7 +932,7 @@
     "retail"
    ],
    "also": [],
-   "id": "2566947272",
+   "id": "c7b9e1abd81f",
    "score": 8.14
   },
   {
@@ -1151,7 +952,7 @@
     "diseno"
    ],
    "also": [],
-   "id": "5340228019",
+   "id": "88f2b5075aff",
    "score": 7.24
   },
   {
@@ -1171,7 +972,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "7840091505",
+   "id": "cb1c95b6fcce",
    "score": 6.26
   },
   {
@@ -1191,7 +992,7 @@
     "industria"
    ],
    "also": [],
-   "id": "2410123958",
+   "id": "610fead427d8",
    "score": 7.54
   },
   {
@@ -1211,7 +1012,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "3539402123",
+   "id": "549b63ea1cdc",
    "score": 7.75
   },
   {
@@ -1231,7 +1032,7 @@
     "retail"
    ],
    "also": [],
-   "id": "2306017294",
+   "id": "ae509e4b0891",
    "score": 8.14
   },
   {
@@ -1251,7 +1052,7 @@
     "industria"
    ],
    "also": [],
-   "id": "5597542123",
+   "id": "f51533ffba8a",
    "score": 7.95
   },
   {
@@ -1271,7 +1072,7 @@
     "personas"
    ],
    "also": [],
-   "id": "9088853450",
+   "id": "0f8ae6891680",
    "score": 7.75
   },
   {
@@ -1291,7 +1092,7 @@
     "industria"
    ],
    "also": [],
-   "id": "7761271090",
+   "id": "5c40e24983cb",
    "score": 7.55
   },
   {
@@ -1311,7 +1112,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "9916994462",
+   "id": "bb13edb2f24e",
    "score": 8.35
   },
   {
@@ -1331,7 +1132,7 @@
     "retail"
    ],
    "also": [],
-   "id": "1181713286",
+   "id": "059c8f653394",
    "score": 8.15
   },
   {
@@ -1351,7 +1152,7 @@
     "personas"
    ],
    "also": [],
-   "id": "6336901586",
+   "id": "18f7e24fd767",
    "score": 7.75
   },
   {
@@ -1371,7 +1172,7 @@
     "industria"
    ],
    "also": [],
-   "id": "2966339190",
+   "id": "46a4cd112779",
    "score": 7.4
   },
   {
@@ -1391,7 +1192,7 @@
     "industria"
    ],
    "also": [],
-   "id": "3486941474",
+   "id": "ca764d5f04e9",
    "score": 7.95
   },
   {
@@ -1411,7 +1212,7 @@
     "retail"
    ],
    "also": [],
-   "id": "5314217434",
+   "id": "81c8ef4bd155",
    "score": 7.43
   },
   {
@@ -1431,7 +1232,7 @@
     "belleza"
    ],
    "also": [],
-   "id": "519087014",
+   "id": "f08443ba22f3",
    "score": 6.53
   },
   {
@@ -1451,7 +1252,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "9793597302",
+   "id": "a27c8e1ace5a",
    "score": 6.26
   },
   {
@@ -1471,7 +1272,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "192096515",
+   "id": "c4cecb590188",
    "score": 6.26
   },
   {
@@ -1491,7 +1292,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "8217351708",
+   "id": "88923ad82dcf",
    "score": 6.26
   },
   {
@@ -1511,7 +1312,7 @@
     "industria"
    ],
    "also": [],
-   "id": "3352764087",
+   "id": "d7de47fc7ce9",
    "score": 5.86
   },
   {
@@ -1531,7 +1332,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "6216011089",
+   "id": "c1e718ec5bdc",
    "score": 7.13
   },
   {
@@ -1551,7 +1352,7 @@
     "retail"
    ],
    "also": [],
-   "id": "1192580734",
+   "id": "140e82b416b9",
    "score": 6.93
   },
   {
@@ -1571,7 +1372,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "70498020",
+   "id": "f1011b98799b",
    "score": 6.77
   },
   {
@@ -1591,7 +1392,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "4959995607",
+   "id": "bf0e4d1ad1f0",
    "score": 6.52
   },
   {
@@ -1611,7 +1412,7 @@
     "retail"
    ],
    "also": [],
-   "id": "7672983948",
+   "id": "13a6ef11abec",
    "score": 7.4
   },
   {
@@ -1631,7 +1432,7 @@
     "retail"
    ],
    "also": [],
-   "id": "6566957608",
+   "id": "54ff7a24c34d",
    "score": 7.4
   },
   {
@@ -1651,7 +1452,7 @@
     "cultura"
    ],
    "also": [],
-   "id": "7028191498",
+   "id": "9d4fd224af99",
    "score": 6.05
   },
   {
@@ -1671,7 +1472,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "6204538390",
+   "id": "0c373155a7e1",
    "score": 6.52
   },
   {
@@ -1691,7 +1492,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "4810129298",
+   "id": "1d01fce7c766",
    "score": 5.76
   },
   {
@@ -1711,7 +1512,7 @@
     "belleza"
    ],
    "also": [],
-   "id": "6944818626",
+   "id": "5ce07208c619",
    "score": 6.5
   },
   {
@@ -1731,7 +1532,7 @@
     "personas"
    ],
    "also": [],
-   "id": "945407389",
+   "id": "3ce8cab1ef24",
    "score": 6.77
   },
   {
@@ -1751,7 +1552,7 @@
     "industria"
    ],
    "also": [],
-   "id": "5765922649",
+   "id": "76e1a5a7884d",
    "score": 6.8
   },
   {
@@ -1771,7 +1572,7 @@
     "industria"
    ],
    "also": [],
-   "id": "7649287203",
+   "id": "f0f19e54613b",
    "score": 7.3
   },
   {
@@ -1791,7 +1592,7 @@
     "retail"
    ],
    "also": [],
-   "id": "8129074589",
+   "id": "f19699418a4c",
    "score": 7.4
   },
   {
@@ -1811,7 +1612,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "5470735561",
+   "id": "0a521dd7f6e6",
    "score": 8.25
   },
   {
@@ -1831,7 +1632,7 @@
     "retail"
    ],
    "also": [],
-   "id": "5636382744",
+   "id": "e323cec6b069",
    "score": 7.4
   },
   {
@@ -1851,7 +1652,7 @@
     "retail"
    ],
    "also": [],
-   "id": "1341360392",
+   "id": "9877db298e62",
    "score": 6.53
   },
   {
@@ -1871,7 +1672,7 @@
     "retail"
    ],
    "also": [],
-   "id": "6422985323",
+   "id": "c4fdf70ab69e",
    "score": 6.53
   },
   {
@@ -1891,7 +1692,7 @@
     "industria"
    ],
    "also": [],
-   "id": "2514295508",
+   "id": "5d5d492e14d9",
    "score": 6.8
   },
   {
@@ -1911,7 +1712,7 @@
     "cultura"
    ],
    "also": [],
-   "id": "8229851915",
+   "id": "afe05ba34e26",
    "score": 6.05
   },
   {
@@ -1931,7 +1732,7 @@
     "industria"
    ],
    "also": [],
-   "id": "2219566352",
+   "id": "646920a1be12",
    "score": 6.45
   },
   {
@@ -1951,7 +1752,7 @@
     "industria"
    ],
    "also": [],
-   "id": "5874650816",
+   "id": "a7539134e658",
    "score": 6.45
   },
   {
@@ -1971,7 +1772,7 @@
     "industria"
    ],
    "also": [],
-   "id": "623120317",
+   "id": "3a1e75bedd94",
    "score": 6.45
   },
   {
@@ -1991,7 +1792,7 @@
     "personas"
    ],
    "also": [],
-   "id": "751052968",
+   "id": "4ccb055f9909",
    "score": 7.0
   },
   {
@@ -2011,7 +1812,7 @@
     "diseno"
    ],
    "also": [],
-   "id": "8739099029",
+   "id": "7bdc351658d7",
    "score": 6.59
   },
   {
@@ -2031,7 +1832,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "3071998342",
+   "id": "25cb98434b07",
    "score": 7.84
   },
   {
@@ -2051,7 +1852,7 @@
     "pasarela"
    ],
    "also": [],
-   "id": "8832334463",
+   "id": "f74c89f83b8b",
    "score": 6.94
   },
   {
@@ -2071,7 +1872,7 @@
     "pasarela"
    ],
    "also": [],
-   "id": "5106670194",
+   "id": "a150530b3c9d",
    "score": 6.94
   },
   {
@@ -2091,7 +1892,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "8619219091",
+   "id": "23059602e4c4",
    "score": 7.44
   },
   {
@@ -2111,7 +1912,7 @@
     "personas"
    ],
    "also": [],
-   "id": "6948705095",
+   "id": "ed0666e45673",
    "score": 7.24
   },
   {
@@ -2131,7 +1932,7 @@
     "retail"
    ],
    "also": [],
-   "id": "7248485328",
+   "id": "35408dd27615",
    "score": 7.64
   },
   {
@@ -2151,7 +1952,7 @@
     "industria"
    ],
    "also": [],
-   "id": "63546455",
+   "id": "fb342aa29ad7",
    "score": 6.95
   },
   {
@@ -2171,7 +1972,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "4278444202",
+   "id": "16440fc45ba8",
    "score": 6.63
   },
   {
@@ -2191,7 +1992,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "3585871125",
+   "id": "9993a7f8c65f",
    "score": 6.63
   },
   {
@@ -2211,7 +2012,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "107612321",
+   "id": "7c7cbd29c6f8",
    "score": 5.66
   },
   {
@@ -2231,7 +2032,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "6139265799",
+   "id": "120744c82bad",
    "score": 5.66
   },
   {
@@ -2251,7 +2052,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "1870854948",
+   "id": "652fd0c59305",
    "score": 5.26
   },
   {
@@ -2271,7 +2072,7 @@
     "industria"
    ],
    "also": [],
-   "id": "3549644767",
+   "id": "a187e3e6a667",
    "score": 4.86
   },
   {
@@ -2291,7 +2092,7 @@
     "retail"
    ],
    "also": [],
-   "id": "9839884626",
+   "id": "0d799ffec1c1",
    "score": 6.18
   },
   {
@@ -2311,7 +2112,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "6694467709",
+   "id": "c684a5a5902f",
    "score": 7.1
   },
   {
@@ -2331,7 +2132,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "6449312779",
+   "id": "dea9120bb08b",
    "score": 5.66
   },
   {
@@ -2351,7 +2152,7 @@
     "cultura"
    ],
    "also": [],
-   "id": "7254717681",
+   "id": "c5d6f3ae8f67",
    "score": 5.9
   },
   {
@@ -2371,7 +2172,7 @@
     "pasarela"
    ],
    "also": [],
-   "id": "8929442499",
+   "id": "aa834e13470c",
    "score": 6.2
   },
   {
@@ -2391,7 +2192,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "9159955051",
+   "id": "ed3411397bd9",
    "score": 5.26
   },
   {
@@ -2411,7 +2212,7 @@
     "industria"
    ],
    "also": [],
-   "id": "1857764807",
+   "id": "0835941a3bba",
    "score": 4.86
   },
   {
@@ -2431,7 +2232,7 @@
     "cultura"
    ],
    "also": [],
-   "id": "232997595",
+   "id": "66438b9a2fc1",
    "score": 4.46
   },
   {
@@ -2451,7 +2252,7 @@
     "retail"
    ],
    "also": [],
-   "id": "1869964758",
+   "id": "4f5a652bc8f6",
    "score": 7.55
   },
   {
@@ -2471,12 +2272,12 @@
     "belleza"
    ],
    "also": [],
-   "id": "5168276989",
+   "id": "a4caaa47f76c",
    "score": 5.53
   },
   {
    "title": "From Textile Waste To Spinning-Grade Fiber: STADLER Group Engineers Integrated Sorting Solution For IGERS In Italy",
-   "link": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6aecc926c6ab4565943ae6fea3674948&url=https%3A%2F%2Fwww.textileworld.com%2Ftextile-world%2F2026%2F11%2Ffrom-textile-waste-to-spinning-grade-fiber-stadler-group-engineers-integrated-sorting-solution-for-igers-in-italy%2F&c=9215284507977087362&mkt=en-us",
+   "link": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6aecca45831b455f964f938e2c3ed1e7&url=https%3A%2F%2Fwww.textileworld.com%2Ftextile-world%2F2026%2F11%2Ffrom-textile-waste-to-spinning-grade-fiber-stadler-group-engineers-integrated-sorting-solution-for-igers-in-italy%2F&c=9215284507977087362&mkt=en-us",
    "excerpt": "STADLER Group, the globally active German company specialized in the planning, production and assembly of turnkey sorting plants, has acted as technology partner to IGERS s.r.l. in the development of ...",
    "image": "",
    "published": "2026-11-03T04:38:00Z",
@@ -2491,7 +2292,7 @@
     "sostenibilidad"
    ],
    "also": [],
-   "id": "5461898670",
+   "id": "d7bb433b883a",
    "score": 5.39
   },
   {
@@ -2511,7 +2312,7 @@
     "cultura"
    ],
    "also": [],
-   "id": "4029861679",
+   "id": "0dbf56c01a5e",
    "score": 5.9
   },
   {
@@ -2531,7 +2332,7 @@
     "pasarela"
    ],
    "also": [],
-   "id": "2890539908",
+   "id": "d0314a712104",
    "score": 6.85
   },
   {
@@ -2551,7 +2352,7 @@
     "industria"
    ],
    "also": [],
-   "id": "3771304188",
+   "id": "78c1d866a5d9",
    "score": 6.95
   },
   {
@@ -2571,7 +2372,7 @@
     "retail"
    ],
    "also": [],
-   "id": "2826136807",
+   "id": "5faa9ae4c42d",
    "score": 6.98
   },
   {
@@ -2591,7 +2392,7 @@
     "retail"
    ],
    "also": [],
-   "id": "9830807782",
+   "id": "9a5ca90ccb8c",
    "score": 6.5
   },
   {
@@ -2611,7 +2412,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "4387620541",
+   "id": "1b361c4ef1b1",
    "score": 5.86
   },
   {
@@ -2631,7 +2432,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "3257216429",
+   "id": "565c3778395b",
    "score": 7.35
   },
   {
@@ -2651,7 +2452,7 @@
     "negocio"
    ],
    "also": [],
-   "id": "5299472109",
+   "id": "26c34456159a",
    "score": 6.23
   },
   {
@@ -2671,7 +2472,7 @@
     "diseno"
    ],
    "also": [],
-   "id": "441588540",
+   "id": "15bf5ae5a785",
    "score": 6.25
   },
   {
@@ -2691,7 +2492,7 @@
     "retail"
    ],
    "also": [],
-   "id": "746886966",
+   "id": "9c53258cb841",
    "score": 7.15
   },
   {
@@ -2711,7 +2512,7 @@
     "industria"
    ],
    "also": [],
-   "id": "540106447",
+   "id": "b51c4a204d46",
    "score": 6.55
   },
   {
@@ -2731,7 +2532,7 @@
     "pasarela"
    ],
    "also": [],
-   "id": "209735233",
+   "id": "3af8dd1699eb",
    "score": 6.45
   },
   {
@@ -2751,7 +2552,7 @@
     "pasarela"
    ],
    "also": [],
-   "id": "5054824782",
+   "id": "ac222c24319e",
    "score": 5.33
   }
  ]
