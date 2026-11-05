@@ -42,8 +42,8 @@ ZOOM_W, ZOOM_H = 1188, 2112  # 10% extra para que el paneo no deje bordes
 FPS = 30
 MAX_ITEMS = 5
 KEEP_VIDEOS = 10
-VOICE = os.environ.get("CAPSULE_VOICE", "es-MX-DaliaNeural")
-RATE = os.environ.get("CAPSULE_RATE", "+8%")
+VOICE = os.environ.get("CAPSULE_VOICE") or "es-MX-DaliaNeural"
+RATE = os.environ.get("CAPSULE_RATE") or "+8%"
 ACCENT = (255, 77, 109)
 BG = (10, 10, 12)
 
@@ -201,8 +201,8 @@ def llm_script(items, fecha):
     key = os.environ.get("LLM_API_KEY") or os.environ.get("DEEPSEEK_API_KEY") or os.environ.get("OPENAI_API_KEY")
     if not key:
         return None, "sin clave API"
-    base = os.environ.get("LLM_BASE_URL", "https://api.deepseek.com/v1").rstrip("/")
-    model = os.environ.get("LLM_MODEL", "deepseek-chat")
+    base = (os.environ.get("LLM_BASE_URL") or "https://api.deepseek.com/v1").rstrip("/")
+    model = os.environ.get("LLM_MODEL") or "deepseek-chat"
     body = {
         "model": model,
         "messages": [{"role": "user", "content": build_prompt(items, fecha)}],
