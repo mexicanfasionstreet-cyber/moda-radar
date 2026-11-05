@@ -687,6 +687,31 @@ def concat_slides(slides, out_path, workdir):
     ])
 
 
+def normalize_loudness(path, workdir, target=-17.0):
+    """Sube el volumen al nivel de redes sociales; en el móvil se entiende mucho mejor."""
+    try:
+        p = subprocess.run(
+            ["ffmpeg", "-i", str(path), "-af", "volumedetect", "-f", "null", "-"],
+            capture_output=True, text=True,
+        )
+        m = re.search(r"mean_volume:\s*(-?\d+(?:\.\d+)?) dB", p.stderr)
+        if not m:
+            return 0.0
+        ganancia = max(0.0, min(9.0, target - float(m.group(1))))
+        if ganancia < 0.5:
+            return 0.0
+        tmp = workdir / "norm.mp4"
+        run([
+            "ffmpeg", "-y", "-loglevel", "error", "-i", str(path), "-c:v", "copy",
+            "-af", f"volume={ganancia:.1f}dB,alimiter=limit=0.89",
+            "-c:a", "aac", "-b:a", "128k", "-ar", "48000", str(tmp),
+        ])
+        shutil.move(str(tmp), str(path))
+        return ganancia
+    except Exception:  # noqa: BLE001
+        return 0.0
+
+
 def cover_frame(video, out_path):
     try:
         dur = ffprobe_duration(video)
@@ -803,6 +828,7 @@ def main(argv=None):
 
         # 5. unir
         concat_slides(slides, final, work)
+        ganancia = normalize_loudness(final, work)
         total = ffprobe_duration(final)
         cover = cover_frame(final, outdir / f"{fecha}-portada.jpg")
 
@@ -828,6 +854,8 @@ def main(argv=None):
 
         size_mb = final.stat().st_size / 1024 / 1024
         print(f"\nListo: {final.relative_to(root)} · {total:.1f}s · {size_mb:.1f} MB")
+        if ganancia:
+            print(f"Audio normalizado: +{ganancia:.1f} dB")
         if cover:
             print(f"Portada: {cover.relative_to(root)}")
         return 0
