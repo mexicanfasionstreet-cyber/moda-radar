@@ -34,7 +34,12 @@ jobs:
           python-version: "3.12"
 
       - name: Instalar dependencias del video
-        run: pip install --quiet edge-tts pillow
+        run: |
+          if ! command -v ffprobe >/dev/null; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq ffmpeg
+          fi
+          pip install --quiet edge-tts pillow
 
       - name: Agregar noticias y generar panel
         run: python aggregate.py --days 4
