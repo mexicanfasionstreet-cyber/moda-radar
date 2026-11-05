@@ -23,6 +23,7 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import html as htmllib
 import json
 import math
 import os
@@ -30,7 +31,8 @@ import re
 import shutil
 import subprocess
 import sys
-import tempfile
+import time
+import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -43,7 +45,7 @@ FPS = 30
 MAX_ITEMS = 5
 KEEP_VIDEOS = 10
 VOICE = os.environ.get("CAPSULE_VOICE") or "es-MX-DaliaNeural"
-RATE = os.environ.get("CAPSULE_RATE") or "+8%"
+RATE = os.environ.get("CAPSULE_RATE") or "+5%"
 ACCENT = (255, 77, 109)
 BG = (10, 10, 12)
 
@@ -127,12 +129,120 @@ def fit_headline(draw, text, max_width, max_lines, sizes=(76, 68, 60, 54, 48, 42
     return font, wrap(draw, text, font, max_width)[:max_lines]
 
 
+TRAILING = {
+    "a", "al", "de", "del", "en", "con", "por", "para", "que", "y", "o", "el", "la",
+    "los", "las", "un", "una", "unos", "unas", "su", "sus", "lo", "se", "como", "más",
+}
+
+
 def short_title(title, words=8):
-    clean = re.sub(r"\s+", " ", title).strip()
+    """Titular de pantalla: recorta sin dejar preposiciones colgando."""
+    clean = re.sub(r"\s+", " ", title).strip().rstrip(" .;:")
     parts = clean.split(" ")
     if len(parts) <= words:
-        return clean.rstrip(" .,:;")
-    return " ".join(parts[:words]).rstrip(",.;:") + "…"
+        return clean
+    cut = parts[:words]
+    while len(cut) > 3 and cut[-1].lower().strip(",;:") in TRAILING:
+        cut.pop()
+    return " ".join(cut).rstrip(",;:.") + "…"
+
+
+# --------------------------------------------------------------------------- traducción
+
+_TR_CACHE = {}
+
+
+def translate_es(text):
+    """Traduce al español sin clave (Google gtx). Devuelve '' si falla."""
+    text = (text or "").strip()
+    if not text:
+        return ""
+    if text in _TR_CACHE:
+        return _TR_CACHE[text]
+    q = urllib.parse.quote(text[:1400])
+    url = (
+        "https://translate.googleapis.com/translate_a/single"
+        f"?client=gtx&sl=auto&tl=es&dt=t&q={q}"
+    )
+    for intento in range(3):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                data = json.loads(r.read().decode("utf-8"))
+            out = "".join(p[0] for p in data[0] if p[0]).strip()
+            if out:
+                _TR_CACHE[text] = out
+                return out
+        except Exception:  # noqa: BLE001
+            pass
+        time.sleep(0.7 * (intento + 1))  # Google corta si se piden muchas seguidas
+    print(f"  ! no se pudo traducir: {text[:60]}")
+    return ""
+
+
+# --------------------------------------------------------------------------- imagen desde la página
+
+META_IMG = re.compile(
+    r"""<meta[^>]+(?:property|name)\s*=\s*["'](?:og:image|twitter:image)["']"""
+    r"""[^>]+content\s*=\s*["']([^"']+)["']""",
+    re.I,
+)
+
+
+def og_image(link):
+    """Busca la imagen de portada en el HTML del artículo (muchos RSS no la traen)."""
+    try:
+        req = urllib.request.Request(link, headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=25) as r:
+            raw = r.read(600000)
+        m = META_IMG.search(raw.decode("utf-8", "ignore"))
+        if m:
+            return htmllib.unescape(m.group(1))
+    except Exception:  # noqa: BLE001
+        pass
+    return None
+
+
+META_DESC = re.compile(
+    r"""<meta[^>]+(?:property|name)\s*=\s*["'](?:og:description|description)["']"""
+    r"""[^>]+content\s*=\s*["']([^"']+)["']""",
+    re.I,
+)
+
+
+def page_description(link):
+    """Entradilla de la página, para noticias cuyo RSS no trae resumen."""
+    try:
+        req = urllib.request.Request(link, headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=25) as r:
+            raw = r.read(600000)
+        m = META_DESC.search(raw.decode("utf-8", "ignore"))
+        if m:
+            txt = htmllib.unescape(m.group(1)).strip()
+            txt = re.sub(r"\s+", " ", txt)
+            if len(txt) > 40:
+                return txt
+    except Exception:  # noqa: BLE001
+        pass
+    return ""
+
+
+def resolve_images(items, limit=14):
+    """Completa con og:image las noticias sin foto antes de seleccionar."""
+    faltan = sorted(
+        [it for it in items if not it.get("image")],
+        key=lambda x: x.get("score", 0),
+        reverse=True,
+    )
+    hechas = 0
+    for it in faltan:
+        if hechas >= limit:
+            break
+        hechas += 1
+        img = og_image(it["link"])
+        if img:
+            it["image"] = img
+    return sum(1 for it in items if it.get("image"))
 
 
 # --------------------------------------------------------------------------- selección
@@ -174,14 +284,17 @@ Hoy es {fecha}. Estas son las noticias seleccionadas:
 
 {noticias}
 
-Escribe el guion de una capsula vertical de 45 segundos, en espanol neutro, tono informativo y agil.
+Escribe el guion de una capsula vertical de 55 segundos, en espanol neutro, tono informativo y agil.
 Reglas:
 - "hook": una sola frase de gancho, maximo 14 palabras, que resuma lo mas importante del dia.
 - "segments": un objeto por noticia, en el mismo orden, con:
    - "n": numero de la noticia
-   - "text": lo que dice la voz en off, maximo 22 palabras, reescrito con tus palabras (no copies el titular)
+   - "text": la voz en off explica la noticia en DOS frases y entre 22 y 32 palabras:
+     que ha pasado y por que importa. No copies el titular ni lo empieces con "Segun".
    - "titular": texto corto para pantalla, maximo 7 palabras, sin punto final
 - "outro": una frase de cierre, maximo 10 palabras.
+- Todo en espanol: traduce marcas de productos si hace falta explicarlas, pero deja los
+  nombres propios (Chanel, Kering, Balenciaga) como estan.
 - No inventes cifras ni datos que no aparezcan en las noticias.
 - No uses comillas ni asteriscos.
 Devuelve SOLO el JSON, sin explicaciones."""
@@ -230,16 +343,47 @@ def llm_script(items, fecha):
     return None, "fallo IA"
 
 
+def first_sentence(text, minlen=40, maxlen=190):
+    """Primera frase útil: ignora abreviaturas tipo 'Dr.' y no se pasa de largo."""
+    text = re.sub(r"\s+", " ", (text or "").strip())
+    if not text:
+        return ""
+    if len(text) <= maxlen:
+        return text
+    corte = text.find(". ", minlen)
+    frase = text[: corte + 1] if corte != -1 else text[:maxlen]
+    if len(frase) > maxlen:
+        coma = frase.rfind(", ", 0, maxlen)
+        frase = frase[: coma + 1] if coma > 80 else frase[:maxlen].rsplit(" ", 1)[0] + "."
+    return frase.strip()
+
+
+def clip_words(text, n):
+    """Recorta a n palabras cerrando en coma o punto si se puede."""
+    text = re.sub(r"\s+", " ", (text or "").strip())
+    words = text.split(" ")
+    if len(words) <= n:
+        return text
+    cut = " ".join(words[:n])
+    coma = cut.rfind(", ")
+    if coma > len(cut) * 0.5:
+        return cut[: coma + 1]
+    return cut.rstrip(",;:.") + "."
+
+
 def template_script(items):
+    """Sin IA: traduce al español y arma un resumen con titular + entradilla."""
     segs = []
     for i, it in enumerate(items, 1):
-        base = it["title"].rstrip(" .")
-        extra = ""
-        if it.get("excerpt"):
-            first = re.split(r"(?<=[.!?])\s", it["excerpt"])[0].strip()
-            if len(first) > 20 and len(first) < 140:
-                extra = " " + first
-        segs.append({"n": i, "text": f"{base}.{extra}", "titular": short_title(it["title"])})
+        titulo_es = translate_es(it["title"]) or it["title"]
+        resumen = it.get("excerpt") or page_description(it["link"])
+        frase = ""
+        if resumen:
+            primera = first_sentence(resumen)
+            if primera and len(primera) > 20:
+                frase = clip_words(translate_es(primera), 18)
+        texto = f"{titulo_es.rstrip(' .')}. {frase}".strip()
+        segs.append({"n": i, "text": texto, "titular": short_title(titulo_es)})
     return {
         "hook": "Estas son las noticias que mueven hoy la industria de la moda.",
         "segments": segs,
@@ -520,7 +664,8 @@ def main(argv=None):
     ap.add_argument("--out", default="docs/videos", help="carpeta de salida")
     ap.add_argument("--items", type=int, default=MAX_ITEMS, help="noticias en la cápsula")
     ap.add_argument("--tts", choices=["edge", "silent"], default="edge", help="motor de voz")
-    ap.add_argument("--no-llm", action="store_true", help="no usar IA aunque haya clave")
+    ap.add_argument("--no-llm", action="store_true", help="forzar la plantilla sin IA")
+    ap.add_argument("--no-trad", action="store_true", help="no traducir (para depurar la plantilla)")
     ap.add_argument("--dry-run", action="store_true", help="solo mostrar el guion")
     ap.add_argument("--keep", type=int, default=KEEP_VIDEOS, help="vídeos a conservar")
     ap.add_argument("--workdir", default=".tmp", help="carpeta de trabajo (se borra al final)")
@@ -543,6 +688,9 @@ def main(argv=None):
         print("Muy pocas noticias para montar la capsula.")
         return 1
 
+    # las noticias sin foto en el RSS suelen tenerla en la página: la buscamos antes de elegir
+    con_foto = resolve_images(items)
+    print(f"imagenes resueltas: {con_foto}/{len(items)}")
     picked = pick_items(items, args.items)
     fecha = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 

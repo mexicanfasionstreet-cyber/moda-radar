@@ -102,3 +102,27 @@ Decisiones: vertical 1080x1920, ~45 s, en GitHub Actions, guion con IA, voz
   `aggregate.py --render-only` (se rehace el HTML al terminar el vídeo).
 - Rotación: se conservan los 10 últimos mp4. Peso ~2 MB/día; el historial de Git crece.
   Si algún día molesta, la salida limpia es subirlos como *release assets* o artefactos.
+
+## 2026-11-05 · segunda vuelta de la cápsula (queja del usuario)
+
+Síntomas: "no habla bien, no está en español, una nota sin imagen, solo lee encabezados".
+
+Diagnóstico: sin clave de IA, la plantilla leía **titulares en inglés con voz española**
+(exactamente eso es "no se entiende"). Y solo leía el titular porque no había resumen.
+
+Cambios:
+- **Traducción sin clave**: `translate_es()` usa el endpoint público de Google
+  (`translate_a/single`, cliente gtx). Con 3 reintentos porque corta si se piden muchas
+  seguidas. Así el modo sin IA también sale en español.
+- **Resumen, no titular**: la plantilla usa titular traducido + primera frase de la
+  entradilla, recortada a 18 palabras (`clip_words`). Con IA el prompt pide 22-32
+  palabras explicando qué pasó y por qué importa.
+- **Cortador de frases propio**: `re.split` cortaba en "Dr. Martens" y dejaba la noticia
+  sin resumen. Ahora `first_sentence()` busca el punto después del carácter 40.
+- **Imagen que faltaba**: `resolve_images()` busca `og:image` en la página de las
+  noticias sin foto en el RSS. Pasó de 78 a 92 noticias con imagen de 134 (WWD es el
+  caso típico: nunca publica la foto en el feed).
+- **Ritmo**: velocidad de +8% a +5% y 0,5 s de aire entre planos.
+- **Duración**: la primera versión con resúmenes se iba a 79 s; recortando a 18 palabras
+  queda en 62 s.
+- `--no-llm` ahora fuerza la plantilla (antes se llamaba igual pero no hacía nada).
