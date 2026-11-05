@@ -46,7 +46,13 @@ jobs:
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           CAPSULE_VOICE: ${{ vars.CAPSULE_VOICE }}
         run: |
-          python capsule.py || echo "::warning::La capsula fallo; la edicion sigue publicada"
+          mkdir -p datos
+          if python capsule.py > datos/capsula.log 2>&1; then
+            rm -f datos/capsula.log
+          else
+            echo "::warning::La capsula fallo; el detalle queda en datos/capsula.log"
+            tail -40 datos/capsula.log
+          fi
 
       - name: Rehacer el panel con el enlace al video
         run: python aggregate.py --render-only
