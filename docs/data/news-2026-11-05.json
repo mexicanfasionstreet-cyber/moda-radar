@@ -1,9 +1,10 @@
 {
- "generated": "2026-11-05T20:48:35.985854Z",
+ "generated": "2026-11-05T20:52:31.813591Z",
  "days": 4,
- "count": 148,
- "sources_ok": 31,
+ "count": 139,
+ "sources_ok": 30,
  "sources_failed": [
+  "Drapers",
   "Hypebeast"
  ],
  "items": [
@@ -448,26 +449,6 @@
    "score": 7.98
   },
   {
-   "title": "TK Maxx unveils its new Christmas ad",
-   "link": "https://www.drapersonline.com/topics/christmas-trading-topics/tk-maxx-unveils-its-new-christmas-ad",
-   "excerpt": "Drapers TK Maxx unveils its new Christmas ad TK Maxx has returned to its “Festive Farm” campaign in its “Festive Crossing” Christmas advert. The post TK Maxx unveils its new Christmas ad appeared first on Drapers .",
-   "image": "",
-   "published": "2026-11-05T17:02:25Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "pasarela"
-   ],
-   "also": [],
-   "id": "2da7bb6b0125",
-   "score": 7.69
-  },
-  {
    "title": "E.l.f. Beauty growth driven by innovation, not just pricing power",
    "link": "https://www.retaildive.com/news/elf-beauty-q2-earnings-sales-growth-innovation-pricing-power/873868/",
    "excerpt": "The company’s Q2 net sales jumped 51%, with industry analysts in awe of its go-to-market capabilities and Rhode brand strength.",
@@ -530,7 +511,7 @@
   {
    "title": "Pierpaolo Piccioli Exits Balenciaga",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWTgtdUtsNDZySDVXUDZRWTZUcVVuQ0E2dHVIM3FaN1ZaYVBRMTZUdjJrbm5DUzRXR19Rc1JodDZYcHl3ODdScTFqUnEtU1RzRW1TN3VLUHZHS19tdXR1SDN0S1phMXZkakQtc1llOGJ1dnVMa2VEOUtnQk1jMmNFOXIyZUZTZFRVVkctdDRUWQ?oc=5",
-   "excerpt": "Drapers Pierpaolo Piccioli exits Balenciaga Balenciaga has announced the departure of creative director Pierpaolo Piccioli, with his replacement to be announced \"shortly\", marking a third Kering creative director exit in the past…",
+   "excerpt": "After a little more than a year helming Balenciaga, Pierpaolo Piccioli is exiting his role as the luxury house’s creative director, Kering announced on Thursday. Piccioli’s successor has not yet been named, but Kering said “the…",
    "image": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwODA2OTk0/balenciaga-runway-paris-fashion-week-womenswear-spring-summer-2027.jpg?profile=rss&x=53&y=10",
    "published": "2026-11-05T16:46:19Z",
    "source": "BoF",
@@ -544,14 +525,13 @@
     "personas"
    ],
    "also": [
-    "Drapers",
     "Fashionista",
     "Pambianco News",
     "Elle",
     "Harper's Bazaar ES"
    ],
    "id": "f170cf4cb949",
-   "score": 13.05
+   "score": 12.3
   },
   {
    "title": "LVMH Deepens China Engagement With ‘New Generations’ Pavilion at CIIE",
@@ -634,26 +614,6 @@
    "score": 7.11
   },
   {
-   "title": "Drapers reveals Power 100 list 2026",
-   "link": "https://www.drapersonline.com/news/drapers-reveals-power-100-list-2026",
-   "excerpt": "Drapers Drapers reveals Power 100 list 2026 The prestigious Drapers Power 100 list is back for 2026, shining a spotlight on the fashion retail leaders who had the biggest impact on the sector this year. The post Drapers reveals…",
-   "image": "",
-   "published": "2026-11-05T16:00:12Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "retail"
-   ],
-   "also": [],
-   "id": "3a86dc70824f",
-   "score": 8.39
-  },
-  {
    "title": "Hunter Schafer’s Upcycled Look Is the Antithesis of Fall Dressing",
    "link": "https://www.vogue.com/article/hunter-schafer-nihl-neon-red-carpet-look",
    "excerpt": "Forget earthy autumnal hues—the star is all-in on neon brights.",
@@ -734,26 +694,6 @@
    "score": 8.55
   },
   {
-   "title": "How Sosandar is bouncing back despite hot weather hitting autumn sales",
-   "link": "https://www.drapersonline.com/news/how-sosandar-is-bouncing-back-after-rising-temperatures-hit-autumn-sales",
-   "excerpt": "Drapers How Sosandar is bouncing back despite hot weather hitting autumn sales Sosandar almost halved its operating loss (38%) to £0.64m for the six months ended 30 September 2026, despite a \"challenging macro environment\".…",
-   "image": "",
-   "published": "2026-11-05T15:04:00Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "negocio"
-   ],
-   "also": [],
-   "id": "4bbfe3fe4cc6",
-   "score": 8.59
-  },
-  {
    "title": "Policy alignment is critical for green industrial transition",
    "link": "https://textiletoday.com.bd/policy-alignment-is-critical-for-green-industrial-transition",
    "excerpt": "The industrial shift toward lower emissions, cleaner energy and more resource-efficient production is accelerating. But the pace of that transition will depend on how well policy keeps up with market reality. Bangladesh has…",
@@ -832,126 +772,6 @@
    "also": [],
    "id": "7243e05e83e4",
    "score": 8.35
-  },
-  {
-   "title": "Power 100 2026: Who are this year’s Sportswear Superstars?",
-   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-sportswear-superstars",
-   "excerpt": "Drapers Power 100 2026: Who are this year’s Sportswear Superstars? Adidas, Alo, Castore, Gymshark, Lululemon, Nike, On, Sweaty Betty and Vuori make up this year's Sportswear Superstars. The post Power 100 2026: Who are this…",
-   "image": "",
-   "published": "2026-11-05T14:00:47Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "industria"
-   ],
-   "also": [],
-   "id": "fe05c86b52d8",
-   "score": 7.19
-  },
-  {
-   "title": "Power 100 2026: Who are this year’s Mainstream Masters?",
-   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-mainstream-masters",
-   "excerpt": "Drapers Power 100 2026: Who are this year’s Mainstream Masters? Ann Summers , Bectin , Fast Retailing, Hawes & Curtis, Mango, Mint Velvet, Moss, M&S Woman, River Island and TFG London make up this year's Mainstream Masters. The…",
-   "image": "",
-   "published": "2026-11-05T14:00:45Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "industria"
-   ],
-   "also": [],
-   "id": "fe711fb8231a",
-   "score": 7.19
-  },
-  {
-   "title": "Power 100 2026: Who are this year’s Footwear’s Finest?",
-   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-footwears-finest",
-   "excerpt": "Drapers Power 100 2026: Who are this year’s Footwear’s Finest? Birkenstock, Crocs, Dr Martens, Dune London, FitFlop, Footasylum, Kurt Geiger, New Balance and Schuh make up this year's Footwear's Finest. The post Power 100 2026…",
-   "image": "",
-   "published": "2026-11-05T14:00:44Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "calzado"
-   ],
-   "also": [],
-   "id": "c2e44d337629",
-   "score": 6.99
-  },
-  {
-   "title": "Power 100 2026: Who are this year’s Buzz Brands?",
-   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-buzz-brands",
-   "excerpt": "Drapers Power 100 2026: Who are this year’s Buzz Brands? Adanola, Aritzia, Arne, Damson Madder, Nadine Merabi, Never Fully Dressed, Nobody's Child, Odd Muse, Represent, Sézane, Skims, Tala, Tolu Coker, Topshop make up this year's…",
-   "image": "",
-   "published": "2026-11-05T14:00:39Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "industria"
-   ],
-   "also": [],
-   "id": "9d0755475c95",
-   "score": 7.19
-  },
-  {
-   "title": "Power 100 2026: Who are this year’s Catwalk Captains?",
-   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-catwalk-captains-2",
-   "excerpt": "Drapers Power 100 2026: Who are this year’s Catwalk Captains? Alexander McQueen, Burberry, Chanel, Dior Gucci, Hermès, Louis Vuitton, Prada and Valentino make up this year's Catwalk Captains. The post Power 100 2026: Who are this…",
-   "image": "",
-   "published": "2026-11-05T14:00:33Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "pasarela"
-   ],
-   "also": [],
-   "id": "b0b80b9a3211",
-   "score": 7.09
-  },
-  {
-   "title": "Power 100 2026: Who are this year’s Conscious Fashion Crusaders?",
-   "link": "https://www.drapersonline.com/insight/power-100-2026-who-are-this-years-conscious-fashion-crusaders",
-   "excerpt": "Drapers Power 100 2026: Who are this year’s Conscious Fashion Crusaders? Akyn, Ebay UK, Nigel Cabourn, Reformation, Sojo and Vinted Marketplace make up this year’s Conscious Fashion Crusaders. The post Power 100 2026: Who are…",
-   "image": "",
-   "published": "2026-11-05T14:00:32Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "retail"
-   ],
-   "also": [],
-   "id": "979899febc35",
-   "score": 7.79
   },
   {
    "title": "Storari: “Ancora grandi brand della moda usufruiscono del caporalato”",

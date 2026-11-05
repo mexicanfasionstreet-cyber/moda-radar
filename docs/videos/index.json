@@ -1,11 +1,11 @@
 {
  "date": "2026-11-05",
- "duration": 63.6,
+ "duration": 68.1,
  "script_source": "IA (deepseek-chat)",
- "hook": "Balenciaga pierde a su director creativo y Kering suma su tercera salida",
+ "hook": "Piccioli deja Balenciaga y ThredUp apuesta por venta en vivo",
  "items": [
   {
-   "title": "Piccioli sale de Balenciaga",
+   "title": "Piccioli deja Balenciaga",
    "source": "BoF",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWTgtdUtsNDZySDVXUDZRWTZUcVVuQ0E2dHVIM3FaN1ZaYVBRMTZUdjJrbm5DUzRXR19Rc1JodDZYcHl3ODdScTFqUnEtU1RzRW1TN3VLUHZHS19tdXR1SDN0S1phMXZkakQtc1llOGJ1dnVMa2VEOUtnQk1jMmNFOXIyZUZTZFRVVkctdDRUWQ?oc=5"
   },
@@ -15,17 +15,17 @@
    "link": "https://wwd.com/business-news/financial/thredup-live-selling-strategy-resale-market-1239403005/"
   },
   {
-   "title": "Drapers revela Power 100 2026",
-   "source": "Drapers",
-   "link": "https://www.drapersonline.com/news/drapers-reveals-power-100-list-2026"
+   "title": "Portas crea comunidad retail",
+   "source": "The Industry",
+   "link": "https://www.theindustry.fashion/mary-portas-launches-the-society-of-shopkeepers-on-substack/"
   },
   {
-   "title": "Schafer apuesta por el reciclaje",
+   "title": "Schafer y su look reciclado",
    "source": "Vogue",
    "link": "https://www.vogue.com/article/hunter-schafer-nihl-neon-red-carpet-look"
   },
   {
-   "title": "Nike renueva el Air Max 90",
+   "title": "Air Max 90 renovada",
    "source": "WWD",
    "link": "https://wwd.com/footwear-news/sneaker-news/nike-air-max-90-mini-swoosh-cream-ii-im5989-236-1239403261/"
   }
