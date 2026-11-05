@@ -1,0 +1,33 @@
+{
+ "date": "2026-11-05",
+ "duration": 47.4,
+ "script_source": "plantilla (sin clave API)",
+ "hook": "Estas son las noticias que mueven hoy la industria de la moda.",
+ "items": [
+  {
+   "title": "Pierpaolo Piccioli Exits Balenciaga",
+   "source": "BoF",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWTgtdUtsNDZySDVXUDZRWTZUcVVuQ0E2dHVIM3FaN1ZaYVBRMTZUdjJrbm5DUzRXR19Rc1JodDZYcHl3ODdScTFqUnEtU1RzRW1TN3VLUHZHS19tdXR1SDN0S1phMXZkakQtc1llOGJ1dnVMa2VEOUtnQk1jMmNFOXIyZUZTZFRVVkctdDRUWQ?oc=5"
+  },
+  {
+   "title": "Tapestry Tops Q1 Expectations With 12% Sales Boost",
+   "source": "WWD",
+   "link": "https://wwd.com/business-news/financial/tapestry-q1-2027-earnings-coach-sales-1239399971/"
+  },
+  {
+   "title": "Hunter Schafer’s Upcycled Look Is the Antithesis of…",
+   "source": "Vogue",
+   "link": "https://www.vogue.com/article/hunter-schafer-nihl-neon-red-carpet-look"
+  },
+  {
+   "title": "How These Curated Thrift Shops Are Keeping Whimsical…",
+   "source": "Fashionista",
+   "link": "https://fashionista.com/2026/11/new-york-city-thrift-stores-whimsical-trend"
+  },
+  {
+   "title": "TK Maxx revisits ‘Festive Farm’ with first Christmas…",
+   "source": "The Industry",
+   "link": "https://www.theindustry.fashion/tk-maxx-revisits-festive-farm-with-first-christmas-ad-in-three-years/"
+  }
+ ]
+}
