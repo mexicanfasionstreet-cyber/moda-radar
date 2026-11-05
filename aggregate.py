@@ -914,6 +914,7 @@ def main(argv=None):
         print(f"  ! {name}: {err}")
 
     now = datetime.now(timezone.utc)
+    out = root / args.out
     hero = pick_hero(items)
     meta = {
         "generated": now.isoformat().replace("+00:00", "Z"),
@@ -927,7 +928,6 @@ def main(argv=None):
         "video": video_for(out, now.strftime("%Y-%m-%d")),
     }
 
-    out = root / args.out
     (out / "data").mkdir(parents=True, exist_ok=True)
     (out / "index.html").write_text(ui.render(items, meta), encoding="utf-8")
 
