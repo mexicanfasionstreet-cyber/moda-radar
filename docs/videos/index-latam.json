@@ -1,34 +1,39 @@
 {
  "date": "2026-11-06",
  "edition": "latam",
- "duration": 64.5,
+ "duration": 68.5,
  "script_source": "IA (deepseek-chat)",
- "hook": "Lujo, denim y retail digital mueven la moda en México hoy",
+ "hook": "The IQ Collection abre boutique en México y Palacio de Hierro apuesta por WhatsApp",
  "items": [
   {
    "title": "The IQ Collection llega a CDMX",
    "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/the-iq-collection-apertura-nueva-boutique-en-ciudad-de-mexico"
+   "link": "https://www.vogue.mx/articulo/the-iq-collection-apertura-nueva-boutique-en-ciudad-de-mexico",
+   "photo_credit": null
   },
   {
    "title": "Talento emergente en Milán y París",
    "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/global-fashion-collective-2027-tendencias-y-disenadores"
+   "link": "https://www.vogue.mx/articulo/global-fashion-collective-2027-tendencias-y-disenadores",
+   "photo_credit": null
   },
   {
-   "title": "Palacio de Hierro apuesta por WhatsApp",
+   "title": "DAFTA debuta en Volvo Fashion Week",
+   "source": "Anáhuac",
+   "link": "https://www.anahuac.mx/mexico/noticias/ricardo-aguilar-presenta-su-marca-dafta-en-volvo-fashion-week-mexico",
+   "photo_credit": null
+  },
+  {
+   "title": "Día de Muertos con moda en Tijuana",
+   "source": "Uniradio Informa Baja California",
+   "link": "https://www.uniradiobaja.com/sociedad/el-trompo-conmemoro-dia-muertos-arte-musica-moda-n912619/amp",
+   "photo_credit": null
+  },
+  {
+   "title": "Lujo por WhatsApp en Palacio",
    "source": "Merca2.0",
-   "link": "https://www.merca20.com/palacio-de-hierro-apuesta-por-vender-productos-de-lujo-a-traves-de-whatsapp-mientras-sus-ventas-digitales-crecen-17-5/"
-  },
-  {
-   "title": "Levi’s y Belinda lanzan cápsula",
-   "source": "Marie Claire MX",
-   "link": "https://marieclaire.com.mx/levis-belinda-coleccion-capsula-2026/"
-  },
-  {
-   "title": "Shein y Temu con retos logísticos",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/shein-y-temu-enfrentan-un-problema-en-mexico-que-podria-retrasar-tus-compras/"
+   "link": "https://www.merca20.com/palacio-de-hierro-apuesta-por-vender-productos-de-lujo-a-traves-de-whatsapp-mientras-sus-ventas-digitales-crecen-17-5/",
+   "photo_credit": null
   }
  ]
 }

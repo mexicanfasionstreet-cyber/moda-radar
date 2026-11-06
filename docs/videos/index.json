@@ -1,34 +1,39 @@
 {
  "date": "2026-11-06",
  "edition": "general",
- "duration": 73.4,
+ "duration": 77.4,
  "script_source": "IA (deepseek-chat)",
- "hook": "Balenciaga nombra a Martine Rose y Lululemon enfrenta demanda de inversionistas",
+ "hook": "Martine Rose dirigirá Balenciaga y Lululemon enfrenta una demanda de inversores",
  "items": [
   {
-   "title": "Martine Rose dirige Balenciaga",
+   "title": "Martine Rose lidera Balenciaga",
    "source": "WWD",
-   "link": "https://wwd.com/fashion-news/fashion-features/martine-rose-named-creative-director-balenciaga-1239403938/"
+   "link": "https://wwd.com/fashion-news/fashion-features/martine-rose-named-creative-director-balenciaga-1239403938/",
+   "photo_credit": null
   },
   {
    "title": "Demanda contra Lululemon",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/industry-news/lululemon-securities-lawsuit-turnaround-demand-investors-1239403246/"
+   "link": "https://wwd.com/sourcing-journal/industry-news/lululemon-securities-lawsuit-turnaround-demand-investors-1239403246/",
+   "photo_credit": null
   },
   {
    "title": "Worldly amplía cumplimiento",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/industry-news/wordly-compliance-solution-environmental-higgs-1239403530/"
+   "link": "https://wwd.com/sourcing-journal/industry-news/wordly-compliance-solution-environmental-higgs-1239403530/",
+   "photo_credit": null
   },
   {
    "title": "The IQ Collection en México",
    "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/the-iq-collection-apertura-nueva-boutique-en-ciudad-de-mexico"
+   "link": "https://www.vogue.mx/articulo/the-iq-collection-apertura-nueva-boutique-en-ciudad-de-mexico",
+   "photo_credit": null
   },
   {
    "title": "Moda apuesta por la IA",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/industry-news/prada-palantir-openai-chatgpt-amazon-1239402344/"
+   "link": "https://wwd.com/sourcing-journal/industry-news/prada-palantir-openai-chatgpt-amazon-1239402344/",
+   "photo_credit": null
   }
  ]
 }
