@@ -43,6 +43,9 @@ header.top{padding:30px 0 18px; border-bottom:1px solid var(--line)}
 }
 .cta:hover{filter:brightness(1.08)}
 .cta .play{font-size:11px}
+.cta + .cta{margin-left:10px}
+.cta.alt{background:transparent; color:var(--accent); box-shadow:inset 0 0 0 1.5px var(--accent)}
+@media (max-width:520px){ .cta + .cta{margin-left:0} .cta{margin-right:8px} }
 
 /* ---------- controles ---------- */
 .controls{
@@ -297,11 +300,17 @@ def render(items, meta):
     updated = meta["generated_human"]
     first_date = meta["generated_date"]
     video = meta.get("video")
+    video_latam = meta.get("video_latam")
     video_html = (
         f'<a class="cta" href="{esc(video)}" target="_blank" rel="noopener">'
         f'<span class="play">▶</span> Ver la cápsula del día</a>'
         if video else ""
     )
+    if video_latam:
+        video_html += (
+            f'<a class="cta alt" href="{esc(video_latam)}" target="_blank" rel="noopener">'
+            f'<span class="play">▶</span> Cápsula México y LatAm</a>'
+        )
     html_doc = TEMPLATE.replace("__CSS__", CSS).replace("__JS__", JS)
     html_doc = html_doc.replace("__VIDEO__", video_html)
     html_doc = html_doc.replace("__CHIPS__", "".join(chips))

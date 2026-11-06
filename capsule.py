@@ -22,6 +22,7 @@ Uso:
 from __future__ import annotations
 
 import argparse
+import hashlib
 import asyncio
 import html as htmllib
 import json
@@ -182,6 +183,11 @@ def translate_es(text):
 
 # --------------------------------------------------------------------------- imagen desde la página
 
+def _es_google(link):
+    """Los enlaces de news.google.com redirigen con JavaScript: su HTML es de Google."""
+    return "news.google." in (link or "")
+
+
 META_IMG = re.compile(
     r"""<meta[^>]+(?:property|name)\s*=\s*["'](?:og:image|twitter:image)["']"""
     r"""[^>]+content\s*=\s*["']([^"']+)["']""",
@@ -191,6 +197,8 @@ META_IMG = re.compile(
 
 def og_image(link):
     """Busca la imagen de portada en el HTML del artículo (muchos RSS no la traen)."""
+    if _es_google(link):
+        return None
     try:
         req = urllib.request.Request(link, headers={"User-Agent": UA})
         with urllib.request.urlopen(req, timeout=25) as r:
@@ -212,6 +220,8 @@ META_DESC = re.compile(
 
 def page_description(link):
     """Entradilla de la página, para noticias cuyo RSS no trae resumen."""
+    if _es_google(link):
+        return ""
     try:
         req = urllib.request.Request(link, headers={"User-Agent": UA})
         with urllib.request.urlopen(req, timeout=25) as r:
@@ -264,12 +274,69 @@ CAT_BONUS = {
 }
 
 
-def pick_items(items, n=MAX_ITEMS):
+# en la edición de México y LatAm lo interesante es la escena local: diseñadores,
+# desfiles y fashion weeks pesan casi tanto como el negocio
+CAT_BONUS_LATAM = {
+    "negocio": 1.2, "retail": 1.0, "pasarela": 1.0, "diseno": 0.9, "personas": 0.7,
+    "sostenibilidad": 0.7, "industria": 0.5, "calzado": 0.3, "belleza": 0.2, "cultura": 0.2,
+}
+
+# regiones de los medios de la región (igual que el botón "México y LatAm" del panel)
+LATAM_REGIONS = {"mx", "latam", "ar", "co", "cl", "pe", "br", "uy", "ve", "ec", "gt", "cr"}
+# una noticia de un medio internacional entra si el titular habla de la región
+LATAM_RX = re.compile(
+    r"\b(m[eé]xic\w*|mexican\w*|latinoam[eé]ric\w*|latin america\w*|latam|tijuana|monterrey"
+    r"|guadalajara|cdmx|ciudad de m[eé]xico|baja california|colombia\w*|argentin\w*"
+    r"|per[uú]\b|peruan\w*|brasil\w*|brazil\w*|bogot[aá]|medell[ií]n|buenos aires"
+    r"|palacio de hierro|coppel|falabella|inexmoda|colombiamoda)",
+    re.I,
+)
+
+
+def es_latam(it):
+    if it.get("region") in LATAM_REGIONS:
+        return True
+    return bool(LATAM_RX.search(it.get("title", "")))
+
+
+EDICIONES = {
+    "general": {
+        "sufijo": "",
+        "filtro": None,
+        "bonus": CAT_BONUS,
+        "kicker": "Hoy",
+        "portada": "Lo que mueve la moda hoy",
+        "enfoque": "la industria de la moda",
+        "extra": "",
+        "hook": "Estas son las noticias que mueven hoy la industria de la moda.",
+        "outro": "Eso es todo por hoy. Mañana, más moda.",
+        "tag": "",
+        "cierre": "{fecha}",
+    },
+    "latam": {
+        "sufijo": "-latam",
+        "filtro": es_latam,
+        "bonus": CAT_BONUS_LATAM,
+        "kicker": "México y LatAm",
+        "portada": "La moda en México y Latinoamérica",
+        "enfoque": "la moda en México y Latinoamérica",
+        "extra": "- Di el país o la ciudad cuando la noticia lo indique.\n",
+        "hook": "Esto es lo que pasa hoy en la moda de México y Latinoamérica.",
+        "outro": "Eso es todo por hoy. Mañana, más moda latina.",
+        "tag": "MX · LATAM",
+        "cierre": "México y LatAm · {fecha}",
+    },
+}
+ED = EDICIONES["general"]  # edición activa; main() la cambia con --edicion
+
+
+def pick_items(items, n=MAX_ITEMS, bonus=None):
     """Noticias con imagen primero, variedad de secciones y peso de negocio."""
+    bonus = CAT_BONUS if bonus is None else bonus
 
     def peso(it):
         sec = it["tags"][0] if it.get("tags") else "industria"
-        return it.get("score", 0) + CAT_BONUS.get(sec, 0)
+        return it.get("score", 0) + bonus.get(sec, 0)
 
     con_img = [it for it in items if it.get("image")]
     utiles = [
@@ -316,7 +383,7 @@ def pick_items(items, n=MAX_ITEMS):
 
 # --------------------------------------------------------------------------- guion
 
-PROMPT = """Eres editor de un noticiero diario sobre la industria de la moda, para redes sociales.
+PROMPT = """Eres editor de un noticiero diario sobre {enfoque}, para redes sociales.
 
 Hoy es {fecha}. Estas son las noticias seleccionadas:
 
@@ -334,7 +401,7 @@ Reglas:
 - Todo en espanol: traduce marcas de productos si hace falta explicarlas, pero deja los
   nombres propios (Chanel, Kering, Balenciaga) como estan.
 - No inventes cifras ni datos que no aparezcan en las noticias.
-- No uses comillas ni asteriscos.
+{extra}- No uses comillas ni asteriscos.
 Devuelve SOLO el JSON, sin explicaciones."""
 
 
@@ -345,7 +412,7 @@ def build_prompt(items, fecha):
         lines.append(f"{i}. [{it['source']} | {sec}] {it['title']}")
         if it.get("excerpt"):
             lines.append(f"   {it['excerpt'][:220]}")
-    return PROMPT.format(fecha=fecha, noticias="\n".join(lines))
+    return PROMPT.format(fecha=fecha, noticias="\n".join(lines), enfoque=ED["enfoque"], extra=ED["extra"])
 
 
 def llm_script(items, fecha):
@@ -417,20 +484,17 @@ def template_script(items):
     """Sin IA: traduce al español y arma un resumen con titular + entradilla."""
     segs = []
     for i, it in enumerate(items, 1):
-        titulo_es = translate_es(it["title"]) or it["title"]
+        es = it.get("lang") == "es"  # ya viene en español: no gastar traducciones
+        titulo_es = it["title"] if es else (translate_es(it["title"]) or it["title"])
         resumen = it.get("excerpt") or page_description(it["link"])
         frase = ""
         if resumen:
             primera = first_sentence(resumen)
             if primera and len(primera) > 20:
-                frase = clip_words(translate_es(primera), 18)
+                frase = clip_words(primera if es else translate_es(primera), 18)
         texto = f"{titulo_es.rstrip(' .')}. {frase}".strip()
         segs.append({"n": i, "text": texto, "titular": short_title(titulo_es)})
-    return {
-        "hook": "Estas son las noticias que mueven hoy la industria de la moda.",
-        "segments": segs,
-        "outro": "Eso es todo por hoy. Mañana, más moda.",
-    }
+    return {"hook": ED["hook"], "segments": segs, "outro": ED["outro"]}
 
 
 def normalise_script(script, items):
@@ -504,7 +568,7 @@ PALETTE = [
 
 def gradient_canvas(text, seed, monograma=True):
     """Fondo de marca para noticias sin imagen usable."""
-    c1, c2 = PALETTE[abs(hash(seed)) % len(PALETTE)]
+    c1, c2 = PALETTE[int(hashlib.sha1(seed.encode("utf-8")).hexdigest(), 16) % len(PALETTE)]
     img = Image.new("RGB", (ZOOM_W, ZOOM_H), c1)
     d = ImageDraw.Draw(img)
 
@@ -623,12 +687,18 @@ def make_overlay(titular, section, source, out_path, kicker=None, big=False, raw
     wm = d.textlength("MODA", font=f_marca)
     d.text((64 + wm + 4, 84), "/", font=f_marca, fill=ACCENT + (255,))
     d.text((64 + wm + 24, 84), "RADAR", font=f_marca, fill=(255, 255, 255, 150))
+    if ED["tag"]:
+        wr = d.textlength("RADAR", font=f_marca)
+        f_tag = load_font(26, bold=True)
+        d.text((64 + wm + 24 + wr + 22, 92), ED["tag"], font=f_tag, fill=ACCENT + (255,))
 
     y = int(H * 0.60)
     if kicker:
         f_k = load_font(30, bold=True)
-        for i, ch in enumerate(kicker.upper()):
-            d.text((66 + i * 26, y), ch, font=f_k, fill=ACCENT + (255,))
+        x = 66
+        for ch in kicker.upper():  # espaciado según el ancho real de cada letra
+            d.text((x, y), ch, font=f_k, fill=ACCENT + (255,))
+            x += d.textlength(ch, font=f_k) + 7
         y += 62
 
     if section:
@@ -824,7 +894,11 @@ def main(argv=None):
     ap.add_argument("--dry-run", action="store_true", help="solo mostrar el guion")
     ap.add_argument("--keep", type=int, default=KEEP_VIDEOS, help="vídeos a conservar")
     ap.add_argument("--workdir", default=".tmp", help="carpeta de trabajo (se borra al final)")
+    ap.add_argument("--edicion", choices=sorted(EDICIONES), default="general",
+                    help="general (todas las noticias) o latam (México y Latinoamérica)")
     args = ap.parse_args(argv)
+    global ED
+    ED = EDICIONES[args.edicion]
 
     if hasattr(sys.stdout, "reconfigure"):
         try:
@@ -839,6 +913,13 @@ def main(argv=None):
         return 1
     edition = json.loads(ed_path.read_text(encoding="utf-8"))
     items = edition.get("items") or []
+    if ED["filtro"]:
+        items = [it for it in items if ED["filtro"](it)]
+        print(f"edicion {args.edicion}: {len(items)} noticias candidatas")
+        if len(items) < 3:
+            # dia flojo en la region: no es un error, simplemente hoy no hay capsula
+            print("Hoy no hay noticias suficientes de la region para la capsula.")
+            return 0
     if len(items) < 3:
         print("Muy pocas noticias para montar la capsula.")
         return 1
@@ -846,15 +927,17 @@ def main(argv=None):
     # las noticias sin foto en el RSS suelen tenerla en la página: la buscamos antes de elegir
     con_foto = resolve_images(items)
     print(f"imagenes resueltas: {con_foto}/{len(items)}")
-    picked = pick_items(items, args.items)
-    fecha = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    picked = pick_items(items, args.items, ED["bonus"])
+    # la fecha es la de la edición, no la del reloj: si se monta a mano después de
+    # medianoche UTC (las 4 pm en Tijuana) el panel no encontraría el vídeo
+    fecha = (edition.get("generated") or "")[:10] or datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     script, origen = (None, "plantilla") if args.no_llm else llm_script(picked, fecha)
     if script is None:
         script, origen = template_script(picked), f"plantilla ({origen})"
     script = normalise_script(script, picked)
 
-    print(f"Capsula {fecha} · {len(picked)} noticias · guion: {origen}")
+    print(f"Capsula {args.edicion} {fecha} · {len(picked)} noticias · guion: {origen}")
     print(f"  gancho: {script['hook']}")
     for s in script["segments"]:
         print(f"  {s['n']}. [{s['item']['source']}] {s['titular']}")
@@ -866,7 +949,7 @@ def main(argv=None):
 
     outdir = root / args.out
     outdir.mkdir(parents=True, exist_ok=True)
-    final = outdir / f"{fecha}.mp4"
+    final = outdir / f"{fecha}{ED['sufijo']}.mp4"
 
     work = root / args.workdir / f"capsula-{os.getpid()}"
     work.mkdir(parents=True, exist_ok=True)
@@ -884,11 +967,11 @@ def main(argv=None):
         # 2. diapositivas
         slides = []
         # gancho: imagen de la noticia principal
-        ph, fa = datetime.now(timezone.utc).strftime("%d/%m/%Y"), ""
+        ph = datetime.strptime(fecha, "%Y-%m-%d").strftime("%d/%m/%Y")
         lead = picked[0]
         photo, _ = prepare_photo(lead, work, 0)
-        ov = make_overlay("Lo que mueve la moda hoy", "", ph,
-                          work / "ov_hook.png", kicker="Hoy", big=True, raw_footer=True)
+        ov = make_overlay(ED["portada"], "", ph,
+                          work / "ov_hook.png", kicker=ED["kicker"], big=True, raw_footer=True)
         s_hook = work / "s_hook.mp4"
         dur = audios[0][2] + 0.35
         render_slide(photo, ov, audios[0][1], s_hook, dur)
@@ -906,10 +989,10 @@ def main(argv=None):
             slides.append(s)
 
         # 4. cierre
-        fund = gradient_canvas("Moda Radar", f"cierre{fecha}", monograma=False)
+        fund = gradient_canvas("Moda Radar", f"cierre{fecha}{ED['sufijo']}", monograma=False)
         cp = work / "cierre.jpg"
         fund.save(cp, quality=92)
-        ov = make_brand_overlay(work / "ov_outro.png", ph)
+        ov = make_brand_overlay(work / "ov_outro.png", ED["cierre"].format(fecha=ph))
         s_out = work / "s_outro.mp4"
         render_slide(cp, ov, audios[-1][1], s_out, audios[-1][2] + 0.6)
         slides.append(s_out)
@@ -924,16 +1007,18 @@ def main(argv=None):
         g_mus = 0.0
         if musi:
             g_mus = add_music(final, musi, work, ffprobe_duration(final))
-        cover = cover_frame(final, outdir / f"{fecha}-portada.jpg")
+        cover = cover_frame(final, outdir / f"{fecha}{ED['sufijo']}-portada.jpg")
 
         # 6. rotación
-        viejos = sorted(outdir.glob("*.mp4"))
+        patron = re.compile(r"^\d{4}-\d{2}-\d{2}" + re.escape(ED["sufijo"]) + r"\.mp4$")
+        viejos = sorted(v for v in outdir.glob("*.mp4") if patron.match(v.name))
         for old in viejos[:-args.keep]:
             old.unlink(missing_ok=True)
             (outdir / (old.stem + "-portada.jpg")).unlink(missing_ok=True)
 
         meta = {
             "date": fecha,
+            "edition": args.edicion,
             "duration": round(total, 1),
             "script_source": origen,
             "hook": script["hook"],
@@ -942,7 +1027,7 @@ def main(argv=None):
                 for s in script["segments"]
             ],
         }
-        (outdir / "index.json").write_text(
+        (outdir / f"index{ED['sufijo']}.json").write_text(
             json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8"
         )
 

@@ -3,7 +3,8 @@
 ## Qué es
 Radar diario de noticias de la industria de la moda. Descarga 45 medios
 (32 internacionales, 13 de México/LatAm y en español), elimina duplicados, agrupa por tema y publica un panel web estático,
-un resumen en Markdown, un corpus acumulado de noticias y una cápsula diaria en vídeo.
+un resumen en Markdown, un corpus acumulado de noticias y dos cápsulas diarias en vídeo
+(general y México/LatAm).
 Proyecto personal.
 
 ## Stack
@@ -30,6 +31,7 @@ Proyecto personal.
 .\run.cmd --check           # validar que las fuentes responden
 .\run.cmd --days 7          # cambiar la ventana de días
 python capsule.py --dry-run # ver el guion de la cápsula sin montar
+python capsule.py --edicion latam --dry-run  # cápsula de México y LatAm
 ```
 
 ## Reglas del proyecto

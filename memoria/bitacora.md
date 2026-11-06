@@ -189,3 +189,20 @@ Objetivo del usuario: que el radar cubra la moda de México y LatAm, no solo la 
   ruido en español ("para llevar", "ideas de", "más elegantes", "por 249 pesos",
   smartphone...), detector de italiano en fuentes `es` y fuera titulares de espejo de menos
   de 20 caracteres. Contra la edición real: salen 15 notas, las 15 eran ruido.
+
+## 2026-11-06 · segunda cápsula: México y LatAm
+
+- `capsule.py --edicion latam`: filtra noticias de medios de la región (mismas regiones que
+  el botón del panel) más las internacionales cuyo titular nombra México/LatAm. Pesa más
+  pasarela y diseño (`CAT_BONUS_LATAM`). Sale `AAAA-MM-DD-latam.mp4` + portada +
+  `index-latam.json`; etiqueta "MX · LATAM" junto a la marca y portada/cierre propios.
+  Con menos de 3 candidatas sale sin error y sin vídeo.
+- La rotación local y la del Release van por edición (antes `*.mp4` habría mezclado las dos).
+- Fecha del vídeo = fecha de la edición, no `datetime.now()` (si se montaba a mano después
+  de las 4 pm de Tijuana el panel no lo encontraba). `gradient_canvas` con sha1 en vez de
+  `hash()`.
+- Notas en español: la plantilla ya no las manda a traducir. Enlaces de Google News: no se
+  busca og:image en ellos (devolvería el logo de Google) → fondo de marca.
+- Créditos de foto al inicio del extracto (Merca2.0: "FOTO: LAURA ISLAS …", "Bigstock.")
+  se quitan en `strip_lead`.
+- Kicker con espaciado según el ancho real de cada letra ("MÉXICO" salía "MÉXI CO").

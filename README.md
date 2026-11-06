@@ -151,6 +151,12 @@ Abre `docs/index.html` con doble clic: el panel funciona sin servidor.
 
 ## Medios de México y Latinoamérica
 
+Además de la cápsula general, cada día sale una **cápsula de México y LatAm**
+(`AAAA-MM-DD-latam.mp4`, botón "Cápsula México y LatAm" en el panel). Usa las noticias
+de medios de la región y las de medios internacionales cuyo titular habla de México o
+Latinoamérica. Si un día hay menos de 3, no se monta (no es un error). Se genera a mano con
+`python capsule.py --edicion latam`.
+
 El botón **"México y LatAm"** del panel deja solo las noticias de la región.
 
 | Tipo | Medios | Qué entra |

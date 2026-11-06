@@ -241,6 +241,22 @@ def _lead_rx(text):
     return re.compile(r"^\W*" + r"\W+".join(re.escape(w) for w in words) + r"(?!\w)\W*", re.I)
 
 
+# créditos de foto que algunos medios (Merca2.0) ponen al inicio de la entradilla
+CREDIT_RX = re.compile(
+    r"^\W*(?:"
+    r"(?i:foto|fotos|imagen|fotograf[ií]a|photo)\s*:\s*"
+    r"(?:(?i:especial|archivo|cortes[ií]a|cuartoscuro)\b\.?\s+"
+    r"|(?:[A-ZÁÉÍÓÚÑÜ][A-ZÁÉÍÓÚÑÜ.'/-]+\s+){1,4})"      # nombre en MAYÚSCULAS
+    r"|(?i:bigstock|shutterstock|istock|getty images|cuartoscuro|depositphotos)\b\.?\s+"
+    r")"
+)
+
+
+def strip_credit(text):
+    m = CREDIT_RX.match(text or "")
+    return text[m.end():] if m and m.end() < len(text) else text
+
+
 def strip_lead(excerpt, prefixes):
     """Quita del inicio del extracto lo que repite el medio o el titular.
 
@@ -260,7 +276,7 @@ def strip_lead(excerpt, prefixes):
                 text = text[m.end():]
                 changed = True
                 break
-    return text.strip()
+    return strip_credit(text.strip()).strip()
 
 
 def truncate(s, limit=230):
@@ -797,11 +813,11 @@ def _recency_bonus(iso):
     return 0.0
 
 
-def video_for(out_dir, date_str):
-    """Enlace relativo a la cápsula del día, si ya se generó."""
-    p = out_dir / "videos" / f"{date_str}.mp4"
+def video_for(out_dir, date_str, sufijo=""):
+    """Enlace relativo a la cápsula del día, si ya se generó ("" general, "-latam")."""
+    p = out_dir / "videos" / f"{date_str}{sufijo}.mp4"
     if p.exists():
-        return f"videos/{date_str}.mp4"
+        return f"videos/{date_str}{sufijo}.mp4"
     return None
 
 
@@ -1018,6 +1034,7 @@ def main(argv=None):
             "hero": pick_hero(items),
             "category_order": CATS,
             "video": video_for(root / args.out, gen[:10]),
+            "video_latam": video_for(root / args.out, gen[:10], "-latam"),
         }
         (root / args.out / "index.html").write_text(ui.render(items, meta), encoding="utf-8")
         print(f"panel regenerado ({'con' if meta['video'] else 'sin'} capsula)")
@@ -1041,6 +1058,7 @@ def main(argv=None):
         "hero": hero,
         "category_order": CATS,
         "video": video_for(out, now.strftime("%Y-%m-%d")),
+        "video_latam": video_for(out, now.strftime("%Y-%m-%d"), "-latam"),
     }
 
     (out / "data").mkdir(parents=True, exist_ok=True)

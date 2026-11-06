@@ -76,6 +76,21 @@ jobs:
             tail -40 datos/capsula.log
           fi
 
+      - name: Generar la capsula de Mexico y LatAm
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          CAPSULE_VOICE: ${{ vars.CAPSULE_VOICE }}
+        run: |
+          if python capsule.py --edicion latam > datos/capsula-latam.log 2>&1; then
+            grep -E "candidatas|no hay noticias|Listo" datos/capsula-latam.log || true
+            rm -f datos/capsula-latam.log
+          else
+            echo "::warning::La capsula LatAm fallo; el detalle queda en datos/capsula-latam.log"
+            tail -40 datos/capsula-latam.log
+          fi
+
       - name: Rehacer el panel con el enlace al video
         run: python aggregate.py --render-only
 
@@ -108,13 +123,16 @@ jobs:
             --notes "Archivo de las cápsulas en vídeo. El robot sube una cada día y borra las más antiguas." \
             --latest=false
           gh release upload capsulas "${files[@]}" --clobber
-          # rotacion: se borran los mp4 (y su portada) mas antiguos
-          gh release view capsulas --json assets --jq '.assets[].name' \
-            | grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}\.mp4$' | sort | head -n -"$KEEP" \
-            | while read -r mp4; do
-                gh release delete-asset capsulas "$mp4" -y
-                gh release delete-asset capsulas "${mp4%.mp4}-portada.jpg" -y || true
-              done
+          # rotacion: se borran los mp4 (y su portada) mas antiguos de cada edicion
+          nombres=$(gh release view capsulas --json assets --jq '.assets[].name')
+          for sufijo in "" "-latam"; do
+            echo "$nombres" \
+              | grep -E "^[0-9]{4}-[0-9]{2}-[0-9]{2}${sufijo}\.mp4$" | sort | head -n -"$KEEP" \
+              | while read -r mp4; do
+                  gh release delete-asset capsulas "$mp4" -y
+                  gh release delete-asset capsulas "${mp4%.mp4}-portada.jpg" -y || true
+                done
+          done
 
       - name: Preparar la web
         uses: actions/upload-pages-artifact@v3
