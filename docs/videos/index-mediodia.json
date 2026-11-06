@@ -1,43 +1,43 @@
 {
  "date": "2026-11-06",
  "edition": "general",
- "duration": 68.7,
+ "duration": 64.4,
  "script_source": "IA (deepseek-chat)",
- "hook": "Dior llega a Harrods con pop-up navideño y Ralph Lauren supera previsiones",
+ "hook": "Los herederos de Armani prefieren salir a bolsa antes que vender la firma",
  "items": [
   {
-   "title": "Dior pop-up navideño en Harrods",
-   "headline": "Dior Lands at Harrods With a Pop-up Inspired by Holidays, Heritage, the Brand’s New Animated Film",
-   "source": "WWD",
-   "link": "https://wwd.com/fashion-news/fashion-features/dior-harrods-pop-up-new-animated-film-holidays-house-codes-1239404068/",
+   "title": "Armani opta por la bolsa",
+   "headline": "Armani heirs favour IPO over sale",
+   "source": "Drapers",
+   "link": "https://www.drapersonline.com/news/armani-heirs-favour-ipo-over-sale",
    "photo_credit": null
   },
   {
-   "title": "Ralph Lauren eleva su perspectiva",
-   "headline": "Ralph Lauren Tops Forecasts in Q2 and Raises Its Outlook",
-   "source": "WWD",
-   "link": "https://wwd.com/business-news/financial/ralph-lauren-q2-2027-earnings-patrice-louvet-ceo-1239401510/",
+   "title": "Power 100 de la moda",
+   "headline": "Editor’s comment: Who are the most influential people in fashion retail this year?",
+   "source": "Drapers",
+   "link": "https://www.drapersonline.com/insight/comment/editors-comment-who-are-the-most-influential-people-in-fashion-retail-this-year",
    "photo_credit": null
   },
   {
-   "title": "20 años reciclando denim",
-   "headline": "Blue Jeans Go Green™ at 20: Milestones from the Game-changing Denim Recycling Program",
+   "title": "Grace homenajea a Lawrence",
+   "headline": "Mckenna Grace Continues Her ‘Hunger Games’ Method Dressing Streak With a Meta Nod to Jennifer Lawrence",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/lifestyle-monitor/blue-jeans-go-green-denim-recycling-20-year-anniversay-milestones-1239401070/",
+   "link": "https://wwd.com/pop-culture/celebrity-news/mckenna-grace-dress-jennifer-lawrence-golden-globes-1239404566/",
    "photo_credit": null
   },
   {
-   "title": "Hollywood celebra a las mujeres",
-   "headline": "Salma Hayek Pinault, Jane Fonda, and Hollywood’s Leading Names Gathered to Toast Women In Film",
-   "source": "Vogue",
-   "link": "https://www.vogue.com/slideshow/salma-hayek-pinault-jane-fonda-women-in-film-honors-2026",
+   "title": "Talia Bourne gana Supima",
+   "headline": "Supima Reveals Talia Bourne as Winner of the 2026 Supima Design Competition",
+   "source": "WWD",
+   "link": "https://wwd.com/fashion-news/designer-luxury/supima-reveals-talia-bourne-winner-of-the-2026-supima-design-competiton-1239404605/",
    "photo_credit": null
   },
   {
-   "title": "Kith homenajea a Nueva York",
-   "headline": "Kith Is Using Its Original New Balance Sneaker to Commemorate Three Distinct Elements of NYC",
-   "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/kith-new-balance-2011-monuments-release-date-1239404666/",
+   "title": "Martine Rose lidera Balenciaga",
+   "headline": "Martine Rose a ‘breath of fresh air’ for Balenciaga",
+   "source": "Drapers",
+   "link": "https://www.drapersonline.com/product-and-trends/martine-rose-a-breath-of-fresh-air-for-balenciaga",
    "photo_credit": null
   }
  ]

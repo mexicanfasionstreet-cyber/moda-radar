@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T19:43:29.045822Z",
+ "generated": "2026-11-06T19:52:43.808132Z",
  "days": 4,
  "count": 186,
  "sources_ok": 44,
@@ -2250,6 +2250,27 @@
    "score": 6.05
   },
   {
+   "title": "The Met Fills Galliano Gap With Show on Everyday Fashion",
+   "link": "https://www.businessoffashion.com/news/creative-class/the-met-fills-galliano-gap-with-show-on-everyday-fashion/",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-05T15:12:44Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "industria"
+   ],
+   "via": "The Business of Fashion",
+   "also": [],
+   "id": "ea3ba3ef1f74",
+   "score": 7.45
+  },
+  {
    "title": "Policy alignment is critical for green industrial transition",
    "link": "https://textiletoday.com.bd/policy-alignment-is-critical-for-green-industrial-transition",
    "excerpt": "The industrial shift toward lower emissions, cleaner energy and more resource-efficient production is accelerating. But the pace of that transition will depend on how well policy keeps up with market reality. Bangladesh has…",
@@ -2355,27 +2376,6 @@
    "also": [],
    "id": "2a30363907f7",
    "score": 7.4
-  },
-  {
-   "title": "Fashion Label Guizio Launches Perfume",
-   "link": "https://www.businessoffashion.com/news/beauty/guizio-perfume-launch/",
-   "excerpt": "",
-   "image": "",
-   "published": "2026-11-05T13:00:00Z",
-   "source": "BoF",
-   "source_name": "Business of Fashion",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "global",
-   "tags": [
-    "belleza"
-   ],
-   "via": "The Business of Fashion",
-   "also": [],
-   "id": "ec7c436eb114",
-   "score": 7.15
   },
   {
    "title": "OMG, Nordstrom's First Black Friday Deals Are Already Here—I Know You Won't Regret These 35 Fashionable Finds",
@@ -2970,7 +2970,7 @@
    "link": "https://www.businessoffashion.com/careers/jobs/marketing/united-kingdom/",
    "excerpt": "",
    "image": "",
-   "published": "2026-11-04T18:53:08Z",
+   "published": "2026-11-04T19:51:16Z",
    "source": "BoF",
    "source_name": "Business of Fashion",
    "kind": "trade",
@@ -3637,7 +3637,7 @@
    "via": "",
    "also": [],
    "id": "b3db483f9c46",
-   "score": 5.74
+   "score": 5.34
   },
   {
    "title": "Must Read: Meg Stalter Stars in Marc Jacobs 'Let It Joy' Campaign, Hugo Boss Lowers Outlook as Q3 Sales Drop",
