@@ -311,6 +311,12 @@ def render(items, meta):
             f'<a class="cta alt" href="{esc(video_latam)}" target="_blank" rel="noopener">'
             f'<span class="play">▶</span> Cápsula México y LatAm</a>'
         )
+    textos = meta.get("textos")
+    if textos:
+        video_html += (
+            f'<a class="cta texto" href="{esc(textos)}" target="_blank" rel="noopener">'
+            f'Textos para publicar</a>'
+        )
     html_doc = TEMPLATE.replace("__CSS__", CSS).replace("__JS__", JS)
     html_doc = html_doc.replace("__VIDEO__", video_html)
     html_doc = html_doc.replace("__CHIPS__", "".join(chips))

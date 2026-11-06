@@ -3,8 +3,10 @@
 ## Qué es
 Radar diario de noticias de la industria de la moda. Descarga 45 medios
 (32 internacionales, 13 de México/LatAm y en español), elimina duplicados, agrupa por tema y publica un panel web estático,
-un resumen en Markdown, un corpus acumulado de noticias y dos cápsulas diarias en vídeo
-(general y México/LatAm).
+un resumen en Markdown, un corpus acumulado de noticias y **seis cápsulas al día** en
+vídeo: tres franjas (mañana, mediodía, noche) × dos ediciones (general y México/LatAm).
+Cada cápsula lleva su archivo `-textos.txt` con título, descripción y hashtags para
+publicarla a mano.
 Proyecto personal.
 
 ## Stack
@@ -33,6 +35,7 @@ Proyecto personal.
 .\run.cmd --days 7          # cambiar la ventana de días
 python capsule.py --dry-run # ver el guion de la cápsula sin montar
 python capsule.py --edicion latam --dry-run  # cápsula de México y LatAm
+python capsule.py --franja noche --tts silent # montaje rápido con la franja de noche
 ```
 
 ## Reglas del proyecto
@@ -51,3 +54,5 @@ En producción en https://mexicanfasionstreet-cyber.github.io/moda-radar/
 (~140 noticias/día; Hypebeast bloquea las IP de los runners).
 Medios de México y LatAm desde el 2026-11-06 (botón "México y LatAm" en el panel).
 BoF y Textile World entran por espejo (Google/Bing News) cuando bloquean al robot.
+Tres franjas desde el 2026-11-06: 07:00, 13:00 y 19:00 CDMX (13:00, 19:00 y 01:00 UTC).
+El panel enlaza la cápsula más reciente del día y su `-textos.txt`.

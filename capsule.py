@@ -279,7 +279,8 @@ def resolve_images(items, limit=14):
 # piezas que no son noticia: opinión, galerías de fotos, crónicas de fiestas.
 # Los titulares llegan en inglés y en español, así que el patrón cubre ambos.
 FLUFF = re.compile(
-    r"(opini[oó]n|op-ed|editorial|galer[ií]a|in pictures|photo gallery|photos:|"
+    r"(opini[oó]n|op-ed|editorial|editor'?s? ?comment|comentario del editor|"
+    r"galer[ií]a|in pictures|photo gallery|photos:|"
     r"\binside\b|as[ií] fue|dentro de la|todo lo que|lo que (vimos|sabemos)|"
     r"photocall|recap:)",
     re.I,
@@ -1047,6 +1048,94 @@ def cover_frame(video, out_path):
         return None
 
 
+# --------------------------------------------------------------------------- franjas y textos
+
+# tres emisiones al día; el sufijo entra en el nombre del archivo para no pisarse
+FRANJAS = {
+    "dia": {"sufijo": "", "etiqueta": "edición del día"},
+    "manana": {"sufijo": "-manana", "etiqueta": "mañana"},
+    "mediodia": {"sufijo": "-mediodia", "etiqueta": "mediodía"},
+    "noche": {"sufijo": "-noche", "etiqueta": "noche"},
+}
+
+HASHTAGS = {
+    "general": "#moda #fashion #industriadelamoda #noticiasdemoda #modanoticias #fashionbusiness",
+    "latam": "#moda #modamexicana #modaMexico #modaLatAm #fashionmexico #industriadelamoda",
+}
+
+
+def _leer_usadas(path):
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        return {}
+
+
+def quitar_repetidas(items, path, horas):
+    """Quita lo emitido hace menos de `horas`: la cápsula de la tarde no repite la de la mañana."""
+    datos = _leer_usadas(path)
+    ahora = datetime.now(timezone.utc)
+    recientes = set()
+    for link, ts in datos.items():
+        try:
+            t = datetime.fromisoformat(str(ts).replace("Z", "+00:00"))
+        except Exception:  # noqa: BLE001
+            continue
+        if (ahora - t).total_seconds() < horas * 3600:
+            recientes.add(link)
+    frescas = [it for it in items if it.get("link") not in recientes]
+    return frescas, len(items) - len(frescas)
+
+
+def marcar_usadas(path, items):
+    """Apunta las noticias emitidas y tira lo que ya tiene más de 3 días."""
+    datos = _leer_usadas(path)
+    ahora = datetime.now(timezone.utc)
+    for it in items:
+        if it.get("link"):
+            datos[it["link"]] = ahora.isoformat().replace("+00:00", "Z")
+    limpio = {}
+    for link, ts in datos.items():
+        try:
+            t = datetime.fromisoformat(str(ts).replace("Z", "+00:00"))
+        except Exception:  # noqa: BLE001
+            continue
+        if (ahora - t).total_seconds() < 72 * 3600:
+            limpio[link] = ts
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(limpio, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def escribir_kit(outdir, fecha, franja, edicion, ED, meta, root):
+    """Texto listo para pegar al publicar: título, descripción con enlaces y hashtags."""
+    etiqueta = FRANJAS.get(franja, FRANJAS["dia"])["etiqueta"]
+    lineas = [
+        f"TÍTULO ({len(meta['hook'])} caracteres)",
+        meta["hook"],
+        "",
+        "DESCRIPCIÓN",
+        meta["hook"],
+        "",
+    ]
+    for n, it in enumerate(meta["items"], 1):
+        medio = it["source"]
+        titular = it.get("headline") or it["title"]
+        lineas.append(f"{n}. {titular} — {medio}")
+        if it.get("link"):
+            lineas.append(it["link"])
+    lineas += [
+        "",
+        "HASHTAGS",
+        HASHTAGS.get(edicion, HASHTAGS["general"]),
+        "",
+        f"Edición: {etiqueta} · {fecha} · {meta['duration']} s",
+        "Fuente del panel: https://mexicanfasionstreet-cyber.github.io/moda-radar/",
+    ]
+    p = outdir / f"{fecha}{FRANJAS[franja]['sufijo']}{ED['sufijo']}-textos.txt"
+    p.write_text("\n".join(lineas) + "\n", encoding="utf-8")
+    return p
+
+
 # --------------------------------------------------------------------------- principal
 
 def main(argv=None):
@@ -1064,6 +1153,10 @@ def main(argv=None):
     ap.add_argument("--workdir", default=".tmp", help="carpeta de trabajo (se borra al final)")
     ap.add_argument("--edicion", choices=sorted(EDICIONES), default="general",
                     help="general (todas las noticias) o latam (México y Latinoamérica)")
+    ap.add_argument("--franja", choices=sorted(FRANJAS), default="dia",
+                    help="momento del día: dia, manana, mediodia o noche")
+    ap.add_argument("--ventana-repe", type=int, default=10,
+                    help="horas sin repetir noticias ya emitidas en esta edición")
     args = ap.parse_args(argv)
     global ED
     ED = EDICIONES[args.edicion]
@@ -1075,6 +1168,7 @@ def main(argv=None):
             pass
 
     root = Path(__file__).resolve().parent
+    outdir = root / args.out
     ed_path = root / args.edition
     if not ed_path.exists():
         print(f"No existe la edicion {ed_path}. Ejecuta antes aggregate.py.")
@@ -1091,6 +1185,16 @@ def main(argv=None):
     if len(items) < 3:
         print("Muy pocas noticias para montar la capsula.")
         return 1
+
+    # la cápsula de mediodía no repite lo que ya salió por la mañana
+    usadas_path = outdir / f"usadas{ED['sufijo']}.json"
+    frescas, repetidas = quitar_repetidas(items, usadas_path, args.ventana_repe)
+    if repetidas:
+        print(f"descartadas por ya emitidas ({args.ventana_repe} h): {repetidas}")
+    if len(frescas) >= 3:
+        items = frescas
+    elif repetidas:
+        print("quedan pocas nuevas: se permite repetir para no dejar la capsula vacia")
 
     # las noticias sin foto en el RSS suelen tenerla en la página: la buscamos antes de elegir
     con_foto = resolve_images(items)
@@ -1117,9 +1221,9 @@ def main(argv=None):
     if args.dry_run:
         return 0
 
-    outdir = root / args.out
     outdir.mkdir(parents=True, exist_ok=True)
-    final = outdir / f"{fecha}{ED['sufijo']}.mp4"
+    fr = FRANJAS[args.franja]["sufijo"]
+    final = outdir / f"{fecha}{fr}{ED['sufijo']}.mp4"
 
     work = root / args.workdir / f"capsula-{os.getpid()}"
     work.mkdir(parents=True, exist_ok=True)
@@ -1180,10 +1284,14 @@ def main(argv=None):
         g_mus = 0.0
         if musi:
             g_mus = add_music(final, musi, work, ffprobe_duration(final))
-        cover = cover_frame(final, outdir / f"{fecha}{ED['sufijo']}-portada.jpg")
+        cover = cover_frame(final, outdir / f"{fecha}{fr}{ED['sufijo']}-portada.jpg")
 
         # 6. rotación
-        patron = re.compile(r"^\d{4}-\d{2}-\d{2}" + re.escape(ED["sufijo"]) + r"\.mp4$")
+        patron = re.compile(
+            r"^\d{4}-\d{2}-\d{2}(?:-(?:manana|mediodia|noche))?"
+            + re.escape(ED["sufijo"])
+            + r"\.mp4$"
+        )
         viejos = sorted(v for v in outdir.glob("*.mp4") if patron.match(v.name))
         for old in viejos[:-args.keep]:
             old.unlink(missing_ok=True)
@@ -1196,17 +1304,21 @@ def main(argv=None):
             "script_source": origen,
             "hook": script["hook"],
             "items": [
-                {"title": s["titular"], "source": s["item"].get("via") or s["item"]["source"],
+                {"title": s["titular"], "headline": s["item"]["title"],
+                 "source": s["item"].get("via") or s["item"]["source"],
                  "link": s["item"]["link"], "photo_credit": s["item"].get("_credito")}
                 for s in script["segments"]
             ],
         }
-        (outdir / f"index{ED['sufijo']}.json").write_text(
+        (outdir / f"index{fr}{ED['sufijo']}.json").write_text(
             json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8"
         )
+        kit = escribir_kit(outdir, fecha, args.franja, args.edicion, ED, meta, root)
+        marcar_usadas(usadas_path, picked)
 
         size_mb = final.stat().st_size / 1024 / 1024
         print(f"\nListo: {final.relative_to(root)} · {total:.1f}s · {size_mb:.1f} MB")
+        print(f"Textos: {kit.relative_to(root)}")
         if ganancia:
             print(f"Audio normalizado: +{ganancia:.1f} dB")
         if musi:

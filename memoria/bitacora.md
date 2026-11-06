@@ -1,5 +1,25 @@
 # Bitácora
 
+## 2026-11-06 · tres franjas al día y textos para publicar
+
+- El cron pasa de una a tres ejecuciones (13:00, 19:00 y 01:00 UTC = 07:00, 13:00 y
+  19:00 en Ciudad de México). Con dos ediciones son **seis cápsulas al día**.
+- `--franja` (dia | manana | mediodia | noche) añade sufijo al nombre
+  (`2026-11-06-manana.mp4`, `-latam`), a la portada, al `index-*.json` y al `.txt`.
+- **No repetir**: `docs/videos/usadas{,-latam}.json` guarda enlace → fecha de emisión y
+  `quitar_repetidas()` descarta lo visto en las últimas `--ventana-repe` horas (10 por
+  defecto). Si quedan menos de 3 noticias frescas se permite repetir, para no emitir una
+  cápsula vacía. La lista se poda a 3 días.
+- **Kit de publicación**: `escribir_kit()` deja un `.txt` con título, descripción con los
+  cinco enlaces, hashtags y duración. Usa el titular **original** (`headline`), no el
+  recortado de pantalla. El panel lo enlaza con el botón "Textos para publicar".
+- `aggregate.video_for()` ahora busca la cápsula más reciente del día en orden
+  noche → mediodía → mañana → día.
+- La franja se calcula en el workflow con la hora UTC (`<6` noche, `<16` mañana, resto
+  mediodía), así que `workflow_dispatch` también acierta sin parámetros.
+- **Filtro**: se colaba "Editor's Comment"/"Comentario del editor" como noticia; añadido
+  al patrón de relleno.
+
 ## 2026-11-05 · construcción inicial
 
 **Qué se hizo**

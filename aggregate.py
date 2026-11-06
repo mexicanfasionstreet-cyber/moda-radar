@@ -830,10 +830,22 @@ def _recency_bonus(iso):
 
 
 def video_for(out_dir, date_str, sufijo=""):
-    """Enlace relativo a la cápsula del día, si ya se generó ("" general, "-latam")."""
-    p = out_dir / "videos" / f"{date_str}{sufijo}.mp4"
-    if p.exists():
-        return f"videos/{date_str}{sufijo}.mp4"
+    """Cápsula más reciente del día ("" general, "-latam"): noche, mediodía, mañana o día."""
+    base = out_dir / "videos"
+    for franja in ("-noche", "-mediodia", "-manana", ""):
+        nombre = f"{date_str}{franja}{sufijo}.mp4"
+        if (base / nombre).exists():
+            return f"videos/{nombre}"
+    return None
+
+
+def textos_for(out_dir, date_str, sufijo=""):
+    """El archivo de textos de esa misma cápsula."""
+    base = out_dir / "videos"
+    for franja in ("-noche", "-mediodia", "-manana", ""):
+        nombre = f"{date_str}{franja}{sufijo}-textos.txt"
+        if (base / nombre).exists():
+            return f"videos/{nombre}"
     return None
 
 
@@ -1051,6 +1063,7 @@ def main(argv=None):
             "category_order": CATS,
             "video": video_for(root / args.out, gen[:10]),
             "video_latam": video_for(root / args.out, gen[:10], "-latam"),
+            "textos": textos_for(root / args.out, gen[:10]),
         }
         (root / args.out / "index.html").write_text(ui.render(items, meta), encoding="utf-8")
         print(f"panel regenerado ({'con' if meta['video'] else 'sin'} capsula)")
@@ -1075,6 +1088,7 @@ def main(argv=None):
         "category_order": CATS,
         "video": video_for(out, now.strftime("%Y-%m-%d")),
         "video_latam": video_for(out, now.strftime("%Y-%m-%d"), "-latam"),
+        "textos": textos_for(out, now.strftime("%Y-%m-%d")),
     }
 
     (out / "data").mkdir(parents=True, exist_ok=True)

@@ -2,8 +2,10 @@ name: Actualizar radar
 
 on:
   schedule:
-    # 12:00 UTC = 04:00 en Los Ángeles / 07:00 en Nueva York / 13:00 en Madrid
-    - cron: "0 12 * * *"
+    # tres franjas, hora de Ciudad de México (UTC-6)
+    - cron: "0 13 * * *"   # 07:00 CDMX · mañana
+    - cron: "0 19 * * *"   # 13:00 CDMX · mediodía
+    - cron: "0 1 * * *"    # 19:00 CDMX · noche
   workflow_dispatch:
   push:
     branches: [main]
@@ -58,6 +60,17 @@ jobs:
           ffprobe -version | head -1
           pip install --quiet edge-tts pillow
 
+      - name: Determinar la franja
+        id: franja
+        run: |
+          h=$(date -u +%H)
+          if [ "$h" -lt 6 ]; then F=noche
+          elif [ "$h" -lt 16 ]; then F=manana
+          else F=mediodia
+          fi
+          echo "franja=$F" >> "$GITHUB_OUTPUT"
+          echo "Franja: $F (UTC $h h)"
+
       - name: Agregar noticias y generar panel
         run: python aggregate.py --days 4
 
@@ -69,7 +82,7 @@ jobs:
           CAPSULE_VOICE: ${{ vars.CAPSULE_VOICE }}
         run: |
           mkdir -p datos
-          if python capsule.py > datos/capsula.log 2>&1; then
+          if python capsule.py --franja "${{ steps.franja.outputs.franja }}" > datos/capsula.log 2>&1; then
             rm -f datos/capsula.log
           else
             echo "::warning::La capsula fallo; el detalle queda en datos/capsula.log"
@@ -83,7 +96,7 @@ jobs:
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           CAPSULE_VOICE: ${{ vars.CAPSULE_VOICE }}
         run: |
-          if python capsule.py --edicion latam > datos/capsula-latam.log 2>&1; then
+          if python capsule.py --edicion latam --franja "${{ steps.franja.outputs.franja }}" > datos/capsula-latam.log 2>&1; then
             grep -E "candidatas|no hay noticias|Listo" datos/capsula-latam.log || true
             rm -f datos/capsula-latam.log
           else

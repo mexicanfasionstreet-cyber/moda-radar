@@ -100,6 +100,24 @@ noticia es de industria (negocio, retail, sostenibilidad o fichajes). Las fuente
 retail genérico (CNBC, Retail Dive, Retail Gazette) solo entran si el titular menciona
 moda, belleza o textil.
 
+## Tres franjas al día
+
+El robot emite **tres veces al día**: 07:00, 13:00 y 19:00 (hora de Ciudad de México).
+Cada franja genera dos cápsulas —general y México/LatAm—, así que son **seis vídeos
+diarios**.
+
+- Los archivos se llaman `AAAA-MM-DD-manana.mp4`, `-mediodia`, `-noche` (y su versión
+  `-latam`), con su portada y su `index-*.json`.
+- **No se repite**: cada cápsula descarta lo emitido en las últimas 10 horas de su misma
+  edición (`docs/videos/usadas.json` y `usadas-latam.json`). Si un día hay poco material,
+  se permite repetir antes que dejar la cápsula vacía.
+- Junto a cada vídeo se escribe **`...-textos.txt`** con título, descripción con los cinco
+  enlaces y hashtags, listos para pegar donde publiques. El panel enlaza el texto de la
+  cápsula más reciente con el botón *"Textos para publicar"*.
+- El panel muestra siempre la cápsula más reciente del día (noche > mediodía > mañana).
+- La franja se deduce de la hora UTC en el workflow, así que una ejecución manual también
+  funciona sin pasar nada a mano: `python capsule.py --franja noche`.
+
 ## Puesta en marcha (10 minutos)
 
 ### 1. Crear el repositorio y subirlo
