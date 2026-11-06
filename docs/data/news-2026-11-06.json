@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-06T15:37:44.547172Z",
+ "generated": "2026-11-06T15:41:37.554592Z",
  "days": 4,
- "count": 166,
+ "count": 174,
  "sources_ok": 43,
  "sources_failed": [
-  "Drapers",
-  "Hypebeast"
+  "Hypebeast",
+  "Textile World"
  ],
  "items": [
   {
@@ -93,6 +93,27 @@
    "score": 8.95
   },
   {
+   "title": "Editor’s comment: Who are the most influential people in fashion retail this year?",
+   "link": "https://www.drapersonline.com/insight/comment/editors-comment-who-are-the-most-influential-people-in-fashion-retail-this-year",
+   "excerpt": "This week brought a mixed bag of trading updates and we unveiled the eagerly awaited Drapers Power 100 2026 list. The post Editor’s comment: Who are the most influential people in fashion retail this year? appeared first on…",
+   "image": "",
+   "published": "2026-11-06T15:00:00Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "retail"
+   ],
+   "via": "",
+   "also": [],
+   "id": "e3d65f9eb0ed",
+   "score": 8.39
+  },
+  {
    "title": "Weekly Drop Watch: Anine Bing x Tecovas, Ouai x Heaven Mayhem, Warby Parker x Rare Beauty and More",
    "link": "https://fashionista.com/2026/11/best-fashion-beauty-launches-collaborations-november-6",
    "excerpt": "Occasionally, we use affiliate links on our site. This in no way affects our editorial decision-making. For our Weekly Drop Watch column, Fashionista scours the market to curate the most noteworthy releases from our favorite…",
@@ -175,6 +196,48 @@
    "also": [],
    "id": "1355e0bc6681",
    "score": 8.75
+  },
+  {
+   "title": "Armani heirs favour IPO over sale",
+   "link": "https://www.drapersonline.com/news/armani-heirs-favour-ipo-over-sale",
+   "excerpt": "The heirs of Giorgio Armani are said to favour an initial public offering (IPO) over selling the business, according to reports. The post Armani heirs favour IPO over sale appeared first on Drapers .",
+   "image": "",
+   "published": "2026-11-06T14:26:18Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "negocio"
+   ],
+   "via": "",
+   "also": [],
+   "id": "985dde874777",
+   "score": 8.59
+  },
+  {
+   "title": "How Lewis Hamilton put Lululemon’s latest innovation through its paces",
+   "link": "https://www.drapersonline.com/news/how-lewis-hamilton-put-lululemons-latest-innovation-through-its-paces",
+   "excerpt": "Fitnesswear giant Lululemon is launching a running vest that promises to acclimatise to runners’ fluctuating temperatures. Its vice-president of research and product innovation, Chantelle Murnaghan, tells Drapers how its brand…",
+   "image": "",
+   "published": "2026-11-06T14:00:07Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "industria"
+   ],
+   "via": "",
+   "also": [],
+   "id": "c11fa10e0739",
+   "score": 7.79
   },
   {
    "title": "Wordly Launches Its Most Expansive Supplier Compliance Solution",
@@ -345,6 +408,27 @@
    "score": 9.55
   },
   {
+   "title": "Paul Smith recognised by City of London for contribution to British fashion",
+   "link": "https://www.drapersonline.com/news/paul-smith-recognised-by-city-of-london-for-contribution-to-british-fashion",
+   "excerpt": "Sir Paul Smith has received the Freedom of the City of London in recognition of his contribution to British fashion and design. The post Paul Smith recognised by City of London for contribution to British fashion appeared first…",
+   "image": "",
+   "published": "2026-11-06T11:46:34Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "diseno"
+   ],
+   "via": "",
+   "also": [],
+   "id": "c6106d940b62",
+   "score": 7.49
+  },
+  {
    "title": "My Packing Style: Creative Director Gabriella Khalil",
    "link": "https://www.vogue.com/article/packing-style-gabriella-khalil",
    "excerpt": "Take a peek inside hotelier and designer Gabriella Khalil’s travel bag—as well as the packing tips she swears by.",
@@ -450,6 +534,27 @@
    "score": 7.24
   },
   {
+   "title": "Drapers daily news 06/11/2026",
+   "link": "https://www.drapersonline.com/news/drapers-daily-news-15-09-2026",
+   "excerpt": "Here are today's key fashion retail news stories… - Superdry & Co announces refinancing drapersonline.com/kaof - Martine Rose appointed as creative director of Balenciaga drapersonline.com/r63t - M&S launches Christmas advert…",
+   "image": "",
+   "published": "2026-11-06T08:56:25Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "personas"
+   ],
+   "via": "",
+   "also": [],
+   "id": "f46ca210f338",
+   "score": 7.24
+  },
+  {
    "title": "Liberty launches Christmas 2026 campaign with new gifting service",
    "link": "https://www.theindustry.fashion/liberty-launches-christmas-2026-campaign-with-new-gifting-service/",
    "excerpt": "Liberty has unveiled its Christmas 2026 campaign, introducing a new Gifting Curator service alongside a series of festive experiences across its London flagship. The campaign, titled ‘The Christmas Chronicles’, follows the…",
@@ -490,6 +595,27 @@
    "also": [],
    "id": "8b0679640915",
    "score": 6.3
+  },
+  {
+   "title": "Superdry & Co announces refinancing",
+   "link": "https://www.drapersonline.com/companies/directory/superdry/superdry-announces-refinancing",
+   "excerpt": "Superdry & Co has announced £70m in refinancing from Barclays and Bank of America. The post Superdry & Co announces refinancing appeared first on Drapers .",
+   "image": "",
+   "published": "2026-11-06T08:15:57Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "industria"
+   ],
+   "via": "",
+   "also": [],
+   "id": "c047ec34b566",
+   "score": 7.19
   },
   {
    "title": "Kering affida la direzione creativa di Balenciaga a Martine Rose",
@@ -555,6 +681,69 @@
    "score": 6.66
   },
   {
+   "title": "M&S launches Christmas advert",
+   "link": "https://www.drapersonline.com/news/ms-launches-christmas-advert",
+   "excerpt": "Marks & Spencer has launched its Christmas advert spanning all four of its main categories – food, fashion, home and beauty – for the first time in nine years. The post M&S launches Christmas advert appeared first on Drapers .",
+   "image": "",
+   "published": "2026-11-06T07:59:00Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "belleza"
+   ],
+   "via": "",
+   "also": [],
+   "id": "bb82faa410af",
+   "score": 6.74
+  },
+  {
+   "title": "John Lewis, BoohooMan and Footasylum: The fashion retailers discounting for Black Friday 2026",
+   "link": "https://www.drapersonline.com/topics/black-friday/john-lewis-boohooman-and-footasylum-the-fashion-retailers-discounting-for-black-friday-2026",
+   "excerpt": "monitors the latest Black Friday deals across the UK fashion retail market in 2026. The post John Lewis, BoohooMan and Footasylum: The fashion retailers discounting for Black Friday 2026 appeared first on Drapers .",
+   "image": "",
+   "published": "2026-11-06T07:50:21Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "retail"
+   ],
+   "via": "",
+   "also": [],
+   "id": "454ef75be184",
+   "score": 7.79
+  },
+  {
+   "title": "Wet weather and Budget dampen October footfall",
+   "link": "https://www.drapersonline.com/news/wet-weather-and-budget-dampen-october-footfall",
+   "excerpt": "England's total retail footfall was down -4.6% year on year during October, from a -3.4% decline in September, NIRC-Sensormatic data shows. The post Wet weather and Budget dampen October footfall appeared first on Drapers .",
+   "image": "",
+   "published": "2026-11-06T07:41:51Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "retail"
+   ],
+   "via": "",
+   "also": [],
+   "id": "0a7b1ebd68c1",
+   "score": 7.79
+  },
+  {
    "title": "Balenciaga anuncia a Martine Rose como nueva directora creativa",
    "link": "https://es.fashionnetwork.com/news/Balenciaga-anuncia-a-martine-rose-como-nueva-directora-creativa,1882655.html",
    "excerpt": "",
@@ -595,6 +784,7 @@
    "also": [
     "Business of Fashion",
     "The Industry",
+    "Drapers",
     "Vogue",
     "British Vogue",
     "Fashionista",
@@ -602,7 +792,7 @@
     "Harper's Bazaar"
    ],
    "id": "6878f554b1af",
-   "score": 13.95
+   "score": 14.7
   },
   {
    "title": "Driving sustainable textile manufacturing through chemical innovation",
@@ -1001,7 +1191,7 @@
    "via": "",
    "also": [],
    "id": "b0f24ed80c51",
-   "score": 6.51
+   "score": 6.01
   },
   {
    "title": "Livvy Dunne on How NIL Changed Her Life and Her Move Into Acting",
@@ -2166,27 +2356,6 @@
    "score": 6.74
   },
   {
-   "title": "Spinnova Signs Letter Of Intent With Outlast To Develop SPINNOVA® Fibre For Insulation And Temperature Regulation",
-   "link": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6aedf43d8b66411b90f4c0bbd89f049b&url=https%3A%2F%2Fwww.textileworld.com%2Ftextile-world%2Ffiber-world%2F2026%2F11%2Fspinnova-signs-letter-of-intent-with-outlast-to-develop-spinnova-fibre-for-insulation-and-temperature-regulation%2F&c=16838274605392804620&mkt=en-us",
-   "excerpt": "Spinnova Plc, a materials technology company producing textile fibre from side streams and wood pulp, today announced that it has signed a non-binding letter of intent (“LOI”) with Outlast ...",
-   "image": "",
-   "published": "2026-11-05T07:37:00Z",
-   "source": "Textile World",
-   "source_name": "Textile World",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 3.2,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "industria"
-   ],
-   "via": "Textile World",
-   "also": [],
-   "id": "409bdc10440f",
-   "score": 5.49
-  },
-  {
    "title": "Government, factory owners and labour leaders unite to restore RMG stability",
    "link": "https://textiletoday.com.bd/government-factory-owners-and-labour-leaders-unite-to-restore-rmg-stability",
    "excerpt": "Labour and Employment Minister Ariful Haque Choudhury has urged readymade garment (RMG) workers to return to work from today (5 November), while calling on factory owners to reopen factories temporarily closed. Additionally, he…",
@@ -2670,6 +2839,27 @@
    "score": 6.0
   },
   {
+   "title": "Marketing jobs in United Kingdom",
+   "link": "https://www.businessoffashion.com/careers/jobs/marketing/united-kingdom/",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-04T15:39:39Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "industria"
+   ],
+   "via": "The Business of Fashion",
+   "also": [],
+   "id": "51d8dbbf6260",
+   "score": 6.95
+  },
+  {
    "title": "Cate Blanchett encabezará una nueva revista literaria de Uniqlo",
    "link": "https://es.fashionnetwork.com/news/Cate-blanchett-encabezara-una-nueva-revista-literaria-de-uniqlo,1881510.html",
    "excerpt": "",
@@ -2731,27 +2921,6 @@
    "also": [],
    "id": "4bd3ed8b5402",
    "score": 7.1
-  },
-  {
-   "title": "Marketing jobs in United Kingdom",
-   "link": "https://www.businessoffashion.com/careers/jobs/marketing/united-kingdom/",
-   "excerpt": "",
-   "image": "",
-   "published": "2026-11-04T14:40:51Z",
-   "source": "BoF",
-   "source_name": "Business of Fashion",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "global",
-   "tags": [
-    "industria"
-   ],
-   "via": "The Business of Fashion",
-   "also": [],
-   "id": "51d8dbbf6260",
-   "score": 6.95
   },
   {
    "title": "Founders Shut Down Coperni",
@@ -3217,7 +3386,7 @@
   },
   {
    "title": "Bangladés: las nuevas negociaciones salariales en el sector textil desatan una crisis social",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPenpMdVV6ckFLbUtGelhXbVo3VVZBVjRLSkwxOWVnVEVsTmtSZnJiQUEzQWg1YXV1LTNZS2V4UnN3aWd1NWgtVFNnaHJyNkxtemI0TG9zUGpsNEg5MU52bl9rRzRsTVJiNEo0empsakdNdkhlS2R0T3BHd0NkQ2Ezd3V3dlF4NXMycVB4eEt5OVFrTmRiODEtZEc2VkE2TzRuWUlsNXB6MmREdjlaSDVQZ2Zodmp2LUtDc0gyNUNBdEhfX0dibjZPMVp6ZVFnZ3IzMi1LLXBB?oc=5",
+   "link": "https://es.fashionnetwork.com/news/Banglades-las-nuevas-negociaciones-salariales-en-el-sector-textil-desatan-una-crisis-social,1881127.html",
    "excerpt": "",
    "image": "",
    "published": "2026-11-03T10:10:00Z",
@@ -3233,7 +3402,7 @@
    ],
    "via": "FashionNetwork España",
    "also": [],
-   "id": "8b29da00bba0",
+   "id": "30802f042e5f",
    "score": 5.35
   },
   {
@@ -3259,7 +3428,7 @@
   },
   {
    "title": "Primark eleva sus ventas anuales solo un 2 %, pero destaca sus perspectivas de crecimiento en Europa, EE. UU. y Oriente Medio",
-   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQSlNneDktR1dkQ3dSR0tJc0tIcnp0NUoxQm1HeW9XMFBYc3hnS3pLTTJKMG1LRGpkYVpFMGJzUlpPLUVWVXoyUUNNeFVKNWFHUWpaQVJzei16ckE5b1VaYWFMR08zZ0FMUUdHMFU2SVJqd2x1OU1GUmsxNURQQlZIdGtnZ1RXNmlibFNqR3NuYjR2eWlDQTFUdzZReU9KVlZYdGRoekxmTzFDX2NrelJDYmxhRlh6MjkwODZiN2tLeWVnenhFNlFSXzlQTmw0U3lDdE1jcmM5RkR0VjlMREhjSVktR19idEkwRmNPMWR0bmpMc3YxX0t5SW5RWQ?oc=5",
+   "link": "https://es.fashionnetwork.com/news/Primark-eleva-sus-ventas-anuales-solo-un-2-pero-destaca-sus-perspectivas-de-crecimiento-en-europa-ee-uu-y-oriente-medio,1881255.html",
    "excerpt": "",
    "image": "",
    "published": "2026-11-03T09:00:56Z",
@@ -3275,7 +3444,7 @@
    ],
    "via": "FashionNetwork España",
    "also": [],
-   "id": "9c34905cb285",
+   "id": "1f71c647a88d",
    "score": 6.0
   },
   {
@@ -3406,7 +3575,7 @@
   },
   {
    "title": "Amazon estima unas ventas para el cuarto trimestre por debajo de las previsiones",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYVlpTUhpb3ZBOXdxYVpGOVItNk5yazRjT0t5enlrQlZMRzNMT1FGYTcwOFlfbWR1bFlWakYzREJnbWdkbHFPM2dIX3pZMWgxeVR2c1M0MkVRS0tJNGpWR2lTei1jRC1GVktFa1lJcWJJejRfWFhySVZ3RlNCVlNRbEY1N2lsYy0teloyLVhMT3hrUExQb3NzX01oRmR0RUFiajRMUFc1aHQ1WjY4UHFONHFFSHFwZXRQb1VEQ2R0UHVKeVJSUTU4?oc=5",
+   "link": "https://es.fashionnetwork.com/news/Amazon-estima-unas-ventas-para-el-cuarto-trimestre-por-debajo-de-las-previsiones,1880440.html",
    "excerpt": "",
    "image": "",
    "published": "2026-11-02T17:26:22Z",
@@ -3422,7 +3591,7 @@
    ],
    "via": "FashionNetwork España",
    "also": [],
-   "id": "97ea54ac8723",
+   "id": "8d6262051340",
    "score": 6.15
   },
   {
@@ -3448,7 +3617,7 @@
   },
   {
    "title": "Los impuestos de la UE a Shein y Temu podrían aportar 6000 millones de euros al presupuesto comunitario",
-   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPYlRGTnVBXzVmcDRFemY3Mmo2YUpxZ0VuLUc2blVTZEx6bG9xZ3Fsd0VBeTg0ZFFsWUljRXdhc0EwMHFnOFlLTXBuR3QwZW4zNjFkY3BwcUhINDgzZ21xenN1N0MteC1wZjFQUFp1eHpIX2ZCT0lhaGY5UTRTZU9DRU9ycFd5NmRNbVpYbF9yUXZHOUpEeHkwUFM3My1ZOTRlMFMwdmppQnBITHRTVkR4N2hNd3gyV2FaSFE3dnAwTnU3RmdDbWs2S2hPUnlkVkk2Qko4QWpuaW1ldmtOQWdwVXJLRTRNZw?oc=5",
+   "link": "https://es.fashionnetwork.com/news/Los-impuestos-de-la-ue-a-shein-y-temu-podrian-aportar-6000-millones-de-euros-al-presupuesto-comunitario,1880634.html",
    "excerpt": "",
    "image": "",
    "published": "2026-11-02T17:23:15Z",
@@ -3464,7 +3633,7 @@
    ],
    "via": "FashionNetwork España",
    "also": [],
-   "id": "bea08979d961",
+   "id": "afe3c229fde2",
    "score": 6.15
   },
   {
