@@ -1,43 +1,43 @@
 {
  "date": "2026-11-06",
  "edition": "general",
- "duration": 73.5,
+ "duration": 75.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "Martine Rose toma la dirección creativa de Balenciaga tras la salida de Piccioli",
+ "hook": "3M pagará hasta 7.350 millones por demandas de PFAS",
  "items": [
   {
-   "title": "Martine Rose dirige Balenciaga",
-   "headline": "Martine Rose named Balenciaga Creative Director",
+   "title": "3M acuerda pago millonario por PFAS",
+   "headline": "3M Reaches PFAS Injury Settlement of Up to $7.35 Billion",
+   "source": "WWD",
+   "link": "https://wwd.com/sourcing-journal/industry-news/3m-pfas-personal-injury-settlement-factory-closures-1239403273/",
+   "photo_credit": null
+  },
+  {
+   "title": "Piccioli sale de Balenciaga",
+   "headline": "Pierpaolo Piccioli Is Out at Balenciaga",
+   "source": "Fashionista",
+   "link": "https://fashionista.com/2026/11/pierpaolo-piccioli-balenciaga-creative-director-exit",
+   "photo_credit": null
+  },
+  {
+   "title": "Lo más leído del retail esta semana",
+   "headline": "Editors' Top Reads: News from Liberty, Harrods, Barbour and more...",
    "source": "The Industry",
-   "link": "https://www.theindustry.fashion/martine-rose-named-balenciaga-creative-director/",
+   "link": "https://www.theindustry.fashion/editors-top-reads-news-from-liberty-harrods-barbour-and-more/",
    "photo_credit": null
   },
   {
-   "title": "GXO apuesta por Asia",
-   "headline": "GXO Plans to Turn a Sub-$100M Asia Business Into a Regional Giant",
+   "title": "Oushq y CFDA celebran Diwali Noir",
+   "headline": "Oushq and CFDA Host Diwali Noir Party",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/logistics/gxo-logistics-asia-expansion-q3-organic-growth-3pl-robotics-digit-1239404380/",
+   "link": "https://wwd.com/fashion-news/fashion-scoops/cfda-oushq-diwali-noir-party-indian-fashion-craftsmanship-1239404508/",
    "photo_credit": null
   },
   {
-   "title": "The IQ Collection llega a México",
-   "headline": "The IQ Collection continúa su expansión internacional con la apertura de una nueva boutique en México",
-   "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/the-iq-collection-apertura-nueva-boutique-en-ciudad-de-mexico",
-   "photo_credit": null
-  },
-  {
-   "title": "Waddingham apuesta por Betzábe",
-   "headline": "Hannah Waddingham Slips Into Minimalist Betzábe Mules to Be Honored at the 2026 WIF Honors",
+   "title": "Salma Hayek brilla en los WIF Honors",
+   "headline": "Salma Hayek Pinault Mixes Designers With Gucci T-strap Pumps and Bottega Veneta Gown at the 2026 WIF Honors",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-trends/hannah-wadding-minimalist-betzabe-mules-2026-wif-honors-1239404265/",
-   "photo_credit": null
-  },
-  {
-   "title": "Dior floral en los pies de Madison",
-   "headline": "Mikey Madison Brings Dior’s Floral Obsession to Her Feet with Hand-Painted Floral Sandals",
-   "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-trends/mikey-madison-dior-floral-heels-jonathan-anderson-1239404115/",
+   "link": "https://wwd.com/footwear-news/shoe-trends/salma-hayek-gucci-t-strap-pumps-2026-wif-honors-1239404496/",
    "photo_credit": null
   }
  ]
