@@ -58,12 +58,31 @@ def es_google(link):
     return bool(ID_RX.search(link or ""))
 
 
+_CHARSET_RX = re.compile(rb"""<meta[^>]+charset\s*=\s*["']?([A-Za-z0-9_-]+)""", re.I)
+
+
+def decode_html(raw, header_charset=None):
+    """Texto de una página respetando su codificación (hay sitios en latin-1/cp1252:
+    leerlos como UTF-8 se come los acentos: "Edicin reuni")."""
+    m = _CHARSET_RX.search(raw[:4096])
+    for cs in (header_charset, m.group(1).decode("ascii", "ignore") if m else None):
+        if cs:
+            try:
+                return raw.decode(cs)
+            except Exception:  # noqa: BLE001
+                pass
+    try:
+        return raw.decode("utf-8")
+    except UnicodeDecodeError:
+        return raw.decode("cp1252", "replace")
+
+
 def _get(url, data=None, headers=None, limit=700_000):
     h = {"User-Agent": UA, "Accept-Language": "es-MX,es;q=0.9,en;q=0.8"}
     h.update(headers or {})
     req = urllib.request.Request(url, data=data, headers=h)
     with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
-        return r.read(limit).decode("utf-8", "ignore"), r.geturl()
+        return decode_html(r.read(limit), r.headers.get_content_charset()), r.geturl()
 
 
 def _from_base64(art_id):

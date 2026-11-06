@@ -224,3 +224,8 @@ otro sitio; y **los créditos de foto se quedan** ("al final es darle crédito a
   Tijuana", "catrina"…), sin repetir foto, y pinta "Foto: autor · licencia" bajo la fuente.
 - Cápsula LatAm: hasta 2 notas de Tijuana/Baja California garantizadas, sin repetir el mismo
   evento (dos titulares con ≥2 palabras significativas en común).
+- Primera edición con esto: 40 enlaces de Google resueltos (de 45 de espejo quedan 4 con
+  enlace de Google). La cápsula LatAm salió con El Trompo (Tijuana) y DAFTA en Volvo
+  Fashion Week, ambas con la foto del artículo. Openverse no hizo falta ese día.
+- Codificación: Uniradio sirve latin-1 y se leía como UTF-8 ("Edicin reuni"). `decode_html`
+  usa el charset de la cabecera o del `<meta>`, y si no, UTF-8 → cp1252.

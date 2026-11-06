@@ -183,6 +183,25 @@ def translate_es(text):
 
 # --------------------------------------------------------------------------- imagen desde la página
 
+_CHARSET_RX = re.compile(rb"""<meta[^>]+charset\s*=\s*["']?([A-Za-z0-9_-]+)""", re.I)
+
+
+def decode_html(raw, header_charset=None):
+    """Texto de una página respetando su codificación (hay sitios en latin-1/cp1252:
+    leerlos como UTF-8 se come los acentos: "Edicin reuni")."""
+    m = _CHARSET_RX.search(raw[:4096])
+    for cs in (header_charset, m.group(1).decode("ascii", "ignore") if m else None):
+        if cs:
+            try:
+                return raw.decode(cs)
+            except Exception:  # noqa: BLE001
+                pass
+    try:
+        return raw.decode("utf-8")
+    except UnicodeDecodeError:
+        return raw.decode("cp1252", "replace")
+
+
 def _es_google(link):
     """Los enlaces de news.google.com redirigen con JavaScript: su HTML es de Google."""
     return "news.google." in (link or "")
@@ -202,8 +221,8 @@ def og_image(link):
     try:
         req = urllib.request.Request(link, headers={"User-Agent": UA})
         with urllib.request.urlopen(req, timeout=25) as r:
-            raw = r.read(600000)
-        m = META_IMG.search(raw.decode("utf-8", "ignore"))
+            raw = decode_html(r.read(600000), r.headers.get_content_charset())
+        m = META_IMG.search(raw)
         if m:
             return htmllib.unescape(m.group(1))
     except Exception:  # noqa: BLE001
@@ -225,8 +244,8 @@ def page_description(link):
     try:
         req = urllib.request.Request(link, headers={"User-Agent": UA})
         with urllib.request.urlopen(req, timeout=25) as r:
-            raw = r.read(600000)
-        m = META_DESC.search(raw.decode("utf-8", "ignore"))
+            raw = decode_html(r.read(600000), r.headers.get_content_charset())
+        m = META_DESC.search(raw)
         if m:
             txt = htmllib.unescape(m.group(1)).strip()
             txt = re.sub(r"\s+", " ", txt)
