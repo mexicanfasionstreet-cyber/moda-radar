@@ -32,6 +32,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 
+import enlaces
 import ui
 
 UA = (
@@ -241,22 +242,6 @@ def _lead_rx(text):
     return re.compile(r"^\W*" + r"\W+".join(re.escape(w) for w in words) + r"(?!\w)\W*", re.I)
 
 
-# créditos de foto que algunos medios (Merca2.0) ponen al inicio de la entradilla
-CREDIT_RX = re.compile(
-    r"^\W*(?:"
-    r"(?i:foto|fotos|imagen|fotograf[ií]a|photo)\s*:\s*"
-    r"(?:(?i:especial|archivo|cortes[ií]a|cuartoscuro)\b\.?\s+"
-    r"|(?:[A-ZÁÉÍÓÚÑÜ][A-ZÁÉÍÓÚÑÜ.'/-]+\s+){1,4})"      # nombre en MAYÚSCULAS
-    r"|(?i:bigstock|shutterstock|istock|getty images|cuartoscuro|depositphotos)\b\.?\s+"
-    r")"
-)
-
-
-def strip_credit(text):
-    m = CREDIT_RX.match(text or "")
-    return text[m.end():] if m and m.end() < len(text) else text
-
-
 def strip_lead(excerpt, prefixes):
     """Quita del inicio del extracto lo que repite el medio o el titular.
 
@@ -276,7 +261,7 @@ def strip_lead(excerpt, prefixes):
                 text = text[m.end():]
                 changed = True
                 break
-    return strip_credit(text.strip()).strip()
+    return text.strip()
 
 
 def truncate(s, limit=230):
@@ -615,7 +600,32 @@ def lead_entity(title):
 
 # --------------------------------------------------------------------------- pipeline
 
-def build(sources, days):
+def resolve_google_links(items, cache_path, limit=40):
+    """Cambia los enlaces de Google News por el artículo real, con su foto y entradilla."""
+    google = [it for it in items if enlaces.es_google(it["link"])]
+    if not google:
+        return 0
+    # primero las búsquedas por tema (Tijuana, Pasarelas MX), luego por peso editorial
+    google.sort(key=lambda it: (not it.get("aggregator"), -it["weight"]))
+    cache = enlaces.load_cache(cache_path)
+    infos = enlaces.resolve([it["link"] for it in google], cache, limit=limit)
+    enlaces.save_cache(cache_path, cache)
+    hechos = 0
+    for it in google:
+        info = infos.get(it["link"]) or {}
+        if not info.get("url"):
+            continue
+        it["link"] = clean_link(info["url"])
+        hechos += 1
+        if not it["image"] and info.get("image", "").startswith("http"):
+            it["image"] = info["image"]
+        desc = strip_lead(clean_text(info.get("desc", "")), [it["source_name"], it.get("via", ""), it["title"]])
+        if len(desc) >= 40 and (not it["excerpt"] or it["excerpt"].startswith("Publicado por")):
+            it["excerpt"] = truncate(desc)
+    return hechos
+
+
+def build(sources, days, cache_path=None):
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(days=days)
     results, failures = [], []
@@ -695,6 +705,8 @@ def build(sources, days):
                     "lang": src["lang"],
                     "region": src["region"],
                     "tags": tags,
+                    "via": it.get("via", "") if mirrored else "",
+                    "aggregator": bool(src.get("aggregator")),
                     "_tok": tokens(title),
                     "_ev": (lead_entity(title), event_class(title)),
                 }
@@ -704,10 +716,14 @@ def build(sources, days):
                 break
 
     merged = merge_items(items)
+    if cache_path:
+        n = resolve_google_links(merged, cache_path)
+        print(f"enlaces de Google News resueltos: {n}")
 
     for it in merged:
         it.pop("_tok", None)
         it.pop("_ev", None)
+        it.pop("aggregator", None)
         it["also"] = it.get("also", [])
         it["published"] = it["published"].isoformat().replace("+00:00", "Z")
         # id estable: hash del enlace (hash() de Python cambia en cada proceso y
@@ -731,7 +747,7 @@ def build(sources, days):
 # campos que definen "de qué medio es" una noticia; se intercambian en bloque
 OWN_FIELDS = (
     "title", "link", "excerpt", "image", "published", "source", "source_name",
-    "kind", "mirror", "weight", "lang", "region", "tags",
+    "kind", "mirror", "weight", "lang", "region", "tags", "via", "aggregator",
 )
 
 
@@ -1041,7 +1057,7 @@ def main(argv=None):
         return 0
 
     print(f"moda-radar · {len(sources)} fuentes · ventana {args.days} días")
-    items, failures = build(sources, args.days)
+    items, failures = build(sources, args.days, cache_path=root / "datos" / "enlaces-cache.json")
     for name, err in failures:
         print(f"  ! {name}: {err}")
 

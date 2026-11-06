@@ -157,6 +157,15 @@ de medios de la región y las de medios internacionales cuyo titular habla de M�
 Latinoamérica. Si un día hay menos de 3, no se monta (no es un error). Se genera a mano con
 `python capsule.py --edicion latam`.
 
+Las notas de **Tijuana y Baja California** tienen lugar reservado en esa cápsula (hasta 2,
+sin repetir el mismo evento).
+
+**Fotos**: los enlaces de Google News se cambian por el del artículo real
+(`enlaces.py`, con caché en `datos/enlaces-cache.json`), y de ahí salen la foto y la
+entradilla. Si aun así una noticia no tiene foto, la cápsula busca una relacionada con
+licencia libre en [Openverse](https://openverse.org) (Flickr, Wikimedia...) por lugar y
+tema, y pone el crédito del fotógrafo y la licencia en pantalla.
+
 El botón **"México y LatAm"** del panel deja solo las noticias de la región.
 
 | Tipo | Medios | Qué entra |

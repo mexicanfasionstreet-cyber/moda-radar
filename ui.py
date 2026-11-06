@@ -238,7 +238,7 @@ def card_html(it):
     ts = esc(it["published"])
     body_p = f"<p>{excerpt}</p>" if it["excerpt"] else ""
     return f"""<article class="card" data-card data-latam="{_latam(it)}" data-kind="{esc(it.get('kind', 'trade'))}" data-cat="{esc(' '.join(it['tags']))}" data-src="{esc(it['source'])}" data-ts="{ts}" data-text="{esc(it['title'] + ' ' + it['excerpt'] + ' ' + it['source'] + ' ' + ' '.join(it['tags']))}">
-  <a class="{thumb_cls}" href="{link}" target="_blank" rel="noopener">{thumb}<span class="src-badge">{esc(it['source'])}</span></a>
+  <a class="{thumb_cls}" href="{link}" target="_blank" rel="noopener">{thumb}<span class="src-badge">{esc(it['source'] + (' · ' + it['via'] if it.get('via') and it['via'] != it['source_name'] else ''))}</span></a>
   <div class="body">
     <h3><a href="{link}" target="_blank" rel="noopener">{title}</a></h3>
     {body_p}

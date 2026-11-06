@@ -18,6 +18,7 @@ Proyecto personal.
 - `aggregate.py`  motor: descarga → limpia → deduplica → clasifica → renderiza.
 - `capsule.py`    cápsula en vídeo: selección → guion → voz → montaje.
 - `ui.py`         CSS, JS y plantilla del panel.
+- `enlaces.py`    enlaces de Google News → artículo real (+ foto y entradilla), con caché.
 - `sources.json`  catálogo de fuentes (verificadas el 2026-11-05).
 - `docs/`         lo que se publica: `index.html` + `data/*.json` + `videos/index.json`.
 - `datos/`        corpus acumulado (`noticias.jsonl` maestro + `noticias.csv`).

@@ -324,10 +324,50 @@ EDICIONES = {
         "hook": "Esto es lo que pasa hoy en la moda de México y Latinoamérica.",
         "outro": "Eso es todo por hoy. Mañana, más moda latina.",
         "tag": "MX · LATAM",
+        # las notas de Tijuana y Baja California tienen lugar reservado (hasta 2)
+        "prioridad": re.compile(r"tijuana|baja california|ensenada|mexicali|rosarito|tecate", re.I),
+        "prioridad_max": 2,
         "cierre": "México y LatAm · {fecha}",
     },
 }
 ED = EDICIONES["general"]  # edición activa; main() la cambia con --edicion
+
+
+_SIM_SKIP = {"tijuana", "mexico", "moda", "baja", "california", "fashion", "desfile", "pasarela"}
+
+
+def _palabras(it):
+    import unicodedata
+    t = unicodedata.normalize("NFKD", it.get("title", "").lower())
+    t = "".join(c for c in t if not unicodedata.combining(c))
+    return {w for w in re.findall(r"[a-z0-9]{5,}", t) if w not in _SIM_SKIP}
+
+
+def mismo_evento(a, b):
+    """Dos titulares sobre lo mismo ("El Trompo conmemoró…" / "El Trompo celebra…")."""
+    return len(_palabras(a) & _palabras(b)) >= 2
+
+
+def reserve_priority(picked, items, regex, maximo):
+    """Garantiza hasta `maximo` noticias que casan con `regex` (sin repetir evento)."""
+    def es_prio(it):
+        return bool(regex.search(f"{it.get('title', '')} {it.get('excerpt', '')}")) or it.get("source") == "Tijuana"
+
+    elegidas = [it for it in picked if es_prio(it)]
+    for it in sorted((x for x in items if es_prio(x)), key=lambda x: x.get("score", 0), reverse=True):
+        if len(elegidas) >= maximo:
+            break
+        if it in elegidas or any(mismo_evento(it, e) for e in elegidas):
+            continue
+        elegidas.append(it)
+    nuevas = [it for it in elegidas if it not in picked]
+    # sustituyen a las últimas noticias que no son prioritarias
+    for it in nuevas:
+        for k in range(len(picked) - 1, -1, -1):
+            if not es_prio(picked[k]):
+                picked[k] = it
+                break
+    return picked
 
 
 def pick_items(items, n=MAX_ITEMS, bonus=None):
@@ -592,6 +632,104 @@ def gradient_canvas(text, seed, monograma=True):
     return img
 
 
+# --------------------------------------------------------------------------- foto relacionada
+#
+# Cuando la noticia no trae foto usable (p. ej. notas de Google News cuyo enlace no se
+# pudo resolver) se busca una foto con licencia libre en Openverse (Flickr, Wikimedia...)
+# por lugar y tema, y se muestra el crédito del fotógrafo en la diapositiva.
+
+OPENVERSE = "https://api.openverse.org/v1/images/"
+_OV_CACHE = {}
+
+LUGARES = [
+    (r"tijuana", "Tijuana"), (r"baja california|ensenada|mexicali|rosarito", "Baja California"),
+    (r"cdmx|ciudad de m[eé]xico|polanco", "Mexico City"), (r"guadalajara", "Guadalajara"),
+    (r"monterrey", "Monterrey"), (r"colombia|bogot[aá]|medell[ií]n", "Colombia"),
+    (r"argentin|buenos aires", "Buenos Aires"), (r"per[uú]\b|lima\b", "Peru"),
+    (r"m[eé]xic", "Mexico"),
+]
+TEMAS = [
+    (r"catrina|d[ií]a de muertos", "catrina"),
+    (r"pasarela|desfile|fashion week|runway|semana de la moda|fashion show", "fashion show runway"),
+    (r"zapato|tenis|calzado|sneaker|shoe|bota", "shoes"),
+    (r"joy|jewel|reloj|watch", "jewelry"),
+    (r"belleza|maquillaje|cosm[eé]tic|perfum|beauty|makeup", "makeup"),
+    (r"textil|fabric|tela|hilo", "textile fabric"),
+    (r"tienda|boutique|store|retail|centro comercial|mall|almac[eé]n", "boutique shop"),
+    (r"dise[nñ]ador|colecci[oó]n|designer|collection", "fashion designer"),
+]
+TEMA_SECCION = {
+    "pasarela": "fashion show runway", "diseno": "fashion designer", "retail": "boutique shop",
+    "belleza": "makeup", "calzado": "shoes", "negocio": "fashion store", "sostenibilidad": "textile",
+}
+
+
+def related_queries(item):
+    extracto = item.get("excerpt", "")
+    if extracto.startswith("Publicado por"):
+        extracto = ""  # es el nombre del medio, no habla de la noticia
+    texto = f"{item.get('title', '')} {extracto}"
+    lugar = next((n for rx, n in LUGARES if re.search(rx, texto, re.I)), "")
+    if not lugar and item.get("source") == "Tijuana":
+        lugar = "Tijuana"  # la búsqueda "Moda en Tijuana" ya es de la ciudad
+    tema = next((n for rx, n in TEMAS if re.search(rx, texto, re.I)), "")
+    sec = item["tags"][0] if item.get("tags") else ""
+    tema = tema or TEMA_SECCION.get(sec, "fashion")
+    qs = []
+    if lugar:
+        qs += [f"{tema} {lugar}", f"fashion {lugar}"]
+    qs += [tema, "fashion"]
+    return list(dict.fromkeys(qs))
+
+
+def openverse(q):
+    if q in _OV_CACHE:
+        return _OV_CACHE[q]
+    url = OPENVERSE + "?" + urllib.parse.urlencode({"q": q, "page_size": 20, "mature": "false"})
+    res = []
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            res = json.loads(r.read().decode("utf-8")).get("results") or []
+    except Exception as exc:  # noqa: BLE001
+        print(f"  ! Openverse ({q}): {type(exc).__name__}")
+    _OV_CACHE[q] = res
+    return res
+
+
+def credit_line(r):
+    autor = (r.get("creator") or r.get("provider") or "").strip()
+    lic = (r.get("license") or "").lower()
+    ver = (r.get("license_version") or "").strip()
+    if lic == "cc0":
+        lic_txt = "CC0"
+    elif lic == "pdm":
+        lic_txt = "dominio público"
+    elif lic:
+        lic_txt = f"CC {lic.upper()} {ver}".strip()
+    else:
+        lic_txt = ""
+    txt = "Foto: " + " · ".join(x for x in (autor, lic_txt) if x)
+    return txt if len(txt) <= 70 else txt[:67].rstrip() + "…"
+
+
+def related_photo(item, workdir, idx, used):
+    """Busca una foto relacionada con licencia libre. Devuelve (imagen, crédito)."""
+    for q in related_queries(item):
+        for r in openverse(q):
+            url = r.get("url")
+            if not url or url in used:
+                continue
+            if min(r.get("width") or 0, r.get("height") or 0) < 700:
+                continue
+            img = _load_image(url, workdir, f"{idx}rel")
+            if img and min(img.size) >= 600:
+                used.add(url)
+                print(f"  foto relacionada para '{item['title'][:50]}' ({q}): {credit_line(r)}")
+                return img, credit_line(r)
+    return None, None
+
+
 WP_THUMB = re.compile(r"-\d{2,4}x\d{2,4}(\.[a-z]{3,4})(?:\?.*)?$", re.I)
 
 
@@ -621,8 +759,11 @@ def _cover(img):
     return img.resize((ZOOM_W, ZOOM_H), Image.LANCZOS)
 
 
-def prepare_photo(item, workdir, idx):
-    """Foto de la noticia. Cadena: RSS → original sin sufijo → og:image → desenfoque."""
+def prepare_photo(item, workdir, idx, used=None):
+    """Foto de la noticia. Cadena: RSS → original sin sufijo → og:image →
+    foto relacionada con licencia libre (Openverse) → desenfoque → fondo de marca.
+    Si usa una foto relacionada deja su crédito en item["_credito"]."""
+    used = set() if used is None else used
     candidatos = []
     if item.get("image"):
         candidatos.append(item["image"])
@@ -648,6 +789,11 @@ def prepare_photo(item, workdir, idx):
         elif img:
             pequena = pequena or img
 
+    if buena is None:
+        buena, credito = related_photo(item, workdir, idx, used)
+        if buena is not None:
+            item["_credito"] = credito
+
     path = workdir / f"photo{idx}.jpg"
     if buena is not None:
         _cover(buena).save(path, quality=92, subsampling=1)
@@ -664,7 +810,7 @@ def prepare_photo(item, workdir, idx):
     return path, False
 
 
-def make_overlay(titular, section, source, out_path, kicker=None, big=False, raw_footer=False):
+def make_overlay(titular, section, source, out_path, kicker=None, big=False, raw_footer=False, credit=None):
     """Capa transparente con el texto fijo de la diapositiva."""
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
@@ -719,6 +865,9 @@ def make_overlay(titular, section, source, out_path, kicker=None, big=False, raw
         f_src = load_font(30, bold=False)
         texto = source if raw_footer else f"Fuente: {source}"
         d.text((66, H - 168), texto, font=f_src, fill=(255, 255, 255, 130))
+    if credit:
+        f_cr = load_font(24, bold=False)
+        d.text((66, H - 122), credit, font=f_cr, fill=(255, 255, 255, 115))
 
     img.save(out_path)
     return out_path
@@ -928,6 +1077,8 @@ def main(argv=None):
     con_foto = resolve_images(items)
     print(f"imagenes resueltas: {con_foto}/{len(items)}")
     picked = pick_items(items, args.items, ED["bonus"])
+    if ED.get("prioridad"):
+        picked = reserve_priority(picked, items, ED["prioridad"], ED["prioridad_max"])
     # la fecha es la de la edición, no la del reloj: si se monta a mano después de
     # medianoche UTC (las 4 pm en Tijuana) el panel no encontraría el vídeo
     fecha = (edition.get("generated") or "")[:10] or datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -969,7 +1120,8 @@ def main(argv=None):
         # gancho: imagen de la noticia principal
         ph = datetime.strptime(fecha, "%Y-%m-%d").strftime("%d/%m/%Y")
         lead = picked[0]
-        photo, _ = prepare_photo(lead, work, 0)
+        usadas = set()  # fotos relacionadas ya usadas: no repetir la misma en dos diapositivas
+        photo, _ = prepare_photo(lead, work, 0, usadas)
         ov = make_overlay(ED["portada"], "", ph,
                           work / "ov_hook.png", kicker=ED["kicker"], big=True, raw_footer=True)
         s_hook = work / "s_hook.mp4"
@@ -980,9 +1132,11 @@ def main(argv=None):
         # 3. una por noticia
         for i, seg in enumerate(script["segments"], 1):
             it = seg["item"]
-            photo, _ = prepare_photo(it, work, i)
+            photo, _ = prepare_photo(it, work, i, usadas)
             sec = SECTION_LABEL.get(it["tags"][0] if it.get("tags") else "", "")
-            ov = make_overlay(seg["titular"], sec, it["source"], work / f"ov{i}.png")
+            fuente = it.get("via") or it["source"]  # en Google News por tema, el medio real
+            ov = make_overlay(seg["titular"], sec, fuente, work / f"ov{i}.png",
+                              credit=it.get("_credito"))
             name, ap_path, adur = audios[i]
             s = work / f"s{i}.mp4"
             render_slide(photo, ov, ap_path, s, adur + 0.35, reverse=(i % 2 == 0))
@@ -1023,7 +1177,8 @@ def main(argv=None):
             "script_source": origen,
             "hook": script["hook"],
             "items": [
-                {"title": s["titular"], "source": s["item"]["source"], "link": s["item"]["link"]}
+                {"title": s["titular"], "source": s["item"].get("via") or s["item"]["source"],
+                 "link": s["item"]["link"], "photo_credit": s["item"].get("_credito")}
                 for s in script["segments"]
             ],
         }

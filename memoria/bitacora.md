@@ -206,3 +206,21 @@ Objetivo del usuario: que el radar cubra la moda de México y LatAm, no solo la 
 - Créditos de foto al inicio del extracto (Merca2.0: "FOTO: LAURA ISLAS …", "Bigstock.")
   se quitan en `strip_lead`.
 - Kicker con espaciado según el ancho real de cada letra ("MÉXICO" salía "MÉXI CO").
+
+## 2026-11-06 · Tijuana en la cápsula, fotos y créditos
+
+Pedido del usuario: que salgan las notas de Tijuana; si no hay foto, una relacionada de
+otro sitio; y **los créditos de foto se quedan** ("al final es darle crédito al fotógrafo").
+
+- Revertida la limpieza de créditos de foto en los extractos (`CREDIT_RX` fuera).
+- `enlaces.py`: descifra `news.google.com/rss/articles/…` → URL real (formato antiguo en
+  base64; el nuevo `AU_yqL…` con la firma de la página + `batchexecute`, como la web de
+  Google News). Luego lee og:image y og:description del artículo. Hasta 40 enlaces nuevos
+  por edición, primero las búsquedas por tema. Caché de 1.500 entradas; los fallos se
+  reintentan a los 2 días. Si Google lo cambia, falla en silencio y todo sigue como antes.
+- Campo `via` (el medio real en las búsquedas por tema): el panel lo pone en la etiqueta
+  ("Tijuana · El Imparcial") y la cápsula lo usa como "Fuente:".
+- Cápsula: si no hay foto usable, busca en Openverse por lugar + tema ("fashion designer
+  Tijuana", "catrina"…), sin repetir foto, y pinta "Foto: autor · licencia" bajo la fuente.
+- Cápsula LatAm: hasta 2 notas de Tijuana/Baja California garantizadas, sin repetir el mismo
+  evento (dos titulares con ≥2 palabras significativas en común).
