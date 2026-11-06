@@ -1,13 +1,138 @@
 {
- "generated": "2026-11-06T19:21:12.666824Z",
+ "generated": "2026-11-06T19:43:29.045822Z",
  "days": 4,
- "count": 178,
- "sources_ok": 43,
+ "count": 186,
+ "sources_ok": 44,
  "sources_failed": [
-  "Drapers",
   "Hypebeast"
  ],
  "items": [
+  {
+   "title": "Dior Lands at Harrods With a Pop-up Inspired by Holidays, Heritage, the Brand’s New Animated Film",
+   "link": "https://wwd.com/fashion-news/fashion-features/dior-harrods-pop-up-new-animated-film-holidays-house-codes-1239404068/",
+   "excerpt": "The pop-up runs from Friday until Dec. 27, with a design partially inspired by the new, animated short film “Christian Dior’s Night in Color” by the French director Sylvain Chomet.",
+   "image": "",
+   "published": "2026-11-06T19:35:00Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "retail"
+   ],
+   "via": "",
+   "also": [],
+   "id": "acfa3f3f45dc",
+   "score": 9.35
+  },
+  {
+   "title": "Kith Is Using Its Original New Balance Sneaker to Commemorate Three Distinct Elements of NYC",
+   "link": "https://wwd.com/footwear-news/sneaker-news/kith-new-balance-2011-monuments-release-date-1239404666/",
+   "excerpt": "The three 2011 sneakers include odes to the New York Knicks and Central Park.",
+   "image": "",
+   "published": "2026-11-06T19:34:45Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "calzado"
+   ],
+   "via": "",
+   "also": [],
+   "id": "95af57be3977",
+   "score": 8.55
+  },
+  {
+   "title": "Mckenna Grace Continues Her ‘Hunger Games’ Method Dressing Streak With a Meta Nod to Jennifer Lawrence",
+   "link": "https://wwd.com/pop-culture/celebrity-news/mckenna-grace-dress-jennifer-lawrence-golden-globes-1239404566/",
+   "excerpt": "Grace's “Sunrise on the Reaping” Madrid premiere dress hailed from Miss Sohee's spring 2024 couture collection.",
+   "image": "",
+   "published": "2026-11-06T19:33:06Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "pasarela"
+   ],
+   "via": "",
+   "also": [],
+   "id": "045b4b96c924",
+   "score": 8.65
+  },
+  {
+   "title": "Supima Reveals Talia Bourne as Winner of the 2026 Supima Design Competition",
+   "link": "https://wwd.com/fashion-news/designer-luxury/supima-reveals-talia-bourne-winner-of-the-2026-supima-design-competiton-1239404605/",
+   "excerpt": "The competition is part of the second NYC Supima Design Lab.",
+   "image": "",
+   "published": "2026-11-06T19:30:18Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "diseno"
+   ],
+   "via": "",
+   "also": [],
+   "id": "961750c8efaa",
+   "score": 8.45
+  },
+  {
+   "title": "Blue Jeans Go Green™ at 20: Milestones from the Game-changing Denim Recycling Program",
+   "link": "https://wwd.com/sourcing-journal/lifestyle-monitor/blue-jeans-go-green-denim-recycling-20-year-anniversay-milestones-1239401070/",
+   "excerpt": "Since 2006, Cotton’s Blue Jeans Go Green ™ denim recycling program has diverted over 3,000 tons of textile waste from landfills.",
+   "image": "",
+   "published": "2026-11-06T19:30:00Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "sostenibilidad"
+   ],
+   "via": "",
+   "also": [],
+   "id": "263247ae24ec",
+   "score": 9.15
+  },
+  {
+   "title": "Jane Fonda, Pamela Abdy Address Politics and Gender Inequality at Women in Film Honors",
+   "link": "https://wwd.com/eye/parties/jane-fonda-pamela-abdy-women-in-film-honors-2026-1239404588/",
+   "excerpt": "The annual gala, presented by Max Mara, honored Salma Hayek Pinault, Hannah Waddingham and Adria Arjona, among others, while highlighting the ongoing fight for greater representation in Hollywood.",
+   "image": "",
+   "published": "2026-11-06T19:22:14Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "cultura"
+   ],
+   "via": "",
+   "also": [],
+   "id": "8cd29e242aed",
+   "score": 8.35
+  },
   {
    "title": "Timberland x Peanuts: Snoopy convierte su personalidad Joe Cool en una colección de botas y ropa para Navidad 2026",
    "link": "https://www.merca20.com/timberland-x-peanuts-snoopy-convierte-su-personalidad-joe-cool-en-una-coleccion-de-botas-y-ropa-para-navidad-2026/",
@@ -177,48 +302,6 @@
    "score": 8.75
   },
   {
-   "title": "Oushq and CFDA Host Diwali Noir Party",
-   "link": "https://wwd.com/fashion-news/fashion-scoops/cfda-oushq-diwali-noir-party-indian-fashion-craftsmanship-1239404508/",
-   "excerpt": "The party at Boom at The Standard, hosted by Jessel Tank and Pritika Swarup, brought together guests across New York’s fashion, cultural and creative industries.",
-   "image": "",
-   "published": "2026-11-06T18:33:05Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "industria"
-   ],
-   "via": "",
-   "also": [],
-   "id": "b40a90f5f844",
-   "score": 8.75
-  },
-  {
-   "title": "Canali Explores the Similarities Between Art and Apparel Creation",
-   "link": "https://wwd.com/menswear-news/mens-lifestyle/canali-art-jacket-under-the-surface-stefano-canali-1239404541/",
-   "excerpt": "The Italian brand's four-city exhibition, \"Under the Surface,\" highlights the craftsmanship within a Canali jacket.",
-   "image": "",
-   "published": "2026-11-06T18:24:29Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "cultura"
-   ],
-   "via": "",
-   "also": [],
-   "id": "717ca2496974",
-   "score": 8.35
-  },
-  {
    "title": "You Don't Have To Buy Anything, But These 32 Current J.Crew Deals Are Giving Early Black Friday",
    "link": "https://www.whowhatwear.com/fashion/shopping/best-jcrew-early-black-friday-deals-2026",
    "excerpt": "It's finally November, which means cold-weather dressing is here and Black Friday is right around the corner. While I love to find a great deal as much as the next fashion person, the frenzy and chaos of Black Friday and Cyber…",
@@ -240,46 +323,25 @@
    "score": 7.42
   },
   {
-   "title": "The Newest Christmas Villages Are Here, and Macy’s Herald Square Is Getting Its Very Own Holiday Collectible",
-   "link": "https://wwd.com/shop/shop-home/collectible-christmas-villages-2026-macys-buy-1239404264/",
-   "excerpt": "The latest opulent holiday miniatures are giving us plenty of reasons to clear some shelf space, and perhaps start a new tradition.",
+   "title": "CIFF trade show previews brands for AW27 edition",
+   "link": "https://www.drapersonline.com/news/ciff-trade-show-previews-brands-for-aw27-edition",
+   "excerpt": "Copenhagen International Fashion Fair (CIFF) has announced the first raft of brands to show at its next edition in February 2027. The post CIFF trade show previews brands for AW27 edition appeared first on Drapers .",
    "image": "",
-   "published": "2026-11-06T17:25:27Z",
-   "source": "WWD",
-   "source_name": "WWD",
+   "published": "2026-11-06T17:19:00Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
    "kind": "trade",
    "mirror": false,
-   "weight": 5.0,
+   "weight": 4.2,
    "lang": "en",
-   "region": "us",
+   "region": "uk",
    "tags": [
     "industria"
    ],
    "via": "",
    "also": [],
-   "id": "d1751e299536",
-   "score": 8.75
-  },
-  {
-   "title": "GXO Plans to Turn a Sub-$100M Asia Business Into a Regional Giant",
-   "link": "https://wwd.com/sourcing-journal/logistics/gxo-logistics-asia-expansion-q3-organic-growth-3pl-robotics-digit-1239404380/",
-   "excerpt": "CEO Patrick Kelleher says Asia has long-term potential to match GXO's $6 billion U.K. and nearly $4 billion North American businesses.",
-   "image": "",
-   "published": "2026-11-06T17:07:31Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "negocio"
-   ],
-   "via": "",
-   "also": [],
-   "id": "baf563a38e28",
-   "score": 9.55
+   "id": "a9403375b6d7",
+   "score": 7.79
   },
   {
    "title": "Salma Hayek Pinault, Jane Fonda, and Hollywood’s Leading Names Gathered to Toast Women In Film",
@@ -301,27 +363,6 @@
    "also": [],
    "id": "005ad95711a4",
    "score": 8.34
-  },
-  {
-   "title": "Shuffle Board: Martine Rose to Lead Balenciaga",
-   "link": "https://wwd.com/sourcing-journal/industry-news/shuffle-board-balenciaga-martine-rose-realreal-schotex-1239404244/",
-   "excerpt": "Plus, Shar Dubey joins The RealReal’s board, PVH appoints Frits Dirk van Paasschen and Schotex Global hires René Gagell.",
-   "image": "",
-   "published": "2026-11-06T17:02:34Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "personas"
-   ],
-   "via": "",
-   "also": [],
-   "id": "04fcf43d164f",
-   "score": 8.95
   },
   {
    "title": "Must Read: Yeezy's Comeback Show Fell Short, Pay Structure Revisions Fail To End Bangladesh Garment Protests",
@@ -387,27 +428,6 @@
    "score": 7.86
   },
   {
-   "title": "Mikey Madison Brings Dior’s Floral Obsession to Her Feet with Hand-Painted Floral Sandals",
-   "link": "https://wwd.com/footwear-news/shoe-trends/mikey-madison-dior-floral-heels-jonathan-anderson-1239404115/",
-   "excerpt": "The Oscar winner brought a burst of color to her custom Dior look while accepting an award in London.",
-   "image": "",
-   "published": "2026-11-06T16:36:32Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "calzado"
-   ],
-   "via": "",
-   "also": [],
-   "id": "8f72862de361",
-   "score": 8.55
-  },
-  {
    "title": "Travis Scott’s Most Colorful ‘GTA 6’ x Nike Air Force 1 Will Also Be the Hardest to Get",
    "link": "https://wwd.com/footwear-news/sneaker-news/gta-6-travis-scott-air-force-1-patent-giveaway-details-1239404235/",
    "excerpt": "The rapper revealed a fourth colorway that he'll dole out himself.",
@@ -427,6 +447,27 @@
    "also": [],
    "id": "6de59f50fcdd",
    "score": 7.31
+  },
+  {
+   "title": "Martine Rose a ‘breath of fresh air’ for Balenciaga",
+   "link": "https://www.drapersonline.com/product-and-trends/martine-rose-a-breath-of-fresh-air-for-balenciaga",
+   "excerpt": "Pierpaolo Piccioli was the third creative director exit within a matter of weeks at luxury conglomerate Kering. London-based menswear designer Martine Rose was confirmed as Balenciaga's new creative lead on Friday. Drapers deputy…",
+   "image": "",
+   "published": "2026-11-06T16:10:40Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "personas"
+   ],
+   "via": "",
+   "also": [],
+   "id": "a3f23fcd0deb",
+   "score": 7.99
   },
   {
    "title": "Descubre Amazon Premium Hub: una experiencia de compra exclusiva",
@@ -513,6 +554,27 @@
    "score": 8.15
   },
   {
+   "title": "Editor’s comment: Who are the most influential people in fashion retail this year?",
+   "link": "https://www.drapersonline.com/insight/comment/editors-comment-who-are-the-most-influential-people-in-fashion-retail-this-year",
+   "excerpt": "This week brought a mixed bag of trading updates and we unveiled the eagerly awaited Drapers Power 100 2026 list. The post Editor’s comment: Who are the most influential people in fashion retail this year? appeared first on…",
+   "image": "",
+   "published": "2026-11-06T15:00:00Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "retail"
+   ],
+   "via": "",
+   "also": [],
+   "id": "e3d65f9eb0ed",
+   "score": 8.39
+  },
+  {
    "title": "Weekly Drop Watch: Anine Bing x Tecovas, Ouai x Heaven Mayhem, Warby Parker x Rare Beauty and More",
    "link": "https://fashionista.com/2026/11/best-fashion-beauty-launches-collaborations-november-6",
    "excerpt": "Occasionally, we use affiliate links on our site. This in no way affects our editorial decision-making. For our Weekly Drop Watch column, Fashionista scours the market to curate the most noteworthy releases from our favorite…",
@@ -555,6 +617,48 @@
    "score": 8.5
   },
   {
+   "title": "Armani heirs favour IPO over sale",
+   "link": "https://www.drapersonline.com/news/armani-heirs-favour-ipo-over-sale",
+   "excerpt": "The heirs of Giorgio Armani are said to favour an initial public offering (IPO) over selling the business, according to reports. The post Armani heirs favour IPO over sale appeared first on Drapers .",
+   "image": "",
+   "published": "2026-11-06T14:26:18Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "negocio"
+   ],
+   "via": "",
+   "also": [],
+   "id": "985dde874777",
+   "score": 8.59
+  },
+  {
+   "title": "How Lewis Hamilton put Lululemon’s latest innovation through its paces",
+   "link": "https://www.drapersonline.com/news/how-lewis-hamilton-put-lululemons-latest-innovation-through-its-paces",
+   "excerpt": "Fitnesswear giant Lululemon is launching a running vest that promises to acclimatise to runners’ fluctuating temperatures. Its vice-president of research and product innovation, Chantelle Murnaghan, tells Drapers how its brand…",
+   "image": "",
+   "published": "2026-11-06T14:00:07Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "industria"
+   ],
+   "via": "",
+   "also": [],
+   "id": "c11fa10e0739",
+   "score": 7.79
+  },
+  {
    "title": "Martine Rose Is Balenciaga’s New Creative Director—and the First Woman to Lead the House",
    "link": "https://www.elle.com/fashion/a74231314/martine-rose-balenciaga-creative-director-news/",
    "excerpt": "The London designer consulted on menswear at the brand under Demna’s tenure.",
@@ -594,7 +698,7 @@
    "via": "",
    "also": [],
    "id": "998ab28be3dd",
-   "score": 7.6
+   "score": 7.0
   },
   {
    "title": "Marks & Spencer unites fashion and food in first fully integrated Christmas campaign since 2017",
@@ -744,6 +848,27 @@
    "also": [],
    "id": "626e44812111",
    "score": 8.14
+  },
+  {
+   "title": "Paul Smith recognised by City of London for contribution to British fashion",
+   "link": "https://www.drapersonline.com/news/paul-smith-recognised-by-city-of-london-for-contribution-to-british-fashion",
+   "excerpt": "Sir Paul Smith has received the Freedom of the City of London in recognition of his contribution to British fashion and design. The post Paul Smith recognised by City of London for contribution to British fashion appeared first…",
+   "image": "",
+   "published": "2026-11-06T11:46:34Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "diseno"
+   ],
+   "via": "",
+   "also": [],
+   "id": "c6106d940b62",
+   "score": 6.89
   },
   {
    "title": "My Packing Style: Creative Director Gabriella Khalil",
@@ -911,6 +1036,7 @@
    "via": "",
    "also": [
     "Business of Fashion",
+    "Drapers",
     "Vogue",
     "British Vogue",
     "The Guardian Fashion",
@@ -919,7 +1045,7 @@
     "Harper's Bazaar"
    ],
    "id": "5dac151bbb20",
-   "score": 12.99
+   "score": 13.74
   },
   {
    "title": "Paul Smith awarded Freedom of City of London for ‘outstanding contribution to fashion’",
@@ -940,6 +1066,27 @@
    "via": "",
    "also": [],
    "id": "31070bbc51c0",
+   "score": 7.24
+  },
+  {
+   "title": "Drapers daily news 06/11/2026",
+   "link": "https://www.drapersonline.com/news/drapers-daily-news-15-09-2026",
+   "excerpt": "Here are today's key fashion retail news stories… - Superdry & Co announces refinancing drapersonline.com/kaof - Martine Rose appointed as creative director of Balenciaga drapersonline.com/r63t - M&S launches Christmas advert…",
+   "image": "",
+   "published": "2026-11-06T08:56:25Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "personas"
+   ],
+   "via": "",
+   "also": [],
+   "id": "f46ca210f338",
    "score": 7.24
   },
   {
@@ -983,6 +1130,27 @@
    "also": [],
    "id": "8b0679640915",
    "score": 6.3
+  },
+  {
+   "title": "Superdry & Co announces refinancing",
+   "link": "https://www.drapersonline.com/companies/directory/superdry/superdry-announces-refinancing",
+   "excerpt": "Superdry & Co has announced £70m in refinancing from Barclays and Bank of America. The post Superdry & Co announces refinancing appeared first on Drapers .",
+   "image": "",
+   "published": "2026-11-06T08:15:57Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "industria"
+   ],
+   "via": "",
+   "also": [],
+   "id": "c047ec34b566",
+   "score": 7.19
   },
   {
    "title": "Kering affida la direzione creativa di Balenciaga a Martine Rose",
@@ -1046,6 +1214,27 @@
    "also": [],
    "id": "06fefc23c51b",
    "score": 6.66
+  },
+  {
+   "title": "M&S launches Christmas advert",
+   "link": "https://www.drapersonline.com/news/ms-launches-christmas-advert",
+   "excerpt": "Marks & Spencer has launched its Christmas advert spanning all four of its main categories – food, fashion, home and beauty – for the first time in nine years. The post M&S launches Christmas advert appeared first on Drapers .",
+   "image": "",
+   "published": "2026-11-06T07:59:00Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "belleza"
+   ],
+   "via": "",
+   "also": [],
+   "id": "bb82faa410af",
+   "score": 6.74
   },
   {
    "title": "Balenciaga anuncia a Martine Rose como nueva directora creativa",
@@ -1723,27 +1912,6 @@
    "also": [],
    "id": "d2f1b7712ab0",
    "score": 5.5
-  },
-  {
-   "title": "Dr. Martens’ New Retail Concept Debuts in Herald Square",
-   "link": "https://wwd.com/footwear-news/shoe-industry-news/dr-martens-herald-square-nyc-store-remodel-details-1239402606/",
-   "excerpt": "",
-   "image": "",
-   "published": "2026-11-05T18:12:15Z",
-   "source": "FN",
-   "source_name": "Footwear News",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 3.8,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "retail"
-   ],
-   "via": "",
-   "also": [],
-   "id": "0d222d757654",
-   "score": 6.61
   },
   {
    "title": "A Venezia la moda chiede regole e filiere trasparenti",
