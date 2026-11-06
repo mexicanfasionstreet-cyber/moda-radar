@@ -829,6 +829,20 @@ def _recency_bonus(iso):
     return 0.0
 
 
+TZ_MX = "America/Mexico_City"
+
+
+def fecha_mx(iso_utc):
+    """Fecha de la edición en Ciudad de México (la cápsula de la noche no salta de día)."""
+    try:
+        from zoneinfo import ZoneInfo
+
+        return datetime.fromisoformat(iso_utc.replace("Z", "+00:00")).astimezone(
+            ZoneInfo(TZ_MX)).strftime("%Y-%m-%d")
+    except Exception:  # noqa: BLE001
+        return (iso_utc or "")[:10]
+
+
 def video_for(out_dir, date_str, sufijo=""):
     """Cápsula más reciente del día ("" general, "-latam"): noche, mediodía, mañana o día."""
     base = out_dir / "videos"
@@ -1061,9 +1075,9 @@ def main(argv=None):
             "sources_failed": payload.get("sources_failed", []),
             "hero": pick_hero(items),
             "category_order": CATS,
-            "video": video_for(root / args.out, gen[:10]),
-            "video_latam": video_for(root / args.out, gen[:10], "-latam"),
-            "textos": textos_for(root / args.out, gen[:10]),
+            "video": video_for(root / args.out, fecha_mx(gen)),
+            "video_latam": video_for(root / args.out, fecha_mx(gen), "-latam"),
+            "textos": textos_for(root / args.out, fecha_mx(gen)),
         }
         (root / args.out / "index.html").write_text(ui.render(items, meta), encoding="utf-8")
         print(f"panel regenerado ({'con' if meta['video'] else 'sin'} capsula)")
@@ -1086,9 +1100,9 @@ def main(argv=None):
         "sources_failed": [n for n, _ in failures],
         "hero": hero,
         "category_order": CATS,
-        "video": video_for(out, now.strftime("%Y-%m-%d")),
-        "video_latam": video_for(out, now.strftime("%Y-%m-%d"), "-latam"),
-        "textos": textos_for(out, now.strftime("%Y-%m-%d")),
+        "video": video_for(out, fecha_mx(now.isoformat())),
+        "video_latam": video_for(out, fecha_mx(now.isoformat()), "-latam"),
+        "textos": textos_for(out, fecha_mx(now.isoformat())),
     }
 
     (out / "data").mkdir(parents=True, exist_ok=True)

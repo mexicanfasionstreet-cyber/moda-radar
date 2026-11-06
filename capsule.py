@@ -50,6 +50,44 @@ RATE = os.environ.get("CAPSULE_RATE") or "+5%"
 ACCENT = (255, 77, 109)
 BG = (10, 10, 12)
 
+# identidad de marca: el logo sustituye al texto "MODA/RADAR"
+MARCA = {
+    "nombre": "The Border Archive",
+    "handle": "@theborderarchive",
+    "logo": "marca/logo-tba.png",
+    "logo_solo": "marca/logo-tba-solo.png",  # solo las letras, para la esquina
+}
+_LOGO_CACHE = {}
+
+TZ_NOMBRE = os.environ.get("CAPSULA_TZ") or "America/Mexico_City"
+
+
+def logo_img(alto=None, ancho=None, cual="completo"):
+    """Logo TBA en blanco sobre transparente, escalado a la medida pedida."""
+    clave = (alto, ancho, cual)
+    if clave in _LOGO_CACHE:
+        return _LOGO_CACHE[clave]
+    ruta = MARCA["logo_solo"] if cual == "solo" else MARCA["logo"]
+    try:
+        im = Image.open(Path(__file__).resolve().parent / ruta).convert("RGBA")
+    except Exception:  # noqa: BLE001
+        return None
+    r = (ancho / im.width) if ancho else (alto / im.height)
+    im = im.resize((max(1, int(im.width * r)), max(1, int(im.height * r))), Image.LANCZOS)
+    _LOGO_CACHE[clave] = im
+    return im
+
+
+def fecha_local(iso_utc):
+    """Fecha en Ciudad de México: la cápsula de la noche no debe llevar la fecha siguiente."""
+    try:
+        from zoneinfo import ZoneInfo
+
+        tz = ZoneInfo(TZ_NOMBRE)
+        return datetime.fromisoformat(iso_utc.replace("Z", "+00:00")).astimezone(tz).strftime("%Y-%m-%d")
+    except Exception:  # noqa: BLE001
+        return (iso_utc or "")[:10]
+
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
@@ -847,16 +885,22 @@ def make_overlay(titular, section, source, out_path, kicker=None, big=False, raw
             a = max(a, int(252 * min(1.0, t ** 1.55)))
         d.line([(0, y), (W, y)], fill=(6, 6, 8, a))
 
-    # marca arriba
-    f_marca = load_font(38, bold=True)
-    d.text((64, 84), "MODA", font=f_marca, fill=(255, 255, 255, 232))
-    wm = d.textlength("MODA", font=f_marca)
-    d.text((64 + wm + 4, 84), "/", font=f_marca, fill=ACCENT + (255,))
-    d.text((64 + wm + 24, 84), "RADAR", font=f_marca, fill=(255, 255, 255, 150))
+    # marca arriba: logo TBA
+    logo = logo_img(alto=86, cual="solo")
+    if logo:
+        img.alpha_composite(logo, (64, 72))
+        x_tag = 64 + logo.width + 24
+        d = ImageDraw.Draw(img)
+    else:
+        f_marca = load_font(38, bold=True)
+        d.text((64, 84), "MODA", font=f_marca, fill=(255, 255, 255, 232))
+        wm = d.textlength("MODA", font=f_marca)
+        d.text((64 + wm + 4, 84), "/", font=f_marca, fill=ACCENT + (255,))
+        d.text((64 + wm + 24, 84), "RADAR", font=f_marca, fill=(255, 255, 255, 150))
+        x_tag = 64 + wm + 24 + d.textlength("RADAR", font=f_marca) + 22
     if ED["tag"]:
-        wr = d.textlength("RADAR", font=f_marca)
         f_tag = load_font(26, bold=True)
-        d.text((64 + wm + 24 + wr + 22, 92), ED["tag"], font=f_tag, fill=ACCENT + (255,))
+        d.text((x_tag, 92), ED["tag"], font=f_tag, fill=ACCENT + (255,))
 
     y = int(H * 0.60)
     if kicker:
@@ -900,19 +944,27 @@ def make_brand_overlay(out_path, meta_line=None):
         t = y / H
         d.line([(0, y), (W, y)], fill=(6, 6, 8, int(120 + 110 * t)))
 
-    f = load_font(112, bold=True)
-    wm = d.textlength("MODA", font=f)
-    ws = d.textlength("/", font=f)
-    wr = d.textlength("RADAR", font=f)
-    x = (W - (wm + ws + wr)) / 2
-    y0 = H / 2 - 150
-    d.text((x, y0), "MODA", font=f, fill=(255, 255, 255, 240))
-    d.text((x + wm, y0), "/", font=f, fill=ACCENT + (255,))
-    d.text((x + wm + ws, y0), "RADAR", font=f, fill=(255, 255, 255, 240))
+    logo = logo_img(ancho=int(W * 0.62))
+    if logo:
+        y_logo = int(H / 2 - logo.height / 2 - 90)
+        img.alpha_composite(logo, ((W - logo.width) // 2, y_logo))
+        y_texto = y_logo + logo.height + 70
+        d = ImageDraw.Draw(img)
+    else:
+        f = load_font(112, bold=True)
+        wm = d.textlength("MODA", font=f)
+        ws = d.textlength("/", font=f)
+        wr = d.textlength("RADAR", font=f)
+        x = (W - (wm + ws + wr)) / 2
+        y0 = H / 2 - 150
+        d.text((x, y0), "MODA", font=f, fill=(255, 255, 255, 240))
+        d.text((x + wm, y0), "/", font=f, fill=ACCENT + (255,))
+        d.text((x + wm + ws, y0), "RADAR", font=f, fill=(255, 255, 255, 240))
+        y_texto = y0 + 190
 
     f2 = load_font(44, bold=False)
     txt = meta_line or "Mañana, más moda."
-    d.text(((W - d.textlength(txt, font=f2)) / 2, y0 + 190), txt, font=f2,
+    d.text(((W - d.textlength(txt, font=f2)) / 2, y_texto), txt, font=f2,
            fill=(235, 233, 228, 210))
     img.save(out_path)
     return out_path
@@ -1128,6 +1180,8 @@ def escribir_kit(outdir, fecha, franja, edicion, ED, meta, root):
         "HASHTAGS",
         HASHTAGS.get(edicion, HASHTAGS["general"]),
         "",
+        f"{MARCA['nombre']} · {MARCA['handle']}",
+        "",
         f"Edición: {etiqueta} · {fecha} · {meta['duration']} s",
         "Fuente del panel: https://mexicanfasionstreet-cyber.github.io/moda-radar/",
     ]
@@ -1204,7 +1258,8 @@ def main(argv=None):
         picked = reserve_priority(picked, items, ED["prioridad"], ED["prioridad_max"])
     # la fecha es la de la edición, no la del reloj: si se monta a mano después de
     # medianoche UTC (las 4 pm en Tijuana) el panel no encontraría el vídeo
-    fecha = (edition.get("generated") or "")[:10] or datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    gen = edition.get("generated") or datetime.now(timezone.utc).isoformat()
+    fecha = fecha_local(gen) or datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     script, origen = (None, "plantilla") if args.no_llm else llm_script(picked, fecha)
     if script is None:

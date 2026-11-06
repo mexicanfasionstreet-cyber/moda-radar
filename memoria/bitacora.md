@@ -1,5 +1,20 @@
 # Bitácora
 
+## 2026-11-06 · marca TBA y fechas locales
+
+- El logo sustituye a "MODA/RADAR" en pantalla. Se usan **dos versiones**: `logo-tba.png`
+  (completo, con la línea *THE BORDER ARCHIVE*, para la tarjeta de cierre) y
+  `logo-tba-solo.png` (solo las letras, para la esquina). A 72 px de alto la línea fina
+  del logo era ilegible, así que en la esquina va recortada a 86 px.
+- El PNG transparente se generó desde el original blanco sobre negro usando la
+  luminancia como canal alfa: así no queda el cuadrado negro sobre las fotos.
+- El archivo de textos firma con `MARCA["nombre"] · MARCA["handle"]`
+  (The Border Archive · @theborderarchive). Se cambia en el bloque `MARCA` de `capsule.py`.
+- **Fechas locales**: la franja de noche es a las 19:00 CDMX = 01:00 UTC del día
+  siguiente, así que los archivos se llamaban con la fecha del día siguiente. Ahora
+  `fecha_local()` (capsule) y `fecha_mx()` (aggregate) convierten a America/Mexico_City,
+  que es la misma regla que usa el panel para encontrar el vídeo.
+
 ## 2026-11-06 · tres franjas al día y textos para publicar
 
 - El cron pasa de una a tres ejecuciones (13:00, 19:00 y 01:00 UTC = 07:00, 13:00 y

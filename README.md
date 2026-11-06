@@ -118,6 +118,20 @@ diarios**.
 - La franja se deduce de la hora UTC en el workflow, así que una ejecución manual también
   funciona sin pasar nada a mano: `python capsule.py --franja noche`.
 
+## Marca y fechas
+
+- **El logo manda**: en la esquina de cada diapositiva y en la tarjeta de cierre aparece el
+  logo de **The Border Archive**, no el texto "MODA/RADAR".
+- Los archivos viven en `marca/`: `logo-tba.png` (completo, con la línea *THE BORDER
+  ARCHIVE*, para el cierre) y `logo-tba-solo.png` (solo las letras, para la esquina, donde
+  la línea se volvería ilegible). El wordmark horizontal está en `marca/wordmark-tba.png`.
+- El nombre y el usuario se cambian en el bloque `MARCA` de `capsule.py`
+  (`The Border Archive` / `@theborderarchive`); ese texto es el que firma el archivo de
+  publicación.
+- **Las fechas de los archivos son de Ciudad de México**, no UTC: la cápsula de la noche
+  (19:00 CDMX = 01:00 UTC del día siguiente) se guarda con la fecha local, así que
+  `2026-11-06-noche.mp4` es la del 6 por la noche. El panel busca con la misma regla.
+
 ## Puesta en marcha (10 minutos)
 
 ### 1. Crear el repositorio y subirlo

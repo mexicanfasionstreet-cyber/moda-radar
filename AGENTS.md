@@ -26,6 +26,8 @@ Proyecto personal.
 - `datos/`        corpus acumulado (`noticias.jsonl` maestro + `noticias.csv`).
 - `digests/`      un Markdown por día.
 - `musica/`       pistas de fondo de la cápsula (CC0).
+- `marca/`        logo de The Border Archive (`logo-tba.png` completo, `logo-tba-solo.png`
+  solo letras para la esquina, `wordmark-tba.png` horizontal).
 - `memoria/`      bitácora fechada de decisiones y fallos.
 
 ## Comandos
@@ -56,3 +58,5 @@ Medios de México y LatAm desde el 2026-11-06 (botón "México y LatAm" en el pa
 BoF y Textile World entran por espejo (Google/Bing News) cuando bloquean al robot.
 Tres franjas desde el 2026-11-06: 07:00, 13:00 y 19:00 CDMX (13:00, 19:00 y 01:00 UTC).
 El panel enlaza la cápsula más reciente del día y su `-textos.txt`.
+La marca en pantalla es **The Border Archive** (logo en `marca/`), no "MODA/RADAR".
+Las fechas de los archivos son de Ciudad de México, no UTC.
