@@ -1,0 +1,44 @@
+{
+ "date": "2026-11-06",
+ "edition": "latam",
+ "duration": 68.1,
+ "script_source": "IA (deepseek-chat)",
+ "hook": "The IQ Collection abre boutique en México y Adolfo Domínguez crece en Latinoamérica",
+ "items": [
+  {
+   "title": "Nueva boutique en CDMX",
+   "headline": "The IQ Collection continúa su expansión internacional con la apertura de una nueva boutique en México",
+   "source": "Vogue MX",
+   "link": "https://www.vogue.mx/articulo/the-iq-collection-apertura-nueva-boutique-en-ciudad-de-mexico",
+   "photo_credit": null
+  },
+  {
+   "title": "Amazon lanza Premium Hub",
+   "headline": "Descubre Amazon Premium Hub: una experiencia de compra exclusiva",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/amazon-premium-hub-una-experiencia-de-compra-exclusiva",
+   "photo_credit": null
+  },
+  {
+   "title": "Adolfo Domínguez crece 81%",
+   "headline": "Adolfo Domínguez crece un 81% en Latinoamérica desde 2021, con México a la cabeza",
+   "source": "Modaes",
+   "link": "https://www.modaes.com/empresas/adolfo-dominguez-crece-un-81-en-latinoamerica-desde-2021-con-mexico-a-la-cabeza",
+   "photo_credit": null
+  },
+  {
+   "title": "Reloj adidas con mosquetón",
+   "headline": "adidas Originals Adaptik One S Watch: El reloj digital que puedes llevar en la muñeca o colgar de tu mochila",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/reloj-adidas-originals-adaptik-one-s-watch-precio-disponibilidad-06-11-2026",
+   "photo_credit": null
+  },
+  {
+   "title": "Día de Muertos en Tijuana",
+   "headline": "El Trompo conmemoró día de muertos con arte, música y moda",
+   "source": "Uniradio Informa Baja California",
+   "link": "https://www.uniradiobaja.com/sociedad/el-trompo-conmemoro-dia-muertos-arte-musica-moda-n912619/amp",
+   "photo_credit": null
+  }
+ ]
+}
