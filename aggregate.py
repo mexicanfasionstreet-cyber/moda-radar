@@ -201,7 +201,9 @@ NOISE_RE = re.compile(
     r"|best (leggings|jeans|dresses|bags|shoes) (to|for)|wish list"
     r"|c[oó]mo (llevar|usar|combinar|lucir|vestir|elegir)|gu[ií]a de estilo|^protegido:"
     r"|^\d+ (looks|perfumes|prendas|ideas|formas|consejos|tenis|zapatos|vestidos|tendencias)"
-    r"|looks? (para|que|de) (copiar|llevar|esta temporada)|d[oó]nde comprar|ofertas?:|buen fin)",
+    r"|looks? (para|que|de) (copiar|llevar|esta temporada)|d[oó]nde comprar|ofertas?:|buen fin"
+    r"|para llevar|ideas (de|para)|m[aá]s elegantes?|inspira (para|a)|\boutfit|nuevo en tienda"
+    r"|por \$?\d[\d,.]* pesos|rebaja|\bsmartphone|\biphone|\blaptop|\bcelular)",
     re.I,
 )
 
@@ -472,7 +474,7 @@ _prep_kw()
 # también cuentan pasarela, diseño y calzado: ahí es donde cubren a los diseñadores
 # y las semanas de la moda de la región, que no aparecen en la prensa internacional.
 STRICT_OK = {"negocio", "retail", "sostenibilidad", "personas"}
-STRICT_OK_LOCAL = STRICT_OK | {"pasarela", "diseno", "calzado"}
+STRICT_OK_LOCAL = STRICT_OK | {"pasarela", "diseno"}  # calzado no: ahí son guías de compra
 
 
 def classify(title, body, strict=False, allowed=STRICT_OK):
@@ -501,6 +503,17 @@ def classify(title, body, strict=False, allowed=STRICT_OK):
     if strict and scored[0][1] not in allowed:
         return ["industria"]
     return [slug for _, slug in scored[:3]]
+
+
+# algunas ediciones locales (Vogue México) republican notas de Vogue Italia en italiano
+IT_WORDS = {"di", "il", "della", "delle", "degli", "dei", "più", "gli", "nel", "nella", "sono", "dello"}
+
+
+def wrong_lang(title, lang):
+    if lang != "es":
+        return False
+    words = set(re.findall(r"\w+", title.lower()))
+    return len(words & IT_WORDS) >= 2
 
 
 def tokens(title):
@@ -620,8 +633,10 @@ def build(sources, days):
             link = it["link"]
             if not title or not link.startswith("http"):
                 continue
-            if NOISE_RE.search(title):
+            if NOISE_RE.search(title) or wrong_lang(title, src.get("lang")):
                 continue
+            if mirrored and len(title) < 20:
+                continue  # Google News a veces devuelve solo el nombre de una marca
             if src.get("generic") and not FASHION_RE.search(norm(title)):
                 continue
             pub = it["published"] or now

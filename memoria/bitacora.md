@@ -183,3 +183,9 @@ Objetivo del usuario: que el radar cubra la moda de México y LatAm, no solo la 
 - Palabras clave: plurales en español ("diseñadores" no casaba con "diseñador"), anclas de
   moda en español para generalistas (ropa, prendas, textil, Shein, Zara, Inditex...).
 - Panel: botón **México y LatAm** (regiones mx, latam, ar, co, cl, pe...).
+- **Ajuste tras la primera edición** (199 noticias, 58 en español): Vogue México metía 9 guías
+  de compra como "calzado" y notas de Vogue Italia en italiano; GQ México, un celular en
+  retail ("flagship"). Calzado sale de las secciones aceptadas para revistas locales, más
+  ruido en español ("para llevar", "ideas de", "más elegantes", "por 249 pesos",
+  smartphone...), detector de italiano en fuentes `es` y fuera titulares de espejo de menos
+  de 20 caracteres. Contra la edición real: salen 15 notas, las 15 eran ruido.
