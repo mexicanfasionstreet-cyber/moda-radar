@@ -221,6 +221,37 @@ def clean_text(s):
     return s
 
 
+def _lead_rx(text):
+    """Patrón que reconoce `text` al inicio de otra cadena, tolerando puntuación,
+    comillas tipográficas y espacios distintos entre palabras."""
+    words = re.findall(r"\w+", text or "")
+    if not words:
+        return None
+    return re.compile(r"^\W*" + r"\W+".join(re.escape(w) for w in words) + r"(?!\w)\W*", re.I)
+
+
+def strip_lead(excerpt, prefixes):
+    """Quita del inicio del extracto lo que repite el medio o el titular.
+
+    Drapers, por ejemplo, publica "Drapers <titular> <entradilla>": sin esto el
+    extracto del panel y de la cápsula empieza leyendo el nombre del medio.
+    """
+    text = excerpt or ""
+    # el más largo primero: si el titular empieza por el nombre del medio
+    # ("Drapers reveals…"), quitar solo "Drapers" se comería una palabra de más
+    rxs = [rx for rx in (_lead_rx(p) for p in sorted(set(prefixes), key=len, reverse=True)) if rx]
+    changed = True
+    while changed and text:
+        changed = False
+        for rx in rxs:
+            m = rx.match(text)
+            if m and m.end() < len(text):
+                text = text[m.end():]
+                changed = True
+                break
+    return text.strip()
+
+
 def truncate(s, limit=230):
     s = clean_text(s)
     if len(s) <= limit:
@@ -588,7 +619,8 @@ def build(sources, days):
             if tags[0] == "industria" and kind == "consumer":
                 continue
             seen_links.add(can)
-            excerpt = truncate(it["body"])
+            body = strip_lead(clean_text(it["body"]), [src["name"], src["short"], title])
+            excerpt = truncate(body)
             if mirrored and norm(excerpt).startswith(norm(title)[:40]):
                 excerpt = ""  # el espejo solo devuelve "Titular - Medio"
             if len(excerpt) < 40:
@@ -619,6 +651,53 @@ def build(sources, days):
             if kept >= MAX_PER_FEED:
                 break
 
+    merged = merge_items(items)
+
+    for it in merged:
+        it.pop("_tok", None)
+        it.pop("_ev", None)
+        it["also"] = it.get("also", [])
+        it["published"] = it["published"].isoformat().replace("+00:00", "Z")
+        # id estable: hash del enlace (hash() de Python cambia en cada proceso y
+        # rompería la deduplicación del archivo histórico)
+        it["id"] = hashlib.sha1(it["link"].encode("utf-8")).hexdigest()[:12]
+        it["score"] = round(
+            it["weight"] * 1.2
+            + _recency_bonus(it["published"])
+            + CAT_BOOST.get(it["tags"][0], 0.0)
+            + 0.75 * len(it["also"])  # cuantos más medios lo cubren, más importante es
+            + (0.35 if it["image"] else 0)
+            + (0.15 if 30 <= len(it["title"]) <= 115 else 0)
+            + (0.2 if it["excerpt"] else 0),
+            3,
+        )
+
+    merged.sort(key=lambda x: (x["published"], x["score"]), reverse=True)
+    return merged, failures
+
+
+# campos que definen "de qué medio es" una noticia; se intercambian en bloque
+OWN_FIELDS = (
+    "title", "link", "excerpt", "image", "published", "source", "source_name",
+    "kind", "mirror", "weight", "lang", "region", "tags",
+)
+
+
+def _promote(twin, it):
+    """`it` trae enlace directo y `twin` (la principal) vino por el espejo de Google.
+
+    La versión directa pasa a ser la principal: su enlace es el real y estable
+    (los de news.google.com son redirecciones opacas que pueden caducar) y trae
+    entradilla e imagen propias. El medio del espejo queda en "también en".
+    """
+    old = {k: twin[k] for k in OWN_FIELDS}
+    for k in OWN_FIELDS:
+        twin[k] = it[k]
+    return old
+
+
+def merge_items(items):
+    """Fusiona la misma noticia publicada por varios medios. Devuelve la lista sin duplicados."""
     # orden editorial: primero lo de más peso y más reciente -> sobrevive el mejor
     items.sort(key=lambda x: (-x["weight"], -x["published"].timestamp()))
 
@@ -648,35 +727,21 @@ def build(sources, days):
             if ent and ev:
                 by_event.setdefault((ent, ev), []).append(it)
             continue
+        other = it
+        if twin["mirror"] and not it["mirror"]:
+            # la principal solo tenía el enlace de Google: gana la versión directa
+            other = _promote(twin, it)
         # se conserva el extracto del medio principal (y en su idioma)
-        if not twin["excerpt"] and it["excerpt"] and it["lang"] == twin["lang"]:
-            twin["excerpt"] = it["excerpt"]
-        if not twin["image"] and it["image"]:
-            twin["image"] = it["image"]
-        if it["source_name"] not in twin.setdefault("also", []):
-            twin["also"].append(it["source_name"])
-
-    for it in merged:
-        it.pop("_tok", None)
-        it.pop("_ev", None)
-        it["also"] = it.get("also", [])
-        it["published"] = it["published"].isoformat().replace("+00:00", "Z")
-        # id estable: hash del enlace (hash() de Python cambia en cada proceso y
-        # rompería la deduplicación del archivo histórico)
-        it["id"] = hashlib.sha1(it["link"].encode("utf-8")).hexdigest()[:12]
-        it["score"] = round(
-            it["weight"] * 1.2
-            + _recency_bonus(it["published"])
-            + CAT_BOOST.get(it["tags"][0], 0.0)
-            + 0.75 * len(it["also"])  # cuantos más medios lo cubren, más importante es
-            + (0.35 if it["image"] else 0)
-            + (0.15 if 30 <= len(it["title"]) <= 115 else 0)
-            + (0.2 if it["excerpt"] else 0),
-            3,
-        )
-
-    merged.sort(key=lambda x: (x["published"], x["score"]), reverse=True)
-    return merged, failures
+        if not twin["excerpt"] and other["excerpt"] and other["lang"] == twin["lang"]:
+            twin["excerpt"] = other["excerpt"]
+        if not twin["image"] and other["image"]:
+            twin["image"] = other["image"]
+        also = twin.setdefault("also", [])
+        if twin["source_name"] in also:
+            also.remove(twin["source_name"])
+        if other["source_name"] not in also and other["source_name"] != twin["source_name"]:
+            also.append(other["source_name"])
+    return merged
 
 
 def _recency_bonus(iso):

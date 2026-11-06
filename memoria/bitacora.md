@@ -140,3 +140,20 @@ Cambios:
 - **Bug**: el clamp de ganancia era `max(-6, …)`, así que nunca atenuaba más de 6 dB y la
   música quedaba a −26 dB (demasiado presente). Corregido a −30.
 - Pistas CC0 de Freesound vía Openverse. Se pueden sustituir sin tocar código.
+
+## 2026-11-05 · revisión: vídeos fuera de Git, enlaces y extractos
+
+- **Vídeos fuera del historial**: cada mp4 (~3,8 MB) se commiteaba. Aunque se rotaran,
+  los borrados se quedan en Git: ~1,4 GB al año. Ahora `docs/videos/*.mp4` y las portadas
+  están en `.gitignore`; el workflow sube la cápsula al Release `capsulas` (conserva 60) y
+  publica `docs/` en Pages con `actions/deploy-pages`, vídeo del día incluido.
+  **Requiere** cambiar *Settings → Pages → Source* a **GitHub Actions**.
+- **Espejo vs enlace real**: la principal de una noticia fusionada podía ser BoF por el
+  espejo de Google (`news.google.com/rss/articles/…`, redirección opaca que caduca). Si
+  otro medio trae la misma noticia con enlace directo, ahora esa versión pasa a ser la
+  principal (`_promote`) y BoF queda en "también en". La fusión vive en `merge_items()`.
+- **Extractos sucios**: Drapers publica "Drapers <titular> <entradilla>" y el panel y la
+  cápsula empezaban leyendo el nombre del medio. `strip_lead()` quita del inicio del
+  extracto el nombre del medio, su etiqueta corta y el titular repetido.
+- AGENTS.md puesto al día (el stack real incluye ffmpeg/Pillow/edge-tts en la cápsula) y
+  sin la mención a Badabun: es un proyecto personal.

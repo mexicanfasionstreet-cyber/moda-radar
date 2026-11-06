@@ -6,7 +6,8 @@ web + un resumen en Markdown. Se ejecuta solo en GitHub Actions: **no necesita
 servidor, ni claves API, ni pagar nada**.
 
 - Panel: `docs/index.html` (se publica como web con GitHub Pages)
-- **Cápsula diaria en vídeo: `docs/videos/AAAA-MM-DD.mp4`** (vertical 9:16, ~45 s)
+- **Cápsula diaria en vídeo** (vertical 9:16, ~60 s): la del día en el panel; el archivo
+  completo en el Release [`capsulas`](../../releases/tag/capsulas)
 - Resumen diario: `digests/AAAA-MM-DD.md`
 - **Corpus acumulado: `datos/noticias.jsonl` + `datos/noticias.csv`** ← la base de datos
 - Datos de la edición: `docs/data/latest.json`
@@ -33,8 +34,8 @@ extracto, cobertura). Los detalles están en [`datos/README.md`](datos/README.md
 
 Después de actualizar el panel, el robot monta un vídeo vertical de ~45 s con las cinco
 noticias más relevantes del día: imagen de cada artículo, titular en pantalla y voz en
-off en español. El resultado queda en `docs/videos/` y se ve desde el botón
-**"Ver la cápsula del día"** del panel.
+off en español. Se ve desde el botón **"Ver la cápsula del día"** del panel y queda
+archivado en el Release `capsulas` del repo (se conservan las últimas 60).
 
 **Cómo funciona** (`capsule.py`, cuatro pasos):
 
@@ -73,8 +74,9 @@ python capsule.py                  # vídeo completo con voz
 
 - Las imágenes son del medio original. Al publicarlas en redes, cita la fuente (el vídeo
   ya lo hace en pantalla) y revisa las condiciones de cada medio antes de monetizar.
-- El vídeo se guarda en el repo y en GitHub Pages: cada día pesa ~3-4 MB. Se conservan
-  los últimos 10; el peso se acumula en el historial de Git.
+- El vídeo **no** se guarda en el historial de Git (pesa ~3-4 MB al día y el repo
+  crecería más de 1 GB al año). Se publica en Pages el del día y se archiva en el Release
+  `capsulas`, que borra solo las más antiguas.
 - Si una noticia no tiene imagen, se usa la suya en miniatura como fondo desenfocado (o
   un degradado de marca). La selección prioriza siempre noticias con foto real.
 
@@ -116,8 +118,10 @@ git push -u origin main
 
 ### 2. Activar GitHub Pages
 
-Repo → **Settings → Pages** → *Source*: **Deploy from a branch** →
-*Branch*: `main`, carpeta `/docs` → **Save**.
+Repo → **Settings → Pages** → *Build and deployment* → *Source*: **GitHub Actions**.
+
+(No hace falta elegir rama: el propio workflow publica la carpeta `docs/` al terminar
+cada edición, con el vídeo del día incluido.)
 
 En 1-2 minutos el panel estará en `https://TU_USUARIO.github.io/moda-radar/`.
 
@@ -203,7 +207,7 @@ moda-radar/
 ├── docs/
 │   ├── index.html          panel (generado, se sobrescribe cada día)
 │   ├── data/               latest.json + un JSON por día (archivo)
-│   └── videos/             cápsulas mp4 + portada + index.json
+│   └── videos/             index.json (los mp4 se generan pero no se commitean)
 ├── digests/                un Markdown por día
 ├── memoria/                bitácora de decisiones y fallos
 └── .github/workflows/      tarea programada diaria

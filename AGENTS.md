@@ -1,36 +1,48 @@
 # Proyecto: moda-radar
 
 ## Qué es
-Agregador diario de noticias de la industria de la moda. Descarga 32 medios
-especializados, elimina duplicados, agrupa por tema y publica un panel web estático
-más un resumen en Markdown. Para uso personal de Badabun.
+Radar diario de noticias de la industria de la moda. Descarga 32 medios
+especializados, elimina duplicados, agrupa por tema y publica un panel web estático,
+un resumen en Markdown, un corpus acumulado de noticias y una cápsula diaria en vídeo.
+Proyecto personal.
 
 ## Stack
-- Python 3.12 **solo biblioteca estándar** (sin pip, sin claves API, sin coste).
-- GitHub Actions (cron diario) + GitHub Pages (publicación del panel).
+- `aggregate.py` y `ui.py`: Python 3.12 **solo biblioteca estándar** (sin pip, sin claves).
+- `capsule.py`: además necesita `ffmpeg`, `pillow` y `edge-tts` (los instala el workflow).
+  La clave de IA (`LLM_API_KEY`) es opcional: sin ella el guion sale de una plantilla.
+- GitHub Actions (cron diario) publica el panel en GitHub Pages (fuente: *GitHub Actions*)
+  y archiva cada cápsula en el Release `capsulas`.
 
 ## Estructura
 - `aggregate.py`  motor: descarga → limpia → deduplica → clasifica → renderiza.
+- `capsule.py`    cápsula en vídeo: selección → guion → voz → montaje.
 - `ui.py`         CSS, JS y plantilla del panel.
 - `sources.json`  catálogo de fuentes (verificadas el 2026-11-05).
-- `docs/`         salida publicada: `index.html` + `data/*.json`.
+- `docs/`         lo que se publica: `index.html` + `data/*.json` + `videos/index.json`.
+- `datos/`        corpus acumulado (`noticias.jsonl` maestro + `noticias.csv`).
 - `digests/`      un Markdown por día.
+- `musica/`       pistas de fondo de la cápsula (CC0).
 - `memoria/`      bitácora fechada de decisiones y fallos.
 
 ## Comandos
 ```powershell
-.\run.cmd              # generar panel y digest
-.\run.cmd --check      # validar que las fuentes responden
-.\run.cmd --days 7     # cambiar la ventana de días
+.\run.cmd                   # generar panel, digest y corpus
+.\run.cmd --check           # validar que las fuentes responden
+.\run.cmd --days 7          # cambiar la ventana de días
+python capsule.py --dry-run # ver el guion de la cápsula sin montar
 ```
 
 ## Reglas del proyecto
-- No añadir dependencias externas: el script debe correr en un runner limpio sin `pip install`.
+- `aggregate.py` y `ui.py` no llevan dependencias externas. Las dependencias de vídeo
+  se quedan en `capsule.py`.
 - Toda fuente nueva se valida con `--check` antes de entrar en `sources.json`.
 - `docs/index.html` es generado: nunca editarlo a mano, se sobrescribe cada día.
 - Los umbrales de deduplicación y las palabras clave se cambian en `aggregate.py`, no en la salida.
+- Los vídeos (`docs/videos/*.mp4` y portadas) **no se commitean**: el historial de Git
+  crecería ~1,4 GB al año. Viven en el Release `capsulas`; Pages publica el del día.
+- `datos/noticias.jsonl` es append-only: nunca reescribirlo.
 
 ## Estado actual
-Funcionando en local (137 noticias, 30/32 fuentes en la última pasada).
-Pendiente: crear el repo en GitHub, activar Pages en `/docs` y el permiso de escritura
-de Actions. Hypebeast y Textile World fallan de forma intermitente por límite de IP.
+En producción en https://mexicanfasionstreet-cyber.github.io/moda-radar/
+(~140 noticias/día, 31/32 fuentes; Hypebeast bloquea las IP de los runners).
+BoF y Textile World entran por espejo (Google/Bing News) cuando bloquean al robot.
