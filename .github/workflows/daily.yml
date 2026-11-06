@@ -7,11 +7,17 @@ on:
     - cron: "0 19 * * *"   # 13:00 CDMX · mediodía
     - cron: "0 1 * * *"    # 19:00 CDMX · noche
   workflow_dispatch:
+    inputs:
+      publicar:
+        description: "Publicar tambien en YouTube e Instagram"
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths:
       - "aggregate.py"
       - "capsule.py"
+      - "publicar.py"
       - "ui.py"
       - "sources.json"
       - ".github/workflows/daily.yml"
@@ -146,6 +152,20 @@ jobs:
                   gh release delete-asset capsulas "${mp4%.mp4}-portada.jpg" -y || true
                 done
           done
+
+      - name: Publicar en YouTube e Instagram
+        if: github.event_name == 'schedule' || inputs.publicar == true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: |
+          python publicar.py --franja "${{ steps.franja.outputs.franja }}" \
+            || echo "::warning::La publicacion fallo; el panel y las capsulas siguen publicados"
 
       - name: Preparar la web
         uses: actions/upload-pages-artifact@v3

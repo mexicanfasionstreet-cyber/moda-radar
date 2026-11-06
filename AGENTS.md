@@ -19,6 +19,8 @@ Proyecto personal.
 ## Estructura
 - `aggregate.py`  motor: descarga → limpia → deduplica → clasifica → renderiza.
 - `capsule.py`    cápsula en vídeo: selección → guion → voz → montaje.
+- `publicar.py`   sube las cápsulas a YouTube Shorts y Stories de Instagram (si hay
+  credenciales; si faltan, se salta la red). Guía en `PUBLICAR.md`.
 - `ui.py`         CSS, JS y plantilla del panel.
 - `enlaces.py`    enlaces de Google News → artículo real (+ foto y entradilla), con caché.
 - `sources.json`  catálogo de fuentes (verificadas el 2026-11-05).
@@ -60,3 +62,6 @@ Tres franjas desde el 2026-11-06: 07:00, 13:00 y 19:00 CDMX (13:00, 19:00 y 01:0
 El panel enlaza la cápsula más reciente del día y su `-textos.txt`.
 La marca en pantalla es **The Border Archive** (logo en `marca/`), no "MODA/RADAR".
 Las fechas de los archivos son de Ciudad de México, no UTC.
+`publicar.py` sube a YouTube e Instagram **solo en ejecuciones programadas** (o manual con
+la casilla marcada). Registro antiduplicados en `docs/videos/publicadas.json`.
+Credenciales: `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN`, `IG_USER_ID`, `IG_TOKEN`.

@@ -1,5 +1,24 @@
 # Bitácora
 
+## 2026-11-06 · publicar solo en YouTube e Instagram
+
+- `publicar.py` sube cada cápsula: YouTube por `videos.insert` resumable y Stories de
+  Instagram con contenedor `media_type=STORIES`, sondeo de estado y `media_publish`.
+- **Límite verificado en la doc de Meta**: las Stories son de 3 a 60 s, así que una
+  cápsula de 65-70 s se parte en dos tarjetas con ffmpeg (re-codificando para que el corte
+  sea exacto).
+- **Una Story no admite pie de foto ni enlace**: los textos del kit solo sirven para
+  YouTube. En Instagram todo tiene que estar dentro del vídeo, que es lo que ya se hace.
+- **Meta no acepta subida directa**: descarga el vídeo de una URL pública. Por eso el
+  script sube cada trozo al Release `capsulas` como asset, publica y lo borra enseguida.
+- YouTube: un Short es cualquier vertical de hasta 3 min; no hay endpoint aparte. Cuota
+  1.600 unidades por subida → las 6 diarias son 9.600 de 10.000, sin margen.
+- Antiduplicados: `docs/videos/publicadas.json` con ventana de 20 h.
+- Solo publica en ejecuciones **programadas**; en manual hay que marcar la casilla, para
+  que una prueba de código no acabe en las redes.
+- `herramientas/token-youtube.py` resuelve el refresh token con el flujo de dispositivo
+  (sin servidor local: un código que se escribe en google.com/device desde el móvil).
+
 ## 2026-11-06 · marca TBA y fechas locales
 
 - El logo sustituye a "MODA/RADAR" en pantalla. Se usan **dos versiones**: `logo-tba.png`

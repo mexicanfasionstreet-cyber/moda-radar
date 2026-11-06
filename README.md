@@ -102,8 +102,7 @@ moda, belleza o textil.
 
 ## Tres franjas al día
 
-El robot emite **tres veces al día**: 07:00, 13:00 y 19:00 (hora de Ciudad de México).
-Cada franja genera dos cápsulas —general y México/LatAm—, así que son **seis vídeos
+El robot emite **tres veces al día**: 07:00, 13:00 y 19:00 (hora de Ciudad de México).Cada franja genera dos cápsulas —general y México/LatAm—, así que son **seis vídeos
 diarios**.
 
 - Los archivos se llaman `AAAA-MM-DD-manana.mp4`, `-mediodia`, `-noche` (y su versión
@@ -118,8 +117,16 @@ diarios**.
 - La franja se deduce de la hora UTC en el workflow, así que una ejecución manual también
   funciona sin pasar nada a mano: `python capsule.py --franja noche`.
 
-## Marca y fechas
+## Publicación automática
 
+Las cápsulas se pueden subir solas a **YouTube Shorts** y a **Stories de Instagram** tres
+veces al día. Se salta cualquier red que no tenga credenciales y no publica en ejecuciones
+manuales salvo que marques la casilla. Instrucciones completas, con los avisos de cada
+plataforma (cuota de YouTube, caducidad de tokens, límite de 60 s en Stories):
+
+➡️ **[PUBLICAR.md](PUBLICAR.md)**
+
+## Marca y fechas
 - **El logo manda**: en la esquina de cada diapositiva y en la tarjeta de cierre aparece el
   logo de **The Border Archive**, no el texto "MODA/RADAR".
 - Los archivos viven en `marca/`: `logo-tba.png` (completo, con la línea *THE BORDER
