@@ -1,37 +1,57 @@
 {
- "generated": "2026-11-06T07:04:54.266468Z",
+ "generated": "2026-11-06T07:07:45.612467Z",
  "days": 4,
- "count": 199,
+ "count": 185,
  "sources_ok": 44,
  "sources_failed": [
   "Hypebeast"
  ],
  "items": [
   {
-   "title": "Nuevo en tienda: Zara, Lefties, Stradivarius, Bershka y Pull&Bear",
-   "link": "https://www.elle.com/es/moda/noticias/a74337733/nuevo-en-tienda-zara-lefties-stradivarius-bershka-pullbear/",
-   "excerpt": "El frío ya se ha instalado y las novedades de nuestras tiendas favoritas lo dejan claro: noviembre llega cargado de prendas calentitas, tejidos gustosos y tendencias que nos apetecen muchísimo.",
-   "image": "https://hips.hearstapps.com/hmg-prod/images/4ee71818-5833-4399-a1b7-00c47cd2fea6.png",
-   "published": "2026-11-06T06:45:00Z",
-   "source": "Elle ES",
-   "source_name": "Elle España",
-   "kind": "consumer",
+   "title": "Oxford Street stores see spending rise 28% in first week of pedestrianisation",
+   "link": "https://www.theindustry.fashion/oxford-street-stores-see-spending-rise-28-in-first-week-of-pedestrianisation/",
+   "excerpt": "Retail spending on London’s Oxford Street increased in the first week following its pedestrianisation, with the value of transactions rising 28% year on year, according to data from payments company Adyen. The figures, covering…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/roundabout_cropped-150x150.jpg",
+   "published": "2026-11-06T07:00:26Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
    "mirror": false,
-   "weight": 3.4,
-   "lang": "es",
-   "region": "es",
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
    "tags": [
     "retail"
    ],
    "also": [],
-   "id": "38767c991068",
-   "score": 7.78
+   "id": "e751a89983ad",
+   "score": 8.74
+  },
+  {
+   "title": "Marks & Spencer unites fashion and food in first fully integrated Christmas campaign since 2017",
+   "link": "https://www.theindustry.fashion/marks-spencer-unites-fashion-and-food-in-first-fully-integrated-christmas-campaign-since-2017/",
+   "excerpt": "Marks & Spencer has brought food, fashion, home and beauty together in a single Christmas campaign for the first time since 2017, fronted by a festive film starring actor James Norton as an undercover Santa. Amandaland star Lucy…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/Title-2026-11-05T115812.963-150x150.png",
+   "published": "2026-11-06T07:00:07Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "pasarela"
+   ],
+   "also": [],
+   "id": "a17e9374382b",
+   "score": 8.04
   },
   {
    "title": "Martine Rose Named Creative Director of Balenciaga",
    "link": "https://wwd.com/fashion-news/fashion-features/martine-rose-named-creative-director-balenciaga-1239403938/",
    "excerpt": "The designer known for her laid-back urban cool and embrace of London's diverse communities, will take over from Pierpaolo Piccioli, whose has left the Kering-owned brand.",
-   "image": "",
+   "image": "https://assets.vogue.com/photos/6aecf57c3b08cd2413ac4b60/master/pass/MARTINE-NEW-STORY.jpg",
    "published": "2026-11-06T06:24:46Z",
    "source": "WWD",
    "source_name": "WWD",
@@ -43,9 +63,11 @@
    "tags": [
     "personas"
    ],
-   "also": [],
+   "also": [
+    "Vogue"
+   ],
    "id": "6878f554b1af",
-   "score": 8.95
+   "score": 10.05
   },
   {
    "title": "Driving sustainable textile manufacturing through chemical innovation",
@@ -468,26 +490,6 @@
    "score": 6.86
   },
   {
-   "title": "HONOR 600 Elite: el smartphone de “batalla” con prestaciones de flagship",
-   "link": "https://www.gq.com.mx/articulo/honor-600-elite-resena",
-   "excerpt": "Con la promesa de una batería poderosa y una resistencia única, HONOR presentó su nuevo eslabón, pensando en aquellos que vivimos nuestro día a día con intensidad.",
-   "image": "https://media.gq.com.mx/photos/6aece1d902ee9879206ba9be/master/pass/HONOR-600-Elite-3.jpg",
-   "published": "2026-11-06T00:58:25Z",
-   "source": "GQ MX",
-   "source_name": "GQ México",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 3.2,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "retail"
-   ],
-   "also": [],
-   "id": "17f8d97ad005",
-   "score": 6.94
-  },
-  {
    "title": "Kate Hudson Packed Nordstrom's Skimpiest Bikini for Her BFF's Wedding in Hawaii—and It's Still in Stock",
    "link": "https://www.whowhatwear.com/fashion/celebrity-style/kate-hudson-black-and-white-bikini-hawaii",
    "excerpt": "Kate Hudson is no stranger to a bikini, and she might have just worn her skimpiest one yet. The actress was spotted in Hawaii wearing a black-and-white LSpace bikini ahead of jewelry designer Jennifer Meyer's recent wedding…",
@@ -768,26 +770,6 @@
    "score": 8.35
   },
   {
-   "title": "Ideas de jeans acampanados con blusas para llevar con botas, botines y zapatos de tacón en noviembre 2026",
-   "link": "https://www.vogue.mx/articulo/como-llevar-jeans-acampanados-con-blusas-con-botas-botines-y-zapatos-de-tacon-noviembre-2026",
-   "excerpt": "Así son los jeans acampanados para llevar con blusas elegantes en noviembre 2026. Desde diseños bootcut hasta clásicos, así son los favoritos.",
-   "image": "https://media.vogue.mx/photos/6aecd203707e135873ec6ac8/master/pass/jeans-acampanados-tendencias.jpg",
-   "published": "2026-11-05T19:01:35Z",
-   "source": "Vogue MX",
-   "source_name": "Vogue México",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "calzado"
-   ],
-   "also": [],
-   "id": "c8e5ba95468b",
-   "score": 7.1
-  },
-  {
    "title": "From Prada to Valentino: I Can Save $206 on These Investment-Worthy Designer Beauty Products Right Now",
    "link": "https://www.whowhatwear.com/beauty/sephora-sale-2026-designer-products",
    "excerpt": "ICYMI, the Sephora Savings Event is on now. During it, you can save serious dollars on some of the best beauty editor–recommended items . Here are the details: Rouge members save 20%, VIB members save 15%, and Beauty Insiders…",
@@ -1054,46 +1036,6 @@
    "score": 7.38
   },
   {
-   "title": "Blazer gessato, jeans dritti e borsa di suede, l'outfit più effortless dell'autunno",
-   "link": "https://www.vogue.mx/articulo/naomi-watts-blazer-elegante-jeans-rectos-y-botines-negros-otono-2026",
-   "excerpt": "Un abbinamento che punta tutto sulla semplicità dei grandi classici di stagione: un blazer gessato, dei jeans dritti e una borsa di suede. Ecco come replicarlo",
-   "image": "https://media.vogue.mx/photos/6aecb7e0707e135873ec696c/master/pass/GettyImages-2303348346.jpg",
-   "published": "2026-11-05T17:23:33Z",
-   "source": "Vogue MX",
-   "source_name": "Vogue México",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "diseno"
-   ],
-   "also": [],
-   "id": "6b1ee43a8d11",
-   "score": 7.0
-  },
-  {
-   "title": "¡Feliz Navidad! Perfume de Kenia Os por 249 pesos: KOS Muse es un regalito ideal para el intercambio",
-   "link": "https://www.merca20.com/feliz-navidad-perfume-de-kenia-os-por-249-pesos-kos-muse-es-un-regalito-ideal-para-el-intercambio/",
-   "excerpt": "FOTO: KENIA OS La Navidad 2026 se acerca y los seguidores de Kenia Os ya pueden encontrar una opción de regalo para el intercambio por menos de 250 pesos. Mercado Libre tiene disponible el perfume KOS Essence Muse Travel Size…",
-   "image": "https://files.merca20.com/uploads/2025/11/KENIA-OS-PERFUME-K-OS-MUSE_2025-19.jpg",
-   "published": "2026-11-05T17:07:35Z",
-   "source": "Merca2.0",
-   "source_name": "Merca2.0",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 3.0,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "belleza"
-   ],
-   "also": [],
-   "id": "c66d8c1cd7ec",
-   "score": 5.8
-  },
-  {
    "title": "TK Maxx unveils its new Christmas ad",
    "link": "https://www.drapersonline.com/topics/christmas-trading-topics/tk-maxx-unveils-its-new-christmas-ad",
    "excerpt": "TK Maxx has returned to its “Festive Farm” campaign in its “Festive Crossing” Christmas advert. The post TK Maxx unveils its new Christmas ad appeared first on Drapers .",
@@ -1154,26 +1096,6 @@
    "score": 7.5
   },
   {
-   "title": "Dua Lipa inspira para llevar jeans rectos con zapatos de tacón, bailarinas y botines para otoño 2026",
-   "link": "https://www.vogue.mx/articulo/dua-lipa-inspiracion-con-jeans-rectos-con-zapatos-de-tacon-bailarinas-y-botines-otono-2026",
-   "excerpt": "Quién mejor que Dua Lipa para dar lecciones de looks con jeans rectos y el calzado en tendencia de toda la temporada otoñal.",
-   "image": "https://media.vogue.mx/photos/6a5ff9fa3a9b581fed956148/master/pass/dua-lipa-con-jeans.jpg",
-   "published": "2026-11-05T16:59:31Z",
-   "source": "Vogue MX",
-   "source_name": "Vogue México",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "calzado"
-   ],
-   "also": [],
-   "id": "ebdcbe21996a",
-   "score": 7.1
-  },
-  {
    "title": "Byan continúa con su expansión internacional y abre su primer ‘pop up’ en Milán",
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZzVJV3RPMzlUbUdCSW1pUFhnWS1DYVVjelJRMUg5M0tmd3A5TXBrTUFzVmxIaUtObW82WWs4ZVlieXNCZG1lU3ZzWFQ4Q2hqWmJpcDJvNzRYeFpreUFUVVVLaWJpYTNaa3RDWXdIV2NGeXpEZjU4SFJXOTBtUHBmNUdZTnpRdUtLOWFWM3I0REpVcS1wUDJTQW9Icjk3UDBUd3Jib1ZSZDk2VURRYXc?oc=5",
    "excerpt": "",
@@ -1192,26 +1114,6 @@
    "also": [],
    "id": "cfe99a641804",
    "score": 6.75
-  },
-  {
-   "title": "Los zapatos de tacón negros son los más elegantes y la reina Letizia lo confirma con este elegante vestido azul en otoño 2026",
-   "link": "https://www.vogue.mx/articulo/reina-letizia-con-zapatos-de-tacon-negros-y-vestido-azul-otono-2026",
-   "excerpt": "La reina Letizia combina un vestido midi azul oscuro con unos zapatos de tacón negros y nos muestra así lo genial que es esta combinación de colores para el otoño de 2026. Descubre aquí este look.",
-   "image": "https://media.vogue.mx/photos/6aeca7c1850157246d8f4290/master/pass/GettyImages-2303547585.jpg",
-   "published": "2026-11-05T16:45:23Z",
-   "source": "Vogue MX",
-   "source_name": "Vogue México",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "calzado"
-   ],
-   "also": [],
-   "id": "0dbcefcf2abe",
-   "score": 6.95
   },
   {
    "title": "LVMH Deepens China Engagement With ‘New Generations’ Pavilion at CIIE",
@@ -1274,6 +1176,26 @@
    "score": 7.79
   },
   {
+   "title": "Sostenibilidad y normativa europea: Euratex y Global Fashion Agenda sellan una alianza estratégica",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVDlHMy1XOEtBY0pJeGtzTlI2U2JwYmJIY2lhelBOUjhkVVM4YkpKSFI0Rm9tRl95VU9JNkVtZW1oVUxlQ0tpRm5hSTNjUVBqSWhOd1dVNE1CdUdGTUJxeEZ2VUZadUhBUXpFTGVTLTVUQklQZk5NQVZXUXQ1UlMtLXR3cWxqSlJPSU9LaUlrZnNSSW1ib2NheTJWT3RWYjZVbFBsdl81NXlGWEFnVFVKT2dXQXJFVl9uZGZnZ1FWQWphc19QYUtsaFc4WEtFdS1LWkxFbWNWNVJ4RjFIaEE?oc=5",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-05T16:00:00Z",
+   "source": "FashionNetwork",
+   "source_name": "FashionNetwork España",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "sostenibilidad"
+   ],
+   "also": [],
+   "id": "4515c49c84b3",
+   "score": 7.15
+  },
+  {
    "title": "Hunter Schafer’s Upcycled Look Is the Antithesis of Fall Dressing",
    "link": "https://www.vogue.com/article/hunter-schafer-nihl-neon-red-carpet-look",
    "excerpt": "Forget earthy autumnal hues—the star is all-in on neon brights.",
@@ -1334,26 +1256,6 @@
    "score": 6.58
   },
   {
-   "title": "Jessica Alba lleva las botas cafés de punta almendrada que mejor combinan con jeans rectos en otoño 2026",
-   "link": "https://www.vogue.mx/articulo/jessica-alba-lleva-botas-cafes-de-punta-almendrada-con-jeans-rectos-en-otono-2026",
-   "excerpt": "Jessica Alba combina jeans rectos de tiro alto con botines cafés de punta almendrada y tacón bajo, una de las tendencias de moda para otoño 2026.",
-   "image": "https://media.vogue.mx/photos/6aec9a21823ccde66ccd8dbd/master/pass/jessica-alba-botas-cafes-jeans-rectos.JPG",
-   "published": "2026-11-05T15:24:32Z",
-   "source": "Vogue MX",
-   "source_name": "Vogue México",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "calzado"
-   ],
-   "also": [],
-   "id": "36b86c714abf",
-   "score": 7.1
-  },
-  {
    "title": "The Met Replaces Its Galliano Exhibit With One About 'Everyday' Clothes",
    "link": "https://fashionista.com/2026/11/met-gala-exhibit-2027-theme-replacement",
    "excerpt": "It’s been nearly two months since The Metropolitan Museum of Art canceled the planned “John Galliano: Horizons” Spring 2027 Costume Institute exhibition , which would have spotlighted the controversial designer and his…",
@@ -1412,26 +1314,6 @@
    "also": [],
    "id": "d50b6c9c9283",
    "score": 7.95
-  },
-  {
-   "title": "Los vestidos color café más elegantes de Zara para llevar con botas en otoño 2026",
-   "link": "https://www.vogue.mx/articulo/como-llevar-vestidos-color-cafe-elegantes-de-zara-con-botas-en-otono-2026",
-   "excerpt": "Zara suma a su catálogo de temporada una variedad de vestidos en tonos marrones, desde midi hasta minivestidos boho. Conoce los favoritos.",
-   "image": "https://media.vogue.mx/photos/6ad7c186bd8b2dcd5b2ef86f/master/pass/portada-zara.jpg",
-   "published": "2026-11-05T15:07:47Z",
-   "source": "Vogue MX",
-   "source_name": "Vogue México",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "calzado"
-   ],
-   "also": [],
-   "id": "137a3afc1ae8",
-   "score": 7.1
   },
   {
    "title": "How Sosandar is bouncing back despite hot weather hitting autumn sales",
@@ -2039,7 +1921,7 @@
   },
   {
    "title": "Spinnova Signs Letter Of Intent With Outlast To Develop SPINNOVA® Fibre For Insulation And Temperature Regulation",
-   "link": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6aed7c1365ab4e6c9b64ef449186f81a&url=https%3A%2F%2Fwww.textileworld.com%2Ftextile-world%2Ffiber-world%2F2026%2F11%2Fspinnova-signs-letter-of-intent-with-outlast-to-develop-spinnova-fibre-for-insulation-and-temperature-regulation%2F&c=16838274605392804620&mkt=en-us",
+   "link": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6aed7cbe9bbd4c6284dde7813ad79684&url=https%3A%2F%2Fwww.textileworld.com%2Ftextile-world%2Ffiber-world%2F2026%2F11%2Fspinnova-signs-letter-of-intent-with-outlast-to-develop-spinnova-fibre-for-insulation-and-temperature-regulation%2F&c=16838274605392804620&mkt=en-us",
    "excerpt": "Spinnova Plc, a materials technology company producing textile fibre from side streams and wood pulp, today announced that it has signed a non-binding letter of intent (“LOI”) with Outlast ...",
    "image": "",
    "published": "2026-11-05T07:37:00Z",
@@ -2054,7 +1936,7 @@
     "industria"
    ],
    "also": [],
-   "id": "52e5b7aecbe5",
+   "id": "eb99758b2505",
    "score": 5.49
   },
   {
@@ -2418,26 +2300,6 @@
    "score": 6.77
   },
   {
-   "title": "Zapatos de tacón de fiesta en Zara: Los más elegantes para llevar con vestidos, faldas y pantalones en otoño 2026",
-   "link": "https://www.vogue.mx/articulo/zapatos-de-tacon-de-fiesta-zara-con-vestidos-faldas-y-pantalones-otono-2026",
-   "excerpt": "Zapatos mules, zapatos pumps, zapatos de lentejuelas: Así son los tacones de Zara para llevar en looks de fiesta con vestidos, faldas y pantalones.",
-   "image": "https://media.vogue.mx/photos/6aeb8c24cc4f6b292e924bc0/master/pass/zapatos-de-tacon-de-fiesta-zara.jpg",
-   "published": "2026-11-04T20:20:11Z",
-   "source": "Vogue MX",
-   "source_name": "Vogue México",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "calzado"
-   ],
-   "also": [],
-   "id": "bf253be136c9",
-   "score": 6.6
-  },
-  {
    "title": "The Nobody Wants This Costume Designer Shares How She Brings Each Character's Style to Life On-Screen",
    "link": "https://www.whowhatwear.com/living/who-what-wear-podcast-negar-ali-kline",
    "excerpt": "Welcome to The Who What Wear Podcast . Think of it as your direct line to the designers, stylists, beauty experts, editors, and tastemakers who are shaping the fashion-and-beauty world. Subscribe to The Who What Wear Podcast on…",
@@ -2478,26 +2340,6 @@
    "score": 6.55
   },
   {
-   "title": "Zapatos transparentes y vestido corto de lentejuelas, 4 ideas elegantes para salir de fiesta en noviembre 2026",
-   "link": "https://www.vogue.mx/articulo/zapatos-transparentes-y-vestido-corto-de-lentejuelas-blake-lively-inspiracion-otono-2026",
-   "excerpt": "Returning to the Upper East Side in vintage Chanel, Blake Lively brought her penchant for sparkle to a rare evening out in the city.",
-   "image": "",
-   "published": "2026-11-04T18:00:52Z",
-   "source": "Vogue MX",
-   "source_name": "Vogue México",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "calzado"
-   ],
-   "also": [],
-   "id": "161da84cabd4",
-   "score": 5.75
-  },
-  {
    "title": "El revés electoral de Trump da a sus socios más margen de maniobra para resistir en el terreno comercial",
    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQXzd0SG9xMHRiWHRSSjlYaFRmTHhWX3BnSjdWVEFYUlhXdHg4SjBmUVk4bENQY1lEVjZsWEhTdGdvZ09ZdXFQUmRyUHY0Z0J6VkZ3RGNzVi1qNUdsSzRGWExvSHo4WVBkY3NHMC14N3AxbnY5YmpBV2JUYUJvaFJYYUhkTFRWc1h3OTlvdGtrdnY2TldKdzdxanZhNDJ6cWp6OUxPbWd0aXNiU005SW1LQ2xuNm9XZW92aHI4YUNCZjM0MTMzc2dWY01aeDdSRm83OFFja3dkMl8zNVJyR193d0tvX2ZOc2c?oc=5",
    "excerpt": "",
@@ -2516,26 +2358,6 @@
    "also": [],
    "id": "e17bf540b9ab",
    "score": 5.75
-  },
-  {
-   "title": "Disney Golden Goose: Ilse Salas y sus sneakers personalizados",
-   "link": "https://www.vogue.mx/articulo/golden-goose-disney-ilse-salas-tenis-personalizados",
-   "excerpt": "Disney y Golden Goose unen moda y creatividad en una experiencia de Co-Creation con Ilse Salas, donde los tenis se vuelven únicos.",
-   "image": "https://media.vogue.mx/photos/6aea05eba8d437b18ae28344/master/pass/Ilse-Salas-Goldengoose-Disney-1.jpg",
-   "published": "2026-11-04T17:38:39Z",
-   "source": "Vogue MX",
-   "source_name": "Vogue México",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "calzado"
-   ],
-   "also": [],
-   "id": "3ae114ec847c",
-   "score": 6.1
   },
   {
    "title": "Pandora registra un crecimiento orgánico del 6 % en el tercer trimestre",
@@ -2616,26 +2438,6 @@
    "also": [],
    "id": "54ff7a24c34d",
    "score": 6.9
-  },
-  {
-   "title": "Invincible x adidas Samba Dress Shoes: Los tenis planos que combinan la elegancia de los Oxford con el estilo deportivo",
-   "link": "https://www.gq.com.mx/articulo/tenis-invincible-x-adidas-samba-dress-shoes-precio-fotos-lanzamiento-04-11-2026",
-   "excerpt": "Estos sneakers de adidas no le piden nada a unos zapatos de lujo y son ideales para llevarlos a la oficina.",
-   "image": "https://media.gq.com.mx/photos/6aeb58a54817470ba0cd292e/master/pass/Invincible-adidas-Samba-Dress-Shoe.jpg",
-   "published": "2026-11-04T16:51:42Z",
-   "source": "GQ MX",
-   "source_name": "GQ México",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 3.2,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "calzado"
-   ],
-   "also": [],
-   "id": "829f94dbde62",
-   "score": 4.99
   },
   {
    "title": "L’hype non basta: dopo otto anni Coperni giunge al capolinea",
@@ -2898,26 +2700,6 @@
    "score": 6.9
   },
   {
-   "title": "Mango Outlet rebaja sus mejores abrigos de lana Manteco muy elegantes y calentitos (solo durante 6 días) antes de Black Friday",
-   "link": "https://www.elle.com/es/moda/noticias/a74330410/mango-outlet-rebajas-abrigos-de-lana-manteco-mujer/",
-   "excerpt": "Sin duda los abrigos de lana más buscados de Zara son los Manteco, y resulta que estos días Mango Outlet ha rebajado estos 6 abrigos Manteco ideales. Una oportunidad más que de oro antes de Black friday para conseguir las piezas…",
-   "image": "https://hips.hearstapps.com/hmg-prod/images/4b622bc2-90f8-482a-bdc4-7eea4870aafb.jpg",
-   "published": "2026-11-04T12:00:00Z",
-   "source": "Elle ES",
-   "source_name": "Elle España",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 3.4,
-   "lang": "es",
-   "region": "es",
-   "tags": [
-    "retail"
-   ],
-   "also": [],
-   "id": "9877db298e62",
-   "score": 6.03
-  },
-  {
    "title": "Los mejores vestidos de otoño para mujeres +50 ya han llegado a las tiendas: son de estilo drapeado y altamente favorecedores",
    "link": "https://www.elle.com/es/moda/compras-elle/a74248234/mejores-vestidos-drapeados-otono-como-elegir-favorecedores/",
    "excerpt": "Una (buena) idea para encontrar un vestido para tus próximos planes",
@@ -3158,46 +2940,6 @@
    "score": 6.94
   },
   {
-   "title": "Asda appoints former Morrisons boss as Group CEO",
-   "link": "https://www.theindustry.fashion/asda-appoints-former-asda-appoints-former-morrisons-boss-as-group-ceo/",
-   "excerpt": "Asda has appointed former Morrisons Chief Executive David Potts CBE as its new Group Chief Executive Officer, with immediate effect, as the supermarket continues its turnaround under its Formula for Growth strategy. Potts takes…",
-   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/07/IMG_6700_cropped-150x150.jpeg",
-   "published": "2026-11-04T08:10:46Z",
-   "source": "The Industry",
-   "source_name": "The Industry",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "personas"
-   ],
-   "also": [],
-   "id": "ed0666e45673",
-   "score": 6.74
-  },
-  {
-   "title": "Hunter to open giant boot box pop-up in Covent Garden",
-   "link": "https://www.theindustry.fashion/hunter-to-open-giant-boot-box-pop-up-in-covent-garden/",
-   "excerpt": "Hunter is set to open an immersive pop-up store in Covent Garden this November, marking its 170th anniversary with an activation centred around a giant version of its signature boot box. Running from 9 to 25 November, the…",
-   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/06_021_QC_cropped-150x150.jpg",
-   "published": "2026-11-04T08:05:35Z",
-   "source": "The Industry",
-   "source_name": "The Industry",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "retail"
-   ],
-   "also": [],
-   "id": "35408dd27615",
-   "score": 7.14
-  },
-  {
    "title": "Glossy+ Research: Marketers express revenue optimism for 2026 holiday season despite economic pressures",
    "link": "https://www.glossy.co/research/glossy-research-marketers-express-revenue-optimism-for-2026-holiday-season-despite-economic-pressures/",
    "excerpt": "This is an excerpt from our Glossy+ Research report The 2026 guide to holiday marketing strategies, including A-Frame Brands, Mastercard and Ritual , which examined which commerce channels are dominating marketers’ holiday…",
@@ -3376,26 +3118,6 @@
    "also": [],
    "id": "0d799ffec1c1",
    "score": 6.18
-  },
-  {
-   "title": "L Scarlett",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9NWGc2bWQ0SkNpREdwM0NPNDd0cldMeGtkaG9vQlNCa0tIYWQwSF8waXhpc3RveDNSWnRRZHplRHBYX3ZXTm91ZGQ2NGdDMmNJZWxtdVlyYVQ3VU5yVE5Jb21CWkxHNFo2bFc3RGVoRDlVc09QNEE?oc=5",
-   "excerpt": "",
-   "image": "",
-   "published": "2026-11-03T21:49:51Z",
-   "source": "FashionNetwork",
-   "source_name": "FashionNetwork España",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "es",
-   "tags": [
-    "industria"
-   ],
-   "also": [],
-   "id": "14cb1215885a",
-   "score": 5.6
   },
   {
    "title": "Casio presenta el Casio CMK-100TD-1A: Un reloj automático elegante, resistente y con cristal de zafiro",
