@@ -1,8 +1,8 @@
 # Proyecto: moda-radar
 
 ## Qué es
-Radar diario de noticias de la industria de la moda. Descarga 32 medios
-especializados, elimina duplicados, agrupa por tema y publica un panel web estático,
+Radar diario de noticias de la industria de la moda. Descarga 45 medios
+(32 internacionales, 13 de México/LatAm y en español), elimina duplicados, agrupa por tema y publica un panel web estático,
 un resumen en Markdown, un corpus acumulado de noticias y una cápsula diaria en vídeo.
 Proyecto personal.
 
@@ -35,7 +35,8 @@ python capsule.py --dry-run # ver el guion de la cápsula sin montar
 ## Reglas del proyecto
 - `aggregate.py` y `ui.py` no llevan dependencias externas. Las dependencias de vídeo
   se quedan en `capsule.py`.
-- Toda fuente nueva se valida con `--check` antes de entrar en `sources.json`.
+- Toda fuente nueva se valida antes de entrar en `sources.json`: desde GitHub con el workflow
+  *Probar fuentes* (las IP de casa y de GitHub no ven lo mismo), o en local con `--check --muestra 3`.
 - `docs/index.html` es generado: nunca editarlo a mano, se sobrescribe cada día.
 - Los umbrales de deduplicación y las palabras clave se cambian en `aggregate.py`, no en la salida.
 - Los vídeos (`docs/videos/*.mp4` y portadas) **no se commitean**: el historial de Git
@@ -44,5 +45,6 @@ python capsule.py --dry-run # ver el guion de la cápsula sin montar
 
 ## Estado actual
 En producción en https://mexicanfasionstreet-cyber.github.io/moda-radar/
-(~140 noticias/día, 31/32 fuentes; Hypebeast bloquea las IP de los runners).
+(~140 noticias/día; Hypebeast bloquea las IP de los runners).
+Medios de México y LatAm desde el 2026-11-06 (botón "México y LatAm" en el panel).
 BoF y Textile World entran por espejo (Google/Bing News) cuando bloquean al robot.

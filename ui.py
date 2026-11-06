@@ -143,7 +143,7 @@ JS = """
   var sel=document.getElementById('src');
   var count=document.getElementById('count');
   var empty=document.getElementById('empty');
-  var state={cat:'todo',q:'',src:'',trade:false};
+  var state={cat:'todo',q:'',src:'',trade:false,latam:false};
 
   function rel(ts){
     var d=new Date(ts); if(isNaN(d)) return '';
@@ -164,7 +164,8 @@ JS = """
       var okSrc = !state.src || c.dataset.src===state.src;
       var okQ = !q || (c.dataset.text||'').toLowerCase().indexOf(q)>-1;
       var okKind = !state.trade || c.dataset.kind==='trade';
-      var vis = okCat && okSrc && okQ && okKind;
+      var okLatam = !state.latam || c.dataset.latam==='1';
+      var vis = okCat && okSrc && okQ && okKind && okLatam;
       c.classList.toggle('const',!vis); if(vis) n++;
     });
     sections.forEach(function(s){
@@ -178,6 +179,8 @@ JS = """
   }
 
   chips.forEach(function(ch){ ch.addEventListener('click',function(){ state.cat=ch.dataset.cat; apply(); }); });
+  var latamBtn=document.getElementById('only-latam');
+  if(latamBtn){ latamBtn.addEventListener('click',function(){ state.latam=!state.latam; latamBtn.classList.toggle('on',state.latam); apply(); }); }
   if(tradeBtn){ tradeBtn.addEventListener('click',function(){ state.trade=!state.trade; tradeBtn.classList.toggle('on',state.trade); apply(); }); }
   if(input){ input.addEventListener('input',function(){ state.q=input.value; apply(); }); }
   if(sel){ sel.addEventListener('change',function(){ state.src=sel.value; apply(); }); }
@@ -191,6 +194,13 @@ JS = """
 
 
 CAT_LABEL = {}
+
+# regiones que cuenta el botón "México y LatAm"
+LATAM = {"mx", "latam", "ar", "co", "cl", "pe", "br", "uy", "ve", "ec", "gt", "cr"}
+
+
+def _latam(it):
+    return "1" if it.get("region") in LATAM else "0"
 
 
 def esc(s):
@@ -224,7 +234,7 @@ def card_html(it):
     excerpt = esc(it["excerpt"])
     ts = esc(it["published"])
     body_p = f"<p>{excerpt}</p>" if it["excerpt"] else ""
-    return f"""<article class="card" data-card data-kind="{esc(it.get('kind', 'trade'))}" data-cat="{esc(' '.join(it['tags']))}" data-src="{esc(it['source'])}" data-ts="{ts}" data-text="{esc(it['title'] + ' ' + it['excerpt'] + ' ' + it['source'] + ' ' + ' '.join(it['tags']))}">
+    return f"""<article class="card" data-card data-latam="{_latam(it)}" data-kind="{esc(it.get('kind', 'trade'))}" data-cat="{esc(' '.join(it['tags']))}" data-src="{esc(it['source'])}" data-ts="{ts}" data-text="{esc(it['title'] + ' ' + it['excerpt'] + ' ' + it['source'] + ' ' + ' '.join(it['tags']))}">
   <a class="{thumb_cls}" href="{link}" target="_blank" rel="noopener">{thumb}<span class="src-badge">{esc(it['source'])}</span></a>
   <div class="body">
     <h3><a href="{link}" target="_blank" rel="noopener">{title}</a></h3>
@@ -238,7 +248,7 @@ def lead_html(it):
     img = safe_url(it.get("image"))
     pic = f'<img src="{esc(img)}" alt="" referrerpolicy="no-referrer">' if img else ""
     link = esc(safe_url(it["link"]))
-    return f"""<a class="lead" href="{link}" target="_blank" rel="noopener" data-card data-kind="{esc(it.get('kind', 'trade'))}" data-cat="{esc(' '.join(it['tags']))}" data-src="{esc(it['source'])}" data-ts="{esc(it['published'])}" data-text="{esc(it['title'] + ' ' + it['excerpt'] + ' ' + it['source'])}">
+    return f"""<a class="lead" href="{link}" target="_blank" rel="noopener" data-card data-latam="{_latam(it)}" data-kind="{esc(it.get('kind', 'trade'))}" data-cat="{esc(' '.join(it['tags']))}" data-src="{esc(it['source'])}" data-ts="{esc(it['published'])}" data-text="{esc(it['title'] + ' ' + it['excerpt'] + ' ' + it['source'])}">
   {pic}<span class="shade"></span>
   <div class="txt">
     <div class="eyebrow">{esc(it['source'])} · {esc(CAT_LABEL.get(it['tags'][0] if it['tags'] else '', ''))}</div>
@@ -334,7 +344,7 @@ TEMPLATE = """<!doctype html>
 </div></header>
 
 <div class="controls"><div class="wrap controls-in">
-  <div class="chips">__CHIPS__<button class="chip trade-toggle" id="only-trade" title="Solo prensa especializada (BoF, WWD, Drapers, Retail Dive...)">Solo especializada</button></div>
+  <div class="chips">__CHIPS__<button class="chip trade-toggle" id="only-trade" title="Solo prensa especializada (BoF, WWD, Drapers, Retail Dive...)">Solo especializada</button><button class="chip trade-toggle" id="only-latam" title="Solo medios de México y Latinoamérica">México y LatAm</button></div>
   <div class="search">
     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
     <input id="q" type="search" placeholder="Buscar ( / )" autocomplete="off">

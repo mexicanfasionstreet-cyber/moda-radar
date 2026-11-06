@@ -75,6 +75,7 @@ CATS = [
             "lookbook", "campaign", "debut", "backstage",
             "front row", "menswear", "womenswear", "resort", "pre-fall",
             "pasarela", "desfile", "desfiles", "coleccion", "temporada", "semana de la moda", "modelo",
+            "pasarelas", "colecciones", "desfilo", "desfilaron", "fashion collective", "modelos",
             "sfilata", "collezione", "settimana della moda",
         ],
     },
@@ -134,6 +135,8 @@ CATS = [
             "pattern", "technique", "handbag", "bag", "accessories", "jewelry", "jewellery", "watch",
             "watches", "eyewear", "denim", "knitwear", "couture technique", "review",
             "disenador", "diseno", "artesania", "archivo", "bolso", "joyas", "reloj", "gafas", "vaquero",
+            "disenadores", "disenadora", "disenadoras", "emergente", "emergentes", "moda mexicana",
+            "hecho en mexico", "artesanal", "textil artesanal", "bolsos", "joyeria",
             "stilista", "artigianato", "borsa", "gioielli",
         ],
     },
@@ -174,7 +177,10 @@ STOP = {
 FASHION_RE = re.compile(
     r"(?<![a-z])(fashion|apparel|clothing|clothes|luxury|beauty|cosmetic|cosmetics|makeup|skincare"
     r"|fragrance|perfume|sneaker|sneakers|shoe|shoes|footwear|designer|couture|runway|garment|textile"
-    r"|jewel|jewellery|jewelry|sportswear|athleisure|denim|jeans|moda|calzado|textil)(?![a-z])"
+    r"|jewel|jewellery|jewelry|sportswear|athleisure|denim|jeans|moda|calzado|textil"
+    r"|textiles|textilera|ropa|prendas|vestido|vestidos|confeccion|joyeria|belleza|cosmetica|cosmeticos"
+    r"|maquillaje|perfumes|pasarela|desfile|disenador|disenadora|disenadores|shein|zara|inditex"
+    r"|palacio de hierro|tiendas departamentales)(?![a-z])"
 )
 
 # Google News añade " - El Medio" al final del titular
@@ -192,7 +198,10 @@ IMG_RE = re.compile(r"""<img[^>]+?src=["']([^"']+)["']""", re.I)
 NOISE_RE = re.compile(
     r"(seeking (an? )?(intern|interns|freelance|assistant)|is (now )?hiring|now hiring"
     r"|job (opening|opportunit)|how to (wear|style|get|apply|shop)|^\d+ (best|ways)"
-    r"|best (leggings|jeans|dresses|bags|shoes) (to|for)|wish list)",
+    r"|best (leggings|jeans|dresses|bags|shoes) (to|for)|wish list"
+    r"|c[oó]mo (llevar|usar|combinar|lucir|vestir|elegir)|gu[ií]a de estilo|^protegido:"
+    r"|^\d+ (looks|perfumes|prendas|ideas|formas|consejos|tenis|zapatos|vestidos|tendencias)"
+    r"|looks? (para|que|de) (copiar|llevar|esta temporada)|d[oó]nde comprar|ofertas?:|buen fin)",
     re.I,
 )
 
@@ -417,6 +426,7 @@ def rss_item(el):
         "body": raw_body,
         "image": image,
         "published": date,
+        "via": clean_text(_text(kids.get("source"))),
     }
 
 
@@ -458,7 +468,14 @@ def _prep_kw():
 _prep_kw()
 
 
-def classify(title, body, strict=False):
+# secciones que una revista de consumo puede aportar. Las locales (México y LatAm)
+# también cuentan pasarela, diseño y calzado: ahí es donde cubren a los diseñadores
+# y las semanas de la moda de la región, que no aparecen en la prensa internacional.
+STRICT_OK = {"negocio", "retail", "sostenibilidad", "personas"}
+STRICT_OK_LOCAL = STRICT_OK | {"pasarela", "diseno", "calzado"}
+
+
+def classify(title, body, strict=False, allowed=STRICT_OK):
     """Devuelve la sección principal, ordenada por puntuación.
 
     strict=True (revistas de consumo): solo el titular decide, porque el cuerpo
@@ -481,7 +498,7 @@ def classify(title, body, strict=False):
     if not scored:
         return ["industria"]
     # revistas de consumo: solo si el titular apunta a un tema de industria
-    if strict and scored[0][1] not in ("negocio", "retail", "sostenibilidad", "personas"):
+    if strict and scored[0][1] not in allowed:
         return ["industria"]
     return [slug for _, slug in scored[:3]]
 
@@ -581,7 +598,7 @@ def build(sources, days):
             try:
                 parsed = parse_feed(fetch(url), src)
                 if parsed:
-                    return src, parsed, None, idx > 0
+                    return src, parsed, None, idx > 0 or bool(src.get("mirror"))
                 errors.append("feed vacio")
             except Exception as exc:  # noqa: BLE001
                 errors.append(f"{type(exc).__name__}: {exc}")
@@ -614,7 +631,8 @@ def build(sources, days):
             if not can or can in seen_links:
                 continue
             # una noticia = una sección (la de mayor puntuación)
-            tags = classify(title, it["body"], strict=(kind == "consumer"))[:1]
+            allowed = STRICT_OK_LOCAL if src.get("local") else STRICT_OK
+            tags = classify(title, it["body"], strict=(kind == "consumer"), allowed=allowed)[:1]
             # las revistas de consumo solo entran si la noticia es de industria
             if tags[0] == "industria" and kind == "consumer":
                 continue
@@ -625,6 +643,9 @@ def build(sources, days):
                 excerpt = ""  # el espejo solo devuelve "Titular - Medio"
             if len(excerpt) < 40:
                 excerpt = ""
+            if not excerpt and mirrored and src.get("aggregator") and it.get("via"):
+                # agregador (Google News por tema): al menos se sabe qué medio la publicó
+                excerpt = f"Publicado por {it['via']}."
             image = it["image"] or ""
             if image and not image.startswith("http"):
                 image = urllib.parse.urljoin(link, image)  # rutas relativas de algunos feeds

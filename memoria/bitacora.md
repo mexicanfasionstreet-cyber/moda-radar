@@ -157,3 +157,29 @@ Cambios:
   extracto el nombre del medio, su etiqueta corta y el titular repetido.
 - AGENTS.md puesto al día (el stack real incluye ffmpeg/Pillow/edge-tts en la cápsula) y
   sin la mención a Badabun: es un proyecto personal.
+
+## 2026-11-06 · medios de México y Latinoamérica
+
+Objetivo del usuario: que el radar cubra la moda de México y LatAm, no solo la internacional.
+
+- **Cómo se probaron**: desde el contenedor de trabajo no hay salida a esos sitios, así que
+  se creó el workflow manual *Probar fuentes* (`--check --muestra N`), que prueba desde las
+  IP de GitHub —las mismas que usa el radar— y enseña titulares de ejemplo. 41 URLs de
+  26 medios; 18 respondieron.
+- **Entraron 13**: Vogue México, GQ México, Marie Claire México, Para Ti (AR), El Financiero,
+  El Economista, Merca2.0, Perú Retail, Textiles Panamericanos, Modaes y FashionNetwork
+  España (por Google News), y dos espejos por tema: *Pasarelas MX* (Fashion Week México) y
+  *Moda en Tijuana*.
+- **Descartadas**: Elle México, Quién, Expansión, Forbes México, El Economista/empresas
+  (403); Harper's Bazaar México y FashionUnited (404, sin RSS); Glamour México (último
+  artículo de mayo); Fahrenheit (SSL), América Retail (522), Revista Ya (reset), Inexmoda
+  (no es XML), Fucsia (1 sola nota), InformaBTL (6 notas, casi nada de moda).
+- **Revistas locales**: el filtro estricto de consumo solo dejaba negocio/retail/fichajes y
+  se perdía justo lo interesante (diseñadores mexicanos, desfiles). Campo `local`: también
+  aceptan pasarela, diseño y calzado. Las guías de estilo siguen fuera (NOISE_RE en español:
+  "cómo llevar", "guía de estilo", "9 looks…", "Protegido:", Buen Fin...).
+- **Espejos por tema** (`aggregator`): Google News mezcla medios y recortamos el " - Medio"
+  del titular, así que se lee el `<source>` del ítem y la tarjeta dice "Publicado por …".
+- Palabras clave: plurales en español ("diseñadores" no casaba con "diseñador"), anclas de
+  moda en español para generalistas (ropa, prendas, textil, Shein, Zara, Inditex...).
+- Panel: botón **México y LatAm** (regiones mx, latam, ar, co, cl, pe...).

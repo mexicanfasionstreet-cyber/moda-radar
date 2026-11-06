@@ -1,7 +1,7 @@
 # Moda Radar
 
-Radar diario de noticias de la industria de la moda. Cada día descarga 32 medios
-especializados, elimina duplicados, agrupa las noticias por tema y publica un panel
+Radar diario de noticias de la industria de la moda. Cada día descarga 45 medios
+(32 internacionales y 13 de México, Latinoamérica y prensa especializada en español), elimina duplicados, agrupa las noticias por tema y publica un panel
 web + un resumen en Markdown. Se ejecuta solo en GitHub Actions: **no necesita
 servidor, ni claves API, ni pagar nada**.
 
@@ -144,10 +144,29 @@ A partir de ahí corre solo todos los días a las 12:00 UTC (04:00 en Los Ángel
 ```powershell
 .\run.cmd                 # genera el panel con la ventana por defecto
 .\run.cmd --days 7        # ventana de 7 días
-.\run.cmd --check         # solo comprueba que las 32 fuentes responden
+.\run.cmd --check         # solo comprueba que las fuentes responden
 ```
 
 Abre `docs/index.html` con doble clic: el panel funciona sin servidor.
+
+## Medios de México y Latinoamérica
+
+El botón **"México y LatAm"** del panel deja solo las noticias de la región.
+
+| Tipo | Medios | Qué entra |
+|---|---|---|
+| Revistas | Vogue México, GQ México, Marie Claire México, Para Ti (AR) | Negocio, retail, fichajes y, por ser locales, también pasarela, diseño y calzado. Fuera guías de estilo y celebridades. |
+| Escena local | Pasarelas MX, Moda en Tijuana | Espejos de Google News por tema: noticias de muchos medios; la tarjeta dice cuál la publicó. |
+| Negocio | El Financiero, El Economista, Merca2.0, Perú Retail | Solo si el titular habla de moda, ropa, textil, belleza, Shein, Zara… |
+| Industria | Textiles Panamericanos, Modaes, FashionNetwork España | Todo. Modaes y FashionNetwork entran por Google News (no tienen RSS abierto). |
+
+Probados y descartados el 2026-11-06: Elle México, Quién, Expansión, Forbes México e
+Inexmoda (bloquean robots), Harper's Bazaar México y FashionUnited (sin RSS), Glamour
+México (feed sin actualizar desde mayo), Fahrenheit, América Retail y Revista Ya (errores).
+
+**Probar medios nuevos sin tocar el radar**: añádelos a `herramientas/fuentes-candidatas.json`
+y lanza en GitHub **Actions → Probar fuentes → Run workflow**. El resultado dice qué URLs
+responden, cuántas noticias traen, si tienen imagen y enseña titulares de ejemplo.
 
 ## Añadir o quitar fuentes
 
@@ -160,7 +179,10 @@ Edita `sources.json` y añade una línea:
 
 - `weight` (1-5): peso editorial. Más alto = aparece antes y gana en los empates.
 - `kind`: `trade` (prensa especializada) o `consumer` (revista de consumo).
-- `generic`: `true` solo para medios de retail general que no son de moda.
+- `generic`: `true` para medios generalistas: solo entra lo que menciona moda en el titular.
+- `local`: `true` en revistas de México/LatAm: aportan también pasarela, diseño y calzado.
+- `mirror`: `true` si la URL es un feed de Google News. `aggregator`: además es por tema
+  (mezcla medios) y la tarjeta muestra "Publicado por …".
 
 Comprueba que la URL es un RSS válido antes de darla por buena:
 

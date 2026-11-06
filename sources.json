@@ -1,5 +1,5 @@
 {
-  "_comment": "Fuentes verificadas el 2026-11-05. Todas responden con RSS/Atom válido. weight = peso editorial (1-5), lang = idioma, region = mercado.",
+  "_comment": "Fuentes verificadas el 2026-11-05 (México y LatAm el 2026-11-06, con el workflow 'Probar fuentes'). weight = peso editorial (1-5), lang = idioma, region = mercado. local = medio de la región: sus revistas aportan también pasarela/diseño/calzado. mirror = el feed es Google News (sin imagen ni extracto). aggregator = espejo por tema, con noticias de muchos medios.",
   "sources": [
     {
       "name": "Business of Fashion",
@@ -322,6 +322,146 @@
       "region": "bd",
       "kind": "trade",
       "generic": false
+    },
+    {
+      "name": "Vogue México",
+      "short": "Vogue MX",
+      "url": "https://www.vogue.mx/feed/rss",
+      "weight": 4.0,
+      "lang": "es",
+      "region": "mx",
+      "kind": "consumer",
+      "generic": false,
+      "local": true
+    },
+    {
+      "name": "GQ México",
+      "short": "GQ MX",
+      "url": "https://www.gq.com.mx/feed/rss",
+      "weight": 3.2,
+      "lang": "es",
+      "region": "mx",
+      "kind": "consumer",
+      "generic": false,
+      "local": true
+    },
+    {
+      "name": "Marie Claire México",
+      "short": "Marie Claire MX",
+      "url": "https://marieclaire.com.mx/feed/",
+      "weight": 3.0,
+      "lang": "es",
+      "region": "mx",
+      "kind": "consumer",
+      "generic": false,
+      "local": true
+    },
+    {
+      "name": "Pasarelas México",
+      "short": "Pasarelas MX",
+      "url": "https://news.google.com/rss/search?q=%22Fashion+Week+M%C3%A9xico%22+OR+%22Mercedes-Benz+Fashion+Week+M%C3%A9xico%22+OR+%22Semana+de+la+Moda%22+M%C3%A9xico&hl=es-419&gl=MX&ceid=MX%3Aes-419",
+      "weight": 3.6,
+      "lang": "es",
+      "region": "mx",
+      "kind": "trade",
+      "generic": false,
+      "mirror": true,
+      "aggregator": true
+    },
+    {
+      "name": "Moda en Tijuana",
+      "short": "Tijuana",
+      "url": "https://news.google.com/rss/search?q=moda+%28desfile+OR+pasarela+OR+dise%C3%B1ador+OR+boutique%29+Tijuana&hl=es-419&gl=MX&ceid=MX%3Aes-419",
+      "weight": 3.4,
+      "lang": "es",
+      "region": "mx",
+      "kind": "trade",
+      "generic": false,
+      "mirror": true,
+      "aggregator": true
+    },
+    {
+      "name": "El Financiero",
+      "short": "El Financiero",
+      "url": "https://www.elfinanciero.com.mx/arc/outboundfeeds/rss/?outputType=xml",
+      "weight": 3.4,
+      "lang": "es",
+      "region": "mx",
+      "kind": "trade",
+      "generic": true
+    },
+    {
+      "name": "El Economista",
+      "short": "El Economista",
+      "url": "https://www.eleconomista.com.mx/rss/ultimas-noticias",
+      "weight": 3.4,
+      "lang": "es",
+      "region": "mx",
+      "kind": "trade",
+      "generic": true
+    },
+    {
+      "name": "Merca2.0",
+      "short": "Merca2.0",
+      "url": "https://www.merca20.com/feed/",
+      "weight": 3.0,
+      "lang": "es",
+      "region": "mx",
+      "kind": "trade",
+      "generic": true
+    },
+    {
+      "name": "Textiles Panamericanos",
+      "short": "Textiles Panam.",
+      "url": "https://textilespanamericanos.com/feed/",
+      "weight": 3.6,
+      "lang": "es",
+      "region": "latam",
+      "kind": "trade",
+      "generic": false
+    },
+    {
+      "name": "Perú Retail",
+      "short": "Perú Retail",
+      "url": "https://www.peru-retail.com/feed/",
+      "weight": 3.2,
+      "lang": "es",
+      "region": "pe",
+      "kind": "trade",
+      "generic": true
+    },
+    {
+      "name": "Para Ti",
+      "short": "Para Ti",
+      "url": "https://www.parati.com.ar/feed/",
+      "weight": 3.0,
+      "lang": "es",
+      "region": "ar",
+      "kind": "consumer",
+      "generic": false,
+      "local": true
+    },
+    {
+      "name": "Modaes",
+      "short": "Modaes",
+      "url": "https://news.google.com/rss/search?q=site%3Amodaes.com+%28M%C3%A9xico+OR+Latinoam%C3%A9rica+OR+Colombia+OR+Argentina+OR+Chile+OR+Per%C3%BA%29&hl=es-419&gl=MX&ceid=MX%3Aes-419",
+      "weight": 4.0,
+      "lang": "es",
+      "region": "es",
+      "kind": "trade",
+      "generic": false,
+      "mirror": true
+    },
+    {
+      "name": "FashionNetwork España",
+      "short": "FashionNetwork",
+      "url": "https://news.google.com/rss/search?q=site%3Aes.fashionnetwork.com+%28M%C3%A9xico+OR+Latinoam%C3%A9rica+OR+Colombia+OR+Argentina+OR+Chile+OR+Per%C3%BA%29&hl=es-419&gl=MX&ceid=MX%3Aes-419",
+      "weight": 4.0,
+      "lang": "es",
+      "region": "es",
+      "kind": "trade",
+      "generic": false,
+      "mirror": true
     }
   ]
 }
