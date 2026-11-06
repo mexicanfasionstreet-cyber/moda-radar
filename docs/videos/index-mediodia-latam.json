@@ -1,43 +1,29 @@
 {
  "date": "2026-11-06",
  "edition": "latam",
- "duration": 64.3,
+ "duration": 47.7,
  "script_source": "IA (deepseek-chat)",
- "hook": "Medusa Bay se expande, Levi’s con Belinda y joyas de Warhol",
+ "hook": "Snoopy, Louis Vuitton y SHEIN marcan la moda de hoy",
  "items": [
   {
-   "title": "Medusa Bay amplía su expansión",
-   "headline": "Medusa Bay pisa el acelerador: segunda tienda en Madrid y expansión en Argentina",
-   "source": "Modaes",
-   "link": "https://www.modaes.com/empresas/medusa-bay-pisa-el-acelerador-segunda-tienda-en-madrid-y-expansion-en-argentina",
+   "title": "Timberland y Snoopy por Navidad",
+   "headline": "Timberland x Peanuts: Snoopy convierte su personalidad Joe Cool en una colección de botas y ropa para Navidad 2026",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/timberland-x-peanuts-snoopy-convierte-su-personalidad-joe-cool-en-una-coleccion-de-botas-y-ropa-para-navidad-2026/",
    "photo_credit": null
   },
   {
-   "title": "Piaget rinde homenaje a Warhol",
-   "headline": "Piaget Andy Warhol Camouflage: el reloj de lujo que convierte el arte pop en una joya de oro y piedras preciosas",
+   "title": "Louis Vuitton sin manecillas",
+   "headline": "Louis Vuitton Tambour Convergence Mirror Steel: El reloj automático de lujo con efecto espejo y diseño sin manecillas",
    "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/reloj-piaget-andy-warhol-camouflage-g0a51242-precio-disponibilidad-06-11-2026",
+   "link": "https://www.gq.com.mx/articulo/reloj-louis-vuitton-tambour-convergence-mirror-steel-w9st11-precio-disponibilidad-04-11-2026",
    "photo_credit": null
   },
   {
-   "title": "Levi’s y Belinda lanzan cápsula",
-   "headline": "Levi’s® y Belinda: Una colección cápsula que necesitas tener en tu armario",
-   "source": "Marie Claire MX",
-   "link": "https://marieclaire.com.mx/levis-belinda-coleccion-capsula-2026/",
-   "photo_credit": null
-  },
-  {
-   "title": "Diseñadores emergentes en Milán y París",
-   "headline": "Diseñadores emergentes y tendencias en el Global Fashion Collective 2027",
-   "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/global-fashion-collective-2027-tendencias-y-disenadores",
-   "photo_credit": null
-  },
-  {
-   "title": "DAFTA debuta en Volvo Fashion Week",
-   "headline": "Ricardo Aguilar presenta su marca DAFTA en Volvo Fashion Week México",
-   "source": "Anáhuac",
-   "link": "https://www.anahuac.mx/mexico/noticias/ricardo-aguilar-presenta-su-marca-dafta-en-volvo-fashion-week-mexico",
+   "title": "SHEIN y los Chavez navideños",
+   "headline": "SHEIN convierte a los Chavez en creadores de su nueva colección de ropa infantil para Navidad e invita a los seguidores a sumarse",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/shein-convierte-a-los-chavez-en-creadores-de-su-nueva-coleccion-de-ropa-infantil-para-navidad-e-invita-a-los-seguidores-a-sumarse/",
    "photo_credit": null
   }
  ]
