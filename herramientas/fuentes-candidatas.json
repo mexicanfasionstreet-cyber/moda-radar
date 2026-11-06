@@ -1,0 +1,415 @@
+{
+ "_comment": "Candidatas a fuente, solo para probar con: python aggregate.py --check --sources herramientas/fuentes-candidatas.json --muestra 3",
+ "sources": [
+  {
+   "name": "Vogue México [1]",
+   "short": "Vogue México",
+   "url": "https://www.vogue.mx/feed/rss",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Vogue México [2]",
+   "short": "Vogue México",
+   "url": "https://www.vogue.mx/rss",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "GQ México",
+   "short": "GQ México",
+   "url": "https://www.gq.com.mx/feed/rss",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Glamour México",
+   "short": "Glamour México",
+   "url": "https://www.glamour.mx/feed/rss",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Elle México [1]",
+   "short": "Elle México",
+   "url": "https://elle.mx/feed",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Elle México [2]",
+   "short": "Elle México",
+   "url": "https://elle.mx/rss",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Elle México [3]",
+   "short": "Elle México",
+   "url": "https://www.elle.mx/feed/",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Harper's Bazaar México [1]",
+   "short": "Harper's Bazaar México",
+   "url": "https://harpersbazaar.mx/feed/",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Harper's Bazaar México [2]",
+   "short": "Harper's Bazaar México",
+   "url": "https://www.harpersbazaar.mx/feed",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Marie Claire México [1]",
+   "short": "Marie Claire México",
+   "url": "https://marieclaire.com.mx/feed/",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Marie Claire México [2]",
+   "short": "Marie Claire México",
+   "url": "https://www.marieclaire.com.mx/rss",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Fahrenheit Magazine [1]",
+   "short": "Fahrenheit Magazine",
+   "url": "https://fahrenheitmagazine.com/rss.xml",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Fahrenheit Magazine [2]",
+   "short": "Fahrenheit Magazine",
+   "url": "https://fahrenheitmagazine.com/feed",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Quién [1]",
+   "short": "Quién",
+   "url": "https://www.quien.com/rss",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Quién [2]",
+   "short": "Quién",
+   "url": "https://www.quien.com/feed",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Expansión [1]",
+   "short": "Expansión",
+   "url": "https://expansion.mx/rss",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Expansión [2]",
+   "short": "Expansión",
+   "url": "https://expansion.mx/rss/empresas",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Forbes México",
+   "short": "Forbes México",
+   "url": "https://www.forbes.com.mx/feed/",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "El Financiero",
+   "short": "El Financiero",
+   "url": "https://www.elfinanciero.com.mx/arc/outboundfeeds/rss/?outputType=xml",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "El Economista [1]",
+   "short": "El Economista",
+   "url": "https://www.eleconomista.com.mx/rss/empresas",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "El Economista [2]",
+   "short": "El Economista",
+   "url": "https://www.eleconomista.com.mx/rss/ultimas-noticias",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Merca2.0",
+   "short": "Merca2.0",
+   "url": "https://www.merca20.com/feed/",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "InformaBTL",
+   "short": "InformaBTL",
+   "url": "https://www.informabtl.com/feed/",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Textiles Panamericanos [1]",
+   "short": "Textiles Panamericanos",
+   "url": "https://textilespanamericanos.com/feed/",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Textiles Panamericanos [2]",
+   "short": "Textiles Panamericanos",
+   "url": "https://www.textilespanamericanos.com/feed/",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Perú Retail",
+   "short": "Perú Retail",
+   "url": "https://www.peru-retail.com/feed/",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "América Retail",
+   "short": "América Retail",
+   "url": "https://www.america-retail.com/feed/",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Inexmoda [1]",
+   "short": "Inexmoda",
+   "url": "https://www.inexmoda.org.co/feed/",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Inexmoda [2]",
+   "short": "Inexmoda",
+   "url": "https://saladeprensa.inexmoda.org.co/feed/",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "FashionUnited ES [1]",
+   "short": "FashionUnited ES",
+   "url": "https://fashionunited.es/rss-news",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "FashionUnited ES [2]",
+   "short": "FashionUnited ES",
+   "url": "https://fashionunited.es/rss",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "FashionUnited ES [3]",
+   "short": "FashionUnited ES",
+   "url": "https://fashionunited.mx/rss-news",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Para Ti [1]",
+   "short": "Para Ti",
+   "url": "https://www.parati.com.ar/feed/",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Para Ti [2]",
+   "short": "Para Ti",
+   "url": "https://www.parati.com.ar/arc/outboundfeeds/rss/?outputType=xml",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Fucsia [1]",
+   "short": "Fucsia",
+   "url": "https://www.fucsia.co/rss",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Fucsia [2]",
+   "short": "Fucsia",
+   "url": "https://www.fucsia.co/arc/outboundfeeds/rss/?outputType=xml",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Revista Ya",
+   "short": "Revista Ya",
+   "url": "https://www.emol.com/rss/revistaya.xml",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Modaes Latinoamérica (GN)",
+   "short": "Modaes Latinoamérica (GN)",
+   "url": "https://news.google.com/rss/search?q=site%3Amodaes.com+%28M%C3%A9xico+OR+Latinoam%C3%A9rica+OR+Colombia+OR+Argentina+OR+Chile+OR+Per%C3%BA%29&hl=es-419&gl=MX&ceid=MX%3Aes-419",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "FashionNetwork ES (GN)",
+   "short": "FashionNetwork ES (GN)",
+   "url": "https://news.google.com/rss/search?q=site%3Aes.fashionnetwork.com+%28M%C3%A9xico+OR+Latinoam%C3%A9rica+OR+Colombia+OR+Argentina+OR+Chile+OR+Per%C3%BA%29&hl=es-419&gl=MX&ceid=MX%3Aes-419",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Fashion Week México (GN)",
+   "short": "Fashion Week México (GN)",
+   "url": "https://news.google.com/rss/search?q=%22Fashion+Week+M%C3%A9xico%22+OR+%22Mercedes-Benz+Fashion+Week+M%C3%A9xico%22+OR+%22Semana+de+la+Moda%22+M%C3%A9xico&hl=es-419&gl=MX&ceid=MX%3Aes-419",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  },
+  {
+   "name": "Moda Tijuana (GN)",
+   "short": "Moda Tijuana (GN)",
+   "url": "https://news.google.com/rss/search?q=moda+%28desfile+OR+pasarela+OR+dise%C3%B1ador+OR+boutique%29+Tijuana&hl=es-419&gl=MX&ceid=MX%3Aes-419",
+   "weight": 3,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false
+  }
+ ]
+}

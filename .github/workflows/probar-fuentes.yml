@@ -1,0 +1,30 @@
+name: Probar fuentes
+
+# Prueba un catálogo de fuentes desde los servidores de GitHub (sus IP son las que
+# usará el radar). Se lanza a mano: Actions → Probar fuentes → Run workflow.
+on:
+  workflow_dispatch:
+    inputs:
+      archivo:
+        description: "Catálogo a probar"
+        default: "herramientas/fuentes-candidatas.json"
+      muestra:
+        description: "Titulares de ejemplo por fuente"
+        default: "4"
+
+permissions:
+  contents: read
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Probar
+        env:
+          ARCHIVO: ${{ inputs.archivo }}
+          MUESTRA: ${{ inputs.muestra }}
+        run: python aggregate.py --check --sources "$ARCHIVO" --muestra "$MUESTRA" || true

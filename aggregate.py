@@ -922,6 +922,7 @@ def main(argv=None):
     ap.add_argument("--check", action="store_true", help="solo validar las fuentes y salir")
     ap.add_argument("--render-only", action="store_true", help="regenerar el panel desde latest.json")
     ap.add_argument("--limit", type=int, default=0, help="limitar nº de fuentes (pruebas)")
+    ap.add_argument("--muestra", type=int, default=0, help="con --check: titulares de ejemplo por fuente")
     args = ap.parse_args(argv)
 
     if hasattr(sys.stdout, "reconfigure"):
@@ -941,15 +942,28 @@ def main(argv=None):
     if args.check:
         ok = bad = 0
         for src in sources:
-            try:
-                parsed = parse_feed(fetch(src["url"]), src)
-                n = len(parsed)
-                dates = [p["published"] for p in parsed if p["published"]]
-                newest = max(dates).strftime("%Y-%m-%d %H:%M") if dates else "sin fecha"
-                print(f"  OK  {n:>3} items  {src['name']:<26} {newest}")
-                ok += 1
-            except Exception as exc:  # noqa: BLE001
-                print(f"  ERR              {src['name']:<26} {type(exc).__name__}: {exc}")
+            urls = [("", src["url"])] + ([("espejo ", src["fallback"])] if src.get("fallback") else [])
+            for etiqueta, url in urls:
+                try:
+                    parsed = parse_feed(fetch(url), src)
+                    if not parsed:
+                        raise ValueError("feed vacio")
+                    n = len(parsed)
+                    dates = [p["published"] for p in parsed if p["published"]]
+                    newest = max(dates).strftime("%Y-%m-%d %H:%M") if dates else "sin fecha"
+                    con_img = sum(1 for p in parsed if p["image"])
+                    print(f"  OK  {n:>3} items  {src['name']:<30} {newest}  img {con_img}/{n}  {etiqueta}{url}")
+                    recientes = sorted(
+                        parsed, key=lambda p: p["published"] or datetime.min.replace(tzinfo=timezone.utc),
+                        reverse=True,
+                    )
+                    for p in recientes[: args.muestra]:
+                        print(f"        · {p['title'][:110]}")
+                    ok += 1
+                    break
+                except Exception as exc:  # noqa: BLE001
+                    print(f"  ERR              {src['name']:<30} {type(exc).__name__}: {str(exc)[:80]}  {etiqueta}{url}")
+            else:
                 bad += 1
         print(f"\n{ok} fuentes OK · {bad} con error")
         return 0 if ok else 1
