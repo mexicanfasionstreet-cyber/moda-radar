@@ -876,6 +876,8 @@ def make_overlay(titular, section, source, out_path, kicker=None, big=False, raw
     # una sola rampa de opacidad por fila: velo + sombra arriba + degradado abajo.
     # (ImageDraw reemplaza el alfa, no lo mezcla: dibujar capas separadas deja bandas)
     top = int(H * 0.34)
+    # banda extra justo donde va el texto: sobre fotos muy claras, el blanco se perdía
+    b0, b1 = int(H * 0.545), H - 120
     for y in range(H):
         a = 55
         if y < 320:
@@ -883,6 +885,9 @@ def make_overlay(titular, section, source, out_path, kicker=None, big=False, raw
         if y >= top:
             t = (y - top) / (H - top)
             a = max(a, int(252 * min(1.0, t ** 1.55)))
+        if b0 <= y < b1:
+            borde = min(y - b0, b1 - 1 - y)
+            a = max(a, 45 + int(112 * min(1.0, borde / 160)))
         d.line([(0, y), (W, y)], fill=(6, 6, 8, a))
 
     # marca arriba: logo TBA
