@@ -1,0 +1,34 @@
+{
+ "date": "2026-11-06",
+ "edition": "latam",
+ "duration": 64.5,
+ "script_source": "IA (deepseek-chat)",
+ "hook": "Lujo, denim y retail digital mueven la moda en México hoy",
+ "items": [
+  {
+   "title": "The IQ Collection llega a CDMX",
+   "source": "Vogue MX",
+   "link": "https://www.vogue.mx/articulo/the-iq-collection-apertura-nueva-boutique-en-ciudad-de-mexico"
+  },
+  {
+   "title": "Talento emergente en Milán y París",
+   "source": "Vogue MX",
+   "link": "https://www.vogue.mx/articulo/global-fashion-collective-2027-tendencias-y-disenadores"
+  },
+  {
+   "title": "Palacio de Hierro apuesta por WhatsApp",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/palacio-de-hierro-apuesta-por-vender-productos-de-lujo-a-traves-de-whatsapp-mientras-sus-ventas-digitales-crecen-17-5/"
+  },
+  {
+   "title": "Levi’s y Belinda lanzan cápsula",
+   "source": "Marie Claire MX",
+   "link": "https://marieclaire.com.mx/levis-belinda-coleccion-capsula-2026/"
+  },
+  {
+   "title": "Shein y Temu con retos logísticos",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/shein-y-temu-enfrentan-un-problema-en-mexico-que-podria-retrasar-tus-compras/"
+  }
+ ]
+}

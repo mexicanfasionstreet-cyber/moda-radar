@@ -1,33 +1,34 @@
 {
  "date": "2026-11-06",
- "duration": 70.8,
+ "edition": "general",
+ "duration": 73.4,
  "script_source": "IA (deepseek-chat)",
- "hook": "Martine Rose dirige Balenciaga y Superdry asegura 70 millones de libras",
+ "hook": "Balenciaga nombra a Martine Rose y Lululemon enfrenta demanda de inversionistas",
  "items": [
   {
-   "title": "Martine Rose lidera Balenciaga",
+   "title": "Martine Rose dirige Balenciaga",
    "source": "WWD",
    "link": "https://wwd.com/fashion-news/fashion-features/martine-rose-named-creative-director-balenciaga-1239403938/"
   },
   {
-   "title": "Superdry logra refinanciación millonaria",
-   "source": "The Industry",
-   "link": "https://www.theindustry.fashion/superdry-co-secures-70m-refinancing-package-to-fund-next-phase-of-growth/"
+   "title": "Demanda contra Lululemon",
+   "source": "WWD",
+   "link": "https://wwd.com/sourcing-journal/industry-news/lululemon-securities-lawsuit-turnaround-demand-investors-1239403246/"
   },
   {
-   "title": "Swaine abre tienda en París",
+   "title": "Worldly amplía cumplimiento",
    "source": "WWD",
-   "link": "https://wwd.com/fashion-news/designer-luxury/oldest-british-luxury-house-swaine-paris-store-1239402535/"
+   "link": "https://wwd.com/sourcing-journal/industry-news/wordly-compliance-solution-environmental-higgs-1239403530/"
   },
   {
-   "title": "Drôle de Monsieur apuesta al fútbol",
-   "source": "WWD",
-   "link": "https://wwd.com/menswear-news/mens-designer-luxury/drole-de-monsieur-real-betis-formalwear-1239370210/"
+   "title": "The IQ Collection en México",
+   "source": "Vogue MX",
+   "link": "https://www.vogue.mx/articulo/the-iq-collection-apertura-nueva-boutique-en-ciudad-de-mexico"
   },
   {
-   "title": "Ralph Lauren apuesta a sastrería",
+   "title": "Moda apuesta por la IA",
    "source": "WWD",
-   "link": "https://wwd.com/runway/pre-fall-2027/new-york/ralph-lauren/review/"
+   "link": "https://wwd.com/sourcing-journal/industry-news/prada-palantir-openai-chatgpt-amazon-1239402344/"
   }
  ]
 }
