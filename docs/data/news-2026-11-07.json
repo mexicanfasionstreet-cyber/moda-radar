@@ -1,10 +1,9 @@
 {
- "generated": "2026-11-07T00:24:01.832709Z",
+ "generated": "2026-11-07T00:46:40.314707Z",
  "days": 4,
- "count": 171,
- "sources_ok": 43,
+ "count": 185,
+ "sources_ok": 44,
  "sources_failed": [
-  "The Industry",
   "Hypebeast"
  ],
  "items": [
@@ -786,6 +785,27 @@
    "score": 7.0
   },
   {
+   "title": "Marks & Spencer unites fashion and food in first fully integrated Christmas campaign since 2017",
+   "link": "https://www.theindustry.fashion/marks-spencer-unites-fashion-and-food-in-first-fully-integrated-christmas-campaign-since-2017/",
+   "excerpt": "Marks & Spencer has brought food, fashion, home and beauty together in a single Christmas campaign for the first time since 2017, fronted by a festive film starring actor James Norton as an undercover Santa. Amandaland star Lucy…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/Title-2026-11-05T115812.963-150x150.png",
+   "published": "2026-11-06T13:00:07Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "pasarela"
+   ],
+   "via": "",
+   "also": [],
+   "id": "a17e9374382b",
+   "score": 7.44
+  },
+  {
    "title": "Resumen de la semana: De la nueva cúpula en Sfera a las tarifas de Re-viste para la RAP",
    "link": "https://www.modaes.com/back-stage/resumen-de-la-semana-de-la-nueva-cupula-en-sfera-a-las-tarifas-de-re-viste-para-la-rap",
    "excerpt": "El grupo de grandes almacenes pone al frente de su cadena a una ejecutiva procedente de Karl Lagerfeld y con experiencia en gran distribución. La RAP…",
@@ -891,6 +911,27 @@
    "also": [],
    "id": "bf4cb604d8f9",
    "score": 7.3
+  },
+  {
+   "title": "Editors' Top Reads: News from Liberty, Harrods, Barbour and more...",
+   "link": "https://www.theindustry.fashion/editors-top-reads-news-from-liberty-harrods-barbour-and-more/",
+   "excerpt": "Here are some of this week’s news and features highlights handpicked by TheIndustry.fashion team. Mary Portas launches 'The Society of Shopkeepers' on Substack This week Mary Portas has launched The Society of Shopkeepers , a…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/Title-2026-11-06T152318.293-150x150.png",
+   "published": "2026-11-06T12:00:50Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "retail"
+   ],
+   "via": "",
+   "also": [],
+   "id": "626e44812111",
+   "score": 8.14
   },
   {
    "title": "Paul Smith recognised by City of London for contribution to British fashion",
@@ -1082,6 +1123,27 @@
    "score": 7.55
   },
   {
+   "title": "Armani heirs favour stock market listing over sale of fashion group",
+   "link": "https://www.theindustry.fashion/armani-heirs-favour-stock-market-listing-over-sale-of-fashion-group/",
+   "excerpt": "The heirs of late designer Giorgio Armani reportedly favour an eventual stock market listing of the Italian fashion group over a sale to a major industry player, as talks progress over the disposal of an initial 15% stake in the…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2025/01/Armani-150x150.jpg",
+   "published": "2026-11-06T09:29:45Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "negocio"
+   ],
+   "via": "",
+   "also": [],
+   "id": "f86e9087a25c",
+   "score": 8.34
+  },
+  {
    "title": "Canada Goose aumenta sus números rojos en el segundo trimestre pese a crecer un 5%",
    "link": "https://www.modaes.com/empresas/canada-goose-aumenta-sus-numeros-rojos-en-el-segundo-trimestre-pese-a-crecer-un-5",
    "excerpt": "La compañía especializada en prendas de abrigo factura 274 millones de dólares canadienses (635 millones de euros) entre julio y septiembre, y sitúa…",
@@ -1101,6 +1163,57 @@
    "also": [],
    "id": "f5bd6385c159",
    "score": 7.3
+  },
+  {
+   "title": "Martine Rose named Balenciaga Creative Director",
+   "link": "https://www.theindustry.fashion/martine-rose-named-balenciaga-creative-director/",
+   "excerpt": "Balenciaga has appointed British designer Martine Rose as its new Creative Director, succeeding Pierpaolo Piccioli, who departed the French fashion house this week. Rose will take up the Paris-based role on 16 November, Kering…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/Title-2026-11-06T095920.052-150x150.png",
+   "published": "2026-11-06T09:10:40Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "personas"
+   ],
+   "via": "",
+   "also": [
+    "Business of Fashion",
+    "Drapers",
+    "Vogue",
+    "British Vogue",
+    "The Guardian Fashion",
+    "Fashionista",
+    "GQ",
+    "Harper's Bazaar"
+   ],
+   "id": "5dac151bbb20",
+   "score": 13.74
+  },
+  {
+   "title": "Paul Smith awarded Freedom of City of London for ‘outstanding contribution to fashion’",
+   "link": "https://www.theindustry.fashion/paul-smith-awarded-freedom-of-city-of-london-for-outstanding-contribution-to-fashion/",
+   "excerpt": "Sir Paul Smith has been honoured with the Freedom of the City of London for his “outstanding contribution to British fashion and design”. The designer, who was nominated by the Chair of the Barbican Centre Board and former Lord…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/Title-2026-11-06T103743.991-150x150.png",
+   "published": "2026-11-06T09:05:36Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "diseno"
+   ],
+   "via": "",
+   "also": [],
+   "id": "31070bbc51c0",
+   "score": 7.24
   },
   {
    "title": "Drapers daily news 06/11/2026",
@@ -1124,6 +1237,27 @@
    "score": 7.24
   },
   {
+   "title": "Liberty launches Christmas 2026 campaign with new gifting service",
+   "link": "https://www.theindustry.fashion/liberty-launches-christmas-2026-campaign-with-new-gifting-service/",
+   "excerpt": "Liberty has unveiled its Christmas 2026 campaign, introducing a new Gifting Curator service alongside a series of festive experiences across its London flagship. The campaign, titled ‘The Christmas Chronicles’, follows the…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/26_11_05_CHRISTMAS_STORE__45Retouched_cropped-150x150.jpg",
+   "published": "2026-11-06T08:45:24Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "pasarela"
+   ],
+   "via": "",
+   "also": [],
+   "id": "ab6b0dacb7d9",
+   "score": 7.44
+  },
+  {
    "title": "Five reasons why Martine Rose is the perfect Balenciaga creative director",
    "link": "https://www.dazeddigital.com/fashion/article/71297/1/martine-rose-new-balenciaga-creative-director-appointment-pierpaolo-piccioli",
    "excerpt": "It was a rumour we all wanted to believe, but now we have the official confirmation. As announced this morning (November 6), Martine Rose is headed to Balenciaga to take over the men’s, women’s and couture collections. “It is a…",
@@ -1143,35 +1277,6 @@
    "also": [],
    "id": "8b0679640915",
    "score": 6.3
-  },
-  {
-   "title": "Martine Rose appointed as creative director of Balenciaga",
-   "link": "https://www.drapersonline.com/news/martine-rose-appointed-as-creative-director-of-balenciaga",
-   "excerpt": "Luxury group Kering has announced the appointment of Martine Rose as creative director of Balenciaga, replacing Pierpaolo Piccioli. The post Martine Rose appointed as creative director of Balenciaga appeared first on Drapers .",
-   "image": "https://assets.vogue.com/photos/6aecf57c3b08cd2413ac4b60/master/pass/MARTINE-NEW-STORY.jpg",
-   "published": "2026-11-06T08:19:02Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "personas"
-   ],
-   "via": "",
-   "also": [
-    "Business of Fashion",
-    "Vogue",
-    "British Vogue",
-    "The Guardian Fashion",
-    "Fashionista",
-    "GQ",
-    "Harper's Bazaar"
-   ],
-   "id": "b87bf05f9bc9",
-   "score": 12.99
   },
   {
    "title": "Superdry & Co announces refinancing",
@@ -1214,6 +1319,27 @@
    "also": [],
    "id": "2729697fead5",
    "score": 7.15
+  },
+  {
+   "title": "Superdry & Co secures £70m refinancing package to ‘fund next phase of growth’",
+   "link": "https://www.theindustry.fashion/superdry-co-secures-70m-refinancing-package-to-fund-next-phase-of-growth/",
+   "excerpt": "Superdry & Co has secured a £70 million refinancing package from Barclays and Bank of America, \"underlining lender confidence in the group’s strategic direction\". The debt facilities comprise a £60 million committed asset-based…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/Title-2026-11-06T094614.991-150x150.png",
+   "published": "2026-11-06T08:00:54Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "negocio"
+   ],
+   "via": "",
+   "also": [],
+   "id": "0d35d389d34f",
+   "score": 8.34
   },
   {
    "title": "Innovation will define next chapter of Bangladesh’s textile industry",
@@ -1298,6 +1424,27 @@
    "also": [],
    "id": "15d1ecc5aee2",
    "score": 5.76
+  },
+  {
+   "title": "Oxford Street stores see spending rise 28% in first week of pedestrianisation",
+   "link": "https://www.theindustry.fashion/oxford-street-stores-see-spending-rise-28-in-first-week-of-pedestrianisation/",
+   "excerpt": "Retail spending on London’s Oxford Street increased in the first week following its pedestrianisation, with the value of transactions rising 28% year on year, according to data from payments company Adyen. The figures, covering…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/roundabout_cropped-150x150.jpg",
+   "published": "2026-11-06T06:00:26Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "retail"
+   ],
+   "via": "",
+   "also": [],
+   "id": "e751a89983ad",
+   "score": 7.64
   },
   {
    "title": "Elf Beauty CEO on Gen Alpha, Record Sales and Cracking the US",
@@ -1426,10 +1573,10 @@
    "score": 5.93
   },
   {
-   "title": "Medusa Bay pisa el acelerador: segunda tienda en Madrid y expansión en Argentina",
-   "link": "https://www.modaes.com/empresas/medusa-bay-pisa-el-acelerador-segunda-tienda-en-madrid-y-expansion-en-argentina",
-   "excerpt": "La compañía madrileña de moda masculina, fundada en 2023 por Juanjo González, Santiago Asuar y Roberto Sánchez, abrirás las puertas de un nuevo…",
-   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3OTM4OTUwODR9/files/2026/15-redaccion-empresas/medusa-bay/medusa-bay-tienda-madrid-segunda-moda-masculina-modelo-1200.jpg",
+   "title": "The Hype List: terremoto en el ‘top 10’ y sacudida de Eme Studios y Blue Banana",
+   "link": "https://www.modaes.com/back-stage/the-hype-list-terremoto-en-el-top-10-y-sacudida-de-eme-studios-y-blue-banana",
+   "excerpt": "La batalla entre las posiciones acelera el ritmo en un ránking lleno de adelantamientos y sin ningún nuevo integrante. Estar entre los diez primeros…",
+   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3OTM4OTIyNTB9/files/2026/15-redaccion-empresas/eme-studios/eme-studios-running-sportswear-hype-list-1200.jpg",
    "published": "2026-11-06T04:00:00Z",
    "source": "Modaes",
    "source_name": "Modaes",
@@ -1439,12 +1586,12 @@
    "lang": "es",
    "region": "es",
    "tags": [
-    "retail"
+    "cultura"
    ],
    "via": "Modaes",
    "also": [],
-   "id": "a35d1dcd8b0c",
-   "score": 7.4
+   "id": "0c12247fbdc9",
+   "score": 6.4
   },
   {
    "title": "Data, circularity and value shape Bangladesh’s next chapter in Europe",
@@ -2418,6 +2565,132 @@
    "score": 5.95
   },
   {
+   "title": "ASOS returns to growth as turnaround gains momentum",
+   "link": "https://www.theindustry.fashion/asos-returns-to-growth-as-turnaround-gains-momentum/",
+   "excerpt": "ASOS returned to year-on-year GMV growth in the final quarter of FY26, marking its first quarterly increase since FY22 and providing a positive start to the next phase of its turnaround. However, trading was broadly flat during…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/157852168_0292_cropped-150x150.jpg",
+   "published": "2026-11-05T08:35:11Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "negocio"
+   ],
+   "via": "",
+   "also": [],
+   "id": "7f418b2b4f87",
+   "score": 7.34
+  },
+  {
+   "title": "The Interview: Liberty’s new Head of Design Sinead O’Brien on shaping the future of its fashion offering",
+   "link": "https://www.theindustry.fashion/the-interview-libertys-new-head-of-design-sinead-obrien-on-shaping-the-future-of-its-fashion-offering/",
+   "excerpt": "British luxury department store Liberty appointed Sinead O’Brien as Head of Design last month as it looks to develop its in-house fashion collections and expand its offer across womenswear, menswear and accessories. Having…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/Sinead_OBrien_cropped-150x150.jpg",
+   "published": "2026-11-05T08:31:33Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "personas"
+   ],
+   "via": "",
+   "also": [],
+   "id": "c4114c65905b",
+   "score": 6.74
+  },
+  {
+   "title": "Barbour reunites with Wallace & Gromit for latest Christmas ad and limited-edition collection",
+   "link": "https://www.theindustry.fashion/barbour-reunites-with-wallace-gromit-for-latest-christmas-ad-and-limited-edition-collection/",
+   "excerpt": "Barbour has today launched its Christmas 2026 campaign, reuniting with animation studio Aardman for another festive film collaboration starring the much-loved British duo Wallace & Gromit. It marks the second year that Barbour…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/Title-2026-11-04T165426.822-150x150.png",
+   "published": "2026-11-05T08:30:44Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "pasarela"
+   ],
+   "via": "",
+   "also": [],
+   "id": "1642807b8641",
+   "score": 6.44
+  },
+  {
+   "title": "NEXT raises sales forecast as international sales jump 32.2%",
+   "link": "https://www.theindustry.fashion/next-raises-sales-forecast-as-international-sales-jump-32-2/",
+   "excerpt": "NEXT has upgraded its full-year sales forecast after third-quarter full-price sales rose 8.1%. The retailer beat its forecast by £33 million, driven entirely by international outperformance. Summary of results: Full-price sales…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2024/03/2T0KTRF-150x150.jpg",
+   "published": "2026-11-05T08:20:26Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "negocio"
+   ],
+   "via": "",
+   "also": [],
+   "id": "fd985a81f3f6",
+   "score": 7.34
+  },
+  {
+   "title": "Mary Portas launches 'The Society of Shopkeepers' on Substack",
+   "link": "https://www.theindustry.fashion/mary-portas-launches-the-society-of-shopkeepers-on-substack/",
+   "excerpt": "Mary Portas has launched The Society of Shopkeepers, a membership community on Substack for people working in retail, only a few weeks after previewing it in her closing keynote at TheIndustry.fashion Summit. The retail expert…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/F_310_cropped-150x150.jpg",
+   "published": "2026-11-05T08:00:41Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "retail"
+   ],
+   "via": "",
+   "also": [],
+   "id": "c7b9e1abd81f",
+   "score": 7.14
+  },
+  {
+   "title": "TBCo launches sleepwear and accessories in Harrods",
+   "link": "https://www.theindustry.fashion/tbco-launches-sleepwear-at-harrods/",
+   "excerpt": "Edinburgh-based fashion and lifestyle brand TBCo has launched in Harrods for the first time, with its AW26 pyjamas, robes and accessories stocked in the Lingerie & Lounge room on the Knightsbridge store's first floor. The launch…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/TBCO_AnastasiaEgo_035_FINAL_cropped-150x150.jpg",
+   "published": "2026-11-05T07:55:40Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "diseno"
+   ],
+   "via": "",
+   "also": [],
+   "id": "88f2b5075aff",
+   "score": 6.24
+  },
+  {
    "title": "Government, factory owners and labour leaders unite to restore RMG stability",
    "link": "https://textiletoday.com.bd/government-factory-owners-and-labour-leaders-unite-to-restore-rmg-stability",
    "excerpt": "Labour and Employment Minister Ariful Haque Choudhury has urged readymade garment (RMG) workers to return to work from today (5 November), while calling on factory owners to reopen factories temporarily closed. Additionally, he…",
@@ -2437,6 +2710,27 @@
    "also": [],
    "id": "cb1c95b6fcce",
    "score": 5.26
+  },
+  {
+   "title": "TK Maxx revisits ‘Festive Farm’ with first Christmas ad in three years",
+   "link": "https://www.theindustry.fashion/tk-maxx-revisits-festive-farm-with-first-christmas-ad-in-three-years/",
+   "excerpt": "TK Maxx has turned the clocks back to November 2023 with a new ‘Festive Farm’-themed Christmas advert that brings its ‘Spoil All Your Loved Ones For Less’ message to life for 2026. Created by Wieden+Kennedy London, directed by…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/Title-2026-11-04T135130.690-150x150.png",
+   "published": "2026-11-05T07:00:35Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "industria"
+   ],
+   "via": "",
+   "also": [],
+   "id": "610fead427d8",
+   "score": 6.54
   },
   {
    "title": "Simmy, co-progettazione e capacità industriale al servizio del lusso",
