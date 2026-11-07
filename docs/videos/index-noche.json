@@ -1,43 +1,43 @@
 {
  "date": "2026-11-06",
  "edition": "general",
- "duration": 67.8,
+ "duration": 67.4,
  "script_source": "IA (deepseek-chat)",
- "hook": "Moda hoy: venta en vivo, retail de Portas y crecimiento de Adolfo Domínguez",
+ "hook": "Tanger sube previsiones y el textil acelera su producción",
  "items": [
   {
-   "title": "ThredUp apuesta por venta en vivo",
-   "headline": "ThredUp Bets Big on Live Selling as Outlook Dims",
+   "title": "Tanger eleva previsiones para 2026",
+   "headline": "Tanger’s Strong Q3 Spurs Raised Outlook on 2026 Profit and Holiday Sales",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/financial/thredup-live-selling-strategy-resale-market-1239403005/",
+   "link": "https://wwd.com/business-news/real-estate/tangers-q3-spurs-raised-full-year-outlook-1239401243/",
    "photo_credit": null
   },
   {
-   "title": "Portas crea comunidad de retail",
-   "headline": "Mary Portas launches 'The Society of Shopkeepers' on Substack",
-   "source": "The Industry",
-   "link": "https://www.theindustry.fashion/mary-portas-launches-the-society-of-shopkeepers-on-substack/",
+   "title": "Tiendas vintage resisten en Nueva York",
+   "headline": "How These Curated Thrift Shops Are Keeping Whimsical NYC Retail Alive",
+   "source": "Fashionista",
+   "link": "https://fashionista.com/2026/11/new-york-city-thrift-stores-whimsical-trend",
    "photo_credit": null
   },
   {
-   "title": "Rodbell lidera Perry Ellis",
-   "headline": "Liz Rodbell Named Group President of Perry Ellis International",
+   "title": "Canada Goose sufre en Europa",
+   "headline": "Canada Goose Caught by Europe Softness in Q2",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/markets/liz-rodbell-group-president-perry-ellis-international-1239402652/",
+   "link": "https://wwd.com/business-news/financial/canada-goose-q2-2026-earnings-dani-reiss-ceo-1239402623/",
    "photo_credit": null
   },
   {
-   "title": "Adolfo Domínguez crece en Latinoamérica",
-   "headline": "Adolfo Domínguez crece un 81% en Latinoamérica desde 2021, con México a la cabeza",
+   "title": "Textil sube un 5,2 por ciento",
+   "headline": "El textil sube el ritmo en septiembre y eleva su producción un 5,2%",
    "source": "Modaes",
-   "link": "https://www.modaes.com/empresas/adolfo-dominguez-crece-un-81-en-latinoamerica-desde-2021-con-mexico-a-la-cabeza",
+   "link": "https://www.modaes.com/entorno/el-textil-sube-el-ritmo-en-septiembre-y-eleva-su-produccion-un-52",
    "photo_credit": null
   },
   {
-   "title": "Paul Smith recibe honor en Londres",
-   "headline": "Paul Smith awarded Freedom of City of London for ‘outstanding contribution to fashion’",
-   "source": "The Industry",
-   "link": "https://www.theindustry.fashion/paul-smith-awarded-freedom-of-city-of-london-for-outstanding-contribution-to-fashion/",
+   "title": "Yeezy y protestas en Bangladesh",
+   "headline": "Must Read: Yeezy's Comeback Show Fell Short, Pay Structure Revisions Fail To End Bangladesh Garment Protests",
+   "source": "Fashionista",
+   "link": "https://fashionista.com/2026/11/yeezy-comeback-show-review",
    "photo_credit": null
   }
  ]
