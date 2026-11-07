@@ -47,6 +47,24 @@ PANEL = "https://mexicanfasionstreet-cyber.github.io/moda-radar/"
 
 def log(msg):
     print(msg, flush=True)
+    _LINEAS.append(str(msg))
+
+
+_LINEAS = []
+
+
+def resumen_final():
+    """Deja el resultado en la página del run, sin tener que abrir los logs."""
+    destino = os.environ.get("GITHUB_STEP_SUMMARY")
+    if not destino or not _LINEAS:
+        return
+    try:
+        with open(destino, "a", encoding="utf-8") as f:
+            f.write("\n### Publicación\n\n```\n")
+            f.write("\n".join(_LINEAS[-40:]))
+            f.write("\n```\n")
+    except Exception:  # noqa: BLE001
+        pass
 
 
 def http(method, url, data=None, headers=None, timeout=120):
@@ -456,6 +474,7 @@ def main(argv=None):
         shutil.rmtree(workdir, ignore_errors=True)
     except Exception:  # noqa: BLE001
         pass
+    resumen_final()
     return 0
 
 
