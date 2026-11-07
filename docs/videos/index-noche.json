@@ -1,43 +1,43 @@
 {
  "date": "2026-11-06",
  "edition": "general",
- "duration": 71.2,
+ "duration": 67.8,
  "script_source": "IA (deepseek-chat)",
- "hook": "Reformation crece 19,1% y John Frieda fallece a los 75 años",
+ "hook": "Moda hoy: venta en vivo, retail de Portas y crecimiento de Adolfo Domínguez",
  "items": [
   {
-   "title": "Reformation crece 19,1% en el tercer trimestre",
-   "headline": "Reformation Continues Growth Streak With 19.1% Q3 Sales Gain",
+   "title": "ThredUp apuesta por venta en vivo",
+   "headline": "ThredUp Bets Big on Live Selling as Outlook Dims",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/financial/reformation-hali-borenstein-q3-2026-sales-gain-1239403268/",
+   "link": "https://wwd.com/business-news/financial/thredup-live-selling-strategy-resale-market-1239403005/",
    "photo_credit": null
   },
   {
-   "title": "Saatva con hasta 1.000 dólares de descuento",
-   "headline": "Our Favorite Saatva Mattress Is on Sale for Black Friday",
-   "source": "Elle",
-   "link": "https://www.elle.com/fashion/shopping/a74322694/saatva-mattress-sale-black-friday-2026/",
-   "photo_credit": null
-  },
-  {
-   "title": "Muere John Frieda a los 75 años",
-   "headline": "John Frieda, Hair-Care Mogul Who Soothed Women’s Curls, Has Died",
-   "source": "NYT",
-   "link": "https://www.nytimes.com/2026/11/04/style/john-frieda-dead.html",
-   "photo_credit": null
-  },
-  {
-   "title": "Nueva cúpula en Sfera y tarifas de Re-viste",
-   "headline": "Resumen de la semana: De la nueva cúpula en Sfera a las tarifas de Re-viste para la RAP",
-   "source": "Modaes",
-   "link": "https://www.modaes.com/back-stage/resumen-de-la-semana-de-la-nueva-cupula-en-sfera-a-las-tarifas-de-re-viste-para-la-rap",
-   "photo_credit": null
-  },
-  {
-   "title": "Liberty lanza campaña navideña 2026",
-   "headline": "Liberty launches Christmas 2026 campaign with new gifting service",
+   "title": "Portas crea comunidad de retail",
+   "headline": "Mary Portas launches 'The Society of Shopkeepers' on Substack",
    "source": "The Industry",
-   "link": "https://www.theindustry.fashion/liberty-launches-christmas-2026-campaign-with-new-gifting-service/",
+   "link": "https://www.theindustry.fashion/mary-portas-launches-the-society-of-shopkeepers-on-substack/",
+   "photo_credit": null
+  },
+  {
+   "title": "Rodbell lidera Perry Ellis",
+   "headline": "Liz Rodbell Named Group President of Perry Ellis International",
+   "source": "WWD",
+   "link": "https://wwd.com/business-news/markets/liz-rodbell-group-president-perry-ellis-international-1239402652/",
+   "photo_credit": null
+  },
+  {
+   "title": "Adolfo Domínguez crece en Latinoamérica",
+   "headline": "Adolfo Domínguez crece un 81% en Latinoamérica desde 2021, con México a la cabeza",
+   "source": "Modaes",
+   "link": "https://www.modaes.com/empresas/adolfo-dominguez-crece-un-81-en-latinoamerica-desde-2021-con-mexico-a-la-cabeza",
+   "photo_credit": null
+  },
+  {
+   "title": "Paul Smith recibe honor en Londres",
+   "headline": "Paul Smith awarded Freedom of City of London for ‘outstanding contribution to fashion’",
+   "source": "The Industry",
+   "link": "https://www.theindustry.fashion/paul-smith-awarded-freedom-of-city-of-london-for-outstanding-contribution-to-fashion/",
    "photo_credit": null
   }
  ]

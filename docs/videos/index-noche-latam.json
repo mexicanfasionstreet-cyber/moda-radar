@@ -1,40 +1,40 @@
 {
  "date": "2026-11-06",
  "edition": "latam",
- "duration": 67.0,
+ "duration": 63.7,
  "script_source": "IA (deepseek-chat)",
- "hook": "The IQ Collection llega a México y Amazon estrena compras premium",
+ "hook": "México impulsa la moda: nuevas tiendas, compras premium y crecimiento récord",
  "items": [
   {
-   "title": "The IQ Collection abre en CDMX",
+   "title": "The IQ Collection llega a CDMX",
    "headline": "The IQ Collection continúa su expansión internacional con la apertura de una nueva boutique en México",
    "source": "Vogue MX",
    "link": "https://www.vogue.mx/articulo/the-iq-collection-apertura-nueva-boutique-en-ciudad-de-mexico",
    "photo_credit": null
   },
   {
-   "title": "Amazon estrena Premium Hub",
+   "title": "Amazon estrena compras premium",
    "headline": "Descubre Amazon Premium Hub: una experiencia de compra exclusiva",
    "source": "GQ MX",
    "link": "https://www.gq.com.mx/articulo/amazon-premium-hub-una-experiencia-de-compra-exclusiva",
    "photo_credit": null
   },
   {
-   "title": "16 relojes japoneses a seguir",
+   "title": "Relojes japoneses bajo el radar",
    "headline": "Relojes japoneses: Los 16 mejores modelos que deben estar en tu radar",
    "source": "GQ MX",
    "link": "https://www.gq.com.mx/articulo/mejores-relojes-japoneses",
    "photo_credit": null
   },
   {
-   "title": "Adolfo Domínguez crece en la región",
+   "title": "Adolfo Domínguez crece en México",
    "headline": "Adolfo Domínguez crece un 81% en Latinoamérica desde 2021, con México a la cabeza",
    "source": "Modaes",
    "link": "https://www.modaes.com/empresas/adolfo-dominguez-crece-un-81-en-latinoamerica-desde-2021-con-mexico-a-la-cabeza",
    "photo_credit": null
   },
   {
-   "title": "El Trompo celebra con moda",
+   "title": "Día de Muertos con moda en Tijuana",
    "headline": "El Trompo conmemoró día de muertos con arte, música y moda",
    "source": "Uniradio Informa Baja California",
    "link": "https://www.uniradiobaja.com/sociedad/el-trompo-conmemoro-dia-muertos-arte-musica-moda-n912619/amp",
