@@ -1,5 +1,17 @@
 # Bitácora
 
+## 2026-11-07 · la rotación del Release no borraba nada
+
+- El paso que elimina las cápsulas viejas filtraba con `^AAAA-MM-DD${sufijo}\.mp4$`, un
+  patrón que solo casaba con los nombres anteriores a las franjas. Desde que los archivos
+  se llaman `AAAA-MM-DD-noche.mp4`, **no coincidía con ninguno** y el Release crecía
+  ~23 MB al día (unos 8 GB al año).
+- Ahora es `^AAAA-MM-DD(-(manana|mediodia|noche))?${sufijo}\.mp4$`: se siguen borrando los
+  más antiguos y se conservan 60 por edición (~20 días).
+- Comprobado con nombres reales: con sufijo vacío casa las generales y **no** las `-latam`;
+  con `-latam` solo casa las de LatAm.
+- No hizo falta limpiar nada a mano: había 16 archivos, por debajo de los 60.
+
 ## 2026-11-06 · publicar solo en YouTube e Instagram
 
 - `publicar.py` sube cada cápsula: YouTube por `videos.insert` resumable y Stories de
