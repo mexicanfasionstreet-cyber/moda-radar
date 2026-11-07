@@ -40,6 +40,8 @@ REGISTRO = SALIDA / "publicadas.json"
 RELEASE = "capsulas"
 MAX_STORY = 58          # Meta acepta hasta 60 s; 58 deja margen al contenedor
 API_IG = os.environ.get("IG_VERSION") or "v23.0"
+# con "Instagram Login" el host es graph.instagram.com; con Facebook Login, graph.facebook.com
+HOST_IG = os.environ.get("IG_HOST") or "graph.instagram.com"
 PANEL = "https://mexicanfasionstreet-cyber.github.io/moda-radar/"
 
 
@@ -327,7 +329,7 @@ def partir(video, workdir, segundos=MAX_STORY):
 
 def ig_publicar(video_url, token, user_id, espera_max=420):
     """Contenedor STORIES + publicación, con sondeo del estado."""
-    cod, data = http("POST", f"https://graph.facebook.com/{API_IG}/{user_id}/media", {
+    cod, data = http("POST", f"https://{HOST_IG}/{API_IG}/{user_id}/media", {
         "media_type": "STORIES",
         "video_url": video_url,
         "access_token": token,
@@ -339,7 +341,7 @@ def ig_publicar(video_url, token, user_id, espera_max=420):
     while time.time() - inicio < espera_max:
         time.sleep(8)
         c2, d2 = http("GET",
-                      f"https://graph.facebook.com/{API_IG}/{cid}"
+                      f"https://{HOST_IG}/{API_IG}/{cid}"
                       f"?fields=status_code,status&access_token={token}")
         estado = (d2 or {}).get("status_code")
         if estado == "FINISHED":
@@ -348,7 +350,7 @@ def ig_publicar(video_url, token, user_id, espera_max=420):
             return None, f"Meta rechazó el vídeo: {str(d2)[:200]}"
     else:
         return None, "Meta no terminó de procesar el vídeo a tiempo"
-    c3, d3 = http("POST", f"https://graph.facebook.com/{API_IG}/{user_id}/media_publish", {
+    c3, d3 = http("POST", f"https://{HOST_IG}/{API_IG}/{user_id}/media_publish", {
         "creation_id": cid, "access_token": token,
     })
     if c3 == 200 and d3.get("id"):
