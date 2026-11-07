@@ -286,17 +286,32 @@ def release_id():
 
 
 def subir_asset(rid, path, nombre):
+    """Sube el trozo al Release. Los binarios van a uploads.github.com, no a la API."""
     repo = gh_repo()
+    tok = gh_token()
+    if not tok:
+        log("  ! sin GH_TOKEN para alojar el vídeo")
+        return None, None
     datos = path.read_bytes()
-    cod, data = gh_api(
-        "POST",
-        f"/repos/{repo}/releases/{rid}/assets?name={urllib.parse.quote(nombre)}",
-        data=datos,
-        headers={"Content-Type": "video/mp4", "Content-Length": str(len(datos))},
-    )
-    if cod in (200, 201):
+    url = (f"https://uploads.github.com/repos/{repo}/releases/{rid}/assets"
+           f"?name={urllib.parse.quote(nombre)}")
+    req = urllib.request.Request(url, data=datos, method="POST", headers={
+        "Authorization": f"Bearer {tok}",
+        "Accept": "application/vnd.github+json",
+        "Content-Type": "video/mp4",
+        "Content-Length": str(len(datos)),
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=300) as r:
+            data = json.loads(r.read().decode() or "{}")
         return data.get("id"), data.get("browser_download_url")
-    return None, None
+    except urllib.error.HTTPError as e:
+        detalle = e.read().decode("utf-8", "ignore")[:200]
+        log(f"  ! subida del trozo: {e.code} {detalle}")
+        return None, None
+    except Exception as e:  # noqa: BLE001
+        log(f"  ! subida del trozo: {type(e).__name__}: {e}")
+        return None, None
 
 
 def borrar_asset(aid):
