@@ -1,43 +1,43 @@
 {
  "date": "2026-11-07",
  "edition": "general",
- "duration": 63.9,
+ "duration": 66.9,
  "script_source": "IA (deepseek-chat)",
- "hook": "Moda, lujo y política se cruzan en la actualidad del día",
+ "hook": "Under Armour cae, Nike revive un clásico y Lululemon reestructura su equipo",
  "items": [
   {
-   "title": "Caviar Kaspia llega a Canadá",
-   "headline": "Canadians Are Getting a Taste of Caviar Kaspia, Eh!",
+   "title": "Under Armour cae en bolsa",
+   "headline": "Under Armour Stock Drops as Q2 Sales Fall 7%",
    "source": "WWD",
-   "link": "https://wwd.com/fashion-news/fashion-scoops/caviar-kaspia-holt-renfrew-collab-1239405525/",
+   "link": "https://wwd.com/business-news/financial/under-armour-q2-2026-sales-fall-7-1239404021/",
    "photo_credit": null
   },
   {
-   "title": "Portas lanza comunidad de comerciantes",
-   "headline": "Editors' Top Reads: News from Liberty, Harrods, Barbour and more...",
-   "source": "The Industry",
-   "link": "https://www.theindustry.fashion/editors-top-reads-news-from-liberty-harrods-barbour-and-more/",
+   "title": "Vuelve la Air Force 1 Cacao Wow",
+   "headline": "Nike Is Bringing Back This Popular Air Force 1 Style for Women — but Fans Will Need Some Patience to Buy a Pair",
+   "source": "WWD",
+   "link": "https://wwd.com/footwear-news/sneaker-news/nike-air-force-1-07-suede-womens-cacao-wow-sanddrift-release-date-fq8901-259-1239405609/",
    "photo_credit": null
   },
   {
-   "title": "New Balance apuesta por estrellas",
-   "headline": "New Balance’s Sold-Out 990v7 Sneaker Gets a Star-Studded New Campaign Featuring the Brand’s Top Ambassadors and Athletes",
+   "title": "AATCC amplía su presencia global",
+   "headline": "AATCC Builds Global Textile Marketplace Presence",
+   "source": "Textile World",
+   "link": "https://www.textileworld.com/textile-world/2026/11/aatcc-builds-global-textile-marketplace-presence/",
+   "photo_credit": "Foto: Crossett Library Bennington College · CC BY-NC-SA 2.0"
+  },
+  {
+   "title": "Lululemon arma su nuevo equipo",
+   "headline": "Lululemon CEO Heidi O’Neill Fills Key Brand and Strategy Positions for Reset",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/new-balance-990v7-campaign-iu-rosalia-josh-allen-cooper-flagg-1239405570/",
+   "link": "https://wwd.com/business-news/human-resources/lululemon-ceo-reshapes-leadership-for-growth-1239404860/",
    "photo_credit": null
   },
   {
-   "title": "Salida en Estée Lauder",
-   "headline": "Justin Boxford Exits The Estée Lauder Cos. to Pursue New Opportunity",
+   "title": "Crece el calzado de aproximación",
+   "headline": "What Is an Approach Shoe? Everything to Know About the New Trend Taking Over the Outdoor Market",
    "source": "WWD",
-   "link": "https://wwd.com/beauty-industry-news/beauty-features/justin-boxford-exits-estee-lauder-pursue-new-opportunity-1239405250/",
-   "photo_credit": null
-  },
-  {
-   "title": "Demócratas contra aranceles a Canadá",
-   "headline": "Newly Emboldened Dems Gear Up for a Fight Against Trump’s Canada Tariffs, PM Carney Welcomes Effort",
-   "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/trade/canada-tariffs-midterm-elections-trump-carney-congress-wyden-1239405243/",
+   "link": "https://wwd.com/footwear-news/sneaker-news/approach-shoe-trend-1239405012/",
    "photo_credit": null
   }
  ]

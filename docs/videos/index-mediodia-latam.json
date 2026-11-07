@@ -1,43 +1,43 @@
 {
  "date": "2026-11-07",
  "edition": "latam",
- "duration": 66.0,
+ "duration": 64.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "Amazon estrena compras premium y la moda mexicana brilla en pasarelas",
+ "hook": "Piaget, Levi’s, adidas y Balenciaga marcan la moda de hoy",
  "items": [
   {
-   "title": "Amazon lanza su Premium Hub",
-   "headline": "Descubre Amazon Premium Hub: una experiencia de compra exclusiva",
+   "title": "Piaget rinde homenaje a Warhol",
+   "headline": "Piaget Andy Warhol Camouflage: el reloj de lujo que convierte el arte pop en una joya de oro y piedras preciosas",
    "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/amazon-premium-hub-una-experiencia-de-compra-exclusiva",
+   "link": "https://www.gq.com.mx/articulo/reloj-piaget-andy-warhol-camouflage-g0a51242-precio-disponibilidad-06-11-2026",
    "photo_credit": null
   },
   {
-   "title": "Talento emergente en Milán y París",
-   "headline": "Diseñadores emergentes y tendencias en el Global Fashion Collective 2027",
-   "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/global-fashion-collective-2027-tendencias-y-disenadores",
+   "title": "Levi’s y Belinda lanzan cápsula",
+   "headline": "Levi’s® y Belinda: Una colección cápsula que necesitas tener en tu armario",
+   "source": "Marie Claire MX",
+   "link": "https://marieclaire.com.mx/levis-belinda-coleccion-capsula-2026/",
    "photo_credit": null
   },
   {
-   "title": "Relojes japoneses bajo el radar",
-   "headline": "Relojes japoneses: Los 16 mejores modelos que deben estar en tu radar",
+   "title": "adidas reinventa el reloj digital",
+   "headline": "adidas Originals Adaptik One S Watch: El reloj digital que puedes llevar en la muñeca o colgar de tu mochila",
    "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/mejores-relojes-japoneses",
+   "link": "https://www.gq.com.mx/articulo/reloj-adidas-originals-adaptik-one-s-watch-precio-disponibilidad-06-11-2026",
    "photo_credit": null
   },
   {
-   "title": "Bodega Aurrera debuta en el desfile",
-   "headline": "Bodega Aurrera debuta en el Desfile de Día de Muertos de la CDMX: estrategia, tradición y conexión",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/bodega-aurrera-debuta-en-el-desfile-de-dia-de-muertos-de-la-cdmx-estrategia-tradicion-y-conexion/",
+   "title": "Martine Rose dirige Balenciaga",
+   "headline": "Martine Rose es la nueva directora creativa de Balenciaga: ¿quién es la diseñadora que hará historia en la casa de moda?",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/martine-rose-nueva-directora-creativa-de-balenciaga-quien-es",
    "photo_credit": null
   },
   {
-   "title": "Snoopy firma con Timberland",
-   "headline": "Timberland x Peanuts: Snoopy convierte su personalidad Joe Cool en una colección de botas y ropa para Navidad 2026",
+   "title": "SHEIN apuesta por lo familiar",
+   "headline": "SHEIN convierte a los Chavez en creadores de su nueva colección de ropa infantil para Navidad e invita a los seguidores a sumarse",
    "source": "Merca2.0",
-   "link": "https://www.merca20.com/timberland-x-peanuts-snoopy-convierte-su-personalidad-joe-cool-en-una-coleccion-de-botas-y-ropa-para-navidad-2026/",
+   "link": "https://www.merca20.com/shein-convierte-a-los-chavez-en-creadores-de-su-nueva-coleccion-de-ropa-infantil-para-navidad-e-invita-a-los-seguidores-a-sumarse/",
    "photo_credit": null
   }
  ]

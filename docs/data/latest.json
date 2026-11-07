@@ -1,12 +1,118 @@
 {
- "generated": "2026-11-07T17:09:29.687205Z",
+ "generated": "2026-11-07T19:32:50.242570Z",
  "days": 4,
  "count": 177,
- "sources_ok": 44,
+ "sources_ok": 43,
  "sources_failed": [
-  "Hypebeast"
+  "Hypebeast",
+  "Perú Retail"
  ],
  "items": [
+  {
+   "title": "Leonardo DRS Appoints Shaveta J. Kapoor As Chief Human Resources Officer",
+   "link": "https://www.textileworld.com/textile-world/people/2026/11/leonardo-drs-appoints-shaveta-j-kapoor-as-chief-human-resources-officer/",
+   "excerpt": "ARLINGTON, Va. — November 4, 2026 — Leonardo DRS, Inc. announced today the appointment of Shaveta J. Kapoor as chief human resources officer. She will lead the company’s human resources strategy, talent development and workforce…",
+   "image": "https://wordpress.textileworld.com/wp-content/uploads/2026/11/Leonardo_DRS_logo.png",
+   "published": "2026-11-07T18:57:58Z",
+   "source": "Textile World",
+   "source_name": "Textile World",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 3.2,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "personas"
+   ],
+   "via": "",
+   "also": [],
+   "id": "befbc109233a",
+   "score": 7.14
+  },
+  {
+   "title": "Milliken & Company Charitable Foundation Commits $100,000 To Military Women’s Memorial, Sponsoring New Uniform Exhibit",
+   "link": "https://www.textileworld.com/textile-world/2026/11/milliken-company-charitable-foundation-commits-100000-to-military-womens-memorial-sponsoring-new-uniform-exhibit/",
+   "excerpt": "SPARTANBURG, S.C.— November 6, 2026 — The Milliken & Company Charitable Foundation today announced the commitment of $100,000 over four years to the Military Women’s Memorial in Arlington, Virginia. Photo credit: Military Women’s…",
+   "image": "https://wordpress.textileworld.com/wp-content/uploads/2026/11/The-Milliken-Company-Charitable-Foundation-logo-cropped.png",
+   "published": "2026-11-07T18:48:52Z",
+   "source": "Textile World",
+   "source_name": "Textile World",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 3.2,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "industria"
+   ],
+   "via": "",
+   "also": [],
+   "id": "1fc712f40f30",
+   "score": 6.79
+  },
+  {
+   "title": "Nike Is Bringing Back This Popular Air Force 1 Style for Women — but Fans Will Need Some Patience to Buy a Pair",
+   "link": "https://wwd.com/footwear-news/sneaker-news/nike-air-force-1-07-suede-womens-cacao-wow-sanddrift-release-date-fq8901-259-1239405609/",
+   "excerpt": "2023's \"Cacao Wow\" suede Air Force 1 is set to return next year.",
+   "image": "",
+   "published": "2026-11-07T18:48:40Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "industria"
+   ],
+   "via": "",
+   "also": [],
+   "id": "93c29548f3e1",
+   "score": 8.75
+  },
+  {
+   "title": "Aduro Completes Longest Next Generation Process (NGP) Pilot Plant Campaign To Date: 120 Hours, Including Real-World Post-Consumer Plastic Waste",
+   "link": "https://www.textileworld.com/textile-world/fiber-world/2026/11/aduro-completes-longest-next-generation-process-ngp-pilot-plant-campaign-to-date-120-hours-including-real-world-post-consumer-plastic-waste/",
+   "excerpt": "LONDON, Ontario, Canada— November 5, 2026 — Aduro Clean Technologies Inc. (“Aduro” or the “Company”,a clean technology company using the power of chemistry to transform lower value feedstocks, like waste plastics, heavy bitumen…",
+   "image": "https://wordpress.textileworld.com/wp-content/uploads/2026/11/Aduro-Clean-Technologies-Inc.-logo.png",
+   "published": "2026-11-07T18:27:36Z",
+   "source": "Textile World",
+   "source_name": "Textile World",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 3.2,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "pasarela"
+   ],
+   "via": "",
+   "also": [],
+   "id": "fa789dd772e0",
+   "score": 6.69
+  },
+  {
+   "title": "AATCC Builds Global Textile Marketplace Presence",
+   "link": "https://www.textileworld.com/textile-world/2026/11/aatcc-builds-global-textile-marketplace-presence/",
+   "excerpt": "DURHAM, N.C. — November 6, 2026 — The American Association of Textile Chemists and Colorists (AATCC) is strengthening its visibility across the global textile marketplace, with its upcoming exhibition at ITMA ASIA + CITME in…",
+   "image": "https://wordpress.textileworld.com/wp-content/uploads/2025/09/AATCC-New-Logo.png",
+   "published": "2026-11-07T17:56:51Z",
+   "source": "Textile World",
+   "source_name": "Textile World",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 3.2,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "retail"
+   ],
+   "via": "",
+   "also": [],
+   "id": "3ed4481760d3",
+   "score": 7.54
+  },
   {
    "title": "New Balance’s Sold-Out 990v7 Sneaker Gets a Star-Studded New Campaign Featuring the Brand’s Top Ambassadors and Athletes",
    "link": "https://wwd.com/footwear-news/sneaker-news/new-balance-990v7-campaign-iu-rosalia-josh-allen-cooper-flagg-1239405570/",
@@ -94,7 +200,7 @@
     "Harper's Bazaar ES"
    ],
    "id": "002c551241ce",
-   "score": 10.35
+   "score": 9.75
   },
   {
    "title": "One in three pairs, and the test that comes next",
@@ -475,27 +581,6 @@
    "score": 8.05
   },
   {
-   "title": "RetailMeNot Marks 20 Years With Cash Back Event",
-   "link": "https://wwd.com/sourcing-journal/industry-news/retailmenot-marks-20-years-with-cash-back-deals-1239404079/",
-   "excerpt": "The event offers members up to 30 percent cash back at more than 3,500 retailers.",
-   "image": "",
-   "published": "2026-11-06T20:52:13Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "industria"
-   ],
-   "via": "",
-   "also": [],
-   "id": "c3579a4e0544",
-   "score": 7.65
-  },
-  {
    "title": "Why Is It So Hard to Build an Independent Fashion Brand?",
    "link": "https://www.businessoffashion.com/briefings/retail/why-is-it-so-hard-to-build-an-independent-fashion-brand/",
    "excerpt": "",
@@ -643,6 +728,27 @@
    "score": 7.05
   },
   {
+   "title": "La francesa Drôle de Monsieur vestirá al Betis durante las dos próximas temporadas",
+   "link": "https://es.fashionnetwork.com/news/La-francesa-drole-de-monsieur-vestira-al-betis-durante-las-dos-proximas-temporadas,1882788.html",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-06T19:00:00Z",
+   "source": "FashionNetwork",
+   "source_name": "FashionNetwork España",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "industria"
+   ],
+   "via": "FashionNetwork España",
+   "also": [],
+   "id": "c8550768f7d9",
+   "score": 6.25
+  },
+  {
    "title": "Serge Ferrari Group Brings Its 7th Material To North America",
    "link": "https://www.textileworld.com/textile-world/nonwovens-technical-textiles/2026/11/serge-ferrari-group-brings-its-7th-material-to-north-america/",
    "excerpt": "PORT ST. LUCIE, Fla. — November 5, 2026 — Serge Ferrari North America, the North American subsidiary of Serge Ferrari Group, which designs, develops, and manufactures innovative composite materials, introduces the 7th Material to…",
@@ -767,6 +873,27 @@
    "also": [],
    "id": "3a5b4a946097",
    "score": 6.7
+  },
+  {
+   "title": "El grupo Marionnaud, adquirido por David Konckier (grupo Bogart)",
+   "link": "https://es.fashionnetwork.com/news/El-grupo-marionnaud-adquirido-por-david-konckier,1882762.html",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-06T17:00:00Z",
+   "source": "FashionNetwork",
+   "source_name": "FashionNetwork España",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "industria"
+   ],
+   "via": "FashionNetwork España",
+   "also": [],
+   "id": "00af5e37ca9d",
+   "score": 6.25
   },
   {
    "title": "adidas Originals Adaptik One S Watch: El reloj digital que puedes llevar en la muñeca o colgar de tu mochila",
@@ -1105,27 +1232,6 @@
    "score": 6.94
   },
   {
-   "title": "Resumen de la semana: De la nueva cúpula en Sfera a las tarifas de Re-viste para la RAP",
-   "link": "https://www.modaes.com/back-stage/resumen-de-la-semana-de-la-nueva-cupula-en-sfera-a-las-tarifas-de-re-viste-para-la-rap",
-   "excerpt": "El grupo de grandes almacenes pone al frente de su cadena a una ejecutiva procedente de Karl Lagerfeld y con experiencia en gran distribución. La RAP…",
-   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3OTMyNjQ1MTd9/files/2026/15-redaccion-empresas/el-corte-ingles/tienda-sfera-logo-moda-el-corte-ingles-1200.jpg",
-   "published": "2026-11-06T13:00:00Z",
-   "source": "Modaes",
-   "source_name": "Modaes",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "es",
-   "tags": [
-    "industria"
-   ],
-   "via": "Modaes",
-   "also": [],
-   "id": "4beef11c5c5f",
-   "score": 6.8
-  },
-  {
    "title": "Adolfo Domínguez crece un 81% en Latinoamérica desde 2021, con México a la cabeza",
    "link": "https://www.modaes.com/empresas/adolfo-dominguez-crece-un-81-en-latinoamerica-desde-2021-con-mexico-a-la-cabeza",
    "excerpt": "La compañía española ha elevado sus ventas en la región entre 2021 y 2025, donde cuenta con 167 puntos de venta en trece países. En cinco años México…",
@@ -1275,27 +1381,6 @@
    "score": 7.6
   },
   {
-   "title": "Los herederos de Armani se inclinarían por una salida a bolsa antes que por una venta",
-   "link": "https://es.fashionnetwork.com/news/Los-herederos-de-armani-se-inclinarian-por-una-salida-a-bolsa-antes-que-por-una-venta,1882261.html",
-   "excerpt": "",
-   "image": "",
-   "published": "2026-11-06T10:29:32Z",
-   "source": "FashionNetwork",
-   "source_name": "FashionNetwork España",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "es",
-   "tags": [
-    "industria"
-   ],
-   "via": "FashionNetwork España",
-   "also": [],
-   "id": "d54d7cdc3a74",
-   "score": 6.25
-  },
-  {
    "title": "Byan aterriza en Milán con una tienda temporal instalada hasta finales de diciembre",
    "link": "https://es.fashionnetwork.com/news/Byan-aterriza-en-milan-con-una-tienda-temporal-instalada-hasta-finales-de-diciembre,1882718.html",
    "excerpt": "",
@@ -1315,27 +1400,6 @@
    "also": [],
    "id": "d8ab3af548c4",
    "score": 6.85
-  },
-  {
-   "title": "La británica Next se apoya en internacional para crecer un 8,1% en el tercer trimestre",
-   "link": "https://www.modaes.com/empresas/la-britanica-next-se-apoya-en-internacional-para-crecer-un-81-en-el-tercer-trimestre",
-   "excerpt": "El grupo británico de distribución de moda ha anotado ventas superiores a las prevista durante el periodo, concluido el 31 de octubre, concretamente…",
-   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3OTM5NjA1ODR9/files/2026/15-redaccion-empresas/next/next-tienda-exterior-resultados-1200.jpg",
-   "published": "2026-11-06T10:24:00Z",
-   "source": "Modaes",
-   "source_name": "Modaes",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "es",
-   "tags": [
-    "industria"
-   ],
-   "via": "Modaes",
-   "also": [],
-   "id": "479314ae6402",
-   "score": 6.8
   },
   {
    "title": "Ralph Lauren rivede al rialzo il fy. Ma le stime sul Q3 deludono Wall Street",
@@ -1616,7 +1680,7 @@
    "via": "FashionNetwork España",
    "also": [],
    "id": "50c07d160265",
-   "score": 6.25
+   "score": 5.75
   },
   {
    "title": "Driving sustainable textile manufacturing through chemical innovation",
@@ -1637,7 +1701,7 @@
    "via": "",
    "also": [],
    "id": "15d1ecc5aee2",
-   "score": 5.76
+   "score": 5.26
   },
   {
    "title": "Oxford Street stores see spending rise 28% in first week of pedestrianisation",
@@ -1658,7 +1722,7 @@
    "via": "",
    "also": [],
    "id": "e751a89983ad",
-   "score": 7.64
+   "score": 7.14
   },
   {
    "title": "What’s Driving Supreme’s Quiet Comeback",
@@ -1679,7 +1743,7 @@
    "via": "The Business of Fashion",
    "also": [],
    "id": "8db911de08de",
-   "score": 7.45
+   "score": 6.95
   },
   {
    "title": "Liz Rodbell Named Group President of Perry Ellis International",
@@ -2039,27 +2103,6 @@
    "score": 5.75
   },
   {
-   "title": "Brain Dead and Adidas Are Dabbling in the Approach Shoe Trend With Super Fuzzy Suede",
-   "link": "https://wwd.com/footwear-news/sneaker-news/brain-dead-adidas-approach-climbing-shoes-release-date-1239403353/",
-   "excerpt": "The collaborators are also dropping a full-on climbing shoe in their capsule.",
-   "image": "",
-   "published": "2026-11-05T20:51:18Z",
-   "source": "FN",
-   "source_name": "Footwear News",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 3.8,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "calzado"
-   ],
-   "via": "",
-   "also": [],
-   "id": "2b48264f2a33",
-   "score": 5.51
-  },
-  {
    "title": "Spinnova Signs Letter Of Intent With Outlast To Develop SPINNOVA® Fibre For Insulation And Temperature Regulation",
    "link": "https://www.textileworld.com/textile-world/fiber-world/2026/11/spinnova-signs-letter-of-intent-with-outlast-to-develop-spinnova-fibre-for-insulation-and-temperature-regulation/",
    "excerpt": "JYVÄSKYLÄ, Finland — November 5, 2026 — Spinnova Plc, a materials technology company producing textile fibre from side streams and wood pulp, today announced that it has signed a non-binding letter of intent (“LOI”) with Outlast…",
@@ -2375,6 +2418,27 @@
    "score": 6.63
   },
   {
+   "title": "Kering encara un nuevo giro creativo: Pierpaolo Piccioli sale de Balenciaga",
+   "link": "https://www.modaes.com/empresas/kering-encara-un-nuevo-giro-creativo-pierpaolo-piccioli-sale-de-balenciaga",
+   "excerpt": "Tras menos de dos años al frente del área creativa de la empresa, el diseñador ha abandonado su cargo en la casa propiedad del grupo francés, como…",
+   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3OTM5MDEyMTR9/files/2026/15-redaccion-empresas/kering/disenador-1200.jpg",
+   "published": "2026-11-05T17:53:00Z",
+   "source": "Modaes",
+   "source_name": "Modaes",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "industria"
+   ],
+   "via": "Modaes",
+   "also": [],
+   "id": "e54d4fd5cc0b",
+   "score": 6.3
+  },
+  {
    "title": "Raxxy è il nuovo special guest di Pitti Uomo 111",
    "link": "https://www.pambianconews.com/2026/11/05/raxxy-e-il-nuovo-special-guest-di-pitti-uomo-111-499889/",
    "excerpt": "Sarà il marchio cinese di outerwear di lusso Raxxy uno degli special guest di Pitti Immagine Uomo 111 . Il brand, nato nel 2020 su iniziativa del designer William Shen , che ne guida anche la direzione creativa, allestirà nella…",
@@ -2457,6 +2521,27 @@
    "also": [],
    "id": "c895016050cc",
    "score": 6.5
+  },
+  {
+   "title": "Ralph Lauren crece un 9% en el segundo trimestre, dispara beneficio y eleva presiones",
+   "link": "https://www.modaes.com/empresas/ralph-lauren-crece-un-9-en-el-segundo-trimestre-dispara-beneficio-y-eleva-presiones",
+   "excerpt": "El grupo estadounidense ha facturado 2.193 millones de dólares y ha obtenido un beneficio neto de 297 millones de dólares, con un incremento del 43%.…",
+   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3OTM4OTYyMTV9/files/2026/15-redaccion-empresas/ralph-lauren/ralph-lauren-home-1200.jpg",
+   "published": "2026-11-05T16:30:00Z",
+   "source": "Modaes",
+   "source_name": "Modaes",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "negocio"
+   ],
+   "via": "Modaes",
+   "also": [],
+   "id": "23cf393cd230",
+   "score": 7.1
   },
   {
    "title": "El Trompo conmemoró día de muertos con arte, música y moda",
@@ -3170,7 +3255,7 @@
    "via": "FashionNetwork España",
    "also": [],
    "id": "cffaced97b1a",
-   "score": 5.75
+   "score": 5.35
   },
   {
    "title": "Shein invertirá 500 millones de euros adicionales en su centro logístico polaco de Wrocław",
@@ -3191,7 +3276,7 @@
    "via": "FashionNetwork España",
    "also": [],
    "id": "7e197c6b58f0",
-   "score": 6.55
+   "score": 6.15
   },
   {
    "title": "El revés electoral de Trump da a sus socios más margen de maniobra para resistir en el terreno comercial",
@@ -3212,7 +3297,7 @@
    "via": "FashionNetwork España",
    "also": [],
    "id": "85c056e15232",
-   "score": 5.75
+   "score": 5.35
   },
   {
    "title": "La mitica Catherine Deneuve è il volto del Natale di Ami Paris",
@@ -3233,7 +3318,7 @@
    "via": "",
    "also": [],
    "id": "13a6ef11abec",
-   "score": 6.9
+   "score": 6.5
   },
   {
    "title": "Must Read: PAI Partners Acquires Elemis From L’Occitane, ShopMy Opens First Physical Retail Event",
@@ -3504,11 +3589,9 @@
     "negocio"
    ],
    "via": "The Business of Fashion",
-   "also": [
-    "FashionNetwork España"
-   ],
+   "also": [],
    "id": "935c8b8f5284",
-   "score": 8.1
+   "score": 7.35
   },
   {
    "title": "Miista Opens Its First L.A. Store to a Surprisingly Robust Boot Culture",
@@ -3656,90 +3739,6 @@
    "also": [],
    "id": "09a98e235c20",
    "score": 5.74
-  },
-  {
-   "title": "UNIFI®, Makers Of REPREVE®, Reports Strong Gross Margin And Cash Generation In First Quarter Fiscal 2027 Results, And Closing Of A $60 Million Non-Strategic Asset Sale To Eliminate An Outstanding $55.5 Million Term Loan",
-   "link": "https://www.textileworld.com/textile-world/fiber-world/2026/11/unifi-makers-of-repreve-reports-strong-gross-margin-and-cash-generation-in-first-quarter-fiscal-2027-results-and-closing-of-a-60-million-non-strategic-asset-sale-to-eliminate-an-outsta/",
-   "excerpt": "GREENSBORO, N.C.— October 29, 2026 — Unifi, Inc., the makers of REPREVE ® and one of the world’s leading innovators in recycled and synthetic yarns, today released operating results for the first fiscal quarter ended September…",
-   "image": "https://wordpress.textileworld.com/wp-content/uploads/2025/03/Unifi_Logo-2.jpg",
-   "published": "2026-11-03T20:26:25Z",
-   "source": "Textile World",
-   "source_name": "Textile World",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 3.2,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "negocio"
-   ],
-   "via": "",
-   "also": [],
-   "id": "0a4550449984",
-   "score": 5.59
-  },
-  {
-   "title": "Car Seat, Structures and Interior Component Supplier Brose Sitech Selects Richland County, S.C. For First US Manufacturing Facility",
-   "link": "https://www.textileworld.com/textile-world/2026/11/car-seat-structures-and-interior-component-supplier-brose-sitech-selects-richland-county-s-c-for-first-us-manufacturing-facility/",
-   "excerpt": "COLUMBIA, S.C. — October 28, 2026 — Brose Sitech, a supplier of car seats, structures and interior components, today announced it selects Richland County for its first U.S. manufacturing facility. The company’s $29.5 million…",
-   "image": "https://wordpress.textileworld.com/wp-content/uploads/2026/11/Brose_Sitech_Logo.jpg",
-   "published": "2026-11-03T20:12:57Z",
-   "source": "Textile World",
-   "source_name": "Textile World",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 3.2,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "sostenibilidad"
-   ],
-   "via": "",
-   "also": [],
-   "id": "5a19e00b30ea",
-   "score": 5.19
-  },
-  {
-   "title": "Manufacturing PMI® At 55.5%; October 2026 ISM® Manufacturing PMI® Report",
-   "link": "https://www.textileworld.com/textile-world/2026/11/manufacturing-pmi-at-55-5-october-2026-ism-manufacturing-pmi-report/",
-   "excerpt": "TEMPE, Ariz. — November 2, 2026 — Economic activity in the manufacturing sector expanded in October for the 10th consecutive month, say the nation’s supply executives in the latest ISM ® Manufacturing PMI ® Report. The report was…",
-   "image": "https://wordpress.textileworld.com/wp-content/uploads/2023/12/ISM-Logo.jpg",
-   "published": "2026-11-03T20:02:41Z",
-   "source": "Textile World",
-   "source_name": "Textile World",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 3.2,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "industria"
-   ],
-   "via": "",
-   "also": [],
-   "id": "d891d352f040",
-   "score": 4.94
-  },
-  {
-   "title": "Reju Expands Industry Network Through Its Work With Six Mills",
-   "link": "https://www.textileworld.com/textile-world/fiber-world/2026/11/reju-expands-industry-network-through-its-work-with-six-mills/",
-   "excerpt": "PARIS — November 3, 2026 — Reju, the textile-to-textile regeneration company, today announced that it has been collaborating with six mills to develop fabrics in order to accelerate the integration of regenerated polyester into…",
-   "image": "https://wordpress.textileworld.com/wp-content/uploads/2024/10/Reju-Logo-300x136.jpg",
-   "published": "2026-11-03T19:49:29Z",
-   "source": "Textile World",
-   "source_name": "Textile World",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 3.2,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "sostenibilidad"
-   ],
-   "via": "",
-   "also": [],
-   "id": "b3db483f9c46",
-   "score": 5.34
   }
  ]
 }
