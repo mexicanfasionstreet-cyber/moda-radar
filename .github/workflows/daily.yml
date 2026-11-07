@@ -158,11 +158,14 @@ jobs:
             --notes "Archivo de las cápsulas en vídeo. El robot sube una cada día y borra las más antiguas." \
             --latest=false
           gh release upload capsulas "${files[@]}" --clobber
-          # rotacion: se borran los mp4 (y su portada) mas antiguos de cada edicion
+          # rotacion: se borran los mp4 (y su portada) mas antiguos de cada edicion.
+          # el patron acepta la franja (-manana/-mediodia/-noche) o su ausencia,
+          # si no, nunca coincide y el Release crece sin limite
           nombres=$(gh release view capsulas --json assets --jq '.assets[].name')
           for sufijo in "" "-latam"; do
             echo "$nombres" \
-              | grep -E "^[0-9]{4}-[0-9]{2}-[0-9]{2}${sufijo}\.mp4$" | sort | head -n -"$KEEP" \
+              | grep -E "^[0-9]{4}-[0-9]{2}-[0-9]{2}(-(manana|mediodia|noche))?${sufijo}\.mp4$" \
+              | sort | head -n -"$KEEP" \
               | while read -r mp4; do
                   gh release delete-asset capsulas "$mp4" -y
                   gh release delete-asset capsulas "${mp4%.mp4}-portada.jpg" -y || true
