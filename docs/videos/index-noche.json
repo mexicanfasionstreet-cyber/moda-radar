@@ -1,44 +1,44 @@
 {
  "date": "2026-11-06",
  "edition": "general",
- "duration": 68.1,
+ "duration": 68.6,
  "script_source": "IA (deepseek-chat)",
- "hook": "Los herederos de Armani prefieren bolsa antes que vender el grupo",
+ "hook": "Superdry refinancia deuda y Medusa Bay acelera su expansión internacional",
  "items": [
   {
-   "title": "Armani apuesta por la bolsa",
-   "headline": "Armani heirs favour stock market listing over sale of fashion group",
+   "title": "Superdry logra refinanciación de 70 millones",
+   "headline": "Superdry & Co secures £70m refinancing package to ‘fund next phase of growth’",
    "source": "The Industry",
-   "link": "https://www.theindustry.fashion/armani-heirs-favour-stock-market-listing-over-sale-of-fashion-group/",
+   "link": "https://www.theindustry.fashion/superdry-co-secures-70m-refinancing-package-to-fund-next-phase-of-growth/",
    "photo_credit": null
   },
   {
-   "title": "Lululemon refuerza su cúpula",
-   "headline": "Lululemon CEO Heidi O’Neill Fills Key Brand and Strategy Positions for Reset",
-   "source": "WWD",
-   "link": "https://wwd.com/business-news/human-resources/lululemon-ceo-reshapes-leadership-for-growth-1239404860/",
+   "title": "Medusa Bay suma tienda y llega a Argentina",
+   "headline": "Medusa Bay pisa el acelerador: segunda tienda en Madrid y expansión en Argentina",
+   "source": "Modaes",
+   "link": "https://www.modaes.com/empresas/medusa-bay-pisa-el-acelerador-segunda-tienda-en-madrid-y-expansion-en-argentina",
    "photo_credit": null
   },
   {
-   "title": "Coty reorganiza Francia",
-   "headline": "Coty Poised to Reshape Its Operating Model in France",
-   "source": "WWD",
-   "link": "https://wwd.com/beauty-industry-news/beauty-features/coty-poised-reshape-operating-model-france-1239405045/",
+   "title": "Gabriella Khalil revela su estilo de viaje",
+   "headline": "My Packing Style: Creative Director Gabriella Khalil",
+   "source": "Vogue",
+   "link": "https://www.vogue.com/article/packing-style-gabriella-khalil",
    "photo_credit": null
   },
   {
-   "title": "Ralph Lauren sube previsiones",
-   "headline": "Ralph Lauren rivede al rialzo il fy. Ma le stime sul Q3 deludono Wall Street",
-   "source": "Pambianco",
-   "link": "https://www.pambianconews.com/2026/11/06/ralph-lauren-rivede-al-rialzo-il-fy-ma-le-stime-sul-q3-deludono-wall-street-499929/",
+   "title": "Marionnaud cambia de dueño",
+   "headline": "Marionnaud cambia de manos: David Konckier toma el control y busca sinergias con Bogart",
+   "source": "Modaes",
+   "link": "https://www.modaes.com/cosmetica/marionnaud-cambia-de-manos-david-konckier-toma-el-control-y-busca-sinergias-con-bogart",
    "photo_credit": null
   },
   {
-   "title": "Trützschler refuerza Pakistán",
-   "headline": "New Trützschler Service Station In Lahore Strengthens Support For Spinning Mills Across Pakistan",
-   "source": "Textile World",
-   "link": "https://www.textileworld.com/textile-world/weaving-spinning/2026/11/new-trutzschler-service-station-in-lahore-strengthens-support-for-spinning-mills-across-pakistan/",
-   "photo_credit": "Foto: Department of Environmental Protection Recycling a · CC BY 2.0"
+   "title": "M&S integra su campaña navideña",
+   "headline": "Marks & Spencer unites fashion and food in first fully integrated Christmas campaign since 2017",
+   "source": "The Industry",
+   "link": "https://www.theindustry.fashion/marks-spencer-unites-fashion-and-food-in-first-fully-integrated-christmas-campaign-since-2017/",
+   "photo_credit": null
   }
  ]
 }
