@@ -1,0 +1,44 @@
+{
+ "date": "2026-11-06",
+ "edition": "general",
+ "duration": 56.7,
+ "script_source": "IA (deepseek-chat)",
+ "hook": "Ralph Lauren y Tapestry marcan el rumbo de la moda",
+ "items": [
+  {
+   "title": "Estrategias que marcan diferencia",
+   "headline": "Ralph Lauren and Tapestry Led the Way, Capri and Under Armour Are Trying to Follow",
+   "source": "WWD",
+   "link": "https://wwd.com/business-news/financial/fashion-ceos-focus-on-growth-amid-economic-challenges-1239405291/",
+   "photo_credit": null
+  },
+  {
+   "title": "IA y cooperacion sostenible",
+   "headline": "AI, Cooperation, Space Among Next Frontiers for Fashion and Sustainability",
+   "source": "WWD",
+   "link": "https://wwd.com/sustainability/business/ai-space-sustainability-2026-venice-fashion-forum-1239404849/",
+   "photo_credit": null
+  },
+  {
+   "title": "Salida en Estee Lauder",
+   "headline": "Justin Boxford Exits The Estée Lauder Cos. to Pursue New Opportunity",
+   "source": "WWD",
+   "link": "https://wwd.com/beauty-industry-news/beauty-features/justin-boxford-exits-estee-lauder-pursue-new-opportunity-1239405250/",
+   "photo_credit": null
+  },
+  {
+   "title": "Ofensiva contra aranceles",
+   "headline": "Newly Emboldened Dems Gear Up for a Fight Against Trump’s Canada Tariffs, PM Carney Welcomes Effort",
+   "source": "WWD",
+   "link": "https://wwd.com/sourcing-journal/trade/canada-tariffs-midterm-elections-trump-carney-congress-wyden-1239405243/",
+   "photo_credit": null
+  },
+  {
+   "title": "Nueva tendencia outdoor",
+   "headline": "What Is an Approach Shoe? Everything to Know About the New Trend Taking Over the Outdoor Market",
+   "source": "WWD",
+   "link": "https://wwd.com/footwear-news/sneaker-news/approach-shoe-trend-1239405012/",
+   "photo_credit": null
+  }
+ ]
+}

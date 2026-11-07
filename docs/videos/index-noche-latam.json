@@ -1,0 +1,30 @@
+{
+ "date": "2026-11-06",
+ "edition": "latam",
+ "duration": 48.6,
+ "script_source": "IA (deepseek-chat)",
+ "hook": "Balenciaga nombra a su primera directora creativa mujer",
+ "items": [
+  {
+   "title": "Relojes japoneses que debes conocer",
+   "headline": "Relojes japoneses: Los 16 mejores modelos que deben estar en tu radar",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/mejores-relojes-japoneses",
+   "photo_credit": null
+  },
+  {
+   "title": "Martine Rose dirige Balenciaga",
+   "headline": "Martine Rose es la nueva directora creativa de Balenciaga: ¿quién es la diseñadora que hará historia en la casa de moda?",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/martine-rose-nueva-directora-creativa-de-balenciaga-quien-es",
+   "photo_credit": null
+  },
+  {
+   "title": "Bodega Aurrera debuta en el desfile",
+   "headline": "Bodega Aurrera debuta en el Desfile de Día de Muertos de la CDMX: estrategia, tradición y conexión",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/bodega-aurrera-debuta-en-el-desfile-de-dia-de-muertos-de-la-cdmx-estrategia-tradicion-y-conexion/",
+   "photo_credit": null
+  }
+ ]
+}
