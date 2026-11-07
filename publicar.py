@@ -41,7 +41,7 @@ RELEASE = "capsulas"
 MAX_STORY = 58          # Meta acepta hasta 60 s; 58 deja margen al contenedor
 API_IG = os.environ.get("IG_VERSION") or "v23.0"
 # con "Instagram Login" el host es graph.instagram.com; con Facebook Login, graph.facebook.com
-HOST_IG = os.environ.get("IG_HOST") or "graph.instagram.com"
+HOST_IG = os.environ.get("IG_HOST") or "graph.facebook.com"
 PANEL = "https://mexicanfasionstreet-cyber.github.io/moda-radar/"
 
 

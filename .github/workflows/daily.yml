@@ -123,6 +123,8 @@ jobs:
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_HOST: ${{ vars.IG_HOST }}
+          IG_VERSION: ${{ vars.IG_VERSION }}
         run: |
           python publicar.py --franja "${{ steps.franja.outputs.franja }}" \
             || echo "::warning::La publicacion fallo; el panel y las capsulas siguen publicados"
