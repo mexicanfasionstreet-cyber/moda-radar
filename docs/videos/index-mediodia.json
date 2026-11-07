@@ -1,43 +1,43 @@
 {
- "date": "2026-11-06",
+ "date": "2026-11-07",
  "edition": "general",
- "duration": 64.4,
+ "duration": 63.9,
  "script_source": "IA (deepseek-chat)",
- "hook": "Los herederos de Armani prefieren salir a bolsa antes que vender la firma",
+ "hook": "Moda, lujo y política se cruzan en la actualidad del día",
  "items": [
   {
-   "title": "Armani opta por la bolsa",
-   "headline": "Armani heirs favour IPO over sale",
-   "source": "Drapers",
-   "link": "https://www.drapersonline.com/news/armani-heirs-favour-ipo-over-sale",
-   "photo_credit": null
-  },
-  {
-   "title": "Power 100 de la moda",
-   "headline": "Editor’s comment: Who are the most influential people in fashion retail this year?",
-   "source": "Drapers",
-   "link": "https://www.drapersonline.com/insight/comment/editors-comment-who-are-the-most-influential-people-in-fashion-retail-this-year",
-   "photo_credit": null
-  },
-  {
-   "title": "Grace homenajea a Lawrence",
-   "headline": "Mckenna Grace Continues Her ‘Hunger Games’ Method Dressing Streak With a Meta Nod to Jennifer Lawrence",
+   "title": "Caviar Kaspia llega a Canadá",
+   "headline": "Canadians Are Getting a Taste of Caviar Kaspia, Eh!",
    "source": "WWD",
-   "link": "https://wwd.com/pop-culture/celebrity-news/mckenna-grace-dress-jennifer-lawrence-golden-globes-1239404566/",
+   "link": "https://wwd.com/fashion-news/fashion-scoops/caviar-kaspia-holt-renfrew-collab-1239405525/",
    "photo_credit": null
   },
   {
-   "title": "Talia Bourne gana Supima",
-   "headline": "Supima Reveals Talia Bourne as Winner of the 2026 Supima Design Competition",
+   "title": "Portas lanza comunidad de comerciantes",
+   "headline": "Editors' Top Reads: News from Liberty, Harrods, Barbour and more...",
+   "source": "The Industry",
+   "link": "https://www.theindustry.fashion/editors-top-reads-news-from-liberty-harrods-barbour-and-more/",
+   "photo_credit": null
+  },
+  {
+   "title": "New Balance apuesta por estrellas",
+   "headline": "New Balance’s Sold-Out 990v7 Sneaker Gets a Star-Studded New Campaign Featuring the Brand’s Top Ambassadors and Athletes",
    "source": "WWD",
-   "link": "https://wwd.com/fashion-news/designer-luxury/supima-reveals-talia-bourne-winner-of-the-2026-supima-design-competiton-1239404605/",
+   "link": "https://wwd.com/footwear-news/sneaker-news/new-balance-990v7-campaign-iu-rosalia-josh-allen-cooper-flagg-1239405570/",
    "photo_credit": null
   },
   {
-   "title": "Martine Rose lidera Balenciaga",
-   "headline": "Martine Rose a ‘breath of fresh air’ for Balenciaga",
-   "source": "Drapers",
-   "link": "https://www.drapersonline.com/product-and-trends/martine-rose-a-breath-of-fresh-air-for-balenciaga",
+   "title": "Salida en Estée Lauder",
+   "headline": "Justin Boxford Exits The Estée Lauder Cos. to Pursue New Opportunity",
+   "source": "WWD",
+   "link": "https://wwd.com/beauty-industry-news/beauty-features/justin-boxford-exits-estee-lauder-pursue-new-opportunity-1239405250/",
+   "photo_credit": null
+  },
+  {
+   "title": "Demócratas contra aranceles a Canadá",
+   "headline": "Newly Emboldened Dems Gear Up for a Fight Against Trump’s Canada Tariffs, PM Carney Welcomes Effort",
+   "source": "WWD",
+   "link": "https://wwd.com/sourcing-journal/trade/canada-tariffs-midterm-elections-trump-carney-congress-wyden-1239405243/",
    "photo_credit": null
   }
  ]

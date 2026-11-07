@@ -1,43 +1,43 @@
 {
- "date": "2026-11-06",
+ "date": "2026-11-07",
  "edition": "latam",
- "duration": 65.8,
+ "duration": 66.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "The IQ Collection llega a México y Adolfo Domínguez crece en Latinoamérica",
+ "hook": "Amazon estrena compras premium y la moda mexicana brilla en pasarelas",
  "items": [
   {
-   "title": "The IQ Collection abre en CDMX",
-   "headline": "The IQ Collection continúa su expansión internacional con la apertura de una nueva boutique en México",
-   "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/the-iq-collection-apertura-nueva-boutique-en-ciudad-de-mexico",
-   "photo_credit": null
-  },
-  {
-   "title": "Amazon lanza Premium Hub",
+   "title": "Amazon lanza su Premium Hub",
    "headline": "Descubre Amazon Premium Hub: una experiencia de compra exclusiva",
    "source": "GQ MX",
    "link": "https://www.gq.com.mx/articulo/amazon-premium-hub-una-experiencia-de-compra-exclusiva",
    "photo_credit": null
   },
   {
-   "title": "Adolfo Domínguez crece en la región",
-   "headline": "Adolfo Domínguez crece un 81% en Latinoamérica desde 2021, con México a la cabeza",
-   "source": "Modaes",
-   "link": "https://www.modaes.com/empresas/adolfo-dominguez-crece-un-81-en-latinoamerica-desde-2021-con-mexico-a-la-cabeza",
+   "title": "Talento emergente en Milán y París",
+   "headline": "Diseñadores emergentes y tendencias en el Global Fashion Collective 2027",
+   "source": "Vogue MX",
+   "link": "https://www.vogue.mx/articulo/global-fashion-collective-2027-tendencias-y-disenadores",
    "photo_credit": null
   },
   {
-   "title": "Timberland x Peanuts para Navidad",
+   "title": "Relojes japoneses bajo el radar",
+   "headline": "Relojes japoneses: Los 16 mejores modelos que deben estar en tu radar",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/mejores-relojes-japoneses",
+   "photo_credit": null
+  },
+  {
+   "title": "Bodega Aurrera debuta en el desfile",
+   "headline": "Bodega Aurrera debuta en el Desfile de Día de Muertos de la CDMX: estrategia, tradición y conexión",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/bodega-aurrera-debuta-en-el-desfile-de-dia-de-muertos-de-la-cdmx-estrategia-tradicion-y-conexion/",
+   "photo_credit": null
+  },
+  {
+   "title": "Snoopy firma con Timberland",
    "headline": "Timberland x Peanuts: Snoopy convierte su personalidad Joe Cool en una colección de botas y ropa para Navidad 2026",
    "source": "Merca2.0",
    "link": "https://www.merca20.com/timberland-x-peanuts-snoopy-convierte-su-personalidad-joe-cool-en-una-coleccion-de-botas-y-ropa-para-navidad-2026/",
-   "photo_credit": null
-  },
-  {
-   "title": "El Trompo celebra día de muertos",
-   "headline": "El Trompo conmemoró día de muertos con arte, música y moda",
-   "source": "Uniradio Informa Baja California",
-   "link": "https://www.uniradiobaja.com/sociedad/el-trompo-conmemoro-dia-muertos-arte-musica-moda-n912619/amp",
    "photo_credit": null
   }
  ]
