@@ -1,8 +1,8 @@
-TÍTULO (71 caracteres)
-México impulsa la moda global con nuevas aperturas y crecimiento récord
+TÍTULO (64 caracteres)
+The IQ Collection llega a CDMX y Adolfo Domínguez crece en Latam
 
 DESCRIPCIÓN
-México impulsa la moda global con nuevas aperturas y crecimiento récord
+The IQ Collection llega a CDMX y Adolfo Domínguez crece en Latam
 
 1. The IQ Collection continúa su expansión internacional con la apertura de una nueva boutique en México — Vogue MX
 https://www.vogue.mx/articulo/the-iq-collection-apertura-nueva-boutique-en-ciudad-de-mexico
@@ -20,5 +20,5 @@ HASHTAGS
 
 The Border Archive · @theborderarchive
 
-Edición: noche · 2026-11-06 · 67.6 s
+Edición: noche · 2026-11-06 · 71.3 s
 Fuente del panel: https://mexicanfasionstreet-cyber.github.io/moda-radar/

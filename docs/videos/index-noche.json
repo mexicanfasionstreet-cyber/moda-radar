@@ -1,43 +1,43 @@
 {
  "date": "2026-11-06",
  "edition": "general",
- "duration": 67.4,
+ "duration": 71.1,
  "script_source": "IA (deepseek-chat)",
- "hook": "Tanger sube previsiones y el textil acelera su producción",
+ "hook": "Delivering Good recauda 2,7 millones y Venezia exige reglas transparentes",
  "items": [
   {
-   "title": "Tanger eleva previsiones para 2026",
-   "headline": "Tanger’s Strong Q3 Spurs Raised Outlook on 2026 Profit and Holiday Sales",
+   "title": "Gala solidaria recauda 2,7 millones",
+   "headline": "Mission Accomplished: Delivering Good Gala Raises $2.7 Million",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/real-estate/tangers-q3-spurs-raised-full-year-outlook-1239401243/",
+   "link": "https://wwd.com/business-news/business-features/delivering-good-gala-libby-wadle-michael-osullian-1239401336/",
    "photo_credit": null
   },
   {
-   "title": "Tiendas vintage resisten en Nueva York",
-   "headline": "How These Curated Thrift Shops Are Keeping Whimsical NYC Retail Alive",
-   "source": "Fashionista",
-   "link": "https://fashionista.com/2026/11/new-york-city-thrift-stores-whimsical-trend",
+   "title": "Venezia exige reglas y transparencia",
+   "headline": "A Venezia la moda chiede regole e filiere trasparenti",
+   "source": "Pambianco",
+   "link": "https://www.pambianconews.com/2026/11/05/a-venezia-la-moda-chiede-regole-e-filiere-trasparenti-499849/",
    "photo_credit": null
   },
   {
-   "title": "Canada Goose sufre en Europa",
-   "headline": "Canada Goose Caught by Europe Softness in Q2",
+   "title": "Equinox renueva su cúpula directiva",
+   "headline": "Brendan Whitworth Named CEO of Equinox, Marc Mastronardi, President, Will Leave at Yearend",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/financial/canada-goose-q2-2026-earnings-dani-reiss-ceo-1239402623/",
+   "link": "https://wwd.com/business-news/human-resources/brendan-whitworth-ceo-equinox-marc-mastronardi-president-leave-yearend-1239396752/",
    "photo_credit": null
   },
   {
-   "title": "Textil sube un 5,2 por ciento",
-   "headline": "El textil sube el ritmo en septiembre y eleva su producción un 5,2%",
+   "title": "Superdry refinancia 70 millones de libras",
+   "headline": "Superdry acuerda con Barclays y Bank of America la refinanciación de su deuda",
    "source": "Modaes",
-   "link": "https://www.modaes.com/entorno/el-textil-sube-el-ritmo-en-septiembre-y-eleva-su-produccion-un-52",
+   "link": "https://www.modaes.com/empresas/superdry-acuerda-con-barclays-y-bank-of-america-la-refinanciacion-de-su-deuda",
    "photo_credit": null
   },
   {
-   "title": "Yeezy y protestas en Bangladesh",
-   "headline": "Must Read: Yeezy's Comeback Show Fell Short, Pay Structure Revisions Fail To End Bangladesh Garment Protests",
+   "title": "Kinn apuesta por un legado duradero",
+   "headline": "How Kinn's Jennie Yoon Is Building a Jewelry Brand That Can Live Beyond Her",
    "source": "Fashionista",
-   "link": "https://fashionista.com/2026/11/yeezy-comeback-show-review",
+   "link": "https://fashionista.com/2026/11/kinn-jennie-yoon-interview",
    "photo_credit": null
   }
  ]
