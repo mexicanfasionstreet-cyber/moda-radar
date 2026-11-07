@@ -1,43 +1,43 @@
 {
  "date": "2026-11-06",
  "edition": "general",
- "duration": 68.6,
+ "duration": 71.2,
  "script_source": "IA (deepseek-chat)",
- "hook": "Superdry refinancia deuda y Medusa Bay acelera su expansión internacional",
+ "hook": "Reformation crece 19,1% y John Frieda fallece a los 75 años",
  "items": [
   {
-   "title": "Superdry logra refinanciación de 70 millones",
-   "headline": "Superdry & Co secures £70m refinancing package to ‘fund next phase of growth’",
-   "source": "The Industry",
-   "link": "https://www.theindustry.fashion/superdry-co-secures-70m-refinancing-package-to-fund-next-phase-of-growth/",
+   "title": "Reformation crece 19,1% en el tercer trimestre",
+   "headline": "Reformation Continues Growth Streak With 19.1% Q3 Sales Gain",
+   "source": "WWD",
+   "link": "https://wwd.com/business-news/financial/reformation-hali-borenstein-q3-2026-sales-gain-1239403268/",
    "photo_credit": null
   },
   {
-   "title": "Medusa Bay suma tienda y llega a Argentina",
-   "headline": "Medusa Bay pisa el acelerador: segunda tienda en Madrid y expansión en Argentina",
+   "title": "Saatva con hasta 1.000 dólares de descuento",
+   "headline": "Our Favorite Saatva Mattress Is on Sale for Black Friday",
+   "source": "Elle",
+   "link": "https://www.elle.com/fashion/shopping/a74322694/saatva-mattress-sale-black-friday-2026/",
+   "photo_credit": null
+  },
+  {
+   "title": "Muere John Frieda a los 75 años",
+   "headline": "John Frieda, Hair-Care Mogul Who Soothed Women’s Curls, Has Died",
+   "source": "NYT",
+   "link": "https://www.nytimes.com/2026/11/04/style/john-frieda-dead.html",
+   "photo_credit": null
+  },
+  {
+   "title": "Nueva cúpula en Sfera y tarifas de Re-viste",
+   "headline": "Resumen de la semana: De la nueva cúpula en Sfera a las tarifas de Re-viste para la RAP",
    "source": "Modaes",
-   "link": "https://www.modaes.com/empresas/medusa-bay-pisa-el-acelerador-segunda-tienda-en-madrid-y-expansion-en-argentina",
+   "link": "https://www.modaes.com/back-stage/resumen-de-la-semana-de-la-nueva-cupula-en-sfera-a-las-tarifas-de-re-viste-para-la-rap",
    "photo_credit": null
   },
   {
-   "title": "Gabriella Khalil revela su estilo de viaje",
-   "headline": "My Packing Style: Creative Director Gabriella Khalil",
-   "source": "Vogue",
-   "link": "https://www.vogue.com/article/packing-style-gabriella-khalil",
-   "photo_credit": null
-  },
-  {
-   "title": "Marionnaud cambia de dueño",
-   "headline": "Marionnaud cambia de manos: David Konckier toma el control y busca sinergias con Bogart",
-   "source": "Modaes",
-   "link": "https://www.modaes.com/cosmetica/marionnaud-cambia-de-manos-david-konckier-toma-el-control-y-busca-sinergias-con-bogart",
-   "photo_credit": null
-  },
-  {
-   "title": "M&S integra su campaña navideña",
-   "headline": "Marks & Spencer unites fashion and food in first fully integrated Christmas campaign since 2017",
+   "title": "Liberty lanza campaña navideña 2026",
+   "headline": "Liberty launches Christmas 2026 campaign with new gifting service",
    "source": "The Industry",
-   "link": "https://www.theindustry.fashion/marks-spencer-unites-fashion-and-food-in-first-fully-integrated-christmas-campaign-since-2017/",
+   "link": "https://www.theindustry.fashion/liberty-launches-christmas-2026-campaign-with-new-gifting-service/",
    "photo_credit": null
   }
  ]

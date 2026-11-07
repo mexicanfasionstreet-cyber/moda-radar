@@ -1,9 +1,9 @@
 {
  "date": "2026-11-06",
  "edition": "latam",
- "duration": 72.1,
+ "duration": 67.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "The IQ Collection llega a México y Adolfo Domínguez crece en Latinoamérica",
+ "hook": "The IQ Collection llega a México y Amazon estrena compras premium",
  "items": [
   {
    "title": "The IQ Collection abre en CDMX",
@@ -13,14 +13,14 @@
    "photo_credit": null
   },
   {
-   "title": "Amazon lanza Premium Hub",
+   "title": "Amazon estrena Premium Hub",
    "headline": "Descubre Amazon Premium Hub: una experiencia de compra exclusiva",
    "source": "GQ MX",
    "link": "https://www.gq.com.mx/articulo/amazon-premium-hub-una-experiencia-de-compra-exclusiva",
    "photo_credit": null
   },
   {
-   "title": "Relojes japoneses en el radar",
+   "title": "16 relojes japoneses a seguir",
    "headline": "Relojes japoneses: Los 16 mejores modelos que deben estar en tu radar",
    "source": "GQ MX",
    "link": "https://www.gq.com.mx/articulo/mejores-relojes-japoneses",

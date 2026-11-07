@@ -1,8 +1,8 @@
-TÍTULO (74 caracteres)
-The IQ Collection llega a México y Adolfo Domínguez crece en Latinoamérica
+TÍTULO (65 caracteres)
+The IQ Collection llega a México y Amazon estrena compras premium
 
 DESCRIPCIÓN
-The IQ Collection llega a México y Adolfo Domínguez crece en Latinoamérica
+The IQ Collection llega a México y Amazon estrena compras premium
 
 1. The IQ Collection continúa su expansión internacional con la apertura de una nueva boutique en México — Vogue MX
 https://www.vogue.mx/articulo/the-iq-collection-apertura-nueva-boutique-en-ciudad-de-mexico
@@ -20,5 +20,5 @@ HASHTAGS
 
 The Border Archive · @theborderarchive
 
-Edición: noche · 2026-11-06 · 72.1 s
+Edición: noche · 2026-11-06 · 67.0 s
 Fuente del panel: https://mexicanfasionstreet-cyber.github.io/moda-radar/
