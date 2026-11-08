@@ -1,40 +1,40 @@
 {
  "date": "2026-11-08",
  "edition": "general",
- "duration": 81.9,
+ "duration": 62.5,
  "script_source": "IA (deepseek-chat)",
- "hook": "E.l.f. Beauty crece 51% y la moda en España cae 3,6%",
+ "hook": "Elf Beauty crece 51% y la moda española cae 3,6%",
  "items": [
   {
-   "title": "E.l.f. Beauty crece 51% por innovación",
+   "title": "Elf Beauty crece 51% por innovación",
    "headline": "E.l.f. Beauty growth driven by innovation, not just pricing power",
    "source": "Retail Dive",
    "link": "https://www.retaildive.com/news/elf-beauty-q2-earnings-sales-growth-innovation-pricing-power/873868/",
    "photo_credit": null
   },
   {
-   "title": "Paris Hilton apuesta por diseño real",
+   "title": "Paris Hilton en la gala LACMA",
    "headline": "Paris Hilton Wore One of Kate Middleton’s Go-to Designers for LACMA Gala 2026",
    "source": "WWD",
    "link": "https://wwd.com/pop-culture/celebrity-news/paris-hilton-jenny-packham-dress-lacma-gala-2026-1239405786/",
    "photo_credit": null
   },
   {
-   "title": "Jessica Williams luce pumps sheer",
+   "title": "Williams y los pumps de encaje",
    "headline": "Jessica Williams Tries Out Sheer Pump Trend on the LACMA Gala 2026 Red Carpet",
    "source": "WWD",
    "link": "https://wwd.com/footwear-news/shoe-trends/jessica-williams-sheer-pump-lace-lacma-gala-2026-red-carpet-1239405986/",
    "photo_credit": null
   },
   {
-   "title": "Anya Taylor-Joy revive archivo Cardin",
+   "title": "Anya Taylor-Joy revive archivo",
    "headline": "Anya Taylor-Joy Repurposes Archival Pierre Cardin Haute Couture Bridal Gown for the Red Carpet at LACMA Gala 2026",
    "source": "WWD",
    "link": "https://wwd.com/pop-culture/celebrity-news/anya-taylor-joy-pierre-cardin-bridal-gown-lacma-gala-2026-1239405686/",
    "photo_credit": null
   },
   {
-   "title": "Moda en España cae 3,6% en octubre",
+   "title": "Octubre rojo para la moda",
    "headline": "Indicador del Comercio de Moda: octubre rojo para el sector, con una caída del 3,6%",
    "source": "Modaes",
    "link": "https://www.modaes.com/entorno/indicador-del-comercio-de-moda-octubre-rojo-para-el-sector-con-una-caida-del-36",
