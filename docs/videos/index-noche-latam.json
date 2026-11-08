@@ -1,9 +1,9 @@
 {
- "date": "2026-11-06",
+ "date": "2026-11-07",
  "edition": "latam",
- "duration": 71.3,
+ "duration": 77.1,
  "script_source": "IA (deepseek-chat)",
- "hook": "The IQ Collection llega a CDMX y Adolfo Domínguez crece en Latam",
+ "hook": "The IQ Collection llega a México y Adidas rompe récord de ingresos",
  "items": [
   {
    "title": "The IQ Collection abre en CDMX",
@@ -13,28 +13,28 @@
    "photo_credit": null
   },
   {
-   "title": "Amazon estrena sección premium",
-   "headline": "Descubre Amazon Premium Hub: una experiencia de compra exclusiva",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/amazon-premium-hub-una-experiencia-de-compra-exclusiva",
+   "title": "Adidas logra récord de ingresos",
+   "headline": "Adidas posts €7.252 billion in revenue over 3 months and reaches record profits as sales of sportswear grow",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/adidas-posts-e7-252-billion-in-revenue-over-3-months-and-reaches-record-profits-as-sales-of-sportswear-grow/",
    "photo_credit": null
   },
   {
-   "title": "Relojes japoneses a seguir",
-   "headline": "Relojes japoneses: Los 16 mejores modelos que deben estar en tu radar",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/mejores-relojes-japoneses",
+   "title": "MINI y Olmos & Flores en Polanco",
+   "headline": "MINI y Olmos & Flores celebran el Día de Muertos con diseño mexicano Copiar",
+   "source": "Vogue MX",
+   "link": "https://www.vogue.mx/articulo/mini-ofrenda-olmos-y-flores-dia-de-muertos-diseno-mexicano",
    "photo_credit": null
   },
   {
-   "title": "Adolfo Domínguez crece en Latam",
-   "headline": "Adolfo Domínguez crece un 81% en Latinoamérica desde 2021, con México a la cabeza",
-   "source": "Modaes",
-   "link": "https://www.modaes.com/empresas/adolfo-dominguez-crece-un-81-en-latinoamerica-desde-2021-con-mexico-a-la-cabeza",
+   "title": "Muñeca de Zoey por Mattel",
+   "headline": "KPop Demon Hunters Zoey Fashion Doll: Price and Where to Buy the HUNTR/X Figure",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/kpop-demon-hunters-zoey-fashion-doll-price-and-where-to-buy-the-huntr-x-figure/",
    "photo_credit": null
   },
   {
-   "title": "El Trompo celebra Día de Muertos",
+   "title": "El Trompo celebra con moda",
    "headline": "El Trompo conmemoró día de muertos con arte, música y moda",
    "source": "Uniradio Informa Baja California",
    "link": "https://www.uniradiobaja.com/sociedad/el-trompo-conmemoro-dia-muertos-arte-musica-moda-n912619/amp",

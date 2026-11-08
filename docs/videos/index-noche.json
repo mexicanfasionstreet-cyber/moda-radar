@@ -1,44 +1,44 @@
 {
- "date": "2026-11-06",
+ "date": "2026-11-07",
  "edition": "general",
- "duration": 71.1,
+ "duration": 71.8,
  "script_source": "IA (deepseek-chat)",
- "hook": "Delivering Good recauda 2,7 millones y Venezia exige reglas transparentes",
+ "hook": "Martine Rose es la nueva directora creativa de Balenciaga",
  "items": [
   {
-   "title": "Gala solidaria recauda 2,7 millones",
-   "headline": "Mission Accomplished: Delivering Good Gala Raises $2.7 Million",
+   "title": "Martine Rose lidera Balenciaga",
+   "headline": "Martine Rose named Balenciaga Creative Director",
+   "source": "The Industry",
+   "link": "https://www.theindustry.fashion/martine-rose-named-balenciaga-creative-director/",
+   "photo_credit": null
+  },
+  {
+   "title": "Estrategias que marcan diferencia",
+   "headline": "Ralph Lauren and Tapestry Led the Way, Capri and Under Armour Are Trying to Follow",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/business-features/delivering-good-gala-libby-wadle-michael-osullian-1239401336/",
+   "link": "https://wwd.com/business-news/financial/fashion-ceos-focus-on-growth-amid-economic-challenges-1239405291/",
    "photo_credit": null
   },
   {
-   "title": "Venezia exige reglas y transparencia",
-   "headline": "A Venezia la moda chiede regole e filiere trasparenti",
-   "source": "Pambianco",
-   "link": "https://www.pambianconews.com/2026/11/05/a-venezia-la-moda-chiede-regole-e-filiere-trasparenti-499849/",
-   "photo_credit": null
-  },
-  {
-   "title": "Equinox renueva su cúpula directiva",
-   "headline": "Brendan Whitworth Named CEO of Equinox, Marc Mastronardi, President, Will Leave at Yearend",
-   "source": "WWD",
-   "link": "https://wwd.com/business-news/human-resources/brendan-whitworth-ceo-equinox-marc-mastronardi-president-leave-yearend-1239396752/",
-   "photo_credit": null
-  },
-  {
-   "title": "Superdry refinancia 70 millones de libras",
-   "headline": "Superdry acuerda con Barclays y Bank of America la refinanciación de su deuda",
-   "source": "Modaes",
-   "link": "https://www.modaes.com/empresas/superdry-acuerda-con-barclays-y-bank-of-america-la-refinanciacion-de-su-deuda",
-   "photo_credit": null
-  },
-  {
-   "title": "Kinn apuesta por un legado duradero",
-   "headline": "How Kinn's Jennie Yoon Is Building a Jewelry Brand That Can Live Beyond Her",
+   "title": "Lo mas visto de la semana",
+   "headline": "ICYMI: 2026 CFDA Fashion Award Winners, Pierpaolo Piccioli Exits Balenciaga & The Met Reveals Its Next Costume Institute Exhibit",
    "source": "Fashionista",
-   "link": "https://fashionista.com/2026/11/kinn-jennie-yoon-interview",
+   "link": "https://fashionista.com/2026/11/fashion-news-you-need-to-know-november-7",
    "photo_credit": null
+  },
+  {
+   "title": "Fallon estrena tenis exclusivos",
+   "headline": "Sneakerhead Jimmy Fallon Just Scored Caitlin Clark’s Unreleased Taylor Swift-Inspired Kicks",
+   "source": "WWD",
+   "link": "https://wwd.com/footwear-news/sneaker-news/jimmy-fallon-caitlin-clark-taylor-swift-nike-sneakers-1239405659/",
+   "photo_credit": null
+  },
+  {
+   "title": "Mikkelsen crece en Estados Unidos",
+   "headline": "Mikkelsen Innovation Starts U.S. Subsidiary And Opens Manufacturing And Support Facility In Milwaukee, Wisconsin",
+   "source": "Textile World",
+   "link": "https://www.textileworld.com/textile-world/knitting-apparel/2026/11/mikkelsen-innovation-starts-u-s-subsidiary-and-opens-manufacturing-and-support-facility-in-milwaukee-wisconsin/",
+   "photo_credit": "Foto: ashroc · CC BY-NC 2.0"
   }
  ]
 }
