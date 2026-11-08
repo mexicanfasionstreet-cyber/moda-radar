@@ -43,9 +43,9 @@ shows. Probadas con *Probar fuentes* (titulares de muestra) y afinadas:
   "dónde ver".
 - Bazares y Takeovers/pop-ups con `generic: true` (el titular debe hablar de moda): fuera
   los pop-ups de BTS o Harry Styles.
-- Probadas y pendientes de que el usuario elija (en `herramientas/fuentes-temas.json`):
-  streetwear, textil artesanal, Intermoda y ferias, Baja California, San Diego, industria
-  textil, modelos mexicanas.
+- Las siete propuestas (streetwear, textil artesanal, Intermoda y ferias, Baja California,
+  San Diego, industria textil, modelos mexicanas) también entraron: el usuario quiso todas.
+  San Diego va en inglés con `region: us`: panel y cápsula general, no la LatAm.
 
 ## 2026-11-08 · las cápsulas repetían noticias
 

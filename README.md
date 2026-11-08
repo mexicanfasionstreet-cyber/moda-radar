@@ -210,7 +210,7 @@ El botón **"México y LatAm"** del panel deja solo las noticias de la región.
 | Tipo | Medios | Qué entra |
 |---|---|---|
 | Revistas | Vogue México, GQ México, Marie Claire México, Para Ti (AR) | Negocio, retail, fichajes y, por ser locales, también pasarela, diseño y calzado. Fuera guías de estilo y celebridades. |
-| Escena local | Pasarelas MX, Moda en Tijuana, Diseño y pasarela en Tijuana, Diseñadores mexicanos, Fashion shows México, Ropa de segunda mano, Bazares de diseño, Takeovers y pop-ups | Espejos de Google News por tema: noticias de muchos medios; la tarjeta dice cuál la publicó. |
+| Escena local | Pasarelas MX, Moda en Tijuana, Diseño y pasarela en Tijuana, Diseñadores mexicanos, Fashion shows México, Ropa de segunda mano, Bazares de diseño, Takeovers y pop-ups, Intermoda y ferias, Modelos mexicanas, Streetwear mexicano, Textil artesanal, Moda en Baja California, Industria textil México, Moda en San Diego (en inglés, solo cápsula general) | Espejos de Google News por tema: noticias de muchos medios; la tarjeta dice cuál la publicó. |
 | Negocio | El Financiero, El Economista, Merca2.0, Perú Retail | Solo si el titular habla de moda, ropa, textil, belleza, Shein, Zara… |
 | Industria | Textiles Panamericanos, Modaes, FashionNetwork España | Todo. Modaes y FashionNetwork entran por Google News (no tienen RSS abierto). |
 

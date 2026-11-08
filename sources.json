@@ -534,6 +534,90 @@
       "weight": 3.0,
       "generic": false,
       "url": "https://news.google.com/rss/search?q=%28%22fashion+show%22+OR+%22desfile+de+moda%22+OR+pasarela%29+%28M%C3%A9xico+OR+CDMX+OR+Guadalajara+OR+Monterrey+OR+Tijuana%29+-%22Victoria%27s+Secret%22+-%22d%C3%B3nde+ver%22+-catrinas&hl=es-419&gl=MX&ceid=MX%3Aes-419"
+    },
+    {
+      "lang": "es",
+      "region": "mx",
+      "kind": "trade",
+      "mirror": true,
+      "aggregator": true,
+      "name": "Streetwear mexicano",
+      "short": "Streetwear",
+      "weight": 3.0,
+      "generic": false,
+      "url": "https://news.google.com/rss/search?q=%28streetwear+OR+sneakers+OR+%22marca+de+ropa%22+OR+%22marca+mexicana+de+ropa%22%29+M%C3%A9xico+-%22tenis+de+mesa%22+-ATP&hl=es-419&gl=MX&ceid=MX%3Aes-419"
+    },
+    {
+      "lang": "es",
+      "region": "mx",
+      "kind": "trade",
+      "mirror": true,
+      "aggregator": true,
+      "name": "Textil artesanal",
+      "short": "Textil artesanal",
+      "weight": 3.2,
+      "generic": false,
+      "url": "https://news.google.com/rss/search?q=%28textiles+OR+bordados+OR+artesanas+OR+%22arte+textil%22%29+%28ind%C3%ADgena+OR+artesanal+OR+plagio+OR+%22apropiaci%C3%B3n+cultural%22%29+moda+M%C3%A9xico&hl=es-419&gl=MX&ceid=MX%3Aes-419"
+    },
+    {
+      "lang": "es",
+      "region": "mx",
+      "kind": "trade",
+      "mirror": true,
+      "aggregator": true,
+      "name": "Intermoda y ferias",
+      "short": "Ferias",
+      "weight": 3.4,
+      "generic": false,
+      "url": "https://news.google.com/rss/search?q=Intermoda+OR+%22Expo+Moda%22+OR+%22feria+de+moda%22+OR+%22Fashion+Week+Guadalajara%22+OR+%22Fashion+Week+Monterrey%22&hl=es-419&gl=MX&ceid=MX%3Aes-419"
+    },
+    {
+      "lang": "es",
+      "region": "mx",
+      "kind": "trade",
+      "mirror": true,
+      "aggregator": true,
+      "name": "Moda en Baja California",
+      "short": "Baja California",
+      "weight": 3.2,
+      "generic": true,
+      "url": "https://news.google.com/rss/search?q=%28moda+OR+fashion+OR+dise%C3%B1adora+OR+dise%C3%B1ador+OR+pasarela+OR+%22desfile+de+moda%22%29+%28Ensenada+OR+Mexicali+OR+Rosarito+OR+Tecate+OR+%22Baja+California%22%29+-hotel&hl=es-419&gl=MX&ceid=MX%3Aes-419"
+    },
+    {
+      "lang": "en",
+      "region": "us",
+      "kind": "trade",
+      "mirror": true,
+      "aggregator": true,
+      "name": "Moda en San Diego",
+      "short": "San Diego",
+      "weight": 3.0,
+      "generic": true,
+      "url": "https://news.google.com/rss/search?q=%28%22fashion+show%22+OR+%22fashion+designer%22+OR+%22fashion+week%22+OR+%22slow+fashion%22+OR+%22pop-up+shop%22+OR+boutique%29+%22San+Diego%22+-%22Fashion+Valley%22+-hotel&hl=en-US&gl=US&ceid=US%3Aen-US"
+    },
+    {
+      "lang": "es",
+      "region": "mx",
+      "kind": "trade",
+      "mirror": true,
+      "aggregator": true,
+      "name": "Industria textil México",
+      "short": "Textil MX",
+      "weight": 3.4,
+      "generic": false,
+      "url": "https://news.google.com/rss/search?q=%22industria+textil%22+OR+%22industria+del+vestido%22+OR+%22sector+textil%22+M%C3%A9xico&hl=es-419&gl=MX&ceid=MX%3Aes-419"
+    },
+    {
+      "lang": "es",
+      "region": "mx",
+      "kind": "trade",
+      "mirror": true,
+      "aggregator": true,
+      "name": "Modelos mexicanas",
+      "short": "Modelos MX",
+      "weight": 3.0,
+      "generic": false,
+      "url": "https://news.google.com/rss/search?q=%28%22modelo+mexicana%22+OR+%22modelos+mexicanas%22+OR+%22modelo+mexicano%22%29+pasarela+OR+campa%C3%B1a+OR+desfile&hl=es-419&gl=MX&ceid=MX%3Aes-419"
     }
   ]
 }
