@@ -31,6 +31,39 @@
 - `herramientas/token-youtube.py` resuelve el refresh token con el flujo de dispositivo
   (sin servidor local: un código que se escribe en google.com/device desde el móvil).
 
+## 2026-11-08 · las cápsulas repetían noticias
+
+Queja del usuario: "está repitiendo notas". Medido en las 12 cápsulas del 6 al 8: 24 de 60
+noticias ya habían salido antes (The IQ Collection en 6 cápsulas LatAm, El Trompo en 5).
+
+Causas:
+- Ventana de 10 h: noche (19:00) → mañana (07:00) son 12 h, y mañana → noche también;
+  solo protegía franjas seguidas.
+- Si quedaban menos de 3 nuevas, se "permitía repetir para no dejar la cápsula vacía":
+  la LatAm (≈14 candidatas para 3 franjas) caía ahí casi siempre.
+- Solo comparaba el enlace exacto: la misma historia en otro medio, en otro idioma o con
+  el enlace de Google ya resuelto pasaba como nueva (horóscopo de Vogue UK y Vogue US).
+- Cada edición llevaba su registro: lo de la general podía salir en la LatAm y van al
+  mismo canal y a la misma cuenta.
+- Las corridas que no publican (push de código) también apuntaban sus noticias.
+
+Arreglo (`capsule.py`):
+- Ventana de **72 h** (`--ventana-repe`), registro guardado 7 días.
+- **Un solo registro** `docs/videos/usadas.json` para las dos ediciones, con enlace
+  canónico y titular. Lee el formato viejo y migra `usadas-latam.json`; para entradas
+  viejas sin titular lo busca en el corpus.
+- **Misma historia** (`misma_historia`): ≥3 palabras significativas en común y ≥50 % del
+  titular más corto. Probado con 172 titulares reales: junta las 8 versiones de Martine
+  Rose/Balenciaga (en inglés, español e italiano) sin confundir noticias distintas.
+  También dentro de una cápsula: una sola versión por historia.
+- **Sin relleno**: con menos de 3 noticias nuevas la franja no lleva cápsula (y
+  `publicar.py` ya se salta lo que no tiene vídeo).
+- Solo se apuntan como emitidas las cápsulas que se publican (`--registrar`, que el
+  workflow activa en las programadas y en las manuales con "publicar").
+- Simulación de 4 franjas seguidas con los datos reales: 0 repetidas. Pero la LatAm se
+  queda sin cápsula: sus 14 candidatas ya salieron en los últimos 3 días. La región da
+  noticias para ~1 cápsula al día, no para 3.
+
 ## 2026-11-06 · marca TBA y fechas locales
 
 - El logo sustituye a "MODA/RADAR" en pantalla. Se usan **dos versiones**: `logo-tba.png`

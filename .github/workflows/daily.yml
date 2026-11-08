@@ -86,6 +86,8 @@ jobs:
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           CAPSULE_VOICE: ${{ vars.CAPSULE_VOICE }}
+          # solo las cápsulas que se publican cuentan como emitidas (un push de prueba no gasta noticias)
+          CAPSULE_REGISTRAR: ${{ github.event_name == 'schedule' || inputs.publicar == true }}
         run: |
           mkdir -p datos
           if python capsule.py --franja "${{ steps.franja.outputs.franja }}" > datos/capsula.log 2>&1; then
@@ -101,9 +103,11 @@ jobs:
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           CAPSULE_VOICE: ${{ vars.CAPSULE_VOICE }}
+          # solo las cápsulas que se publican cuentan como emitidas (un push de prueba no gasta noticias)
+          CAPSULE_REGISTRAR: ${{ github.event_name == 'schedule' || inputs.publicar == true }}
         run: |
           if python capsule.py --edicion latam --franja "${{ steps.franja.outputs.franja }}" > datos/capsula-latam.log 2>&1; then
-            grep -E "candidatas|no hay noticias|Listo" datos/capsula-latam.log || true
+            grep -E "candidatas|no hay noticias|ya emitidas|Solo quedan|Listo" datos/capsula-latam.log || true
             rm -f datos/capsula-latam.log
           else
             echo "::warning::La capsula LatAm fallo; el detalle queda en datos/capsula-latam.log"

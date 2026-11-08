@@ -288,3 +288,10 @@ moda-radar/
 ├── memoria/                bitácora de decisiones y fallos
 └── .github/workflows/      tarea programada diaria
 ```
+
+## Sin repetir noticias
+
+Ninguna cápsula repite lo emitido en los **últimos 3 días** en cualquiera de las dos
+ediciones: ni el mismo enlace ni la misma historia contada por otro medio u otro idioma
+(registro en `docs/videos/usadas.json`). Si una franja no tiene al menos 3 noticias
+nuevas, ese día no sale esa cápsula. Solo cuentan las cápsulas que se publican.

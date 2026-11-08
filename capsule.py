@@ -1121,46 +1121,144 @@ HASHTAGS = {
 }
 
 
-def _leer_usadas(path):
+# --- noticias ya emitidas -------------------------------------------------------------
+#
+# Registro único para las dos ediciones (general y México/LatAm): se publican en el mismo
+# canal y la misma cuenta, así que lo que ya salió en una tampoco se repite en la otra.
+# Una noticia cuenta como emitida si coincide el enlace o si el titular es la misma
+# historia (otro medio, otro idioma, el enlace de Google ya resuelto...).
+
+REGISTRO = "usadas.json"
+REGISTRO_VIEJO = "usadas-latam.json"   # antes cada edición llevaba el suyo
+GUARDAR_HORAS = 7 * 24
+
+_STOP = set("""fashion moda about their which after where with from this that what have more will your
+into over just than they them were been when also only most some such very each every
+para como sobre esta este estos estas entre desde nueva nuevo nuevas nuevos todo toda todos
+todas pero porque cuando donde quien tiene tienen hace hacer puede pueden news week year says
+said segun tras ante bajo hasta hacia durante mejor mejores black friday""".split())
+
+
+def clave_titular(titulo):
+    import unicodedata
+    t = unicodedata.normalize("NFKD", (titulo or "").lower())
+    t = "".join(c for c in t if not unicodedata.combining(c))
+    return {w for w in re.findall(r"[a-z][a-z0-9]{3,}", t) if w not in _STOP}
+
+
+def misma_historia(a, b):
+    """True si dos titulares cuentan lo mismo. Se probó contra 172 titulares reales:
+    junta "Martine Rose named Balenciaga Creative Director" con "Martine Rose es la
+    nueva directora creativa de Balenciaga" y no confunde noticias distintas."""
+    ka = a if isinstance(a, set) else clave_titular(a)
+    kb = b if isinstance(b, set) else clave_titular(b)
+    if not ka or not kb:
+        return False
+    comunes = ka & kb
+    return len(comunes) >= 3 and len(comunes) / min(len(ka), len(kb)) >= 0.5
+
+
+def enlace_canonico(link):
     try:
-        return json.loads(path.read_text(encoding="utf-8"))
-    except Exception:  # noqa: BLE001
-        return {}
+        u = urllib.parse.urlsplit(link or "")
+    except ValueError:
+        return link or ""
+    host = u.netloc.lower().removeprefix("www.")
+    return f"{host}{u.path.rstrip('/')}"
 
 
-def quitar_repetidas(items, path, horas):
-    """Quita lo emitido hace menos de `horas`: la cápsula de la tarde no repite la de la mañana."""
-    datos = _leer_usadas(path)
-    ahora = datetime.now(timezone.utc)
-    recientes = set()
-    for link, ts in datos.items():
+def _leer_usadas(outdir):
+    """{enlace: {"t": iso, "titulo": ...}}. Lee también el formato viejo {enlace: iso}."""
+    datos = {}
+    for nombre in (REGISTRO_VIEJO, REGISTRO):
         try:
-            t = datetime.fromisoformat(str(ts).replace("Z", "+00:00"))
+            crudo = json.loads((outdir / nombre).read_text(encoding="utf-8"))
         except Exception:  # noqa: BLE001
             continue
-        if (ahora - t).total_seconds() < horas * 3600:
-            recientes.add(link)
-    frescas = [it for it in items if it.get("link") not in recientes]
+        for link, v in crudo.items():
+            datos[link] = v if isinstance(v, dict) else {"t": v, "titulo": ""}
+    return datos
+
+
+def _edad_horas(ts, ahora):
+    try:
+        t = datetime.fromisoformat(str(ts).replace("Z", "+00:00"))
+    except Exception:  # noqa: BLE001
+        return None
+    return (ahora - t).total_seconds() / 3600
+
+
+def _titulos_conocidos(items, outdir):
+    """enlace → titular, para las entradas del registro viejo (solo guardaban el enlace)."""
+    mapa = {enlace_canonico(it.get("link")): it.get("title", "") for it in items}
+    corpus = outdir.parent.parent / "datos" / "noticias.jsonl"
+    try:
+        with corpus.open(encoding="utf-8") as f:
+            for linea in f:
+                try:
+                    r = json.loads(linea)
+                except ValueError:
+                    continue
+                mapa.setdefault(enlace_canonico(r.get("link")), r.get("title", ""))
+    except OSError:
+        pass
+    return mapa
+
+
+def quitar_repetidas(items, outdir, horas):
+    """Quita lo emitido en las últimas `horas` (por enlace o por ser la misma historia)."""
+    ahora = datetime.now(timezone.utc)
+    enlaces, claves = set(), []
+    titulos = None
+    for link, v in _leer_usadas(outdir).items():
+        edad = _edad_horas(v.get("t"), ahora)
+        if edad is None or edad >= horas:
+            continue
+        enlaces.add(enlace_canonico(link))
+        titulo = v.get("titulo")
+        if not titulo:
+            if titulos is None:
+                titulos = _titulos_conocidos(items, outdir)
+            titulo = titulos.get(enlace_canonico(link), "")
+        if titulo:
+            claves.append(clave_titular(titulo))
+    frescas = []
+    for it in items:
+        if enlace_canonico(it.get("link")) in enlaces:
+            continue
+        k = clave_titular(it.get("title"))
+        if any(misma_historia(k, c) for c in claves):
+            continue
+        frescas.append(it)
     return frescas, len(items) - len(frescas)
 
 
-def marcar_usadas(path, items):
-    """Apunta las noticias emitidas y tira lo que ya tiene más de 3 días."""
-    datos = _leer_usadas(path)
+def una_por_historia(items):
+    """Dentro de la misma cápsula, una sola versión de cada historia (la de más peso)."""
+    elegidas = []
+    for it in sorted(items, key=lambda x: x.get("score", 0), reverse=True):
+        k = clave_titular(it.get("title"))
+        if not any(misma_historia(k, clave_titular(e.get("title"))) for e in elegidas):
+            elegidas.append(it)
+    return elegidas
+
+
+def marcar_usadas(outdir, items):
+    """Apunta las noticias emitidas y tira lo que tiene más de una semana."""
+    datos = _leer_usadas(outdir)
     ahora = datetime.now(timezone.utc)
+    marca = ahora.isoformat().replace("+00:00", "Z")
     for it in items:
         if it.get("link"):
-            datos[it["link"]] = ahora.isoformat().replace("+00:00", "Z")
+            datos[it["link"]] = {"t": marca, "titulo": it.get("title", "")}
     limpio = {}
-    for link, ts in datos.items():
-        try:
-            t = datetime.fromisoformat(str(ts).replace("Z", "+00:00"))
-        except Exception:  # noqa: BLE001
-            continue
-        if (ahora - t).total_seconds() < 72 * 3600:
-            limpio[link] = ts
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(limpio, ensure_ascii=False, indent=1), encoding="utf-8")
+    for link, v in datos.items():
+        edad = _edad_horas(v.get("t"), ahora)
+        if edad is not None and edad < GUARDAR_HORAS:
+            limpio[link] = v
+    outdir.mkdir(parents=True, exist_ok=True)
+    (outdir / REGISTRO).write_text(json.dumps(limpio, ensure_ascii=False, indent=1), encoding="utf-8")
+    (outdir / REGISTRO_VIEJO).unlink(missing_ok=True)
 
 
 def escribir_kit(outdir, fecha, franja, edicion, ED, meta, root):
@@ -1214,8 +1312,11 @@ def main(argv=None):
                     help="general (todas las noticias) o latam (México y Latinoamérica)")
     ap.add_argument("--franja", choices=sorted(FRANJAS), default="dia",
                     help="momento del día: dia, manana, mediodia o noche")
-    ap.add_argument("--ventana-repe", type=int, default=10,
-                    help="horas sin repetir noticias ya emitidas en esta edición")
+    ap.add_argument("--ventana-repe", type=int, default=72,
+                    help="horas sin repetir noticias ya emitidas (en cualquiera de las dos ediciones)")
+    ap.add_argument("--registrar", action="store_true",
+                    default=os.environ.get("CAPSULE_REGISTRAR", "").lower() == "true",
+                    help="apuntar las noticias como emitidas (solo cuando la cápsula se publica)")
     args = ap.parse_args(argv)
     global ED
     ED = EDICIONES[args.edicion]
@@ -1245,15 +1346,15 @@ def main(argv=None):
         print("Muy pocas noticias para montar la capsula.")
         return 1
 
-    # la cápsula de mediodía no repite lo que ya salió por la mañana
-    usadas_path = outdir / f"usadas{ED['sufijo']}.json"
-    frescas, repetidas = quitar_repetidas(items, usadas_path, args.ventana_repe)
+    # nada de lo emitido en los últimos 3 días, en ninguna de las dos ediciones
+    frescas, repetidas = quitar_repetidas(items, outdir, args.ventana_repe)
     if repetidas:
         print(f"descartadas por ya emitidas ({args.ventana_repe} h): {repetidas}")
-    if len(frescas) >= 3:
-        items = frescas
-    elif repetidas:
-        print("quedan pocas nuevas: se permite repetir para no dejar la capsula vacia")
+    items = una_por_historia(frescas)
+    if len(items) < 3:
+        # mejor saltarse una franja que publicar otra vez lo mismo
+        print(f"Solo quedan {len(items)} noticias nuevas: esta franja no lleva capsula.")
+        return 0
 
     # las noticias sin foto en el RSS suelen tenerla en la página: la buscamos antes de elegir
     con_foto = resolve_images(items)
@@ -1374,7 +1475,9 @@ def main(argv=None):
             json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8"
         )
         kit = escribir_kit(outdir, fecha, args.franja, args.edicion, ED, meta, root)
-        marcar_usadas(usadas_path, picked)
+        if args.registrar:
+            marcar_usadas(outdir, picked)
+            print("noticias apuntadas como emitidas")
 
         size_mb = final.stat().st_size / 1024 / 1024
         print(f"\nListo: {final.relative_to(root)} · {total:.1f}s · {size_mb:.1f} MB")
