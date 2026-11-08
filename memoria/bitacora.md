@@ -31,6 +31,22 @@
 - `herramientas/token-youtube.py` resuelve el refresh token con el flujo de dispositivo
   (sin servidor local: un código que se escribe en google.com/device desde el móvil).
 
+## 2026-11-08 · más búsquedas por tema (escena mexicana)
+
+Pedido: diseñadores mexicanos, moda Tijuana, segunda mano, bazares, takeovers, fashion
+shows. Probadas con *Probar fuentes* (titulares de muestra) y afinadas:
+- Tijuana: "desfile" traía los desfiles cívicos (Día de Muertos, 16 de septiembre) y "moda"
+  o "modelo" sueltos traían "café de moda" o el "modelo de gobierno" del alcalde. Se queda
+  la búsqueda vieja y se suma *Diseño y pasarela en Tijuana* (pasarela, desfile de moda,
+  diseñador/a tijuanense...), con `short` "Tijuana" para la prioridad de la cápsula.
+- Fashion shows: sin Victoria's Secret ni "dónde ver" ni catrinas. NOISE_RE: "a qué hora",
+  "dónde ver".
+- Bazares y Takeovers/pop-ups con `generic: true` (el titular debe hablar de moda): fuera
+  los pop-ups de BTS o Harry Styles.
+- Probadas y pendientes de que el usuario elija (en `herramientas/fuentes-temas.json`):
+  streetwear, textil artesanal, Intermoda y ferias, Baja California, San Diego, industria
+  textil, modelos mexicanas.
+
 ## 2026-11-08 · las cápsulas repetían noticias
 
 Queja del usuario: "está repitiendo notas". Medido en las 12 cápsulas del 6 al 8: 24 de 60
