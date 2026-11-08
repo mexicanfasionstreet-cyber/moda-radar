@@ -1,9 +1,9 @@
 {
- "date": "2026-11-07",
+ "date": "2026-11-08",
  "edition": "latam",
- "duration": 71.0,
+ "duration": 66.1,
  "script_source": "IA (deepseek-chat)",
- "hook": "The IQ Collection llega a México y Adolfo Domínguez crece con México a la cabeza",
+ "hook": "The IQ Collection llega a México y Adidas rompe récord de ingresos",
  "items": [
   {
    "title": "The IQ Collection abre en CDMX",
@@ -13,31 +13,31 @@
    "photo_credit": null
   },
   {
-   "title": "Día de Muertos con diseño mexicano",
+   "title": "MINI y diseño mexicano en Polanco",
    "headline": "MINI y Olmos & Flores celebran el Día de Muertos con diseño mexicano Copiar",
    "source": "Vogue MX",
    "link": "https://www.vogue.mx/articulo/mini-ofrenda-olmos-y-flores-dia-de-muertos-diseno-mexicano",
    "photo_credit": null
   },
   {
-   "title": "Adidas logra cifras récord",
+   "title": "Adidas logra ingresos récord",
    "headline": "Adidas posts €7.252 billion in revenue over 3 months and reaches record profits as sales of sportswear grow",
    "source": "Merca2.0",
    "link": "https://www.merca20.com/adidas-posts-e7-252-billion-in-revenue-over-3-months-and-reaches-record-profits-as-sales-of-sportswear-grow/",
    "photo_credit": null
   },
   {
-   "title": "Adolfo Domínguez crece en la región",
-   "headline": "Adolfo Domínguez crece un 81% en Latinoamérica desde 2021, con México a la cabeza",
-   "source": "Modaes",
-   "link": "https://www.modaes.com/empresas/adolfo-dominguez-crece-un-81-en-latinoamerica-desde-2021-con-mexico-a-la-cabeza",
+   "title": "16 relojes japoneses a seguir",
+   "headline": "Relojes japoneses: Los 16 mejores modelos que deben estar en tu radar",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/mejores-relojes-japoneses",
    "photo_credit": null
   },
   {
    "title": "El Trompo celebra con moda",
    "headline": "El Trompo conmemoró día de muertos con arte, música y moda",
    "source": "Uniradio Informa Baja California",
-   "link": "https://www.uniradiobaja.com/sociedad/el-trompo-conmemoro-dia-muertos-arte-musica-moda-n912619/amp",
+   "link": "https://www.uniradiobaja.com/sociedad/el-trompo-conmemoro-dia-muertos-arte-musica-moda-n912619",
    "photo_credit": null
   }
  ]

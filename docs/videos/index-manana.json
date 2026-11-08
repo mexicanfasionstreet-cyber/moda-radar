@@ -1,43 +1,43 @@
 {
- "date": "2026-11-07",
+ "date": "2026-11-08",
  "edition": "general",
- "duration": 64.8,
+ "duration": 76.8,
  "script_source": "IA (deepseek-chat)",
- "hook": "Balenciaga nombra a Martine Rose como su nueva directora creativa",
+ "hook": "Martine Rose dirigirá Balenciaga tras la salida de Pierpaolo Piccioli",
  "items": [
   {
-   "title": "Martine Rose lidera Balenciaga",
+   "title": "Martine Rose nueva directora de Balenciaga",
    "headline": "Martine Rose named Balenciaga Creative Director",
    "source": "The Industry",
    "link": "https://www.theindustry.fashion/martine-rose-named-balenciaga-creative-director/",
    "photo_credit": null
   },
   {
-   "title": "Planes estrategicos dan resultados",
-   "headline": "Ralph Lauren and Tapestry Led the Way, Capri and Under Armour Are Trying to Follow",
-   "source": "WWD",
-   "link": "https://wwd.com/business-news/financial/fashion-ceos-focus-on-growth-amid-economic-challenges-1239405291/",
+   "title": "Horóscopos de invierno 2026",
+   "headline": "This Is What Winter 2026 Has in Store for Every Star Sign, According to an Astrologer",
+   "source": "Vogue",
+   "link": "https://www.vogue.com/article/winter-2026-horoscopes-astrology-every-star-sign",
    "photo_credit": null
   },
   {
-   "title": "Lo que no te puedes perder",
+   "title": "CFDA, Balenciaga y el Met",
    "headline": "ICYMI: 2026 CFDA Fashion Award Winners, Pierpaolo Piccioli Exits Balenciaga & The Met Reveals Its Next Costume Institute Exhibit",
    "source": "Fashionista",
    "link": "https://fashionista.com/2026/11/fashion-news-you-need-to-know-november-7",
    "photo_credit": null
   },
   {
-   "title": "Nuevas fronteras sostenibles",
-   "headline": "AI, Cooperation, Space Among Next Frontiers for Fashion and Sustainability",
+   "title": "Ralph Lauren y Tapestry lideran",
+   "headline": "Ralph Lauren and Tapestry Led the Way, Capri and Under Armour Are Trying to Follow",
    "source": "WWD",
-   "link": "https://wwd.com/sustainability/business/ai-space-sustainability-2026-venice-fashion-forum-1239404849/",
+   "link": "https://wwd.com/business-news/financial/fashion-ceos-focus-on-growth-amid-economic-challenges-1239405291/",
    "photo_credit": null
   },
   {
-   "title": "Horoscopo de invierno 2026",
-   "headline": "This Is What Winter 2026 Has In Store For Each Sign, According To An Astrologer",
-   "source": "Vogue UK",
-   "link": "https://www.vogue.co.uk/article/winter-2026-horoscopes",
+   "title": "Parker Posey brilla en Gucci",
+   "headline": "Parker Posey Captures Old School Glamour in Gucci at the LACMA Gala 2026",
+   "source": "WWD",
+   "link": "https://wwd.com/pop-culture/celebrity-news/parker-posey-gucci-dress-lacma-gala-2026-1239406034/",
    "photo_credit": null
   }
  ]
