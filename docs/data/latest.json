@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T13:41:52.079181Z",
+ "generated": "2026-11-08T14:24:16.560492Z",
  "days": 4,
  "count": 165,
  "sources_ok": 44,
@@ -26,7 +26,7 @@
    "via": "",
    "also": [],
    "id": "ac183fbbe9fe",
-   "score": 6.16
+   "score": 5.56
   },
   {
    "title": "Deja el pelo sedoso y evita el encrespamiento: el spray multiusos para el cabello perfecto existe y es este",
@@ -47,7 +47,7 @@
    "via": "",
    "also": [],
    "id": "1144ed67caed",
-   "score": 7.38
+   "score": 6.78
   },
   {
    "title": "This Is What Winter 2026 Has in Store for Every Star Sign, According to an Astrologer",
@@ -427,7 +427,7 @@
    "via": "",
    "also": [],
    "id": "d8e97397dedf",
-   "score": 5.79
+   "score": 5.29
   },
   {
    "title": "Mikkelsen Innovation Starts U.S. Subsidiary And Opens Manufacturing And Support Facility In Milwaukee, Wisconsin",
@@ -448,7 +448,7 @@
    "via": "",
    "also": [],
    "id": "42e972312c08",
-   "score": 6.94
+   "score": 6.44
   },
   {
    "title": "CHT Germany Gmbh Is Finalist For The “German Sustainability Award Companies 2027”",
@@ -469,7 +469,7 @@
    "via": "",
    "also": [],
    "id": "073d2a8585cf",
-   "score": 6.74
+   "score": 6.24
   },
   {
    "title": "NylaNova Announces Partnership With Nylon-6 Producer Nylene",
@@ -937,6 +937,27 @@
    "also": [],
    "id": "c0cb85e6086e",
    "score": 6.75
+  },
+  {
+   "title": "Why Is It So Hard to Build an Independent Fashion Brand? | BoF",
+   "link": "https://www.businessoffashion.com/briefings/retail/why-is-it-so-hard-to-build-an-independent-fashion-brand/",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-06T20:00:00Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "industria"
+   ],
+   "via": "The Business of Fashion",
+   "also": [],
+   "id": "1f8a07bba36b",
+   "score": 6.95
   },
   {
    "title": "Martine Rose es la nueva directora creativa de Balenciaga: ¿quién es la diseñadora que hará historia en la casa de moda?",
@@ -2020,27 +2041,6 @@
    "score": 7.14
   },
   {
-   "title": "What’s Driving Supreme’s Quiet Comeback",
-   "link": "https://www.businessoffashion.com/articles/retail/whats-driving-supremes-quiet-comeback/",
-   "excerpt": "",
-   "image": "",
-   "published": "2026-11-06T05:30:00Z",
-   "source": "BoF",
-   "source_name": "Business of Fashion",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "global",
-   "tags": [
-    "industria"
-   ],
-   "via": "The Business of Fashion",
-   "also": [],
-   "id": "8db911de08de",
-   "score": 6.95
-  },
-  {
    "title": "Liz Rodbell Named Group President of Perry Ellis International",
    "link": "https://wwd.com/business-news/markets/liz-rodbell-group-president-perry-ellis-international-1239402652/",
    "excerpt": "Rodbell will oversee PEI's core sportswear brands, licensing, and strategic growth initiatives.",
@@ -2186,27 +2186,6 @@
    "also": [],
    "id": "e1f12a0b927c",
    "score": 5.26
-  },
-  {
-   "title": "Diseñadores emergentes y tendencias en el Global Fashion Collective 2027",
-   "link": "https://www.vogue.mx/articulo/global-fashion-collective-2027-tendencias-y-disenadores",
-   "excerpt": "Conoce a los 6 diseñadores emergentes de GLOBAL FASHION COLLECTIVE - SS27 que llevron nuevas visiones creativas a las pasarelas de Milán y París.",
-   "image": "https://media.vogue.mx/photos/6aeb7d619d0ef086e6754a8d/master/pass/Global-Fashion-Collective-Article-Cover-Cuadra-S27.jpg",
-   "published": "2026-11-05T23:31:18Z",
-   "source": "Vogue MX",
-   "source_name": "Vogue México",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "diseno"
-   ],
-   "via": "",
-   "also": [],
-   "id": "b355d2fb3968",
-   "score": 6.0
   },
   {
    "title": "Dopo lo stop di Galliano il Met svela la nuova mostra del Costume Institute",
@@ -2836,7 +2815,7 @@
    "via": "",
    "also": [],
    "id": "b61d02c1254d",
-   "score": 6.35
+   "score": 5.95
   },
   {
    "title": "How These Curated Thrift Shops Are Keeping Whimsical NYC Retail Alive",
@@ -3152,6 +3131,27 @@
    "also": [],
    "id": "549b63ea1cdc",
    "score": 6.35
+  },
+  {
+   "title": "How AI Is Changing the Way Business Leaders Make Decisions",
+   "link": "https://www.businessoffashion.com/articles/artificial-intelligence/aily-labs-bianca-anghelina-ai-decision-intelligence-business-leaders/",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-05T05:00:00Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "industria"
+   ],
+   "via": "The Business of Fashion",
+   "also": [],
+   "id": "c69fe2b7b5ac",
+   "score": 6.55
   },
   {
    "title": "How is CVS sneaking brands into its stores without brand approval?",
