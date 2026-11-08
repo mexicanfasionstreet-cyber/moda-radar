@@ -1,0 +1,76 @@
+{
+ "sources": [
+  {
+   "weight": 3.2,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false,
+   "mirror": true,
+   "aggregator": true,
+   "name": "Moda en Tijuana v2",
+   "short": "Moda en Tijuana v2",
+   "url": "https://news.google.com/rss/search?q=%28moda+OR+fashion+OR+boutique+OR+dise%C3%B1adora+OR+dise%C3%B1ador+OR+pasarela+OR+%22desfile+de+moda%22+OR+%22fashion+week%22+OR+modelo%29+Tijuana+-%22D%C3%ADa+de+Muertos%22+-c%C3%ADvico&hl=es-419&gl=MX&ceid=MX%3Aes-419"
+  },
+  {
+   "weight": 3.2,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false,
+   "mirror": true,
+   "aggregator": true,
+   "name": "Fashion shows v2",
+   "short": "Fashion shows v2",
+   "url": "https://news.google.com/rss/search?q=%28%22fashion+show%22+OR+%22desfile+de+moda%22+OR+pasarela%29+%28M%C3%A9xico+OR+CDMX+OR+Guadalajara+OR+Monterrey+OR+Tijuana%29+-%22Victoria%27s+Secret%22+-%22d%C3%B3nde+ver%22&hl=es-419&gl=MX&ceid=MX%3Aes-419"
+  },
+  {
+   "weight": 3.2,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false,
+   "mirror": true,
+   "aggregator": true,
+   "name": "Streetwear v2",
+   "short": "Streetwear v2",
+   "url": "https://news.google.com/rss/search?q=%28streetwear+OR+sneakers+OR+%22marca+de+ropa%22+OR+%22marca+mexicana+de+ropa%22%29+M%C3%A9xico+-%22tenis+de+mesa%22+-ATP&hl=es-419&gl=MX&ceid=MX%3Aes-419"
+  },
+  {
+   "weight": 3.2,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false,
+   "mirror": true,
+   "aggregator": true,
+   "name": "Takeovers v2",
+   "short": "Takeovers v2",
+   "url": "https://news.google.com/rss/search?q=%28takeover+OR+%22pop-up%22+OR+%22pop+up+store%22%29+%28moda+OR+streetwear+OR+ropa+OR+boutique%29+%28M%C3%A9xico+OR+CDMX+OR+Tijuana%29&hl=es-419&gl=MX&ceid=MX%3Aes-419"
+  },
+  {
+   "weight": 3.2,
+   "lang": "es",
+   "region": "mx",
+   "kind": "trade",
+   "generic": false,
+   "mirror": true,
+   "aggregator": true,
+   "name": "Baja California v2",
+   "short": "Baja California v2",
+   "url": "https://news.google.com/rss/search?q=%28moda+OR+fashion+OR+dise%C3%B1adora+OR+dise%C3%B1ador+OR+pasarela+OR+%22desfile+de+moda%22%29+%28Ensenada+OR+Mexicali+OR+Rosarito+OR+Tecate+OR+%22Baja+California%22%29+-hotel&hl=es-419&gl=MX&ceid=MX%3Aes-419"
+  },
+  {
+   "weight": 3.2,
+   "lang": "en",
+   "region": "us",
+   "kind": "trade",
+   "generic": false,
+   "mirror": true,
+   "aggregator": true,
+   "name": "San Diego v2",
+   "short": "San Diego v2",
+   "url": "https://news.google.com/rss/search?q=%28%22fashion+show%22+OR+%22fashion+designer%22+OR+%22fashion+week%22+OR+%22slow+fashion%22+OR+%22pop-up+shop%22+OR+boutique%29+%22San+Diego%22+-%22Fashion+Valley%22&hl=en-US&gl=US&ceid=US%3Aen-US"
+  }
+ ]
+}
