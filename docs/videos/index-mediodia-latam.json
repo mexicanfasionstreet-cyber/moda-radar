@@ -1,43 +1,43 @@
 {
- "date": "2026-11-07",
+ "date": "2026-11-08",
  "edition": "latam",
- "duration": 64.0,
+ "duration": 78.7,
  "script_source": "IA (deepseek-chat)",
- "hook": "Piaget, Levi’s, adidas y Balenciaga marcan la moda de hoy",
+ "hook": "Moda, polémicas y sorpresas marcan la agenda de hoy en México y Latinoamérica",
  "items": [
   {
-   "title": "Piaget rinde homenaje a Warhol",
-   "headline": "Piaget Andy Warhol Camouflage: el reloj de lujo que convierte el arte pop en una joya de oro y piedras preciosas",
+   "title": "Verstappen remonta en Brasil 2026",
+   "headline": "Gran Premio de Brasil 2026: Resultados de la Fórmula 1",
    "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/reloj-piaget-andy-warhol-camouflage-g0a51242-precio-disponibilidad-06-11-2026",
+   "link": "https://www.gq.com.mx/articulo/formula-1-gran-premio-de-brasil-2026-clasificacion-resultados-de-la-carrera-08-11-2026",
    "photo_credit": null
   },
   {
-   "title": "Levi’s y Belinda lanzan cápsula",
-   "headline": "Levi’s® y Belinda: Una colección cápsula que necesitas tener en tu armario",
-   "source": "Marie Claire MX",
-   "link": "https://marieclaire.com.mx/levis-belinda-coleccion-capsula-2026/",
-   "photo_credit": null
-  },
-  {
-   "title": "adidas reinventa el reloj digital",
-   "headline": "adidas Originals Adaptik One S Watch: El reloj digital que puedes llevar en la muñeca o colgar de tu mochila",
+   "title": "Perfumes de otoño para hombre",
+   "headline": "Perfumes de otoño para hombre: Los 12 mejores según tu signo zodiacal, de aromas seductores para dejar huella",
    "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/reloj-adidas-originals-adaptik-one-s-watch-precio-disponibilidad-06-11-2026",
+   "link": "https://www.gq.com.mx/articulo/mejores-perfumes-de-otono-para-hombre-segun-tu-signo-zodiacal",
    "photo_credit": null
   },
   {
-   "title": "Martine Rose dirige Balenciaga",
-   "headline": "Martine Rose es la nueva directora creativa de Balenciaga: ¿quién es la diseñadora que hará historia en la casa de moda?",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/martine-rose-nueva-directora-creativa-de-balenciaga-quien-es",
+   "title": "El rock vuelve a las playlists",
+   "headline": "¿El perreo pasó de moda? El rock está haciendo un comeback en las playlists adolescentes",
+   "source": "El Economista",
+   "link": "https://www.eleconomista.com.mx/opinion/perreo-paso-moda-rock-haciendo-comeback-playlists-adolescentes-20261108-842771.html",
    "photo_credit": null
   },
   {
-   "title": "SHEIN apuesta por lo familiar",
-   "headline": "SHEIN convierte a los Chavez en creadores de su nueva colección de ropa infantil para Navidad e invita a los seguidores a sumarse",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/shein-convierte-a-los-chavez-en-creadores-de-su-nueva-coleccion-de-ropa-infantil-para-navidad-e-invita-a-los-seguidores-a-sumarse/",
+   "title": "Polémica pasarela en Puebla",
+   "headline": "¿Sacrilegio en Catedral de Puebla? Pasarela de novias provoca indignación entre feligreses",
+   "source": "MTP Noticias",
+   "link": "https://mtpnoticias.com/virales/sacrilegio-en-catedral-de-puebla-pasarela-de-novias-provoca-indignacion-entre-feligreses/",
+   "photo_credit": null
+  },
+  {
+   "title": "Tocado de catrina se incendia",
+   "headline": "VIDEO: tocado de catrina se incendia durante pasarela en Baja California Sur",
+   "source": "Azteca Chihuahua",
+   "link": "https://www.aztecachihuahua.com/noticias/tocado-de-catrina-se-incendia-durante-pasarela-en-baja-california-sur/",
    "photo_credit": null
   }
  ]
