@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-08T14:24:16.560492Z",
+ "generated": "2026-11-08T14:37:39.410917Z",
  "days": 4,
- "count": 165,
- "sources_ok": 44,
+ "count": 169,
+ "sources_ok": 50,
  "sources_failed": [
   "Hypebeast"
  ],
@@ -729,6 +729,27 @@
    "score": 5.76
   },
   {
+   "title": "Simbarashe Cha on 10,000 Hours of Street Style Photography",
+   "link": "https://www.businessoffashion.com/podcasts/creative-class/simbarashe-cha-on-10000-hours-of-street-style-photography/",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-07T05:30:00Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "industria"
+   ],
+   "via": "The Business of Fashion",
+   "also": [],
+   "id": "c1712211138c",
+   "score": 7.45
+  },
+  {
    "title": "MINI y Olmos & Flores celebran el Día de Muertos con diseño mexicano Copiar",
    "link": "https://www.vogue.mx/articulo/mini-ofrenda-olmos-y-flores-dia-de-muertos-diseno-mexicano",
    "excerpt": "MINI México y Olmos & Flores reinterpretaron el Día de Muertos con una propuesta que unió diseño mexicano, moda, arte y gastronomía en Polanco.",
@@ -937,6 +958,27 @@
    "also": [],
    "id": "c0cb85e6086e",
    "score": 6.75
+  },
+  {
+   "title": "Nicaragua tan Talentosa en México Fashion Show",
+   "link": "https://www.el19digital.com/articulos/ver/184169-nicaragua-tan-talentosa-en-mexico-fashion-show",
+   "excerpt": "El talento y la creatividad nicaragüense trascendieron fronteras este 5 de Noviembre, con la participación de Nicaragua Diseña en una nueva edición de LATAM LUXURY SUMMIT presentado por México Fashion Show.",
+   "image": "https://www.el19digital.com/files/articulos/468475.webp",
+   "published": "2026-11-06T20:51:06Z",
+   "source": "Fashion shows",
+   "source_name": "Fashion shows México",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 3.0,
+   "lang": "es",
+   "region": "mx",
+   "tags": [
+    "industria"
+   ],
+   "via": "El 19 Digital",
+   "also": [],
+   "id": "6f03a2e4036b",
+   "score": 5.1
   },
   {
    "title": "Why Is It So Hard to Build an Independent Fashion Brand? | BoF",
@@ -2773,7 +2815,7 @@
    "via": "",
    "also": [],
    "id": "163ab91ad0b9",
-   "score": 5.26
+   "score": 4.86
   },
   {
    "title": "John Frieda, Hair-Care Mogul Who Soothed Women’s Curls, Has Died",
@@ -2794,7 +2836,7 @@
    "via": "",
    "also": [],
    "id": "39a03888497e",
-   "score": 6.98
+   "score": 6.58
   },
   {
    "title": "Storari: “Ancora grandi brand della moda usufruiscono del caporalato”",
@@ -3196,6 +3238,27 @@
    "score": 5.13
   },
   {
+   "title": "¡Orgullo hidalguense! Diseñador de Yahualica lleva su moda hasta Italia",
+   "link": "https://criteriohidalgo.com/noticias/regiones/orgullo-hidalguense-disenador-de-yahualica-lleva-su-moda-hasta-italia",
+   "excerpt": "Publicado por Criterio Hidalgo.",
+   "image": "https://cdn-cubimetrix.sfo3.digitaloceanspaces.com/uploads/2026/11/Jacob-Tolentino-768x512.jpg",
+   "published": "2026-11-05T04:13:21Z",
+   "source": "Fashion shows",
+   "source_name": "Fashion shows México",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 3.0,
+   "lang": "es",
+   "region": "mx",
+   "tags": [
+    "diseno"
+   ],
+   "via": "Criterio Hidalgo",
+   "also": [],
+   "id": "39a0e3cf3a06",
+   "score": 4.4
+  },
+  {
    "title": "Rhode’s European summer fuels 51% sales spike for E.l.f. Beauty",
    "link": "https://www.glossy.co/beauty/rhodes-european-summer-fuels-51-sales-spike-for-e-l-f-beauty/",
    "excerpt": "E.l.f. Beauty is on another growth streak. “Rhode continues to break records with every launch, including most recently in Sephora Europe, marking the biggest launch in Sephora’s history,” E.l.f. Beauty CEO Tarang Amin said…",
@@ -3299,6 +3362,27 @@
    "also": [],
    "id": "7e197c6b58f0",
    "score": 6.15
+  },
+  {
+   "title": "De residuos a pasarela: la diseñadora mexicana Erika de Anda apuesta por transformar la industria de la moda",
+   "link": "https://politica.expansion.mx/mexico/2026/11/04/moda-circular-mexico-residuos-textiles-alta-costura",
+   "excerpt": "La diseñadora mexicana Erika de Anda apuesta por transformar residuos textiles en piezas de alta costura y capacitar a mujeres.",
+   "image": "https://cdn-3.expansion.mx/dims4/default/1df4066/2147483647/strip/true/crop/1548x813+0+64/resize/1200x630!/format/jpg/quality/80/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F79%2F1c%2F3e05ec7c4b24bc4d53646461bc98%2Ferika-de-anda-moda-circular.jpg",
+   "published": "2026-11-04T17:59:00Z",
+   "source": "Diseño MX",
+   "source_name": "Diseñadores mexicanos",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 3.4,
+   "lang": "es",
+   "region": "mx",
+   "tags": [
+    "pasarela"
+   ],
+   "via": "Expansión Política",
+   "also": [],
+   "id": "c0b7e6732af8",
+   "score": 5.08
   },
   {
    "title": "El revés electoral de Trump da a sus socios más margen de maniobra para resistir en el terreno comercial",
