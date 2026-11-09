@@ -1,18 +1,40 @@
 {
- "generated": "2026-11-09T14:12:11.751295Z",
+ "generated": "2026-11-09T15:27:25.342794Z",
  "days": 4,
- "count": 185,
- "sources_ok": 57,
+ "count": 169,
+ "sources_ok": 56,
  "sources_failed": [
+  "Drapers",
   "Hypebeast"
  ],
  "items": [
   {
-   "title": "Union Pacific CEO’s Rate Remark May Have Silenced Merger Opponents, STB Says",
-   "link": "https://wwd.com/sourcing-journal/logistics/stb-union-pacific-ceo-jim-vena-norfolk-southern-merger-opponents-video-1239405276/",
-   "excerpt": "The board ordered UP to release video of CEO Jim Vena saying he might raise rates for shippers who don't support the Norfolk Southern deal.",
+   "title": "The Best Hotels In New York City, From Five-Star Luxury To Boutique Retreats",
+   "link": "https://www.vogue.co.uk/article/best-hotels-new-york-city",
+   "excerpt": "Searching for the best hotels in New York City? Here are Vogue's favourite hotels in New York, from the Upper East Side to Brooklyn, to book now.",
+   "image": "https://media.vogue.co.uk/photos/65fab95e8c7debb76594eba1/master/pass/LowerRes_NineOrchard_March2022_SKJ_05.jpg",
+   "published": "2026-11-09T15:13:54Z",
+   "source": "Vogue UK",
+   "source_name": "British Vogue",
+   "kind": "consumer",
+   "mirror": false,
+   "weight": 4.1,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "retail"
+   ],
+   "via": "",
+   "also": [],
+   "id": "e4eadd309216",
+   "score": 8.62
+  },
+  {
+   "title": "Robert Wun’s Skullpanda Lands in Pop Mart’s Paris Flagship",
+   "link": "https://wwd.com/fashion-news/fashion-scoops/robert-wun-skullpanda-pop-mart-collaboration-paris-flagship-1239406692/",
+   "excerpt": "First to drop in store was “The Innocence,” an 11-inch action figure, with two other collectibles to follow.",
    "image": "",
-   "published": "2026-11-09T14:00:00Z",
+   "published": "2026-11-09T15:01:55Z",
    "source": "WWD",
    "source_name": "WWD",
    "kind": "trade",
@@ -21,12 +43,96 @@
    "lang": "en",
    "region": "us",
    "tags": [
-    "negocio"
+    "retail"
    ],
    "via": "",
    "also": [],
-   "id": "dc2114e24ca9",
-   "score": 9.55
+   "id": "623ee4e45a89",
+   "score": 9.35
+  },
+  {
+   "title": "Op-Ed: Fair Wages Require More Than Audits",
+   "link": "https://wwd.com/sourcing-journal/sustainability/op-ed-fair-wages-require-more-than-audits-bangladesh-cascale-1239402648/",
+   "excerpt": "Demands for unpaid wages, higher salaries and better working conditions are a reminder that the global apparel industry cannot separate its economic success from the livelihoods of the people who make its products.",
+   "image": "",
+   "published": "2026-11-09T15:00:00Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "sostenibilidad"
+   ],
+   "via": "",
+   "also": [],
+   "id": "6c29c5b2c8d6",
+   "score": 9.15
+  },
+  {
+   "title": "Le Sereno: Ese enclave de lujo clásico en Saint Barth se renueva esta temporada",
+   "link": "https://www.vogue.mx/articulo/le-sereno-saint-barthelemy-2026",
+   "excerpt": "En una isla donde el lujo suele asociarse con lo extraordinario, Le Sereno apuesta por algo mucho más difícil de conseguir: la sofisticación.",
+   "image": "https://media.vogue.mx/photos/6af1dec2203c0563c6f4d861/master/pass/CLASSIC%20POOL_FINAL_03.jpg",
+   "published": "2026-11-09T14:59:43Z",
+   "source": "Vogue MX",
+   "source_name": "Vogue México",
+   "kind": "consumer",
+   "mirror": false,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "mx",
+   "tags": [
+    "pasarela"
+   ],
+   "via": "",
+   "also": [],
+   "id": "8da12b5cd570",
+   "score": 7.8
+  },
+  {
+   "title": "Australian Brand OTAA Opens Fulfillment in Texas With Cart.com",
+   "link": "https://wwd.com/sourcing-journal/industry-news/otaa-opens-fulfillment-in-texas-with-cart-com-1239404137/",
+   "excerpt": "The strategic expansion comes on the back of a major shift in U.S. trade policy in 2025.",
+   "image": "",
+   "published": "2026-11-09T14:30:00Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "retail"
+   ],
+   "via": "",
+   "also": [],
+   "id": "bcb7f36b928d",
+   "score": 9.35
+  },
+  {
+   "title": "Hold On, COS Is Already Having a Black Friday Sale—These Are the Items That Are Giving Chic",
+   "link": "https://www.whowhatwear.com/fashion/shopping/cos-black-friday-sale-preview-2026",
+   "excerpt": "Fun fact. We're not even halfway through November, and some of our favorite retailers are already having Black Friday sales . COS is now part of that list. You can take 20% off sitewide right now (exclusions apply). The current…",
+   "image": "https://cdn.mos.cms.futurecdn.net/6kinX825R6bfbFqHHuFzSk-1920-80.jpg",
+   "published": "2026-11-09T14:14:13Z",
+   "source": "WhoWhatWear",
+   "source_name": "Who What Wear",
+   "kind": "consumer",
+   "mirror": false,
+   "weight": 3.1,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "retail"
+   ],
+   "via": "",
+   "also": [],
+   "id": "559c646ad9cd",
+   "score": 7.42
   },
   {
    "title": "David Schwimmer Revisits ‘Friends’ Nostalgia in Quince’s ‘The Red Sweater’ Campaign",
@@ -92,7 +198,7 @@
    "score": 8.54
   },
   {
-   "title": "Calvin Klein Unfurls the Icons With Jung Kook of BTS for Holiday 2026",
+   "title": "Calvin Klein Unwraps the Icons With Jung Kook of BTS for Holiday 2026",
    "link": "https://wwd.com/fashion-news/fashion-scoops/calvin-klein-icons-jung-kook-of-bts-holiday-2026-1239405003/",
    "excerpt": "The holiday edit runs the gamut from signature denim to seasonal layers and elevated staples.",
    "image": "",
@@ -218,46 +324,25 @@
    "score": 7.9
   },
   {
-   "title": "Reformation lifts guidance despite IPO-induced loss",
-   "link": "https://www.drapersonline.com/news/reformation-lifts-guidance-despite-ipo-induced-loss",
-   "excerpt": "Reformation's operating income fell 26.9% year on year to $10.2m (£8.5m) for the third quarter ended 26 September, as one-off items tied to its IPO swung it into the red. The post Reformation lifts guidance despite IPO-induced…",
-   "image": "",
-   "published": "2026-11-09T12:09:05Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
+   "title": "Government considers extending under-16s social media ban to Vinted and eBay",
+   "link": "https://www.theindustry.fashion/government-considers-extending-under-16s-social-media-ban-to-vinted-and-ebay/",
+   "excerpt": "The Government is considering extending its planned social media ban for under-16s to online marketplaces including Vinted and eBay, amid concerns that their messaging functions could expose children to grooming. Culture…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2024/05/ebay-150x150.jpg",
+   "published": "2026-11-09T12:00:10Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
    "kind": "trade",
    "mirror": false,
    "weight": 4.2,
    "lang": "en",
    "region": "uk",
    "tags": [
-    "negocio"
+    "cultura"
    ],
    "via": "",
    "also": [],
-   "id": "888f96986ead",
-   "score": 8.59
-  },
-  {
-   "title": "Louis Vuitton Brings ’80s Pop to The Frick With Alysa Liu and Chase Infiniti",
-   "link": "https://wwd.com/fashion-news/fashion-features/louis-vuitton-cruise-campaign-alysa-liu-chase-infiniti-1239406573/",
-   "excerpt": "The campaign for Nicolas Ghesquière's cruise collection, which also features actresses Amiah Miller and Giulia Maenza, plays with contrasting time periods.",
-   "image": "",
-   "published": "2026-11-09T12:00:00Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "pasarela"
-   ],
-   "via": "",
-   "also": [],
-   "id": "2750a21d9750",
-   "score": 8.65
+   "id": "20af18bda0e6",
+   "score": 7.74
   },
   {
    "title": "Allison Ellsworth Sold Poppi for $2 Billion. Now She’s Doing It Again.",
@@ -323,27 +408,6 @@
    "score": 7.9
   },
   {
-   "title": "Government considers banning under-16s from Vinted and Ebay",
-   "link": "https://www.drapersonline.com/news/government-considers-banning-under-16s-from-vinted-and-ebay",
-   "excerpt": "Online marketplaces Vinted and Ebay could be included in the social media ban for under-16s, according to reports. The post Government considers banning under-16s from Vinted and Ebay appeared first on Drapers .",
-   "image": "",
-   "published": "2026-11-09T11:53:00Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "industria"
-   ],
-   "via": "",
-   "also": [],
-   "id": "e6763a20f755",
-   "score": 7.79
-  },
-  {
    "title": "Labour representatives propose Tk 32,000 minimum wage for garment workers",
    "link": "https://textiletoday.com.bd/labour-representatives-propose-tk-32000-minimum-wage-for-garment-workers",
    "excerpt": "Labour representatives on the Minimum Wages Board have proposed a minimum monthly wage of Tk 32,000 for workers in Bangladesh's export-oriented ready-made garment (RMG) industry. The proposal was submitted at the board's second…",
@@ -405,6 +469,48 @@
    "also": [],
    "id": "581826d9874b",
    "score": 7.75
+  },
+  {
+   "title": "The Interview: Liberty’s new Head of Design Sinead O’Brien on shaping the future of its fashion offering",
+   "link": "https://www.theindustry.fashion/the-interview-libertys-new-head-of-design-sinead-obrien-on-shaping-the-future-of-its-fashion-offering/",
+   "excerpt": "British luxury department store Liberty appointed Sinead O’Brien as Head of Design last month as it looks to develop its in-house fashion collections and expand its offer across womenswear, menswear and accessories. Having…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/Sinead_OBrien_cropped-150x150.jpg",
+   "published": "2026-11-09T11:31:33Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "personas"
+   ],
+   "via": "",
+   "also": [],
+   "id": "c4114c65905b",
+   "score": 8.34
+  },
+  {
+   "title": "Under Armour in affanno: ricavi a 1,24 mld $ nel Q2 (-7%). Pesa il Medio Oriente",
+   "link": "https://www.pambianconews.com/2026/11/09/under-armour-in-affanno-ricavi-a-124-mld-nel-q2-7-pesa-il-medio-oriente-499993/",
+   "excerpt": "Under Armour chiude il secondo trimestre dell’anno fiscale 2027 (terminato il 30 settembre 2026) con ricavi in calo, rivede al ribasso la crescita attesa del margine lordo annuale e mette in conto un colpo più pesante dal…",
+   "image": "",
+   "published": "2026-11-09T11:18:29Z",
+   "source": "Pambianco",
+   "source_name": "Pambianco News",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.0,
+   "lang": "it",
+   "region": "it",
+   "tags": [
+    "industria"
+   ],
+   "via": "",
+   "also": [],
+   "id": "ec34db368f12",
+   "score": 7.55
   },
   {
    "title": "“Milano le dedicherà un luogo”: il ricordo di Franca Sozzani a dieci anni dalla scomparsa",
@@ -680,27 +786,6 @@
    "score": 7.9
   },
   {
-   "title": "Bluey ya vuela: así luce su nuevo globo gigante para el desfile de Macy’s",
-   "link": "https://www.merca20.com/bluey-en-macys-primera-prueba-globo-gigante-2026/",
-   "excerpt": "Bluey Instagram El nuevo globo de Bluey participó el 7 de noviembre en las pruebas de Balloonfest, realizadas junto al MetLife Stadium, en Nueva Jersey. La figura mide 14.4 metros de altura y presenta un diseño inspirado en el…",
-   "image": "https://files.merca20.com/uploads/2026/11/bluey-globo.jpeg",
-   "published": "2026-11-09T10:28:17Z",
-   "source": "Merca2.0",
-   "source_name": "Merca2.0",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 3.0,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "pasarela"
-   ],
-   "via": "",
-   "also": [],
-   "id": "7b45c1104c42",
-   "score": 6.6
-  },
-  {
    "title": "M-M For Mondays and More: el grupo Max Mara lanza una nueva marca de moda para mujer",
    "link": "https://es.fashionnetwork.com/news/M-m-for-mondays-and-more-el-grupo-max-mara-lanza-una-nueva-marca-de-moda-para-mujer,1883085.html",
    "excerpt": "",
@@ -782,7 +867,7 @@
    "via": "",
    "also": [],
    "id": "72100e49b9a6",
-   "score": 6.9
+   "score": 6.3
   },
   {
    "title": "Reflaunt launches new luxury resale concept Folio Capsule curated by top stylists",
@@ -803,7 +888,7 @@
    "via": "",
    "also": [],
    "id": "6415bd809b88",
-   "score": 7.74
+   "score": 7.14
   },
   {
    "title": "Tapestry raises full-year outlook as Coach sales climb 16%",
@@ -824,7 +909,7 @@
    "via": "",
    "also": [],
    "id": "4e2a89641fc0",
-   "score": 8.94
+   "score": 8.34
   },
   {
    "title": "More than half of shop workers face abuse every week, new research finds",
@@ -845,7 +930,7 @@
    "via": "",
    "also": [],
    "id": "27070e3296a0",
-   "score": 8.54
+   "score": 7.94
   },
   {
    "title": "Zalando lleva su Visionary Award a Milán",
@@ -866,49 +951,7 @@
    "via": "FashionNetwork España",
    "also": [],
    "id": "b0a7f0219c73",
-   "score": 6.95
-  },
-  {
-   "title": "Drapers daily news 09/11/2026",
-   "link": "https://www.drapersonline.com/news/drapers-daily-news-15-09-2026",
-   "excerpt": "Here are today's key fashion retail news stories… - Oxford Street pedestrianisation drives spend and footfall drapersonline.com/03z5 - Coach sales drive 'powerful' first quarter at Tapestry drapersonline.com/e55g - Under Armour…",
-   "image": "",
-   "published": "2026-11-09T08:56:25Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "negocio"
-   ],
-   "via": "",
-   "also": [],
-   "id": "f46ca210f338",
-   "score": 8.44
-  },
-  {
-   "title": "The Interview: Liberty’s new Head of Design Sinead O’Brien on shaping the future of its fashion offering",
-   "link": "https://www.theindustry.fashion/the-interview-libertys-new-head-of-design-sinead-obrien-on-shaping-the-future-of-its-fashion-offering/",
-   "excerpt": "British luxury department store Liberty appointed Sinead O’Brien as Head of Design last month as it looks to develop its in-house fashion collections and expand its offer across womenswear, menswear and accessories. Having…",
-   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/Sinead_OBrien_cropped-150x150.jpg",
-   "published": "2026-11-09T08:31:33Z",
-   "source": "The Industry",
-   "source_name": "The Industry",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "personas"
-   ],
-   "via": "",
-   "also": [],
-   "id": "c4114c65905b",
-   "score": 8.34
+   "score": 6.35
   },
   {
    "title": "Max Mara Fashion Group lancia il brand M-M For Mondays and More",
@@ -929,156 +972,7 @@
    "via": "",
    "also": [],
    "id": "611067b78643",
-   "score": 7.9
-  },
-  {
-   "title": "Ralph Lauren ups outlook as sales rise",
-   "link": "https://www.drapersonline.com/companies/directory/ralph-lauren/ralph-lauren-ups-outlook-at-sales-rise",
-   "excerpt": "Adjusted operating income at Ralph Lauren surged 21.9% year on year for the second quarter to $345m (£257.6m), as the US luxury fashion brand increased its outlook for the 2027 financial year. The post Ralph Lauren ups outlook as…",
-   "image": "",
-   "published": "2026-11-09T08:24:52Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "negocio"
-   ],
-   "via": "",
-   "also": [],
-   "id": "c39042f8cf3f",
-   "score": 8.59
-  },
-  {
-   "title": "Coach sales drive ‘powerful’ first quarter at Tapestry",
-   "link": "https://www.drapersonline.com/news/coach-sales-drive-powerful-first-quarter-at-tapestry",
-   "excerpt": "US accessories and leather goods group Tapestry, which owns Coach and Kate Spade, posted a 29% year-on-year increase in operating income to $424m (£316.6m) for the first quarter to 26 September. The post Coach sales drive…",
-   "image": "",
-   "published": "2026-11-09T08:09:35Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "negocio"
-   ],
-   "via": "",
-   "also": [],
-   "id": "c7d941f0a6da",
-   "score": 7.99
-  },
-  {
-   "title": "Oxford Street pedestrianisation drives spend and footfall",
-   "link": "https://www.drapersonline.com/news/oxford-street-pedestrianisation-drives-spend-and-footfall",
-   "excerpt": "Mayor of London Sir Sadiq Khan has praised the initial \"transformational impact\" of pedestrianising Oxford Street, as spending at stores in the district increased 28% during the first week of the project. The post Oxford Street…",
-   "image": "",
-   "published": "2026-11-09T08:01:32Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "retail"
-   ],
-   "via": "",
-   "also": [],
-   "id": "d321575a61ba",
-   "score": 7.79
-  },
-  {
-   "title": "Under Armour trims outlook as sales and profits dip",
-   "link": "https://www.drapersonline.com/companies/directory/under-armour/under-armour-trims-outlook-as-sales-and-profits-dip",
-   "excerpt": "Sportswear giant Under Armour has reported an 11.8% decline in operating income to $15m (£11.2m) for the second quarter to 30 September. The post Under Armour trims outlook as sales and profits dip appeared first on Drapers .",
-   "image": "",
-   "published": "2026-11-09T07:51:20Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "negocio"
-   ],
-   "via": "",
-   "also": [
-    "Pambianco News"
-   ],
-   "id": "f6636c80473a",
-   "score": 8.74
-  },
-  {
-   "title": "Cutting deep: why retailers are predicting this Black Friday will be the ‘biggest ever’",
-   "link": "https://www.drapersonline.com/topics/black-friday/cutting-deep-why-retailers-are-predicting-this-black-friday-will-be-the-biggest-ever",
-   "excerpt": "Some retailers say this will be the biggest-ever Black Friday after shoppers have held back on spending and warmer weather has delayed demand for winter stock. There are predictions that discounts will be deeper and longer…",
-   "image": "",
-   "published": "2026-11-09T06:00:21Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "retail"
-   ],
-   "via": "",
-   "also": [],
-   "id": "ffb96a125cda",
-   "score": 7.79
-  },
-  {
-   "title": "EXCLUSIVE: London’s Cece Jewellery Gives Bose Earbuds a Fine Makeover",
-   "link": "https://wwd.com/accessories-news/jewelry/bose-cece-jewellery-collaboration-ultra-open-earbuds-1239404174/",
-   "excerpt": "The British jeweler played with gold, champlevé enamel and diamonds for a one-off design that includes a miniature 18-karat gold purse.",
-   "image": "",
-   "published": "2026-11-09T06:00:00Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "diseno"
-   ],
-   "via": "",
-   "also": [],
-   "id": "e5e45bffd157",
-   "score": 7.85
-  },
-  {
-   "title": "EXCLUSIVE: Songzio and Egonlab Rework Military Codes for New Collab",
-   "link": "https://wwd.com/fashion-news/fashion-scoops/songzio-egonlab-military-inspired-avant-garde-collab-1239406308/",
-   "excerpt": "The eight-month project brings together two Paris-based indie houses for a collection built on a shared interest in avant-garde silhouettes while appealing to new audiences.",
-   "image": "",
-   "published": "2026-11-09T06:00:00Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "cultura"
-   ],
-   "via": "",
-   "also": [],
-   "id": "4c9d9973f2c3",
-   "score": 7.75
+   "score": 7.3
   },
   {
    "title": "What’s at Stake for Fashion at COP31?",
@@ -1163,27 +1057,6 @@
    "also": [],
    "id": "a3c23c26dfa8",
    "score": 6.0
-  },
-  {
-   "title": "Do Female Designers Hold the Key to Kering’s Creative Revival?",
-   "link": "https://wwd.com/fashion-news/fashion-features/female-designers-may-hold-key-to-kering-creative-revival-1239404892/",
-   "excerpt": "With the appointment of Martine Rose at Balenciaga, Kering gave the clearest indication yet of the direction it plans to take regarding the creative direction of its brands.",
-   "image": "",
-   "published": "2026-11-09T05:01:00Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "industria"
-   ],
-   "via": "",
-   "also": [],
-   "id": "19ec5341c195",
-   "score": 8.15
   },
   {
    "title": "Ferrari Style Launches First New York Store",
@@ -1584,7 +1457,7 @@
    "via": "e-consulta.com",
    "also": [],
    "id": "52c1b4d081c1",
-   "score": 6.0
+   "score": 5.5
   },
   {
    "title": "Critican desfile de moda en Catedral de Puebla; participó Benito Santos",
@@ -1605,7 +1478,7 @@
    "via": "UnoTV",
    "also": [],
    "id": "89c4afdf7a0b",
-   "score": 6.0
+   "score": 5.5
   },
   {
    "title": "John Frieda obituary",
@@ -1627,27 +1500,6 @@
    "also": [],
    "id": "004c6a6124f3",
    "score": 6.85
-  },
-  {
-   "title": "Gran Premio de Brasil 2026: Resultados de la Fórmula 1",
-   "link": "https://www.gq.com.mx/articulo/formula-1-gran-premio-de-brasil-2026-clasificacion-resultados-de-la-carrera-08-11-2026",
-   "excerpt": "Max Verstappen remontó desde la posición 21 hasta el segundo lugar en el Gran Premio de Brasil 2026. Norris ganó e Isack Hadjar completó el podio.",
-   "image": "https://media.gq.com.mx/photos/6af0c88fc069de569ec2d83b/master/pass/Gran-Premio-de-Brasil-2026-ganador.jpg",
-   "published": "2026-11-08T19:14:45Z",
-   "source": "GQ MX",
-   "source_name": "GQ México",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 3.2,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "negocio"
-   ],
-   "via": "",
-   "also": [],
-   "id": "f36250f6b8ce",
-   "score": 6.64
   },
   {
    "title": "¿Sacrilegio en Catedral de Puebla? Pasarela de novias provoca indignación entre feligreses",
@@ -1818,27 +1670,6 @@
    "score": 7.45
   },
   {
-   "title": "Perfumes de otoño para hombre: Los 12 mejores según tu signo zodiacal, de aromas seductores para dejar huella",
-   "link": "https://www.gq.com.mx/articulo/mejores-perfumes-de-otono-para-hombre-segun-tu-signo-zodiacal",
-   "excerpt": "Especias, tabaco, maderas y una dosis de peligro: fragancias masculinas para seducir este otoño, expresar tu personalidad y dejar una impresión inolvidable.",
-   "image": "https://media.gq.com.mx/photos/6aef95ad0b652a4e3082d6cc/master/pass/Ilustracio%CC%81n_GQ_Perfumes_de_oton%CC%83o_para_hombre_signos_zodiacales.jpg",
-   "published": "2026-11-08T15:03:00Z",
-   "source": "GQ MX",
-   "source_name": "GQ México",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 3.2,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "sostenibilidad"
-   ],
-   "via": "",
-   "also": [],
-   "id": "c5c40a5114b1",
-   "score": 6.24
-  },
-  {
    "title": "Three Festivals, One Month: Fashion’s Big Chance to Salvage a Difficult Year",
    "link": "https://www.businessoffashion.com/briefings/retail/holidays-and-shopping-festivals-give-retailers-a-chance-to-salvage-a-difficult-year/",
    "excerpt": "",
@@ -1944,29 +1775,6 @@
    "score": 6.28
   },
   {
-   "title": "This Is What Winter 2026 Has in Store for Every Star Sign, According to an Astrologer",
-   "link": "https://www.vogue.com/article/winter-2026-horoscopes-astrology-every-star-sign",
-   "excerpt": "With plenty of retrogrades, eclipses, and planetary shake-ups, this winter could bring drama and breakthroughs. Read your winter 2026 horoscopes here.",
-   "image": "https://assets.vogue.com/photos/6af0248f62d7a8371b3a71c1/master/pass/winter-in-vogue-8.jpg",
-   "published": "2026-11-08T07:38:32Z",
-   "source": "Vogue",
-   "source_name": "Vogue",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "retail"
-   ],
-   "via": "",
-   "also": [
-    "British Vogue"
-   ],
-   "id": "d949af28cd51",
-   "score": 8.39
-  },
-  {
    "title": "Uzbekistan links textile expansion with $2bn renewable energy investment",
    "link": "https://textiletoday.com.bd/uzbekistan-links-textile-expansion-with-2bn-renewable-energy-investment",
    "excerpt": "Uzbekistan is advancing a $400 million cotton-textile cluster in Bukhara. As part of a broader industrial investment plan that combines textile manufacturing with renewable energy development. Figure: In Uzbekistan, the two…",
@@ -2048,7 +1856,7 @@
    "via": "",
    "also": [],
    "id": "470408c9821b",
-   "score": 5.76
+   "score": 5.26
   },
   {
    "title": "Quinta Brunson Subtly Brings Extra Jewels Into Her Look With Giuseppe Zanotti Sandals on the LACMA Gala 2026 Red Carpet",
@@ -2643,6 +2451,27 @@
    "score": 5.1
   },
   {
+   "title": "Slow Fashion Day returns this weekend in San Diego",
+   "link": "https://www.newsbreak.com/cbs-8-524531/4991038334861-slow-fashion-day-returns-this-weekend-in-san-diego",
+   "excerpt": "Slow Fashion Day returns this weekend in San Diego",
+   "image": "https://dcusoqhsuupgy.cloudfront.net/cover/RZAge000_cover_with_play_icon.jpg",
+   "published": "2026-11-06T20:03:34Z",
+   "source": "San Diego",
+   "source_name": "Moda en San Diego",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 3.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "industria"
+   ],
+   "via": "NewsBreak: Local News & Alerts",
+   "also": [],
+   "id": "1948971b6b56",
+   "score": 5.1
+  },
+  {
    "title": "Why Is It So Hard to Build an Independent Fashion Brand? | BoF",
    "link": "https://www.businessoffashion.com/briefings/retail/why-is-it-so-hard-to-build-an-independent-fashion-brand/",
    "excerpt": "",
@@ -2683,27 +2512,6 @@
    "also": [],
    "id": "2c51cd153236",
    "score": 4.89
-  },
-  {
-   "title": "Kith Is Using Its Original New Balance Sneaker to Commemorate Three Distinct Elements of NYC",
-   "link": "https://wwd.com/footwear-news/sneaker-news/kith-new-balance-2011-monuments-release-date-1239404666/",
-   "excerpt": "The three 2011 sneakers include odes to the New York Knicks and Central Park.",
-   "image": "",
-   "published": "2026-11-06T19:34:45Z",
-   "source": "FN",
-   "source_name": "Footwear News",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 3.8,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "calzado"
-   ],
-   "via": "",
-   "also": [],
-   "id": "95af57be3977",
-   "score": 5.51
   },
   {
    "title": "Timberland x Peanuts: Snoopy convierte su personalidad Joe Cool en una colección de botas y ropa para Navidad 2026",
@@ -2811,27 +2619,6 @@
    "score": 5.9
   },
   {
-   "title": "CIFF trade show previews brands for AW27 edition",
-   "link": "https://www.drapersonline.com/news/ciff-trade-show-previews-brands-for-aw27-edition",
-   "excerpt": "Copenhagen International Fashion Fair (CIFF) has announced the first raft of brands to show at its next edition in February 2027. The post CIFF trade show previews brands for AW27 edition appeared first on Drapers .",
-   "image": "",
-   "published": "2026-11-06T17:19:00Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "industria"
-   ],
-   "via": "",
-   "also": [],
-   "id": "a9403375b6d7",
-   "score": 6.19
-  },
-  {
    "title": "Must Read: Yeezy's Comeback Show Fell Short, Pay Structure Revisions Fail To End Bangladesh Garment Protests",
    "link": "https://fashionista.com/2026/11/yeezy-comeback-show-review",
    "excerpt": "These are the stories making headlines in fashion on Friday . Yeezy’s Comeback Show Falls Short Ye, formerly known as Kanye West, staged a runway comeback Wednesday in Los Angeles. The roughly 15-minute show, billed as Yeezy…",
@@ -2895,27 +2682,6 @@
    "score": 6.26
   },
   {
-   "title": "Martine Rose a ‘breath of fresh air’ for Balenciaga",
-   "link": "https://www.drapersonline.com/product-and-trends/martine-rose-a-breath-of-fresh-air-for-balenciaga",
-   "excerpt": "Pierpaolo Piccioli was the third creative director exit within a matter of weeks at luxury conglomerate Kering. London-based menswear designer Martine Rose was confirmed as Balenciaga's new creative lead on Friday. Drapers deputy…",
-   "image": "",
-   "published": "2026-11-06T16:10:40Z",
-   "source": "Drapers",
-   "source_name": "Drapers",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "personas"
-   ],
-   "via": "",
-   "also": [],
-   "id": "a3f23fcd0deb",
-   "score": 6.39
-  },
-  {
    "title": "Our Favorite Saatva Mattress Is on Sale for Black Friday",
    "link": "https://www.elle.com/fashion/shopping/a74322694/saatva-mattress-sale-black-friday-2026/",
    "excerpt": "Get up to $1,000 off the luxury mattress that rivals a five-star hotel bed.",
@@ -2934,7 +2700,7 @@
    "via": "",
    "also": [],
    "id": "2c2139bde8fd",
-   "score": 6.18
+   "score": 5.78
   },
   {
    "title": "Adolfo Domínguez eleva un 81 % sus ventas en América Latina en cinco años",
@@ -2955,7 +2721,7 @@
    "via": "FashionNetwork España",
    "also": [],
    "id": "7839c9b246ae",
-   "score": 6.55
+   "score": 6.15
   },
   {
    "title": "Weekly Drop Watch: Anine Bing x Tecovas, Ouai x Heaven Mayhem, Warby Parker x Rare Beauty and More",
@@ -2976,28 +2742,7 @@
    "via": "",
    "also": [],
    "id": "cbada3c422fc",
-   "score": 6.0
-  },
-  {
-   "title": "The IQ Collection continúa su expansión internacional con la apertura de una nueva boutique en México",
-   "link": "https://www.vogue.mx/articulo/the-iq-collection-apertura-nueva-boutique-en-ciudad-de-mexico",
-   "excerpt": "Ubicada en Monte Líbano, la nueva boutique de The IQ Collection cruza fronteras para traer sus creaciones a la Ciudad de México.",
-   "image": "https://media.vogue.mx/photos/6aed50b7f7657ec77e1c8e38/master/pass/IMG_9590.jpg",
-   "published": "2026-11-06T14:56:01Z",
-   "source": "Vogue MX",
-   "source_name": "Vogue México",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "retail"
-   ],
-   "via": "",
-   "also": [],
-   "id": "5a653c733668",
-   "score": 6.9
+   "score": 5.6
   },
   {
    "title": "Martine Rose Is Balenciaga’s New Creative Director—and the First Woman to Lead the House",
@@ -3230,14 +2975,13 @@
    "via": "",
    "also": [
     "Business of Fashion",
-    "British Vogue",
     "The Guardian Fashion",
     "Fashionista",
     "GQ",
     "Harper's Bazaar"
    ],
    "id": "5dac151bbb20",
-   "score": 10.84
+   "score": 10.09
   },
   {
    "title": "Paul Smith awarded Freedom of City of London for ‘outstanding contribution to fashion’",
@@ -3280,27 +3024,6 @@
    "also": [],
    "id": "ab6b0dacb7d9",
    "score": 6.04
-  },
-  {
-   "title": "Five reasons why Martine Rose is the perfect Balenciaga creative director",
-   "link": "https://www.dazeddigital.com/fashion/article/71297/1/martine-rose-new-balenciaga-creative-director-appointment-pierpaolo-piccioli",
-   "excerpt": "It was a rumour we all wanted to believe, but now we have the official confirmation. As announced this morning (November 6), Martine Rose is headed to Balenciaga to take over the men’s, women’s and couture collections. “It is a…",
-   "image": "https://images-prod.dazeddigital.com/786/azure/dazed-prod/1450/8/1458834.jpg",
-   "published": "2026-11-06T08:36:00Z",
-   "source": "Dazed",
-   "source_name": "Dazed",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 3.0,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "personas"
-   ],
-   "via": "",
-   "also": [],
-   "id": "8b0679640915",
-   "score": 4.9
   },
   {
    "title": "Kering affida la direzione creativa di Balenciaga a Martine Rose",
@@ -3808,9 +3531,9 @@
   },
   {
    "title": "El Trompo conmemoró día de muertos con arte, música y moda",
-   "link": "https://www.uniradioinforma.com/sociedad/el-trompo-conmemoro-dia-muertos-arte-musica-moda-n912620",
+   "link": "https://www.uniradiobaja.com/sociedad/el-trompo-conmemoro-dia-muertos-arte-musica-moda-n912619",
    "excerpt": "Edición reunió talento local de variadas expresiones artísticas y tradiciones.",
-   "image": "https://statics.uniradioinforma.com/2026/11/6aeca5dd02fa7.jpg",
+   "image": "https://statics.uniradiobaja.com/2026/11/6aeca5dd02fa7.jpg",
    "published": "2026-11-05T15:49:00Z",
    "source": "Tijuana",
    "source_name": "Moda en Tijuana",
@@ -3822,9 +3545,9 @@
    "tags": [
     "industria"
    ],
-   "via": "Uniradio Informa",
+   "via": "Uniradio Informa Baja California",
    "also": [],
-   "id": "6852c97707ed",
+   "id": "e12a4c7800e3",
    "score": 5.18
   },
   {
@@ -3847,69 +3570,6 @@
    "also": [],
    "id": "d1aa966ddb89",
    "score": 5.18
-  },
-  {
-   "title": "The Met Replaces Its Galliano Exhibit With One About 'Everyday' Clothes",
-   "link": "https://fashionista.com/2026/11/met-gala-exhibit-2027-theme-replacement",
-   "excerpt": "It’s been nearly two months since The Metropolitan Museum of Art canceled the planned “John Galliano: Horizons” Spring 2027 Costume Institute exhibition , which would have spotlighted the controversial designer and his…",
-   "image": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwODA2ODk4/untitled-design.jpg?profile=rss",
-   "published": "2026-11-05T15:23:08Z",
-   "source": "Fashionista",
-   "source_name": "Fashionista",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "cultura"
-   ],
-   "via": "",
-   "also": [],
-   "id": "b645c7d05f58",
-   "score": 5.5
-  },
-  {
-   "title": "The Met Fills Galliano Gap With Show on Everyday Fashion",
-   "link": "https://www.businessoffashion.com/news/creative-class/the-met-fills-galliano-gap-with-show-on-everyday-fashion/",
-   "excerpt": "",
-   "image": "",
-   "published": "2026-11-05T15:12:44Z",
-   "source": "BoF",
-   "source_name": "Business of Fashion",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "global",
-   "tags": [
-    "industria"
-   ],
-   "via": "The Business of Fashion",
-   "also": [],
-   "id": "ea3ba3ef1f74",
-   "score": 6.55
-  },
-  {
-   "title": "John Frieda, Hair-Care Mogul Who Soothed Women’s Curls, Has Died",
-   "link": "https://www.nytimes.com/2026/11/04/style/john-frieda-dead.html",
-   "excerpt": "He was a celebrity stylist to rock stars and royalty whose blockbuster product, Frizz Ease, changed his fortunes (and women’s hair) forever. He was 75.",
-   "image": "https://static01.nyt.com/images/2026/11/04/obituaries/04xp-frieda-topper/04xp-frieda-topper-mediumSquareAt3X-v2.jpg",
-   "published": "2026-11-05T14:27:56Z",
-   "source": "NYT",
-   "source_name": "New York Times Fashion",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 4.4,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "personas"
-   ],
-   "via": "",
-   "also": [],
-   "id": "39a03888497e",
-   "score": 6.58
   }
  ]
 }

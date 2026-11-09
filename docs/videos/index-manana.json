@@ -1,43 +1,43 @@
 {
  "date": "2026-11-09",
  "edition": "general",
- "duration": 55.6,
+ "duration": 68.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "Bangladesh frena su producción textil por protestas salariales y la moda enfrenta presión",
+ "hook": "Robert Wun lleva su arte a Pop Mart y la moda mira al clima",
  "items": [
   {
-   "title": "Union Pacific bajo escrutinio",
-   "headline": "Union Pacific CEO’s Rate Remark May Have Silenced Merger Opponents, STB Says",
+   "title": "Wun y Pop Mart en Paris",
+   "headline": "Robert Wun’s Skullpanda Lands in Pop Mart’s Paris Flagship",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/logistics/stb-union-pacific-ceo-jim-vena-norfolk-southern-merger-opponents-video-1239405276/",
+   "link": "https://wwd.com/fashion-news/fashion-scoops/robert-wun-skullpanda-pop-mart-collaboration-paris-flagship-1239406692/",
    "photo_credit": null
   },
   {
-   "title": "Mango apuesta por autocobro",
-   "headline": "Mango refuerza sus servicios en retail en España con la instalación de cajas de autocobro",
+   "title": "Ventas UE suben, Espana cae",
+   "headline": "Las ventas minoristas en la UE suben un 0,9% en septiembre con España en rojo",
    "source": "Modaes",
-   "link": "https://www.modaes.com/empresas/mango-refuerza-sus-servicios-en-retail-en-espana-con-la-instalacion-de-cajas-de-autocobro",
+   "link": "https://www.modaes.com/entorno/las-ventas-minoristas-en-la-ue-suben-un-09-en-septiembre-con-espana-en-rojo",
    "photo_credit": null
   },
   {
-   "title": "Bangladesh paraliza producción",
-   "headline": "Bangladesh Factories Grind to a Halt Amid Wage Protests. What’s Next?",
-   "source": "Vogue",
-   "link": "https://www.vogue.com/article/bangladesh-factories-grind-to-a-halt-amid-wage-protests-whats-next",
+   "title": "COP31 y financiacion climatica",
+   "headline": "La COP31 pone el foco en la financiación para descarbonizar la cadena de suministro de la moda",
+   "source": "Modaes",
+   "link": "https://www.modaes.com/entorno/la-cop31-pone-el-foco-en-la-financiacion-para-descarbonizar-la-cadena-de-suministro-de-la-moda",
    "photo_credit": null
   },
   {
-   "title": "Levi's usa IA en contratación",
-   "headline": "Levi’s Introduces AI Hiring Agent to Streamline Recruitment",
-   "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/sj-denim/levis-introduces-andy-ai-hiring-agent-streamline-interviews-1239405053/",
-   "photo_credit": null
-  },
-  {
-   "title": "Lululemon reestructura su cúpula",
-   "headline": "Lululemon appoints new brand and strategy execs in latest leadership shake-up",
+   "title": "Liberty ficha a Sinead O'Brien",
+   "headline": "The Interview: Liberty’s new Head of Design Sinead O’Brien on shaping the future of its fashion offering",
    "source": "The Industry",
-   "link": "https://www.theindustry.fashion/lululemon-appoints-new-brand-and-strategy-execs-in-latest-leadership-shake-up/",
+   "link": "https://www.theindustry.fashion/the-interview-libertys-new-head-of-design-sinead-obrien-on-shaping-the-future-of-its-fashion-offering/",
+   "photo_credit": null
+  },
+  {
+   "title": "Schwimmer revive Friends en Quince",
+   "headline": "David Schwimmer Revisits ‘Friends’ Nostalgia in Quince’s ‘The Red Sweater’ Campaign",
+   "source": "WWD",
+   "link": "https://wwd.com/fashion-news/fashion-scoops/david-schwimmer-friends-quinces-red-sweater-campaign-1239405122/",
    "photo_credit": null
   }
  ]
