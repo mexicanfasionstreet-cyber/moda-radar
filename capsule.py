@@ -1146,16 +1146,50 @@ def clave_titular(titulo):
     return {w for w in re.findall(r"[a-z][a-z0-9]{3,}", t) if w not in _STOP}
 
 
+_PROPIOS_SKIP = {
+    "mexico", "mexicana", "mexicano", "moda", "fashion", "week", "nueva", "nuevo", "cdmx", "ciudad",
+    "video", "fotos", "exclusiva", "dia", "muertos", "estados", "unidos", "latinoamerica", "europa",
+    "black", "friday", "navidad",
+}
+
+
+def nombres_propios(titulo):
+    """Palabras con mayúscula en medio de un titular escrito en minúsculas normales
+    ("Desfile de moda en la Catedral de Puebla" → catedral, puebla). En titulares en
+    Title Case (inglés) todas van en mayúscula y no dicen nada: se devuelve vacío."""
+    import unicodedata
+    toks = re.findall(r"[\w’'&-]+", titulo or "")
+    largas = [w for w in toks if len(w) >= 4]
+    if not largas or sum(w[:1].isupper() for w in largas) / len(largas) > 0.5:
+        return set()
+    out = set()
+    for i, w in enumerate(toks):
+        if i == 0 or not w[:1].isupper():
+            continue
+        n = unicodedata.normalize("NFKD", w.lower())
+        n = re.sub(r"[’'].*$", "", "".join(c for c in n if not unicodedata.combining(c)))
+        if len(n) >= 4 and n not in _PROPIOS_SKIP and n not in _STOP:
+            out.add(n)
+    return out
+
+
 def misma_historia(a, b):
-    """True si dos titulares cuentan lo mismo. Se probó contra 172 titulares reales:
-    junta "Martine Rose named Balenciaga Creative Director" con "Martine Rose es la
-    nueva directora creativa de Balenciaga" y no confunde noticias distintas."""
+    """True si dos titulares cuentan lo mismo, aunque sea otro medio u otro idioma.
+
+    Dos pruebas: (1) ≥3 palabras significativas en común y ≥40 % del titular más corto
+    ("Lululemon CEO … Fills Key Brand and Strategy Positions" / "Lululemon appoints new
+    brand and strategy execs"); (2) en titulares en español, ≥2 nombres propios en común
+    ("¿Sacrilegio en Catedral de Puebla?" / "Desfile de modas en la Catedral de Puebla").
+    Probado contra 415 titulares del corpus (5-9 nov 2026)."""
+    if isinstance(a, str) and isinstance(b, str):
+        if len(nombres_propios(a) & nombres_propios(b)) >= 2:
+            return True
     ka = a if isinstance(a, set) else clave_titular(a)
     kb = b if isinstance(b, set) else clave_titular(b)
     if not ka or not kb:
         return False
     comunes = ka & kb
-    return len(comunes) >= 3 and len(comunes) / min(len(ka), len(kb)) >= 0.5
+    return len(comunes) >= 3 and len(comunes) / min(len(ka), len(kb)) >= 0.4
 
 
 def enlace_canonico(link):
@@ -1221,13 +1255,12 @@ def quitar_repetidas(items, outdir, horas):
                 titulos = _titulos_conocidos(items, outdir)
             titulo = titulos.get(enlace_canonico(link), "")
         if titulo:
-            claves.append(clave_titular(titulo))
+            claves.append(titulo)
     frescas = []
     for it in items:
         if enlace_canonico(it.get("link")) in enlaces:
             continue
-        k = clave_titular(it.get("title"))
-        if any(misma_historia(k, c) for c in claves):
+        if any(misma_historia(it.get("title", ""), c) for c in claves):
             continue
         frescas.append(it)
     return frescas, len(items) - len(frescas)
@@ -1237,8 +1270,7 @@ def una_por_historia(items):
     """Dentro de la misma cápsula, una sola versión de cada historia (la de más peso)."""
     elegidas = []
     for it in sorted(items, key=lambda x: x.get("score", 0), reverse=True):
-        k = clave_titular(it.get("title"))
-        if not any(misma_historia(k, clave_titular(e.get("title"))) for e in elegidas):
+        if not any(misma_historia(it.get("title", ""), e.get("title", "")) for e in elegidas):
             elegidas.append(it)
     return elegidas
 

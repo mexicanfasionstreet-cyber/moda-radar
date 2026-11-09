@@ -31,6 +31,23 @@
 - `herramientas/token-youtube.py` resuelve el refresh token con el flujo de dispositivo
   (sin servidor local: un código que se escribe en google.com/device desde el móvil).
 
+## 2026-11-09 · revisión del primer día con el registro nuevo
+
+- 3 franjas, 6 cápsulas, 6 Shorts subidos. La LatAm salió las 3 veces (22-30 candidatas
+  con las búsquedas por tema, antes ~13).
+- Repetidas: 1 de 30 por enlace/titular (El Trompo: entrada vieja sin titular). Pero
+  `misma_historia` dejaba pasar paráfrasis: 9 titulares distintos del desfile en la
+  Catedral de Puebla (3 en una sola cápsula) y Lululemon (3/7 palabras = 0,43 < 0,5).
+  Ahora: umbral 40 % y, en titulares en español (no Title Case), ≥2 nombres propios en
+  común (catedral+puebla). Contra 415 titulares del 5-9 nov: 47 pares nuevos, casi todos
+  la misma historia; algún falso positivo ("continúa su expansión internacional").
+- Ruido en cápsulas: F1 (GQ México), perfumes por signo zodiacal, "¿el perreo pasó de
+  moda?", globo de Bluey en el desfile de Acción de Gracias, catrina que se incendia,
+  Union Pacific (WWD). Añadidos a NOISE_RE.
+- **Instagram**: desde la franja de mediodía del 8, todas las historias fallan con
+  `OAuthException code 200 "API access blocked."` al crear el contenedor. YouTube sigue
+  bien. No es del código: Meta bloqueó la app o la cuenta. Pendiente del usuario.
+
 ## 2026-11-08 · más búsquedas por tema (escena mexicana)
 
 Pedido: diseñadores mexicanos, moda Tijuana, segunda mano, bazares, takeovers, fashion
