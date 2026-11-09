@@ -24,6 +24,9 @@ jobs:
           host = os.environ.get("IG_HOST") or "graph.facebook.com"
           ver = os.environ.get("IG_VERSION") or "v23.0"
           uid, tok = os.environ["IG_USER_ID"], os.environ["IG_TOKEN"]
+          # datos seguros para diagnosticar (nunca el token completo)
+          print(f"host: {host} · token empieza con {tok[:4]!r} · largo {len(tok)} · "
+                f"espacios/saltos: {tok != tok.strip() or chr(10) in tok} · cuenta: ...{uid[-4:]}")
           for ruta in (f"{uid}?fields=username", f"{uid}/content_publishing_limit?fields=quota_usage,config"):
               url = f"https://{host}/{ver}/{ruta}&access_token={tok}" if "?" in ruta else f"https://{host}/{ver}/{ruta}?access_token={tok}"
               try:
