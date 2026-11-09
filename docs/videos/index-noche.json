@@ -1,44 +1,44 @@
 {
- "date": "2026-11-07",
+ "date": "2026-11-08",
  "edition": "general",
- "duration": 71.8,
+ "duration": 76.5,
  "script_source": "IA (deepseek-chat)",
- "hook": "Martine Rose es la nueva directora creativa de Balenciaga",
+ "hook": "Gucci domina la alfombra roja y ASOS vuelve a crecer",
  "items": [
   {
-   "title": "Martine Rose lidera Balenciaga",
-   "headline": "Martine Rose named Balenciaga Creative Director",
+   "title": "Vonn brilla con Gucci en LACMA",
+   "headline": "Lindsey Vonn Wears Sequined Gucci Gown and Horsebit Heels at LACMA Gala 2026 Red Carpet",
+   "source": "WWD",
+   "link": "https://wwd.com/footwear-news/shoe-trends/lindsey-vonn-gucci-gown-horsebit-heels-lacma-gala-2026-1239406529/",
+   "photo_credit": null
+  },
+  {
+   "title": "ASOS vuelve a crecer tras anos",
+   "headline": "ASOS returns to growth as turnaround gains momentum",
    "source": "The Industry",
-   "link": "https://www.theindustry.fashion/martine-rose-named-balenciaga-creative-director/",
+   "link": "https://www.theindustry.fashion/asos-returns-to-growth-as-turnaround-gains-momentum/",
    "photo_credit": null
   },
   {
-   "title": "Estrategias que marcan diferencia",
-   "headline": "Ralph Lauren and Tapestry Led the Way, Capri and Under Armour Are Trying to Follow",
+   "title": "Aberturas extremas triunfan en LACMA",
+   "headline": "Extreme Thigh-High Slits Are Trending on LACMA Gala 2026 Red Carpet",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/financial/fashion-ceos-focus-on-growth-amid-economic-challenges-1239405291/",
+   "link": "https://wwd.com/pop-culture/celebrity-news/thigh-high-slits-lacma-gala-2026-1239406494/",
    "photo_credit": null
   },
   {
-   "title": "Lo mas visto de la semana",
-   "headline": "ICYMI: 2026 CFDA Fashion Award Winners, Pierpaolo Piccioli Exits Balenciaga & The Met Reveals Its Next Costume Institute Exhibit",
-   "source": "Fashionista",
-   "link": "https://fashionista.com/2026/11/fashion-news-you-need-to-know-november-7",
+   "title": "Octubre rojo para la moda espanola",
+   "headline": "Indicador del Comercio de Moda: octubre rojo para el sector, con una caída del 3,6%",
+   "source": "Modaes",
+   "link": "https://www.modaes.com/entorno/indicador-del-comercio-de-moda-octubre-rojo-para-el-sector-con-una-caida-del-36",
    "photo_credit": null
   },
   {
-   "title": "Fallon estrena tenis exclusivos",
-   "headline": "Sneakerhead Jimmy Fallon Just Scored Caitlin Clark’s Unreleased Taylor Swift-Inspired Kicks",
-   "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/jimmy-fallon-caitlin-clark-taylor-swift-nike-sneakers-1239405659/",
+   "title": "Nueva denuncia ambiental contra Shein",
+   "headline": "Shein suma otra demanda y es denunciado por la asociación alemana por el medioambiente",
+   "source": "Modaes",
+   "link": "https://www.modaes.com/empresas/shein-suma-otra-demanda-y-es-denunciado-por-la-asociacion-alemana-por-el-medioambiente",
    "photo_credit": null
-  },
-  {
-   "title": "Mikkelsen crece en Estados Unidos",
-   "headline": "Mikkelsen Innovation Starts U.S. Subsidiary And Opens Manufacturing And Support Facility In Milwaukee, Wisconsin",
-   "source": "Textile World",
-   "link": "https://www.textileworld.com/textile-world/knitting-apparel/2026/11/mikkelsen-innovation-starts-u-s-subsidiary-and-opens-manufacturing-and-support-facility-in-milwaukee-wisconsin/",
-   "photo_credit": "Foto: ashroc · CC BY-NC 2.0"
   }
  ]
 }

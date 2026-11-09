@@ -1,43 +1,43 @@
 {
- "date": "2026-11-07",
+ "date": "2026-11-08",
  "edition": "latam",
- "duration": 77.1,
+ "duration": 62.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "The IQ Collection llega a México y Adidas rompe récord de ingresos",
+ "hook": "La moda mexicana y latina brilla en pasarelas con causa y talento",
  "items": [
   {
-   "title": "The IQ Collection abre en CDMX",
-   "headline": "The IQ Collection continúa su expansión internacional con la apertura de una nueva boutique en México",
-   "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/the-iq-collection-apertura-nueva-boutique-en-ciudad-de-mexico",
+   "title": "Catedral de Puebla es pasarela benéfica",
+   "headline": "Catedral de Puebla, sede de desfile de moda “México Monumental 2026” con causa benéfica",
+   "source": "Carlos Martin Huerta",
+   "link": "https://carlosmartinhuerta.com.mx/catedral-de-puebla-sede-de-desfile-de-moda-mexico-monumental-2026-con-causa-benefica/",
    "photo_credit": null
   },
   {
-   "title": "Adidas logra récord de ingresos",
-   "headline": "Adidas posts €7.252 billion in revenue over 3 months and reaches record profits as sales of sportswear grow",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/adidas-posts-e7-252-billion-in-revenue-over-3-months-and-reaches-record-profits-as-sales-of-sportswear-grow/",
-   "photo_credit": null
-  },
-  {
-   "title": "MINI y Olmos & Flores en Polanco",
-   "headline": "MINI y Olmos & Flores celebran el Día de Muertos con diseño mexicano Copiar",
-   "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/mini-ofrenda-olmos-y-flores-dia-de-muertos-diseno-mexicano",
-   "photo_credit": null
-  },
-  {
-   "title": "Muñeca de Zoey por Mattel",
-   "headline": "KPop Demon Hunters Zoey Fashion Doll: Price and Where to Buy the HUNTR/X Figure",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/kpop-demon-hunters-zoey-fashion-doll-price-and-where-to-buy-the-huntr-x-figure/",
-   "photo_credit": null
-  },
-  {
-   "title": "El Trompo celebra con moda",
+   "title": "El Trompo une moda y tradición",
    "headline": "El Trompo conmemoró día de muertos con arte, música y moda",
-   "source": "Uniradio Informa Baja California",
-   "link": "https://www.uniradiobaja.com/sociedad/el-trompo-conmemoro-dia-muertos-arte-musica-moda-n912619/amp",
+   "source": "Uniradio Informa",
+   "link": "https://www.uniradioinforma.com/sociedad/el-trompo-conmemoro-dia-muertos-arte-musica-moda-n912620",
+   "photo_credit": null
+  },
+  {
+   "title": "Diseñador hidalguense triunfa en Italia",
+   "headline": "¡Orgullo hidalguense! Diseñador de Yahualica lleva su moda hasta Italia",
+   "source": "Criterio Hidalgo",
+   "link": "https://criteriohidalgo.com/noticias/regiones/orgullo-hidalguense-disenador-de-yahualica-lleva-su-moda-hasta-italia",
+   "photo_credit": null
+  },
+  {
+   "title": "Nicaragua brilla en México Fashion Show",
+   "headline": "Nicaragua tan Talentosa en México Fashion Show",
+   "source": "El 19 Digital",
+   "link": "https://www.el19digital.com/articulos/ver/184169-nicaragua-tan-talentosa-en-mexico-fashion-show",
+   "photo_credit": null
+  },
+  {
+   "title": "Benito Santos desfila en la Catedral",
+   "headline": "Con sotanas y vestidos de novia de Benito Santos: Así fue el desfile de moda en la Catedral de Puebla",
+   "source": "El Financiero",
+   "link": "https://www.elfinanciero.com.mx/estilo/2026/11/08/catedral-de-puebla-asi-fue-el-evento-de-moda-mexico-monumental/",
    "photo_credit": null
   }
  ]

@@ -1,12 +1,285 @@
 {
- "generated": "2026-11-08T19:38:23.334561Z",
+ "generated": "2026-11-09T01:56:34.536406Z",
  "days": 4,
- "count": 170,
+ "count": 171,
  "sources_ok": 57,
  "sources_failed": [
   "Hypebeast"
  ],
  "items": [
+  {
+   "title": "Vittoria Ceretti Wears Gucci Gown and Giuseppe Zanotti Pumps at LACMA Gala 2026 Red Carpet",
+   "link": "https://wwd.com/footwear-news/shoe-trends/vittoria-ceretti-giuseppe-zanotti-pumps-lacma-gala-2026-1239406534/",
+   "excerpt": "The Italian model wore a classically elegant look on the red carpet, sporting an off-the-shoulder gown and pointed-toed Giuseppe Zanotti pumps.",
+   "image": "",
+   "published": "2026-11-09T01:33:25Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "cultura"
+   ],
+   "via": "",
+   "also": [],
+   "id": "03e2959f09d7",
+   "score": 8.35
+  },
+  {
+   "title": "Lindsey Vonn Wears Sequined Gucci Gown and Horsebit Heels at LACMA Gala 2026 Red Carpet",
+   "link": "https://wwd.com/footwear-news/shoe-trends/lindsey-vonn-gucci-gown-horsebit-heels-lacma-gala-2026-1239406529/",
+   "excerpt": "The Olympic skier wore a one-sleeve dark purple dress paired with classic pointy-toed horsebit pumps.",
+   "image": "",
+   "published": "2026-11-09T01:22:09Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "calzado"
+   ],
+   "via": "",
+   "also": [],
+   "id": "1c4dfc1fffb5",
+   "score": 8.55
+  },
+  {
+   "title": "Con sotanas y vestidos de novia de Benito Santos: Así fue el desfile de moda en la Catedral de Puebla",
+   "link": "https://www.elfinanciero.com.mx/estilo/2026/11/08/catedral-de-puebla-asi-fue-el-evento-de-moda-mexico-monumental/",
+   "excerpt": "La Catedral de Puebla , edificio histórico que data del siglo XVI, se convirtió en una pasarela de modas , donde desfilaron modelos con vestidos de novia del diseñador Benito Santos , así como una muestra sotanas y diversas…",
+   "image": "https://elfinanciero-elfinanciero-prod.cdn.arcpublishing.com/resizer/G7BDHqquXCvxrm9SqQhbICWzdPo=/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/FJHLCHWH4ZCERLODWABL7Y5S7E.jpg",
+   "published": "2026-11-09T01:20:43Z",
+   "source": "El Financiero",
+   "source_name": "El Financiero",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 3.4,
+   "lang": "es",
+   "region": "mx",
+   "tags": [
+    "pasarela"
+   ],
+   "via": "",
+   "also": [],
+   "id": "de90805a9384",
+   "score": 7.08
+  },
+  {
+   "title": "Salma Hayek Wears Crimson Gucci Gown for LACMA Gala 2026 Red Carpet",
+   "link": "https://wwd.com/pop-culture/celebrity-news/salma-hayek-gucci-gown-lacma-gala-2026-1239406522/",
+   "excerpt": "The actress wore a single sleeve, sequin-embellished gown and accessorized with a matching clutch bag.",
+   "image": "",
+   "published": "2026-11-09T01:06:23Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "cultura"
+   ],
+   "via": "",
+   "also": [],
+   "id": "d23de6a5bae1",
+   "score": 8.35
+  },
+  {
+   "title": "Catedral de Puebla, sede de desfile de moda “México Monumental 2026” con causa benéfica",
+   "link": "https://carlosmartinhuerta.com.mx/catedral-de-puebla-sede-de-desfile-de-moda-mexico-monumental-2026-con-causa-benefica/",
+   "excerpt": "La Catedral de Puebla fue el escenario de México Monumental 2026, un desfile de moda con fines benéficos.",
+   "image": "https://carlosmartinhuerta.com.mx/wp-content/uploads/2026/11/encendido-catedral-725756-2-1024x683.jpeg",
+   "published": "2026-11-09T00:37:24Z",
+   "source": "Fashion shows",
+   "source_name": "Fashion shows México",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 3.0,
+   "lang": "es",
+   "region": "mx",
+   "tags": [
+    "pasarela"
+   ],
+   "via": "Carlos Martin Huerta",
+   "also": [],
+   "id": "d6957f63ae60",
+   "score": 6.6
+  },
+  {
+   "title": "¿Sacrilegio o espectáculo? Pasarela de alta costura en la Catedral de Puebla desata polémica",
+   "link": "https://www.telediario.mx/comunidad/pasarela-catedral-puebla-desata-polemica-redes",
+   "excerpt": "La pasarela México Monumental 2026 en la Catedral de Puebla generó críticas por convertir un recinto religioso en escenario de moda y alta costura.",
+   "image": "https://cdn2.telediario.mx/uploads/media/2026/11/08/mexico-monumental-llevo-cabo-interior.jpg",
+   "published": "2026-11-09T00:16:54Z",
+   "source": "Fashion shows",
+   "source_name": "Fashion shows México",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 3.0,
+   "lang": "es",
+   "region": "mx",
+   "tags": [
+    "pasarela"
+   ],
+   "via": "Telediario",
+   "also": [],
+   "id": "bc3d3641c106",
+   "score": 6.6
+  },
+  {
+   "title": "Extreme Thigh-High Slits Are Trending on LACMA Gala 2026 Red Carpet",
+   "link": "https://wwd.com/pop-culture/celebrity-news/thigh-high-slits-lacma-gala-2026-1239406494/",
+   "excerpt": "Models Emily Ratajkowski, Rosie Huntington-Whiteley, and Candice Swanepoel all sported Gucci gowns with dramatic cutouts extending well into their upper thighs.",
+   "image": "",
+   "published": "2026-11-08T22:40:57Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "cultura"
+   ],
+   "via": "",
+   "also": [],
+   "id": "429b77fe62e1",
+   "score": 8.35
+  },
+  {
+   "title": "¡Escándalo en la Catedral! Pasarela de modelos desata indignación",
+   "link": "https://mediatik.com.mx/escandalo-en-la-catedral-pasarela-de-modelos-desata-indignacion/",
+   "excerpt": "Publicado por Mediatik.",
+   "image": "",
+   "published": "2026-11-08T22:32:57Z",
+   "source": "Fashion shows",
+   "source_name": "Fashion shows México",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 3.0,
+   "lang": "es",
+   "region": "mx",
+   "tags": [
+    "pasarela"
+   ],
+   "via": "Mediatik",
+   "also": [],
+   "id": "1a7f2dceb870",
+   "score": 6.25
+  },
+  {
+   "title": "Kylie Jenner Wears Ashi Studio Fawn Print Gown for LACMA Gala 2026 Red Carpet",
+   "link": "https://wwd.com/pop-culture/celebrity-news/kylie-jenner-ashi-studio-fawn-print-gown-lacma-gala-2026-1239406468/",
+   "excerpt": "Jenner’s backless scoop halter dress featured light white fawn print speckles and a latex-like texture.",
+   "image": "",
+   "published": "2026-11-08T21:17:37Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "cultura"
+   ],
+   "via": "",
+   "also": [],
+   "id": "cb97d910d6a7",
+   "score": 8.35
+  },
+  {
+   "title": "Kim Kardashian Shimmers in Custom Sequin Gucci Gown for LACMA Gala 2026 Red Carpet",
+   "link": "https://wwd.com/pop-culture/celebrity-news/kim-kardashian-gucci-gown-lacma-gala-2026-1239406460/",
+   "excerpt": "The reality star wore a dark burgundy floor-length gown with a turtleneck bodice and side cutouts for the event.",
+   "image": "",
+   "published": "2026-11-08T21:00:22Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "cultura"
+   ],
+   "via": "",
+   "also": [],
+   "id": "476da575b523",
+   "score": 8.35
+  },
+  {
+   "title": "¿Pasarela o templo? Desfile en Catedral de Puebla divide opiniones - e-consulta.com",
+   "link": "https://www.e-consulta.com/entretenimiento/desfile-en-catedral-de-puebla-divide-opiniones",
+   "excerpt": "México Monumental 2026 reunió alta costura y orquesta de la BUAP en la Catedral de Puebla",
+   "image": "https://media.e-consulta.com/wp-content/uploads/2026/11/%C2%BFPasarela-o-templo_-Desfile-en-Catedral-de-Puebla-divide-opiniones-1.jpg",
+   "published": "2026-11-08T20:57:54Z",
+   "source": "Fashion shows",
+   "source_name": "Fashion shows México",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 3.0,
+   "lang": "es",
+   "region": "mx",
+   "tags": [
+    "pasarela"
+   ],
+   "via": "e-consulta.com",
+   "also": [],
+   "id": "52c1b4d081c1",
+   "score": 6.6
+  },
+  {
+   "title": "La Met Gala elevará la ropa cotidiana a alta costura tras cancelar la exposición dedicada a Galliano",
+   "link": "https://es.fashionnetwork.com/news/La-met-gala-elevara-la-ropa-cotidiana-a-alta-costura-tras-cancelar-la-exposicion-dedicada-a-galliano,1882364.html",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-08T20:51:09Z",
+   "source": "FashionNetwork",
+   "source_name": "FashionNetwork España",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "cultura"
+   ],
+   "via": "FashionNetwork España",
+   "also": [],
+   "id": "f558e32728ac",
+   "score": 6.95
+  },
+  {
+   "title": "Critican desfile de moda en Catedral de Puebla; participó Benito Santos",
+   "link": "https://www.unotv.com/estilo-de-vida/moda/critican-desfile-de-moda-en-catedral-de-puebla-participo-benito-santos/",
+   "excerpt": "Desfile de Benito Santos en la Catedral de Puebla desata críticas por utilizar el recinto religioso como pasarela de moda.",
+   "image": "https://cdn.amxinfra.com/unotv/images/2026/11/benito-santos-140059.jpg",
+   "published": "2026-11-08T20:12:25Z",
+   "source": "Fashion shows",
+   "source_name": "Fashion shows México",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 3.0,
+   "lang": "es",
+   "region": "mx",
+   "tags": [
+    "pasarela"
+   ],
+   "via": "UnoTV",
+   "also": [],
+   "id": "89c4afdf7a0b",
+   "score": 6.6
+  },
   {
    "title": "Gran Premio de Brasil 2026: Resultados de la Fórmula 1",
    "link": "https://www.gq.com.mx/articulo/formula-1-gran-premio-de-brasil-2026-clasificacion-resultados-de-la-carrera-08-11-2026",
@@ -26,7 +299,7 @@
    "via": "",
    "also": [],
    "id": "f36250f6b8ce",
-   "score": 7.74
+   "score": 7.14
   },
   {
    "title": "¿Sacrilegio en Catedral de Puebla? Pasarela de novias provoca indignación entre feligreses",
@@ -47,7 +320,7 @@
    "via": "MTP Noticias",
    "also": [],
    "id": "4a12745c23fe",
-   "score": 6.6
+   "score": 6.0
   },
   {
    "title": "Timberland’s Premium 6-Inch Boot Gets a New Limited-Edition Collaboration Covered in Pony Hair",
@@ -68,7 +341,7 @@
    "via": "",
    "also": [],
    "id": "7d344ed7dd8c",
-   "score": 8.55
+   "score": 7.95
   },
   {
    "title": "¿El perreo pasó de moda? El rock está haciendo un comeback en las playlists adolescentes",
@@ -89,7 +362,28 @@
    "via": "",
    "also": [],
    "id": "ba15a8653256",
-   "score": 7.18
+   "score": 6.58
+  },
+  {
+   "title": "Canada Goose registra un aumento del 5,9 % en las ventas pese a la debilidad en EMEA",
+   "link": "https://es.fashionnetwork.com/news/Canada-goose-registra-un-aumento-del-5-9-en-las-ventas-pese-a-la-debilidad-en-emea,1882538.html",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-08T18:00:00Z",
+   "source": "FashionNetwork",
+   "source_name": "FashionNetwork España",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "negocio"
+   ],
+   "via": "FashionNetwork España",
+   "also": [],
+   "id": "b9a19cd8c2ee",
+   "score": 7.55
   },
   {
    "title": "Dina Asher-Smith pays tribute to the changing landscape for sportswomen in powerful awards speech",
@@ -110,7 +404,7 @@
    "via": "",
    "also": [],
    "id": "98fa60a0a121",
-   "score": 7.26
+   "score": 6.66
   },
   {
    "title": "Shein suma otra demanda y es denunciado por la asociación alemana por el medioambiente",
@@ -131,7 +425,7 @@
    "via": "Modaes",
    "also": [],
    "id": "6ed107614d21",
-   "score": 7.9
+   "score": 7.3
   },
   {
    "title": "Buddhi Weerasinghe Appointed General Manager Of Environmental Consulting Firm Bluwin As Dr Ron Pedemonte Retires",
@@ -152,7 +446,7 @@
    "via": "",
    "also": [],
    "id": "27d608da3804",
-   "score": 7.14
+   "score": 6.54
   },
   {
    "title": "Nike’s Luxe New Air Max 95 Big Bubble Collaboration Is a Love Letter to Italy",
@@ -173,7 +467,7 @@
    "via": "",
    "also": [],
    "id": "f893edaa56a6",
-   "score": 8.35
+   "score": 7.75
   },
   {
    "title": "Inside LACMA’s Art+Film Gala With Demna’s Gucci, Nicole Kidman and Eva Chow’s Farewell",
@@ -194,7 +488,7 @@
    "via": "",
    "also": [],
    "id": "2eaa1765d4f7",
-   "score": 8.35
+   "score": 7.75
   },
   {
    "title": "Los botines de tacón cómodo que odiaste en tu adolescencia son la compra estrella del otoño 2026 (y estos son nuestros preferidos)",
@@ -215,7 +509,7 @@
    "via": "",
    "also": [],
    "id": "c3fd2d268c0f",
-   "score": 8.55
+   "score": 7.95
   },
   {
    "title": "Perfumes de otoño para hombre: Los 12 mejores según tu signo zodiacal, de aromas seductores para dejar huella",
@@ -236,28 +530,7 @@
    "via": "",
    "also": [],
    "id": "c5c40a5114b1",
-   "score": 7.34
-  },
-  {
-   "title": "Gastó los ahorros de su vida para lanzar su propio vino: \"No hay mejor inversión que apostar a una pasión\"",
-   "link": "https://www.parati.com.ar/news/gasto-los-ahorros-de-su-vida-para-lanzar-su-propio-vino-no-hay-mejor-inversion-que-apostar-a-una-pasion/",
-   "excerpt": "Durante años, Sofía Bernatet guardó dinero con un objetivo bastante conocido: comprar una casa. Había crecido con la idea de que la estabilidad comenzaba por los metros cuadrados propios y siguió esa hoja de ruta hasta que una…",
-   "image": "https://www.parati.com.ar/wp-content/uploads/2026/11/DSC05204-scaled.jpg.webp",
-   "published": "2026-11-08T15:00:00Z",
-   "source": "Para Ti",
-   "source_name": "Para Ti",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 3.0,
-   "lang": "es",
-   "region": "ar",
-   "tags": [
-    "negocio"
-   ],
-   "via": "",
-   "also": [],
-   "id": "fc3a4ad1854f",
-   "score": 7.5
+   "score": 6.74
   },
   {
    "title": "Holidays and Shopping Festivals Give Retailers a Chance to Salvage a Difficult Year",
@@ -278,7 +551,7 @@
    "via": "The Business of Fashion",
    "also": [],
    "id": "84ae48c09973",
-   "score": 8.55
+   "score": 7.95
   },
   {
    "title": "Catedral de Puebla se convierte en pasarela: así fue el desfile México Monumental 2026",
@@ -300,6 +573,27 @@
    "also": [],
    "id": "21c55cdc6cbf",
    "score": 6.0
+  },
+  {
+   "title": "Los ingresos de Under Armour caen un 7 % en el segundo trimestre",
+   "link": "https://es.fashionnetwork.com/news/Los-ingresos-de-under-armour-caen-un-7-en-el-segundo-trimestre,1882913.html",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-08T13:00:00Z",
+   "source": "FashionNetwork",
+   "source_name": "FashionNetwork España",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "negocio"
+   ],
+   "via": "FashionNetwork España",
+   "also": [],
+   "id": "7596954aae24",
+   "score": 7.55
   },
   {
    "title": "CHT Group advances PP-free denim finishing through industry collaboration",
@@ -364,7 +658,7 @@
     "British Vogue"
    ],
    "id": "d949af28cd51",
-   "score": 8.89
+   "score": 8.39
   },
   {
    "title": "Uzbekistan links textile expansion with $2bn renewable energy investment",
@@ -385,7 +679,7 @@
    "via": "",
    "also": [],
    "id": "f9d8f2749aff",
-   "score": 6.66
+   "score": 6.16
   },
   {
    "title": "Jessica Williams Tries Out Sheer Pump Trend on the LACMA Gala 2026 Red Carpet",
@@ -406,7 +700,7 @@
    "via": "",
    "also": [],
    "id": "6b439ab422ed",
-   "score": 7.95
+   "score": 7.45
   },
   {
    "title": "US Cotton export sales rise on strong demand from Vietnam, Pakistan and Turkiye",
@@ -427,7 +721,7 @@
    "via": "",
    "also": [],
    "id": "352691950748",
-   "score": 6.66
+   "score": 6.16
   },
   {
    "title": "Cotton Loop initiative aims to turn Bangladesh’s garment waste into a circular cotton supply chain",
@@ -448,133 +742,7 @@
    "via": "",
    "also": [],
    "id": "618f058df83f",
-   "score": 6.26
-  },
-  {
-   "title": "Parker Posey Captures Old School Glamour in Gucci at the LACMA Gala 2026",
-   "link": "https://wwd.com/pop-culture/celebrity-news/parker-posey-gucci-dress-lacma-gala-2026-1239406034/",
-   "excerpt": "The \"Wild Horse Nine\" actress' caftan gown dripped in shimmering embellishments.",
-   "image": "",
-   "published": "2026-11-08T04:15:43Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "industria"
-   ],
-   "via": "",
-   "also": [],
-   "id": "59d1365eec66",
-   "score": 8.15
-  },
-  {
-   "title": "Iris Law Flatters Her Feet in Disco-Esque Mirrored Paris Texas Lidia Slingbacks on the LACMA Gala 2026 Red Carpet",
-   "link": "https://wwd.com/footwear-news/shoe-trends/iris-law-paris-texas-slingback-lacma-gala-2026-red-carpet-1239405925/",
-   "excerpt": "The slingbacks currently retail for $895 on the brand's website.",
-   "image": "",
-   "published": "2026-11-08T03:48:20Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "cultura"
-   ],
-   "via": "",
-   "also": [],
-   "id": "22d4ba329e98",
-   "score": 7.75
-  },
-  {
-   "title": "Nicole Kidman Brings a Touch of Balletcore in Chanel’s Tutu Dress for LACMA Gala 2026",
-   "link": "https://wwd.com/pop-culture/celebrity-news/nicole-kidman-chanel-dress-lacma-gala-2026-1239405959/",
-   "excerpt": "",
-   "image": "",
-   "published": "2026-11-08T03:33:06Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "industria"
-   ],
-   "via": "",
-   "also": [],
-   "id": "60dcc2ee63cf",
-   "score": 7.95
-  },
-  {
-   "title": "Ashley Park Honors Old Hollywood in Classic Black & White Atelier Prabal Gurung on the LACMA Gala 2026 Red Carpet",
-   "link": "https://wwd.com/pop-culture/celebrity-news/ashley-park-prabal-gurung-lacma-gala-2026-red-carpet-1239405788/",
-   "excerpt": "The gown seemed to be a nod to the startlets of the past.",
-   "image": "",
-   "published": "2026-11-08T03:15:08Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "cultura"
-   ],
-   "via": "",
-   "also": [],
-   "id": "d2f56fdfe9c8",
-   "score": 7.75
-  },
-  {
-   "title": "Anya Taylor-Joy Repurposes Archival Pierre Cardin Haute Couture Bridal Gown for the Red Carpet at LACMA Gala 2026",
-   "link": "https://wwd.com/pop-culture/celebrity-news/anya-taylor-joy-pierre-cardin-bridal-gown-lacma-gala-2026-1239405686/",
-   "excerpt": "The actress pulled a look from the brand's 1997 archives.",
-   "image": "",
-   "published": "2026-11-08T02:44:43Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "pasarela"
-   ],
-   "via": "",
-   "also": [],
-   "id": "0c4249ca1429",
-   "score": 8.05
-  },
-  {
-   "title": "Paris Hilton Wore One of Kate Middleton’s Go-to Designers for LACMA Gala 2026",
-   "link": "https://wwd.com/pop-culture/celebrity-news/paris-hilton-jenny-packham-dress-lacma-gala-2026-1239405786/",
-   "excerpt": "The mogul wore the dress with a pair of delicate sheer gloves on Saturday night.",
-   "image": "",
-   "published": "2026-11-08T02:43:16Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "industria"
-   ],
-   "via": "",
-   "also": [],
-   "id": "955659a3dfd5",
-   "score": 8.15
+   "score": 5.76
   },
   {
    "title": "Bangladesh must move from manufacturing strength to value creation and innovation",
@@ -595,7 +763,7 @@
    "via": "",
    "also": [],
    "id": "470408c9821b",
-   "score": 6.26
+   "score": 5.76
   },
   {
    "title": "Quinta Brunson Subtly Brings Extra Jewels Into Her Look With Giuseppe Zanotti Sandals on the LACMA Gala 2026 Red Carpet",
@@ -911,11 +1079,10 @@
    "also": [
     "Business of Fashion",
     "Pambianco News",
-    "Elle",
     "Harper's Bazaar ES"
    ],
    "id": "002c551241ce",
-   "score": 9.25
+   "score": 8.0
   },
   {
    "title": "One in three pairs, and the test that comes next",
@@ -936,7 +1103,7 @@
    "via": "",
    "also": [],
    "id": "a1f9232c6333",
-   "score": 6.16
+   "score": 5.66
   },
   {
    "title": "EU makes product identifiers mandatory for e-commerce imports from November",
@@ -957,7 +1124,7 @@
    "via": "",
    "also": [],
    "id": "715f5a73ce63",
-   "score": 5.96
+   "score": 5.46
   },
   {
    "title": "Cascale reports 22% emission cuts among factories engaged with Higg FEM",
@@ -1506,27 +1673,6 @@
    "score": 6.19
   },
   {
-   "title": "Salma Hayek Pinault, Jane Fonda, and Hollywood’s Leading Names Gathered to Toast Women In Film",
-   "link": "https://www.vogue.com/slideshow/salma-hayek-pinault-jane-fonda-women-in-film-honors-2026",
-   "excerpt": "If there was one room in Hollywood where female power was unmistakable, it was the Beverly Hilton on Thursday night, where Women In Film hosted its annual WIF Honors.",
-   "image": "https://assets.vogue.com/photos/6aee0414afba659d7eb6aeba/master/pass/2303771267.jpg",
-   "published": "2026-11-06T17:05:39Z",
-   "source": "Vogue",
-   "source_name": "Vogue",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "personas"
-   ],
-   "via": "",
-   "also": [],
-   "id": "005ad95711a4",
-   "score": 6.74
-  },
-  {
    "title": "Must Read: Yeezy's Comeback Show Fell Short, Pay Structure Revisions Fail To End Bangladesh Garment Protests",
    "link": "https://fashionista.com/2026/11/yeezy-comeback-show-review",
    "excerpt": "These are the stories making headlines in fashion on Friday . Yeezy’s Comeback Show Falls Short Ye, formerly known as Kanye West, staged a runway comeback Wednesday in Los Angeles. The roughly 15-minute show, billed as Yeezy…",
@@ -1611,27 +1757,6 @@
    "score": 6.26
   },
   {
-   "title": "Travis Scott’s Most Colorful ‘GTA 6’ x Nike Air Force 1 Will Also Be the Hardest to Get",
-   "link": "https://wwd.com/footwear-news/sneaker-news/gta-6-travis-scott-air-force-1-patent-giveaway-details-1239404235/",
-   "excerpt": "The rapper revealed a fourth colorway that he'll dole out himself.",
-   "image": "",
-   "published": "2026-11-06T16:11:04Z",
-   "source": "FN",
-   "source_name": "Footwear News",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 3.8,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "industria"
-   ],
-   "via": "",
-   "also": [],
-   "id": "6de59f50fcdd",
-   "score": 5.71
-  },
-  {
    "title": "Martine Rose a ‘breath of fresh air’ for Balenciaga",
    "link": "https://www.drapersonline.com/product-and-trends/martine-rose-a-breath-of-fresh-air-for-balenciaga",
    "excerpt": "Pierpaolo Piccioli was the third creative director exit within a matter of weeks at luxury conglomerate Kering. London-based menswear designer Martine Rose was confirmed as Balenciaga's new creative lead on Friday. Drapers deputy…",
@@ -1693,6 +1818,27 @@
    "also": [],
    "id": "2c2139bde8fd",
    "score": 6.18
+  },
+  {
+   "title": "Adolfo Domínguez eleva un 81 % sus ventas en América Latina en cinco años",
+   "link": "https://es.fashionnetwork.com/news/Adolfo-dominguez-eleva-un-81-sus-ventas-en-america-latina-en-cinco-anos,1882738.html",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-06T15:14:12Z",
+   "source": "FashionNetwork",
+   "source_name": "FashionNetwork España",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "negocio"
+   ],
+   "via": "FashionNetwork España",
+   "also": [],
+   "id": "7839c9b246ae",
+   "score": 6.55
   },
   {
    "title": "Editor’s comment: Who are the most influential people in fashion retail this year?",
@@ -1863,6 +2009,27 @@
    "score": 6.44
   },
   {
+   "title": "Adolfo Domínguez crece un 81% en Latinoamérica desde 2021, con México a la cabeza",
+   "link": "https://www.modaes.com/empresas/adolfo-dominguez-crece-un-81-en-latinoamerica-desde-2021-con-mexico-a-la-cabeza",
+   "excerpt": "La compañía española ha elevado sus ventas en la región entre 2021 y 2025, donde cuenta con 167 puntos de venta en trece países. En cinco años México…",
+   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3OTM5ODEyMzB9/files/2026/15-redaccion-empresas/adolfo-dominguez/tienda-interior-ropa-moda-adolfo-dominguez-mexico-1200.jpg",
+   "published": "2026-11-06T12:57:00Z",
+   "source": "Modaes",
+   "source_name": "Modaes",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "industria"
+   ],
+   "via": "Modaes",
+   "also": [],
+   "id": "ee437ed55cc8",
+   "score": 6.3
+  },
+  {
    "title": "Under Armour Stock Drops as Q2 Sales Fall 7%",
    "link": "https://wwd.com/business-news/financial/under-armour-q2-2026-sales-fall-7-1239404021/",
    "excerpt": "CEO Kevin Plank said the company is doing the hard work of improving efficiency and sharpening the product offering.",
@@ -1879,9 +2046,11 @@
     "negocio"
    ],
    "via": "",
-   "also": [],
+   "also": [
+    "Modaes"
+   ],
    "id": "c14da6cdbe32",
-   "score": 7.35
+   "score": 8.1
   },
   {
    "title": "Editors' Top Reads: News from Liberty, Harrods, Barbour and more...",
@@ -1903,27 +2072,6 @@
    "also": [],
    "id": "626e44812111",
    "score": 7.14
-  },
-  {
-   "title": "Estée Lauder apunta a un crecimiento de sus ventas hasta 2030",
-   "link": "https://es.fashionnetwork.com/news/Estee-lauder-apunta-a-un-crecimiento-de-sus-ventas-hasta-2030,1882231.html",
-   "excerpt": "",
-   "image": "",
-   "published": "2026-11-06T11:51:00Z",
-   "source": "FashionNetwork",
-   "source_name": "FashionNetwork España",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "es",
-   "tags": [
-    "negocio"
-   ],
-   "via": "FashionNetwork España",
-   "also": [],
-   "id": "a8a83597a1e6",
-   "score": 6.55
   },
   {
    "title": "Paul Smith recognised by City of London for contribution to British fashion",
@@ -1987,48 +2135,6 @@
    "also": [],
    "id": "d54d7cdc3a74",
    "score": 5.75
-  },
-  {
-   "title": "Steve Madden eleva sus ventas un 15,7 % en el tercer trimestre y mejora sus previsiones",
-   "link": "https://es.fashionnetwork.com/news/Steve-madden-eleva-sus-ventas-un-15-7-en-el-tercer-trimestre-y-mejora-sus-previsiones,1882599.html",
-   "excerpt": "",
-   "image": "",
-   "published": "2026-11-06T10:26:57Z",
-   "source": "FashionNetwork",
-   "source_name": "FashionNetwork España",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "es",
-   "tags": [
-    "negocio"
-   ],
-   "via": "FashionNetwork España",
-   "also": [],
-   "id": "7c5084c5ba6f",
-   "score": 6.55
-  },
-  {
-   "title": "Byan aterriza en Milán con una tienda temporal instalada hasta finales de diciembre",
-   "link": "https://es.fashionnetwork.com/news/Byan-aterriza-en-milan-con-una-tienda-temporal-instalada-hasta-finales-de-diciembre,1882718.html",
-   "excerpt": "",
-   "image": "",
-   "published": "2026-11-06T10:24:52Z",
-   "source": "FashionNetwork",
-   "source_name": "FashionNetwork España",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "es",
-   "tags": [
-    "retail"
-   ],
-   "via": "FashionNetwork España",
-   "also": [],
-   "id": "d8ab3af548c4",
-   "score": 6.35
   },
   {
    "title": "Ralph Lauren rivede al rialzo il fy. Ma le stime sul Q3 deludono Wall Street",
@@ -2503,6 +2609,27 @@
    "score": 5.26
   },
   {
+   "title": "Why Dior’s Holiday Ad Sparked Debate",
+   "link": "https://www.businessoffashion.com/articles/marketing-pr/why-diors-holiday-ad-sparked-debate/",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-05T22:53:49Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "industria"
+   ],
+   "via": "The Business of Fashion",
+   "also": [],
+   "id": "d39283f98737",
+   "score": 6.55
+  },
+  {
    "title": "Dopo lo stop di Galliano il Met svela la nuova mostra del Costume Institute",
    "link": "https://www.pambianconews.com/2026/11/05/dopo-lo-stop-di-galliano-il-met-svela-la-nuova-mostra-del-costume-institute-499893/",
    "excerpt": "Il Metropolitan Museum di New York ha svelato la nuova mostra primaverile del Costume Institute . ‘ExtraOrdinary: Fashion and the Poetics of the Everyday’ prenderà quindi il posto dell’ annunciata retrospettiva dedicata a John…",
@@ -2521,7 +2648,7 @@
    "via": "",
    "also": [],
    "id": "497caf39b398",
-   "score": 5.55
+   "score": 5.15
   },
   {
    "title": "Reformation Continues Growth Streak With 19.1% Q3 Sales Gain",
@@ -2542,7 +2669,7 @@
    "via": "",
    "also": [],
    "id": "a2f23daf9f5a",
-   "score": 7.35
+   "score": 6.95
   },
   {
    "title": "Ralph Lauren desafía la desaceleración del lujo y eleva sus previsiones para el ejercicio",
@@ -2563,7 +2690,7 @@
    "via": "FashionNetwork España",
    "also": [],
    "id": "9a5713949154",
-   "score": 5.75
+   "score": 5.35
   },
   {
    "title": "¿Representa el comercio agéntico una amenaza para los grandes distribuidores online?",
@@ -2584,7 +2711,7 @@
    "via": "FashionNetwork España",
    "also": [],
    "id": "e620e6a81979",
-   "score": 6.35
+   "score": 5.95
   },
   {
    "title": "ThredUp Bets Big on Live Selling as Outlook Dims",
@@ -2605,7 +2732,7 @@
    "via": "",
    "also": [],
    "id": "2c33cdf9424c",
-   "score": 7.35
+   "score": 6.95
   },
   {
    "title": "Tanger’s Strong Q3 Spurs Raised Outlook on 2026 Profit and Holiday Sales",
@@ -2776,6 +2903,27 @@
    "score": 6.95
   },
   {
+   "title": "David Jones, los grandes almacenes australianos con 188 años de historia, buscan comprador",
+   "link": "https://www.modaes.com/empresas/david-jones-los-grandes-almacenes-australianos-con-188-anos-de-historia-buscan-comprador",
+   "excerpt": "La cadena australiana de grandes almacenes, fundada en 1838 y propiedad de Anchorage Capital Partners, en situación de crisis: inicia un proceso de…",
+   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3OTM5MDA4ODV9/files/2026/15-redaccion-empresas/david-jones-centro-comercial-australia-grandes-almacenes-1200.jpg",
+   "published": "2026-11-05T17:54:00Z",
+   "source": "Modaes",
+   "source_name": "Modaes",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "industria"
+   ],
+   "via": "Modaes",
+   "also": [],
+   "id": "61e179e354bf",
+   "score": 5.9
+  },
+  {
    "title": "Interparfums, Inc. to launch new Off-White, Longchamp fragrances in 2027",
    "link": "https://www.glossy.co/beauty/interparfums-inc-to-launch-new-off-white-longchamp-fragrances-in-2027/",
    "excerpt": "Storied streetwear brand Off-White may soon be returning — to the beauty aisle, at least. On Thursday’s earnings call for Interparfums, Inc.’s Q3 2026 results, CEO and chairman Jean Madar stated the company is planning to launch…",
@@ -2903,9 +3051,9 @@
   },
   {
    "title": "El Trompo conmemoró día de muertos con arte, música y moda",
-   "link": "https://www.uniradiobaja.com/sociedad/el-trompo-conmemoro-dia-muertos-arte-musica-moda-n912619",
+   "link": "https://www.uniradioinforma.com/sociedad/el-trompo-conmemoro-dia-muertos-arte-musica-moda-n912620",
    "excerpt": "Edición reunió talento local de variadas expresiones artísticas y tradiciones.",
-   "image": "https://statics.uniradiobaja.com/2026/11/6aeca5dd02fa7.jpg",
+   "image": "https://statics.uniradioinforma.com/2026/11/6aeca5dd02fa7.jpg",
    "published": "2026-11-05T15:49:00Z",
    "source": "Tijuana",
    "source_name": "Moda en Tijuana",
@@ -2917,9 +3065,9 @@
    "tags": [
     "industria"
    ],
-   "via": "Uniradio Informa Baja California",
+   "via": "Uniradio Informa",
    "also": [],
-   "id": "e12a4c7800e3",
+   "id": "6852c97707ed",
    "score": 5.18
   },
   {
@@ -3089,27 +3237,6 @@
    "also": [],
    "id": "2a30363907f7",
    "score": 6.5
-  },
-  {
-   "title": "Fashion Label Guizio Launches Perfume",
-   "link": "https://www.businessoffashion.com/news/beauty/guizio-perfume-launch/",
-   "excerpt": "",
-   "image": "",
-   "published": "2026-11-05T13:00:00Z",
-   "source": "BoF",
-   "source_name": "Business of Fashion",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "global",
-   "tags": [
-    "belleza"
-   ],
-   "via": "The Business of Fashion",
-   "also": [],
-   "id": "ec7c436eb114",
-   "score": 6.25
   },
   {
    "title": "Colangelo lascia la direzione creativa di Giada. A undici anni dalla nomina",
@@ -3488,111 +3615,6 @@
    "also": [],
    "id": "39a0e3cf3a06",
    "score": 4.4
-  },
-  {
-   "title": "Cuánto costará la RAP: Re-viste desvela sus tarifas a la espera del Real Decreto",
-   "link": "https://www.modaes.com/entorno/cuanto-costara-la-rap-re-viste-desvela-sus-tarifas-a-la-espera-del-real-decreto",
-   "excerpt": "Cada empresa que ponga productos textiles en el mercado español deberá pagar una tarifa promedio de 140,4 euros por tonelada de prendas. Con estas…",
-   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3OTM4MTQ2NjB9/files/2026/17-redaccion-recursos/re-viste/scrap-re-viste-calzado-ropa-textil-cubo-1200.jpg",
-   "published": "2026-11-05T04:00:00Z",
-   "source": "Modaes",
-   "source_name": "Modaes",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "es",
-   "tags": [
-    "industria"
-   ],
-   "via": "Modaes",
-   "also": [],
-   "id": "da875db6e082",
-   "score": 5.9
-  },
-  {
-   "title": "Rhode’s European summer fuels 51% sales spike for E.l.f. Beauty",
-   "link": "https://www.glossy.co/beauty/rhodes-european-summer-fuels-51-sales-spike-for-e-l-f-beauty/",
-   "excerpt": "E.l.f. Beauty is on another growth streak. “Rhode continues to break records with every launch, including most recently in Sephora Europe, marking the biggest launch in Sephora’s history,” E.l.f. Beauty CEO Tarang Amin said…",
-   "image": "",
-   "published": "2026-11-04T22:47:00Z",
-   "source": "Glossy",
-   "source_name": "Glossy",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 3.9,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "negocio"
-   ],
-   "via": "",
-   "also": [],
-   "id": "c1e718ec5bdc",
-   "score": 6.23
-  },
-  {
-   "title": "Cardi B’s hair-care brand is bringing new shoppers to Revolve",
-   "link": "https://www.glossy.co/beauty/revolve-cardi-b-grow-good-beauty-earnings/",
-   "excerpt": "Cardi B’s hair-care brand Grow-Good Beauty is bringing new shoppers to Revolve Group and is already adding to its profits, giving the fashion retailer an early return on its expansion into celebrity-backed beauty. During the…",
-   "image": "",
-   "published": "2026-11-04T22:04:03Z",
-   "source": "Glossy",
-   "source_name": "Glossy",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 3.9,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "retail"
-   ],
-   "via": "",
-   "also": [],
-   "id": "140e82b416b9",
-   "score": 6.03
-  },
-  {
-   "title": "E.l.f. Beauty posts 51% sales increase, raises full-year guidance",
-   "link": "https://www.cnbc.com/2026/11/04/elf-beauty-elf-q2-2027-earnings.html",
-   "excerpt": "E.l.f. Beauty posted stronger-than-expected quarterly results on Wednesday as the company continues to see broad-based growth across its portfolio.",
-   "image": "",
-   "published": "2026-11-04T21:47:22Z",
-   "source": "CNBC",
-   "source_name": "CNBC Retail",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 3.6,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "negocio"
-   ],
-   "via": "",
-   "also": [],
-   "id": "f1011b98799b",
-   "score": 5.87
-  },
-  {
-   "title": "VIDEO: tocado de catrina se incendia durante pasarela en Baja California Sur",
-   "link": "https://www.aztecachihuahua.com/noticias/tocado-de-catrina-se-incendia-durante-pasarela-en-baja-california-sur/",
-   "excerpt": "La participante portaba un bastón con fuego cuando algunas chispas alcanzaron el adorno que llevaba en la cabeza.",
-   "image": "https://tvazteca-chihuahua-prod.web.arc-cdn.net/resizer/v2/KWJMDDJLWNCLZCOP5HM6WNNPEE.png?smart=true&auth=357f36dc46113ab38f37be3ffb9e3c16b1c3d74f48675c536079dc2ba0a0fe5f&width=1200&height=630",
-   "published": "2026-11-04T20:09:27Z",
-   "source": "Baja California",
-   "source_name": "Moda en Baja California",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 3.2,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "pasarela"
-   ],
-   "via": "Azteca Chihuahua",
-   "also": [],
-   "id": "29a6bd426ddf",
-   "score": 4.84
   }
  ]
 }
