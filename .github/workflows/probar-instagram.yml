@@ -1,0 +1,34 @@
+name: Probar Instagram
+
+# Comprueba (sin publicar nada) que el token de Instagram funciona: lee el nombre de la
+# cuenta y la cuota de publicación. Se lanza a mano: Actions → Probar Instagram.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Leer la cuenta
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_HOST: ${{ vars.IG_HOST }}
+          IG_VERSION: ${{ vars.IG_VERSION }}
+        run: |
+          python - <<'PY'
+          import json, os, urllib.request, urllib.error
+          host = os.environ.get("IG_HOST") or "graph.facebook.com"
+          ver = os.environ.get("IG_VERSION") or "v23.0"
+          uid, tok = os.environ["IG_USER_ID"], os.environ["IG_TOKEN"]
+          for ruta in (f"{uid}?fields=username", f"{uid}/content_publishing_limit?fields=quota_usage,config"):
+              url = f"https://{host}/{ver}/{ruta}&access_token={tok}" if "?" in ruta else f"https://{host}/{ver}/{ruta}?access_token={tok}"
+              try:
+                  with urllib.request.urlopen(url, timeout=20) as r:
+                      print("OK ", ruta.split("?")[0].replace(uid, "<cuenta>"), "→", r.read().decode()[:300])
+              except urllib.error.HTTPError as e:
+                  print("ERR", ruta.split("?")[0].replace(uid, "<cuenta>"), e.code, e.read().decode()[:300])
+          PY
