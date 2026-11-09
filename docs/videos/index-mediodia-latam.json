@@ -1,43 +1,43 @@
 {
- "date": "2026-11-08",
+ "date": "2026-11-09",
  "edition": "latam",
- "duration": 78.7,
+ "duration": 67.8,
  "script_source": "IA (deepseek-chat)",
- "hook": "Moda, polémicas y sorpresas marcan la agenda de hoy en México y Latinoamérica",
+ "hook": "Lujo, tecnología y belleza navideña marcan la agenda de hoy",
  "items": [
   {
-   "title": "Verstappen remonta en Brasil 2026",
-   "headline": "Gran Premio de Brasil 2026: Resultados de la Fórmula 1",
+   "title": "Le Sereno se renueva en Saint Barth",
+   "headline": "Le Sereno: Ese enclave de lujo clásico en Saint Barth se renueva esta temporada",
+   "source": "Vogue MX",
+   "link": "https://www.vogue.mx/articulo/le-sereno-saint-barthelemy-2026",
+   "photo_credit": null
+  },
+  {
+   "title": "Zara suma alarmas invisibles",
+   "headline": "Zara incorpora alarmas invisibles en sus prendas: ¿cómo funcionan y qué tecnología utilizan?",
+   "source": "Perú Retail",
+   "link": "https://www.peru-retail.com/zara-incorpora-alarmas-invisibles-en-sus-prendas-como-funcionan-y-que-tecnologia-utilizan/",
+   "photo_credit": null
+  },
+  {
+   "title": "Grand Seiko, mejor deportivo 2026",
+   "headline": "Grand Seiko Spring Drive U.F.A. Ushio 300 Diver: El reloj que brilla en la oscuridad y es el mejor deportivo de 2026",
    "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/formula-1-gran-premio-de-brasil-2026-clasificacion-resultados-de-la-carrera-08-11-2026",
+   "link": "https://www.gq.com.mx/articulo/reloj-grand-seiko-spring-drive-ufa-ushio-300-diver-precio-disponibilidad-09-11-2026",
    "photo_credit": null
   },
   {
-   "title": "Perfumes de otoño para hombre",
-   "headline": "Perfumes de otoño para hombre: Los 12 mejores según tu signo zodiacal, de aromas seductores para dejar huella",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/mejores-perfumes-de-otono-para-hombre-segun-tu-signo-zodiacal",
+   "title": "SHEGLAM lanza calendario navideño",
+   "headline": "SHEGLAM lanza calendario de adviento con 12 productos sorpresa de belleza navideña",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/sheglam-lanza-calendario-de-adviento-con-12-productos-sorpresa-de-belleza-navidena/",
    "photo_credit": null
   },
   {
-   "title": "El rock vuelve a las playlists",
-   "headline": "¿El perreo pasó de moda? El rock está haciendo un comeback en las playlists adolescentes",
-   "source": "El Economista",
-   "link": "https://www.eleconomista.com.mx/opinion/perreo-paso-moda-rock-haciendo-comeback-playlists-adolescentes-20261108-842771.html",
-   "photo_credit": null
-  },
-  {
-   "title": "Polémica pasarela en Puebla",
-   "headline": "¿Sacrilegio en Catedral de Puebla? Pasarela de novias provoca indignación entre feligreses",
-   "source": "MTP Noticias",
-   "link": "https://mtpnoticias.com/virales/sacrilegio-en-catedral-de-puebla-pasarela-de-novias-provoca-indignacion-entre-feligreses/",
-   "photo_credit": null
-  },
-  {
-   "title": "Tocado de catrina se incendia",
-   "headline": "VIDEO: tocado de catrina se incendia durante pasarela en Baja California Sur",
-   "source": "Azteca Chihuahua",
-   "link": "https://www.aztecachihuahua.com/noticias/tocado-de-catrina-se-incendia-durante-pasarela-en-baja-california-sur/",
+   "title": "Luna Nueva en Escorpio",
+   "headline": "Luna Nueva en Escorpio del 9 de noviembre 2026: Así repercute en cada signo del zodíaco en esta temporada",
+   "source": "Vogue MX",
+   "link": "https://www.vogue.mx/articulo/luna-nueva-en-escorpio-del-9-de-noviembre-2026",
    "photo_credit": null
   }
  ]
