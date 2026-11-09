@@ -1,43 +1,43 @@
 {
  "date": "2026-11-09",
  "edition": "latam",
- "duration": 67.8,
+ "duration": 62.1,
  "script_source": "IA (deepseek-chat)",
- "hook": "Lujo, tecnología y belleza navideña marcan la agenda de hoy",
+ "hook": "Moda, fe y series marcan la agenda de hoy en Latinoamérica",
  "items": [
   {
-   "title": "Le Sereno se renueva en Saint Barth",
-   "headline": "Le Sereno: Ese enclave de lujo clásico en Saint Barth se renueva esta temporada",
-   "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/le-sereno-saint-barthelemy-2026",
-   "photo_credit": null
-  },
-  {
-   "title": "Zara suma alarmas invisibles",
-   "headline": "Zara incorpora alarmas invisibles en sus prendas: ¿cómo funcionan y qué tecnología utilizan?",
-   "source": "Perú Retail",
-   "link": "https://www.peru-retail.com/zara-incorpora-alarmas-invisibles-en-sus-prendas-como-funcionan-y-que-tecnologia-utilizan/",
-   "photo_credit": null
-  },
-  {
-   "title": "Grand Seiko, mejor deportivo 2026",
-   "headline": "Grand Seiko Spring Drive U.F.A. Ushio 300 Diver: El reloj que brilla en la oscuridad y es el mejor deportivo de 2026",
+   "title": "Weyman habla de Gandalf",
+   "headline": "Daniel Weyman habla sobre Gandalf y la temporada 3 de The Rings of Power",
    "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/reloj-grand-seiko-spring-drive-ufa-ushio-300-diver-precio-disponibilidad-09-11-2026",
+   "link": "https://www.gq.com.mx/articulo/the-rings-of-power-temporada-3-entrevista-gandalf-daniel-weyman",
    "photo_credit": null
   },
   {
-   "title": "SHEGLAM lanza calendario navideño",
-   "headline": "SHEGLAM lanza calendario de adviento con 12 productos sorpresa de belleza navideña",
+   "title": "Claves de la temporada 3",
+   "headline": "El elenco de ‘Los Anillos de Poder’ revela las claves de la temporada 3",
+   "source": "Marie Claire MX",
+   "link": "https://marieclaire.com.mx/los-anillos-de-poder-temporada-3-entrevista/",
+   "photo_credit": null
+  },
+  {
+   "title": "Disculpa tras pasarela en México",
+   "headline": "Arquidiócesis se disculpa tras críticas por pasarela y lamenta que asistentes se sintieran heridos en su fe",
+   "source": "Récord",
+   "link": "https://www.record.com.mx/historia/arquidiocesis-se-disculpa-tras-criticas-por-pasarela-y-lamenta-que-asistentes-se-sintieran-heridos-en-su-fe-2026110915370949465",
+   "photo_credit": "Foto: Wonderlane · CC0"
+  },
+  {
+   "title": "BOLO FEST 2026 ya tiene fecha",
+   "headline": "¡Feliz Navidad! El desfile navideño BOLO FEST 2026 de Liverpool ya tiene fecha: será el 28 de noviembre | MAPA",
    "source": "Merca2.0",
-   "link": "https://www.merca20.com/sheglam-lanza-calendario-de-adviento-con-12-productos-sorpresa-de-belleza-navidena/",
+   "link": "https://www.merca20.com/feliz-navidad-el-desfile-navideno-bolo-fest-2026-de-liverpool-ya-tiene-fecha-sera-el-28-de-noviembre-mapa/",
    "photo_credit": null
   },
   {
-   "title": "Luna Nueva en Escorpio",
-   "headline": "Luna Nueva en Escorpio del 9 de noviembre 2026: Así repercute en cada signo del zodíaco en esta temporada",
-   "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/luna-nueva-en-escorpio-del-9-de-noviembre-2026",
+   "title": "Despedida de Víctor Sánchez",
+   "headline": "La pasarela de despedida de Víctor Sánchez",
+   "source": "Reto Diario",
+   "link": "https://retodiario.com/columna/la-pasarela-de-despedida-de-victor-sanchez",
    "photo_credit": null
   }
  ]

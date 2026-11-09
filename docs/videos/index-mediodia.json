@@ -1,43 +1,43 @@
 {
  "date": "2026-11-09",
  "edition": "general",
- "duration": 68.1,
+ "duration": 67.2,
  "script_source": "IA (deepseek-chat)",
- "hook": "Reformation entra al hogar tras crecer 19,1% y Dior enfrenta polémica por IA",
+ "hook": "Havaianas dispara sus ventas en EE UU y crece en el tercer trimestre",
  "items": [
   {
-   "title": "Reformation apuesta por el hogar",
-   "headline": "Reformation enters homeware as it delivers 19.1% rise in third-quarter revenue",
+   "title": "Havaianas crece 82 por ciento en EE UU",
+   "headline": "More People Are Buying Flip-flops as Havaianas Continues to Grow in Q3",
+   "source": "WWD",
+   "link": "https://wwd.com/footwear-news/shoe-industry-news/havaianas-q3-2026-earnings-flip-flops-alpargatas-1239407635/",
+   "photo_credit": null
+  },
+  {
+   "title": "Las mejores ofertas de Black Friday",
+   "headline": "As A Beauty Editor, These Are The 24 Best Black Friday Deals I’ve Found",
+   "source": "Vogue UK",
+   "link": "https://www.vogue.co.uk/beauty/gallery/black-friday-beauty-deals-2026",
+   "photo_credit": null
+  },
+  {
+   "title": "Ariana Grande estrena corte bob",
+   "headline": "Ariana Grande Debuts Bob in First Public Appearance Since Announcing Hiatus",
+   "source": "WWD",
+   "link": "https://wwd.com/pop-culture/celebrity-news/ariana-grande-new-hair-bob-first-appearance-since-hiatus-1239407011/",
+   "photo_credit": null
+  },
+  {
+   "title": "Abusos al personal del comercio",
+   "headline": "More than half of shop workers face abuse every week, new research finds",
    "source": "The Industry",
-   "link": "https://www.theindustry.fashion/reformation-enters-homeware-as-it-delivers-19-1-rise-in-third-quarter-revenue/",
+   "link": "https://www.theindustry.fashion/more-than-half-of-shop-workers-face-abuse-every-week-new-research-finds/",
    "photo_credit": null
   },
   {
-   "title": "Bulgari abre en Manchester",
-   "headline": "Bulgari Adds Roman Flair to Selfridges With New Shop at Manchester Exchange Square",
+   "title": "Belleza de cuento en Nueva York",
+   "headline": "Amanda Seyfried and ‘Steps’ Cast Bring Blushing Fairy-Tale Beauty to New York Premiere",
    "source": "WWD",
-   "link": "https://wwd.com/accessories-news/jewelry/bulgari-roman-flair-selfridges-manchester-exchange-square-1239407533/",
-   "photo_credit": null
-  },
-  {
-   "title": "Dior y el debate sobre lo handmade",
-   "headline": "Dior’s Holiday AI Controversy Raises Questions About What ‘Handmade’ Really Means in Luxury",
-   "source": "WWD",
-   "link": "https://wwd.com/pop-culture/culture-news/dior-holiday-ai-controversy-handmade-animation-1239405212/",
-   "photo_credit": null
-  },
-  {
-   "title": "Air Jordan 3 con detalle oculto",
-   "headline": "Michael Jordan’s Air Jordan 3 ‘Not Nice’ Chooses Petty for Christmas Through Newly Revealed Detail",
-   "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/michael-jordan-air-jordan-3-not-nice-release-date-1239407572/",
-   "photo_credit": null
-  },
-  {
-   "title": "Batsheva se salta el calendario",
-   "headline": "Batsheva Hay Missed New York Bridal Fashion Week by a Month",
-   "source": "WWD",
-   "link": "https://wwd.com/fashion-news/fashion-scoops/batsheva-fall-2027-bridal-show-1239407035/",
+   "link": "https://wwd.com/pop-culture/celebrity-news/amanda-seyfried-steps-cast-fairytale-beauty-nyc-premiere-1239407451/",
    "photo_credit": null
   }
  ]

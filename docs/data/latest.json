@@ -1,12 +1,54 @@
 {
- "generated": "2026-11-09T19:53:33.127656Z",
+ "generated": "2026-11-09T20:12:50.550293Z",
  "days": 4,
- "count": 180,
+ "count": 178,
  "sources_ok": 57,
  "sources_failed": [
   "Hypebeast"
  ],
  "items": [
+  {
+   "title": "Brands are putting YouTube front and center in their holiday marketing strategies",
+   "link": "https://www.glossy.co/sponsored/brands-are-putting-youtube-front-and-center-in-their-holiday-marketing-strategies/",
+   "excerpt": "Partner insights from YouTube Ads Last year, holiday shopping videos on YouTube drew more than 300 million views in the U.S. in the fourth quarter alone, according to internal YouTube data. These audiences aren’t just window…",
+   "image": "",
+   "published": "2026-11-09T20:09:34Z",
+   "source": "Glossy",
+   "source_name": "Glossy",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 3.9,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "negocio"
+   ],
+   "via": "",
+   "also": [],
+   "id": "6b040f05d60d",
+   "score": 8.23
+  },
+  {
+   "title": "More People Are Buying Flip-flops as Havaianas Continues to Grow in Q3",
+   "link": "https://wwd.com/footwear-news/shoe-industry-news/havaianas-q3-2026-earnings-flip-flops-alpargatas-1239407635/",
+   "excerpt": "In the U.S., Havaianas sold 1.0 million pairs in the third quarter, up 82 percent versus the same time last year.",
+   "image": "",
+   "published": "2026-11-09T20:01:36Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "negocio"
+   ],
+   "via": "",
+   "also": [],
+   "id": "d31986d2b482",
+   "score": 9.55
+  },
   {
    "title": "The Best Early Black Friday Deals ELLE Editors Are Shopping Right Now",
    "link": "https://www.elle.com/fashion/shopping/a74360754/elle-editors-picks-black-friday-cyber-monday-deals-2026/",
@@ -279,27 +321,6 @@
    "also": [],
    "id": "d53d5ba9ea4f",
    "score": 7.35
-  },
-  {
-   "title": "Unspun Takes Its 3D Weaving Technology to the Factory Floor",
-   "link": "https://wwd.com/sourcing-journal/industry-news/unspun-arvind-3d-oneweave-technology-1239407545/",
-   "excerpt": "A partnership with Indian manufacturing giant Arvind will test whether its yarn-to-garment platform can deliver on the promise of faster production and less excess inventory.",
-   "image": "",
-   "published": "2026-11-09T18:10:27Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "sostenibilidad"
-   ],
-   "via": "",
-   "also": [],
-   "id": "c228d0c4391d",
-   "score": 9.15
   },
   {
    "title": "These Kelly Green Nike Kobe Sneakers Might Be the Only Highlight of a Dismal Eagles Season",
@@ -596,27 +617,6 @@
    "also": [],
    "id": "84109e6607b5",
    "score": 7.74
-  },
-  {
-   "title": "Luna Nueva en Escorpio del 9 de noviembre 2026: Así repercute en cada signo del zodíaco en esta temporada",
-   "link": "https://www.vogue.mx/articulo/luna-nueva-en-escorpio-del-9-de-noviembre-2026",
-   "excerpt": "La segunda Luna Nueva del otoño marca el inicio de un nuevo ciclo lunar y nos invita a manifestar nuestros deseos con intención; a continuación, toda la energía disponible.",
-   "image": "",
-   "published": "2026-11-09T16:25:33Z",
-   "source": "Vogue MX",
-   "source_name": "Vogue México",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "pasarela"
-   ],
-   "via": "",
-   "also": [],
-   "id": "190b55621eed",
-   "score": 7.45
   },
   {
    "title": "From Almina Concept to Ulta: These Are the Early Black Friday Sales That Matter",
@@ -995,27 +995,6 @@
    "also": [],
    "id": "559c646ad9cd",
    "score": 7.42
-  },
-  {
-   "title": "Zara incorpora alarmas invisibles en sus prendas: ¿cómo funcionan y qué tecnología utilizan?",
-   "link": "https://www.peru-retail.com/zara-incorpora-alarmas-invisibles-en-sus-prendas-como-funcionan-y-que-tecnologia-utilizan/",
-   "excerpt": "La seguridad en las tiendas de ropa ha evolucionado con la incorporación de herramientas tecnológicas que permiten controlar los productos y reducir los riesgos de hurto. Los establecimientos han pasado de depender exclusivamente…",
-   "image": "https://peruretail.sfo3.cdn.digitaloceanspaces.com/wp-content/uploads/d719bb2b-e5b9-4461-a330-7648eb3299dd-1024x576.jpg",
-   "published": "2026-11-09T14:00:43Z",
-   "source": "Perú Retail",
-   "source_name": "Perú Retail",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 3.2,
-   "lang": "es",
-   "region": "pe",
-   "tags": [
-    "retail"
-   ],
-   "via": "",
-   "also": [],
-   "id": "708d71f73ce5",
-   "score": 7.54
   },
   {
    "title": "ISPO’s Amsterdam Relaunch Seeks Retail Revival as Outdoor and Fashion Increasingly Overlap",
@@ -2235,7 +2214,7 @@
    "via": "XEVT",
    "also": [],
    "id": "85701f6523bf",
-   "score": 6.0
+   "score": 5.5
   },
   {
    "title": "La diseñadora independiente Martine Rose regresa a lo grande a Balenciaga",
@@ -2256,7 +2235,7 @@
    "via": "FashionNetwork España",
    "also": [],
    "id": "9b6efeebcc8e",
-   "score": 6.45
+   "score": 5.95
   },
   {
    "title": "Vittoria Ceretti Wears Gucci Gown and Giuseppe Zanotti Pumps at LACMA Gala 2026 Red Carpet",
@@ -2513,27 +2492,6 @@
    "score": 6.04
   },
   {
-   "title": "Nike’s Luxe New Air Max 95 Big Bubble Collaboration Is a Love Letter to Italy",
-   "link": "https://wwd.com/footwear-news/sneaker-news/one-block-down-nike-air-max-95-og-big-bubble-lux-italy-1239406353/",
-   "excerpt": "Italian retailer One Block Down serves up a premium set of retro Air Max sneakers.",
-   "image": "",
-   "published": "2026-11-08T16:42:09Z",
-   "source": "FN",
-   "source_name": "Footwear News",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 3.8,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "cultura"
-   ],
-   "via": "",
-   "also": [],
-   "id": "f893edaa56a6",
-   "score": 5.81
-  },
-  {
    "title": "Los botines de tacón cómodo que odiaste en tu adolescencia son la compra estrella del otoño 2026 (y estos son nuestros preferidos)",
    "link": "https://www.vogue.es/galerias/comprar-botines-tacon-mujer-kitten",
    "excerpt": "Los botines perfectos para ir cómoda y elegante en día a día",
@@ -2636,7 +2594,7 @@
    "via": "",
    "also": [],
    "id": "1144ed67caed",
-   "score": 6.28
+   "score": 5.78
   },
   {
    "title": "Uzbekistan links textile expansion with $2bn renewable energy investment",
@@ -3140,7 +3098,7 @@
    "via": "NewsBreak: Local News & Alerts",
    "also": [],
    "id": "1948971b6b56",
-   "score": 5.1
+   "score": 4.7
   },
   {
    "title": "Why Is It So Hard to Build an Independent Fashion Brand? | BoF",
@@ -3161,7 +3119,7 @@
    "via": "The Business of Fashion",
    "also": [],
    "id": "1f8a07bba36b",
-   "score": 6.95
+   "score": 6.55
   },
   {
    "title": "Timberland x Peanuts: Snoopy convierte su personalidad Joe Cool en una colección de botas y ropa para Navidad 2026",
