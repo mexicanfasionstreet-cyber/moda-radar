@@ -27,11 +27,14 @@ jobs:
           # datos seguros para diagnosticar (nunca el token completo)
           print(f"host: {host} · token empieza con {tok[:4]!r} · largo {len(tok)} · "
                 f"espacios/saltos: {tok != tok.strip() or chr(10) in tok} · cuenta: ...{uid[-4:]}")
-          for ruta in (f"{uid}?fields=username", f"{uid}/content_publishing_limit?fields=quota_usage,config"):
-              url = f"https://{host}/{ver}/{ruta}&access_token={tok}" if "?" in ruta else f"https://{host}/{ver}/{ruta}?access_token={tok}"
-              try:
-                  with urllib.request.urlopen(url, timeout=20) as r:
-                      print("OK ", ruta.split("?")[0].replace(uid, "<cuenta>"), "→", r.read().decode()[:300])
-              except urllib.error.HTTPError as e:
-                  print("ERR", ruta.split("?")[0].replace(uid, "<cuenta>"), e.code, e.read().decode()[:300])
+          # se prueba el host configurado y el otro, para saber cuál le toca a este token
+          otro = "graph.facebook.com" if host == "graph.instagram.com" else "graph.instagram.com"
+          for h in (host, otro):
+              for ruta in (f"{uid}?fields=username", f"{uid}/content_publishing_limit?fields=quota_usage,config"):
+                  url = f"https://{h}/{ver}/{ruta}&access_token={tok}"
+                  try:
+                      with urllib.request.urlopen(url, timeout=20) as r:
+                          print("OK ", h, ruta.split("?")[0].replace(uid, "<cuenta>"), "→", r.read().decode()[:300])
+                  except urllib.error.HTTPError as e:
+                      print("ERR", h, ruta.split("?")[0].replace(uid, "<cuenta>"), e.code, e.read().decode()[:200])
           PY
