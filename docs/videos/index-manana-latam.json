@@ -1,43 +1,43 @@
 {
- "date": "2026-11-08",
+ "date": "2026-11-09",
  "edition": "latam",
- "duration": 68.6,
+ "duration": 61.5,
  "script_source": "IA (deepseek-chat)",
- "hook": "Moda mexicana y latina transforma residuos, talento y creatividad",
+ "hook": "Lola Casademunt crece en México y la Catedral de Puebla se vuelve pasarela polémica",
  "items": [
   {
-   "title": "Residuos textiles a alta costura",
-   "headline": "De residuos a pasarela: la diseñadora mexicana Erika de Anda apuesta por transformar la industria de la moda",
-   "source": "Expansión Política",
-   "link": "https://politica.expansion.mx/mexico/2026/11/04/moda-circular-mexico-residuos-textiles-alta-costura",
-   "photo_credit": "Foto: kevin dooley · CC BY 2.0"
-  },
-  {
-   "title": "Nicaragua brilla en México Fashion Show",
-   "headline": "Nicaragua tan Talentosa en México Fashion Show",
-   "source": "El 19 Digital",
-   "link": "https://www.el19digital.com/articulos/ver/184169-nicaragua-tan-talentosa-en-mexico-fashion-show",
+   "title": "Lola Casademunt suma dos tiendas",
+   "headline": "Lola Casademunt acelera en México con dos nuevas aperturas en el país",
+   "source": "Modaes",
+   "link": "https://www.modaes.com/empresas/lola-casademunt-acelera-en-mexico-con-dos-nuevas-aperturas-en-el-pais",
    "photo_credit": null
   },
   {
-   "title": "Diseño hidalguense llega a Italia",
-   "headline": "¡Orgullo hidalguense! Diseñador de Yahualica lleva su moda hasta Italia",
-   "source": "Criterio Hidalgo",
-   "link": "https://criteriohidalgo.com/noticias/regiones/orgullo-hidalguense-disenador-de-yahualica-lleva-su-moda-hasta-italia",
+   "title": "Bluey vuela en Macy's",
+   "headline": "Bluey ya vuela: así luce su nuevo globo gigante para el desfile de Macy’s",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/bluey-en-macys-primera-prueba-globo-gigante-2026/",
+   "photo_credit": "Foto: Jute Marketing · CC BY-ND 2.0"
+  },
+  {
+   "title": "Catedral como pasarela",
+   "headline": "Entre lo sagrado y lo profano: la Catedral como pasarela",
+   "source": "Sucesos Puebla",
+   "link": "https://sucesospuebla.com/entre-lo-sagrado-y-lo-profano-la-catedral-como-pasarela/",
    "photo_credit": null
   },
   {
-   "title": "Tocado de catrina se incendia",
-   "headline": "VIDEO: tocado de catrina se incendia durante pasarela en Baja California Sur",
-   "source": "Azteca Chihuahua",
-   "link": "https://www.aztecachihuahua.com/noticias/tocado-de-catrina-se-incendia-durante-pasarela-en-baja-california-sur/",
+   "title": "Polémica en Catedral de Puebla",
+   "headline": "VIDEO Desfile de modas en la Catedral de Puebla desata polémica",
+   "source": "El Universal",
+   "link": "https://www.eluniversal.com.mx/estados/desfile-de-modas-en-la-catedral-de-puebla-desata-polemica-comunidad-catolica-cuestiona-uso-del-recinto-religioso/",
    "photo_credit": null
   },
   {
-   "title": "Ilse Salas co-crea con Disney",
-   "headline": "Ilse Salas transformó la imaginación en una historia de estilo junto a Disney y Golden Goose",
-   "source": "Vogue México",
-   "link": "https://www.vogue.mx/articulo/golden-goose-disney-ilse-salas-tenis-personalizados",
+   "title": "Alta costura divide opiniones",
+   "headline": "¿Pasarela o templo? Desfile en Catedral de Puebla divide opiniones - e-consulta.com",
+   "source": "e-consulta.com",
+   "link": "https://www.e-consulta.com/entretenimiento/desfile-en-catedral-de-puebla-divide-opiniones",
    "photo_credit": null
   }
  ]
