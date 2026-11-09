@@ -48,6 +48,18 @@
   `OAuthException code 200 "API access blocked."` al crear el contenedor. YouTube sigue
   bien. No es del código: Meta bloqueó la app o la cuenta. Pendiente del usuario.
 
+## 2026-11-09 · Instagram de vuelta y fuera horóscopos
+
+- Instagram: Meta pidió verificar identidad y anuló el token. Token nuevo de la app
+  **moda-radar** (4388640271280791, inicio de sesión unificado, cuenta theborderarchive
+  17841461215461248). Es un token "EAA…" → `graph.facebook.com` (sin variable IG_HOST; con
+  graph.instagram.com da "Cannot parse access token"). La app radar-moda se borró.
+  Workflow manual *Probar Instagram* (solo lectura, prueba los dos hosts). La franja de
+  mediodía del 9 publicó 2 Shorts + 4 Stories.
+- El usuario no quiere horóscopos: NOISE_RE con luna nueva/llena, eclipse, retrógrado,
+  cada/tu signo, tarot, predicciones y los nombres de los signos (la nota de Vogue México
+  "Luna Nueva en Escorpio… cada signo" esquivó el filtro anterior).
+
 ## 2026-11-08 · más búsquedas por tema (escena mexicana)
 
 Pedido: diseñadores mexicanos, moda Tijuana, segunda mano, bazares, takeovers, fashion
