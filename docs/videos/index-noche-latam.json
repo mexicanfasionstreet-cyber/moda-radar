@@ -1,43 +1,43 @@
 {
- "date": "2026-11-08",
+ "date": "2026-11-09",
  "edition": "latam",
- "duration": 62.0,
+ "duration": 65.9,
  "script_source": "IA (deepseek-chat)",
- "hook": "La moda mexicana y latina brilla en pasarelas con causa y talento",
+ "hook": "Moda y fe chocan en México y la pasarela navideña ya tiene fecha",
  "items": [
   {
-   "title": "Catedral de Puebla es pasarela benéfica",
-   "headline": "Catedral de Puebla, sede de desfile de moda “México Monumental 2026” con causa benéfica",
-   "source": "Carlos Martin Huerta",
-   "link": "https://carlosmartinhuerta.com.mx/catedral-de-puebla-sede-de-desfile-de-moda-mexico-monumental-2026-con-causa-benefica/",
+   "title": "Weyman y el nuevo Gandalf",
+   "headline": "Daniel Weyman habla sobre Gandalf y la temporada 3 de The Rings of Power",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/the-rings-of-power-temporada-3-entrevista-gandalf-daniel-weyman",
    "photo_credit": null
   },
   {
-   "title": "El Trompo une moda y tradición",
-   "headline": "El Trompo conmemoró día de muertos con arte, música y moda",
-   "source": "Uniradio Informa",
-   "link": "https://www.uniradioinforma.com/sociedad/el-trompo-conmemoro-dia-muertos-arte-musica-moda-n912620",
+   "title": "Claves de la temporada 3",
+   "headline": "El elenco de ‘Los Anillos de Poder’ revela las claves de la temporada 3",
+   "source": "Marie Claire MX",
+   "link": "https://marieclaire.com.mx/los-anillos-de-poder-temporada-3-entrevista/",
    "photo_credit": null
   },
   {
-   "title": "Diseñador hidalguense triunfa en Italia",
-   "headline": "¡Orgullo hidalguense! Diseñador de Yahualica lleva su moda hasta Italia",
-   "source": "Criterio Hidalgo",
-   "link": "https://criteriohidalgo.com/noticias/regiones/orgullo-hidalguense-disenador-de-yahualica-lleva-su-moda-hasta-italia",
+   "title": "Disculpa tras pasarela en México",
+   "headline": "Arquidiócesis se disculpa tras críticas por pasarela y lamenta que asistentes se sintieran heridos en su fe",
+   "source": "Récord",
+   "link": "https://www.record.com.mx/historia/arquidiocesis-se-disculpa-tras-criticas-por-pasarela-y-lamenta-que-asistentes-se-sintieran-heridos-en-su-fe-2026110915370949465",
+   "photo_credit": "Foto: Wonderlane · CC0"
+  },
+  {
+   "title": "BOLO FEST ya tiene fecha",
+   "headline": "¡Feliz Navidad! El desfile navideño BOLO FEST 2026 de Liverpool ya tiene fecha: será el 28 de noviembre | MAPA",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/feliz-navidad-el-desfile-navideno-bolo-fest-2026-de-liverpool-ya-tiene-fecha-sera-el-28-de-noviembre-mapa/",
    "photo_credit": null
   },
   {
-   "title": "Nicaragua brilla en México Fashion Show",
-   "headline": "Nicaragua tan Talentosa en México Fashion Show",
-   "source": "El 19 Digital",
-   "link": "https://www.el19digital.com/articulos/ver/184169-nicaragua-tan-talentosa-en-mexico-fashion-show",
-   "photo_credit": null
-  },
-  {
-   "title": "Benito Santos desfila en la Catedral",
-   "headline": "Con sotanas y vestidos de novia de Benito Santos: Así fue el desfile de moda en la Catedral de Puebla",
-   "source": "El Financiero",
-   "link": "https://www.elfinanciero.com.mx/estilo/2026/11/08/catedral-de-puebla-asi-fue-el-evento-de-moda-mexico-monumental/",
+   "title": "Pasarela de despedida polémica",
+   "headline": "La pasarela de despedida de Víctor Sánchez",
+   "source": "Reto Diario",
+   "link": "https://retodiario.com/columna/la-pasarela-de-despedida-de-victor-sanchez",
    "photo_credit": null
   }
  ]

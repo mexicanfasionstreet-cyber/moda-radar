@@ -1,43 +1,43 @@
 {
- "date": "2026-11-08",
+ "date": "2026-11-09",
  "edition": "general",
- "duration": 76.5,
+ "duration": 64.8,
  "script_source": "IA (deepseek-chat)",
- "hook": "Gucci domina la alfombra roja y ASOS vuelve a crecer",
+ "hook": "Havaianas dispara sus ventas y la moda coreana acelera en Estados Unidos",
  "items": [
   {
-   "title": "Vonn brilla con Gucci en LACMA",
-   "headline": "Lindsey Vonn Wears Sequined Gucci Gown and Horsebit Heels at LACMA Gala 2026 Red Carpet",
+   "title": "Havaianas crece 82 por ciento en EE UU",
+   "headline": "More People Are Buying Flip-flops as Havaianas Continues to Grow in Q3",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-trends/lindsey-vonn-gucci-gown-horsebit-heels-lacma-gala-2026-1239406529/",
+   "link": "https://wwd.com/footwear-news/shoe-industry-news/havaianas-q3-2026-earnings-flip-flops-alpargatas-1239407635/",
    "photo_credit": null
   },
   {
-   "title": "ASOS vuelve a crecer tras anos",
-   "headline": "ASOS returns to growth as turnaround gains momentum",
-   "source": "The Industry",
-   "link": "https://www.theindustry.fashion/asos-returns-to-growth-as-turnaround-gains-momentum/",
-   "photo_credit": null
-  },
-  {
-   "title": "Aberturas extremas triunfan en LACMA",
-   "headline": "Extreme Thigh-High Slits Are Trending on LACMA Gala 2026 Red Carpet",
+   "title": "Olive Young abre cinco tiendas",
+   "headline": "Olive Young Accelerates U.S. Expansion With 5 New California Stores by H1 2027",
    "source": "WWD",
-   "link": "https://wwd.com/pop-culture/celebrity-news/thigh-high-slits-lacma-gala-2026-1239406494/",
+   "link": "https://wwd.com/beauty-industry-news/beauty-features/olive-young-usa-expansion-five-new-california-stores-1239408131/",
    "photo_credit": null
   },
   {
-   "title": "Octubre rojo para la moda espanola",
-   "headline": "Indicador del Comercio de Moda: octubre rojo para el sector, con una caída del 3,6%",
-   "source": "Modaes",
-   "link": "https://www.modaes.com/entorno/indicador-del-comercio-de-moda-octubre-rojo-para-el-sector-con-una-caida-del-36",
+   "title": "Siena Agudong brilla en Carrie",
+   "headline": "Siena Agudong Is Feeling Through What It Means to Be Truly Kind",
+   "source": "WWD",
+   "link": "https://wwd.com/eye/people/siena-agudong-carrie-sidelined-extraction-1239390151/",
    "photo_credit": null
   },
   {
-   "title": "Nueva denuncia ambiental contra Shein",
-   "headline": "Shein suma otra demanda y es denunciado por la asociación alemana por el medioambiente",
-   "source": "Modaes",
-   "link": "https://www.modaes.com/empresas/shein-suma-otra-demanda-y-es-denunciado-por-la-asociacion-alemana-por-el-medioambiente",
+   "title": "La Canadienne cumple 40 años",
+   "headline": "How La Canadienne Continues to Evolve as It Preps to Mark the 40-Year Milestone",
+   "source": "WWD",
+   "link": "https://wwd.com/footwear-news/shoe-industry-news/la-canadienne-cold-weather-boots-loafers-pumps-sandals-mens-1239396401/",
+   "photo_credit": null
+  },
+  {
+   "title": "Google abre la moda a lectores",
+   "headline": "Google Thinks It Knows What Fashion News You Want to Read — Now You Can Have a Say, Too",
+   "source": "WWD",
+   "link": "https://wwd.com/fashion-news/fashion-scoops/wwd-google-preferred-sources-1239408083/",
    "photo_credit": null
   }
  ]
