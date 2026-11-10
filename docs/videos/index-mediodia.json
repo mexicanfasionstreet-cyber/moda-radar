@@ -1,43 +1,43 @@
 {
- "date": "2026-11-09",
+ "date": "2026-11-10",
  "edition": "general",
- "duration": 67.2,
+ "duration": 61.4,
  "script_source": "IA (deepseek-chat)",
- "hook": "Havaianas dispara sus ventas en EE UU y crece en el tercer trimestre",
+ "hook": "Safilo crece en Norteamérica y renueva a su CEO por tres años más",
  "items": [
   {
-   "title": "Havaianas crece 82 por ciento en EE UU",
-   "headline": "More People Are Buying Flip-flops as Havaianas Continues to Grow in Q3",
+   "title": "Safilo crece y renueva a su CEO",
+   "headline": "Safilo Group Sees Q3 Growth Fueled by North America Recovery",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-industry-news/havaianas-q3-2026-earnings-flip-flops-alpargatas-1239407635/",
+   "link": "https://wwd.com/business-news/financial/safilo-group-third-quarter-growth-north-america-recovery-1239409453/",
    "photo_credit": null
   },
   {
-   "title": "Las mejores ofertas de Black Friday",
-   "headline": "As A Beauty Editor, These Are The 24 Best Black Friday Deals I’ve Found",
-   "source": "Vogue UK",
-   "link": "https://www.vogue.co.uk/beauty/gallery/black-friday-beauty-deals-2026",
-   "photo_credit": null
-  },
-  {
-   "title": "Ariana Grande estrena corte bob",
-   "headline": "Ariana Grande Debuts Bob in First Public Appearance Since Announcing Hiatus",
+   "title": "Air Jordan 4 Bred vuelve en su forma original",
+   "headline": "Michael Jordan’s Original Air Jordan 4 Gets an Official Detailed Look Days Ahead of Its Release",
    "source": "WWD",
-   "link": "https://wwd.com/pop-culture/celebrity-news/ariana-grande-new-hair-bob-first-appearance-since-hiatus-1239407011/",
+   "link": "https://wwd.com/footwear-news/sneaker-news/air-jordan-4-retro-og-bred-2026-release-date-ix8180-001-1239409385/",
    "photo_credit": null
   },
   {
-   "title": "Abusos al personal del comercio",
-   "headline": "More than half of shop workers face abuse every week, new research finds",
-   "source": "The Industry",
-   "link": "https://www.theindustry.fashion/more-than-half-of-shop-workers-face-abuse-every-week-new-research-finds/",
-   "photo_credit": null
-  },
-  {
-   "title": "Belleza de cuento en Nueva York",
-   "headline": "Amanda Seyfried and ‘Steps’ Cast Bring Blushing Fairy-Tale Beauty to New York Premiere",
+   "title": "On crece en Asia con un desafío",
+   "headline": "On Co-CEO Says Asia-Pacific Region Is ‘Match Made in Heaven’ for Its Premium Positioning, But Will Controversy Get in the Way?",
    "source": "WWD",
-   "link": "https://wwd.com/pop-culture/celebrity-news/amanda-seyfried-steps-cast-fairytale-beauty-nyc-premiere-1239407451/",
+   "link": "https://wwd.com/footwear-news/shoe-industry-news/mbappe-on-running-china-controversy-growth-analysis-1239409432/",
+   "photo_credit": null
+  },
+  {
+   "title": "Nuevo portal de abastecimiento para marcas",
+   "headline": "World Collective’s New Platform Gives Small Fashion Brands Access to Big-Brand Sourcing",
+   "source": "WWD",
+   "link": "https://wwd.com/sourcing-journal/industry-news/world-collective-launches-sourcing-portal-1239409057/",
+   "photo_credit": null
+  },
+  {
+   "title": "Tyler y Converse lanzan nueva colección",
+   "headline": "Tyler, The Creator and Converse Introduce Bronco Boot Low, Release New Versions of the Pro Leather and Jogger",
+   "source": "WWD",
+   "link": "https://wwd.com/footwear-news/sneaker-news/tyler-the-creator-converse-bronco-boot-low-release-date-1239409513/",
    "photo_credit": null
   }
  ]

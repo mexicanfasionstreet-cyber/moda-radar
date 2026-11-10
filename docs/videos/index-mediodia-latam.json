@@ -1,43 +1,43 @@
 {
- "date": "2026-11-09",
+ "date": "2026-11-10",
  "edition": "latam",
- "duration": 62.1,
+ "duration": 64.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "Moda, fe y series marcan la agenda de hoy en Latinoamérica",
+ "hook": "Moda hoy: descuentos, Gucci atrevido, tenis retro y un reloj anillo",
  "items": [
   {
-   "title": "Weyman habla de Gandalf",
-   "headline": "Daniel Weyman habla sobre Gandalf y la temporada 3 de The Rings of Power",
+   "title": "Descuentos de hasta 65 por ciento",
+   "headline": "Premium Outlets Querétaro: compra marcas internacionales con grandes descuentos",
+   "source": "Vogue MX",
+   "link": "https://www.vogue.mx/articulo/premium-outlets-queretaro-marcas-internacionales-descuentos",
+   "photo_credit": null
+  },
+  {
+   "title": "Gucci reinventa el vestido negro",
+   "headline": "El vestido negro se reinventa como el más atrevido gracias a este modelo de Gucci en la gala del LACMA 2026",
+   "source": "Vogue MX",
+   "link": "https://www.vogue.mx/articulo/el-vestido-negro-se-reinventa-gucci-lacma-2026",
+   "photo_credit": null
+  },
+  {
+   "title": "Técnica de 3 pasos para el pelo",
+   "headline": "Cómo lavarse el cabello con LA técnica de 3 pasos que deja el pelo brillante y más fácil de manejar",
+   "source": "Vogue MX",
+   "link": "https://www.vogue.mx/articulo/como-lavarse-cabello-tecnica-3-pasos-doble-acondicionador-para-pelo-fino",
+   "photo_credit": null
+  },
+  {
+   "title": "Kith x New Balance retro",
+   "headline": "Kith x New Balance 2011 Monuments Collection: 3 tenis retro que celebran 15 años de la tienda de Ronnie Fieg en Nueva York",
    "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/the-rings-of-power-temporada-3-entrevista-gandalf-daniel-weyman",
+   "link": "https://www.gq.com.mx/articulo/tenis-kith-x-new-balance-2011-monuments-collection-precio-fotos-lanzamiento-10-11-2026",
    "photo_credit": null
   },
   {
-   "title": "Claves de la temporada 3",
-   "headline": "El elenco de ‘Los Anillos de Poder’ revela las claves de la temporada 3",
-   "source": "Marie Claire MX",
-   "link": "https://marieclaire.com.mx/los-anillos-de-poder-temporada-3-entrevista/",
-   "photo_credit": null
-  },
-  {
-   "title": "Disculpa tras pasarela en México",
-   "headline": "Arquidiócesis se disculpa tras críticas por pasarela y lamenta que asistentes se sintieran heridos en su fe",
-   "source": "Récord",
-   "link": "https://www.record.com.mx/historia/arquidiocesis-se-disculpa-tras-criticas-por-pasarela-y-lamenta-que-asistentes-se-sintieran-heridos-en-su-fe-2026110915370949465",
-   "photo_credit": "Foto: Wonderlane · CC0"
-  },
-  {
-   "title": "BOLO FEST 2026 ya tiene fecha",
-   "headline": "¡Feliz Navidad! El desfile navideño BOLO FEST 2026 de Liverpool ya tiene fecha: será el 28 de noviembre | MAPA",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/feliz-navidad-el-desfile-navideno-bolo-fest-2026-de-liverpool-ya-tiene-fecha-sera-el-28-de-noviembre-mapa/",
-   "photo_credit": null
-  },
-  {
-   "title": "Despedida de Víctor Sánchez",
-   "headline": "La pasarela de despedida de Víctor Sánchez",
-   "source": "Reto Diario",
-   "link": "https://retodiario.com/columna/la-pasarela-de-despedida-de-victor-sanchez",
+   "title": "Casio A168 ahora es anillo",
+   "headline": "Casio Ring Watch: El reloj digital vintage más famoso, el Casio A168, ahora es un anillo que te da la hora",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/relojes-anillo-casio-ring-watch-crw-002g-9a-y-crw-002d-1a-precio-disponibilidad-10-11-2026",
    "photo_credit": null
   }
  ]
