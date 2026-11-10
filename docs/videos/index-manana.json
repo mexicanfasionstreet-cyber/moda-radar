@@ -1,43 +1,43 @@
 {
- "date": "2026-11-09",
+ "date": "2026-11-10",
  "edition": "general",
- "duration": 68.0,
+ "duration": 71.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "Robert Wun lleva su arte a Pop Mart y la moda mira al clima",
+ "hook": "Harrods enciende la Navidad y M&S apuesta al comercio digital",
  "items": [
   {
-   "title": "Wun y Pop Mart en Paris",
-   "headline": "Robert Wun’s Skullpanda Lands in Pop Mart’s Paris Flagship",
+   "title": "Harrods enciende la Navidad",
+   "headline": "Harrods Dives Into Holiday Season With ‘Where the Stars Align’",
    "source": "WWD",
-   "link": "https://wwd.com/fashion-news/fashion-scoops/robert-wun-skullpanda-pop-mart-collaboration-paris-flagship-1239406692/",
+   "link": "https://wwd.com/business-news/retail/harrods-holiday-season-where-the-stars-align-campaign-1239406674/",
    "photo_credit": null
   },
   {
-   "title": "Ventas UE suben, Espana cae",
-   "headline": "Las ventas minoristas en la UE suben un 0,9% en septiembre con España en rojo",
-   "source": "Modaes",
-   "link": "https://www.modaes.com/entorno/las-ventas-minoristas-en-la-ue-suben-un-09-en-septiembre-con-espana-en-rojo",
-   "photo_credit": null
-  },
-  {
-   "title": "COP31 y financiacion climatica",
-   "headline": "La COP31 pone el foco en la financiación para descarbonizar la cadena de suministro de la moda",
-   "source": "Modaes",
-   "link": "https://www.modaes.com/entorno/la-cop31-pone-el-foco-en-la-financiacion-para-descarbonizar-la-cadena-de-suministro-de-la-moda",
-   "photo_credit": null
-  },
-  {
-   "title": "Liberty ficha a Sinead O'Brien",
-   "headline": "The Interview: Liberty’s new Head of Design Sinead O’Brien on shaping the future of its fashion offering",
+   "title": "M&S apuesta al online",
+   "headline": "Marks & Spencer ramps up digital ambitions in latest growth push",
    "source": "The Industry",
-   "link": "https://www.theindustry.fashion/the-interview-libertys-new-head-of-design-sinead-obrien-on-shaping-the-future-of-its-fashion-offering/",
+   "link": "https://www.theindustry.fashion/marks-spencer-ramps-up-digital-ambitions-in-latest-growth-push/",
    "photo_credit": null
   },
   {
-   "title": "Schwimmer revive Friends en Quince",
-   "headline": "David Schwimmer Revisits ‘Friends’ Nostalgia in Quince’s ‘The Red Sweater’ Campaign",
+   "title": "Puertos extienden negociaciones",
+   "headline": "Third Extension Buys More Time for Labor Negotiations at LA-Long Beach Ports",
    "source": "WWD",
-   "link": "https://wwd.com/fashion-news/fashion-scoops/david-schwimmer-friends-quinces-red-sweater-campaign-1239405122/",
+   "link": "https://wwd.com/sourcing-journal/logistics/la-long-beach-watchmen-strike-delayed-nov-20-holiday-cargo-nrf-1239408058/",
+   "photo_credit": null
+  },
+  {
+   "title": "Amazon prueba gafas inteligentes",
+   "headline": "Amazon Eyes 20,000 Pairs of Smart Glasses for Delivery Drivers by 2027",
+   "source": "WWD",
+   "link": "https://wwd.com/sourcing-journal/logistics/amazon-smart-glasses-delivery-riders-privacy-1239404883/",
+   "photo_credit": null
+  },
+  {
+   "title": "Salida ejecutiva en Hugo Boss",
+   "headline": "Hugo Boss sales chief and Deputy CEO latest executive to leave following Frasers takeover",
+   "source": "The Industry",
+   "link": "https://www.theindustry.fashion/hugo-boss-sales-chief-and-deputy-ceo-latest-executive-to-leave-following-frasers-takeover/",
    "photo_credit": null
   }
  ]
