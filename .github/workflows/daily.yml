@@ -90,6 +90,12 @@ jobs:
           CAPSULE_REGISTRAR: ${{ github.event_name == 'schedule' || inputs.publicar == true }}
         run: |
           mkdir -p datos
+          if [ "$CAPSULE_REGISTRAR" != "true" ]; then
+            # corrida de prueba: se comprueba la selección y el guion, pero no se monta
+            # ni se sobrescribe la cápsula ya publicada de esta franja
+            python capsule.py --franja "${{ steps.franja.outputs.franja }}" --dry-run --no-llm | tail -25
+            exit 0
+          fi
           if python capsule.py --franja "${{ steps.franja.outputs.franja }}" > datos/capsula.log 2>&1; then
             rm -f datos/capsula.log
           else
@@ -106,6 +112,10 @@ jobs:
           # solo las cápsulas que se publican cuentan como emitidas (un push de prueba no gasta noticias)
           CAPSULE_REGISTRAR: ${{ github.event_name == 'schedule' || inputs.publicar == true }}
         run: |
+          if [ "$CAPSULE_REGISTRAR" != "true" ]; then
+            python capsule.py --edicion latam --franja "${{ steps.franja.outputs.franja }}" --dry-run --no-llm | tail -25
+            exit 0
+          fi
           if python capsule.py --edicion latam --franja "${{ steps.franja.outputs.franja }}" > datos/capsula-latam.log 2>&1; then
             grep -E "candidatas|no hay noticias|ya emitidas|Solo quedan|Listo" datos/capsula-latam.log || true
             rm -f datos/capsula-latam.log
@@ -113,6 +123,17 @@ jobs:
             echo "::warning::La capsula LatAm fallo; el detalle queda en datos/capsula-latam.log"
             tail -40 datos/capsula-latam.log
           fi
+
+      - name: Recuperar las capsulas de hoy (corrida de prueba)
+        # una prueba no monta vídeos: trae los de hoy del Release para que la web
+        # que publica siga enlazando la cápsula
+        if: github.event_name != 'schedule' && inputs.publicar != true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          hoy=$(TZ=America/Mexico_City date +%F)
+          gh release download capsulas -p "${hoy}-*.mp4" -p "${hoy}-*-portada.jpg" -D docs/videos --skip-existing || true
+          ls docs/videos | grep "^${hoy}" || echo "Hoy aún no hay cápsulas en el Release."
 
       - name: Rehacer el panel con el enlace al video
         run: python aggregate.py --render-only
@@ -147,6 +168,7 @@ jobs:
           fi
 
       - name: Archivar la capsula en el Release
+        if: github.event_name == 'schedule' || inputs.publicar == true
         env:
           GH_TOKEN: ${{ github.token }}
           KEEP: "60"   # capsulas que se conservan en el Release

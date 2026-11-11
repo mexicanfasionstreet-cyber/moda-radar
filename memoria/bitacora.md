@@ -48,6 +48,20 @@
   `OAuthException code 200 "API access blocked."` al crear el contenedor. YouTube sigue
   bien. No es del código: Meta bloqueó la app o la cuenta. Pendiente del usuario.
 
+## 2026-11-11 · revisión: las pruebas sobrescribían la cápsula publicada
+
+- 5 franjas (9 noche → 11 mañana): 9 cápsulas, todas publicadas en YouTube e Instagram.
+  La LatAm se saltó una vez (10 mañana, 2 nuevas).
+- Falsa alarma de repetidas: la noche del 9 "repetía" 10 notas de la de mediodía, pero
+  esas notas eran de la corrida de **push** de las 20:15 UTC (el commit de los horóscopos),
+  que volvió a montar la franja de mediodía, sobrescribió su `-textos.txt` y su mp4 en
+  el Release con una cápsula que nunca se publicó. Ahora, en corridas que no publican, la
+  cápsula se hace en `--dry-run` (solo selección y guion), los vídeos de hoy se traen del
+  Release para la web y el paso del Release solo corre si se publica.
+- Repetida real: solo la muñeca de KPop Demon Hunters (Merca2.0), 4 días después (fuera
+  de la ventana de 72 h). Era ruido: NOISE_RE con "where to buy", "en N pesos", "grandes
+  descuentos", "cómo lavarse el cabello".
+
 ## 2026-11-09 · Instagram de vuelta y fuera horóscopos
 
 - Instagram: Meta pidió verificar identidad y anuló el token. Token nuevo de la app

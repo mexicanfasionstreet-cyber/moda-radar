@@ -204,7 +204,7 @@ NOISE_RE = re.compile(
     r"|^\d+ (looks|perfumes|prendas|ideas|formas|consejos|tenis|zapatos|vestidos|tendencias)"
     r"|looks? (para|que|de) (copiar|llevar|esta temporada)|d[oó]nde comprar|ofertas?:|buen fin"
     r"|para llevar|ideas (de|para)|m[aá]s elegantes?|inspira (para|a)|\boutfit|nuevo en tienda"
-    r"|por \$?\d[\d,.]* pesos|a qu[eé] hora|d[oó]nde ver|f[oó]rmula 1|gran premio|\bf1\b|signo zodiacal|hor[oó]scopo|astrolog|star sign|zodiac|luna (nueva|llena)|(new|full) moon|eclipse|retr[oó]grad|cada signo|tu signo|los signos|signos del|\btarot\b|predicci[oó]n(es)? (para|de) (hoy|la semana|noviembre|diciembre|20\d\d)|escorpio|sagitario|capricornio|acuario|piscis|\baries\b|tauro|g[eé]minis|leo y|virgo|libra y|scorpio season|sagittarius|capricorn|aquarius|pisces|gemini|\bvirgo\b|pas[oó] de moda|pasa de moda|globo gigante|thanksgiving|acci[oó]n de gracias|se incendia|\brate remark|merger opponents|rebaja|\bsmartphone|\biphone|\blaptop|\bcelular)",
+    r"|por \$?\d[\d,.]* pesos|\ben \$?\d[\d,.]* pesos|where to buy|price and where|grandes descuentos|c[oó]mo lavar(se)? el (cabello|pelo)|a qu[eé] hora|d[oó]nde ver|f[oó]rmula 1|gran premio|\bf1\b|signo zodiacal|hor[oó]scopo|astrolog|star sign|zodiac|luna (nueva|llena)|(new|full) moon|eclipse|retr[oó]grad|cada signo|tu signo|los signos|signos del|\btarot\b|predicci[oó]n(es)? (para|de) (hoy|la semana|noviembre|diciembre|20\d\d)|escorpio|sagitario|capricornio|acuario|piscis|\baries\b|tauro|g[eé]minis|leo y|virgo|libra y|scorpio season|sagittarius|capricorn|aquarius|pisces|gemini|\bvirgo\b|pas[oó] de moda|pasa de moda|globo gigante|thanksgiving|acci[oó]n de gracias|se incendia|\brate remark|merger opponents|rebaja|\bsmartphone|\biphone|\blaptop|\bcelular)",
     re.I,
 )
 
