@@ -1,43 +1,43 @@
 {
- "date": "2026-11-10",
+ "date": "2026-11-11",
  "edition": "general",
- "duration": 61.4,
+ "duration": 65.4,
  "script_source": "IA (deepseek-chat)",
- "hook": "Safilo crece en Norteamérica y renueva a su CEO por tres años más",
+ "hook": "Wolverine reporta resultados y Lululemon estrena poliéster reciclado en shorts",
  "items": [
   {
-   "title": "Safilo crece y renueva a su CEO",
-   "headline": "Safilo Group Sees Q3 Growth Fueled by North America Recovery",
+   "title": "Wolverine reporta resultados del Q3",
+   "headline": "Saucony, Merrell Again to Headline Wolverine’s Q3 Earnings Results",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/financial/safilo-group-third-quarter-growth-north-america-recovery-1239409453/",
+   "link": "https://wwd.com/footwear-news/shoe-industry-news/merrell-saucony-wolverine-world-wide-analysts-q3-preview-1239410655/",
    "photo_credit": null
   },
   {
-   "title": "Air Jordan 4 Bred vuelve en su forma original",
-   "headline": "Michael Jordan’s Original Air Jordan 4 Gets an Official Detailed Look Days Ahead of Its Release",
+   "title": "Lululemon estrena poliéster reciclado",
+   "headline": "Lululemon Brings Enzymatically Recycled Polyester to Running Shorts",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/air-jordan-4-retro-og-bred-2026-release-date-ix8180-001-1239409385/",
+   "link": "https://wwd.com/sourcing-journal/sustainability/lululemon-samsara-eco-enzymaitic-recycling-polyester-shorts-1239410883/",
    "photo_credit": null
   },
   {
-   "title": "On crece en Asia con un desafío",
-   "headline": "On Co-CEO Says Asia-Pacific Region Is ‘Match Made in Heaven’ for Its Premium Positioning, But Will Controversy Get in the Way?",
-   "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-industry-news/mbappe-on-running-china-controversy-growth-analysis-1239409432/",
+   "title": "Kate Middleton habla de su salud",
+   "headline": "Kate Middleton Opens Up About Her Health Journey in a Rare New Interview",
+   "source": "Vogue",
+   "link": "https://www.vogue.com/article/kate-middleton-hospital-visit-suit-11-11-2026",
    "photo_credit": null
   },
   {
-   "title": "Nuevo portal de abastecimiento para marcas",
-   "headline": "World Collective’s New Platform Gives Small Fashion Brands Access to Big-Brand Sourcing",
+   "title": "Air Jordan 4 se vuelve botín",
+   "headline": "Michael Jordan’s Classic Air Jordan 4 Is Getting a New Football Cleat Makeover",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/industry-news/world-collective-launches-sourcing-portal-1239409057/",
+   "link": "https://wwd.com/footwear-news/sneaker-news/air-jordan-4-retro-td-bred-release-date-hq0207-001-1239411391/",
    "photo_credit": null
   },
   {
-   "title": "Tyler y Converse lanzan nueva colección",
-   "headline": "Tyler, The Creator and Converse Introduce Bronco Boot Low, Release New Versions of the Pro Leather and Jogger",
+   "title": "Rick Owens revive Slingblade",
+   "headline": "Rick Owens Is Reviving One of Adidas’ Wildest Running Technologies for Both a Sneaker and Boot",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/tyler-the-creator-converse-bronco-boot-low-release-date-1239409513/",
+   "link": "https://wwd.com/footwear-news/sneaker-news/rick-owens-adidas-slingblade-release-date-1239411276/",
    "photo_credit": null
   }
  ]

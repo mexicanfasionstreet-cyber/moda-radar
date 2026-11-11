@@ -1,43 +1,43 @@
 {
- "date": "2026-11-10",
+ "date": "2026-11-11",
  "edition": "latam",
- "duration": 64.0,
+ "duration": 66.8,
  "script_source": "IA (deepseek-chat)",
- "hook": "Moda hoy: descuentos, Gucci atrevido, tenis retro y un reloj anillo",
+ "hook": "Moda, lujo y diseño marcan la agenda de hoy",
  "items": [
   {
-   "title": "Descuentos de hasta 65 por ciento",
-   "headline": "Premium Outlets Querétaro: compra marcas internacionales con grandes descuentos",
-   "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/premium-outlets-queretaro-marcas-internacionales-descuentos",
+   "title": "Exfutbolista arrestado por relojes falsos",
+   "headline": "Who is Pedro Hernandez, the former Mexican soccer player arrested for allegedly trafficking $5.4 million in counterfeit luxury watches?",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/who-is-pedro-hernandez-the-former-mexican-soccer-player-arrested-for-allegedly-trafficking-5-4-million-in-counterfeit-luxury-watches/",
    "photo_credit": null
   },
   {
-   "title": "Gucci reinventa el vestido negro",
-   "headline": "El vestido negro se reinventa como el más atrevido gracias a este modelo de Gucci en la gala del LACMA 2026",
-   "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/el-vestido-negro-se-reinventa-gucci-lacma-2026",
+   "title": "Pasarelas que cuentan historias SS2027",
+   "headline": "Cuando las pasarelas nos cuentan historias SS2027",
+   "source": "Marie Claire MX",
+   "link": "https://marieclaire.com.mx/historias-pasarelas-ss27/",
    "photo_credit": null
   },
   {
-   "title": "Técnica de 3 pasos para el pelo",
-   "headline": "Cómo lavarse el cabello con LA técnica de 3 pasos que deja el pelo brillante y más fácil de manejar",
-   "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/como-lavarse-cabello-tecnica-3-pasos-doble-acondicionador-para-pelo-fino",
+   "title": "Alfombras reinterpretan a Gaudí en Barcelona",
+   "headline": "Dos alfombras de diseño de autor reinterpretan el universo de Gaudí en Casa Batlló",
+   "source": "Para Ti",
+   "link": "https://www.parati.com.ar/deco/dos-alfombras-de-diseno-de-autor-reinterpretan-el-universo-de-gaudi-en-casa-batllo/",
    "photo_credit": null
   },
   {
-   "title": "Kith x New Balance retro",
-   "headline": "Kith x New Balance 2011 Monuments Collection: 3 tenis retro que celebran 15 años de la tienda de Ronnie Fieg en Nueva York",
+   "title": "Palacio de Hierro enciende su árbol",
+   "headline": "¡En colaboración con Swarovski! ¿Cuándo se enciende el árbol de Navidad de El Palacio de Hierro en Polanco?",
+   "source": "El Financiero",
+   "link": "https://www.elfinanciero.com.mx/estilo/2026/11/11/cuando-se-enciende-el-arbol-de-navidad-de-el-palacio-de-hierro-en-polanco/",
+   "photo_credit": null
+  },
+  {
+   "title": "Hamilton presume reloj Richard Mille",
+   "headline": "Lewis Hamilton presume en el GP de Brasil un reloj Richard Mille de oro rosa y diamantes que vale millones de pesos",
    "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/tenis-kith-x-new-balance-2011-monuments-collection-precio-fotos-lanzamiento-10-11-2026",
-   "photo_credit": null
-  },
-  {
-   "title": "Casio A168 ahora es anillo",
-   "headline": "Casio Ring Watch: El reloj digital vintage más famoso, el Casio A168, ahora es un anillo que te da la hora",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/relojes-anillo-casio-ring-watch-crw-002g-9a-y-crw-002d-1a-precio-disponibilidad-10-11-2026",
+   "link": "https://www.gq.com.mx/articulo/lewis-hamilton-reloj-richard-mille-rm-037-snow-diamond-set-precio-caracteristicas-10-11-2026",
    "photo_credit": null
   }
  ]
