@@ -1,43 +1,43 @@
 {
- "date": "2026-11-10",
+ "date": "2026-11-11",
  "edition": "general",
- "duration": 71.0,
+ "duration": 65.6,
  "script_source": "IA (deepseek-chat)",
- "hook": "Harrods enciende la Navidad y M&S apuesta al comercio digital",
+ "hook": "Inditex impulsa fondo climático y Tod's cambia de rumbo creativo",
  "items": [
   {
-   "title": "Harrods enciende la Navidad",
-   "headline": "Harrods Dives Into Holiday Season With ‘Where the Stars Align’",
+   "title": "Jeans a medida con escaneo corporal",
+   "headline": "Neems Acquires Body-Scanning Technology, Launches App",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/retail/harrods-holiday-season-where-the-stars-align-campaign-1239406674/",
+   "link": "https://wwd.com/sourcing-journal/sj-denim/neems-acquires-choozr-body-scanning-technology-launches-app-1239409302/",
    "photo_credit": null
   },
   {
-   "title": "M&S apuesta al online",
-   "headline": "Marks & Spencer ramps up digital ambitions in latest growth push",
+   "title": "Quién pagó los aranceles de ropa",
+   "headline": "Who Paid the Tariffs on Apparel Last Year? The Answer Might Be a Surprise.",
+   "source": "WWD",
+   "link": "https://wwd.com/sourcing-journal/industry-news/tariffs-retailers-brands-suppliers-consumers-dr-sheng-lu-study-1239408180/",
+   "photo_credit": null
+  },
+  {
+   "title": "Tamburini sale de Tod's",
+   "headline": "Tod's Creative Director Matteo Tamburini to step down",
    "source": "The Industry",
-   "link": "https://www.theindustry.fashion/marks-spencer-ramps-up-digital-ambitions-in-latest-growth-push/",
+   "link": "https://www.theindustry.fashion/tods-matteo-tamburini-steps-down/",
    "photo_credit": null
   },
   {
-   "title": "Puertos extienden negociaciones",
-   "headline": "Third Extension Buys More Time for Labor Negotiations at LA-Long Beach Ports",
-   "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/logistics/la-long-beach-watchmen-strike-delayed-nov-20-holiday-cargo-nrf-1239408058/",
-   "photo_credit": null
-  },
-  {
-   "title": "Amazon prueba gafas inteligentes",
-   "headline": "Amazon Eyes 20,000 Pairs of Smart Glasses for Delivery Drivers by 2027",
-   "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/logistics/amazon-smart-glasses-delivery-riders-privacy-1239404883/",
-   "photo_credit": null
-  },
-  {
-   "title": "Salida ejecutiva en Hugo Boss",
-   "headline": "Hugo Boss sales chief and Deputy CEO latest executive to leave following Frasers takeover",
+   "title": "Inditex respalda fondo de 400 millones",
+   "headline": "Inditex backs $400m fund to cut fashion supply chain emissions",
    "source": "The Industry",
-   "link": "https://www.theindustry.fashion/hugo-boss-sales-chief-and-deputy-ceo-latest-executive-to-leave-following-frasers-takeover/",
+   "link": "https://www.theindustry.fashion/inditex-backs-400m-fund-to-cut-fashion-supply-chain-emissions/",
+   "photo_credit": null
+  },
+  {
+   "title": "La moda y su rol en la COP",
+   "headline": "Does Fashion Still Have a Role at COP?",
+   "source": "WWD",
+   "link": "https://wwd.com/sourcing-journal/sustainability/fashion-cop31-turkey-climate-change-un-1239410041/",
    "photo_credit": null
   }
  ]

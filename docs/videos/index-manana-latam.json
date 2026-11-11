@@ -1,43 +1,43 @@
 {
- "date": "2026-11-09",
+ "date": "2026-11-11",
  "edition": "latam",
- "duration": 61.5,
+ "duration": 66.1,
  "script_source": "IA (deepseek-chat)",
- "hook": "Lola Casademunt crece en México y la Catedral de Puebla se vuelve pasarela polémica",
+ "hook": "Falabella crece, El Ganso llega a Argentina y relojes de lujo dominan la moda",
  "items": [
   {
-   "title": "Lola Casademunt suma dos tiendas",
-   "headline": "Lola Casademunt acelera en México con dos nuevas aperturas en el país",
+   "title": "Falabella gana 18,7% más",
+   "headline": "Falabella gana un 18,7% más en el tercer trimestre gracias al crecimiento del retail",
    "source": "Modaes",
-   "link": "https://www.modaes.com/empresas/lola-casademunt-acelera-en-mexico-con-dos-nuevas-aperturas-en-el-pais",
+   "link": "https://www.modaes.com/empresas/falabella-gana-un-187-mas-en-el-tercer-trimestre-gracias-al-crecimiento-del-retail",
    "photo_credit": null
   },
   {
-   "title": "Bluey vuela en Macy's",
-   "headline": "Bluey ya vuela: así luce su nuevo globo gigante para el desfile de Macy’s",
+   "title": "El Ganso llega a Buenos Aires",
+   "headline": "El Ganso crece en Latinoamérica: entra en Argentina con su primera tienda en Buenos Aires",
+   "source": "Modaes",
+   "link": "https://www.modaes.com/empresas/el-ganso-crece-en-latinoamerica-entra-en-argentina-con-su-primera-tienda-en-buenos-aires",
+   "photo_credit": null
+  },
+  {
+   "title": "Los relojes de Antonelli",
+   "headline": "Andrea Kimi Antonelli y las piezas más geniales de su colección de relojes",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/andrea-kimi-antonelli-coleccion-de-relojes",
+   "photo_credit": null
+  },
+  {
+   "title": "El Seiko de un chef Michelin",
+   "headline": "El reloj Seiko de esfera verde y correa de cuero que este chef con dos estrellas Michelin nunca se quita",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/reloj-seiko-prospex-alpinist-precio-disponibilidad-10-11-2026",
+   "photo_credit": null
+  },
+  {
+   "title": "Muñeca de Zoey de Mattel",
+   "headline": "KPop Demon Hunters Zoey Fashion Doll: Price and Where to Buy the HUNTR/X Figure",
    "source": "Merca2.0",
-   "link": "https://www.merca20.com/bluey-en-macys-primera-prueba-globo-gigante-2026/",
-   "photo_credit": "Foto: Jute Marketing · CC BY-ND 2.0"
-  },
-  {
-   "title": "Catedral como pasarela",
-   "headline": "Entre lo sagrado y lo profano: la Catedral como pasarela",
-   "source": "Sucesos Puebla",
-   "link": "https://sucesospuebla.com/entre-lo-sagrado-y-lo-profano-la-catedral-como-pasarela/",
-   "photo_credit": null
-  },
-  {
-   "title": "Polémica en Catedral de Puebla",
-   "headline": "VIDEO Desfile de modas en la Catedral de Puebla desata polémica",
-   "source": "El Universal",
-   "link": "https://www.eluniversal.com.mx/estados/desfile-de-modas-en-la-catedral-de-puebla-desata-polemica-comunidad-catolica-cuestiona-uso-del-recinto-religioso/",
-   "photo_credit": null
-  },
-  {
-   "title": "Alta costura divide opiniones",
-   "headline": "¿Pasarela o templo? Desfile en Catedral de Puebla divide opiniones - e-consulta.com",
-   "source": "e-consulta.com",
-   "link": "https://www.e-consulta.com/entretenimiento/desfile-en-catedral-de-puebla-divide-opiniones",
+   "link": "https://www.merca20.com/kpop-demon-hunters-zoey-fashion-doll-price-and-where-to-buy-the-huntr-x-figure/",
    "photo_credit": null
   }
  ]
