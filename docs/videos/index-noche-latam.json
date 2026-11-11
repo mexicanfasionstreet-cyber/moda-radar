@@ -1,43 +1,43 @@
 {
- "date": "2026-11-09",
+ "date": "2026-11-10",
  "edition": "latam",
- "duration": 65.9,
+ "duration": 59.3,
  "script_source": "IA (deepseek-chat)",
- "hook": "Moda y fe chocan en México y la pasarela navideña ya tiene fecha",
+ "hook": "Moda, tecnología y lanzamientos marcan la agenda de hoy en México",
  "items": [
   {
-   "title": "Weyman y el nuevo Gandalf",
-   "headline": "Daniel Weyman habla sobre Gandalf y la temporada 3 de The Rings of Power",
+   "title": "Moda y tecnología en El Buen Fin",
+   "headline": "¿Qué buscan los mexicanos? Moda y tecnología lideran la intención de compra",
+   "source": "El Economista",
+   "link": "https://www.eleconomista.com.mx/los-especiales/buscan-mexicanos-moda-tecnologia-lideran-intencion-compra-20261110-843001.html",
+   "photo_credit": null
+  },
+  {
+   "title": "Demi Lovato para Desigual",
+   "headline": "Demi Lovato es la musa de la colección invierno 2026 de Desigual",
+   "source": "Vogue MX",
+   "link": "https://www.vogue.mx/articulo/demi-lovato-protagonista-de-la-coleccion-invierno-2026-de-desigual",
+   "photo_credit": null
+  },
+  {
+   "title": "Breguet revive una pieza de 1796",
+   "headline": "Breguet Classique Souscription: El reloj de platino con una sola manecilla que revive una creación de 1796",
    "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/the-rings-of-power-temporada-3-entrevista-gandalf-daniel-weyman",
+   "link": "https://www.gq.com.mx/articulo/reloj-breguet-classique-souscription-2026pt289w6-precio-disponibilidad-10-11-2026",
    "photo_credit": null
   },
   {
-   "title": "Claves de la temporada 3",
-   "headline": "El elenco de ‘Los Anillos de Poder’ revela las claves de la temporada 3",
-   "source": "Marie Claire MX",
-   "link": "https://marieclaire.com.mx/los-anillos-de-poder-temporada-3-entrevista/",
-   "photo_credit": null
-  },
-  {
-   "title": "Disculpa tras pasarela en México",
-   "headline": "Arquidiócesis se disculpa tras críticas por pasarela y lamenta que asistentes se sintieran heridos en su fe",
-   "source": "Récord",
-   "link": "https://www.record.com.mx/historia/arquidiocesis-se-disculpa-tras-criticas-por-pasarela-y-lamenta-que-asistentes-se-sintieran-heridos-en-su-fe-2026110915370949465",
-   "photo_credit": "Foto: Wonderlane · CC0"
-  },
-  {
-   "title": "BOLO FEST ya tiene fecha",
-   "headline": "¡Feliz Navidad! El desfile navideño BOLO FEST 2026 de Liverpool ya tiene fecha: será el 28 de noviembre | MAPA",
+   "title": "Puma y Stranger Things en México",
+   "headline": "Puma lanza colaboración con Stranger Things y convierte el universo del Upside Down en una colección de tenis, ropa y accesorios",
    "source": "Merca2.0",
-   "link": "https://www.merca20.com/feliz-navidad-el-desfile-navideno-bolo-fest-2026-de-liverpool-ya-tiene-fecha-sera-el-28-de-noviembre-mapa/",
+   "link": "https://www.merca20.com/puma-lanza-colaboracion-con-stranger-things-y-convierte-el-universo-del-upside-down-en-una-coleccion-de-tenis-ropa-y-accesorios/",
    "photo_credit": null
   },
   {
-   "title": "Pasarela de despedida polémica",
-   "headline": "La pasarela de despedida de Víctor Sánchez",
-   "source": "Reto Diario",
-   "link": "https://retodiario.com/columna/la-pasarela-de-despedida-de-victor-sanchez",
+   "title": "Perfume árabe por 320 pesos",
+   "headline": "Armaf vende perfume Odyssey Mandarin Sky de 100 ml en 320 pesos: fragancia árabe con notas de mandarina, caramelo y madera, perfecto para el invierno",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/armaf-vende-perfume-odyssey-mandarin-sky-de-100-ml-en-320-pesos-fragancia-arabe-con-notas-de-mandarina-caramelo-y-madera-perfecto-para-el-invierno/",
    "photo_credit": null
   }
  ]

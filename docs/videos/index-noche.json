@@ -1,43 +1,43 @@
 {
- "date": "2026-11-09",
+ "date": "2026-11-10",
  "edition": "general",
- "duration": 64.8,
+ "duration": 68.7,
  "script_source": "IA (deepseek-chat)",
- "hook": "Havaianas dispara sus ventas y la moda coreana acelera en Estados Unidos",
+ "hook": "Crocs y Simone Rocha cierran su alianza y la moda enfrenta presiones económicas",
  "items": [
   {
-   "title": "Havaianas crece 82 por ciento en EE UU",
-   "headline": "More People Are Buying Flip-flops as Havaianas Continues to Grow in Q3",
+   "title": "Crocs y Simone Rocha se despiden",
+   "headline": "Crocs and Simone Rocha Say Goodbye to Their Fan-Favorite Partnership With One Final Collection",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-industry-news/havaianas-q3-2026-earnings-flip-flops-alpargatas-1239407635/",
+   "link": "https://wwd.com/footwear-news/shoe-industry-news/crocs-simone-rocha-end-partnership-fifth-collection-1239409741/",
    "photo_credit": null
   },
   {
-   "title": "Olive Young abre cinco tiendas",
-   "headline": "Olive Young Accelerates U.S. Expansion With 5 New California Stores by H1 2027",
+   "title": "Minorista debe millones a proveedores",
+   "headline": "The Children’s Place Owes Apparel Suppliers Millions",
    "source": "WWD",
-   "link": "https://wwd.com/beauty-industry-news/beauty-features/olive-young-usa-expansion-five-new-california-stores-1239408131/",
+   "link": "https://wwd.com/sourcing-journal/industry-news/childrens-place-bankruptcy-apparel-suppliers-hansae-1239409777/",
    "photo_credit": null
   },
   {
-   "title": "Siena Agudong brilla en Carrie",
-   "headline": "Siena Agudong Is Feeling Through What It Means to Be Truly Kind",
+   "title": "Boxford nuevo CEO de Capri",
+   "headline": "Justin Boxford Said to Become Next CEO of Michael Kors Parent Capri",
    "source": "WWD",
-   "link": "https://wwd.com/eye/people/siena-agudong-carrie-sidelined-extraction-1239390151/",
+   "link": "https://wwd.com/business-news/human-resources/justin-boxford-capri-holdings-ceo-rumor-1239410053/",
    "photo_credit": null
   },
   {
-   "title": "La Canadienne cumple 40 años",
-   "headline": "How La Canadienne Continues to Evolve as It Preps to Mark the 40-Year Milestone",
-   "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-industry-news/la-canadienne-cold-weather-boots-loafers-pumps-sandals-mens-1239396401/",
+   "title": "Valentino apuesta por Beymen en Turquía",
+   "headline": "Why Valentino’s Chairman Is Betting on Türkiye’s Oldest Retail Giant",
+   "source": "Vogue",
+   "link": "https://www.vogue.com/article/why-valentinos-chairman-is-betting-on-turkiyes-oldest-retail-giant",
    "photo_credit": null
   },
   {
-   "title": "Google abre la moda a lectores",
-   "headline": "Google Thinks It Knows What Fashion News You Want to Read — Now You Can Have a Say, Too",
+   "title": "Inflación mantiene caros los precios",
+   "headline": "Sticky Inflation Remained Stubbornly Entrenched in October, Keeping Fashion Prices Elevated",
    "source": "WWD",
-   "link": "https://wwd.com/fashion-news/fashion-scoops/wwd-google-preferred-sources-1239408083/",
+   "link": "https://wwd.com/sourcing-journal/industry-news/cpi-october-inflation-apparel-footwear-holiday-1239410049/",
    "photo_credit": null
   }
  ]
