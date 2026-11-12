@@ -1,43 +1,43 @@
 {
- "date": "2026-11-11",
+ "date": "2026-11-12",
  "edition": "general",
- "duration": 65.4,
+ "duration": 61.7,
  "script_source": "IA (deepseek-chat)",
- "hook": "Wolverine reporta resultados y Lululemon estrena poliéster reciclado en shorts",
+ "hook": "Comercio electrónico en riesgo y Hugo Boss cambia de CEO",
  "items": [
   {
-   "title": "Wolverine reporta resultados del Q3",
-   "headline": "Saucony, Merrell Again to Headline Wolverine’s Q3 Earnings Results",
+   "title": "Fallos en e-commerce en temporada alta",
+   "headline": "Holiday Traffic Surges Put E-Commerce Site Reliability to the Test",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-industry-news/merrell-saucony-wolverine-world-wide-analysts-q3-preview-1239410655/",
+   "link": "https://wwd.com/sourcing-journal/industry-news/network-solution-holiday-traffic-website-reliability-1239413059/",
    "photo_credit": null
   },
   {
-   "title": "Lululemon estrena poliéster reciclado",
-   "headline": "Lululemon Brings Enzymatically Recycled Polyester to Running Shorts",
+   "title": "Halfdays apuesta por Europa",
+   "headline": "Halfdays Targets European Growth With Dedicated Regional Operations",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/sustainability/lululemon-samsara-eco-enzymaitic-recycling-polyester-shorts-1239410883/",
+   "link": "https://wwd.com/business-news/retail/halfdays-europe-expansion-skiwear-outdoor-performance-1239412672/",
    "photo_credit": null
   },
   {
-   "title": "Kate Middleton habla de su salud",
-   "headline": "Kate Middleton Opens Up About Her Health Journey in a Rare New Interview",
-   "source": "Vogue",
-   "link": "https://www.vogue.com/article/kate-middleton-hospital-visit-suit-11-11-2026",
+   "title": "Nuevo CEO en Hugo Boss",
+   "headline": "Grieder to Step Down as Hugo Boss CEO, Frasers’ Epstein to Take Over Jan. 1",
+   "source": "WWD",
+   "link": "https://wwd.com/business-news/human-resources/grieder-hugo-boss-ceo-frasers-epstein-make-ashley-1239413637/",
    "photo_credit": null
   },
   {
-   "title": "Air Jordan 4 se vuelve botín",
-   "headline": "Michael Jordan’s Classic Air Jordan 4 Is Getting a New Football Cleat Makeover",
+   "title": "SB Dunk edición limitada Oregón",
+   "headline": "Nike’s SB Dunk Is Getting New Limited-Edition Collaborations That Are Packed With Oregon Lore",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/air-jordan-4-retro-td-bred-release-date-hq0207-001-1239411391/",
+   "link": "https://wwd.com/footwear-news/sneaker-news/ducks-of-a-feather-nike-sb-dunk-low-shout-the-zoo-release-date-1239413540/",
    "photo_credit": null
   },
   {
-   "title": "Rick Owens revive Slingblade",
-   "headline": "Rick Owens Is Reviving One of Adidas’ Wildest Running Technologies for Both a Sneaker and Boot",
+   "title": "Caen envíos de Yue Yuen",
+   "headline": "Shoe Shipments and Manufacturing Revenue Down at Yue Yuen",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/rick-owens-adidas-slingblade-release-date-1239411276/",
+   "link": "https://wwd.com/footwear-news/shoe-industry-news/yue-yuen-financial-nine-months-shoe-shipments-manufacturing-1239412084/",
    "photo_credit": null
   }
  ]

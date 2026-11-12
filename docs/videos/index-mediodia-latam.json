@@ -1,44 +1,44 @@
 {
- "date": "2026-11-11",
+ "date": "2026-11-12",
  "edition": "latam",
- "duration": 66.8,
+ "duration": 64.9,
  "script_source": "IA (deepseek-chat)",
- "hook": "Moda, lujo y diseño marcan la agenda de hoy",
+ "hook": "Flecos, diseño panameño y una pasarela que desata polémica en Puebla",
  "items": [
   {
-   "title": "Exfutbolista arrestado por relojes falsos",
-   "headline": "Who is Pedro Hernandez, the former Mexican soccer player arrested for allegedly trafficking $5.4 million in counterfeit luxury watches?",
+   "title": "Vuelven los vestidos flapper",
+   "headline": "Vestidos flapper de los años 20: 10 modelos con flecos y lentejuelas para salir de fiesta en Otoño-Invierno 2026",
+   "source": "Vogue MX",
+   "link": "https://www.vogue.mx/articulo/vestido-flapper-con-flecos-y-lentejuelas-de-los-anos-20-para-salir-de-fiesta-2026",
+   "photo_credit": null
+  },
+  {
+   "title": "Isabella Fiore debuta en Panamá",
+   "headline": "La diseñadora panameña Isabella Fiore explora un lenguaje propio desde la emoción y la memoria",
+   "source": "Vogue MX",
+   "link": "https://www.vogue.mx/articulo/studio-fiore-panama-fashion-week-2026",
+   "photo_credit": null
+  },
+  {
+   "title": "Hugo Boss Bottled en oferta",
+   "headline": "Perfume Hugo Boss Bottled para hombre original, con 36% de descuento: cuesta 834 pesos y con cupón baja a 684 pesos",
    "source": "Merca2.0",
-   "link": "https://www.merca20.com/who-is-pedro-hernandez-the-former-mexican-soccer-player-arrested-for-allegedly-trafficking-5-4-million-in-counterfeit-luxury-watches/",
+   "link": "https://www.merca20.com/perfume-hugo-boss-bottled-para-hombre-original-con-36-de-descuento-cuesta-834-pesos-y-con-cupon-baja-a-684-pesos/",
    "photo_credit": null
   },
   {
-   "title": "Pasarelas que cuentan historias SS2027",
-   "headline": "Cuando las pasarelas nos cuentan historias SS2027",
+   "title": "La otra Roma del diseño",
+   "headline": "La otra Roma: Arte, diseño y el encanto de la dolce vita",
    "source": "Marie Claire MX",
-   "link": "https://marieclaire.com.mx/historias-pasarelas-ss27/",
+   "link": "https://marieclaire.com.mx/roma-arte-gastronomia-y-diseno/",
    "photo_credit": null
   },
   {
-   "title": "Alfombras reinterpretan a Gaudí en Barcelona",
-   "headline": "Dos alfombras de diseño de autor reinterpretan el universo de Gaudí en Casa Batlló",
-   "source": "Para Ti",
-   "link": "https://www.parati.com.ar/deco/dos-alfombras-de-diseno-de-autor-reinterpretan-el-universo-de-gaudi-en-casa-batllo/",
-   "photo_credit": null
-  },
-  {
-   "title": "Palacio de Hierro enciende su árbol",
-   "headline": "¡En colaboración con Swarovski! ¿Cuándo se enciende el árbol de Navidad de El Palacio de Hierro en Polanco?",
-   "source": "El Financiero",
-   "link": "https://www.elfinanciero.com.mx/estilo/2026/11/11/cuando-se-enciende-el-arbol-de-navidad-de-el-palacio-de-hierro-en-polanco/",
-   "photo_credit": null
-  },
-  {
-   "title": "Hamilton presume reloj Richard Mille",
-   "headline": "Lewis Hamilton presume en el GP de Brasil un reloj Richard Mille de oro rosa y diamantes que vale millones de pesos",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/lewis-hamilton-reloj-richard-mille-rm-037-snow-diamond-set-precio-caracteristicas-10-11-2026",
-   "photo_credit": null
+   "title": "Polémica en Catedral de Puebla",
+   "headline": "Polémica por pasarela en Catedral de Puebla provoca nueva jornada religiosa",
+   "source": "Meganoticias.mx",
+   "link": "https://www.meganoticias.mx/puebla/noticia/pol%C3%A9mica-por-pasarela-en-catedral-de-puebla-provoca-nueva-jornada-religiosa/787561",
+   "photo_credit": "Foto: Wonderlane · CC0"
   }
  ]
 }
