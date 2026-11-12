@@ -1,43 +1,43 @@
 {
- "date": "2026-11-11",
+ "date": "2026-11-12",
  "edition": "general",
- "duration": 65.6,
+ "duration": 72.7,
  "script_source": "IA (deepseek-chat)",
- "hook": "Inditex impulsa fondo climático y Tod's cambia de rumbo creativo",
+ "hook": "Burberry crece, el mercado de segunda mano gana terreno y PVH recorta personal",
  "items": [
   {
-   "title": "Jeans a medida con escaneo corporal",
-   "headline": "Neems Acquires Body-Scanning Technology, Launches App",
+   "title": "Burberry crece 6% en el semestre",
+   "headline": "Burberry Sales Climb 6% in First Half, with Profits Rising to 54 Million Pounds",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/sj-denim/neems-acquires-choozr-body-scanning-technology-launches-app-1239409302/",
+   "link": "https://wwd.com/business-news/business-features/burberry-sales-climb-six-percent-first-half-profits-rising-1239412423/",
    "photo_credit": null
   },
   {
-   "title": "Quién pagó los aranceles de ropa",
-   "headline": "Who Paid the Tariffs on Apparel Last Year? The Answer Might Be a Surprise.",
+   "title": "Segunda mano gana terreno en Navidad",
+   "headline": "Holiday Shoppers Are Giving Secondhand a Second Look",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/industry-news/tariffs-retailers-brands-suppliers-consumers-dr-sheng-lu-study-1239408180/",
+   "link": "https://wwd.com/sourcing-journal/industry-news/offerup-holiday-shopping-secondhand-market-1239412257/",
    "photo_credit": null
   },
   {
-   "title": "Tamburini sale de Tod's",
-   "headline": "Tod's Creative Director Matteo Tamburini to step down",
-   "source": "The Industry",
-   "link": "https://www.theindustry.fashion/tods-matteo-tamburini-steps-down/",
-   "photo_credit": null
-  },
-  {
-   "title": "Inditex respalda fondo de 400 millones",
-   "headline": "Inditex backs $400m fund to cut fashion supply chain emissions",
-   "source": "The Industry",
-   "link": "https://www.theindustry.fashion/inditex-backs-400m-fund-to-cut-fashion-supply-chain-emissions/",
-   "photo_credit": null
-  },
-  {
-   "title": "La moda y su rol en la COP",
-   "headline": "Does Fashion Still Have a Role at COP?",
+   "title": "Brunt apuesta por jeans de trabajo",
+   "headline": "Brunt Workwear Takes on Work Jeans",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/sustainability/fashion-cop31-turkey-climate-change-un-1239410041/",
+   "link": "https://wwd.com/sourcing-journal/sj-denim/brunt-workwear-launches-work-jeans-durability-comfort-1239412026/",
+   "photo_credit": null
+  },
+  {
+   "title": "PVH recorta 4% de su plantilla",
+   "headline": "PVH Simplifies, Cutting 4% of Global Workforce",
+   "source": "WWD",
+   "link": "https://wwd.com/business-news/financial/pvh-corp-layoffs-global-workforce-reduction-1239412484/",
+   "photo_credit": null
+  },
+  {
+   "title": "True Religion y Phat Farm se unen",
+   "headline": "True Religion and Phat Farm Merge Their Signature Styles and Y2K Legacies",
+   "source": "WWD",
+   "link": "https://wwd.com/sourcing-journal/sj-denim/true-religion-phat-farm-merge-collaboration-y2k-hip-hop-1239410166/",
    "photo_credit": null
   }
  ]

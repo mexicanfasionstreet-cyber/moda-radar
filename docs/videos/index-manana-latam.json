@@ -1,43 +1,29 @@
 {
- "date": "2026-11-11",
+ "date": "2026-11-12",
  "edition": "latam",
- "duration": 66.1,
+ "duration": 46.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "Falabella crece, El Ganso llega a Argentina y relojes de lujo dominan la moda",
+ "hook": "El Palacio de Hierro reinvierte en Monterrey y la moda mueve capital",
  "items": [
   {
-   "title": "Falabella gana 18,7% más",
-   "headline": "Falabella gana un 18,7% más en el tercer trimestre gracias al crecimiento del retail",
+   "title": "Palacio de Hierro crece en Monterrey",
+   "headline": "Palacio de Hierro invierte 4,000 mdp",
+   "source": "El Financiero",
+   "link": "https://www.elfinanciero.com.mx/opinion/de-jefes/2026/11/12/palacio-de-hierro-invierte-4000-mdp/",
+   "photo_credit": null
+  },
+  {
+   "title": "Grupo One lleva Kiabi a Argentina",
+   "headline": "¿Quién es Grupo One? El socio que abre paso a Kiabi y Bestseller en Argentina",
    "source": "Modaes",
-   "link": "https://www.modaes.com/empresas/falabella-gana-un-187-mas-en-el-tercer-trimestre-gracias-al-crecimiento-del-retail",
+   "link": "https://www.modaes.com/empresas/quien-es-grupo-one-el-socio-que-abre-paso-a-kiabi-y-bestseller-en-argentina",
    "photo_credit": null
   },
   {
-   "title": "El Ganso llega a Buenos Aires",
-   "headline": "El Ganso crece en Latinoamérica: entra en Argentina con su primera tienda en Buenos Aires",
-   "source": "Modaes",
-   "link": "https://www.modaes.com/empresas/el-ganso-crece-en-latinoamerica-entra-en-argentina-con-su-primera-tienda-en-buenos-aires",
-   "photo_credit": null
-  },
-  {
-   "title": "Los relojes de Antonelli",
-   "headline": "Andrea Kimi Antonelli y las piezas más geniales de su colección de relojes",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/andrea-kimi-antonelli-coleccion-de-relojes",
-   "photo_credit": null
-  },
-  {
-   "title": "El Seiko de un chef Michelin",
-   "headline": "El reloj Seiko de esfera verde y correa de cuero que este chef con dos estrellas Michelin nunca se quita",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/reloj-seiko-prospex-alpinist-precio-disponibilidad-10-11-2026",
-   "photo_credit": null
-  },
-  {
-   "title": "Muñeca de Zoey de Mattel",
-   "headline": "KPop Demon Hunters Zoey Fashion Doll: Price and Where to Buy the HUNTR/X Figure",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/kpop-demon-hunters-zoey-fashion-doll-price-and-where-to-buy-the-huntr-x-figure/",
+   "title": "Inditex apuesta por descarbonizar",
+   "headline": "Inditex invierte 50 millones de dólares en un fondo destinado a descarbonizar la industria textil",
+   "source": "FashionNetwork México",
+   "link": "https://mx.fashionnetwork.com/news/Inditex-invierte-50-millones-de-dolares-en-un-fondo-destinado-a-descarbonizar-la-industria-textil,1883553.html",
    "photo_credit": null
   }
  ]

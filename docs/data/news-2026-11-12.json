@@ -1,19 +1,18 @@
 {
- "generated": "2026-11-12T02:04:21.713681Z",
+ "generated": "2026-11-12T14:10:18.650883Z",
  "days": 4,
- "count": 196,
- "sources_ok": 56,
+ "count": 207,
+ "sources_ok": 57,
  "sources_failed": [
-  "Drapers",
   "Hypebeast"
  ],
  "items": [
   {
-   "title": "Ariana Grande and Ricky Alvarez Make Their Red Carpet Debut as She Revives ’90s Badgley Mischka",
-   "link": "https://wwd.com/pop-culture/celebrity-news/ariana-grande-ricky-alvarez-red-carpet-debut-1239412329/",
-   "excerpt": "The couple, who first dated from 2015 to 2016 before rekindling their romance this summer, attended the “Focker In-Law” world premiere in New York.",
+   "title": "New SAP Study Questions Whether CX Businesses May Be Overpromising On AI",
+   "link": "https://wwd.com/sourcing-journal/industry-news/sap-artificial-intelligence-consumer-autonomy-gap-1239411991/",
+   "excerpt": "Despite their confidence, businesses don't seem to be ready to deal with end-to-end AI in retail, according to SAP study.",
    "image": "",
-   "published": "2026-11-12T00:32:00Z",
+   "published": "2026-11-12T14:00:00Z",
    "source": "WWD",
    "source_name": "WWD",
    "kind": "trade",
@@ -22,19 +21,19 @@
    "lang": "en",
    "region": "us",
    "tags": [
-    "pasarela"
+    "negocio"
    ],
    "via": "",
    "also": [],
-   "id": "c80fb16fa993",
-   "score": 8.65
+   "id": "3f60c8c0fba9",
+   "score": 9.55
   },
   {
-   "title": "These 2026 Advent Calendars Are Worth Your Money (And Offer More Than Hair Ties)",
-   "link": "https://wwd.com/shop/shop-beauty/best-2026-advent-calendars-value-price-shop-online-1239410137/",
-   "excerpt": "With prices ranging from $18 to over $300, these Advent calendars span beauty, homeware, books, and intimate toys, with surprises that make the countdown to the holidays all the more worthwhile.",
+   "title": "Holiday Shoppers Are Giving Secondhand a Second Look",
+   "link": "https://wwd.com/sourcing-journal/industry-news/offerup-holiday-shopping-secondhand-market-1239412257/",
+   "excerpt": "A new report from OfferUp found 80 percent of Americans expect to spend at least some of their budget on secondhand items.",
    "image": "",
-   "published": "2026-11-11T23:50:14Z",
+   "published": "2026-11-12T14:00:00Z",
    "source": "WWD",
    "source_name": "WWD",
    "kind": "trade",
@@ -43,19 +42,40 @@
    "lang": "en",
    "region": "us",
    "tags": [
-    "belleza"
+    "retail"
    ],
    "via": "",
    "also": [],
-   "id": "92a610b7dc08",
-   "score": 8.45
+   "id": "2d381931d942",
+   "score": 9.35
   },
   {
-   "title": "Fashion Isn’t Ready for 2040. Can It Prepare?",
-   "link": "https://wwd.com/sourcing-journal/sustainability/forum-for-the-future-hm-foundation-textiles-2040-1239412183/",
-   "excerpt": "A new report from Forum for the Future and the H&M Foundation explores four possible futures for textiles—and how companies can start planning for them now.",
+   "title": "Drapers Awards FTCT fundraiser surpasses £13,000",
+   "link": "https://www.drapersonline.com/news/drapers-awards-ftct-fundraiser-surpasses-13000",
+   "excerpt": "This year's Drapers Awards raised £13,040 for Fashion & Textile Children’s Trust (FTCT), which provides financial support for families in the UK fashion and textile industry – the highest raised in more than five years. The post…",
    "image": "",
-   "published": "2026-11-11T22:20:35Z",
+   "published": "2026-11-12T13:42:57Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "industria"
+   ],
+   "via": "",
+   "also": [],
+   "id": "8a423f07eeed",
+   "score": 7.79
+  },
+  {
+   "title": "True Religion and Phat Farm Merge Their Signature Styles and Y2K Legacies",
+   "link": "https://wwd.com/sourcing-journal/sj-denim/true-religion-phat-farm-merge-collaboration-y2k-hip-hop-1239410166/",
+   "excerpt": "While the designs are nostalgic, the brands see the early-2000s aesthetic resonating with new generations.",
+   "image": "",
+   "published": "2026-11-12T13:30:00Z",
    "source": "WWD",
    "source_name": "WWD",
    "kind": "trade",
@@ -68,8 +88,1149 @@
    ],
    "via": "",
    "also": [],
-   "id": "1210d7aae456",
+   "id": "044eceaaf8b7",
    "score": 8.75
+  },
+  {
+   "title": "48 Fashion and Beauty Gifts Gen Alpha Actually Wants This Year",
+   "link": "https://fashionista.com/2026/11/gen-alpha-gift-guide-beauty-fashion-2026",
+   "excerpt": "Occasionally, we use affiliate links on our site. This in no way affects our editorial decision-making. We know it’s hard to find the right gifts for your loved ones, so we’ve compiled a few fashion and beauty-focused gift guides…",
+   "image": "https://fashionista.com/.image/NTg6MDAwMDAwMDAwODA3NDE3/gen-alpha-gift-guide-2026-1.png?profile=rss",
+   "published": "2026-11-12T13:30:00Z",
+   "source": "Fashionista",
+   "source_name": "Fashionista",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "belleza"
+   ],
+   "via": "",
+   "also": [],
+   "id": "f9eaec4ea0af",
+   "score": 7.6
+  },
+  {
+   "title": "Are Warehouse Robots the Key to Speedy Holiday Fulfillment? Puma Thinks So.",
+   "link": "https://wwd.com/sourcing-journal/logistics/puma-maersk-autostore-los-angeles-fulfillment-warehouse-operations-holiday-1239412324/",
+   "excerpt": "A pair of Puma sneakers that ends up gift-wrapped under a tree this holiday season may pass through the proverbial hands of a robot moving merchandise at the brand’s distribution center in Los Angeles.",
+   "image": "",
+   "published": "2026-11-12T13:16:38Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "calzado"
+   ],
+   "via": "",
+   "also": [],
+   "id": "6f010b137824",
+   "score": 8.55
+  },
+  {
+   "title": "Scalpers estrena nueva sede en Sevilla para integrar diseño y producto",
+   "link": "https://www.modaes.com/empresas/scalpers-estrena-nueva-sede-en-sevilla-para-integrar-diseno-y-producto",
+   "excerpt": "La compañía pone en marcha en la Isla de la Cartuja de Sevilla un edificio de 4.700 metros cuadrados, que reúne a sus equipos de diseño, investigación…",
+   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3OTQ0ODkyNTd9/files/2026/15-redaccion-empresas/scalpers/scalpes-sede-cartuja-1200.jpg",
+   "published": "2026-11-12T13:14:00Z",
+   "source": "Modaes",
+   "source_name": "Modaes",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "diseno"
+   ],
+   "via": "Modaes",
+   "also": [],
+   "id": "025c6f1917b7",
+   "score": 7.6
+  },
+  {
+   "title": "PVH Simplifies, Cutting 4% of Global Workforce",
+   "link": "https://wwd.com/business-news/financial/pvh-corp-layoffs-global-workforce-reduction-1239412484/",
+   "excerpt": "CEO Stefan Larsson told employees the company is leaning in on what works best.",
+   "image": "",
+   "published": "2026-11-12T13:06:47Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "personas"
+   ],
+   "via": "",
+   "also": [],
+   "id": "c48b4e3d8756",
+   "score": 8.95
+  },
+  {
+   "title": "Wolverine Worldwide Raises Annual Outlook as Saucony, Merrell Lead the Way Again",
+   "link": "https://wwd.com/footwear-news/shoe-industry-news/wolverine-worldwide-www-q3-2026-earnings-merrell-saucony-1239412492/",
+   "excerpt": "Total revenue in the third quarter of 2026 was $505.4 million, up 7.5 percent from the same time last year.",
+   "image": "",
+   "published": "2026-11-12T13:01:25Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "negocio"
+   ],
+   "via": "",
+   "also": [],
+   "id": "9269a86050b0",
+   "score": 9.55
+  },
+  {
+   "title": "Google Pixel, Highsnobiety Showcase AI Design Products",
+   "link": "https://wwd.com/sourcing-journal/industry-news/google-pixel-highsnobiety-pift-ai-fashion-designers-1239412108/",
+   "excerpt": "Independent labels used Google’s tools for prints, prototypes and imagery ahead of a Berlin showcase and a second cohort in 2027.",
+   "image": "",
+   "published": "2026-11-12T13:01:00Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "diseno"
+   ],
+   "via": "",
+   "also": [],
+   "id": "e5bb938722c4",
+   "score": 8.45
+  },
+  {
+   "title": "Vince to Open Two Stores, Renovate Three and Pop Up in Aspen",
+   "link": "https://wwd.com/business-news/retail/vince-stores-renovate-philadelphia-atlanta-aspen-1239407517/",
+   "excerpt": "The California-inspired contemporary brand is elevating its physical presence to complement its collections.",
+   "image": "",
+   "published": "2026-11-12T13:00:00Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "retail"
+   ],
+   "via": "",
+   "also": [],
+   "id": "3b2add6592b8",
+   "score": 9.35
+  },
+  {
+   "title": "Brunt Workwear Takes on Work Jeans",
+   "link": "https://wwd.com/sourcing-journal/sj-denim/brunt-workwear-launches-work-jeans-durability-comfort-1239412026/",
+   "excerpt": "The brand did extensive wear testing across a broad range of trade workers.",
+   "image": "",
+   "published": "2026-11-12T13:00:00Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "sostenibilidad"
+   ],
+   "via": "",
+   "also": [],
+   "id": "d13563caaf99",
+   "score": 9.15
+  },
+  {
+   "title": "Palacio de Hierro invierte 4,000 mdp",
+   "link": "https://www.elfinanciero.com.mx/opinion/de-jefes/2026/11/12/palacio-de-hierro-invierte-4000-mdp/",
+   "excerpt": "Tras una inversión de 4 mil millones de pesos y mil un días de obra, El Palacio de Hierro reabrirá su tienda en Paseo San Pedro, Monterrey, que sumará 10 mil metros cuadrados para alcanzar 32 mil 745 metros de piso de venta…",
+   "image": "https://elfinanciero-elfinanciero-prod.cdn.arcpublishing.com/resizer/fem5FK2E-b5Lo68-cnvLq3cGVvQ=/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/W2B7PMYGONAXNODNGI5FYEJJEI.jpeg",
+   "published": "2026-11-12T12:26:22Z",
+   "source": "El Financiero",
+   "source_name": "El Financiero",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 3.4,
+   "lang": "es",
+   "region": "mx",
+   "tags": [
+    "negocio"
+   ],
+   "via": "",
+   "also": [],
+   "id": "5d4836e86b86",
+   "score": 7.98
+  },
+  {
+   "title": "Dr Martens sufre por el calor extremo del verano y fía a la Navidad su cierre de año",
+   "link": "https://www.modaes.com/empresas/dr-martens-sufre-por-el-calor-extremo-del-verano-y-fia-a-la-navidad-su-cierre-de-ano",
+   "excerpt": "La compañía británica de calzado cae en ventas un 9,8% y anota unas pérdidas después de impuestos de seis millones de libras (7,18 millones de euros)…",
+   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3Njk1MDUwNjZ9/files/2026/15-redaccion-empresas/dr-martens/dr-martens-tienda-exterior-1200.jpg",
+   "published": "2026-11-12T12:09:00Z",
+   "source": "Modaes",
+   "source_name": "Modaes",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "retail"
+   ],
+   "via": "Modaes",
+   "also": [],
+   "id": "489397ce1be4",
+   "score": 8.5
+  },
+  {
+   "title": "M&S expands Asia Pacific presence via Global Fashion Group",
+   "link": "https://www.drapersonline.com/news/ms-expands-asia-pacific-presence-via-global-fashion-group",
+   "excerpt": "Marks & Spencer has announced new a partnership with online giant Global Fashion Group (GFG), expanding its availability across the Asia Pacific (APAC) region. The post M&S expands Asia Pacific presence via Global Fashion Group…",
+   "image": "",
+   "published": "2026-11-12T12:07:24Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "negocio"
+   ],
+   "via": "",
+   "also": [],
+   "id": "cb229be842e8",
+   "score": 8.59
+  },
+  {
+   "title": "Pandora revisa al alza sus previsiones: megafábrica en Vietnam, impulso a los diamantes y relanzamiento en Italia",
+   "link": "https://es.fashionnetwork.com/news/Pandora-revisa-al-alza-sus-previsiones-megafabrica-en-vietnam-impulso-a-los-diamantes-y-relanzamiento-en-italia,1883961.html",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-12T12:06:14Z",
+   "source": "FashionNetwork",
+   "source_name": "FashionNetwork España",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "industria"
+   ],
+   "via": "FashionNetwork España",
+   "also": [],
+   "id": "409d980025b8",
+   "score": 7.35
+  },
+  {
+   "title": "Desigual lleva su concepto de tienda Gaudí al centro de Florencia",
+   "link": "https://es.fashionnetwork.com/news/Desigual-lleva-su-concepto-de-tienda-gaudi-al-centro-de-florencia,1884380.html",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-12T12:02:09Z",
+   "source": "FashionNetwork",
+   "source_name": "FashionNetwork España",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "retail"
+   ],
+   "via": "FashionNetwork España",
+   "also": [],
+   "id": "11d784b1782c",
+   "score": 7.95
+  },
+  {
+   "title": "Dr. Martens decepciona en el primer semestre: el calor frena la demanda de botas",
+   "link": "https://es.fashionnetwork.com/news/Dr-martens-decepciona-en-el-primer-semestre-el-calor-frena-la-demanda-de-botas,1884333.html",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-12T12:00:54Z",
+   "source": "FashionNetwork",
+   "source_name": "FashionNetwork España",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "calzado"
+   ],
+   "via": "FashionNetwork España",
+   "also": [],
+   "id": "dda48e5d7e77",
+   "score": 7.15
+  },
+  {
+   "title": "When a Louis Vuitton Suitcase Becomes a Window on the World",
+   "link": "https://wwd.com/fashion-news/designer-luxury/louis-vuitton-suitcase-bruno-aveillan-exhibition-paris-photo-1239412434/",
+   "excerpt": "Bruno Aveillan’s new exhibition in Paris is a poetic exploration of travel, chance encounters and the stories told by his suitcase. \"This is as anti-AI as it gets,\" he said.",
+   "image": "",
+   "published": "2026-11-12T12:00:00Z",
+   "source": "WWD",
+   "source_name": "WWD",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "cultura"
+   ],
+   "via": "",
+   "also": [],
+   "id": "9c429e5196c7",
+   "score": 8.35
+  },
+  {
+   "title": "Mango afianza su posición en Bélgica con una nueva tienda en Amberes",
+   "link": "https://es.fashionnetwork.com/news/Mango-afianza-su-posicion-en-belgica-con-una-nueva-tienda-en-amberes,1884372.html",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-12T11:53:46Z",
+   "source": "FashionNetwork",
+   "source_name": "FashionNetwork España",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "retail"
+   ],
+   "via": "FashionNetwork España",
+   "also": [],
+   "id": "031594da10b8",
+   "score": 7.95
+  },
+  {
+   "title": "Binello (Quadrivio Group): “Piano da 2 miliardi”. Moda, beauty e food nel mirino",
+   "link": "https://www.pambianconews.com/2026/11/12/binello-quadrivio-group-piano-da-2-miliardi-moda-beauty-e-food-nel-mirino-500551/",
+   "excerpt": "Il prossimo investimento in arrivo? A margine del 31° Pambianco-PwC Fashion Summit, Alessandro Binello, CEO di Quadrivio Group spiega che la società ha “un piano investimento di circa due miliardi per cui io direi che saranno tra…",
+   "image": "",
+   "published": "2026-11-12T11:30:47Z",
+   "source": "Pambianco",
+   "source_name": "Pambianco News",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.0,
+   "lang": "it",
+   "region": "it",
+   "tags": [
+    "belleza"
+   ],
+   "via": "",
+   "also": [],
+   "id": "550596519740",
+   "score": 7.25
+  },
+  {
+   "title": "Benaglia (Style Capital): “N°21 ha un ottimo posizionamento. Per noi è un’operazione di sistema”",
+   "link": "https://www.pambianconews.com/2026/11/12/benaglia-style-capital-n21-ha-un-ottimo-posizionamento-per-noi-e-unoperazione-di-sistema-500544/",
+   "excerpt": "Identità forte e autenticità. Sono questi i criteri che guidano le scelte di Style Capital , come ha spiegato Roberta Benaglia , CEO e founding partner del fondo, intervenendo al 31° Pambianco-PwC Fashion Summit . “Quando…",
+   "image": "",
+   "published": "2026-11-12T11:30:41Z",
+   "source": "Pambianco",
+   "source_name": "Pambianco News",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.0,
+   "lang": "it",
+   "region": "it",
+   "tags": [
+    "personas"
+   ],
+   "via": "",
+   "also": [],
+   "id": "07efd54792db",
+   "score": 7.75
+  },
+  {
+   "title": "AlphaTauri Dressed Sport’s Biggest Names in Their Defining Moments",
+   "link": "https://www.highsnobiety.com/p/alpha-tauri-dressed-sports-biggest-names/",
+   "excerpt": "For Max Verstappen, it was joining the Red Bull family and entering Formula One at an unusually young age. For AlphaTauri’s latest campaign, that memory now comes stitched into his clothes. Titled Moments That Unite , the project…",
+   "image": "",
+   "published": "2026-11-12T11:22:47Z",
+   "source": "Highsnobiety",
+   "source_name": "Highsnobiety",
+   "kind": "consumer",
+   "mirror": false,
+   "weight": 3.1,
+   "lang": "en",
+   "region": "de",
+   "tags": [
+    "personas"
+   ],
+   "via": "",
+   "also": [],
+   "id": "fa9a97f3227b",
+   "score": 6.67
+  },
+  {
+   "title": "Burberry mantiene su recuperación pese a la debilidad de Europa y Oriente Medio",
+   "link": "https://es.fashionnetwork.com/news/Burberry-mantiene-su-recuperacion-pese-a-la-debilidad-de-europa-y-oriente-medio,1884306.html",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-12T10:56:13Z",
+   "source": "FashionNetwork",
+   "source_name": "FashionNetwork España",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "industria"
+   ],
+   "via": "FashionNetwork España",
+   "also": [],
+   "id": "c962cadfdcd8",
+   "score": 7.35
+  },
+  {
+   "title": "TIE–ITET Textile Innovation Expo 2026 opens to showcase Bangladesh’s industrial innovation",
+   "link": "https://textiletoday.com.bd/tie-itet-textile-innovation-expo-2026-opens-to-showcase-bangladeshs-industrial-innovation",
+   "excerpt": "The TIE–ITET Textile Innovation Expo 2026 opened today at the International Convention City Bashundhara (ICCB), Dhaka, bringing together textile manufacturers, technology providers, industry leaders, engineers, researchers, and…",
+   "image": "https://textiletoday.com.bd/storage/uploads/2026/11/826pvYSrbN1qeS2FWN.jpeg",
+   "published": "2026-11-12T10:54:00Z",
+   "source": "Textile Today",
+   "source_name": "Textile Today",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 2.8,
+   "lang": "en",
+   "region": "bd",
+   "tags": [
+    "retail"
+   ],
+   "via": "",
+   "also": [],
+   "id": "3406e1d9a93c",
+   "score": 7.06
+  },
+  {
+   "title": "How I started in fashion: Paul Costelloe Creative Director, William Costelloe",
+   "link": "https://www.theindustry.fashion/how-i-started-in-fashion-paul-costelloe-creative-director-william-costelloe/",
+   "excerpt": "William Costelloe took the helm as Creative Director of Paul Costelloe following his father’s passing last year. Having worked alongside his father for years, William is no stranger to the house, presenting his debut collection…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/Title-2026-11-11T142851.148-150x150.png",
+   "published": "2026-11-12T10:30:27Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "personas"
+   ],
+   "via": "",
+   "also": [],
+   "id": "8bdab711efc1",
+   "score": 8.34
+  },
+  {
+   "title": "Fashion’s festive campaigns: The brands bringing Christmas 2026 to life",
+   "link": "https://www.theindustry.fashion/fashions-festive-campaigns-the-brands-bringing-christmas-2026-to-life/",
+   "excerpt": "With retail's golden quarter upon us, the fashion industry is making sure that customers are getting into the Christmas spirit with the annual launch of holiday-themed campaigns. From hand-drawn and stop-motion animations to…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/Title-2026-11-12T095635.655-150x150.png",
+   "published": "2026-11-12T09:50:42Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "negocio"
+   ],
+   "via": "",
+   "also": [],
+   "id": "af573ed804fd",
+   "score": 8.94
+  },
+  {
+   "title": "Suwarso (Como 1907): “Il lifestyle sta raggiungendo la quota dei diritti tv”",
+   "link": "https://www.pambianconews.com/2026/11/12/suwarso-il-lifestyle-sta-raggiungendo-la-quota-dei-diritti-tv-oggi-il-nostro-appeal-e-il-lago-di-como-500380/",
+   "excerpt": "Il lifestyle del Como 1907 dovrebbe arrivare quest’anno a 40 milioni di euro di ricavi, una cifra che si avvicina ormai a quanto il club incassa dai diritti televisivi della Serie A . “Per noi è qualcosa di molto significativo”…",
+   "image": "",
+   "published": "2026-11-12T09:38:21Z",
+   "source": "Pambianco",
+   "source_name": "Pambianco News",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.0,
+   "lang": "it",
+   "region": "it",
+   "tags": [
+    "industria"
+   ],
+   "via": "",
+   "also": [],
+   "id": "2c8cb415598d",
+   "score": 7.55
+  },
+  {
+   "title": "Zalando afina su asistente de IA con datos de tallaje de 53 millones de clientes",
+   "link": "https://www.modaes.com/empresas/zalando-afina-su-asistente-de-ia-con-datos-de-tallaje-de-53-millones-de-clientes",
+   "excerpt": "La plataforma alemana amplía las funciones de su asistente conversacional con recomendaciones de tallaje. Amazon, Mango o Levi’s también apuestan por…",
+   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3OTM3MDA4OTV9/files/2026/15-redaccion-empresas/zalando/zalando-headquarters-sede-interior-1200.jpg",
+   "published": "2026-11-12T09:33:00Z",
+   "source": "Modaes",
+   "source_name": "Modaes",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "negocio"
+   ],
+   "via": "Modaes",
+   "also": [],
+   "id": "96f9f7c9ea7e",
+   "score": 8.7
+  },
+  {
+   "title": "Golden (Marquee Brands): “Nel rallentamento del lusso il modello asset light è vincente”",
+   "link": "https://www.pambianconews.com/2026/11/12/golden-marquee-brands-nel-rallentamento-del-lusso-il-modello-asset-light-e-vincente-500387/",
+   "excerpt": "In una fase di rallentamento del lusso, il modello asset light può rivelarsi più efficace di quello tradizionale. Ne è convinto Heath Golden , CEO di Marquee Brands , che a margine del 31° Pambianco-PwC Fashion Summit ha fatto il…",
+   "image": "",
+   "published": "2026-11-12T09:32:39Z",
+   "source": "Pambianco",
+   "source_name": "Pambianco News",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.0,
+   "lang": "it",
+   "region": "it",
+   "tags": [
+    "negocio"
+   ],
+   "via": "",
+   "also": [],
+   "id": "f522763db280",
+   "score": 8.35
+  },
+  {
+   "title": "Basei (Pandora): “Il 2026 è un anno di transizione”. Asia grande potenziale, Italia da consolidare",
+   "link": "https://www.pambianconews.com/2026/11/12/basei-pandora-il-2026-e-un-anno-di-transizione-asia-grande-potenziale-italia-da-consolidare-500349/",
+   "excerpt": "Un anno di passaggio tra un capitolo strategico e il successivo, con i primi segnali che le nuovi asset cominciano a funzionare. Così Massimo Basei , Chief commercial officer di Pandora , ha letto il 2026 del gruppo danese del…",
+   "image": "",
+   "published": "2026-11-12T09:28:02Z",
+   "source": "Pambianco",
+   "source_name": "Pambianco News",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.0,
+   "lang": "it",
+   "region": "it",
+   "tags": [
+    "diseno"
+   ],
+   "via": "",
+   "also": [],
+   "id": "17c12da8963a",
+   "score": 7.25
+  },
+  {
+   "title": "Sustainable product, green energy, and chemical safety highlight day one of Textile Innovation Expo 2026",
+   "link": "https://textiletoday.com.bd/sustainable-product-green-energy-and-chemical-safety-highlight-day-one-of-textile-innovation-expo-2026",
+   "excerpt": "The need to accelerate renewable energy adoption, improve chemical safety, and strengthen product traceability in Bangladesh's textile and apparel industry came into focus at a technical seminar held during Textile Innovation…",
+   "image": "https://textiletoday.com.bd/storage/uploads/2026/11/440665DorThCkjnxqttl.jpeg",
+   "published": "2026-11-12T09:28:00Z",
+   "source": "Textile Today",
+   "source_name": "Textile Today",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 2.8,
+   "lang": "en",
+   "region": "bd",
+   "tags": [
+    "sostenibilidad"
+   ],
+   "via": "",
+   "also": [],
+   "id": "a06148c984f4",
+   "score": 6.86
+  },
+  {
+   "title": "Live shopping drives 90% of pre-loved luxury sales on TikTok Shop UK",
+   "link": "https://www.theindustry.fashion/live-shopping-drives-90-of-pre-loved-luxury-sales-on-tiktok-shop-uk/",
+   "excerpt": "Live shopping accounted for 90% of UK pre-loved luxury gross merchandise value (GMV) on TikTok Shop between August 2025 and August 2026, according to the platform’s first LIVE Shopping Report. TikTok Shop’s internal data shows…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/Title-2026-11-11T165356.195-150x150.png",
+   "published": "2026-11-12T09:15:39Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "cultura"
+   ],
+   "via": "",
+   "also": [],
+   "id": "84d1d0fb8cf4",
+   "score": 7.74
+  },
+  {
+   "title": "Zotta (Vsp Vision): “A Mido sveleremo il nuovo nome di Marcolin e Marchon”",
+   "link": "https://www.pambianconews.com/2026/11/12/nicola-zotta-vsp-vision-a-mido-sveleremo-il-nuovo-nome-di-marcolin-e-marchon-500414/",
+   "excerpt": "Nicola Zotta , president of eyewear di Vsp Vision e managing director di Marchon e Marcolin , ha anticipato una novità importante sulla fusione tra le due aziende, a margine del 31° Pambianco-PwC Fashion Summit . “All’inizio del…",
+   "image": "",
+   "published": "2026-11-12T09:14:00Z",
+   "source": "Pambianco",
+   "source_name": "Pambianco News",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.0,
+   "lang": "it",
+   "region": "it",
+   "tags": [
+    "diseno"
+   ],
+   "via": "",
+   "also": [],
+   "id": "cdc0c3e7f1bc",
+   "score": 7.25
+  },
+  {
+   "title": "Andrea Baldo: “Mulberry è un lovemark. Pricing e distribuzione fanno da volano. E rilanceremo i gioielli”",
+   "link": "https://www.pambianconews.com/2026/11/12/andrea-baldo-mulberry-e-un-lovemark-pricing-e-distribuzione-fanno-da-volano-e-rilanceremo-i-gioielli-500409/",
+   "excerpt": "Andrea Baldo , CEO di Mulberry , illustra la sua visione dello storico marchio ingelese durante il 31° Pambianco-PwC Fashion Summit . Nato 55 anni fa nel Somerset, poco fuori Londra, Mulberry ha vissuto il suo momento d’oro ai…",
+   "image": "",
+   "published": "2026-11-12T09:07:21Z",
+   "source": "Pambianco",
+   "source_name": "Pambianco News",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.0,
+   "lang": "it",
+   "region": "it",
+   "tags": [
+    "diseno"
+   ],
+   "via": "",
+   "also": [],
+   "id": "d73ba45df294",
+   "score": 7.25
+  },
+  {
+   "title": "Matalan ramps up store expansion after Derby sales hit £1 million in 51 days",
+   "link": "https://www.theindustry.fashion/matalan-ramps-up-store-expansion-after-derby-sales-hit-1-million-in-51-days/",
+   "excerpt": "Matalan is opening four stores in Aylesbury, Clacton-on-Sea, Bangor and Newport this month, adding nearly 100,000 sq ft of retail space ahead of Black Friday and Christmas. A 30,000 sq ft store at Brooke Retail Park in…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/Title-2026-11-12T093027.511-150x150.png",
+   "published": "2026-11-12T09:00:14Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "negocio"
+   ],
+   "via": "",
+   "also": [],
+   "id": "c0aeb5929ee0",
+   "score": 8.94
+  },
+  {
+   "title": "I'm an Expert Shopper—I Saved $250 by Shopping the Nordstrom Early Black Friday Sale With These Chic Picks",
+   "link": "https://www.whowhatwear.com/fashion/shopping/nordstrom-early-black-friday-sale-2026",
+   "excerpt": "The Nordstrom Early Black Friday Sale has officially started, and it has way too many great picks to miss. I spent hours doing a deep dive of the sale and ended up with copious finds that are perfect for gifting yourself and the…",
+   "image": "https://cdn.mos.cms.futurecdn.net/T8i4biqxJBitysd8bkcBHJ-1920-80.jpg",
+   "published": "2026-11-12T09:00:00Z",
+   "source": "WhoWhatWear",
+   "source_name": "Who What Wear",
+   "kind": "consumer",
+   "mirror": false,
+   "weight": 3.1,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "retail"
+   ],
+   "via": "",
+   "also": [],
+   "id": "8594724214db",
+   "score": 7.42
+  },
+  {
+   "title": "Drapers daily news 12/11/2026",
+   "link": "https://www.drapersonline.com/news/drapers-daily-news-15-09-2026",
+   "excerpt": "Here are today's key fashion retail news stories… - Drapers Awards 2026 winners revealed drapersonline.com/ac9u - Burberry reports rise in profits and marks ‘fifth consecutive quarter of growth’ drapersonline.com/1rcy - 'Hot…",
+   "image": "",
+   "published": "2026-11-12T08:23:25Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "negocio"
+   ],
+   "via": "",
+   "also": [],
+   "id": "f46ca210f338",
+   "score": 8.44
+  },
+  {
+   "title": "‘Hot summer’ impacts Dr Martens profits and sales",
+   "link": "https://www.drapersonline.com/news/hot-summer-impacts-dr-martens-profits-and-sales",
+   "excerpt": "Footwear brand Dr Martens reported a loss in profits and decline in revenue for the 26 weeks ended 27 September 2026, as \"the exceptionally hot summer weather\" impacted sales of its core boot category. The post ‘Hot summer’…",
+   "image": "",
+   "published": "2026-11-12T08:02:13Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "negocio"
+   ],
+   "via": "",
+   "also": [],
+   "id": "d421e3e02494",
+   "score": 7.99
+  },
+  {
+   "title": "Dr. Martens boots sales fall 20% as hot summer weighs on first-half results",
+   "link": "https://www.theindustry.fashion/dr-martens-sales-fall-20-as-hot-summer-weighs-on-first-half-results/",
+   "excerpt": "An exceptionally hot summer hit Dr. Martens' core boots business, with revenue from the category falling 20% as the footwear brand's first-half adjusted pre-tax loss widened. Summary of results: Boots revenue fell 20% in the 26…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/07/IMG_6709_cropped-150x150.webp",
+   "published": "2026-11-12T08:00:25Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "negocio"
+   ],
+   "via": "",
+   "also": [],
+   "id": "dd101f46086a",
+   "score": 8.34
+  },
+  {
+   "title": "Burberry Sales Climb 6% in First Half, with Profits Rising to 54 Million Pounds",
+   "link": "https://wwd.com/business-news/business-features/burberry-sales-climb-six-percent-first-half-profits-rising-1239412423/",
+   "excerpt": "The second quarter of fiscal 2026-27 was the fifth consecutive one of growth for the British brand under the stewardship of CEO Josh Schulman.",
+   "image": "https://assets.vogue.com/photos/6af57d3106ec874c3c3f31b0/master/pass/-story.jpg",
+   "published": "2026-11-12T07:56:38Z",
+   "source": "WWD",
+   "source_name": "WWD Business",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.5,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "negocio"
+   ],
+   "via": "",
+   "also": [
+    "Business of Fashion",
+    "Vogue",
+    "The Industry",
+    "Drapers",
+    "The Guardian Fashion",
+    "Pambianco News"
+   ],
+   "id": "cc9fb4fb88e3",
+   "score": 13.2
+  },
+  {
+   "title": "The Vogue Business Funding Tracker",
+   "link": "https://www.vogue.com/article/the-vogue-business-funding-tracker",
+   "excerpt": "Bringing you the latest fashion and beauty financing news, including investments and acquisitions.",
+   "image": "https://assets.vogue.com/photos/6ae898b0c8ecf951099c40c6/master/pass/-story.jpg",
+   "published": "2026-11-12T07:40:44Z",
+   "source": "Vogue",
+   "source_name": "Vogue",
+   "kind": "consumer",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "negocio"
+   ],
+   "via": "",
+   "also": [],
+   "id": "fea61ec800e0",
+   "score": 8.34
+  },
+  {
+   "title": "Wed2b opens second London ‘Megastore’ as it ramps up bridal offer in UK",
+   "link": "https://www.theindustry.fashion/wed2b-opens-second-london-megastore-as-it-ramps-up-bridal-offer-in-uk/",
+   "excerpt": "Bridalwear retailer Wed2b has opened its second London ‘Megastore’ at 1 Thavies Inn, Holborn Circus, covering 10,000 sq ft of retail space and stocking over 1,500 wedding dresses. It follows “exceptional early trading” at its…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/Title-2026-11-12T103923.925-150x150.png",
+   "published": "2026-11-12T07:38:25Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "retail"
+   ],
+   "via": "",
+   "also": [],
+   "id": "c34c6a17a708",
+   "score": 8.14
+  },
+  {
+   "title": "Doodie Stark’s Liz Jefferson named Independent Icon at Drapers Awards",
+   "link": "https://www.drapersonline.com/news/doodie-starks-liz-jefferson-named-independent-icon-at-drapers-awards",
+   "excerpt": "Liz Jefferson, founder of womenswear independent retailer Doodie Stark, was named this year's Independent Icon at Drapers Awards on 11 November. The post Doodie Stark’s Liz Jefferson named Independent Icon at Drapers Awards…",
+   "image": "",
+   "published": "2026-11-12T07:00:36Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "personas"
+   ],
+   "via": "",
+   "also": [],
+   "id": "573c343a2293",
+   "score": 7.39
+  },
+  {
+   "title": "Marks & Spencer joins forces with Global Fashion Group to expand across Asia Pacific",
+   "link": "https://www.theindustry.fashion/marks-spencer-joins-forces-with-global-fashion-group-to-expand-across-asia-pacific/",
+   "excerpt": "Marks & Spencer has joined forces with Global Fashion Group (GFG) to extend its womenswear, menswear, kidswear and lingerie reach across Asia Pacific. The British retailer has launched on Zalora, Southeast Asia’s leading fashion…",
+   "image": "https://www.theindustry.fashion/wp-content/uploads/2025/04/Marks-Spencer-xxx-150x150.jpg",
+   "published": "2026-11-12T07:00:12Z",
+   "source": "The Industry",
+   "source_name": "The Industry",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "personas"
+   ],
+   "via": "",
+   "also": [],
+   "id": "3421354ed257",
+   "score": 7.74
+  },
+  {
+   "title": "Milliner Victoria Grant: ‘Philip Treacy is a champion of our craft’",
+   "link": "https://www.drapersonline.com/news/milliner-victoria-grant-philip-treacy-is-a-champion-of-our-craft",
+   "excerpt": "Victoria Grant, London-based couture milliner and designer to stars such as Madonna, Lady Gaga, Beyoncé and Rihanna, describes how Philip Treacy has inspired a great British fashion industry. The post Milliner Victoria Grant…",
+   "image": "",
+   "published": "2026-11-12T06:27:05Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "diseno"
+   ],
+   "via": "",
+   "also": [],
+   "id": "03e9a19dcd84",
+   "score": 6.89
+  },
+  {
+   "title": "In Fashion’s Holiday Campaigns, the Medium Is the Message",
+   "link": "https://www.businessoffashion.com/articles/marketing-pr/fashion-holiday-campaigns-medium-is-the-message/",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-12T05:30:00Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 5.0,
+   "lang": "en",
+   "region": "global",
+   "tags": [
+    "industria"
+   ],
+   "via": "The Business of Fashion",
+   "also": [],
+   "id": "f0386a8ed2e8",
+   "score": 7.95
+  },
+  {
+   "title": "CEO Talks: Rémy Baume on Using Customer Insights and AI to Drive Growth at Printemps",
+   "link": "https://wwd.com/business-news/retail/ceo-talks-printemps-remy-baume-holiday-outlook-protests-ai-1239410790/",
+   "excerpt": "In his first interview since taking the job, the executive discusses upgrading service, a revamped ground floor and holiday prospects amid ongoing protests.",
+   "image": "",
+   "published": "2026-11-12T05:01:00Z",
+   "source": "WWD",
+   "source_name": "WWD Business",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.5,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "negocio"
+   ],
+   "via": "",
+   "also": [],
+   "id": "9cb3ac079f17",
+   "score": 8.35
+  },
+  {
+   "title": "Catherine Morrissey Assumes CEO Post at White & Warren",
+   "link": "https://wwd.com/business-news/human-resources/catherine-morrissey-ceo-white-warren-susan-white-morrissey-1239411170/",
+   "excerpt": "Her mother, Susan White Morrissey, will step back from day-to-day operation of the cashmere brand but will remain as an adviser and co-owner.",
+   "image": "",
+   "published": "2026-11-12T05:01:00Z",
+   "source": "WWD",
+   "source_name": "WWD Business",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.5,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "personas"
+   ],
+   "via": "",
+   "also": [],
+   "id": "542d3998e2a4",
+   "score": 7.75
+  },
+  {
+   "title": "POV Beauty’s Mikayla Nogueira unpacks her creator-brand playbook with CEO and co-founder Ani Hadjinian",
+   "link": "https://www.glossy.co/podcasts/pov-beautys-mikayla-nogueira-unpacks-her-creator-brand-playbook-with-ceo-and-co-founder-ani-hadjinian/",
+   "excerpt": "Subscribe: Apple Podcasts • Spotify In this special episode of the Glossy Beauty Podcast, we are taking you directly to the main stage of Glossy’s annual Beauty & Wellness Summit for a conversation between POV Beauty founder…",
+   "image": "",
+   "published": "2026-11-12T05:00:00Z",
+   "source": "Glossy",
+   "source_name": "Glossy",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 3.9,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "belleza"
+   ],
+   "via": "",
+   "also": [],
+   "id": "d5ddc8d6d900",
+   "score": 6.53
+  },
+  {
+   "title": "Fashion Briefing: How Zara Larsson, Charli XCX and burning suitcases drove a boom in Away’s aluminum luggage business",
+   "link": "https://www.glossy.co/fashion/fashion-briefing-how-zara-larsson-charli-xcx-and-burning-suitcases-drove-a-boom-in-aways-aluminum-luggage-business/",
+   "excerpt": "This week, we take a look at how the luggage brand Away has been showing up across pop culture and how its top-of-funnel marketing efforts have led to growth in its aluminum luggage business. Brand marketers often talk about the…",
+   "image": "",
+   "published": "2026-11-12T05:00:00Z",
+   "source": "Glossy",
+   "source_name": "Glossy",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 3.9,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "cultura"
+   ],
+   "via": "",
+   "also": [],
+   "id": "e6104429a600",
+   "score": 6.28
+  },
+  {
+   "title": "¿Quién es Grupo One? El socio que abre paso a Kiabi y Bestseller en Argentina",
+   "link": "https://www.modaes.com/empresas/quien-es-grupo-one-el-socio-que-abre-paso-a-kiabi-y-bestseller-en-argentina",
+   "excerpt": "Manuel Antelo, Sabine Mulliez y Pedro Aguirre Saravia empezaron a operar marcas internacionales en Uruguay en 2021. Cinco años después, la compañía…",
+   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3OTQ0MDAzMzR9/files/2026/15-redaccion-empresas/decathlon/decathlon-tienda-exterior-madrid-grupo-one-argentina-1200.jpg",
+   "published": "2026-11-12T04:00:31Z",
+   "source": "Modaes",
+   "source_name": "Modaes",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "industria"
+   ],
+   "via": "Modaes",
+   "also": [],
+   "id": "058d5a80974c",
+   "score": 7.3
+  },
+  {
+   "title": "A las puertas de la RAP: los hogares disparan un 80% la generación de residuos textiles",
+   "link": "https://www.modaes.com/entorno/a-las-puertas-de-la-rap-los-hogares-disparan-un-80-la-generacion-de-residuos-textiles",
+   "excerpt": "En 2024 se generaron en los hogares de España casi 125.000 toneladas de desechos textiles separados, el triple que diez años atrás. El 79% de los…",
+   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3OTQzODgzODB9/files/2026/17-redaccion-recursos/residuos-textiles-recogida-1200.jpg",
+   "published": "2026-11-12T04:00:00Z",
+   "source": "Modaes",
+   "source_name": "Modaes",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "sostenibilidad"
+   ],
+   "via": "Modaes",
+   "also": [],
+   "id": "ca760834d7b6",
+   "score": 7.7
+  },
+  {
+   "title": "Vélez y J Balvin culminan su año de cocreación en la Quinta Avenida de Nueva York",
+   "link": "https://www.modaes.com/look/velez-y-j-balvin-culminan-su-ano-de-cocreacion-en-la-quinta-avenida-de-nueva-york",
+   "excerpt": "La marca colombiana y el músico se unen para la colección Spring Never Ends, formada por prendas decoradas con cristales Swarovski. La presentación…",
+   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3OTQ0MDI0MDd9/files/2026/20-redaccion-look/velez-jbalvin-1200.jpg",
+   "published": "2026-11-12T04:00:00Z",
+   "source": "Modaes",
+   "source_name": "Modaes",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "industria"
+   ],
+   "via": "Modaes",
+   "also": [],
+   "id": "2112619be962",
+   "score": 7.3
+  },
+  {
+   "title": "CCCI eyes partnership with ILO to build industry-ready skilled workforce",
+   "link": "https://textiletoday.com.bd/ccci-eyes-partnership-with-ilo-to-build-industry-ready-skilled-workforce",
+   "excerpt": "The Chattogram Chamber of Commerce and Industry (CCCI) has expressed interest in partnering with the ILO to develop a skilled workforce aligned with industrial needs and employment demands. The collaboration aims to strengthen…",
+   "image": "https://textiletoday.com.bd/storage/uploads/2026/11/5895vjv9poqI8wHfVWxv.jpeg",
+   "published": "2026-11-12T03:32:00Z",
+   "source": "Textile Today",
+   "source_name": "Textile Today",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 2.8,
+   "lang": "en",
+   "region": "bd",
+   "tags": [
+    "negocio"
+   ],
+   "via": "",
+   "also": [],
+   "id": "8d6a96a5673c",
+   "score": 6.66
+  },
+  {
+   "title": "Louis Gabriel Nouchi, Surkana y Aleixandri Studio ponen de manifiesto la diversidad de 080 Barcelona Fashion",
+   "link": "https://es.fashionnetwork.com/news/Louis-gabriel-nouchi-surkana-y-aleixandri-studio-ponen-de-manifiesto-la-diversidad-de-080-barcelona-fashion,1884091.html",
+   "excerpt": "",
+   "image": "",
+   "published": "2026-11-12T02:00:00Z",
+   "source": "FashionNetwork",
+   "source_name": "FashionNetwork España",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "industria"
+   ],
+   "via": "FashionNetwork España",
+   "also": [],
+   "id": "c50930ea2d3d",
+   "score": 6.75
+  },
+  {
+   "title": "Star milliner Philip Treacy and Selfridges CEO honoured at Drapers Awards",
+   "link": "https://www.drapersonline.com/news/star-milliner-philip-treacy-and-selfridges-ceo-honoured-at-drapers-awards",
+   "excerpt": "Irish milliner Philip Treacy collected the Drapers Lifetime Achievement Award last night, while CEO of Selfridges Group And r é Maeder was named Leader of the Year at Drapers Awards 2026. The post Star milliner Philip Treacy and…",
+   "image": "",
+   "published": "2026-11-11T23:40:46Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "personas"
+   ],
+   "via": "",
+   "also": [],
+   "id": "888943ffcf25",
+   "score": 7.39
+  },
+  {
+   "title": "Drapers Awards 2026 winners revealed",
+   "link": "https://www.drapersonline.com/news/drapers-awards-2026-winners-revealed",
+   "excerpt": "The creme de la creme of the fashion retail industry in the UK and Ireland gathered in London tonight (11 November) for Drapers Awards 2026. The post Drapers Awards 2026 winners revealed appeared first on Drapers .",
+   "image": "",
+   "published": "2026-11-11T23:30:00Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "retail"
+   ],
+   "via": "",
+   "also": [],
+   "id": "520302bacf26",
+   "score": 7.79
   },
   {
    "title": "The Divisive Socks-and-Heels Trend Is Bigger Than Ever, and Dua Lipa, Sarah Paulson and Chappell Roan Are the Proof",
@@ -77,11 +1238,11 @@
    "excerpt": "From runways to red carpets, socks are being reinvented as the unexpected companion to heels, with celebrities trying everything from floral embroidery to thigh-high latex.",
    "image": "",
    "published": "2026-11-11T21:55:58Z",
-   "source": "WWD",
-   "source_name": "WWD",
+   "source": "FN",
+   "source_name": "Footwear News",
    "kind": "trade",
    "mirror": false,
-   "weight": 5.0,
+   "weight": 3.8,
    "lang": "en",
    "region": "us",
    "tags": [
@@ -90,49 +1251,7 @@
    "via": "",
    "also": [],
    "id": "2e5e9d46c646",
-   "score": 8.55
-  },
-  {
-   "title": "Red Sea Return Shifts More Container Congestion to European Ports",
-   "link": "https://wwd.com/sourcing-journal/logistics/red-sea-return-suez-canal-port-congestion-european-ports-flexport-1239411825/",
-   "excerpt": "Ports like Rotterdam and Antwerp-Bruges are expecting more than 145 percent of their normal ocean freight capacity during the week, Flexport says.",
-   "image": "",
-   "published": "2026-11-11T21:55:24Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "industria"
-   ],
-   "via": "",
-   "also": [],
-   "id": "3226044e6ced",
-   "score": 8.75
-  },
-  {
-   "title": "Amanda Seyfried, Mikey Madison and More Light Up Tiffany & Co.’s Holiday Party",
-   "link": "https://wwd.com/eye/parties/amanda-seyfried-mikey-madison-tiffany-co-holiday-party-1239411732/",
-   "excerpt": "Seyfried helped light the Tiffany \"bird on a rock\" at the annual kick off to holiday season.",
-   "image": "",
-   "published": "2026-11-11T21:44:51Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "industria"
-   ],
-   "via": "",
-   "also": [],
-   "id": "5dc0b036bf80",
-   "score": 8.75
+   "score": 6.51
   },
   {
    "title": "Blundstone Chief Growth Officer Kris Hall Talks New Stores and Why the Shoe Brand Is a ‘Marketer’s Dream’",
@@ -140,11 +1259,11 @@
    "excerpt": "This all comes as the Australian boot brand doubles down on its product expansion.",
    "image": "",
    "published": "2026-11-11T21:41:19Z",
-   "source": "WWD",
-   "source_name": "WWD",
+   "source": "FN",
+   "source_name": "Footwear News",
    "kind": "trade",
    "mirror": false,
-   "weight": 5.0,
+   "weight": 3.8,
    "lang": "en",
    "region": "us",
    "tags": [
@@ -153,28 +1272,7 @@
    "via": "",
    "also": [],
    "id": "fe9f0bdcd207",
-   "score": 8.55
-  },
-  {
-   "title": "Anna Sawai Sports Bare-Faced Beauty at ‘How to Rob a Bank’ Premiere in New York",
-   "link": "https://wwd.com/pop-culture/celebrity-news/anna-sawai-bare-faced-beauty-how-to-rob-a-bank-premiere-1239411393/",
-   "excerpt": "The \"Shogun\" star made the case for natural skin and minimal makeup on Tuesday.",
-   "image": "",
-   "published": "2026-11-11T21:20:34Z",
-   "source": "WWD",
-   "source_name": "WWD",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "belleza"
-   ],
-   "via": "",
-   "also": [],
-   "id": "676416892db7",
-   "score": 8.45
+   "score": 6.51
   },
   {
    "title": "The Best Early Black Friday Apple Deals, According to Our Editors",
@@ -195,7 +1293,7 @@
    "via": "",
    "also": [],
    "id": "2437bca4b329",
-   "score": 7.78
+   "score": 7.18
   },
   {
    "title": "Justin Boxford Gets the Big Job at Capri as John Idol Exits",
@@ -204,21 +1302,19 @@
    "image": "",
    "published": "2026-11-11T21:15:11Z",
    "source": "WWD",
-   "source_name": "WWD",
+   "source_name": "WWD Business",
    "kind": "trade",
    "mirror": false,
-   "weight": 5.0,
+   "weight": 4.5,
    "lang": "en",
    "region": "us",
    "tags": [
     "personas"
    ],
    "via": "",
-   "also": [
-    "WWD Business"
-   ],
+   "also": [],
    "id": "df062bd558a2",
-   "score": 9.7
+   "score": 7.75
   },
   {
    "title": "It's Not Even Black Friday, and J.Crew Is Giving Us a Surprise Sale—15 Items Worth Shopping",
@@ -239,28 +1335,28 @@
    "via": "",
    "also": [],
    "id": "910cfd58df63",
-   "score": 7.42
+   "score": 6.82
   },
   {
-   "title": "P. Johnson, the Australian Men’s and Women’s RTW Brand, Taps Cliff Fleiser as Chief Marketing Officer",
-   "link": "https://wwd.com/fashion-news/fashion-scoops/p-johnson-cliff-fleiser-chief-marketing-officer-1239411622/",
-   "excerpt": "Most recently, Fleiser was senior vice president, marketing and communications, North America, at Ferragamo.",
+   "title": "Huelga general: el seguimiento en el comercio supera el 60 %, según los sindicatos",
+   "link": "https://es.fashionnetwork.com/news/Huelga-general-el-seguimiento-en-el-comercio-supera-el-60-segun-los-sindicatos,1884120.html",
+   "excerpt": "",
    "image": "",
-   "published": "2026-11-11T20:40:38Z",
-   "source": "WWD",
-   "source_name": "WWD",
+   "published": "2026-11-11T20:56:48Z",
+   "source": "FashionNetwork",
+   "source_name": "FashionNetwork España",
    "kind": "trade",
-   "mirror": false,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "us",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
    "tags": [
-    "industria"
+    "retail"
    ],
-   "via": "",
+   "via": "FashionNetwork España",
    "also": [],
-   "id": "1e1895dd15c8",
-   "score": 8.75
+   "id": "f4ce6671e324",
+   "score": 7.35
   },
   {
    "title": "Brooks Running Has a New Limited-Edition Collaboration Where No Two Pairs Are the Same",
@@ -281,7 +1377,7 @@
    "via": "",
    "also": [],
    "id": "6be6a1f9dd2c",
-   "score": 6.91
+   "score": 6.31
   },
   {
    "title": "Michael Jordan’s Air Jordan 4 Is Gets a Twist With Croc-textured Leather",
@@ -302,7 +1398,7 @@
    "via": "",
    "also": [],
    "id": "56f7ade42799",
-   "score": 7.11
+   "score": 6.51
   },
   {
    "title": "CurrentBody’s Early Black Friday 2026 Sale Is Here",
@@ -323,7 +1419,7 @@
    "via": "",
    "also": [],
    "id": "04a8a2bd8563",
-   "score": 7.78
+   "score": 7.18
   },
   {
    "title": "Walmart US Expands SGS Approved Testing Support Across Fashion Departments",
@@ -344,7 +1440,7 @@
    "via": "",
    "also": [],
    "id": "2a9d26dc2d98",
-   "score": 7.34
+   "score": 6.24
   },
   {
    "title": "18+ GQ-Approved Early Black Friday Deals to Shop Right Now",
@@ -365,7 +1461,7 @@
    "via": "",
    "also": [],
    "id": "9aeecf794a21",
-   "score": 7.18
+   "score": 6.68
   },
   {
    "title": "Aero Tec Laboratories & Arclin Advance FIA Safety Fuel Tank Standards With Kevlar® EXO™",
@@ -386,7 +1482,7 @@
    "via": "",
    "also": [],
    "id": "27129f9c0e47",
-   "score": 5.94
+   "score": 5.44
   },
   {
    "title": "The Future Of Sewn Product Manufacturing Starts Here: Registration Opens For Texprocess Americas 2027",
@@ -407,7 +1503,7 @@
    "via": "",
    "also": [],
    "id": "d2146b8afc39",
-   "score": 6.94
+   "score": 6.44
   },
   {
    "title": "¡Ropa vintage y moda urbana! Checa estos imperdibles diseños con tendencias y ropa reciclada",
@@ -428,7 +1524,7 @@
    "via": "TV Azteca",
    "also": [],
    "id": "c31f65d0e134",
-   "score": 6.1
+   "score": 5.6
   },
   {
    "title": "The Future Of Sewn Product Manufacturing Starts Here: Registration Opens For Texprocess Americas 2027",
@@ -449,7 +1545,7 @@
    "via": "",
    "also": [],
    "id": "c6e2a4d0b4e9",
-   "score": 6.94
+   "score": 6.44
   },
   {
    "title": "Cuando las pasarelas nos cuentan historias SS2027",
@@ -470,7 +1566,7 @@
    "via": "",
    "also": [],
    "id": "d5f93f3405a3",
-   "score": 6.0
+   "score": 5.5
   },
   {
    "title": "Rick Owens Is Reviving One of Adidas’ Wildest Running Technologies for Both a Sneaker and Boot",
@@ -491,7 +1587,7 @@
    "via": "",
    "also": [],
    "id": "f0f98e744859",
-   "score": 6.51
+   "score": 6.01
   },
   {
    "title": "The Changing Role Of Technical Textiles Takes Center Stage At Techtextil North America 2027",
@@ -512,7 +1608,7 @@
    "via": "",
    "also": [],
    "id": "1929c6c783fb",
-   "score": 6.34
+   "score": 5.84
   },
   {
    "title": "Michael Jordan’s Classic Air Jordan 4 Is Getting a New Football Cleat Makeover",
@@ -533,7 +1629,7 @@
    "via": "",
    "also": [],
    "id": "c4dc476b905c",
-   "score": 6.71
+   "score": 6.21
   },
   {
    "title": "¡En colaboración con Swarovski! ¿Cuándo se enciende el árbol de Navidad de El Palacio de Hierro en Polanco?",
@@ -554,7 +1650,7 @@
    "via": "",
    "also": [],
    "id": "17a39d25bd27",
-   "score": 6.18
+   "score": 5.68
   },
   {
    "title": "The 6 Best Places to Find Early Black Friday Handbag Deals",
@@ -575,7 +1671,7 @@
    "via": "",
    "also": [],
    "id": "bc35f0090305",
-   "score": 7.18
+   "score": 6.68
   },
   {
    "title": "Saucony, Merrell Again to Headline Wolverine’s Q3 Earnings Results",
@@ -596,7 +1692,7 @@
    "via": "",
    "also": [],
    "id": "945d9fe026d4",
-   "score": 7.51
+   "score": 7.01
   },
   {
    "title": "Anthony Edwards’ Adidas Sneaker Is Getting Two Marvel Character Treatments for ‘Avengers: Doomsday’",
@@ -617,7 +1713,7 @@
    "via": "",
    "also": [],
    "id": "a1e589416958",
-   "score": 6.31
+   "score": 5.81
   },
   {
    "title": "Le Silla Cofounder Monica Ciabattini Steps Away After More Than 30 Years",
@@ -638,7 +1734,7 @@
    "via": "",
    "also": [],
    "id": "e92ae54a7d53",
-   "score": 6.71
+   "score": 6.21
   },
   {
    "title": "Get Into Pole Position For ITMA 2027: Pre-Register For Germany’s Textile Technology Delegations",
@@ -659,7 +1755,7 @@
    "via": "",
    "also": [],
    "id": "0f50eef5461f",
-   "score": 6.34
+   "score": 5.84
   },
   {
    "title": "Hanifa’s New Era Is Here After Its Founder ‘Uprooted Everything’",
@@ -680,28 +1776,7 @@
    "via": "",
    "also": [],
    "id": "3a879c483772",
-   "score": 7.3
-  },
-  {
-   "title": "Timberland’s New Premium 6-Inch Boots for Women Have Suede, Croc and Removable Charms",
-   "link": "https://wwd.com/footwear-news/sneaker-news/timberland-premium-6-inch-waterproof-boot-womens-suede-croc-1239411085/",
-   "excerpt": "Featuring the classic 6-Inch Boot silhouette alongside the stacked Stone Street Platform 6-Inch Boot.",
-   "image": "",
-   "published": "2026-11-11T17:45:28Z",
-   "source": "FN",
-   "source_name": "Footwear News",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 3.8,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "calzado"
-   ],
-   "via": "",
-   "also": [],
-   "id": "f66293f22ab5",
-   "score": 6.51
+   "score": 6.8
   },
   {
    "title": "Is Fashion Sleeping on Twitch and Discord?",
@@ -722,7 +1797,7 @@
    "via": "The Business of Fashion",
    "also": [],
    "id": "5c2cce66ddb9",
-   "score": 7.95
+   "score": 7.45
   },
   {
    "title": "El vino tinto de Ribera del Duero que se agotó en tres meses en 2024 y cuesta 14 € estrena ahora una nueva añada: \"y no deja indiferente a nadie\"",
@@ -743,7 +1818,7 @@
    "via": "",
    "also": [],
    "id": "0ebeb00cbaa4",
-   "score": 6.63
+   "score": 6.13
   },
   {
    "title": "Must Read: Capri Names Estée Lauder’s Justin Boxford CEO, Tod’s Creative Director Matteo Tamburini Departs",
@@ -764,7 +1839,7 @@
    "via": "",
    "also": [],
    "id": "2067d0bdae9f",
-   "score": 7.5
+   "score": 7.0
   },
   {
    "title": "Photography’s biggest names unite to support the next generation of talent",
@@ -785,7 +1860,7 @@
    "via": "",
    "also": [],
    "id": "b7ef49c3dd67",
-   "score": 6.3
+   "score": 5.8
   },
   {
    "title": "Polémica por pasarela en Catedral de Puebla provoca nueva jornada religiosa",
@@ -806,7 +1881,28 @@
    "via": "Meganoticias.mx",
    "also": [],
    "id": "c46ede90af8d",
-   "score": 6.0
+   "score": 5.5
+  },
+  {
+   "title": "Capri names new CEO",
+   "link": "https://www.drapersonline.com/news/capri-names-new-ceo",
+   "excerpt": "Jimmy Choo and Michael Kors parent Capri Holdings has named Justin Boxford as CEO effective from 4 January, succeeding John D. Idol, who is retiring after 23 years in post. The post Capri names new CEO appeared first on Drapers .",
+   "image": "",
+   "published": "2026-11-11T16:33:54Z",
+   "source": "Drapers",
+   "source_name": "Drapers",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.2,
+   "lang": "en",
+   "region": "uk",
+   "tags": [
+    "personas"
+   ],
+   "via": "",
+   "also": [],
+   "id": "0ce045e58d6a",
+   "score": 6.74
   },
   {
    "title": "Who is Pedro Hernandez, the former Mexican soccer player arrested for allegedly trafficking $5.4 million in counterfeit luxury watches?",
@@ -827,7 +1923,7 @@
    "via": "",
    "also": [],
    "id": "2db3baf17aba",
-   "score": 6.75
+   "score": 6.25
   },
   {
    "title": "Kate Middleton Opens Up About Her Health Journey in a Rare New Interview",
@@ -848,7 +1944,7 @@
    "via": "",
    "also": [],
    "id": "de310503134c",
-   "score": 7.79
+   "score": 7.29
   },
   {
    "title": "Marquee Brands acelera su apuesta por Cavalli: crece un 14 % y pone el foco en el lujo y el deporte",
@@ -869,7 +1965,7 @@
    "via": "FashionNetwork España",
    "also": [],
    "id": "7754d66dda82",
-   "score": 6.75
+   "score": 6.25
   },
   {
    "title": "Capri ficha en Estée Lauder a su nuevo consejero delegado, Justin Boxford",
@@ -890,7 +1986,7 @@
    "via": "FashionNetwork España",
    "also": [],
    "id": "4b127eb15fc5",
-   "score": 6.95
+   "score": 6.45
   },
   {
    "title": "Safilo vuelve a crecer en el tercer trimestre y mantendrá a su CEO en el cargo hasta 2029",
@@ -911,7 +2007,7 @@
    "via": "FashionNetwork España",
    "also": [],
    "id": "6447ba6d004f",
-   "score": 6.95
+   "score": 6.45
   },
   {
    "title": "El comercio electrónico crece en frecuencia y gasto con 27,9 millones de compradores en España",
@@ -932,7 +2028,7 @@
    "via": "FashionNetwork España",
    "also": [],
    "id": "47053462c218",
-   "score": 7.55
+   "score": 7.05
   },
   {
    "title": "ASOS unveils star-studded Christmas campaign to inspire festive styling and gifting",
@@ -953,7 +2049,7 @@
    "via": "",
    "also": [],
    "id": "9f1b30184b89",
-   "score": 7.44
+   "score": 6.94
   },
   {
    "title": "Michael Kors owner Capri Holdings appoints former Estée Lauder exec Justin Boxford as CEO",
@@ -974,7 +2070,7 @@
    "via": "",
    "also": [],
    "id": "02f586972f37",
-   "score": 7.74
+   "score": 7.24
   },
   {
    "title": "How to Find Sweaters That Won't Fall Apart",
@@ -995,7 +2091,7 @@
    "via": "",
    "also": [],
    "id": "e748cec9ad40",
-   "score": 7.0
+   "score": 6.5
   },
   {
    "title": "Cara Santana Leto on Her Dream Designer Coat, TikTok Shop Finds and the $5 Beauty Essential She Swears By",
@@ -1016,7 +2112,7 @@
    "via": "",
    "also": [],
    "id": "449f790beb91",
-   "score": 7.0
+   "score": 6.5
   },
   {
    "title": "La corsa di Golden Goose non si arresta: +16% nei primi 9 mesi, oltre 200 mln nel Q3",
@@ -1037,7 +2133,7 @@
    "via": "",
    "also": [],
    "id": "416b620f348a",
-   "score": 7.75
+   "score": 7.25
   },
   {
    "title": "Euratex and GFA join forces to advance circular textile policies",
@@ -1058,7 +2154,28 @@
    "via": "",
    "also": [],
    "id": "b4349827a3e9",
-   "score": 6.26
+   "score": 5.76
+  },
+  {
+   "title": "Justin Boxford Named CEO of Capri as John Idol Retires",
+   "link": "https://wwd.com/business-news/human-resources/justin-boxford-ceo-capri-holdings-john-idol-retires-1239410343/",
+   "excerpt": "The Estée Lauder veteran, who takes over on Jan. 4, is stepping into a business in flux.",
+   "image": "",
+   "published": "2026-11-11T12:19:11Z",
+   "source": "WWD",
+   "source_name": "WWD Business",
+   "kind": "trade",
+   "mirror": false,
+   "weight": 4.5,
+   "lang": "en",
+   "region": "us",
+   "tags": [
+    "personas"
+   ],
+   "via": "",
+   "also": [],
+   "id": "4329fdd8fc1b",
+   "score": 7.25
   },
   {
    "title": "Retail Is the New Third Space, Where Connection, Community, and Discovery Sit at the Forefront",
@@ -1079,7 +2196,7 @@
    "via": "",
    "also": [],
    "id": "954feb052f0f",
-   "score": 6.82
+   "score": 6.32
   },
   {
    "title": "Penny Martin to Pass the Baton at The Gentlewoman",
@@ -1100,7 +2217,7 @@
    "via": "The Business of Fashion",
    "also": [],
    "id": "687a445d8ce3",
-   "score": 7.95
+   "score": 7.45
   },
   {
    "title": "Coty to Restructure Its Business in France",
@@ -1121,7 +2238,7 @@
    "via": "The Business of Fashion",
    "also": [],
    "id": "aa40de53b2bc",
-   "score": 7.95
+   "score": 7.45
   },
   {
    "title": "Pitti Uomo promete una edición \"salvaje\" en enero con más de 700 marcas",
@@ -1142,7 +2259,7 @@
    "via": "FashionNetwork España",
    "also": [],
    "id": "b2e12e8baacb",
-   "score": 6.75
+   "score": 6.25
   },
   {
    "title": "Amazon lanza las compras por mensajes de texto a través de Alexa en EE. UU.",
@@ -1163,28 +2280,7 @@
    "via": "FashionNetwork España",
    "also": [],
    "id": "e0bcb2b118ce",
-   "score": 6.75
-  },
-  {
-   "title": "Más de la mitad de los españoles utilizan IA generativa y su uso crece 16,9 puntos en 2026",
-   "link": "https://www.modaes.com/entorno/mas-de-la-mitad-de-los-espanoles-utilizan-ia-generativa-y-su-uso-crece-169-puntos-en-2026",
-   "excerpt": "El 54,8% de la población de 16 a 74 años utilizó herramientas de inteligencia artificial en los últimos tres meses. El INE también refleja un avance…",
-   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3ODkxMzcyNzV9/files/2026/17-redaccion-recursos/ia---1200.jpg",
-   "published": "2026-11-11T10:47:00Z",
-   "source": "Modaes",
-   "source_name": "Modaes",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "es",
-   "tags": [
-    "industria"
-   ],
-   "via": "Modaes",
-   "also": [],
-   "id": "9acf462abf1d",
-   "score": 7.3
+   "score": 6.25
   },
   {
    "title": "Entertainment 360 Acquires Brigade, a Management Firm Rich in Substackers",
@@ -1205,7 +2301,7 @@
    "via": "",
    "also": [],
    "id": "82abe5ae28f3",
-   "score": 8.58
+   "score": 8.08
   },
   {
    "title": "Tod's Creative Director Matteo Tamburini to step down",
@@ -1228,7 +2324,7 @@
     "Business of Fashion"
    ],
    "id": "f0427f910782",
-   "score": 8.49
+   "score": 7.99
   },
   {
    "title": "HURR CEO announces rental platform is profitable for first time ever",
@@ -1249,7 +2345,7 @@
    "via": "",
    "also": [],
    "id": "8f038a1c4f92",
-   "score": 7.74
+   "score": 7.24
   },
   {
    "title": "Harrods unveils ‘Where the Stars Align’ festive campaign alongside Dior pop-up",
@@ -1270,7 +2366,7 @@
    "via": "",
    "also": [],
    "id": "e8725adce726",
-   "score": 7.44
+   "score": 6.94
   },
   {
    "title": "Inditex backs $400m fund to cut fashion supply chain emissions",
@@ -1291,7 +2387,7 @@
    "via": "",
    "also": [],
    "id": "ab000f814f1d",
-   "score": 7.94
+   "score": 7.44
   },
   {
    "title": "Govt needs a balanced yarn policy for textile and apparel sectors",
@@ -1312,7 +2408,7 @@
    "via": "",
    "also": [],
    "id": "b2896a369790",
-   "score": 6.66
+   "score": 6.16
   },
   {
    "title": "ASOS renews GXO fulfilment contract until 2034 to support growth",
@@ -1333,28 +2429,7 @@
    "via": "",
    "also": [],
    "id": "f34e56e63f77",
-   "score": 8.34
-  },
-  {
-   "title": "Boots set to rival Currys for Black Friday searches as beauty gains ground",
-   "link": "https://www.retailgazette.co.uk/blog/2026/11/boots-currys-black-friday/",
-   "excerpt": "Boots is on track to become one of the UK’s most searched-for retailers this Black Friday. Searches for Boots are forecast to jump 17 per cent year on year to 1.78 million during Black Friday week, putting it alongside Currys in…",
-   "image": "",
-   "published": "2026-11-11T09:03:03Z",
-   "source": "Retail Gazette",
-   "source_name": "Retail Gazette",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 3.5,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "retail"
-   ],
-   "via": "",
-   "also": [],
-   "id": "f33840fb5a18",
-   "score": 6.95
+   "score": 7.84
   },
   {
    "title": "BTMA appoints Shamim Islam as new President",
@@ -1375,7 +2450,7 @@
    "via": "",
    "also": [],
    "id": "3bd4941b77dd",
-   "score": 6.06
+   "score": 5.56
   },
   {
    "title": "My Sister and I Never Agree—30 Early Black Friday Deals That Changed That",
@@ -1396,7 +2471,7 @@
    "via": "",
    "also": [],
    "id": "7bf5344a50e2",
-   "score": 6.82
+   "score": 6.32
   },
   {
    "title": "Canali porta a Milano il progetto artistico ‘Under the Surface’",
@@ -1417,7 +2492,7 @@
    "via": "",
    "also": [],
    "id": "7b0e369af9f2",
-   "score": 7.3
+   "score": 6.8
   },
   {
    "title": "Multibrand italiani ancora al palo nel 2025. La sfida passa dalla diversificazione",
@@ -1438,7 +2513,7 @@
    "via": "",
    "also": [],
    "id": "a9d8ac0f00a0",
-   "score": 7.3
+   "score": 6.8
   },
   {
    "title": "Sita Ricerca scalda i motori per l’evento al Centergross sui numeri del fashion in Italia",
@@ -1459,7 +2534,7 @@
    "via": "",
    "also": [],
    "id": "6723930bd764",
-   "score": 6.95
+   "score": 6.45
   },
   {
    "title": "Under Armour in affanno: vendite a 1,24 mld $ nel Q2 (-7%). Pesa il Medio Oriente",
@@ -1480,7 +2555,7 @@
    "via": "",
    "also": [],
    "id": "036f9c7c0a2e",
-   "score": 6.95
+   "score": 6.45
   },
   {
    "title": "De la segunda mano al alquiler de lujo, las formas de consumir moda que ganan terreno",
@@ -1567,27 +2642,6 @@
    "score": 6.03
   },
   {
-   "title": "El mar a la baja: las tarifas de transporte marítimo caerán hasta un 30% en 2027",
-   "link": "https://www.modaes.com/entorno/el-mar-a-la-baja-las-tarifas-de-transporte-maritimo-caeran-hasta-un-30-en-2027",
-   "excerpt": "La ampliación prevista de flotas portacontenedores, junto a una ralentización de la demanda global, podrían provocar una rebaja en el coste del…",
-   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3OTQzMzIwMzB9/files/2026/17-redaccion-recursos/transporte-mercancias-1200.jpg",
-   "published": "2026-11-11T04:00:37Z",
-   "source": "Modaes",
-   "source_name": "Modaes",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "es",
-   "tags": [
-    "industria"
-   ],
-   "via": "Modaes",
-   "also": [],
-   "id": "47396741ee38",
-   "score": 6.8
-  },
-  {
    "title": "Losan se relanza: cambio de dueño, directivos de Mango y Desigual y 100 millones en tres años",
    "link": "https://www.modaes.com/empresas/losan-se-relanza-cambio-de-dueno-directivos-de-mango-y-desigual-y-100-millones-en-tres-anos",
    "excerpt": "La empresa española, que cuenta con cuarenta años de trayectoria, está controlada actualmente por el empresario catalán Lluís Juanico. La compañía ha…",
@@ -1607,48 +2661,6 @@
    "also": [],
    "id": "5415faa59137",
    "score": 7.6
-  },
-  {
-   "title": "Mcortés abre tienda en Barcelona para sus bolsos de lujo silencioso ‘made in’ Ubrique",
-   "link": "https://www.modaes.com/back-stage/mcortes-abre-tienda-en-barcelona-para-sus-bolsos-de-lujo-silencioso-made-in-ubrique",
-   "excerpt": "Viajar, buscar la calidad y ampliar la oferta de lujo: el mix con el que nació la marca de Montse Cortés tras pasar por Louis Vuitton, Tiffany y La…",
-   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3OTQzMjM2Njh9/files/2026/15-redaccion-empresas/mcortes/mcortes-bolsos-barcelona-espana-lanzamiento-1200.jpg",
-   "published": "2026-11-11T04:00:00Z",
-   "source": "Modaes",
-   "source_name": "Modaes",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "es",
-   "tags": [
-    "retail"
-   ],
-   "via": "Modaes",
-   "also": [],
-   "id": "7c21fda118cd",
-   "score": 7.4
-  },
-  {
-   "title": "Joseph Ribkoff: 70 años de trayectoria “silenciosa” que despiertan con el salto online",
-   "link": "https://www.modaes.com/empresas/joseph-ribkoff-70-anos-de-trayectoria-silenciosa-que-despiertan-con-el-salto-online",
-   "excerpt": "La compañía canadiense ha decidido dar el salto al canal online en más de sesenta países donde opera la marca. Estados Unidos y la Unión Europea son…",
-   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3OTQzMjMyODh9/files/2026/15-redaccion-empresas/joseph-ribkoff/stephen--joseph-rickoff---1200.jpg",
-   "published": "2026-11-11T04:00:00Z",
-   "source": "Modaes",
-   "source_name": "Modaes",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "es",
-   "tags": [
-    "industria"
-   ],
-   "via": "Modaes",
-   "also": [],
-   "id": "b122041ba57b",
-   "score": 6.8
   },
   {
    "title": "Loewe abraza el universo de Tim Burton con un ‘drop’ inspirado en ‘Pesadilla antes de Navidad’",
@@ -1690,7 +2702,7 @@
    "via": "",
    "also": [],
    "id": "114d15298f6e",
-   "score": 5.05
+   "score": 4.55
   },
   {
    "title": "Justin Boxford Said to Become Next CEO of Michael Kors Parent Capri",
@@ -1711,7 +2723,7 @@
    "via": "",
    "also": [],
    "id": "1f0336000314",
-   "score": 7.25
+   "score": 6.75
   },
   {
    "title": "Breguet Classique Souscription: El reloj de platino con una sola manecilla que revive una creación de 1796",
@@ -1732,7 +2744,7 @@
    "via": "",
    "also": [],
    "id": "2d6fdba7aca8",
-   "score": 5.54
+   "score": 5.04
   },
   {
    "title": "El PIB de la industria textil y de la confección en México retrocedió un 3,9 % en el segundo trimestre",
@@ -1753,7 +2765,7 @@
    "via": "FashionNetwork México",
    "also": [],
    "id": "3290531a6bbb",
-   "score": 5.73
+   "score": 5.23
   },
   {
    "title": "Hailey Bieber's Favorite Winter Tights Are Back in Stock, But They Could Sell Out Again Any Minute",
@@ -1774,7 +2786,7 @@
    "via": "",
    "also": [],
    "id": "fd262dd77c8b",
-   "score": 6.52
+   "score": 6.02
   },
   {
    "title": "Safilo Group Sees Q3 Growth Fueled by North America Recovery",
@@ -1797,7 +2809,7 @@
     "Pambianco News"
    ],
    "id": "aa405cb16739",
-   "score": 8.6
+   "score": 8.1
   },
   {
    "title": "Casio Ring Watch: El reloj digital vintage más famoso, el Casio A168, ahora es un anillo que te da la hora",
@@ -1818,7 +2830,7 @@
    "via": "",
    "also": [],
    "id": "9514dcffacfc",
-   "score": 5.54
+   "score": 5.04
   },
   {
    "title": "Botswana and France Ink Declaration to Champion Natural Diamonds",
@@ -1839,7 +2851,7 @@
    "via": "",
    "also": [],
    "id": "e951d679a2c6",
-   "score": 7.05
+   "score": 6.55
   },
   {
    "title": "Matteo Tamburini lascia la direzione creativa di Tod’s",
@@ -1860,7 +2872,7 @@
    "via": "",
    "also": [],
    "id": "77d7421f6671",
-   "score": 6.35
+   "score": 5.85
   },
   {
    "title": "Lewis Hamilton presume en el GP de Brasil un reloj Richard Mille de oro rosa y diamantes que vale millones de pesos",
@@ -1881,7 +2893,7 @@
    "via": "",
    "also": [],
    "id": "e9497faf4269",
-   "score": 6.29
+   "score": 5.79
   },
   {
    "title": "Educación pide que se “paralice la actividad” de TikTok en España por abusos infantiles",
@@ -1902,28 +2914,7 @@
    "via": "Modaes",
    "also": [],
    "id": "f553faf616dd",
-   "score": 6.4
-  },
-  {
-   "title": "Safilo vuelve a crecer en el tercer trimestre gracias a Norteamérica pese al frenazo europeo",
-   "link": "https://www.modaes.com/entorno/safilo-vuelve-a-crecer-en-el-tercer-trimestre-gracias-a-norteamerica-pese-al-frenazo-europeo",
-   "excerpt": "El grupo italiano de óptica ha facturado 227,5 millones de euros entre julio y septiembre, un 3% más, y su ebitda ajustado ha subido un 17,3%. En…",
-   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3ODU4NjA0MzB9/files/2026/15-redaccion-empresas/safilo/safilo-headquarters-oficinas-exterior-1200.jpg",
-   "published": "2026-11-10T18:00:00Z",
-   "source": "Modaes",
-   "source_name": "Modaes",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "es",
-   "tags": [
-    "industria"
-   ],
-   "via": "Modaes",
-   "also": [],
-   "id": "077e86342d35",
-   "score": 6.8
+   "score": 5.9
   },
   {
    "title": "Paradigm Equity Partners Acquires STI Fabrics",
@@ -1944,7 +2935,7 @@
    "via": "",
    "also": [],
    "id": "9b0e47e46bac",
-   "score": 6.64
+   "score": 6.14
   },
   {
    "title": "lululemon Brings Enzymatically Recycled Polyester To Two Core Run Styles",
@@ -1965,7 +2956,7 @@
    "via": "",
    "also": [],
    "id": "13a8f6aaef38",
-   "score": 6.24
+   "score": 5.74
   },
   {
    "title": "Circulose Resumes Recycling Of Discarded Cotton Textiles And Appoints Interim CEO",
@@ -1986,7 +2977,7 @@
    "via": "",
    "also": [],
    "id": "3059032c85c8",
-   "score": 6.04
+   "score": 5.54
   },
   {
    "title": "Merkal refuerza su red nacional con una nueva tienda en Gran Canaria",
@@ -2007,7 +2998,7 @@
    "via": "FashionNetwork España",
    "also": [],
    "id": "eed7e664a5d4",
-   "score": 6.85
+   "score": 6.35
   },
   {
    "title": "El vestido negro se reinventa como el más atrevido gracias a este modelo de Gucci en la gala del LACMA 2026",
@@ -2028,7 +3019,7 @@
    "via": "",
    "also": [],
    "id": "64a616b59615",
-   "score": 6.7
+   "score": 6.2
   },
   {
    "title": "Color Solutions International Appoints Chris Plemmons As Head Of CSI",
@@ -2049,7 +3040,7 @@
    "via": "",
    "also": [],
    "id": "9aca49a68eb5",
-   "score": 6.04
+   "score": 5.54
   },
   {
    "title": "How to Make the Most of Amazon’s Early Black Friday Deals",
@@ -2070,7 +3061,7 @@
    "via": "",
    "also": [],
    "id": "ceaa9220718b",
-   "score": 6.68
+   "score": 6.18
   },
   {
    "title": "Must Read: Skims Receives Backlash Over Holiday Advent Calendar, Dior’s 'Hand-Drawn' Holiday Film Draws AI Accusations",
@@ -2091,7 +3082,7 @@
    "via": "",
    "also": [],
    "id": "bb2d01606570",
-   "score": 6.25
+   "score": 5.75
   },
   {
    "title": "Kith x New Balance 2011 Monuments Collection: 3 tenis retro que celebran 15 años de la tienda de Ronnie Fieg en Nueva York",
@@ -2112,7 +3103,7 @@
    "via": "",
    "also": [],
    "id": "e91cb5d8c74c",
-   "score": 6.29
+   "score": 5.79
   },
   {
    "title": "El reloj Seiko de esfera verde y correa de cuero que este chef con dos estrellas Michelin nunca se quita",
@@ -2133,7 +3124,7 @@
    "via": "",
    "also": [],
    "id": "9bbb79e4f282",
-   "score": 5.54
+   "score": 5.04
   },
   {
    "title": "Vogue’s Definitive Guide To The Best Dyson Black Friday Deals",
@@ -2154,7 +3145,7 @@
    "via": "",
    "also": [],
    "id": "1d74aa01e8ae",
-   "score": 7.52
+   "score": 7.02
   },
   {
    "title": "The Most Coveted GHD Black Friday Steals, According to Vogue",
@@ -2175,28 +3166,7 @@
    "via": "",
    "also": [],
    "id": "35c9cca29f42",
-   "score": 7.52
-  },
-  {
-   "title": "La industria textil europea reclama unificar el reciclaje en la UE con una RAP textil común",
-   "link": "https://www.modaes.com/entorno/la-industria-textil-europea-reclama-unificar-el-reciclaje-en-la-ue-con-una-rap-textil-comun",
-   "excerpt": "Las organizaciones empresariales Euratex y EuroCommerce reclaman a Bruselas una RAP textil común para reducir las diferencias entre países,…",
-   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3OTQzMjUyMDN9/files/2026/17-redaccion-recursos/reciclaje/reciclaje-textil-contenedor-reciclado-ropa-rap-1200.jpg",
-   "published": "2026-11-10T16:23:00Z",
-   "source": "Modaes",
-   "source_name": "Modaes",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "es",
-   "tags": [
-    "industria"
-   ],
-   "via": "Modaes",
-   "also": [],
-   "id": "f2a2b88255d8",
-   "score": 6.8
+   "score": 7.02
   },
   {
    "title": "RMG exports to non-traditional markets grow 9.3% in FY27",
@@ -2217,7 +3187,7 @@
    "via": "",
    "also": [],
    "id": "83f8481d3b27",
-   "score": 6.16
+   "score": 5.66
   },
   {
    "title": "Andrea Kimi Antonelli y las piezas más geniales de su colección de relojes",
@@ -2238,7 +3208,7 @@
    "via": "",
    "also": [],
    "id": "9f1db0597074",
-   "score": 5.74
+   "score": 5.24
   },
   {
    "title": "Demi Lovato es la musa de la colección invierno 2026 de Desigual",
@@ -2259,70 +3229,7 @@
    "via": "",
    "also": [],
    "id": "065392600c11",
-   "score": 6.7
-  },
-  {
-   "title": "The Outside View: How New AI Oversight Could Ripple Into Retail",
-   "link": "https://wwd.com/business-news/technology/ai-oversight-impact-fashion-retail-1239407689/",
-   "excerpt": "Kenya N. Wiley on what might come next for fashion and AI as the Democrats take charge on Capitol Hill.",
-   "image": "",
-   "published": "2026-11-10T15:41:09Z",
-   "source": "WWD",
-   "source_name": "WWD Business",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.5,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "retail"
-   ],
-   "via": "",
-   "also": [],
-   "id": "6b42aa6bf896",
-   "score": 7.65
-  },
-  {
-   "title": "Harrods Dives Into Holiday Season With ‘Where the Stars Align’",
-   "link": "https://wwd.com/business-news/retail/harrods-holiday-season-where-the-stars-align-campaign-1239406674/",
-   "excerpt": "For Christmas, the Knightsbridge retailer brings together 17,000 lights, handcrafted windows, luxury brand activations, and experiences for families.",
-   "image": "",
-   "published": "2026-11-10T15:30:00Z",
-   "source": "WWD",
-   "source_name": "WWD Business",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.5,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "retail"
-   ],
-   "via": "",
-   "also": [],
-   "id": "db540ba4e6dd",
-   "score": 7.65
-  },
-  {
-   "title": "Nahmias and Cash App Launch Pay by Bandana",
-   "link": "https://wwd.com/business-news/technology/nahmias-cash-app-contactless-payment-bandana-1239408071/",
-   "excerpt": "The limited-edition tap-to-pay bandana is available to order on Nov. 17.",
-   "image": "",
-   "published": "2026-11-10T15:03:48Z",
-   "source": "WWD",
-   "source_name": "WWD Business",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.5,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "industria"
-   ],
-   "via": "",
-   "also": [],
-   "id": "c1a72df8959a",
-   "score": 7.05
+   "score": 6.2
   },
   {
    "title": "This Celebrity Esthetician Doesn't Believe in 'Anti-Aging'",
@@ -2343,70 +3250,7 @@
    "via": "",
    "also": [],
    "id": "d8b86db1ae46",
-   "score": 6.4
-  },
-  {
-   "title": "Antoine Arnault Named President of Paris FC",
-   "link": "https://wwd.com/business-news/human-resources/antoine-arnault-paris-fc-president-football-team-1239408356/",
-   "excerpt": "The Arnault family’s holding group Agache took a majority stake in the up-and-coming soccer club two years ago.",
-   "image": "",
-   "published": "2026-11-10T14:52:22Z",
-   "source": "WWD",
-   "source_name": "WWD Business",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.5,
-   "lang": "en",
-   "region": "us",
-   "tags": [
-    "personas"
-   ],
-   "via": "",
-   "also": [],
-   "id": "2afffc3959d0",
-   "score": 7.25
-  },
-  {
-   "title": "Il Botswana raddoppierà la sua quota in De Beers. Si avvicina la vendita",
-   "link": "https://www.pambianconews.com/2026/11/10/il-botswana-raddoppiera-la-sua-quota-in-de-beers-si-avvicina-la-vendita-500253/",
-   "excerpt": "Il Botswana raddoppierà la sua partecipazione in De Beers , passando dal 15 al 30%, e diventerà così il maggiore azionista singolo dell’azienda di diamanti. Lo ha riferito il presidente del Paese, Duma Boko . L’operazione…",
-   "image": "",
-   "published": "2026-11-10T14:11:57Z",
-   "source": "Pambianco",
-   "source_name": "Pambianco News",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "it",
-   "region": "it",
-   "tags": [
-    "industria"
-   ],
-   "via": "",
-   "also": [],
-   "id": "dd93a82c1c32",
-   "score": 6.45
-  },
-  {
-   "title": "Marks & Spencer ramps up digital ambitions in latest growth push",
-   "link": "https://www.theindustry.fashion/marks-spencer-ramps-up-digital-ambitions-in-latest-growth-push/",
-   "excerpt": "Marks & Spencer wants online sales to account for close to half of its fashion, home and beauty sales, alongside an estate of 180 “highly productive” stores. The retailer will set out this target at its Capital Markets Day today…",
-   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/03/Untitled-design-2026-03-26T170859.425-150x150.png",
-   "published": "2026-11-10T14:00:15Z",
-   "source": "The Industry",
-   "source_name": "The Industry",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "negocio"
-   ],
-   "via": "",
-   "also": [],
-   "id": "239643231acb",
-   "score": 7.34
+   "score": 5.9
   },
   {
    "title": "56 Fashion and Beauty Gifts Curated By and For Gen Z",
@@ -2430,27 +3274,6 @@
    "score": 6.0
   },
   {
-   "title": "Rick Owens and Adidas Originals reunite to revive Springblade",
-   "link": "https://www.theindustry.fashion/rick-owens-and-adidas-originals-reunite-to-revive-springblade/",
-   "excerpt": "Adidas Originals and Rick Owens have reunited after nearly a decade, reviving the sportswear brand’s Springblade technology in a three-style footwear collection launching globally on 17 November. Both brands announced the…",
-   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/Title_-_2026-11-10T134743.902-150x150.png",
-   "published": "2026-11-10T13:00:33Z",
-   "source": "The Industry",
-   "source_name": "The Industry",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "negocio"
-   ],
-   "via": "",
-   "also": [],
-   "id": "4d67a81bea13",
-   "score": 7.34
-  },
-  {
    "title": "Nuuly Wants to Make the 'Spring Awakening' Revival a Fashion Moment",
    "link": "https://fashionista.com/2026/11/nuuly-spring-awakening-revival-edit",
    "excerpt": "Millennials, rejoice: “Glee” and “Girls” reboots/revivals are in development. Last week’s blue wave evoked the kind of Millennial Optimism that has us busting out our American Apparel Disco Pants. And now, 2006’s hottest Broadway…",
@@ -2472,111 +3295,25 @@
    "score": 6.3
   },
   {
-   "title": "Freemans sees own-brand womenswear sales jump 21% following autumn campaign",
-   "link": "https://www.theindustry.fashion/freemans-sees-own-brand-womenswear-sales-jump-21-following-autumn-campaign/",
-   "excerpt": "Digital department store Freemans has announced that its ‘All Things Autumn’ campaign has seen sales of its “own-bought and in-house-designed” Together and Freemans 365 collections jump 21% year-on-year. The retailer said the…",
-   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/Title-2026-11-10T120145.412-150x150.png",
-   "published": "2026-11-10T12:55:07Z",
-   "source": "The Industry",
-   "source_name": "The Industry",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "pasarela"
-   ],
-   "via": "",
-   "also": [],
-   "id": "6b7090559503",
-   "score": 6.44
-  },
-  {
-   "title": "New book traces the origins, fashion footprint and cultural significance of corduroy",
-   "link": "https://www.theindustry.fashion/new-book-traces-the-origins-fashion-footprint-and-cultural-significance-of-corduroy/",
-   "excerpt": "A new book called ‘Corduroy: The Story of a Timeless Fabric’ launches this Thursday, 12 November, examining the “fascinating and surprising history” of the unmistakable ribbed cloth, across 256 pages and with around 200 images.…",
-   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/CORDUROY_SUIT_FOR_WOMEN_BY_RALPH_LAUREN_cropped-150x150.jpg",
-   "published": "2026-11-10T12:50:15Z",
-   "source": "The Industry",
-   "source_name": "The Industry",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "sostenibilidad"
-   ],
-   "via": "",
-   "also": [],
-   "id": "c4a995339f53",
-   "score": 6.94
-  },
-  {
-   "title": "Dune London launches first limited-edition ‘Premium Collection’",
-   "link": "https://www.theindustry.fashion/dune-london-launches-first-limited-edition-premium-collection/",
-   "excerpt": "British footwear and accessories brand Dune London is launching its first ‘Premium Collection’ of shoes and bags tomorrow, 11 November, which puts the focus on “feminine elegance and exceptional craftsmanship”. Designed in…",
-   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/Title-2026-11-10T152401.895-150x150.png",
-   "published": "2026-11-10T12:45:22Z",
-   "source": "The Industry",
-   "source_name": "The Industry",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "diseno"
-   ],
-   "via": "",
-   "also": [],
-   "id": "c4d5e2d065eb",
-   "score": 6.24
-  },
-  {
-   "title": "La moda es el segundo sector con más proyectos de inversión española en América Latina",
-   "link": "https://es.fashionnetwork.com/news/La-moda-es-el-segundo-sector-con-mas-proyectos-de-inversion-espanola-en-america-latina,1883554.html",
-   "excerpt": "",
-   "image": "",
-   "published": "2026-11-10T12:38:26Z",
-   "source": "FashionNetwork",
-   "source_name": "FashionNetwork España",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "es",
-   "tags": [
-    "negocio"
-   ],
-   "via": "FashionNetwork España",
-   "also": [],
-   "id": "6f363c6cbe95",
-   "score": 6.55
-  },
-  {
    "title": "Inditex invierte 50 millones de dólares en un fondo destinado a descarbonizar la industria textil",
-   "link": "https://es.fashionnetwork.com/news/Inditex-invierte-50-millones-de-dolares-en-un-fondo-destinado-a-descarbonizar-la-industria-textil,1883488.html",
+   "link": "https://mx.fashionnetwork.com/news/Inditex-invierte-50-millones-de-dolares-en-un-fondo-destinado-a-descarbonizar-la-industria-textil,1883553.html",
    "excerpt": "Publicado por FashionNetwork México.",
    "image": "",
-   "published": "2026-11-10T12:34:15Z",
-   "source": "FashionNetwork",
-   "source_name": "FashionNetwork España",
+   "published": "2026-11-10T12:34:56Z",
+   "source": "Textil MX",
+   "source_name": "Industria textil México",
    "kind": "trade",
    "mirror": true,
-   "weight": 4.0,
+   "weight": 3.4,
    "lang": "es",
-   "region": "es",
+   "region": "mx",
    "tags": [
     "negocio"
    ],
-   "via": "FashionNetwork España",
-   "also": [
-    "Industria textil México"
-   ],
-   "id": "4c837f1e9560",
-   "score": 7.5
+   "via": "FashionNetwork México",
+   "also": [],
+   "id": "b4e7fb160fb5",
+   "score": 6.03
   },
   {
    "title": "Mientras Nike cae en calzado, su negocio de ropa crece: estos son los productos, regiones y canales que explican sus resultados de 2026",
@@ -2663,69 +3400,6 @@
    "score": 6.3
   },
   {
-   "title": "LuisaViaRoma resta a Lvr: nessun rilancio sull’offerta da 18,8 milioni",
-   "link": "https://www.pambianconews.com/2026/11/10/luisaviaroma-resta-a-lvr-nessun-rilancio-sullofferta-da-188-milioni-500187/",
-   "excerpt": "Si chiude la partita per LuisaViaRoma . Alla scadenza dell’8 novembre non sono arrivate offerte concorrenti per l’e-tailer fiorentino, in concordato semplificato liquidatorio davanti al Tribunale di Firenze. La società passa…",
-   "image": "",
-   "published": "2026-11-10T11:14:04Z",
-   "source": "Pambianco",
-   "source_name": "Pambianco News",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "it",
-   "region": "it",
-   "tags": [
-    "industria"
-   ],
-   "via": "",
-   "also": [],
-   "id": "e2d827086d8c",
-   "score": 5.95
-  },
-  {
-   "title": "Subdued acelera su desarrollo internacional con foco en Asia-Pacífico y Estados Unidos",
-   "link": "https://es.fashionnetwork.com/news/Subdued-acelera-su-desarrollo-internacional-con-foco-en-asia-pacifico-y-estados-unidos,1883198.html",
-   "excerpt": "",
-   "image": "",
-   "published": "2026-11-10T11:13:07Z",
-   "source": "FashionNetwork",
-   "source_name": "FashionNetwork España",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "es",
-   "tags": [
-    "industria"
-   ],
-   "via": "FashionNetwork España",
-   "also": [],
-   "id": "383246a5bc47",
-   "score": 5.75
-  },
-  {
-   "title": "Piazza Italia compra Conbipel. In arrivo un piano da 100 nuovi negozi",
-   "link": "https://www.pambianconews.com/2026/11/10/piazza-italia-compra-conbipel-in-arrivo-un-piano-di-opening-da-100-nuovi-negozi-500181/",
-   "excerpt": "Piazza Italia acquista Conbipel . La catena di abbigliamento campana guidata dalla famiglia Bernardo è già salita al 49% di Arcadia Fashion , la società che dal giugno 2025 controlla il marchio piemontese, e ha diritti di opzione…",
-   "image": "",
-   "published": "2026-11-10T11:13:05Z",
-   "source": "Pambianco",
-   "source_name": "Pambianco News",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "it",
-   "region": "it",
-   "tags": [
-    "negocio"
-   ],
-   "via": "",
-   "also": [],
-   "id": "57f655807604",
-   "score": 6.75
-  },
-  {
    "title": "Lola Casademunt inaugura sus dos primeras tiendas propias en México y supera la quincena de puntos de venta en el país",
    "link": "https://es.fashionnetwork.com/news/Lola-casademunt-inaugura-sus-dos-primeras-tiendas-propias-en-mexico-y-supera-la-quincena-de-puntos-de-venta-en-el-pais,1883478.html",
    "excerpt": "",
@@ -2745,216 +3419,6 @@
    "also": [],
    "id": "febee2220e0c",
    "score": 6.2
-  },
-  {
-   "title": "Menswear italiano a doppia velocità nei 7 mesi: export a +0,9%, import a -6,5%",
-   "link": "https://www.pambianconews.com/2026/11/10/menswear-italiano-a-doppia-velocita-nei-7-mesi-export-a-09-import-a-65-500143/",
-   "excerpt": "L’export del menswear italiano ritorna a fatica in territorio positivo, registrando un +0,9% nei primi sette mesi del 2026. Secondo quanto indicato dai dati Istat , le vendite estere relative al periodo gennaio-luglio hanno…",
-   "image": "",
-   "published": "2026-11-10T11:00:08Z",
-   "source": "Pambianco",
-   "source_name": "Pambianco News",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "it",
-   "region": "it",
-   "tags": [
-    "pasarela"
-   ],
-   "via": "",
-   "also": [],
-   "id": "918c47afbbdf",
-   "score": 5.85
-  },
-  {
-   "title": "China: los precios de fábrica alcanzan su nivel más alto desde 2022",
-   "link": "https://es.fashionnetwork.com/news/China-los-precios-de-fabrica-alcanzan-su-nivel-mas-alto-desde-2022,1883235.html",
-   "excerpt": "",
-   "image": "",
-   "published": "2026-11-10T10:52:00Z",
-   "source": "FashionNetwork",
-   "source_name": "FashionNetwork España",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "es",
-   "tags": [
-    "industria"
-   ],
-   "via": "FashionNetwork España",
-   "also": [],
-   "id": "a41288c527ff",
-   "score": 5.75
-  },
-  {
-   "title": "Kiton raddoppia nel Quadrilatero: nuova boutique in via Montenapoleone",
-   "link": "https://www.pambianconews.com/2026/11/10/kiton-raddoppia-nel-quadrilatero-nuova-boutique-in-via-montenapoleone-500111/",
-   "excerpt": "Kiton raddoppia la propria presenza nel Quadrilatero. La maison napoletana ha inaugurato il nuovo flagship di 270 metri quadrati in via Montenapoleone, interamente dedicato all’abbigliamento maschile. Parallelamente, lo storico…",
-   "image": "https://www.pambianconews.com/wp-content/uploads/2026/11/Kiton_2-700x360.jpg",
-   "published": "2026-11-10T10:46:03Z",
-   "source": "Pambianco",
-   "source_name": "Pambianco News",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "it",
-   "region": "it",
-   "tags": [
-    "retail"
-   ],
-   "via": "",
-   "also": [],
-   "id": "06e37890095a",
-   "score": 6.9
-  },
-  {
-   "title": "Maison 123 acelera su expansión internacional para elevar a un tercio el peso de las ventas fuera de Francia",
-   "link": "https://es.fashionnetwork.com/news/Maison-123-acelera-su-expansion-internacional-para-elevar-a-un-tercio-el-peso-de-las-ventas-fuera-de-francia,1883250.html",
-   "excerpt": "",
-   "image": "",
-   "published": "2026-11-10T10:33:26Z",
-   "source": "FashionNetwork",
-   "source_name": "FashionNetwork España",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "es",
-   "tags": [
-    "negocio"
-   ],
-   "via": "FashionNetwork España",
-   "also": [],
-   "id": "603449d8457c",
-   "score": 6.55
-  },
-  {
-   "title": "Boux Avenue delivers double-digit growth across stores and online in FY26",
-   "link": "https://www.theindustry.fashion/boux-avenue-delivers-double-digit-growth-across-stores-and-online-in-fy26/",
-   "excerpt": "Boux Avenue has reported a 16% increase in sales for the year ending March 2026, with growth across its stores, e-commerce and third-party retail partnerships. The lingerie, nightwear and swimwear brand, owned by retail…",
-   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/11/Smaller_Screenshot_2026-11-06_112815_cropped-150x150.png",
-   "published": "2026-11-10T10:00:07Z",
-   "source": "The Industry",
-   "source_name": "The Industry",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "retail"
-   ],
-   "via": "",
-   "also": [],
-   "id": "17f4fff53e48",
-   "score": 7.14
-  },
-  {
-   "title": "Hugo Boss sales chief and Deputy CEO latest executive to leave following Frasers takeover",
-   "link": "https://www.theindustry.fashion/hugo-boss-sales-chief-and-deputy-ceo-latest-executive-to-leave-following-frasers-takeover/",
-   "excerpt": "Hugo Boss' Chief Sales Officer and Deputy Chief Executive, Oliver Timm, is the latest executive to leave the German fashion brand since Frasers Group became its majority shareholder. Timm resigned from the Managing Board at his…",
-   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/07/BOSS_Store_Shanghai_KerryCentre_1_cropped-150x150.jpg",
-   "published": "2026-11-10T09:55:33Z",
-   "source": "The Industry",
-   "source_name": "The Industry",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "personas"
-   ],
-   "via": "",
-   "also": [],
-   "id": "9af4cf69e015",
-   "score": 6.74
-  },
-  {
-   "title": "Subdued, da Apac e Usa previsti 45 milioni di fatturato nel 2026",
-   "link": "https://www.pambianconews.com/2026/11/10/subdued-da-apac-e-usa-previsti-45-milioni-di-fatturato-nel-2026-500171/",
-   "excerpt": "Subdued spinge sull’internazionalizzazione, con Asia-Pacific e Stati Uniti come direttrici di crescita. Osit Impresa , la società romana che controlla il marchio teen fashion, prevede infatti nell’area Apac un fatturato di circa…",
-   "image": "",
-   "published": "2026-11-10T09:49:44Z",
-   "source": "Pambianco",
-   "source_name": "Pambianco News",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "it",
-   "region": "it",
-   "tags": [
-    "negocio"
-   ],
-   "via": "",
-   "also": [],
-   "id": "07dd0e8d2bf7",
-   "score": 6.75
-  },
-  {
-   "title": "On's UK business reports rising revenues as apparel sales growth outpaces footwear",
-   "link": "https://www.theindustry.fashion/ons-uk-business-reports-rising-revenues-as-apparel-sales-growth-outpaces-footwear/",
-   "excerpt": "On Running's UK entity has increased revenues to £179.1 million in the year ended 31 December 2025, up from £134.6 million, showing the brand's continued growth in the market. The Swiss sportswear company filed its annual…",
-   "image": "https://www.theindustry.fashion/wp-content/uploads/2026/01/Sabrina-Carpenter-has-expanded-her-SWEET-TOOTH-fragrance-collection-11-150x150.png",
-   "published": "2026-11-10T09:48:47Z",
-   "source": "The Industry",
-   "source_name": "The Industry",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.2,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "negocio"
-   ],
-   "via": "",
-   "also": [],
-   "id": "55e4fd5ec0b6",
-   "score": 7.34
-  },
-  {
-   "title": "El superávit comercial de China supera el billón de dólares hasta octubre",
-   "link": "https://www.modaes.com/entorno/el-superavit-comercial-de-china-supera-el-billon-de-dolares-hasta-octubre",
-   "excerpt": "De cumplirse o superarse los datos registrados en 2025, China alcanzaría su récord anual en exportaciones. En concreto, el comercio de Pekín con la…",
-   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3ODU1MjIwMzB9/files/2026/17-redaccion-recursos/comercio-mundial-puerto-1200.jpg",
-   "published": "2026-11-10T09:26:00Z",
-   "source": "Modaes",
-   "source_name": "Modaes",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "es",
-   "tags": [
-    "negocio"
-   ],
-   "via": "Modaes",
-   "also": [],
-   "id": "643855ecb391",
-   "score": 7.1
-  },
-  {
-   "title": "Verga 1947, un anno da protagonista tra alta orologeria e nuovi traguardi",
-   "link": "https://www.pambianconews.com/2026/11/10/verga-1947-un-anno-da-protagonista-tra-alta-orologeria-e-nuovi-traguardi-498797/",
-   "excerpt": "Lo storico rivenditore milanese di orologi di lusso stima una conclusione del 2026 con ricavi in crescita e margini in aumento. L’AD Fabrizio Noris traccia il bilancio della ‘Watch Art Grand Exhibition’ di Patek Philippe e guarda…",
-   "image": "https://www.pambianconews.com/wp-content/uploads/2026/10/20250204_8XA_0562_©Antinori-467x700.jpg",
-   "published": "2026-11-10T08:30:15Z",
-   "source": "Pambianco",
-   "source_name": "Pambianco News",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "it",
-   "region": "it",
-   "tags": [
-    "cultura"
-   ],
-   "via": "",
-   "also": [],
-   "id": "484a8d62b632",
-   "score": 5.9
   },
   {
    "title": "PM sets November 20 deadline for bonded warehouse reform report",
@@ -2978,27 +3442,6 @@
    "score": 5.26
   },
   {
-   "title": "Wivian’s Factory sceglie Padova per ampliare la propria mappa strategica",
-   "link": "https://www.pambianconews.com/2026/11/10/wivian-factory-padova-ampliare-mappa-strategica-498031/",
-   "excerpt": "La società di rappresentanza e distribuzione ha inaugurato un nuovo spazio nel padovano. Gestito con Gianni Dalla Mora, senior partner per l’area, il progetto è costruito sulla condivisione di valori e scommette sulle nuove…",
-   "image": "https://www.pambianconews.com/wp-content/uploads/2026/10/Wivian-e-Gianni-WF-700x497.png",
-   "published": "2026-11-10T08:15:44Z",
-   "source": "Pambianco",
-   "source_name": "Pambianco News",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "it",
-   "region": "it",
-   "tags": [
-    "sostenibilidad"
-   ],
-   "via": "",
-   "also": [],
-   "id": "06e51532ca9a",
-   "score": 6.7
-  },
-  {
    "title": "This High-Street Cashmere Jumper Sells Out Every Single Winter—Finally, It’s Back in Stock",
    "link": "https://www.whowhatwear.com/fashion/jumpers-sweaters/cos-pure-cashmere-crew-neck-jumper",
    "excerpt": "As the mornings darken and the weather slowly cools, our winter capsule wardrobes are coming together. With great denim secured and loafers freshly polished, I'm turning my attention to knitwear. But not just any knitwear. I'm…",
@@ -3020,25 +3463,25 @@
    "score": 6.02
   },
   {
-   "title": "Simkhai Expands Footprint With Stores in Miami and Houston, Plans Further Retail Push",
-   "link": "https://wwd.com/business-news/retail/simkhai-expands-retail-footprint-miami-houston-stores-more-to-come-1239404447/",
-   "excerpt": "Additional openings are planned for 2027.",
+   "title": "A New Formula for Department Stores, According to Bloomingdale’s",
+   "link": "https://www.businessoffashion.com/articles/retail/a-new-formula-for-department-stores-according-to-bloomingdales/",
+   "excerpt": "",
    "image": "",
-   "published": "2026-11-10T05:01:00Z",
-   "source": "WWD",
-   "source_name": "WWD Business",
+   "published": "2026-11-10T05:30:00Z",
+   "source": "BoF",
+   "source_name": "Business of Fashion",
    "kind": "trade",
-   "mirror": false,
-   "weight": 4.5,
+   "mirror": true,
+   "weight": 5.0,
    "lang": "en",
-   "region": "us",
+   "region": "global",
    "tags": [
     "retail"
    ],
-   "via": "",
+   "via": "The Business of Fashion",
    "also": [],
-   "id": "c9db51a94447",
-   "score": 7.15
+   "id": "fec7b0d5e6d7",
+   "score": 7.55
   },
   {
    "title": "K-beauty brand Laneige bets on experiential retail with new lip mask station",
@@ -3102,27 +3545,6 @@
    "also": [],
    "id": "8617be05d782",
    "score": 5.66
-  },
-  {
-   "title": "Alianza textil impulsa innovación en un mercado de 38.41 mil mdd",
-   "link": "https://www.mipuntodevista.com.mx/alianza-textil-impulsa-innovacion-en-un-mercado-de-38-41-mil-mdd/",
-   "excerpt": "Publicado por Mi Punto de Vista.",
-   "image": "",
-   "published": "2026-11-10T02:47:06Z",
-   "source": "Textil MX",
-   "source_name": "Industria textil México",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 3.4,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "industria"
-   ],
-   "via": "Mi Punto de Vista",
-   "also": [],
-   "id": "b393e2d6766a",
-   "score": 5.23
   },
   {
    "title": "From investment to productivity: The critical role of engineering in textile manufacturing",
@@ -3248,27 +3670,6 @@
    "via": "Quinta Fuerza",
    "also": [],
    "id": "4c105752204f",
-   "score": 5.0
-  },
-  {
-   "title": "Ayuntamiento niega permiso para pasarela en la Catedral",
-   "link": "https://contigopuebla.mx/2026/80236/pasarela-mexico-monumental-catedral-puebla/",
-   "excerpt": "El gobierno de Puebla negó haber autorizado la pasarela México Monumental 2026 en la Catedral; la Arquidiócesis ofreció una disculpa pública y defendió los fines culturales del evento.",
-   "image": "https://contigopuebla.mx/wp-content/uploads/2026/11/Pasarela-Monumental.jpeg",
-   "published": "2026-11-09T21:49:43Z",
-   "source": "Fashion shows",
-   "source_name": "Fashion shows México",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 3.0,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "pasarela"
-   ],
-   "via": "Contigo Puebla",
-   "also": [],
-   "id": "abd18031214c",
    "score": 5.0
   },
   {
@@ -3440,27 +3841,6 @@
    "score": 4.89
   },
   {
-   "title": "I Tried The Currentbody LED Hair Growth Helmet For 6 Months – Here’s What Happened",
-   "link": "https://www.vogue.co.uk/article/currentbody-led-helmet-review",
-   "excerpt": "One Vogue contributor reviews the Currentbody LED hair growth helmet after experiencing traction alopecia. Read about her 6-month trial with the device.",
-   "image": "https://media.vogue.co.uk/photos/67a102c573c520ae1d327c56/master/pass/TRU1584739.jpg",
-   "published": "2026-11-09T16:41:45Z",
-   "source": "Vogue UK",
-   "source_name": "British Vogue",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 4.1,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "negocio"
-   ],
-   "via": "",
-   "also": [],
-   "id": "b630ccf82d2f",
-   "score": 7.22
-  },
-  {
    "title": "Arquidiócesis de Puebla se disculpa tras polémica por desfile de moda “México monumental” en la Catedral",
    "link": "https://www.unotv.com/estilo-de-vida/arquidiocesis-de-puebla-se-disculpa-tras-polemica-por-desfile-de-moda-mexico-monumental-en-la-catedral/",
    "excerpt": "La Arquidiócesis de Puebla ofreció disculpas por la pasarela de moda realizada en la Catedral durante “México Monumental 2026”.",
@@ -3480,27 +3860,6 @@
    "also": [],
    "id": "4252e876be03",
    "score": 5.0
-  },
-  {
-   "title": "As A Beauty Editor, These Are The 24 Best Black Friday Deals I’ve Found",
-   "link": "https://www.vogue.co.uk/beauty/gallery/black-friday-beauty-deals-2026",
-   "excerpt": "Black Friday is fast approaching, and the beauty deals span several Vogue editor favourites. Shop for up-to-date insights on the best Black Friday beauty deals of 2026 here.",
-   "image": "https://media.vogue.co.uk/photos/6accf33f7469c9569e07d97f/master/pass/ED-121026-Shot_03_406_V5_CMYK.jpg",
-   "published": "2026-11-09T15:51:14Z",
-   "source": "Vogue UK",
-   "source_name": "British Vogue",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 4.1,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "retail"
-   ],
-   "via": "",
-   "also": [],
-   "id": "ebd741d45ac6",
-   "score": 7.02
   },
   {
    "title": "All the Ways Princess Kate Paid Tribute to Queen Elizabeth II and Princess Diana on Remembrance Day",
@@ -3566,48 +3925,6 @@
    "score": 5.0
   },
   {
-   "title": "The Best Hotels In New York City, From Five-Star Luxury To Boutique Retreats",
-   "link": "https://www.vogue.co.uk/article/best-hotels-new-york-city",
-   "excerpt": "Searching for the best hotels in New York City? Here are Vogue's favourite hotels in New York, from the Upper East Side to Brooklyn, to book now.",
-   "image": "https://media.vogue.co.uk/photos/65fab95e8c7debb76594eba1/master/pass/LowerRes_NineOrchard_March2022_SKJ_05.jpg",
-   "published": "2026-11-09T15:13:54Z",
-   "source": "Vogue UK",
-   "source_name": "British Vogue",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 4.1,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "retail"
-   ],
-   "via": "",
-   "also": [],
-   "id": "e4eadd309216",
-   "score": 7.02
-  },
-  {
-   "title": "Arquidiócesis lamenta que algunos se sintieran “lastimados en su fe” ante críticas por pasarela en la Catedral de Puebla",
-   "link": "https://www.infobae.com/mexico/2026/11/09/arquidiocesis-lamenta-que-algunos-se-sintieran-lastimados-en-su-fe-ante-criticas-por-pasarela-en-la-catedral-de-puebla/",
-   "excerpt": "La iniciativa con causa benéfica recaudó presuntamente un millón de pesos para el DIF Estatal, pero derivó en cuestionamientos públicos que obligaron a la jerarquía eclesiástica a emitir una aclaración formal",
-   "image": "https://www.infobae.com/resizer/v2/MD633IY32RDEZFCDM6NNQNYRAU.jpg?auth=f33564770198e95dbc40cf9f8c546efdb718e6049cb51a536cd1d30692a7de74&smart=true&width=1024&height=512&quality=85",
-   "published": "2026-11-09T13:18:00Z",
-   "source": "Fashion shows",
-   "source_name": "Fashion shows México",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 3.0,
-   "lang": "es",
-   "region": "mx",
-   "tags": [
-    "pasarela"
-   ],
-   "via": "Infobae",
-   "also": [],
-   "id": "75f614490f1a",
-   "score": 4.85
-  },
-  {
    "title": "Inside the $25 Billion Battle for the UK Beauty Shopper",
    "link": "https://www.businessoffashion.com/articles/beauty/uk-beauty-retail-spacenk-boots-sephora/",
    "excerpt": "",
@@ -3626,7 +3943,7 @@
    "via": "The Business of Fashion",
    "also": [],
    "id": "d6416af175b4",
-   "score": 7.75
+   "score": 7.35
   },
   {
    "title": "Labour representatives propose Tk 32,000 minimum wage for garment workers",
@@ -3647,7 +3964,7 @@
    "via": "",
    "also": [],
    "id": "19ce5fb58ae3",
-   "score": 5.26
+   "score": 4.86
   },
   {
    "title": "Exclusive: Ulta Beauty bets on health tracking with Oura in 1,000 stores",
@@ -3668,7 +3985,7 @@
    "via": "",
    "also": [],
    "id": "10667e29f9ac",
-   "score": 6.43
+   "score": 6.03
   },
   {
    "title": "NBR proposes income tax reduction to 15% for textile sector until 2030",
@@ -3689,7 +4006,7 @@
    "via": "",
    "also": [],
    "id": "0cd8160f3771",
-   "score": 5.66
+   "score": 5.26
   },
   {
    "title": "La COP31 pone el foco en la financiación para descarbonizar la cadena de suministro de la moda",
@@ -3710,28 +4027,7 @@
    "via": "Modaes",
    "also": [],
    "id": "689cd2d38faa",
-   "score": 6.7
-  },
-  {
-   "title": "Coty prevé suprimir 155 de sus 200 puestos de trabajo en Francia",
-   "link": "https://es.fashionnetwork.com/news/Coty-preve-suprimir-155-de-sus-200-puestos-de-trabajo-en-francia,1882824.html",
-   "excerpt": "",
-   "image": "",
-   "published": "2026-11-09T10:11:34Z",
-   "source": "FashionNetwork",
-   "source_name": "FashionNetwork España",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 4.0,
-   "lang": "es",
-   "region": "es",
-   "tags": [
-    "industria"
-   ],
-   "via": "FashionNetwork España",
-   "also": [],
-   "id": "c488e061c0c1",
-   "score": 5.75
+   "score": 6.3
   },
   {
    "title": "What’s at Stake for Fashion at COP31?",
@@ -3752,7 +4048,7 @@
    "via": "The Business of Fashion",
    "also": [],
    "id": "8fd5d04bd14b",
-   "score": 7.75
+   "score": 7.35
   },
   {
    "title": "BoF Professional Masterclass | Inside Zara’s Brand Makeover",
@@ -3773,7 +4069,7 @@
    "via": "The Business of Fashion",
    "also": [],
    "id": "7e3db6861b61",
-   "score": 6.95
+   "score": 6.55
   },
   {
    "title": "Inside Zara’s Brand Makeover",
@@ -3794,7 +4090,7 @@
    "via": "The Business of Fashion",
    "also": [],
    "id": "8164956e12cb",
-   "score": 6.8
+   "score": 6.4
   },
   {
    "title": "Entre lo sagrado y lo profano: la Catedral como pasarela",
@@ -3815,7 +4111,7 @@
    "via": "Sucesos Puebla",
    "also": [],
    "id": "a3c23c26dfa8",
-   "score": 5.0
+   "score": 4.6
   },
   {
    "title": "IA: estrategias, avances y alertas de la tecnología que ya mejora la moda",
@@ -3836,7 +4132,28 @@
    "via": "Modaes",
    "also": [],
    "id": "8e47d033902f",
-   "score": 6.3
+   "score": 5.9
+  },
+  {
+   "title": "La Met Gala 2027 lanza su apuesta por lo cotidiano tras la polémica con Galliano",
+   "link": "https://www.modaes.com/look/la-met-gala-2027-lanza-su-apuesta-por-lo-cotidiano-tras-la-polemica-con-galliano",
+   "excerpt": "El dress code del evento de moda, que se celebrará el 3 de mayo en el museo neoyorquino, estará dedicado a las prendas del día a día, como “camisetas…",
+   "image": "https://www.modaes.com/thumb/eyJ0IjoiZCIsInciOjEyMDAsImgiOjY3NSwibSI6MSwibG0iOjE3OTM5ODE5Nzh9/files/2026/20-redaccion-look/met-gala-dress-code-tematica-1200.jpg",
+   "published": "2026-11-09T04:00:00Z",
+   "source": "Modaes",
+   "source_name": "Modaes",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 4.0,
+   "lang": "es",
+   "region": "es",
+   "tags": [
+    "cultura"
+   ],
+   "via": "Modaes",
+   "also": [],
+   "id": "703caa1605c4",
+   "score": 5.5
   },
   {
    "title": "Before Bangladesh sells its future, it must build the ecosystem behind it",
@@ -3857,7 +4174,7 @@
    "via": "",
    "also": [],
    "id": "241a07516e95",
-   "score": 5.26
+   "score": 4.86
   },
   {
    "title": "PKSF disburses Tk2,500 crore to support 50,000 cottage and micro entrepreneurs",
@@ -3878,7 +4195,7 @@
    "via": "",
    "also": [],
    "id": "53d7c0ef883b",
-   "score": 4.86
+   "score": 4.46
   },
   {
    "title": "Innovation must become a culture, not an occasional activity",
@@ -3899,49 +4216,28 @@
    "via": "",
    "also": [],
    "id": "0227dcab63f0",
-   "score": 4.46
+   "score": 4.06
   },
   {
-   "title": "Fiber traceability turns transparency into business value for spinning mills",
-   "link": "https://textiletoday.com.bd/fiber-traceability-turns-transparency-into-business-value-for-spinning-mills",
-   "excerpt": "For spinning mills, fiber traceability is moving beyond a buyer compliance exercise. It is becoming a business strategy. Brands need stronger evidence behind sustainability claims, while regulations are pushing supply chains…",
-   "image": "https://textiletoday.com.bd/storage/uploads/2026/11/5582AaIfn4313G0porJz.jpeg",
-   "published": "2026-11-09T02:50:00Z",
-   "source": "Textile Today",
-   "source_name": "Textile Today",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 2.8,
-   "lang": "en",
-   "region": "bd",
-   "tags": [
-    "sostenibilidad"
-   ],
-   "via": "",
-   "also": [],
-   "id": "0275aa4de2b2",
-   "score": 5.26
-  },
-  {
-   "title": "La diseñadora independiente Martine Rose regresa a lo grande a Balenciaga",
-   "link": "https://es.fashionnetwork.com/news/La-disenadora-independiente-martine-rose-regresa-a-lo-grande-a-balenciaga,1882779.html",
-   "excerpt": "",
-   "image": "",
-   "published": "2026-11-09T02:00:00Z",
-   "source": "FashionNetwork",
-   "source_name": "FashionNetwork España",
+   "title": "Desfile de modas en Catedral de Puebla desata polémica",
+   "link": "https://www.xevt.com/espectaculos/desfile-de-modas-en-catedral-de-puebla-desata-polemica/450834",
+   "excerpt": "Se logró recaudar cerca de un mdp, destinados a labores de la Casa de la Maternidad del SEDI",
+   "image": "https://blob.xevt.com/images/2026/11/09/crop-w1200-h800-de7e8e2f-2bb0-456e-a882-06f4c5abfb64-a2a4c4f3-focus-0-0-608-342.webp",
+   "published": "2026-11-09T02:07:00Z",
+   "source": "Fashion shows",
+   "source_name": "Fashion shows México",
    "kind": "trade",
    "mirror": true,
-   "weight": 4.0,
+   "weight": 3.0,
    "lang": "es",
-   "region": "es",
+   "region": "mx",
    "tags": [
-    "diseno"
+    "pasarela"
    ],
-   "via": "FashionNetwork España",
+   "via": "XEVT",
    "also": [],
-   "id": "9b6efeebcc8e",
-   "score": 5.05
+   "id": "85701f6523bf",
+   "score": 4.6
   },
   {
    "title": "Con sotanas y vestidos de novia de Benito Santos: Así fue el desfile de moda en la Catedral de Puebla",
@@ -3986,27 +4282,6 @@
    "score": 4.6
   },
   {
-   "title": "John Frieda obituary",
-   "link": "https://www.theguardian.com/fashion/2026/nov/08/john-frieda-obituary",
-   "excerpt": "Hair stylist to the stars who created the ‘Purdey’ bob and the groundbreaking Frizz Ease product range All beauty chains now have metres-long shelves of products for curly, coily and wavy hair, and among the proliferating…",
-   "image": "https://i.guim.co.uk/img/media/44fe6977ce2349f4c7e66a147ee8d486b2f1ba36/617_0_4327_3462/master/4327.jpg?width=140&quality=85&auto=format&fit=max&s=75cf17c0c2b3a41123409f08e0d223a7",
-   "published": "2026-11-08T19:22:46Z",
-   "source": "Guardian",
-   "source_name": "The Guardian Fashion",
-   "kind": "consumer",
-   "mirror": false,
-   "weight": 4.0,
-   "lang": "en",
-   "region": "uk",
-   "tags": [
-    "personas"
-   ],
-   "via": "",
-   "also": [],
-   "id": "004c6a6124f3",
-   "score": 5.95
-  },
-  {
    "title": "VIDEO Desfile de modas en la Catedral de Puebla desata polémica",
    "link": "https://www.eluniversal.com.mx/estados/desfile-de-modas-en-la-catedral-de-puebla-desata-polemica-comunidad-catolica-cuestiona-uso-del-recinto-religioso/",
    "excerpt": "Imágenes de la pasarela generaron críticas en redes sociales por realizarse en un espacio de culto",
@@ -4049,6 +4324,27 @@
    "score": 5.26
   },
   {
+   "title": "Critican desfile de Benito Santos en la Catedral de Puebla donde participaron directivos de la BUAP y artistas",
+   "link": "https://www.infobae.com/mexico/2026/11/08/critican-desfile-de-benito-santos-en-la-catedral-de-puebla-donde-participaron-directivos-de-la-buap-y-artistas/",
+   "excerpt": "Alta costura, tradición artesanal y vestimenta litúrgica convivieron en la Catedral de Puebla durante la gala “México Monumental 2026”, un evento que busca recaudar fondos para la Casa de Maternidad del Estado, pero que no estuvo…",
+   "image": "https://www.infobae.com/resizer/v2/DWJCURALZFEUNI5FH3LXVTD25I.jpg?auth=c906815240e19fd749ee4a7a2953e42a2cbed55382bea15ee1daadf79affacea&smart=true&width=1024&height=512&quality=85",
+   "published": "2026-11-08T17:49:00Z",
+   "source": "Fashion shows",
+   "source_name": "Fashion shows México",
+   "kind": "trade",
+   "mirror": true,
+   "weight": 3.0,
+   "lang": "es",
+   "region": "mx",
+   "tags": [
+    "pasarela"
+   ],
+   "via": "Infobae",
+   "also": [],
+   "id": "0c0c0d4039d4",
+   "score": 4.6
+  },
+  {
    "title": "Los botines de tacón cómodo que odiaste en tu adolescencia son la compra estrella del otoño 2026 (y estos son nuestros preferidos)",
    "link": "https://www.vogue.es/galerias/comprar-botines-tacon-mujer-kitten",
    "excerpt": "Los botines perfectos para ir cómoda y elegante en día a día",
@@ -4068,69 +4364,6 @@
    "also": [],
    "id": "c3fd2d268c0f",
    "score": 6.55
-  },
-  {
-   "title": "Three Festivals, One Month: Fashion’s Big Chance to Salvage a Difficult Year",
-   "link": "https://www.businessoffashion.com/briefings/retail/holidays-and-shopping-festivals-give-retailers-a-chance-to-salvage-a-difficult-year/",
-   "excerpt": "",
-   "image": "",
-   "published": "2026-11-08T14:00:00Z",
-   "source": "BoF",
-   "source_name": "Business of Fashion",
-   "kind": "trade",
-   "mirror": true,
-   "weight": 5.0,
-   "lang": "en",
-   "region": "global",
-   "tags": [
-    "industria"
-   ],
-   "via": "The Business of Fashion",
-   "also": [],
-   "id": "84ae48c09973",
-   "score": 6.55
-  },
-  {
-   "title": "CHT Group advances PP-free denim finishing through industry collaboration",
-   "link": "https://textiletoday.com.bd/cht-group-advances-pp-free-denim-finishing-through-industry-collaboration",
-   "excerpt": "The global denim industry is facing growing pressure to reduce its use of potassium permanganate (PP), a chemical widely used to create faded and vintage effects in denim garments. In response, CHT Group is providing technical…",
-   "image": "https://textiletoday.com.bd/storage/uploads/2026/11/1849GKkVaWyQAXRAeaHH.jpeg",
-   "published": "2026-11-08T08:13:00Z",
-   "source": "Textile Today",
-   "source_name": "Textile Today",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 2.8,
-   "lang": "en",
-   "region": "bd",
-   "tags": [
-    "diseno"
-   ],
-   "via": "",
-   "also": [],
-   "id": "ac183fbbe9fe",
-   "score": 4.16
-  },
-  {
-   "title": "Uzbekistan links textile expansion with $2bn renewable energy investment",
-   "link": "https://textiletoday.com.bd/uzbekistan-links-textile-expansion-with-2bn-renewable-energy-investment",
-   "excerpt": "Uzbekistan is advancing a $400 million cotton-textile cluster in Bukhara. As part of a broader industrial investment plan that combines textile manufacturing with renewable energy development. Figure: In Uzbekistan, the two…",
-   "image": "https://textiletoday.com.bd/storage/uploads/2026/11/8063Ep1ebxrLCsWEyPBJ.jpeg",
-   "published": "2026-11-08T04:49:00Z",
-   "source": "Textile Today",
-   "source_name": "Textile Today",
-   "kind": "trade",
-   "mirror": false,
-   "weight": 2.8,
-   "lang": "en",
-   "region": "bd",
-   "tags": [
-    "negocio"
-   ],
-   "via": "",
-   "also": [],
-   "id": "f9d8f2749aff",
-   "score": 5.26
   }
  ]
 }
