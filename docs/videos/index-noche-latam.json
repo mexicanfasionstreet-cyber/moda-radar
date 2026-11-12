@@ -1,43 +1,43 @@
 {
- "date": "2026-11-10",
+ "date": "2026-11-11",
  "edition": "latam",
- "duration": 59.3,
+ "duration": 69.5,
  "script_source": "IA (deepseek-chat)",
- "hook": "Moda, tecnología y lanzamientos marcan la agenda de hoy en México",
+ "hook": "Nike crece en ropa mientras su calzado retrocede este 2026",
  "items": [
   {
-   "title": "Moda y tecnología en El Buen Fin",
-   "headline": "¿Qué buscan los mexicanos? Moda y tecnología lideran la intención de compra",
-   "source": "El Economista",
-   "link": "https://www.eleconomista.com.mx/los-especiales/buscan-mexicanos-moda-tecnologia-lideran-intencion-compra-20261110-843001.html",
-   "photo_credit": null
-  },
-  {
-   "title": "Demi Lovato para Desigual",
-   "headline": "Demi Lovato es la musa de la colección invierno 2026 de Desigual",
-   "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/demi-lovato-protagonista-de-la-coleccion-invierno-2026-de-desigual",
-   "photo_credit": null
-  },
-  {
-   "title": "Breguet revive una pieza de 1796",
-   "headline": "Breguet Classique Souscription: El reloj de platino con una sola manecilla que revive una creación de 1796",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/reloj-breguet-classique-souscription-2026pt289w6-precio-disponibilidad-10-11-2026",
-   "photo_credit": null
-  },
-  {
-   "title": "Puma y Stranger Things en México",
-   "headline": "Puma lanza colaboración con Stranger Things y convierte el universo del Upside Down en una colección de tenis, ropa y accesorios",
+   "title": "Nike ropa crece calzado cae",
+   "headline": "Mientras Nike cae en calzado, su negocio de ropa crece: estos son los productos, regiones y canales que explican sus resultados de 2026",
    "source": "Merca2.0",
-   "link": "https://www.merca20.com/puma-lanza-colaboracion-con-stranger-things-y-convierte-el-universo-del-upside-down-en-una-coleccion-de-tenis-ropa-y-accesorios/",
+   "link": "https://www.merca20.com/mientras-nike-cae-en-calzado-su-negocio-de-ropa-crece-estos-son-los-productos-regiones-y-canales-que-explican-sus-resultados-de-2026/",
    "photo_credit": null
   },
   {
-   "title": "Perfume árabe por 320 pesos",
-   "headline": "Armaf vende perfume Odyssey Mandarin Sky de 100 ml en 320 pesos: fragancia árabe con notas de mandarina, caramelo y madera, perfecto para el invierno",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/armaf-vende-perfume-odyssey-mandarin-sky-de-100-ml-en-320-pesos-fragancia-arabe-con-notas-de-mandarina-caramelo-y-madera-perfecto-para-el-invierno/",
+   "title": "Vintage y reciclaje ganan terreno",
+   "headline": "¡Ropa vintage y moda urbana! Checa estos imperdibles diseños con tendencias y ropa reciclada",
+   "source": "TV Azteca",
+   "link": "https://www.tvazteca.com/aztecauno/venga-la-alegria/ropa-vintage-y-moda-urbana-checa-estos-imperdibles-disenos-con-tendencias-y-ropa-reciclada/",
+   "photo_credit": null
+  },
+  {
+   "title": "Niegan permiso para pasarela",
+   "headline": "Ayuntamiento niega permiso para pasarela en la Catedral",
+   "source": "Contigo Puebla",
+   "link": "https://contigopuebla.mx/2026/80236/pasarela-mexico-monumental-catedral-puebla/",
+   "photo_credit": null
+  },
+  {
+   "title": "PIB textil cae en México",
+   "headline": "El PIB de la industria textil y de la confección en México retrocedió un 3,9 % en el segundo trimestre",
+   "source": "FashionNetwork México",
+   "link": "https://mx.fashionnetwork.com/news/El-pib-de-la-industria-textil-y-de-la-confeccion-en-mexico-retrocedio-un-3-9-en-el-segundo-trimestre,1883763.html",
+   "photo_credit": "Foto: Crossett Library Bennington College · CC BY-NC-SA 2.0"
+  },
+  {
+   "title": "Alianza textil apuesta innovación",
+   "headline": "Alianza textil impulsa innovación en un mercado de 38.41 mil mdd",
+   "source": "Mi Punto de Vista",
+   "link": "https://www.mipuntodevista.com.mx/alianza-textil-impulsa-innovacion-en-un-mercado-de-38-41-mil-mdd/",
    "photo_credit": null
   }
  ]

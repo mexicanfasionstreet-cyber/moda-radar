@@ -1,43 +1,43 @@
 {
- "date": "2026-11-10",
+ "date": "2026-11-11",
  "edition": "general",
- "duration": 68.7,
+ "duration": 66.6,
  "script_source": "IA (deepseek-chat)",
- "hook": "Crocs y Simone Rocha cierran su alianza y la moda enfrenta presiones económicas",
+ "hook": "La moda mira a 2040 mientras el entretenimiento y las tendencias se reinventan",
  "items": [
   {
-   "title": "Crocs y Simone Rocha se despiden",
-   "headline": "Crocs and Simone Rocha Say Goodbye to Their Fan-Favorite Partnership With One Final Collection",
-   "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-industry-news/crocs-simone-rocha-end-partnership-fifth-collection-1239409741/",
+   "title": "Brigade pasa a Entertainment 360",
+   "headline": "Entertainment 360 Acquires Brigade, a Management Firm Rich in Substackers",
+   "source": "NYT",
+   "link": "https://www.nytimes.com/2026/11/11/style/brigade-entertainment-360-acquisition-max-stein.html",
    "photo_credit": null
   },
   {
-   "title": "Minorista debe millones a proveedores",
-   "headline": "The Children’s Place Owes Apparel Suppliers Millions",
+   "title": "La moda frente a 2040",
+   "headline": "Fashion Isn’t Ready for 2040. Can It Prepare?",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/industry-news/childrens-place-bankruptcy-apparel-suppliers-hansae-1239409777/",
+   "link": "https://wwd.com/sourcing-journal/sustainability/forum-for-the-future-hm-foundation-textiles-2040-1239412183/",
    "photo_credit": null
   },
   {
-   "title": "Boxford nuevo CEO de Capri",
-   "headline": "Justin Boxford Said to Become Next CEO of Michael Kors Parent Capri",
-   "source": "WWD",
-   "link": "https://wwd.com/business-news/human-resources/justin-boxford-capri-holdings-ceo-rumor-1239410053/",
+   "title": "Ofertas Apple antes del Black Friday",
+   "headline": "The Best Early Black Friday Apple Deals, According to Our Editors",
+   "source": "Elle",
+   "link": "https://www.elle.com/fashion/shopping/g74378079/best-early-black-friday-apple-deals-2026/",
    "photo_credit": null
   },
   {
-   "title": "Valentino apuesta por Beymen en Turquía",
-   "headline": "Why Valentino’s Chairman Is Betting on Türkiye’s Oldest Retail Giant",
-   "source": "Vogue",
-   "link": "https://www.vogue.com/article/why-valentinos-chairman-is-betting-on-turkiyes-oldest-retail-giant",
+   "title": "Calcetines con tacones se imponen",
+   "headline": "The Divisive Socks-and-Heels Trend Is Bigger Than Ever, and Dua Lipa, Sarah Paulson and Chappell Roan Are the Proof",
+   "source": "WWD",
+   "link": "https://wwd.com/footwear-news/shoe-trends/socks-and-heels-trend-fall-2026-dua-lipa-prada-1239411214/",
    "photo_credit": null
   },
   {
-   "title": "Inflación mantiene caros los precios",
-   "headline": "Sticky Inflation Remained Stubbornly Entrenched in October, Keeping Fashion Prices Elevated",
+   "title": "Ariana Grande revive los noventa",
+   "headline": "Ariana Grande and Ricky Alvarez Make Their Red Carpet Debut as She Revives ’90s Badgley Mischka",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/industry-news/cpi-october-inflation-apparel-footwear-holiday-1239410049/",
+   "link": "https://wwd.com/pop-culture/celebrity-news/ariana-grande-ricky-alvarez-red-carpet-debut-1239412329/",
    "photo_credit": null
   }
  ]
