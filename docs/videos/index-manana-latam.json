@@ -1,29 +1,43 @@
 {
- "date": "2026-11-12",
+ "date": "2026-11-13",
  "edition": "latam",
- "duration": 46.0,
+ "duration": 66.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "El Palacio de Hierro reinvierte en Monterrey y la moda mueve capital",
+ "hook": "SHEGLAM sorprende con calendario de adviento y Vogue México estrena editora",
  "items": [
   {
-   "title": "Palacio de Hierro crece en Monterrey",
-   "headline": "Palacio de Hierro invierte 4,000 mdp",
-   "source": "El Financiero",
-   "link": "https://www.elfinanciero.com.mx/opinion/de-jefes/2026/11/12/palacio-de-hierro-invierte-4000-mdp/",
+   "title": "SHEGLAM lanza calendario navideño",
+   "headline": "SHEGLAM lanza calendario de adviento con 12 productos sorpresa de belleza navideña",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/sheglam-lanza-calendario-de-adviento-con-12-productos-sorpresa-de-belleza-navidena/",
    "photo_credit": null
   },
   {
-   "title": "Grupo One lleva Kiabi a Argentina",
-   "headline": "¿Quién es Grupo One? El socio que abre paso a Kiabi y Bestseller en Argentina",
-   "source": "Modaes",
-   "link": "https://www.modaes.com/empresas/quien-es-grupo-one-el-socio-que-abre-paso-a-kiabi-y-bestseller-en-argentina",
+   "title": "Nueva editora en Vogue México",
+   "headline": "Atenea Morales de la Cruz Named Head of Editorial Content for Vogue Mexico and Latin America",
+   "source": "The Business of Fashion",
+   "link": "https://www.businessoffashion.com/news/global-markets/atenea-morales-cruz-head-editorial-content-vogue-mexico-latin-america/",
    "photo_credit": null
   },
   {
-   "title": "Inditex apuesta por descarbonizar",
-   "headline": "Inditex invierte 50 millones de dólares en un fondo destinado a descarbonizar la industria textil",
-   "source": "FashionNetwork México",
-   "link": "https://mx.fashionnetwork.com/news/Inditex-invierte-50-millones-de-dolares-en-un-fondo-destinado-a-descarbonizar-la-industria-textil,1883553.html",
+   "title": "Tendam crece en México",
+   "headline": "Tendam gana músculo en México con nuevas aperturas de Cortefiel, Hoss Intropia y Springfield",
+   "source": "FashionNetwork España",
+   "link": "https://es.fashionnetwork.com/news/Tendam-gana-musculo-en-mexico-con-nuevas-aperturas-de-cortefiel-hoss-intropia-y-springfield,1884855.html",
+   "photo_credit": null
+  },
+  {
+   "title": "Lola Casademunt abre en México",
+   "headline": "Lola Casademunt inaugura sus dos primeras tiendas propias en México y supera la quincena de puntos de venta en el país",
+   "source": "FashionNetwork España",
+   "link": "https://es.fashionnetwork.com/news/Lola-casademunt-inaugura-sus-dos-primeras-tiendas-propias-en-mexico-y-supera-la-quincena-de-puntos-de-venta-en-el-pais,1883478.html",
+   "photo_credit": null
+  },
+  {
+   "title": "Impulso textil en Aguascalientes",
+   "headline": "Tere Jiménez visita CLINIMEX y Maquilas Reytex para impulsar la industria textil de Aguascalientes",
+   "source": "El Sol de México",
+   "link": "https://oem.com.mx/elsoldelcentro/local/industria-textil-de-aguascalientes-gobernadora-recorre-empresas-de-confeccion-para-fortalecer-el-sector-33104989",
    "photo_credit": null
   }
  ]

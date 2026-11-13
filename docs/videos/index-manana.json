@@ -1,43 +1,43 @@
 {
- "date": "2026-11-12",
+ "date": "2026-11-13",
  "edition": "general",
- "duration": 72.7,
+ "duration": 65.3,
  "script_source": "IA (deepseek-chat)",
- "hook": "Burberry crece, el mercado de segunda mano gana terreno y PVH recorta personal",
+ "hook": "Moda hoy: fallece un creativo clave y el lujo mira su legado",
  "items": [
   {
-   "title": "Burberry crece 6% en el semestre",
-   "headline": "Burberry Sales Climb 6% in First Half, with Profits Rising to 54 Million Pounds",
+   "title": "Creed apuesta por su herencia",
+   "headline": "EXCLUSIVE: Creed’s Future Focus Is Informed By Its Heritage",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/business-features/burberry-sales-climb-six-percent-first-half-profits-rising-1239412423/",
+   "link": "https://wwd.com/beauty-industry-news/fragrance/creed-future-focus-informed-by-heritage-loreal-perfume-1239414634/",
    "photo_credit": null
   },
   {
-   "title": "Segunda mano gana terreno en Navidad",
-   "headline": "Holiday Shoppers Are Giving Secondhand a Second Look",
+   "title": "Gasto navideño se mantiene firme",
+   "headline": "Holiday Spending Remains Resilient Despite Financial Pressure",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/industry-news/offerup-holiday-shopping-secondhand-market-1239412257/",
+   "link": "https://wwd.com/sourcing-journal/industry-news/holiday-spending-remains-resilient-despite-pressure-1239413381/",
    "photo_credit": null
   },
   {
-   "title": "Brunt apuesta por jeans de trabajo",
-   "headline": "Brunt Workwear Takes on Work Jeans",
-   "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/sj-denim/brunt-workwear-launches-work-jeans-durability-comfort-1239412026/",
+   "title": "Muere Alfonso Pérez a los 51",
+   "headline": "Alfonso Pérez, director creativo de Ángel Schlesser, fallece a los 51 años",
+   "source": "Vogue ES",
+   "link": "https://www.vogue.es/articulos/alfonso-perez-director-creativo-angel-schlesser-fallece",
    "photo_credit": null
   },
   {
-   "title": "PVH recorta 4% de su plantilla",
-   "headline": "PVH Simplifies, Cutting 4% of Global Workforce",
+   "title": "Diamantes con trazabilidad ambiciosa",
+   "headline": "Sophie Bille Brahe Marks 15 Years With an Ambitious Diamond Traceability Strategy",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/financial/pvh-corp-layoffs-global-workforce-reduction-1239412484/",
+   "link": "https://wwd.com/accessories-news/jewelry/sophie-bille-brahe-anniversary-diamond-traceability-b-corp-1239403698/",
    "photo_credit": null
   },
   {
-   "title": "True Religion y Phat Farm se unen",
-   "headline": "True Religion and Phat Farm Merge Their Signature Styles and Y2K Legacies",
+   "title": "Holt Renfrew apuesta por hoteles",
+   "headline": "Holt Renfrew Gives a Hotel Theme to its Holiday Campaign",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/sj-denim/true-religion-phat-farm-merge-collaboration-y2k-hip-hop-1239410166/",
+   "link": "https://wwd.com/business-news/retail/holt-renfrew-holiday-campaign-hotel-theme-1239413016/",
    "photo_credit": null
   }
  ]
