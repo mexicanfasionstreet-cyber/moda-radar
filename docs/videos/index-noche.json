@@ -1,43 +1,43 @@
 {
- "date": "2026-11-11",
+ "date": "2026-11-12",
  "edition": "general",
- "duration": 66.6,
+ "duration": 68.9,
  "script_source": "IA (deepseek-chat)",
- "hook": "La moda mira a 2040 mientras el entretenimiento y las tendencias se reinventan",
+ "hook": "Burberry supera a sus pares y crece 6% en un mercado difícil",
  "items": [
   {
-   "title": "Brigade pasa a Entertainment 360",
-   "headline": "Entertainment 360 Acquires Brigade, a Management Firm Rich in Substackers",
-   "source": "NYT",
-   "link": "https://www.nytimes.com/2026/11/11/style/brigade-entertainment-360-acquisition-max-stein.html",
-   "photo_credit": null
-  },
-  {
-   "title": "La moda frente a 2040",
-   "headline": "Fashion Isn’t Ready for 2040. Can It Prepare?",
+   "title": "Burberry crece 6% y supera al lujo",
+   "headline": "Burberry Races Past Peers, Bucks Luxury Trend With 6% Rise in First-Half Revenue, Profit Growth",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/sustainability/forum-for-the-future-hm-foundation-textiles-2040-1239412183/",
+   "link": "https://wwd.com/business-news/business-features/burberry-bucks-luxury-six-percent-first-half-revenue-growth-1239413615/",
    "photo_credit": null
   },
   {
-   "title": "Ofertas Apple antes del Black Friday",
-   "headline": "The Best Early Black Friday Apple Deals, According to Our Editors",
-   "source": "Elle",
-   "link": "https://www.elle.com/fashion/shopping/g74378079/best-early-black-friday-apple-deals-2026/",
+   "title": "Nobody's Child abre su primer outlet",
+   "headline": "Nobody’s Child to open first outlet",
+   "source": "Drapers",
+   "link": "https://www.drapersonline.com/news/nobodys-child-to-open-first-outlet",
    "photo_credit": null
   },
   {
-   "title": "Calcetines con tacones se imponen",
-   "headline": "The Divisive Socks-and-Heels Trend Is Bigger Than Ever, and Dua Lipa, Sarah Paulson and Chappell Roan Are the Proof",
+   "title": "Presión por salarios justos en Bangladesh",
+   "headline": "Will Fashion Brands Back Higher Wages in Bangladesh?",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-trends/socks-and-heels-trend-fall-2026-dua-lipa-prada-1239411214/",
+   "link": "https://wwd.com/sourcing-journal/sustainability/bangladesh-wage-protest-fashion-brands-clean-clothes-campaign-1239414418/",
    "photo_credit": null
   },
   {
-   "title": "Ariana Grande revive los noventa",
-   "headline": "Ariana Grande and Ricky Alvarez Make Their Red Carpet Debut as She Revives ’90s Badgley Mischka",
+   "title": "México responde a amenaza arancelaria",
+   "headline": "Mexican Leader Pushes Back on Trump’s Threat to Double Duties Over Migrant Caravan Claim",
    "source": "WWD",
-   "link": "https://wwd.com/pop-culture/celebrity-news/ariana-grande-ricky-alvarez-red-carpet-debut-1239412329/",
+   "link": "https://wwd.com/sourcing-journal/trade/claudia-sheinbaum-mexico-tariffs-trump-steel-usmca-1239414399/",
+   "photo_credit": null
+  },
+  {
+   "title": "Marimekko y Veja lanzan zapatillas",
+   "headline": "Marimekko Brings Its Popkorni Print to Veja’s Salar and Small Canary Sneaker Models",
+   "source": "WWD",
+   "link": "https://wwd.com/footwear-news/sneaker-news/veja-marimekko-salar-small-canary-sneakers-release-date-1239414248/",
    "photo_credit": null
   }
  ]

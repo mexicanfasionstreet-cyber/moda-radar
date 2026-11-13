@@ -1,43 +1,43 @@
 {
- "date": "2026-11-11",
+ "date": "2026-11-12",
  "edition": "latam",
- "duration": 69.5,
+ "duration": 68.1,
  "script_source": "IA (deepseek-chat)",
- "hook": "Nike crece en ropa mientras su calzado retrocede este 2026",
+ "hook": "La IA ya influye en cómo compras moda en México",
  "items": [
   {
-   "title": "Nike ropa crece calzado cae",
-   "headline": "Mientras Nike cae en calzado, su negocio de ropa crece: estos son los productos, regiones y canales que explican sus resultados de 2026",
+   "title": "IA guía compras de moda online",
+   "headline": "Moda online: 14% de los compradores en México utiliza IA para descubrir marcas",
+   "source": "El Economista",
+   "link": "https://www.eleconomista.com.mx/el-empresario/moda-online-14-compradores-mexico-utiliza-ia-descubrir-marcas-20261112-843684.html",
+   "photo_credit": null
+  },
+  {
+   "title": "Tragos temáticos en la Roma",
+   "headline": "Pídete un ‘Perfume de gardenias’: La cantina de la Roma con tragos temáticos de canciones y paella negra",
+   "source": "El Financiero",
+   "link": "https://www.elfinanciero.com.mx/food-and-drink/2026/11/12/cantinas-de-cdmx-asi-es-la-sotomayor-en-la-colonia-roma/",
+   "photo_credit": null
+  },
+  {
+   "title": "Disculpas por pasarela en catedral",
+   "headline": "La iglesia católica de Puebla ofrece disculpas a sus feligreses por un desfile de modas realizado en su catedral",
+   "source": "EL PAÍS",
+   "link": "https://elpais.com/mexico/2026-11-09/la-iglesia-catolica-de-puebla-ofrece-disculpas-a-sus-feligreses-por-un-desfile-de-modas-realizado-en-su-catedral.html",
+   "photo_credit": null
+  },
+  {
+   "title": "Arquidiócesis lamenta críticas",
+   "headline": "Arquidiócesis se disculpa tras críticas por pasarela y lamenta que asistentes se sintieran heridos en su fe",
+   "source": "Récord",
+   "link": "https://www.record.com.mx/historia/arquidiocesis-se-disculpa-tras-criticas-por-pasarela-y-lamenta-que-asistentes-se-sintieran-heridos-en-su-fe-2026110915370949465",
+   "photo_credit": "Foto: Wonderlane · CC0"
+  },
+  {
+   "title": "BOLO FEST 2026 ya tiene fecha",
+   "headline": "¡Feliz Navidad! El desfile navideño BOLO FEST 2026 de Liverpool ya tiene fecha: será el 28 de noviembre | MAPA",
    "source": "Merca2.0",
-   "link": "https://www.merca20.com/mientras-nike-cae-en-calzado-su-negocio-de-ropa-crece-estos-son-los-productos-regiones-y-canales-que-explican-sus-resultados-de-2026/",
-   "photo_credit": null
-  },
-  {
-   "title": "Vintage y reciclaje ganan terreno",
-   "headline": "¡Ropa vintage y moda urbana! Checa estos imperdibles diseños con tendencias y ropa reciclada",
-   "source": "TV Azteca",
-   "link": "https://www.tvazteca.com/aztecauno/venga-la-alegria/ropa-vintage-y-moda-urbana-checa-estos-imperdibles-disenos-con-tendencias-y-ropa-reciclada/",
-   "photo_credit": null
-  },
-  {
-   "title": "Niegan permiso para pasarela",
-   "headline": "Ayuntamiento niega permiso para pasarela en la Catedral",
-   "source": "Contigo Puebla",
-   "link": "https://contigopuebla.mx/2026/80236/pasarela-mexico-monumental-catedral-puebla/",
-   "photo_credit": null
-  },
-  {
-   "title": "PIB textil cae en México",
-   "headline": "El PIB de la industria textil y de la confección en México retrocedió un 3,9 % en el segundo trimestre",
-   "source": "FashionNetwork México",
-   "link": "https://mx.fashionnetwork.com/news/El-pib-de-la-industria-textil-y-de-la-confeccion-en-mexico-retrocedio-un-3-9-en-el-segundo-trimestre,1883763.html",
-   "photo_credit": "Foto: Crossett Library Bennington College · CC BY-NC-SA 2.0"
-  },
-  {
-   "title": "Alianza textil apuesta innovación",
-   "headline": "Alianza textil impulsa innovación en un mercado de 38.41 mil mdd",
-   "source": "Mi Punto de Vista",
-   "link": "https://www.mipuntodevista.com.mx/alianza-textil-impulsa-innovacion-en-un-mercado-de-38-41-mil-mdd/",
+   "link": "https://www.merca20.com/feliz-navidad-el-desfile-navideno-bolo-fest-2026-de-liverpool-ya-tiene-fecha-sera-el-28-de-noviembre-mapa/",
    "photo_credit": null
   }
  ]
