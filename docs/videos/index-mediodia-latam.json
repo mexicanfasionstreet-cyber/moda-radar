@@ -1,44 +1,44 @@
 {
- "date": "2026-11-12",
+ "date": "2026-11-13",
  "edition": "latam",
  "duration": 64.9,
  "script_source": "IA (deepseek-chat)",
- "hook": "Flecos, diseño panameño y una pasarela que desata polémica en Puebla",
+ "hook": "Perfumes, relojes y tenis: la moda que deja huella hoy",
  "items": [
   {
-   "title": "Vuelven los vestidos flapper",
-   "headline": "Vestidos flapper de los años 20: 10 modelos con flecos y lentejuelas para salir de fiesta en Otoño-Invierno 2026",
-   "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/vestido-flapper-con-flecos-y-lentejuelas-de-los-anos-20-para-salir-de-fiesta-2026",
+   "title": "Los perfumes más seductores de Tom Ford",
+   "headline": "Los 11 perfumes de Tom Ford más seductores de larga duración para dejar huella en una cita romántica",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/mejores-perfumes-tom-ford-para-cita-romantica",
    "photo_credit": null
   },
   {
-   "title": "Isabella Fiore debuta en Panamá",
-   "headline": "La diseñadora panameña Isabella Fiore explora un lenguaje propio desde la emoción y la memoria",
-   "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/studio-fiore-panama-fashion-week-2026",
+   "title": "Mido Multifort 8 One Crown en negro",
+   "headline": "Mido Multifort 8 One Crown: El reloj negro que combina elegancia deportiva y 80 horas de autonomía",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/reloj-mido-multifort-8-one-crown-m0555073705100-precio-disponibilidad-13-11-2026",
    "photo_credit": null
   },
   {
-   "title": "Hugo Boss Bottled en oferta",
-   "headline": "Perfume Hugo Boss Bottled para hombre original, con 36% de descuento: cuesta 834 pesos y con cupón baja a 684 pesos",
+   "title": "Tenis Adidas VL Court bajo 900 pesos",
+   "headline": "Adidas remata tenis VL Court Original Sneakers para hombre, color gris, tan versátiles como Samba: cuestan menos de 900 pesos con cupón",
    "source": "Merca2.0",
-   "link": "https://www.merca20.com/perfume-hugo-boss-bottled-para-hombre-original-con-36-de-descuento-cuesta-834-pesos-y-con-cupon-baja-a-684-pesos/",
+   "link": "https://www.merca20.com/adidas-remata-tenis-vl-court-original-sneakers-para-hombre-color-gris-tan-versatiles-como-samba-cuestan-menos-de-900-pesos-con-cupon/",
    "photo_credit": null
   },
   {
-   "title": "La otra Roma del diseño",
-   "headline": "La otra Roma: Arte, diseño y el encanto de la dolce vita",
-   "source": "Marie Claire MX",
-   "link": "https://marieclaire.com.mx/roma-arte-gastronomia-y-diseno/",
+   "title": "TAG Heuer de lujo en edición limitada",
+   "headline": "TAG Heuer Aquaracer Professional 300 x Time+Tide Sundowner II: Titanio y oro rosa en un reloj de buceo de edición limitada de lujo",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/reloj-tag-heuer-aquaracer-professional-300-x-timetide-sundowner-ii-wbp5185bf0010-wbp5184ft6257-precio-disponibilidad-13-11-2026",
    "photo_credit": null
   },
   {
-   "title": "Polémica en Catedral de Puebla",
-   "headline": "Polémica por pasarela en Catedral de Puebla provoca nueva jornada religiosa",
-   "source": "Meganoticias.mx",
-   "link": "https://www.meganoticias.mx/puebla/noticia/pol%C3%A9mica-por-pasarela-en-catedral-de-puebla-provoca-nueva-jornada-religiosa/787561",
-   "photo_credit": "Foto: Wonderlane · CC0"
+   "title": "Nike Air Force 1 Low Germany",
+   "headline": "Nike Air Force 1 Low Germany: Los tenis blancos de piel con diseño sofisticado que rinden homenaje a la selección alemana",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/tenis-nike-air-force-1-low-germany-precio-fotos-lanzamiento-13-11-2026",
+   "photo_credit": null
   }
  ]
 }

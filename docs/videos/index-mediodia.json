@@ -1,43 +1,43 @@
 {
- "date": "2026-11-12",
+ "date": "2026-11-13",
  "edition": "general",
- "duration": 61.7,
+ "duration": 66.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "Comercio electrónico en riesgo y Hugo Boss cambia de CEO",
+ "hook": "Burberry recupera rentabilidad con cinco trimestres de crecimiento en ventas",
  "items": [
   {
-   "title": "Fallos en e-commerce en temporada alta",
-   "headline": "Holiday Traffic Surges Put E-Commerce Site Reliability to the Test",
-   "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/industry-news/network-solution-holiday-traffic-website-reliability-1239413059/",
+   "title": "Burberry acelera su recuperación",
+   "headline": "Burberry profits jump as turnaround delivers fifth consecutive quarter of sales growth",
+   "source": "The Industry",
+   "link": "https://www.theindustry.fashion/burberry-profits-jump-as-turnaround-delivers-fifth-consecutive-quarter-of-sales-growth/",
    "photo_credit": null
   },
   {
-   "title": "Halfdays apuesta por Europa",
-   "headline": "Halfdays Targets European Growth With Dedicated Regional Operations",
-   "source": "WWD",
-   "link": "https://wwd.com/business-news/retail/halfdays-europe-expansion-skiwear-outdoor-performance-1239412672/",
+   "title": "Minoristas independientes bajo presión",
+   "headline": "Domino Style: ‘Independent retail has reached a critical pressure point’",
+   "source": "Drapers",
+   "link": "https://www.drapersonline.com/insight/comment/domino-style-independent-retail-has-reached-a-critical-pressure-point",
    "photo_credit": null
   },
   {
-   "title": "Nuevo CEO en Hugo Boss",
-   "headline": "Grieder to Step Down as Hugo Boss CEO, Frasers’ Epstein to Take Over Jan. 1",
+   "title": "Egipto avanza en manufactura",
+   "headline": "Egypt Is Gaining Ground. Can It Keep the Momentum?",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/human-resources/grieder-hugo-boss-ceo-frasers-epstein-make-ashley-1239413637/",
+   "link": "https://wwd.com/sourcing-journal/trade/egypt-apparel-exports-eu-us-aece-global-trade-tariffs-1239416067/",
    "photo_credit": null
   },
   {
-   "title": "SB Dunk edición limitada Oregón",
-   "headline": "Nike’s SB Dunk Is Getting New Limited-Edition Collaborations That Are Packed With Oregon Lore",
+   "title": "Sqairz redefine el calzado deportivo",
+   "headline": "Sqairz is Challenging What Performance Shoes Should Look Like",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/ducks-of-a-feather-nike-sb-dunk-low-shout-the-zoo-release-date-1239413540/",
+   "link": "https://wwd.com/footwear-news/shoe-industry-news/sqairz-square-toe-performance-footwear-golf-sports-1239408310/",
    "photo_credit": null
   },
   {
-   "title": "Caen envíos de Yue Yuen",
-   "headline": "Shoe Shipments and Manufacturing Revenue Down at Yue Yuen",
+   "title": "Sease apuesta por womenswear",
+   "headline": "Sease Gets Serious About Womenswear Ambitions",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-industry-news/yue-yuen-financial-nine-months-shoe-shipments-manufacturing-1239412084/",
+   "link": "https://wwd.com/fashion-news/fashion-features/franco-loro-piana-sease-expansion-womenswear-collection-retail-1239415613/",
    "photo_credit": null
   }
  ]
