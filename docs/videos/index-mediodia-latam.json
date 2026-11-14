@@ -1,44 +1,37 @@
 {
- "date": "2026-11-13",
+ "date": "2026-11-14",
  "edition": "latam",
- "duration": 64.9,
+ "duration": 51.2,
  "script_source": "IA (deepseek-chat)",
- "hook": "Perfumes, relojes y tenis: la moda que deja huella hoy",
+ "hook": "Marta Fort deslumbra en Buenos Aires y la moda se llena de nostalgia",
  "items": [
   {
-   "title": "Los perfumes más seductores de Tom Ford",
-   "headline": "Los 11 perfumes de Tom Ford más seductores de larga duración para dejar huella en una cita romántica",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/mejores-perfumes-tom-ford-para-cita-romantica",
+   "title": "Marta Fort deslumbra en Buenos Aires",
+   "headline": "Marta Fort desfiló en el recital de María Becerra con un sensual look negro de Vero de la Canal",
+   "source": "Para Ti",
+   "link": "https://www.parati.com.ar/moda/marta-fort-desfilo-en-el-recital-de-maria-becerra-con-un-sensual-look-negro-de-vero-de-la-canal/",
    "photo_credit": null
   },
   {
-   "title": "Mido Multifort 8 One Crown en negro",
-   "headline": "Mido Multifort 8 One Crown: El reloj negro que combina elegancia deportiva y 80 horas de autonomía",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/reloj-mido-multifort-8-one-crown-m0555073705100-precio-disponibilidad-13-11-2026",
+   "title": "Ripley Beauty abre nuevo espacio",
+   "headline": "Ripley Beauty inaugura nuevo espacio en concurrido centro comercial: ¿dónde se ubica y qué ofrece?",
+   "source": "Perú Retail",
+   "link": "https://www.peru-retail.com/ripley-beauty-inaugura-nuevo-espacio-en-reconocido-centro-comercial-donde-se-ubica-y-que-ofrece/",
    "photo_credit": null
   },
   {
-   "title": "Tenis Adidas VL Court bajo 900 pesos",
-   "headline": "Adidas remata tenis VL Court Original Sneakers para hombre, color gris, tan versátiles como Samba: cuestan menos de 900 pesos con cupón",
+   "title": "Puma y Stranger Things en México",
+   "headline": "Puma lanza colaboración con Stranger Things y convierte el universo del Upside Down en una colección de tenis, ropa y accesorios",
    "source": "Merca2.0",
-   "link": "https://www.merca20.com/adidas-remata-tenis-vl-court-original-sneakers-para-hombre-color-gris-tan-versatiles-como-samba-cuestan-menos-de-900-pesos-con-cupon/",
+   "link": "https://www.merca20.com/puma-lanza-colaboracion-con-stranger-things-y-convierte-el-universo-del-upside-down-en-una-coleccion-de-tenis-ropa-y-accesorios/",
    "photo_credit": null
   },
   {
-   "title": "TAG Heuer de lujo en edición limitada",
-   "headline": "TAG Heuer Aquaracer Professional 300 x Time+Tide Sundowner II: Titanio y oro rosa en un reloj de buceo de edición limitada de lujo",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/reloj-tag-heuer-aquaracer-professional-300-x-timetide-sundowner-ii-wbp5185bf0010-wbp5184ft6257-precio-disponibilidad-13-11-2026",
-   "photo_credit": null
-  },
-  {
-   "title": "Nike Air Force 1 Low Germany",
-   "headline": "Nike Air Force 1 Low Germany: Los tenis blancos de piel con diseño sofisticado que rinden homenaje a la selección alemana",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/tenis-nike-air-force-1-low-germany-precio-fotos-lanzamiento-13-11-2026",
-   "photo_credit": null
+   "title": "Bratz abre pop-up en México",
+   "headline": "La celebración más esperada de la moda y la nostalgia: Bratz® abre su primera Pop-up Store en México",
+   "source": "Hoja de Ruta Digital",
+   "link": "https://hojaderutadigital.mx/la-celebracion-mas-esperada-de-la-moda-y-la-nostalgia-bratz-abre-su-primera-pop-up-store-en-mexico/",
+   "photo_credit": "Foto: Howdy, I'm H. Michael Karshis · CC BY 2.0"
   }
  ]
 }

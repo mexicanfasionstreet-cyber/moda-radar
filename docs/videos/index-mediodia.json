@@ -1,43 +1,43 @@
 {
- "date": "2026-11-13",
+ "date": "2026-11-14",
  "edition": "general",
- "duration": 66.0,
+ "duration": 63.4,
  "script_source": "IA (deepseek-chat)",
- "hook": "Burberry recupera rentabilidad con cinco trimestres de crecimiento en ventas",
+ "hook": "Maybelline cambia su eslogan y Nike domina la jornada",
  "items": [
   {
-   "title": "Burberry acelera su recuperación",
-   "headline": "Burberry profits jump as turnaround delivers fifth consecutive quarter of sales growth",
+   "title": "Nuevo eslogan de Maybelline divide",
+   "headline": "What’s. The Deal. With Maybelline’s. New Slogan.",
+   "source": "NYT",
+   "link": "https://www.nytimes.com/2026/11/13/style/maybe-its-maybelline-slogan.html",
+   "photo_credit": null
+  },
+  {
+   "title": "Nike estrena Air Max en tonos otoño",
+   "headline": "Nike Adds to Its Premium Air Max Releases With a Previously Unseen New Colorway That’s Available Now",
+   "source": "WWD",
+   "link": "https://wwd.com/footwear-news/sneaker-news/nike-air-max-90-sp-dark-russet-mesa-orange-iv4504-200-1239416590/",
+   "photo_credit": null
+  },
+  {
+   "title": "16 pujas por local en Oxford Street",
+   "headline": "16 bidders circle former House of Fraser site on Oxford Street",
    "source": "The Industry",
-   "link": "https://www.theindustry.fashion/burberry-profits-jump-as-turnaround-delivers-fifth-consecutive-quarter-of-sales-growth/",
+   "link": "https://www.theindustry.fashion/16-bidders-circle-former-house-of-fraser-site-on-oxford-street/",
    "photo_credit": null
   },
   {
-   "title": "Minoristas independientes bajo presión",
-   "headline": "Domino Style: ‘Independent retail has reached a critical pressure point’",
-   "source": "Drapers",
-   "link": "https://www.drapersonline.com/insight/comment/domino-style-independent-retail-has-reached-a-critical-pressure-point",
-   "photo_credit": null
-  },
-  {
-   "title": "Egipto avanza en manufactura",
-   "headline": "Egypt Is Gaining Ground. Can It Keep the Momentum?",
+   "title": "Nocta y Nike estrenan tecnología",
+   "headline": "Drake’s Nocta Brand Will Debut a New Nike Technology on Its Next Sneaker Release",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/trade/egypt-apparel-exports-eu-us-aece-global-trade-tariffs-1239416067/",
+   "link": "https://wwd.com/footwear-news/sneaker-news/nocta-nike-air-modmax-pink-spell-iq6711-600-release-date-1239416635/",
    "photo_credit": null
   },
   {
-   "title": "Sqairz redefine el calzado deportivo",
-   "headline": "Sqairz is Challenging What Performance Shoes Should Look Like",
+   "title": "Skarsgård brilla con COS",
+   "headline": "Alexander Skarsgård Glistens In Liquid Satin COS Men’s Shirt with Dusty Pink Cummerbund",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-industry-news/sqairz-square-toe-performance-footwear-golf-sports-1239408310/",
-   "photo_credit": null
-  },
-  {
-   "title": "Sease apuesta por womenswear",
-   "headline": "Sease Gets Serious About Womenswear Ambitions",
-   "source": "WWD",
-   "link": "https://wwd.com/fashion-news/fashion-features/franco-loro-piana-sease-expansion-womenswear-collection-retail-1239415613/",
+   "link": "https://wwd.com/pop-culture/celebrity-news/alexander-skarsgard-satin-cos-mens-shirt-hamilton-awards-1239416644/",
    "photo_credit": null
   }
  ]
