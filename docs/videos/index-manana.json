@@ -1,43 +1,43 @@
 {
- "date": "2026-11-13",
+ "date": "2026-11-14",
  "edition": "general",
- "duration": 65.3,
+ "duration": 70.9,
  "script_source": "IA (deepseek-chat)",
- "hook": "Moda hoy: fallece un creativo clave y el lujo mira su legado",
+ "hook": "Asics cae en bolsa y M&S entra al crédito flexible",
  "items": [
   {
-   "title": "Creed apuesta por su herencia",
-   "headline": "EXCLUSIVE: Creed’s Future Focus Is Informed By Its Heritage",
+   "title": "Asics cae tras resultados del trimestre",
+   "headline": "Asics Shares Down on Q3 Report",
    "source": "WWD",
-   "link": "https://wwd.com/beauty-industry-news/fragrance/creed-future-focus-informed-by-heritage-loreal-perfume-1239414634/",
+   "link": "https://wwd.com/footwear-news/shoe-industry-news/asics-q3-results-operating-guidance-fell-shares-declined-1239411387/",
    "photo_credit": null
   },
   {
-   "title": "Gasto navideño se mantiene firme",
-   "headline": "Holiday Spending Remains Resilient Despite Financial Pressure",
-   "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/industry-news/holiday-spending-remains-resilient-despite-pressure-1239413381/",
+   "title": "M&S prepara su propio crédito",
+   "headline": "M&S to launch 'M&S Pay' credit scheme as it takes on NEXT and Frasers",
+   "source": "The Industry",
+   "link": "https://www.theindustry.fashion/ms-to-launch-ms-pay-credit-scheme-as-it-takes-on-next-and-frasers/",
    "photo_credit": null
   },
   {
-   "title": "Muere Alfonso Pérez a los 51",
-   "headline": "Alfonso Pérez, director creativo de Ángel Schlesser, fallece a los 51 años",
-   "source": "Vogue ES",
-   "link": "https://www.vogue.es/articulos/alfonso-perez-director-creativo-angel-schlesser-fallece",
+   "title": "Choque de buque en Nueva Orleans",
+   "headline": "Tanker Hits Docked Cruise Ship Near Port NOLA, 30+ Hospitalized",
+   "source": "WWD",
+   "link": "https://wwd.com/sourcing-journal/logistics/new-orleans-tanker-hits-docked-cruise-ship-port-nola-mississippi-river-1239416406/",
    "photo_credit": null
   },
   {
-   "title": "Diamantes con trazabilidad ambiciosa",
-   "headline": "Sophie Bille Brahe Marks 15 Years With an Ambitious Diamond Traceability Strategy",
-   "source": "WWD",
-   "link": "https://wwd.com/accessories-news/jewelry/sophie-bille-brahe-anniversary-diamond-traceability-b-corp-1239403698/",
+   "title": "Inditex impulsa fondo climático",
+   "headline": "Editors' Top Reads: News from Inditex, Clarks, Paul Costelloe and more...",
+   "source": "The Industry",
+   "link": "https://www.theindustry.fashion/editors-top-reads-news-from-inditex-clarks-paul-costelloe-and-more/",
    "photo_credit": null
   },
   {
-   "title": "Holt Renfrew apuesta por hoteles",
-   "headline": "Holt Renfrew Gives a Hotel Theme to its Holiday Campaign",
+   "title": "Adriana Lima vuelve a la pasarela",
+   "headline": "Adriana Lima Returns to the Runway With Femme Fatale Glam",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/retail/holt-renfrew-holiday-campaign-hotel-theme-1239413016/",
+   "link": "https://wwd.com/pop-culture/celebrity-news/adriana-lima-ferrari-femme-fatale-glam-1239416216/",
    "photo_credit": null
   }
  ]
