@@ -1,43 +1,43 @@
 {
- "date": "2026-11-12",
+ "date": "2026-11-13",
  "edition": "general",
- "duration": 68.9,
+ "duration": 72.9,
  "script_source": "IA (deepseek-chat)",
- "hook": "Burberry supera a sus pares y crece 6% en un mercado difícil",
+ "hook": "India obtendría aranceles más bajos que sus competidores en acuerdo comercial con EE.UU.",
  "items": [
   {
-   "title": "Burberry crece 6% y supera al lujo",
-   "headline": "Burberry Races Past Peers, Bucks Luxury Trend With 6% Rise in First-Half Revenue, Profit Growth",
+   "title": "India con aranceles más bajos",
+   "headline": "US Promises India Will See Lower Tariffs Than Competitors in Trade Deal",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/business-features/burberry-bucks-luxury-six-percent-first-half-revenue-growth-1239413615/",
+   "link": "https://wwd.com/sourcing-journal/trade/india-tariffs-trade-deal-trump-modi-g20-russia-1239416374/",
    "photo_credit": null
   },
   {
-   "title": "Nobody's Child abre su primer outlet",
-   "headline": "Nobody’s Child to open first outlet",
-   "source": "Drapers",
-   "link": "https://www.drapersonline.com/news/nobodys-child-to-open-first-outlet",
+   "title": "Compras en vivo de lujo",
+   "headline": "EBay Is Hosting Luxury Live Shopping for the Holidays",
+   "source": "WWD",
+   "link": "https://wwd.com/fashion-news/fashion-scoops/ebay-live-luxury-shopping-event-designer-bags-watches-1239416111/",
    "photo_credit": null
   },
   {
-   "title": "Presión por salarios justos en Bangladesh",
-   "headline": "Will Fashion Brands Back Higher Wages in Bangladesh?",
+   "title": "Crisis en Bangladesh",
+   "headline": "On the Line: What’s Going on in Bangladesh?",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/sustainability/bangladesh-wage-protest-fashion-brands-clean-clothes-campaign-1239414418/",
+   "link": "https://wwd.com/sourcing-journal/sustainability/on-the-line-bangladesh-garment-worker-minimum-wage-protest-1239416201/",
    "photo_credit": null
   },
   {
-   "title": "México responde a amenaza arancelaria",
-   "headline": "Mexican Leader Pushes Back on Trump’s Threat to Double Duties Over Migrant Caravan Claim",
+   "title": "Vuelos cancelados en EE.UU.",
+   "headline": "Nationwide Ground Stop Freezes US Flights, Backs Up Air Cargo",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/trade/claudia-sheinbaum-mexico-tariffs-trump-steel-usmca-1239414399/",
+   "link": "https://wwd.com/sourcing-journal/logistics/faa-nationwide-us-ground-stop-stoppage-air-cargo-freight-ups-fedex-1239416489/",
    "photo_credit": null
   },
   {
-   "title": "Marimekko y Veja lanzan zapatillas",
-   "headline": "Marimekko Brings Its Popkorni Print to Veja’s Salar and Small Canary Sneaker Models",
+   "title": "Halle Bailey en GQ",
+   "headline": "Halle Bailey Brings Daring Asymmetrical Le Silla Pumps to the 2026 GQ Men of the Year Red Carpet",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/veja-marimekko-salar-small-canary-sneakers-release-date-1239414248/",
+   "link": "https://wwd.com/footwear-news/shoe-trends/halle-bailey-le-silla-futura-pump-2026-gq-men-of-the-year-1239416105/",
    "photo_credit": null
   }
  ]
