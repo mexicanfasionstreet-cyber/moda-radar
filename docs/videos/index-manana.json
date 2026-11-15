@@ -1,43 +1,43 @@
 {
- "date": "2026-11-14",
+ "date": "2026-11-15",
  "edition": "general",
- "duration": 70.9,
+ "duration": 78.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "Asics cae en bolsa y M&S entra al crédito flexible",
+ "hook": "Bally en liquidación judicial en Italia mientras su reestructuración suiza se extiende",
  "items": [
   {
-   "title": "Asics cae tras resultados del trimestre",
-   "headline": "Asics Shares Down on Q3 Report",
+   "title": "Bally Italia en liquidación judicial",
+   "headline": "Bally’s Italian Units Face Liquidation as Milan Stock Sale Begins",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-industry-news/asics-q3-results-operating-guidance-fell-shares-declined-1239411387/",
+   "link": "https://wwd.com/business-news/business-features/bally-italian-liquidation-swiss-restructuring-extended-1239414752/",
    "photo_credit": null
   },
   {
-   "title": "M&S prepara su propio crédito",
-   "headline": "M&S to launch 'M&S Pay' credit scheme as it takes on NEXT and Frasers",
-   "source": "The Industry",
-   "link": "https://www.theindustry.fashion/ms-to-launch-ms-pay-credit-scheme-as-it-takes-on-next-and-frasers/",
-   "photo_credit": null
-  },
-  {
-   "title": "Choque de buque en Nueva Orleans",
-   "headline": "Tanker Hits Docked Cruise Ship Near Port NOLA, 30+ Hospitalized",
+   "title": "Dorado texturizado en Baby2Baby",
+   "headline": "Katy Perry, Jackie Tohn, Olandria Carthen and More Go for Textured Gold at the 2026 Baby2Baby Gala",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/logistics/new-orleans-tanker-hits-docked-cruise-ship-port-nola-mississippi-river-1239416406/",
+   "link": "https://wwd.com/pop-culture/celebrity-news/baby2baby-gala-2026-textured-gold-dress-trend-1239417167/",
    "photo_credit": null
   },
   {
-   "title": "Inditex impulsa fondo climático",
-   "headline": "Editors' Top Reads: News from Inditex, Clarks, Paul Costelloe and more...",
-   "source": "The Industry",
-   "link": "https://www.theindustry.fashion/editors-top-reads-news-from-inditex-clarks-paul-costelloe-and-more/",
+   "title": "Ofertas tempranas en Nordstrom",
+   "headline": "If Your Vibe Is Expensive-Looking and Your Budget Is $150, Here's What to Buy From Nordstrom's Early Black Friday Deals",
+   "source": "WhoWhatWear",
+   "link": "https://www.whowhatwear.com/fashion/shopping/nordstrom-early-black-friday-2026",
    "photo_credit": null
   },
   {
-   "title": "Adriana Lima vuelve a la pasarela",
-   "headline": "Adriana Lima Returns to the Runway With Femme Fatale Glam",
+   "title": "Palvin y sus zapatos adornados",
+   "headline": "Barbara Palvin Joins the Embellished Shoe Trend in Giuseppe Zanotti Pumps at the 2026 Baby2Baby Gala",
    "source": "WWD",
-   "link": "https://wwd.com/pop-culture/celebrity-news/adriana-lima-ferrari-femme-fatale-glam-1239416216/",
+   "link": "https://wwd.com/footwear-news/shoe-trends/barbara-palvin-giuseppe-zanotti-pumps-2026-baby2baby-gala-1239417141/",
+   "photo_credit": null
+  },
+  {
+   "title": "Cardi B y plumas de alta costura",
+   "headline": "Cardi B Goes All In on Feathered Drama With Tamara Ralph Couture at the 2026 Baby2Baby Gala",
+   "source": "WWD",
+   "link": "https://wwd.com/pop-culture/celebrity-news/cardi-b-tamara-ralph-feather-hat-dress-2026-baby2baby-gala-1239417066/",
    "photo_credit": null
   }
  ]
