@@ -1,43 +1,43 @@
 {
- "date": "2026-11-13",
+ "date": "2026-11-14",
  "edition": "general",
- "duration": 72.9,
+ "duration": 67.5,
  "script_source": "IA (deepseek-chat)",
- "hook": "India obtendría aranceles más bajos que sus competidores en acuerdo comercial con EE.UU.",
+ "hook": "LuisaViaRoma cambia de dueño y la moda brilla en los Latin Grammy",
  "items": [
   {
-   "title": "India con aranceles más bajos",
-   "headline": "US Promises India Will See Lower Tariffs Than Competitors in Trade Deal",
+   "title": "LuisaViaRoma vendida a inversores",
+   "headline": "LuisaViaRoma Sold to White Knight Investors Behind ATO",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/trade/india-tariffs-trade-deal-trump-modi-g20-russia-1239416374/",
+   "link": "https://wwd.com/business-news/mergers-acquisitions/luisaviaroma-sold-ato-spa-1239414587/",
    "photo_credit": null
   },
   {
-   "title": "Compras en vivo de lujo",
-   "headline": "EBay Is Hosting Luxury Live Shopping for the Holidays",
+   "title": "Camila Cabello y sus mules",
+   "headline": "Camila Cabello Embellishes Paris Texas’ Lidia Mules with Rosary Anklet at the 27th Annual Latin Grammy Awards",
    "source": "WWD",
-   "link": "https://wwd.com/fashion-news/fashion-scoops/ebay-live-luxury-shopping-event-designer-bags-watches-1239416111/",
+   "link": "https://wwd.com/footwear-news/shoe-trends/camila-cabello-lidia-mules-rosary-anklet-latin-grammys-1239416664/",
    "photo_credit": null
   },
   {
-   "title": "Crisis en Bangladesh",
-   "headline": "On the Line: What’s Going on in Bangladesh?",
+   "title": "Barbaro en Brandon Maxwell",
+   "headline": "Monica Barbaro Contrasts in Plunging Black and White Brandon Maxwell Gown for GQ’s Men of the Year Party",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/sustainability/on-the-line-bangladesh-garment-worker-minimum-wage-protest-1239416201/",
+   "link": "https://wwd.com/pop-culture/celebrity-news/monica-barbaro-brandon-maxwell-gown-gq-men-of-the-year-1239416679/",
    "photo_credit": null
   },
   {
-   "title": "Vuelos cancelados en EE.UU.",
-   "headline": "Nationwide Ground Stop Freezes US Flights, Backs Up Air Cargo",
-   "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/logistics/faa-nationwide-us-ground-stop-stoppage-air-cargo-freight-ups-fedex-1239416489/",
+   "title": "El secreto de boda de Beyoncé",
+   "headline": "Beyoncé Opens Up About How She and Jay-Z Kept Their Intimate Wedding Secret, Even From Guests",
+   "source": "Elle",
+   "link": "https://www.elle.com/culture/celebrities/a74430998/beyonce-jay-z-wedding-details-interview-2026/",
    "photo_credit": null
   },
   {
-   "title": "Halle Bailey en GQ",
-   "headline": "Halle Bailey Brings Daring Asymmetrical Le Silla Pumps to the 2026 GQ Men of the Year Red Carpet",
-   "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-trends/halle-bailey-le-silla-futura-pump-2026-gq-men-of-the-year-1239416105/",
+   "title": "Midgley nueva jefa de disciplina",
+   "headline": "Chief Whip Anneliese Midgley: “The Labour Party Needed To Be Saved”",
+   "source": "Vogue UK",
+   "link": "https://www.vogue.co.uk/article/anneliese-midgley-interview",
    "photo_credit": null
   }
  ]

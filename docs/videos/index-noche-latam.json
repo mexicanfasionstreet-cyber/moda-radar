@@ -1,29 +1,29 @@
 {
- "date": "2026-11-13",
+ "date": "2026-11-14",
  "edition": "latam",
- "duration": 39.9,
+ "duration": 44.1,
  "script_source": "IA (deepseek-chat)",
- "hook": "Marcas de moda apuestan por emociones en Navidad",
+ "hook": "Relojes de lujo y pasarelas marcan la moda de hoy",
  "items": [
   {
-   "title": "Navidad emocional en la moda",
-   "headline": "¿Por qué las marcas de moda apuestan por campañas más emocionales en Navidad?",
+   "title": "Olise y su Richard Mille millonario",
+   "headline": "Michael Olise luce un Richard Mille ultradelgado de titanio con correa azul que cuesta millones de pesos",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/michael-olise-reloj-richard-mille-67-01-automatic-extra-flat-rm-67-01-precio-disponibilidad-12-11-2026",
+   "photo_credit": null
+  },
+  {
+   "title": "Pasarelas que cuentan historias SS2027",
+   "headline": "Cuando las pasarelas nos cuentan historias SS2027",
+   "source": "Marie Claire MX",
+   "link": "https://marieclaire.com.mx/historias-pasarelas-ss27/",
+   "photo_credit": null
+  },
+  {
+   "title": "Detienen a exfutbolista por relojes falsos",
+   "headline": "Who is Pedro Hernandez, the former Mexican soccer player arrested for allegedly trafficking $5.4 million in counterfeit luxury watches?",
    "source": "Merca2.0",
-   "link": "https://www.merca20.com/por-que-las-marcas-como-aerie-apuestan-por-campanas-mas-emocionales-en-navidad/",
-   "photo_credit": null
-  },
-  {
-   "title": "Bangladés llama a la calma",
-   "headline": "Bangladés: los sindicatos del sector textil llaman a una vuelta a la calma",
-   "source": "FashionNetwork México",
-   "link": "https://mx.fashionnetwork.com/news/Banglades-los-sindicatos-del-sector-textil-llaman-a-una-vuelta-a-la-calma,1884971.html",
-   "photo_credit": null
-  },
-  {
-   "title": "Protesta por pasarela en Catedral",
-   "headline": "Con flores y oraciones, católicos exigen disculpa a arzobispo Víctor Sánchez por pasarela en la Catedral (VIDEO)",
-   "source": "Diario Cambio",
-   "link": "https://www.diariocambio.com.mx/2026/puebla/con-flores-y-oraciones-catolicos-exigen-disculpa-a-arzobispo-victor-sanchez-por-pasarela-en-la-catedral-video/",
+   "link": "https://www.merca20.com/who-is-pedro-hernandez-the-former-mexican-soccer-player-arrested-for-allegedly-trafficking-5-4-million-in-counterfeit-luxury-watches/",
    "photo_credit": null
   }
  ]
