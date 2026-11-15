@@ -1,43 +1,43 @@
 {
- "date": "2026-11-14",
+ "date": "2026-11-15",
  "edition": "general",
- "duration": 63.4,
+ "duration": 67.5,
  "script_source": "IA (deepseek-chat)",
- "hook": "Maybelline cambia su eslogan y Nike domina la jornada",
+ "hook": "Burberry vuelve a beneficios con su estrategia de productos icónicos",
  "items": [
   {
-   "title": "Nuevo eslogan de Maybelline divide",
-   "headline": "What’s. The Deal. With Maybelline’s. New Slogan.",
-   "source": "NYT",
-   "link": "https://www.nytimes.com/2026/11/13/style/maybe-its-maybelline-slogan.html",
+   "title": "Burberry vuelve a beneficios",
+   "headline": "Burberry returns to profit as sales soar, from £85 socks to £9,000 coats",
+   "source": "Guardian",
+   "link": "https://www.theguardian.com/business/2026/nov/12/burberry-profit-sales-socks-bags-china-us",
    "photo_credit": null
   },
   {
-   "title": "Nike estrena Air Max en tonos otoño",
-   "headline": "Nike Adds to Its Premium Air Max Releases With a Previously Unseen New Colorway That’s Available Now",
+   "title": "Jessica Alba en Baby2Baby",
+   "headline": "Jessica Alba Wears Brandon Maxwell Gown at Baby2Baby Gala in Los Angeles",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/nike-air-max-90-sp-dark-russet-mesa-orange-iv4504-200-1239416590/",
+   "link": "https://wwd.com/pop-culture/celebrity-news/jessica-alba-brandon-maxwell-baby2baby-gala-in-los-angeles-1239417285/",
    "photo_credit": null
   },
   {
-   "title": "16 pujas por local en Oxford Street",
-   "headline": "16 bidders circle former House of Fraser site on Oxford Street",
-   "source": "The Industry",
-   "link": "https://www.theindustry.fashion/16-bidders-circle-former-house-of-fraser-site-on-oxford-street/",
-   "photo_credit": null
-  },
-  {
-   "title": "Nocta y Nike estrenan tecnología",
-   "headline": "Drake’s Nocta Brand Will Debut a New Nike Technology on Its Next Sneaker Release",
+   "title": "Kith y Clarks artesanales",
+   "headline": "Kith’s Artisanal Clarks Wallabee Collaboration With Proleta Re Art Took Three Years to Make",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/nocta-nike-air-modmax-pink-spell-iq6711-600-release-date-1239416635/",
+   "link": "https://wwd.com/footwear-news/sneaker-news/proleta-re-art-kith-clarks-originals-wallabee-release-date-1239417339/",
    "photo_credit": null
   },
   {
-   "title": "Skarsgård brilla con COS",
-   "headline": "Alexander Skarsgård Glistens In Liquid Satin COS Men’s Shirt with Dusty Pink Cummerbund",
+   "title": "Kerry Washington en dorado",
+   "headline": "Kerry Washington Twirls in Metallic Gold Gianvito Rossi Sandals at the 2026 Baby2Baby Gala",
    "source": "WWD",
-   "link": "https://wwd.com/pop-culture/celebrity-news/alexander-skarsgard-satin-cos-mens-shirt-hamilton-awards-1239416644/",
+   "link": "https://wwd.com/footwear-news/shoe-trends/kerry-washington-gold-gianvito-rossi-sandals-baby2baby-gala-1239416964/",
+   "photo_credit": null
+  },
+  {
+   "title": "Ofertas de joyería Black Friday",
+   "headline": "The Best Early Black Friday Jewelry Deals of 2026 to Gift (or Keep for Yourself)",
+   "source": "Elle",
+   "link": "https://www.elle.com/fashion/shopping/a74425386/black-friday-jewelry-deals-2026/",
    "photo_credit": null
   }
  ]
