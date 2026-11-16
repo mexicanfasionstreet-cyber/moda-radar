@@ -1,29 +1,36 @@
 {
- "date": "2026-11-14",
+ "date": "2026-11-15",
  "edition": "latam",
- "duration": 44.1,
+ "duration": 59.4,
  "script_source": "IA (deepseek-chat)",
- "hook": "Relojes de lujo y pasarelas marcan la moda de hoy",
+ "hook": "Rosalía, Puebla y ofertas marcan la moda de hoy",
  "items": [
   {
-   "title": "Olise y su Richard Mille millonario",
-   "headline": "Michael Olise luce un Richard Mille ultradelgado de titanio con correa azul que cuesta millones de pesos",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/michael-olise-reloj-richard-mille-67-01-automatic-extra-flat-rm-67-01-precio-disponibilidad-12-11-2026",
-   "photo_credit": null
-  },
-  {
-   "title": "Pasarelas que cuentan historias SS2027",
-   "headline": "Cuando las pasarelas nos cuentan historias SS2027",
-   "source": "Marie Claire MX",
-   "link": "https://marieclaire.com.mx/historias-pasarelas-ss27/",
-   "photo_credit": null
-  },
-  {
-   "title": "Detienen a exfutbolista por relojes falsos",
-   "headline": "Who is Pedro Hernandez, the former Mexican soccer player arrested for allegedly trafficking $5.4 million in counterfeit luxury watches?",
+   "title": "Rosalía y New Balance se unen",
+   "headline": "Rosalía y New Balance: la estrategia detrás de una alianza que mezcla música y moda",
    "source": "Merca2.0",
-   "link": "https://www.merca20.com/who-is-pedro-hernandez-the-former-mexican-soccer-player-arrested-for-allegedly-trafficking-5-4-million-in-counterfeit-luxury-watches/",
+   "link": "https://www.merca20.com/rosalia-y-new-balance-la-estrategia-detras-de-una-alianza-que-mezcla-musica-y-moda/",
+   "photo_credit": null
+  },
+  {
+   "title": "Roma inspira arte y diseño",
+   "headline": "La otra Roma: Arte, diseño y el encanto de la dolce vita",
+   "source": "Marie Claire MX",
+   "link": "https://marieclaire.com.mx/roma-arte-gastronomia-y-diseno/",
+   "photo_credit": null
+  },
+  {
+   "title": "Hugo Boss Bottled con descuento",
+   "headline": "Perfume Hugo Boss Bottled para hombre original, con 36% de descuento: cuesta 834 pesos y con cupón baja a 684 pesos",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/perfume-hugo-boss-bottled-para-hombre-original-con-36-de-descuento-cuesta-834-pesos-y-con-cupon-baja-a-684-pesos/",
+   "photo_credit": null
+  },
+  {
+   "title": "Rosario por pasarela en Puebla",
+   "headline": "Feligreses piden perdón con rosario por pasarela de moda en la Catedral de Puebla",
+   "source": "El Universal Puebla",
+   "link": "https://www.eluniversalpuebla.com.mx/viral/feligreses-piden-perdon-con-rosario-por-pasarela-de-moda-en-la-catedral-de-puebla/",
    "photo_credit": null
   }
  ]
