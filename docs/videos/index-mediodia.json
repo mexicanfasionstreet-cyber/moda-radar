@@ -1,43 +1,43 @@
 {
- "date": "2026-11-15",
+ "date": "2026-11-16",
  "edition": "general",
- "duration": 67.5,
+ "duration": 66.2,
  "script_source": "IA (deepseek-chat)",
- "hook": "Burberry vuelve a beneficios con su estrategia de productos icónicos",
+ "hook": "Kim Jones y Bosideng, James Bond y la moda con IA marcan el día",
  "items": [
   {
-   "title": "Burberry vuelve a beneficios",
-   "headline": "Burberry returns to profit as sales soar, from £85 socks to £9,000 coats",
-   "source": "Guardian",
-   "link": "https://www.theguardian.com/business/2026/nov/12/burberry-profit-sales-socks-bags-china-us",
-   "photo_credit": null
-  },
-  {
-   "title": "Jessica Alba en Baby2Baby",
-   "headline": "Jessica Alba Wears Brandon Maxwell Gown at Baby2Baby Gala in Los Angeles",
+   "title": "Carga aérea resiste la pausa",
+   "headline": "FAA Ground Stop: Air Freight Disruption Minimal, Recovery Quick",
    "source": "WWD",
-   "link": "https://wwd.com/pop-culture/celebrity-news/jessica-alba-brandon-maxwell-baby2baby-gala-in-los-angeles-1239417285/",
+   "link": "https://wwd.com/sourcing-journal/logistics/faa-ground-stop-air-cargo-freight-damage-minimal-recovery-quick-xeneta-1239419293/",
    "photo_credit": null
   },
   {
-   "title": "Kith y Clarks artesanales",
-   "headline": "Kith’s Artisanal Clarks Wallabee Collaboration With Proleta Re Art Took Three Years to Make",
+   "title": "Areal de Bosideng bajo críticas",
+   "headline": "Kim Jones’ Areal Line for Bosideng Faces Cold Reception Online",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/proleta-re-art-kith-clarks-originals-wallabee-release-date-1239417339/",
+   "link": "https://wwd.com/business-news/retail/kim-jones-areal-bosideng-singles-day-1239417536/",
    "photo_credit": null
   },
   {
-   "title": "Kerry Washington en dorado",
-   "headline": "Kerry Washington Twirls in Metallic Gold Gianvito Rossi Sandals at the 2026 Baby2Baby Gala",
+   "title": "Mazarine refuerza su contenido",
+   "headline": "Mazarine Appoints Nathalie Avedissian to Head Content and Strategy Division",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-trends/kerry-washington-gold-gianvito-rossi-sandals-baby2baby-gala-1239416964/",
+   "link": "https://wwd.com/business-news/human-resources/mazarine-nathalie-avedissian-content-strategy-lead-1239418607/",
    "photo_credit": null
   },
   {
-   "title": "Ofertas de joyería Black Friday",
-   "headline": "The Best Early Black Friday Jewelry Deals of 2026 to Gift (or Keep for Yourself)",
-   "source": "Elle",
-   "link": "https://www.elle.com/fashion/shopping/a74425386/black-friday-jewelry-deals-2026/",
+   "title": "Pattinson es el nuevo 007",
+   "headline": "Robert Pattinson Is the Next James Bond",
+   "source": "WWD",
+   "link": "https://wwd.com/pop-culture/celebrity-news/robert-pattinson-james-bond-007-movies-1239418859/",
+   "photo_credit": null
+  },
+  {
+   "title": "Alessi apuesta por la IA",
+   "headline": "How AI Helped Alessi’s ‘Dreamers’ Holiday Campaign Come to Life",
+   "source": "WWD",
+   "link": "https://wwd.com/home-design/home-decor/how-ai-shaped-alessi-holiday-2026-campaign-1239418483/",
    "photo_credit": null
   }
  ]
