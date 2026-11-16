@@ -1,43 +1,43 @@
 {
- "date": "2026-11-15",
+ "date": "2026-11-16",
  "edition": "general",
- "duration": 78.0,
+ "duration": 76.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "Bally en liquidación judicial en Italia mientras su reestructuración suiza se extiende",
+ "hook": "Republic compra Rebecca Minkoff y busca duplicar el negocio en 2027",
  "items": [
   {
-   "title": "Bally Italia en liquidación judicial",
-   "headline": "Bally’s Italian Units Face Liquidation as Milan Stock Sale Begins",
+   "title": "Republic adquiere Rebecca Minkoff",
+   "headline": "EXCLUSIVE: Republic Brands Group Acquires Rebecca Minkoff",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/business-features/bally-italian-liquidation-swiss-restructuring-extended-1239414752/",
+   "link": "https://wwd.com/business-news/markets/republic-brands-group-acquires-rebecca-minkoff-1239409455/",
    "photo_credit": null
   },
   {
-   "title": "Dorado texturizado en Baby2Baby",
-   "headline": "Katy Perry, Jackie Tohn, Olandria Carthen and More Go for Textured Gold at the 2026 Baby2Baby Gala",
+   "title": "Danielle Frankel abre flagship en NY",
+   "headline": "Danielle Frankel Opens New York Flagship",
    "source": "WWD",
-   "link": "https://wwd.com/pop-culture/celebrity-news/baby2baby-gala-2026-textured-gold-dress-trend-1239417167/",
+   "link": "https://wwd.com/business-news/retail/danielle-frankel-bridal-new-york-flagship-tribeca-wedding-1239413579/",
    "photo_credit": null
   },
   {
-   "title": "Ofertas tempranas en Nordstrom",
-   "headline": "If Your Vibe Is Expensive-Looking and Your Budget Is $150, Here's What to Buy From Nordstrom's Early Black Friday Deals",
-   "source": "WhoWhatWear",
-   "link": "https://www.whowhatwear.com/fashion/shopping/nordstrom-early-black-friday-2026",
+   "title": "Kate Middleton apuesta por moda sostenible",
+   "headline": "Kate Middleton Swaps Fall Layers for a Cobalt Blue Wimbledon Rewear on Her Return to India",
+   "source": "WWD",
+   "link": "https://wwd.com/pop-culture/celebrity-news/kate-middleton-roksanda-dress-india-trip-1239417677/",
    "photo_credit": null
   },
   {
-   "title": "Palvin y sus zapatos adornados",
-   "headline": "Barbara Palvin Joins the Embellished Shoe Trend in Giuseppe Zanotti Pumps at the 2026 Baby2Baby Gala",
+   "title": "Europa regula agentes de IA",
+   "headline": "European Commission’s New Proposal Wants to Rein in AI Agents",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-trends/barbara-palvin-giuseppe-zanotti-pumps-2026-baby2baby-gala-1239417141/",
+   "link": "https://wwd.com/sourcing-journal/industry-news/european-commission-eu-digital-fairness-act-1239416350/",
    "photo_credit": null
   },
   {
-   "title": "Cardi B y plumas de alta costura",
-   "headline": "Cardi B Goes All In on Feathered Drama With Tamara Ralph Couture at the 2026 Baby2Baby Gala",
+   "title": "JLo y el trend del cocodrilo",
+   "headline": "Jennifer Lopez Plays With Texture in Head-to-Toe Burgundy With Croc Print Tom Ford Pumps",
    "source": "WWD",
-   "link": "https://wwd.com/pop-culture/celebrity-news/cardi-b-tamara-ralph-feather-hat-dress-2026-baby2baby-gala-1239417066/",
+   "link": "https://wwd.com/footwear-news/shoe-trends/jennifer-lopez-tom-ford-croc-pumps-1239417654/",
    "photo_credit": null
   }
  ]

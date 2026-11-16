@@ -1,44 +1,44 @@
 {
- "date": "2026-11-13",
+ "date": "2026-11-16",
  "edition": "latam",
- "duration": 66.0,
+ "duration": 69.1,
  "script_source": "IA (deepseek-chat)",
- "hook": "SHEGLAM sorprende con calendario de adviento y Vogue México estrena editora",
+ "hook": "Falabella anuncia la mayor inversión de su historia y Vogue México estrena editora",
  "items": [
   {
-   "title": "SHEGLAM lanza calendario navideño",
-   "headline": "SHEGLAM lanza calendario de adviento con 12 productos sorpresa de belleza navideña",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/sheglam-lanza-calendario-de-adviento-con-12-productos-sorpresa-de-belleza-navidena/",
+   "title": "Falabella invierte 1.100 millones",
+   "headline": "Falabella invertirá más de 1.100 millones de dólares en 2027, el mayor plan de su historia",
+   "source": "Modaes",
+   "link": "https://www.modaes.com/empresas/falabella-invertira-mas-de-1100-millones-de-dolares-en-2027-el-mayor-plan-de-su-historia",
    "photo_credit": null
   },
   {
-   "title": "Nueva editora en Vogue México",
+   "title": "La Jaula de la Moda cumple 15 años",
+   "headline": "La Jaula de la Moda celebró sus 15 años con un desfile by Claudio Cosano",
+   "source": "Para Ti",
+   "link": "https://www.parati.com.ar/news/la-jaula-de-la-moda-celebro-sus-15-anos-con-un-desfile-by-claudio-cosano/",
+   "photo_credit": null
+  },
+  {
+   "title": "Natura vuelve a beneficios",
+   "headline": "La brasileña Natura vuelve a beneficios en el tercer trimestre pese a una caída de ingresos del 3",
+   "source": "FashionNetwork España",
+   "link": "https://es.fashionnetwork.com/news/La-brasilena-natura-vuelve-a-beneficios-en-el-tercer-trimestre-pese-a-una-caida-de-ingresos-del-3-,1885079.html",
+   "photo_credit": "Foto: simpleinsomnia · CC BY 2.0"
+  },
+  {
+   "title": "Nueva editora de Vogue México",
    "headline": "Atenea Morales de la Cruz Named Head of Editorial Content for Vogue Mexico and Latin America",
    "source": "The Business of Fashion",
    "link": "https://www.businessoffashion.com/news/global-markets/atenea-morales-cruz-head-editorial-content-vogue-mexico-latin-america/",
-   "photo_credit": null
+   "photo_credit": "Foto: Wonderlane · CC0"
   },
   {
-   "title": "Tendam crece en México",
-   "headline": "Tendam gana músculo en México con nuevas aperturas de Cortefiel, Hoss Intropia y Springfield",
-   "source": "FashionNetwork España",
-   "link": "https://es.fashionnetwork.com/news/Tendam-gana-musculo-en-mexico-con-nuevas-aperturas-de-cortefiel-hoss-intropia-y-springfield,1884855.html",
-   "photo_credit": null
-  },
-  {
-   "title": "Lola Casademunt abre en México",
-   "headline": "Lola Casademunt inaugura sus dos primeras tiendas propias en México y supera la quincena de puntos de venta en el país",
-   "source": "FashionNetwork España",
-   "link": "https://es.fashionnetwork.com/news/Lola-casademunt-inaugura-sus-dos-primeras-tiendas-propias-en-mexico-y-supera-la-quincena-de-puntos-de-venta-en-el-pais,1883478.html",
-   "photo_credit": null
-  },
-  {
-   "title": "Impulso textil en Aguascalientes",
-   "headline": "Tere Jiménez visita CLINIMEX y Maquilas Reytex para impulsar la industria textil de Aguascalientes",
-   "source": "El Sol de México",
-   "link": "https://oem.com.mx/elsoldelcentro/local/industria-textil-de-aguascalientes-gobernadora-recorre-empresas-de-confeccion-para-fortalecer-el-sector-33104989",
-   "photo_credit": null
+   "title": "Pasarela en Villahermosa",
+   "headline": "Miss Grand México enseñará pasarela en Villahermosa",
+   "source": "Tabasco HOY",
+   "link": "https://www.tabascohoy.com/miss-grand-mexico-ensenara-pasarela-en-villahermosa/",
+   "photo_credit": "Foto: kevin dooley · CC BY 2.0"
   }
  ]
 }
