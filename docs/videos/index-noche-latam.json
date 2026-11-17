@@ -1,37 +1,37 @@
 {
- "date": "2026-11-15",
+ "date": "2026-11-16",
  "edition": "latam",
- "duration": 59.4,
+ "duration": 55.2,
  "script_source": "IA (deepseek-chat)",
- "hook": "Rosalía, Puebla y ofertas marcan la moda de hoy",
+ "hook": "Artesanía mexicana, lujo suizo y moda navideña marcan la agenda",
  "items": [
   {
-   "title": "Rosalía y New Balance se unen",
-   "headline": "Rosalía y New Balance: la estrategia detrás de una alianza que mezcla música y moda",
+   "title": "Artesanos brillan en ORIGINAL 2026",
+   "headline": "Artesanos mexicanos brillan en la pasarela de ORIGINAL 2026",
+   "source": "Consulta Monterrey",
+   "link": "https://consultamonterrey.mx/entretenimiento/artesanos-mexicanos-original-2026/",
+   "photo_credit": null
+  },
+  {
+   "title": "TAG Heuer estrena edición limitada",
+   "headline": "TAG Heuer Aquaracer Professional 300 x Time+Tide Sundowner II: Titanio y oro rosa en un reloj de buceo de edición limitada de lujo",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/reloj-tag-heuer-aquaracer-professional-300-x-timetide-sundowner-ii-wbp5185bf0010-wbp5184ft6257-precio-disponibilidad-13-11-2026",
+   "photo_credit": null
+  },
+  {
+   "title": "Navidad, terreno de competencia",
+   "headline": "¿Por qué las marcas de moda apuestan por campañas más emocionales en Navidad?",
    "source": "Merca2.0",
-   "link": "https://www.merca20.com/rosalia-y-new-balance-la-estrategia-detras-de-una-alianza-que-mezcla-musica-y-moda/",
+   "link": "https://www.merca20.com/por-que-las-marcas-como-aerie-apuestan-por-campanas-mas-emocionales-en-navidad/",
    "photo_credit": null
   },
   {
-   "title": "Roma inspira arte y diseño",
-   "headline": "La otra Roma: Arte, diseño y el encanto de la dolce vita",
-   "source": "Marie Claire MX",
-   "link": "https://marieclaire.com.mx/roma-arte-gastronomia-y-diseno/",
-   "photo_credit": null
-  },
-  {
-   "title": "Hugo Boss Bottled con descuento",
-   "headline": "Perfume Hugo Boss Bottled para hombre original, con 36% de descuento: cuesta 834 pesos y con cupón baja a 684 pesos",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/perfume-hugo-boss-bottled-para-hombre-original-con-36-de-descuento-cuesta-834-pesos-y-con-cupon-baja-a-684-pesos/",
-   "photo_credit": null
-  },
-  {
-   "title": "Rosario por pasarela en Puebla",
-   "headline": "Feligreses piden perdón con rosario por pasarela de moda en la Catedral de Puebla",
-   "source": "El Universal Puebla",
-   "link": "https://www.eluniversalpuebla.com.mx/viral/feligreses-piden-perdon-con-rosario-por-pasarela-de-moda-en-la-catedral-de-puebla/",
-   "photo_credit": null
+   "title": "Tendam crece en México",
+   "headline": "Tendam gana músculo en México con nuevas aperturas de Cortefiel, Hoss Intropia y Springfield",
+   "source": "FashionNetwork España",
+   "link": "https://es.fashionnetwork.com/news/Tendam-gana-musculo-en-mexico-con-nuevas-aperturas-de-cortefiel-hoss-intropia-y-springfield,1884855.html",
+   "photo_credit": "Foto: Wonderlane · CC0"
   }
  ]
 }

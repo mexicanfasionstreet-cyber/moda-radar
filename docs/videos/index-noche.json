@@ -1,43 +1,43 @@
 {
- "date": "2026-11-15",
+ "date": "2026-11-16",
  "edition": "general",
- "duration": 64.1,
+ "duration": 67.4,
  "script_source": "IA (deepseek-chat)",
- "hook": "Nike apuesta al invierno y la moda se inspira en el mahjong",
+ "hook": "Nike enfrenta presión de JD Sports mientras la moda apuesta por nuevos materiales",
  "items": [
   {
-   "title": "Nike calienta el invierno",
-   "headline": "A Well-Dressed Winter Starts With Nike’s Latest Fleece and Outerwear, Perfect for Gifting (or Keeping)",
+   "title": "JD Sports presiona a Nike",
+   "headline": "JD Sports’ Top Leaders on What They Want to Hear From Nike at Investor Day",
    "source": "WWD",
-   "link": "https://wwd.com/shop/shop-fashion/best-nike-winter-clothes-holiday-gifts-2026-1239417442/",
+   "link": "https://wwd.com/footwear-news/shoe-features/jd-sports-ceo-nike-investor-day-predictions-interview-1239419819/",
    "photo_credit": null
   },
   {
-   "title": "Keke Palmer en dorado",
-   "headline": "Keke Palmer Shines in Metallic Gold Pumps at 2026 Kids’ Choice Awards",
+   "title": "Brett Johnson lanza womenswear",
+   "headline": "Brett Johnson Launches Womenswear, Opens Geneva Store",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-trends/keke-palmer-metallic-gold-pumps-2026-kids-choice-awards-1239417447/",
+   "link": "https://wwd.com/fashion-news/designer-luxury/brett-johnson-debuts-womenswear-geneva-store-1239417799/",
    "photo_credit": null
   },
   {
-   "title": "Lujo apuesta al mahjong",
-   "headline": "From Brunello Cucinelli to Ralph Lauren, Fashion Houses Capitalize on Mahjong Trend by Selling Luxury Kits Online",
+   "title": "Materiales sostenibles bajo presión",
+   "headline": "Next-Gen Materials Face a Commercial Reality Check",
    "source": "WWD",
-   "link": "https://wwd.com/shop/shop-home/best-designer-luxury-mahjong-game-sets-shop-online-1238466783/",
+   "link": "https://wwd.com/sourcing-journal/sustainability/next-gen-materials-sustainabelle-christine-goulay-1239419865/",
    "photo_credit": null
   },
   {
-   "title": "Arranque navideño en Palm Beach",
-   "headline": "Wes Gordon and Aerin Lauder Kick Off the Holidays at The Vineta in Palm Beach",
+   "title": "Beams y Adidas reinventan el loafer",
+   "headline": "Beams and Adidas Made an Original Loafer That’s Practically No Part Sneaker",
    "source": "WWD",
-   "link": "https://wwd.com/fashion-news/fashion-scoops/wes-gordon-aerin-lauder-holiday-party-1239416685/",
+   "link": "https://wwd.com/footwear-news/sneaker-news/beams-adidas-loafer-release-date-ki9246-hq0913-1239419501/",
    "photo_credit": null
   },
   {
-   "title": "Perfumes para el invierno",
-   "headline": "Best Perfumes to Wear in Winter 2026, From Soft-Spoken, “Second-Skin” Picks to Unexpected Takes on the Gourmand Trend",
+   "title": "Estrellas brillan en Governors",
+   "headline": "Best Dressed at the 2026 Governors Awards: Zendaya, Penelope Cruz and More",
    "source": "WWD",
-   "link": "https://wwd.com/shop/shop-beauty/best-perfumes-to-wear-winter-2026-shop-online-1238439826/",
+   "link": "https://wwd.com/eye/people/best-dressed-2026-governors-awards-1239419486/",
    "photo_credit": null
   }
  ]
