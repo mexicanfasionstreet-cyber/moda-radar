@@ -1,43 +1,43 @@
 {
- "date": "2026-11-16",
+ "date": "2026-11-17",
  "edition": "general",
- "duration": 76.0,
+ "duration": 66.6,
  "script_source": "IA (deepseek-chat)",
- "hook": "Republic compra Rebecca Minkoff y busca duplicar el negocio en 2027",
+ "hook": "LuxExperience eleva previsiones y la moda se mueve entre ventas y relevos",
  "items": [
   {
-   "title": "Republic adquiere Rebecca Minkoff",
-   "headline": "EXCLUSIVE: Republic Brands Group Acquires Rebecca Minkoff",
+   "title": "LuxExperience sube previsiones anuales",
+   "headline": "LuxExperience Sustains Momentum With Top- and Bottom-Line Fiscal Q1 Gains",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/markets/republic-brands-group-acquires-rebecca-minkoff-1239409455/",
+   "link": "https://wwd.com/business-news/retail/luxexperience-fiscal-q1-gains-cited-across-portfolio-1239418832/",
    "photo_credit": null
   },
   {
-   "title": "Danielle Frankel abre flagship en NY",
-   "headline": "Danielle Frankel Opens New York Flagship",
+   "title": "Briah Taubman y su colección viral",
+   "headline": "Briah Taubman Talks Retail, Her Latest Collection and That Viral Kylie Jenner Dress",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/retail/danielle-frankel-bridal-new-york-flagship-tribeca-wedding-1239413579/",
+   "link": "https://wwd.com/fashion-news/fashion-scoops/briah-artemis-spring-2027-1239418585/",
    "photo_credit": null
   },
   {
-   "title": "Kate Middleton apuesta por moda sostenible",
-   "headline": "Kate Middleton Swaps Fall Layers for a Cobalt Blue Wimbledon Rewear on Her Return to India",
+   "title": "Alaverdian sale de A.W.A.K.E.",
+   "headline": "A.W.A.K.E. Mode Founder Natalia Alaverdian Departs Following Brand’s Sale",
    "source": "WWD",
-   "link": "https://wwd.com/pop-culture/celebrity-news/kate-middleton-roksanda-dress-india-trip-1239417677/",
+   "link": "https://wwd.com/business-news/human-resources/awake-mode-natalia-alaverdian-depart-another-community-1239414745/",
    "photo_credit": null
   },
   {
-   "title": "Europa regula agentes de IA",
-   "headline": "European Commission’s New Proposal Wants to Rein in AI Agents",
+   "title": "Guest in Residence y Moon Boot",
+   "headline": "Gigi Hadid’s Guest in Residence Reunites With Moon Boot on Cozy Knit Footwear Capsule",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/industry-news/european-commission-eu-digital-fairness-act-1239416350/",
+   "link": "https://wwd.com/footwear-news/shoe-industry-news/gigi-hadid-moon-boot-guest-in-residence-november-2026-1239420089/",
    "photo_credit": null
   },
   {
-   "title": "JLo y el trend del cocodrilo",
-   "headline": "Jennifer Lopez Plays With Texture in Head-to-Toe Burgundy With Croc Print Tom Ford Pumps",
+   "title": "J.Crew revive los noventa",
+   "headline": "J.Crew Puts Actors and 1990s Styles in Holiday Campaign",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-trends/jennifer-lopez-tom-ford-croc-pumps-1239417654/",
+   "link": "https://wwd.com/business-news/retail/j-crew-holiday-campaign-jordan-firstman-reggie-absolom-1239418745/",
    "photo_credit": null
   }
  ]
