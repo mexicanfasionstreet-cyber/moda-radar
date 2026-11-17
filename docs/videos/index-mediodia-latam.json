@@ -1,44 +1,44 @@
 {
- "date": "2026-11-16",
+ "date": "2026-11-17",
  "edition": "latam",
- "duration": 74.3,
+ "duration": 57.5,
  "script_source": "IA (deepseek-chat)",
- "hook": "Hailey Bieber celebra 30 años con cápsula de Rhode y Louis Vuitton une arte y moda",
+ "hook": "Casio, talento mexicano y Stefano Ricci marcan la moda de hoy",
  "items": [
   {
-   "title": "Hailey Bieber y su cápsula Rhode",
-   "headline": "Hailey Bieber da la bienvenida a los 30 años con una nueva colección de edición limitada de Rhode",
-   "source": "Marie Claire MX",
-   "link": "https://marieclaire.com.mx/hailey-bieber-30-coleccion-rhode/",
-   "photo_credit": null
-  },
-  {
-   "title": "Louis Vuitton x Keith Haring",
-   "headline": "Louis Vuitton x Keith Haring: los bolsos y zapatos que llevan el arte a otro plano",
-   "source": "Para Ti",
-   "link": "https://www.parati.com.ar/galeria/louis-vuitton-x-keith-haring-los-bolsos-y-zapatos-que-llevan-el-arte-a-otro-plano/",
-   "photo_credit": null
-  },
-  {
-   "title": "Los perfumes más seductores de Tom Ford",
-   "headline": "Los 11 perfumes de Tom Ford más seductores de larga duración para dejar huella en una cita romántica",
+   "title": "G-Shock transparente inspirado en tatuajes",
+   "headline": "G-Shock GM-6900XG-8: El reloj transparente de Casio inspirado en tatuajes que guarda una sorpresa al iluminarse",
    "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/mejores-perfumes-tom-ford-para-cita-romantica",
+   "link": "https://www.gq.com.mx/articulo/reloj-g-shock-gm-6900xg-8-precio-disponibilidad-17-11-2026",
    "photo_credit": null
   },
   {
-   "title": "Adidas VL Court por menos de 900 pesos",
-   "headline": "Adidas remata tenis VL Court Original Sneakers para hombre, color gris, tan versátiles como Samba: cuestan menos de 900 pesos con cupón",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/adidas-remata-tenis-vl-court-original-sneakers-para-hombre-color-gris-tan-versatiles-como-samba-cuestan-menos-de-900-pesos-con-cupon/",
+   "title": "Nohemi Pecina en Frankfurt Style Award",
+   "headline": "La joven diseñadora mexicana Nohemi Pecina",
+   "source": "DW.com",
+   "link": "https://www.dw.com/es/la-joven-dise%C3%B1adora-mexicana-nohemi-pecina/g-36079335",
    "photo_credit": null
   },
   {
-   "title": "Toluca confirma su desfile navideño",
-   "headline": "Mientras Coca-Cola prepara el anuncio de sus Caravanas Navideñas, Toluca ya confirmó la fecha del desfile",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/mientras-coca-cola-prepara-el-anuncio-de-sus-caravanas-navidenas-toluca-ya-confirmo-la-fecha-del-desfile/",
+   "title": "Estilo propio según Fabián Medina Flores",
+   "headline": "Fabián Medina Flores y su charla en el living de Para Ti Deco en Puro Diseño: \"Tener un buen look es fácil, tener estilo lleva tiempo\"",
+   "source": "Para Ti",
+   "link": "https://www.parati.com.ar/moda/fabian-medina-flores-y-su-charla-en-el-living-de-para-ti-deco-en-puro-diseno-tener-un-buen-look-es-facil-tener-estilo-lleva-tiempo/",
    "photo_credit": null
+  },
+  {
+   "title": "Stefano Ricci abre en Ciudad de México",
+   "headline": "Stefano Ricci registra un aumento del 10 % en los nueve primeros meses y anuncia aperturas en Milán y Ciudad de México",
+   "source": "FashionNetwork España",
+   "link": "https://es.fashionnetwork.com/news/Stefano-ricci-registra-un-aumento-del-10-en-los-nueve-primeros-meses-y-anuncia-aperturas-en-milan-y-ciudad-de-mexico,1885349.html",
+   "photo_credit": "Foto: Wonderlane · CC0"
+  },
+  {
+   "title": "Bratz abre pop-up en México",
+   "headline": "La celebración más esperada de la moda y la nostalgia: Bratz® abre su primera Pop-up Store en México",
+   "source": "Hoja de Ruta Digital",
+   "link": "https://hojaderutadigital.mx/la-celebracion-mas-esperada-de-la-moda-y-la-nostalgia-bratz-abre-su-primera-pop-up-store-en-mexico/",
+   "photo_credit": "Foto: Howdy, I'm H. Michael Karshis · CC BY 2.0"
   }
  ]
 }
