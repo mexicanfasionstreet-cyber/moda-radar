@@ -1,44 +1,44 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "edition": "latam",
- "duration": 57.5,
+ "duration": 80.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "Casio, talento mexicano y Stefano Ricci marcan la moda de hoy",
+ "hook": "Relojes de lujo, fragancias y comercio social marcan la agenda de moda",
  "items": [
   {
-   "title": "G-Shock transparente inspirado en tatuajes",
-   "headline": "G-Shock GM-6900XG-8: El reloj transparente de Casio inspirado en tatuajes que guarda una sorpresa al iluminarse",
+   "title": "Zverev y su reloj millonario",
+   "headline": "Alexander Zverev luce un reloj Jacob & Co. de oro rosa que reproduce melodías de El padrino y vale millones de pesos",
    "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/reloj-g-shock-gm-6900xg-8-precio-disponibilidad-17-11-2026",
+   "link": "https://www.gq.com.mx/articulo/alexander-zverev-reloj-jacob-and-co-the-godfather-ii-op20040aaababala-precio-caracteristicas-18-11-2026",
    "photo_credit": null
   },
   {
-   "title": "Nohemi Pecina en Frankfurt Style Award",
-   "headline": "La joven diseñadora mexicana Nohemi Pecina",
-   "source": "DW.com",
-   "link": "https://www.dw.com/es/la-joven-dise%C3%B1adora-mexicana-nohemi-pecina/g-36079335",
+   "title": "Burberry lanza ocho fragancias",
+   "headline": "Burberry Prorsum: nueva colección de ocho fragancias",
+   "source": "Vogue MX",
+   "link": "https://www.vogue.mx/articulo/a-que-huele-un-icono-de-la-moda-aqui-8-posibles-respuestas",
    "photo_credit": null
   },
   {
-   "title": "Estilo propio según Fabián Medina Flores",
-   "headline": "Fabián Medina Flores y su charla en el living de Para Ti Deco en Puro Diseño: \"Tener un buen look es fácil, tener estilo lleva tiempo\"",
-   "source": "Para Ti",
-   "link": "https://www.parati.com.ar/moda/fabian-medina-flores-y-su-charla-en-el-living-de-para-ti-deco-en-puro-diseno-tener-un-buen-look-es-facil-tener-estilo-lleva-tiempo/",
+   "title": "Colombiatex prepara su edición 39",
+   "headline": "Colombiatex anuncia su próxima edición como la segunda parte del concepto ‘smart sourcing’",
+   "source": "Modaes",
+   "link": "https://www.modaes.com/tendencias/colombiatex-anuncia-su-proxima-edicion-como-la-segunda-parte-del-concepto-smart-sourcing",
    "photo_credit": null
   },
   {
-   "title": "Stefano Ricci abre en Ciudad de México",
-   "headline": "Stefano Ricci registra un aumento del 10 % en los nueve primeros meses y anuncia aperturas en Milán y Ciudad de México",
-   "source": "FashionNetwork España",
-   "link": "https://es.fashionnetwork.com/news/Stefano-ricci-registra-un-aumento-del-10-en-los-nueve-primeros-meses-y-anuncia-aperturas-en-milan-y-ciudad-de-mexico,1885349.html",
-   "photo_credit": "Foto: Wonderlane · CC0"
+   "title": "Crocs lidera TikTok Shop",
+   "headline": "Crocs se convierte en la marca de calzado número uno en TikTok Shop en cuatro países mientras apuesta por el comercio social",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/crocs-se-convierte-en-la-marca-de-calzado-numero-uno-en-tiktok-shop-en-cuatro-paises-mientras-apuesta-por-el-comercio-social/",
+   "photo_credit": null
   },
   {
-   "title": "Bratz abre pop-up en México",
-   "headline": "La celebración más esperada de la moda y la nostalgia: Bratz® abre su primera Pop-up Store en México",
-   "source": "Hoja de Ruta Digital",
-   "link": "https://hojaderutadigital.mx/la-celebracion-mas-esperada-de-la-moda-y-la-nostalgia-bratz-abre-su-primera-pop-up-store-en-mexico/",
-   "photo_credit": "Foto: Howdy, I'm H. Michael Karshis · CC BY 2.0"
+   "title": "Rolex Daytona en Rolesium",
+   "headline": "Rolex Daytona en Rolesium: El exclusivo reloj de acero y platino con esfera de esmalte blanco que redefine el lujo",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/reloj-rolex-oyster-perpetual-cosmograph-daytona-126502-precio-disponibilidad-18-11-2026",
+   "photo_credit": null
   }
  ]
 }
