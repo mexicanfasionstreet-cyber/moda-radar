@@ -1,43 +1,43 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "edition": "general",
- "duration": 66.6,
+ "duration": 75.4,
  "script_source": "IA (deepseek-chat)",
- "hook": "LuxExperience eleva previsiones y la moda se mueve entre ventas y relevos",
+ "hook": "Target crece 7.1% pero la ropa de mujer y el calzado siguen cayendo",
  "items": [
   {
-   "title": "LuxExperience sube previsiones anuales",
-   "headline": "LuxExperience Sustains Momentum With Top- and Bottom-Line Fiscal Q1 Gains",
+   "title": "Target sube pero moda cae",
+   "headline": "Target Sales Jump 7.1% Despite Apparel Declines",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/retail/luxexperience-fiscal-q1-gains-cited-across-portfolio-1239418832/",
+   "link": "https://wwd.com/business-news/financial/target-q3-2026-earnings-sales-apparel-1239421978/",
    "photo_credit": null
   },
   {
-   "title": "Briah Taubman y su colección viral",
-   "headline": "Briah Taubman Talks Retail, Her Latest Collection and That Viral Kylie Jenner Dress",
-   "source": "WWD",
-   "link": "https://wwd.com/fashion-news/fashion-scoops/briah-artemis-spring-2027-1239418585/",
+   "title": "Leset adelanta su Black Friday",
+   "headline": "A Wardrobe Treat: Leset’s Black Friday Sale Arrives Early",
+   "source": "Vogue",
+   "link": "https://www.vogue.com/article/leset-black-friday-sale",
    "photo_credit": null
   },
   {
-   "title": "Alaverdian sale de A.W.A.K.E.",
-   "headline": "A.W.A.K.E. Mode Founder Natalia Alaverdian Departs Following Brand’s Sale",
+   "title": "Tejido de algodón y reciclaje",
+   "headline": "Study: Cotton’s Weave Shapes Recycling Potential",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/human-resources/awake-mode-natalia-alaverdian-depart-another-community-1239414745/",
+   "link": "https://wwd.com/sourcing-journal/sustainability/cotton-mechanical-recycling-fabric-structure-leeds-1239421149/",
    "photo_credit": null
   },
   {
-   "title": "Guest in Residence y Moon Boot",
-   "headline": "Gigi Hadid’s Guest in Residence Reunites With Moon Boot on Cozy Knit Footwear Capsule",
+   "title": "Blazy diseñador del año",
+   "headline": "Matthieu Blazy Named Designer of the Year at 2026 Belgian Fashion Awards",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-industry-news/gigi-hadid-moon-boot-guest-in-residence-november-2026-1239420089/",
+   "link": "https://wwd.com/fashion-news/fashion-scoops/matthieu-blazy-belgian-fashion-awards-2026-designer-1239423598/",
    "photo_credit": null
   },
   {
-   "title": "J.Crew revive los noventa",
-   "headline": "J.Crew Puts Actors and 1990s Styles in Holiday Campaign",
+   "title": "Alerta por recortes postales",
+   "headline": "Steiner to Congress: Reform USPS Retirement Mandates or Face ‘Drastic’ Service Cuts",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/retail/j-crew-holiday-campaign-jordan-firstman-reggie-absolom-1239418745/",
+   "link": "https://wwd.com/sourcing-journal/logistics/usps-postmaster-general-david-steiner-congress-retirement-drastic-service-cuts-1239422099/",
    "photo_credit": null
   }
  ]
