@@ -1,37 +1,44 @@
 {
- "date": "2026-11-16",
+ "date": "2026-11-17",
  "edition": "latam",
- "duration": 55.2,
+ "duration": 67.3,
  "script_source": "IA (deepseek-chat)",
- "hook": "Artesanía mexicana, lujo suizo y moda navideña marcan la agenda",
+ "hook": "Moda, salud y lujo se encuentran en las noticias de hoy",
  "items": [
   {
-   "title": "Artesanos brillan en ORIGINAL 2026",
-   "headline": "Artesanos mexicanos brillan en la pasarela de ORIGINAL 2026",
-   "source": "Consulta Monterrey",
-   "link": "https://consultamonterrey.mx/entretenimiento/artesanos-mexicanos-original-2026/",
+   "title": "Pasarelas exploran nueva moda",
+   "headline": "Colecciones de GLOBAL FASHION COLLECTIVE y Vancouver Fashion Week Primavera-Verano 2027",
+   "source": "Vogue MX",
+   "link": "https://www.vogue.mx/galeria/vancouver-fashion-week-global-fashion-collective-primavera-verano-2027",
    "photo_credit": null
   },
   {
-   "title": "TAG Heuer estrena edición limitada",
-   "headline": "TAG Heuer Aquaracer Professional 300 x Time+Tide Sundowner II: Titanio y oro rosa en un reloj de buceo de edición limitada de lujo",
+   "title": "Smartwatch aliado de la salud",
+   "headline": "Huawei y una nueva generación de smartwatches: Cómo un reloj inteligente puede convertirse en un aliado para cuidar tu salud",
+   "source": "Vogue MX",
+   "link": "https://www.vogue.mx/articulo/como-un-smartwatch-de-huawei-puede-convertirse-en-un-aliado-para-cuidar-tu-salud",
+   "photo_credit": null
+  },
+  {
+   "title": "Belleza motor económico en México",
+   "headline": "Industria de la belleza impulsa la economía y el desarrollo productivo en México: L’Oréal",
+   "source": "El Economista",
+   "link": "https://www.eleconomista.com.mx/empresas/industria-belleza-impulsa-economia-desarrollo-productivo-mexico-l-oreal-20261117-844443.html",
+   "photo_credit": null
+  },
+  {
+   "title": "Hublot y Koons pieza de colección",
+   "headline": "Hublot x Jeff Koons: La colaboración que convierte al Balloon Dog en un reloj de colección",
+   "source": "Vogue MX",
+   "link": "https://www.vogue.mx/articulo/el-balloon-dog-de-jeff-koons-ahora-es-un-reloj-de-coleccion-de-hublot",
+   "photo_credit": null
+  },
+  {
+   "title": "Hamilton Jazzmaster eleva elegancia",
+   "headline": "Hamilton Jazzmaster Auto: El reloj suizo de 40 mm con 80 horas de autonomía que eleva la elegancia masculina",
    "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/reloj-tag-heuer-aquaracer-professional-300-x-timetide-sundowner-ii-wbp5185bf0010-wbp5184ft6257-precio-disponibilidad-13-11-2026",
+   "link": "https://www.gq.com.mx/articulo/relojes-hamilton-jazzmaster-auto-coleccion-precio-disponibilidad-17-11-2026",
    "photo_credit": null
-  },
-  {
-   "title": "Navidad, terreno de competencia",
-   "headline": "¿Por qué las marcas de moda apuestan por campañas más emocionales en Navidad?",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/por-que-las-marcas-como-aerie-apuestan-por-campanas-mas-emocionales-en-navidad/",
-   "photo_credit": null
-  },
-  {
-   "title": "Tendam crece en México",
-   "headline": "Tendam gana músculo en México con nuevas aperturas de Cortefiel, Hoss Intropia y Springfield",
-   "source": "FashionNetwork España",
-   "link": "https://es.fashionnetwork.com/news/Tendam-gana-musculo-en-mexico-con-nuevas-aperturas-de-cortefiel-hoss-intropia-y-springfield,1884855.html",
-   "photo_credit": "Foto: Wonderlane · CC0"
   }
  ]
 }
