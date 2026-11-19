@@ -1,43 +1,43 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "edition": "general",
- "duration": 67.3,
+ "duration": 68.9,
  "script_source": "IA (deepseek-chat)",
- "hook": "Nike apunta a crecer cinco mil millones y la moda enfrenta tensiones laborales",
+ "hook": "VF evalúa vender Vans mientras la moda enfrenta calor extremo y apuestas navideñas",
  "items": [
   {
-   "title": "Nike quiere crecer cinco mil millones",
-   "headline": "Nike targets $5 billion in revenue growth by fiscal 2031",
-   "source": "The Industry",
-   "link": "https://www.theindustry.fashion/nike-unveils-2027-footwear-pipeline/",
+   "title": "VF evalúa vender Vans",
+   "headline": "VF Could Sell Vans, But it Probably Won’t",
+   "source": "WWD",
+   "link": "https://wwd.com/footwear-news/shoe-industry-news/vf-corp-timberland-altra-vans-upside-balance-sheet-1239424633/",
    "photo_credit": null
   },
   {
-   "title": "Detienen a líder sindical en Bangladés",
-   "headline": "A Bangladeshi Union Leader Spoke Out Against Worker Arrests. Then She Was Taken Away by Police.",
+   "title": "Loft apuesta por pop up navideño",
+   "headline": "Loft Pops Up With a Different Holiday Approach",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/sustainability/sultana-begum-arrest-wage-protests-bangladesh-1239421993/",
+   "link": "https://wwd.com/business-news/retail/loft-pop-up-holiday-ceo-interview-1239425331/",
    "photo_credit": null
   },
   {
-   "title": "Las faldas impulsan la primavera 2027",
-   "headline": "Retailers Bank on Skirts for Spring ’27",
+   "title": "Moda replantea el calor extremo",
+   "headline": "How Fashion Is Getting Heat Stress Wrong",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/retail/skirts-joor-retail-orders-1239421418/",
+   "link": "https://wwd.com/sourcing-journal/sustainability/cop31-fair-labor-association-heat-stress-1239426206/",
    "photo_credit": null
   },
   {
-   "title": "Ritani apuesta por anillos de compromiso",
-   "headline": "The Best Engagement Rings From Ritani Prove That Finding ‘The One’ Doesn’t Have to Be Complicated",
-   "source": "WWD",
-   "link": "https://wwd.com/shop/shop-fashion/best-ritani-engagement-rings-shop-online-custom-diamonds-1239421794/",
+   "title": "Homenaje a Gloria Steinem",
+   "headline": "At Gloria Steinem Memorial, Michelle Obama, Hillary Clinton and More Big Names Gather",
+   "source": "NYT",
+   "link": "https://www.nytimes.com/2026/11/18/style/gloria-steinem-memorial-photos.html",
    "photo_credit": null
   },
   {
-   "title": "Amina Muaddi defiende su independencia",
-   "headline": "Amina Muaddi Opens Up About Keeping Her Shoe Brand Independent and Being Her Own Boss: ‘Nobody Tells Me What to Do’",
+   "title": "Taylor Swift en Oscar de la Renta",
+   "headline": "Taylor Swift’s Oscar de la Renta Gown Has a Detail Worth Bragging About at the 2026 CMA Awards",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-trends/amina-muaddi-emma-grede-podcast-shoe-brand-1239421323/",
+   "link": "https://wwd.com/pop-culture/celebrity-news/taylor-swift-cma-awards-2026-oscar-de-la-renta-pockets-1239426467/",
    "photo_credit": null
   }
  ]

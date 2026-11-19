@@ -1,43 +1,43 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "edition": "latam",
- "duration": 67.3,
+ "duration": 72.4,
  "script_source": "IA (deepseek-chat)",
- "hook": "Moda, salud y lujo se encuentran en las noticias de hoy",
+ "hook": "Intermoda apuesta por lo híbrido y Canelo debuta en la moda",
  "items": [
   {
-   "title": "Pasarelas exploran nueva moda",
-   "headline": "Colecciones de GLOBAL FASHION COLLECTIVE y Vancouver Fashion Week Primavera-Verano 2027",
-   "source": "Vogue MX",
-   "link": "https://www.vogue.mx/galeria/vancouver-fashion-week-global-fashion-collective-primavera-verano-2027",
+   "title": "Intermoda impulsa modelo híbrido",
+   "headline": "Intermoda impulsa un modelo híbrido para ampliar las oportunidades comerciales",
+   "source": "Líder Empresarial",
+   "link": "https://www.liderempresarial.com/intermoda-impulsa-un-modelo-hibrido-para-ampliar-las-oportunidades-comerciales/",
    "photo_credit": null
   },
   {
-   "title": "Smartwatch aliado de la salud",
-   "headline": "Huawei y una nueva generación de smartwatches: Cómo un reloj inteligente puede convertirse en un aliado para cuidar tu salud",
-   "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/como-un-smartwatch-de-huawei-puede-convertirse-en-un-aliado-para-cuidar-tu-salud",
-   "photo_credit": null
-  },
-  {
-   "title": "Belleza motor económico en México",
-   "headline": "Industria de la belleza impulsa la economía y el desarrollo productivo en México: L’Oréal",
-   "source": "El Economista",
-   "link": "https://www.eleconomista.com.mx/empresas/industria-belleza-impulsa-economia-desarrollo-productivo-mexico-l-oreal-20261117-844443.html",
-   "photo_credit": null
-  },
-  {
-   "title": "Hublot y Koons pieza de colección",
-   "headline": "Hublot x Jeff Koons: La colaboración que convierte al Balloon Dog en un reloj de colección",
-   "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/el-balloon-dog-de-jeff-koons-ahora-es-un-reloj-de-coleccion-de-hublot",
-   "photo_credit": null
-  },
-  {
-   "title": "Hamilton Jazzmaster eleva elegancia",
-   "headline": "Hamilton Jazzmaster Auto: El reloj suizo de 40 mm con 80 horas de autonomía que eleva la elegancia masculina",
+   "title": "Leica ZM 11 Green Spirit",
+   "headline": "Leica ZM 11 Green Spirit: El reloj automático de lujo con una esfera que cambia de color según la luz",
    "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/relojes-hamilton-jazzmaster-auto-coleccion-precio-disponibilidad-17-11-2026",
+   "link": "https://www.gq.com.mx/articulo/reloj-leica-zm-11-green-spirit-precio-disponibilidad-18-11-2026",
+   "photo_credit": null
+  },
+  {
+   "title": "Canelo lanza su marca de ropa",
+   "headline": "Saúl \"Canelo\" Álvarez lanza su marca de ropa deportiva",
+   "source": "Quinta Fuerza",
+   "link": "https://quintafuerza.mx/deportes/canelo-alvarez-lanza-marca-ropa-deportiva/",
+   "photo_credit": null
+  },
+  {
+   "title": "Marcas de tenis infravaloradas",
+   "headline": "5 marcas de tenis infravaloradas con diseños únicos que merecen un lugar en tu colección",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/marcas-de-tenis-infravaloradas-con-disenos-unicos-que-merecen-lugar-en-tu-coleccion",
+   "photo_credit": null
+  },
+  {
+   "title": "Granjeros desfilan con tacones",
+   "headline": "La Granja VIP: Cómo fue la pasarela que realizaron los Granjeros en la semana 11",
+   "source": "TV Azteca",
+   "link": "https://www.tvazteca.com/aztecauno/la-granja-vip/24-7/la-granja-vip-como-fue-la-pasarela-que-realizaron-los-granjeros-en-la-semana-11/",
    "photo_credit": null
   }
  ]
