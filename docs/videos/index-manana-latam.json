@@ -1,44 +1,37 @@
 {
- "date": "2026-11-16",
+ "date": "2026-11-19",
  "edition": "latam",
- "duration": 69.1,
+ "duration": 67.5,
  "script_source": "IA (deepseek-chat)",
- "hook": "Falabella anuncia la mayor inversión de su historia y Vogue México estrena editora",
+ "hook": "Ginny y Georgia vuelve y la moda brilla en México",
  "items": [
   {
-   "title": "Falabella invierte 1.100 millones",
-   "headline": "Falabella invertirá más de 1.100 millones de dólares en 2027, el mayor plan de su historia",
-   "source": "Modaes",
-   "link": "https://www.modaes.com/empresas/falabella-invertira-mas-de-1100-millones-de-dolares-en-2027-el-mayor-plan-de-su-historia",
+   "title": "Ginny y Georgia temporada 4 confirmada",
+   "headline": "Netflix confirma la temporada 4 de ‘Ginny y Georgia’",
+   "source": "Marie Claire MX",
+   "link": "https://marieclaire.com.mx/ginny-y-georgia-temporada-4-fecha-estreno/",
    "photo_credit": null
   },
   {
-   "title": "La Jaula de la Moda cumple 15 años",
-   "headline": "La Jaula de la Moda celebró sus 15 años con un desfile by Claudio Cosano",
-   "source": "Para Ti",
-   "link": "https://www.parati.com.ar/news/la-jaula-de-la-moda-celebro-sus-15-anos-con-un-desfile-by-claudio-cosano/",
+   "title": "Jorge Rey brilla en Piece of Art",
+   "headline": "Jorge Rey conquistó la pasarela Piece of Art de México con sus modelos de alta costura",
+   "source": "TN",
+   "link": "https://tn.com.ar/estilo/moda/2026/11/18/jorge-rey-conquisto-la-pasarela-piece-of-art-de-mexico-con-sus-modelos-de-alta-costura/",
    "photo_credit": null
   },
   {
-   "title": "Natura vuelve a beneficios",
-   "headline": "La brasileña Natura vuelve a beneficios en el tercer trimestre pese a una caída de ingresos del 3",
-   "source": "FashionNetwork España",
-   "link": "https://es.fashionnetwork.com/news/La-brasilena-natura-vuelve-a-beneficios-en-el-tercer-trimestre-pese-a-una-caida-de-ingresos-del-3-,1885079.html",
-   "photo_credit": "Foto: simpleinsomnia · CC BY 2.0"
+   "title": "SEP suspende clases en Puebla",
+   "headline": "SEP suspende clases el viernes por desfile del 20 de noviembre y ahora todas las escuelas de primaria a universidad tienen otro puente en Puebla capital",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/sep-suspende-clases-el-viernes-por-desfile-del-20-de-noviembre-y-ahora-todas-las-escuelas-de-primaria-a-universidad-tienen-otro-puente-en-puebla-capital/",
+   "photo_credit": null
   },
   {
-   "title": "Nueva editora de Vogue México",
-   "headline": "Atenea Morales de la Cruz Named Head of Editorial Content for Vogue Mexico and Latin America",
-   "source": "The Business of Fashion",
-   "link": "https://www.businessoffashion.com/news/global-markets/atenea-morales-cruz-head-editorial-content-vogue-mexico-latin-america/",
-   "photo_credit": "Foto: Wonderlane · CC0"
-  },
-  {
-   "title": "Pasarela en Villahermosa",
-   "headline": "Miss Grand México enseñará pasarela en Villahermosa",
-   "source": "Tabasco HOY",
-   "link": "https://www.tabascohoy.com/miss-grand-mexico-ensenara-pasarela-en-villahermosa/",
-   "photo_credit": "Foto: kevin dooley · CC BY 2.0"
+   "title": "Rosalía y New Balance unen música y moda",
+   "headline": "Rosalía y New Balance: la estrategia detrás de una alianza que mezcla música y moda",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/rosalia-y-new-balance-la-estrategia-detras-de-una-alianza-que-mezcla-musica-y-moda/",
+   "photo_credit": null
   }
  ]
 }

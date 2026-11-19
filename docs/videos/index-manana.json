@@ -1,43 +1,43 @@
 {
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "edition": "general",
- "duration": 75.4,
+ "duration": 65.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "Target crece 7.1% pero la ropa de mujer y el calzado siguen cayendo",
+ "hook": "JD Sports recorta previsiones y la moda apuesta por sostenibilidad e íconos",
  "items": [
   {
-   "title": "Target sube pero moda cae",
-   "headline": "Target Sales Jump 7.1% Despite Apparel Declines",
-   "source": "WWD",
-   "link": "https://wwd.com/business-news/financial/target-q3-2026-earnings-sales-apparel-1239421978/",
+   "title": "JD Sports recorta previsiones",
+   "headline": "JD Sports narrows guidance as sales decline",
+   "source": "Drapers",
+   "link": "https://www.drapersonline.com/news/jd-sports-narrows-guidance-as-sales-decline",
    "photo_credit": null
   },
   {
-   "title": "Leset adelanta su Black Friday",
-   "headline": "A Wardrobe Treat: Leset’s Black Friday Sale Arrives Early",
-   "source": "Vogue",
-   "link": "https://www.vogue.com/article/leset-black-friday-sale",
+   "title": "Armedangels innova en abrigos",
+   "headline": "Armedangels Rethinks Outerwear With Plant-Based, Wood-Derived Materials",
+   "source": "WWD",
+   "link": "https://wwd.com/sourcing-journal/sj-denim/armedangels-rethinks-padded-outerwear-tencel-lyocell-1239426105/",
    "photo_credit": null
   },
   {
-   "title": "Tejido de algodón y reciclaje",
-   "headline": "Study: Cotton’s Weave Shapes Recycling Potential",
-   "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/sustainability/cotton-mechanical-recycling-fabric-structure-leeds-1239421149/",
+   "title": "Nike y su Black Friday",
+   "headline": "Nike al Black Friday 2026: 20 must-have (non solo per la palestra) tra sneakers iconiche e capi sporty",
+   "source": "Vogue IT",
+   "link": "https://www.vogue.it/article/nike-black-friday-2026-migliori-offerte-sneakers-abbigliamento-sportivo",
    "photo_credit": null
   },
   {
-   "title": "Blazy diseñador del año",
-   "headline": "Matthieu Blazy Named Designer of the Year at 2026 Belgian Fashion Awards",
+   "title": "Milán honra a Sozzani",
+   "headline": "Franca Sozzani to Be Honored With Milan Garden Naming",
    "source": "WWD",
-   "link": "https://wwd.com/fashion-news/fashion-scoops/matthieu-blazy-belgian-fashion-awards-2026-designer-1239423598/",
+   "link": "https://wwd.com/eye/people/milan-franca-sozzani-gardens-triennale-1239427007/",
    "photo_credit": null
   },
   {
-   "title": "Alerta por recortes postales",
-   "headline": "Steiner to Congress: Reform USPS Retirement Mandates or Face ‘Drastic’ Service Cuts",
+   "title": "Sant Roch abre café wellness",
+   "headline": "Sant Roch Readies Its First ‘Corner’ Café, With Wellness Positioning",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/logistics/usps-postmaster-general-david-steiner-congress-retirement-drastic-service-cuts-1239422099/",
+   "link": "https://wwd.com/beauty-industry-news/wellness/sant-roch-readies-first-cafe-corner-wellness-positioning-1239427115/",
    "photo_credit": null
   }
  ]
