@@ -1,43 +1,43 @@
 {
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "edition": "general",
- "duration": 70.5,
+ "duration": 75.1,
  "script_source": "IA (deepseek-chat)",
- "hook": "LuxExperience encadena cuatro trimestres con EBITDA positivo y ventas al alza",
+ "hook": "Target y Walmart usan reembolsos de aranceles para bajar precios",
  "items": [
   {
-   "title": "LuxExperience suma cuatro trimestres positivos",
-   "headline": "LuxExperience posts fourth consecutive quarter of positive adjusted EBITDA as sales rise 9.6%",
-   "source": "The Industry",
-   "link": "https://www.theindustry.fashion/luxexperience-posts-fourth-consecutive-quarter-of-positive-adjusted-ebitda-as-sales-rise-9-6/",
+   "title": "Reembolsos arancelarios financian rebajas",
+   "headline": "Tariff Refunds Appear to Fund Price Cuts at Target, Walmart, But No Direct Payouts to Customers",
+   "source": "WWD",
+   "link": "https://wwd.com/sourcing-journal/logistics/target-walmart-tariff-refunds-price-cuts-q3-tammy-baldwin-elizabeth-warren-1239428399/",
    "photo_credit": null
   },
   {
-   "title": "Air Jordan 5 revive el jersey robado",
-   "headline": "Michael Jordan’s Original Air Jordan 5 Is Getting a New Style Inspired by an Infamous ’90s Moment",
+   "title": "Base de emisiones retail se amplía",
+   "headline": "RILA Expands Retailers’ Product Emissions Database",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/air-jordan-5-retro-og-mj-stolen-jersey-ix7000-900-1239425467/",
+   "link": "https://wwd.com/sourcing-journal/industry-news/slug-rila-retail-product-emissions-database-1239425841/",
    "photo_credit": null
   },
   {
-   "title": "Ormuz tensa la logística marítima",
-   "headline": "Tanker Attacks Return to Hormuz, but Container Ships Escape Direct Hits",
-   "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/logistics/strait-of-hormuz-tanker-attacks-container-shipping-port-congestion-1239425422/",
+   "title": "DeMellier con descuento de Black Friday",
+   "headline": "Le borse DeMellier scontate al Black Friday 2026: sono le più desiderate da fashioniste e star (incluse le royal)",
+   "source": "Vogue IT",
+   "link": "https://www.vogue.it/article/borse-demellier-black-friday-2026-modelli-scontati",
    "photo_credit": null
   },
   {
-   "title": "Perfect Moment ficha a Suzy Biszantz",
-   "headline": "Suzy Biszantz Joins Perfect Moment as CEO",
+   "title": "Nuevos jurados en Design Parade",
+   "headline": "Villa Noailles’ Design Parade Welcomes Fresh Names Sabine Marcelis, David/Nicolas Into the Fold",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/human-resources/suzy-biszantz-perfect-moment-ceo-1239425099/",
+   "link": "https://wwd.com/home-design/interior-design/villa-noailles-design-parade-sabine-marcelis-david-nicolas-1239427069/",
    "photo_credit": null
   },
   {
-   "title": "Ella Langley brilla con Le Silla",
-   "headline": "Ella Langley Leans Into the Embellished Shoe Trend in Le Silla Mules for the 2026 BMI Country Music Awards",
+   "title": "Estée Lauder revisa estructura en Francia",
+   "headline": "The Estée Lauder Cos. Considers Organizational Changes in France",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-trends/ella-langley-le-silla-mules-2026-bmi-country-music-awards-1239424955/",
+   "link": "https://wwd.com/beauty-industry-news/beauty-features/estee-lauder-cos-considers-organizational-changes-france-1239428203/",
    "photo_credit": null
   }
  ]

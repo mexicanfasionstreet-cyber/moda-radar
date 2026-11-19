@@ -1,44 +1,44 @@
 {
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "edition": "latam",
- "duration": 80.0,
+ "duration": 66.2,
  "script_source": "IA (deepseek-chat)",
- "hook": "Relojes de lujo, fragancias y comercio social marcan la agenda de moda",
+ "hook": "Montblanc, Coolway y Miss Universe marcan la agenda de moda",
  "items": [
   {
-   "title": "Zverev y su reloj millonario",
-   "headline": "Alexander Zverev luce un reloj Jacob & Co. de oro rosa que reproduce melodías de El padrino y vale millones de pesos",
+   "title": "Montblanc Iced Sea con madera milenaria",
+   "headline": "Montblanc Iced Sea: Un reloj de buceo único con madera de casi 3,000 años de antigüedad extraída de un glaciar",
    "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/alexander-zverev-reloj-jacob-and-co-the-godfather-ii-op20040aaababala-precio-caracteristicas-18-11-2026",
+   "link": "https://www.gq.com.mx/articulo/reloj-montblanc-iced-sea-automatic-date-0-oxygen-unique-piece-137758-precio-disponibilidad-19-11-2026",
    "photo_credit": null
   },
   {
-   "title": "Burberry lanza ocho fragancias",
-   "headline": "Burberry Prorsum: nueva colección de ocho fragancias",
-   "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/a-que-huele-un-icono-de-la-moda-aqui-8-posibles-respuestas",
+   "title": "Coolway llega a México",
+   "headline": "Coolway: la esencia del streetwear español llega a México",
+   "source": "Roastbrief",
+   "link": "https://roastbrief.com.mx/2026/11/coolway-la-esencia-del-streetwear-espanol-llega-a-mexico/",
    "photo_credit": null
   },
   {
-   "title": "Colombiatex prepara su edición 39",
-   "headline": "Colombiatex anuncia su próxima edición como la segunda parte del concepto ‘smart sourcing’",
-   "source": "Modaes",
-   "link": "https://www.modaes.com/tendencias/colombiatex-anuncia-su-proxima-edicion-como-la-segunda-parte-del-concepto-smart-sourcing",
+   "title": "Favoritas en pasarela rumbo a Miss Universe",
+   "headline": "Miss Cuba, Miss Venezuela y Miss México se imponen en pasarela antes de Miss Universe",
+   "source": "Telemundo",
+   "link": "https://www.telemundo.com/shows/en-casa-con-telemundo/miss-universo/video/miss-cuba-miss-venezuela-y-miss-mexico-se-imponen-en-pasarela-antes-de-miss-universe-tmvo13245841",
    "photo_credit": null
   },
   {
-   "title": "Crocs lidera TikTok Shop",
-   "headline": "Crocs se convierte en la marca de calzado número uno en TikTok Shop en cuatro países mientras apuesta por el comercio social",
+   "title": "Tom Holland y su Cartier dorado",
+   "headline": "Tom Holland presume un elegante reloj Cartier de oro amarillo que es todo un clásico del lujo",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/tom-holland-reloj-cartier-tank-americaine-medium-precio-disponibilidad-19-11-2026",
+   "photo_credit": null
+  },
+  {
+   "title": "Rhode debuta en la moda",
+   "headline": "Rhode entra al mundo de la moda con su primera colección de ropa por los 30 años de Hailey Bieber",
    "source": "Merca2.0",
-   "link": "https://www.merca20.com/crocs-se-convierte-en-la-marca-de-calzado-numero-uno-en-tiktok-shop-en-cuatro-paises-mientras-apuesta-por-el-comercio-social/",
-   "photo_credit": null
-  },
-  {
-   "title": "Rolex Daytona en Rolesium",
-   "headline": "Rolex Daytona en Rolesium: El exclusivo reloj de acero y platino con esfera de esmalte blanco que redefine el lujo",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/reloj-rolex-oyster-perpetual-cosmograph-daytona-126502-precio-disponibilidad-18-11-2026",
-   "photo_credit": null
+   "link": "https://www.merca20.com/rhode-entra-al-mundo-de-la-moda-con-su-primera-coleccion-de-ropa-por-los-30-anos-de-hailey-bieber/",
+   "photo_credit": "Foto: BarbieFantasies · CC BY 2.0"
   }
  ]
 }
