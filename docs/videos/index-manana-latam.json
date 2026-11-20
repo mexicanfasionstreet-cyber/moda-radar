@@ -1,36 +1,43 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "edition": "latam",
- "duration": 67.5,
+ "duration": 65.7,
  "script_source": "IA (deepseek-chat)",
- "hook": "Ginny y Georgia vuelve y la moda brilla en México",
+ "hook": "Moda, pasarelas y diseño marcan la agenda de hoy",
  "items": [
   {
-   "title": "Ginny y Georgia temporada 4 confirmada",
-   "headline": "Netflix confirma la temporada 4 de ‘Ginny y Georgia’",
-   "source": "Marie Claire MX",
-   "link": "https://marieclaire.com.mx/ginny-y-georgia-temporada-4-fecha-estreno/",
-   "photo_credit": null
-  },
-  {
-   "title": "Jorge Rey brilla en Piece of Art",
-   "headline": "Jorge Rey conquistó la pasarela Piece of Art de México con sus modelos de alta costura",
-   "source": "TN",
-   "link": "https://tn.com.ar/estilo/moda/2026/11/18/jorge-rey-conquisto-la-pasarela-piece-of-art-de-mexico-con-sus-modelos-de-alta-costura/",
-   "photo_credit": null
-  },
-  {
-   "title": "SEP suspende clases en Puebla",
-   "headline": "SEP suspende clases el viernes por desfile del 20 de noviembre y ahora todas las escuelas de primaria a universidad tienen otro puente en Puebla capital",
+   "title": "Einstein y la curiosidad de aprender",
+   "headline": "Albert Einstein sobre la educación y aprendizaje: “El estudio, la búsqueda de la verdad y la belleza constituyen una esfera de actividad en la que podemos seguir siendo niños durante toda nuestra vida”",
    "source": "Merca2.0",
-   "link": "https://www.merca20.com/sep-suspende-clases-el-viernes-por-desfile-del-20-de-noviembre-y-ahora-todas-las-escuelas-de-primaria-a-universidad-tienen-otro-puente-en-puebla-capital/",
+   "link": "https://www.merca20.com/albert-einstein-sobre-la-educacion-y-aprendizaje-el-estudio-la-busqueda-de-la-verdad-y-la-belleza-constituyen-una-esfera-de-actividad-en-la-que-podemos-seguir-siendo-ninos-durante-toda-nuestra-vid/",
    "photo_credit": null
   },
   {
-   "title": "Rosalía y New Balance unen música y moda",
-   "headline": "Rosalía y New Balance: la estrategia detrás de una alianza que mezcla música y moda",
+   "title": "Puebla brilla en Original México",
+   "headline": "Artesanos de Calmeca representan a Puebla en pasarela nacional de Original México - e-consulta.com",
+   "source": "e-consulta.com",
+   "link": "https://www.e-consulta.com/municipios/artesanos-de-calmeca-representan-a-puebla-en-pasarela-nacional-de-original-mexico",
+   "photo_credit": null
+  },
+  {
+   "title": "Toluca confirma desfile navideño",
+   "headline": "Mientras Coca-Cola prepara el anuncio de sus Caravanas Navideñas, Toluca ya confirmó la fecha del desfile",
    "source": "Merca2.0",
-   "link": "https://www.merca20.com/rosalia-y-new-balance-la-estrategia-detras-de-una-alianza-que-mezcla-musica-y-moda/",
+   "link": "https://www.merca20.com/mientras-coca-cola-prepara-el-anuncio-de-sus-caravanas-navidenas-toluca-ya-confirmo-la-fecha-del-desfile/",
+   "photo_credit": null
+  },
+  {
+   "title": "Sneakers españoles llegan a México",
+   "headline": "Sneakers españoles llegan a México con propuesta de diseño e identidad propia",
+   "source": "Publimetro México",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPc0M1UzU1TEJpTlFoTFR0eTg1MmhyQUZGdk0tRXZFeTE1QzJITmtPbjlrMFBUZ3dZMk44UjRaaS1SbDV6VmprRDhtNm5fWVZPcUFtTEhBMEVTcDIyQ3ZTTDZlTFZKNzRTQ1RFbTJHS0xoa2RncWIzRGJrTTdxdWVNTDVJM2M5ZVFOX2lUYUR4UzgtVXlDT0pubDRPUEEtSm85V0xqelA1ZVBXZmFUWkV1SEh4VUhOaGpMZ1hadWdxcnJjcXQxd1hvZFBBYw?oc=5",
+   "photo_credit": null
+  },
+  {
+   "title": "Sheinbaum vuelve de China",
+   "headline": "¿Directo del avión al desfile? Sheinbaum regresa de China; lo que sabemos de su vuelo",
+   "source": "El Financiero",
+   "link": "https://www.elfinanciero.com.mx/nacional/2026/11/19/directo-del-avion-al-desfile-sheinbaum-regresa-de-china-lo-que-sabemos-de-su-vuelo/",
    "photo_credit": null
   }
  ]

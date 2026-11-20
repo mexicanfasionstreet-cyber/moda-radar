@@ -1,43 +1,43 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "edition": "general",
- "duration": 65.0,
+ "duration": 65.6,
  "script_source": "IA (deepseek-chat)",
- "hook": "JD Sports recorta previsiones y la moda apuesta por sostenibilidad e íconos",
+ "hook": "Nextil busca 20 millones para financiar nuevas compras",
  "items": [
   {
-   "title": "JD Sports recorta previsiones",
-   "headline": "JD Sports narrows guidance as sales decline",
-   "source": "Drapers",
-   "link": "https://www.drapersonline.com/news/jd-sports-narrows-guidance-as-sales-decline",
+   "title": "Nextil emite bonos por 20 millones",
+   "headline": "Nextil lanza una nueva emisión de 20 millones de euros para financiar más compras",
+   "source": "Modaes",
+   "link": "https://www.modaes.com/empresas/nextil-lanza-una-nueva-emision-de-20-millones-de-euros-para-financiar-mas-compras",
    "photo_credit": null
   },
   {
-   "title": "Armedangels innova en abrigos",
-   "headline": "Armedangels Rethinks Outerwear With Plant-Based, Wood-Derived Materials",
+   "title": "Saint-Louis renueva su boutique parisina",
+   "headline": "EXCLUSIVE: Saint-Louis Unveils Redesign of Its Paris Boutique",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/sj-denim/armedangels-rethinks-padded-outerwear-tencel-lyocell-1239426105/",
+   "link": "https://wwd.com/home-design/lighting/saint-louis-rdai-paris-boutique-redesign-1239427358/",
    "photo_credit": null
   },
   {
-   "title": "Nike y su Black Friday",
-   "headline": "Nike al Black Friday 2026: 20 must-have (non solo per la palestra) tra sneakers iconiche e capi sporty",
-   "source": "Vogue IT",
-   "link": "https://www.vogue.it/article/nike-black-friday-2026-migliori-offerte-sneakers-abbigliamento-sportivo",
-   "photo_credit": null
-  },
-  {
-   "title": "Milán honra a Sozzani",
-   "headline": "Franca Sozzani to Be Honored With Milan Garden Naming",
+   "title": "Reino Unido pide ayudas a la exportación",
+   "headline": "UK Fashion Trade Group Calls for Export Grants",
    "source": "WWD",
-   "link": "https://wwd.com/eye/people/milan-franca-sozzani-gardens-triennale-1239427007/",
+   "link": "https://wwd.com/sourcing-journal/trade/ukft-fashion-textile-export-grants-1239428416/",
    "photo_credit": null
   },
   {
-   "title": "Sant Roch abre café wellness",
-   "headline": "Sant Roch Readies Its First ‘Corner’ Café, With Wellness Positioning",
+   "title": "Hyunjin de Stray Kids ficha por Dior",
+   "headline": "EXCLUSIVE: Dior Names Stray Kids Member Hyunjin as Brand Ambassador",
    "source": "WWD",
-   "link": "https://wwd.com/beauty-industry-news/wellness/sant-roch-readies-first-cafe-corner-wellness-positioning-1239427115/",
+   "link": "https://wwd.com/fashion-news/fashion-scoops/dior-brand-ambassador-stray-kids-hyunjin-k-pop-star-1239427975/",
+   "photo_credit": null
+  },
+  {
+   "title": "Barrett Hutchinson debuta en moda masculina",
+   "headline": "This ‘Gown Boy’ Is Launching a Menswear Brand in Time for Awards Season",
+   "source": "WWD",
+   "link": "https://wwd.com/fashion-news/fashion-features/barrett-walter-spring-2027-1239421401/",
    "photo_credit": null
   }
  ]
