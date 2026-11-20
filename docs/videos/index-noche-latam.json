@@ -1,43 +1,43 @@
 {
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "edition": "latam",
- "duration": 72.4,
+ "duration": 70.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "Intermoda apuesta por lo híbrido y Canelo debuta en la moda",
+ "hook": "Moda, negocios y desfiles marcan la agenda de hoy en Latinoamérica",
  "items": [
   {
-   "title": "Intermoda impulsa modelo híbrido",
-   "headline": "Intermoda impulsa un modelo híbrido para ampliar las oportunidades comerciales",
-   "source": "Líder Empresarial",
-   "link": "https://www.liderempresarial.com/intermoda-impulsa-un-modelo-hibrido-para-ampliar-las-oportunidades-comerciales/",
+   "title": "Ibagué apuesta por la moda",
+   "headline": "Ibagué espera negocios por más de $14.000 millones con su feria de moda",
+   "source": "Portafolio.co",
+   "link": "https://www.portafolio.co/negocios/empresas/ibague-espera-negocios-por-mas-de-14-000-millones-con-su-feria-de-moda-506714",
    "photo_credit": null
   },
   {
-   "title": "Leica ZM 11 Green Spirit",
-   "headline": "Leica ZM 11 Green Spirit: El reloj automático de lujo con una esfera que cambia de color según la luz",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/reloj-leica-zm-11-green-spirit-precio-disponibilidad-18-11-2026",
+   "title": "Desfile revolucionario en CDMX",
+   "headline": "Desfile de la Revolución Mexicana 2026 en CDMX: horario, ruta y alternativas viales",
+   "source": "El Economista",
+   "link": "https://www.eleconomista.com.mx/politica/desfile-revolucion-mexicana-2026-cdmx-horario-ruta-alternativas-viales-20261119-844849.html",
    "photo_credit": null
   },
   {
-   "title": "Canelo lanza su marca de ropa",
-   "headline": "Saúl \"Canelo\" Álvarez lanza su marca de ropa deportiva",
-   "source": "Quinta Fuerza",
-   "link": "https://quintafuerza.mx/deportes/canelo-alvarez-lanza-marca-ropa-deportiva/",
+   "title": "Valentino brilla en el polo",
+   "headline": "María Vázquez causó impacto en el Campo Argentino de Polo con una tote bag Valentino: el accesorio de lujo que completó su look boho chic",
+   "source": "Para Ti",
+   "link": "https://www.parati.com.ar/moda/maria-vazquez-causo-impacto-en-el-campo-argentino-de-polo-con-una-tote-bag-valentino-el-accesorio-de-lujo-que-completo-su-look-boho-chic/",
    "photo_credit": null
   },
   {
-   "title": "Marcas de tenis infravaloradas",
-   "headline": "5 marcas de tenis infravaloradas con diseños únicos que merecen un lugar en tu colección",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/marcas-de-tenis-infravaloradas-con-disenos-unicos-que-merecen-lugar-en-tu-coleccion",
+   "title": "Nike alista el Pegasus Fly",
+   "headline": "More than 40 years ago, Nike created the Pegasus—a running shoe that sold millions of pairs—and is now preparing the Pegasus Fly for 2027",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/more-than-40-years-ago-nike-created-the-pegasus-a-running-shoe-that-sold-millions-of-pairs-and-is-now-preparing-the-pegasus-fly-for-2027/",
    "photo_credit": null
   },
   {
-   "title": "Granjeros desfilan con tacones",
-   "headline": "La Granja VIP: Cómo fue la pasarela que realizaron los Granjeros en la semana 11",
-   "source": "TV Azteca",
-   "link": "https://www.tvazteca.com/aztecauno/la-granja-vip/24-7/la-granja-vip-como-fue-la-pasarela-que-realizaron-los-granjeros-en-la-semana-11/",
+   "title": "De creadora a empresaria",
+   "headline": "CNMD 2026: Marian Krawstor pasó de recomendar maquillaje a lanzar Marok y explicó qué cambia cuando una creadora abre su propio negocio",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/cnmd-2026-marian-krawstor-paso-de-recomendar-maquillaje-a-lanzar-marok-y-explico-que-cambia-cuando-una-creadora-abre-su-propio-negocio/",
    "photo_credit": null
   }
  ]
