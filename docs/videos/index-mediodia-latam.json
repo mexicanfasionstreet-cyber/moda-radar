@@ -1,44 +1,44 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "edition": "latam",
- "duration": 66.2,
+ "duration": 76.1,
  "script_source": "IA (deepseek-chat)",
- "hook": "Montblanc, Coolway y Miss Universe marcan la agenda de moda",
+ "hook": "Levi’s reinventa el denim mexicano y la moda retail se expande",
  "items": [
   {
-   "title": "Montblanc Iced Sea con madera milenaria",
-   "headline": "Montblanc Iced Sea: Un reloj de buceo único con madera de casi 3,000 años de antigüedad extraída de un glaciar",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/reloj-montblanc-iced-sea-automatic-date-0-oxygen-unique-piece-137758-precio-disponibilidad-19-11-2026",
+   "title": "Lonbali llega a México y Chile",
+   "headline": "Lonbali se estrena en México y Chile mientras proyecta 8 millones de euros en 2026",
+   "source": "Modaes",
+   "link": "https://www.modaes.com/empresas/lonbali-se-estrena-en-mexico-y-chile-mientras-proyecta-8-millones-de-euros-en-2026",
    "photo_credit": null
   },
   {
-   "title": "Coolway llega a México",
-   "headline": "Coolway: la esencia del streetwear español llega a México",
-   "source": "Roastbrief",
-   "link": "https://roastbrief.com.mx/2026/11/coolway-la-esencia-del-streetwear-espanol-llega-a-mexico/",
+   "title": "Puro Diseño sale de La Rural",
+   "headline": "La Tienda Oficial de Puro Diseño sale de La Rural: desembarca en Estilo Pilar, Amigos del Bellas Artes y lanza su plataforma online",
+   "source": "Para Ti",
+   "link": "https://www.parati.com.ar/deco/la-tienda-oficial-de-puro-diseno-sale-de-la-rural-desembarca-en-estilo-pilar-amigos-del-bellas-artes-y-lanza-su-plataforma-online/",
    "photo_credit": null
   },
   {
-   "title": "Favoritas en pasarela rumbo a Miss Universe",
-   "headline": "Miss Cuba, Miss Venezuela y Miss México se imponen en pasarela antes de Miss Universe",
-   "source": "Telemundo",
-   "link": "https://www.telemundo.com/shows/en-casa-con-telemundo/miss-universo/video/miss-cuba-miss-venezuela-y-miss-mexico-se-imponen-en-pasarela-antes-de-miss-universe-tmvo13245841",
+   "title": "Desfile de la Revolución Mexicana",
+   "headline": "Desfile del 20 de noviembre: ‘Revolución mexicana dejó democracia y justica social’, descata Sheinbaum",
+   "source": "El Financiero",
+   "link": "https://www.elfinanciero.com.mx/cdmx/2026/11/20/desfile-de-la-revolucion-mexicana-2026-siguelo-en-vivo-este-20-de-noviembre/",
    "photo_credit": null
   },
   {
-   "title": "Tom Holland y su Cartier dorado",
-   "headline": "Tom Holland presume un elegante reloj Cartier de oro amarillo que es todo un clásico del lujo",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/tom-holland-reloj-cartier-tank-americaine-medium-precio-disponibilidad-19-11-2026",
+   "title": "Levi’s celebra 60 años en México",
+   "headline": "Levi’s celebra 60 años en México con 13 diseñadores que reinventan el denim",
+   "source": "Marie Claire MX",
+   "link": "https://marieclaire.com.mx/levis-denim-reimagined-disenadores-mexicanos/",
    "photo_credit": null
   },
   {
-   "title": "Rhode debuta en la moda",
-   "headline": "Rhode entra al mundo de la moda con su primera colección de ropa por los 30 años de Hailey Bieber",
+   "title": "Liverpool anuncia Venta Nocturna",
+   "headline": "Mientras las tiendas departamentales se preparan para el Black Friday, Liverpool revela la fecha de su última Venta Nocturna de 2026",
    "source": "Merca2.0",
-   "link": "https://www.merca20.com/rhode-entra-al-mundo-de-la-moda-con-su-primera-coleccion-de-ropa-por-los-30-anos-de-hailey-bieber/",
-   "photo_credit": "Foto: BarbieFantasies · CC BY 2.0"
+   "link": "https://www.merca20.com/mientras-las-tiendas-departamentales-se-preparan-para-el-black-friday-liverpool-revela-la-fecha-de-su-ultima-venta-nocturna-de-2026/",
+   "photo_credit": null
   }
  ]
 }

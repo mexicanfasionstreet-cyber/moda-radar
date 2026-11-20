@@ -1,43 +1,43 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "edition": "general",
- "duration": 75.1,
+ "duration": 73.5,
  "script_source": "IA (deepseek-chat)",
- "hook": "Target y Walmart usan reembolsos de aranceles para bajar precios",
+ "hook": "L'Oréal invierte en sostenibilidad y Kylie Jenner abre su primera tienda temporal",
  "items": [
   {
-   "title": "Reembolsos arancelarios financian rebajas",
-   "headline": "Tariff Refunds Appear to Fund Price Cuts at Target, Walmart, But No Direct Payouts to Customers",
+   "title": "L'Oréal invierte en Francia",
+   "headline": "L’Oréal to Invest Almost 300M Euros in France Through 2029",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/logistics/target-walmart-tariff-refunds-price-cuts-q3-tammy-baldwin-elizabeth-warren-1239428399/",
+   "link": "https://wwd.com/beauty-industry-news/beauty-features/loreal-invest-almost-300m-euros-france-through-2029-1239460629/",
    "photo_credit": null
   },
   {
-   "title": "Base de emisiones retail se amplía",
-   "headline": "RILA Expands Retailers’ Product Emissions Database",
+   "title": "Khy abre pop-up en Los Ángeles",
+   "headline": "EXCLUSIVE: Kylie Jenner Is Opening Khy’s First Pop-up in Los Angeles",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/industry-news/slug-rila-retail-product-emissions-database-1239425841/",
+   "link": "https://wwd.com/fashion-news/fashion-features/kylie-jenner-khy-first-pop-up-los-angeles-1239429591/",
    "photo_credit": null
   },
   {
-   "title": "DeMellier con descuento de Black Friday",
-   "headline": "Le borse DeMellier scontate al Black Friday 2026: sono le più desiderate da fashioniste e star (incluse le royal)",
-   "source": "Vogue IT",
-   "link": "https://www.vogue.it/article/borse-demellier-black-friday-2026-modelli-scontati",
+   "title": "Algodón reciclado de alta calidad",
+   "headline": "Recover and Supima Aim to Elevate Recycled Cotton",
+   "source": "WWD",
+   "link": "https://wwd.com/sourcing-journal/industry-news/recover-supima-aim-to-elevate-recycled-cotton-1239429063/",
    "photo_credit": null
   },
   {
-   "title": "Nuevos jurados en Design Parade",
-   "headline": "Villa Noailles’ Design Parade Welcomes Fresh Names Sabine Marcelis, David/Nicolas Into the Fold",
+   "title": "Minoristas retroceden en químicos",
+   "headline": "Retailers Are Backsliding on Toxic Chemicals and Plastic. Here’s Who’s Falling Short.",
    "source": "WWD",
-   "link": "https://wwd.com/home-design/interior-design/villa-noailles-design-parade-sabine-marcelis-david-nicolas-1239427069/",
+   "link": "https://wwd.com/sourcing-journal/industry-news/report-walmart-target-amazon-backsliding-chemical-plastic-cuts-1239460454/",
    "photo_credit": null
   },
   {
-   "title": "Estée Lauder revisa estructura en Francia",
-   "headline": "The Estée Lauder Cos. Considers Organizational Changes in France",
+   "title": "Rosalía sorprende con New Balance",
+   "headline": "New Balance Surprised Fans With Rosalía Appearance at Launch Event for Its Sold-Out 990v7 Sneaker",
    "source": "WWD",
-   "link": "https://wwd.com/beauty-industry-news/beauty-features/estee-lauder-cos-considers-organizational-changes-france-1239428203/",
+   "link": "https://wwd.com/footwear-news/sneaker-news/new-balance-990v7-rosalia-event-1239460428/",
    "photo_credit": null
   }
  ]
