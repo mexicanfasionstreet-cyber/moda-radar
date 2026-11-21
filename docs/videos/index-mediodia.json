@@ -1,43 +1,43 @@
 {
- "date": "2026-11-20",
+ "date": "2026-11-21",
  "edition": "general",
- "duration": 73.5,
+ "duration": 77.6,
  "script_source": "IA (deepseek-chat)",
- "hook": "L'Oréal invierte en sostenibilidad y Kylie Jenner abre su primera tienda temporal",
+ "hook": "Puertos de LA y Long Beach evitan huelga con acuerdo tentativo",
  "items": [
   {
-   "title": "L'Oréal invierte en Francia",
-   "headline": "L’Oréal to Invest Almost 300M Euros in France Through 2029",
+   "title": "Puertos evitan paro clave",
+   "headline": "LA-Long Beach Ports Dodge Strike as 250 Watchmen Reach Tentative Deal",
    "source": "WWD",
-   "link": "https://wwd.com/beauty-industry-news/beauty-features/loreal-invest-almost-300m-euros-france-through-2029-1239460629/",
+   "link": "https://wwd.com/sourcing-journal/logistics/los-angeles-la-long-beach-ports-avert-strike-250-watchmen-tentative-deal-ilwu-pma-1239461394/",
    "photo_credit": null
   },
   {
-   "title": "Khy abre pop-up en Los Ángeles",
-   "headline": "EXCLUSIVE: Kylie Jenner Is Opening Khy’s First Pop-up in Los Angeles",
-   "source": "WWD",
-   "link": "https://wwd.com/fashion-news/fashion-features/kylie-jenner-khy-first-pop-up-los-angeles-1239429591/",
+   "title": "Superdry amplía flagship en París",
+   "headline": "Superdry & Co opens new EU flagship as it targets European growth",
+   "source": "The Industry",
+   "link": "https://www.theindustry.fashion/superdry-co-opens-new-eu-flagship-as-it-targets-european-growth/",
    "photo_credit": null
   },
   {
-   "title": "Algodón reciclado de alta calidad",
-   "headline": "Recover and Supima Aim to Elevate Recycled Cotton",
+   "title": "Fallece Paolo Bulgari a los 89",
+   "headline": "Paolo Bulgari, Jeweler to Hollywood Stars and Chairman of the Roman House, Dies at 89",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/industry-news/recover-supima-aim-to-elevate-recycled-cotton-1239429063/",
+   "link": "https://wwd.com/accessories-news/jewelry/paolo-bulgari-chairman-jewelry-roman-house-dies-rome-1239461393/",
    "photo_credit": null
   },
   {
-   "title": "Minoristas retroceden en químicos",
-   "headline": "Retailers Are Backsliding on Toxic Chemicals and Plastic. Here’s Who’s Falling Short.",
+   "title": "ZucZug lleva su proyecto al campo",
+   "headline": "ZucZug Takes Its Simple Life Ethos to the Field",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/industry-news/report-walmart-target-amazon-backsliding-chemical-plastic-cuts-1239460454/",
+   "link": "https://wwd.com/fashion-news/fashion-scoops/zuczug-farmland-shanghai-1239408332/",
    "photo_credit": null
   },
   {
-   "title": "Rosalía sorprende con New Balance",
-   "headline": "New Balance Surprised Fans With Rosalía Appearance at Launch Event for Its Sold-Out 990v7 Sneaker",
+   "title": "Nike lanza Air Max en negro",
+   "headline": "Nike’s Fan-Favorite Air Max Boot Is Getting a Stealthy Black Foamposite Update for Winter",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/new-balance-990v7-rosalia-event-1239460428/",
+   "link": "https://wwd.com/footwear-news/sneaker-news/nike-acg-air-max-goadome-low-foam-black-dark-smoke-gray-release-date-iv7693-001-1239461436/",
    "photo_credit": null
   }
  ]

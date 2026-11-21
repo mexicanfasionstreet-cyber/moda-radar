@@ -1,43 +1,36 @@
 {
- "date": "2026-11-20",
+ "date": "2026-11-21",
  "edition": "latam",
- "duration": 76.1,
+ "duration": 57.2,
  "script_source": "IA (deepseek-chat)",
- "hook": "Levi’s reinventa el denim mexicano y la moda retail se expande",
+ "hook": "MIA Beauty Bar llega a diez tiendas en Perú y el desfile navideño vuelve a Lima",
  "items": [
   {
-   "title": "Lonbali llega a México y Chile",
-   "headline": "Lonbali se estrena en México y Chile mientras proyecta 8 millones de euros en 2026",
-   "source": "Modaes",
-   "link": "https://www.modaes.com/empresas/lonbali-se-estrena-en-mexico-y-chile-mientras-proyecta-8-millones-de-euros-en-2026",
+   "title": "MIA Beauty Bar abre en Jockey Plaza",
+   "headline": "Mia Beauty Bar alcanza las 10 tiendas en su primer año: ¿dónde abrió un nuevo local?",
+   "source": "Perú Retail",
+   "link": "https://www.peru-retail.com/mia-beauty-bar-alcanza-las-10-tiendas-con-una-nueva-apertura-donde-se-ubica-y-que-ofrece/",
    "photo_credit": null
   },
   {
-   "title": "Puro Diseño sale de La Rural",
-   "headline": "La Tienda Oficial de Puro Diseño sale de La Rural: desembarca en Estilo Pilar, Amigos del Bellas Artes y lanza su plataforma online",
+   "title": "Vuelve el Gran Corso a Lima",
+   "headline": "El Gran Corso de Wong y Metro vuelve tras 7 años: ¿cuándo y dónde será el desfile navideño?",
+   "source": "Perú Retail",
+   "link": "https://www.peru-retail.com/gran-corso-de-wong-y-metro-regresa-despues-de-siete-anos-cuando-y-donde-sera-el-desfile-navideno/",
+   "photo_credit": null
+  },
+  {
+   "title": "Nicki Nicole apuesta por calzado híbrido",
+   "headline": "Nicki Nicole llevó una de las tendencias más audaces en calzado con un diseño híbrido en Otro día perdido",
    "source": "Para Ti",
-   "link": "https://www.parati.com.ar/deco/la-tienda-oficial-de-puro-diseno-sale-de-la-rural-desembarca-en-estilo-pilar-amigos-del-bellas-artes-y-lanza-su-plataforma-online/",
+   "link": "https://www.parati.com.ar/moda/nicki-nicole-llevo-una-de-las-tendencias-mas-audaces-en-calzado-con-un-diseno-hibrido-en-otro-dia-perdido/",
    "photo_credit": null
   },
   {
-   "title": "Desfile de la Revolución Mexicana",
-   "headline": "Desfile del 20 de noviembre: ‘Revolución mexicana dejó democracia y justica social’, descata Sheinbaum",
-   "source": "El Financiero",
-   "link": "https://www.elfinanciero.com.mx/cdmx/2026/11/20/desfile-de-la-revolucion-mexicana-2026-siguelo-en-vivo-este-20-de-noviembre/",
-   "photo_credit": null
-  },
-  {
-   "title": "Levi’s celebra 60 años en México",
-   "headline": "Levi’s celebra 60 años en México con 13 diseñadores que reinventan el denim",
-   "source": "Marie Claire MX",
-   "link": "https://marieclaire.com.mx/levis-denim-reimagined-disenadores-mexicanos/",
-   "photo_credit": null
-  },
-  {
-   "title": "Liverpool anuncia Venta Nocturna",
-   "headline": "Mientras las tiendas departamentales se preparan para el Black Friday, Liverpool revela la fecha de su última Venta Nocturna de 2026",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/mientras-las-tiendas-departamentales-se-preparan-para-el-black-friday-liverpool-revela-la-fecha-de-su-ultima-venta-nocturna-de-2026/",
+   "title": "Oreiro brilla en verde esmeralda",
+   "headline": "El sofisticado look de Natalia Oreiro en los Martín Fierro de Uruguay: llevó un impactante diseño verde esmeralda",
+   "source": "Para Ti",
+   "link": "https://www.parati.com.ar/moda/el-sofisticado-look-de-natalia-oreiro-en-los-martin-fierro-de-uruguay-llevo-un-impactante-diseno-verde-esmeralda/",
    "photo_credit": null
   }
  ]
