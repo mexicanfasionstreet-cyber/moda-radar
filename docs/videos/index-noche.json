@@ -1,43 +1,43 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "edition": "general",
- "duration": 74.2,
+ "duration": 71.5,
  "script_source": "IA (deepseek-chat)",
- "hook": "Tailandia negocia aranceles laborales y Walmart sube su previsión de ventas",
+ "hook": "Huelga portuaria en Los Ángeles amenaza la cadena de suministro de moda",
  "items": [
   {
-   "title": "Tailandia y EE. UU. negocian aranceles",
-   "headline": "Thailand Says US Trade Deal Includes Lowering of Forced Labor Duties",
+   "title": "Huelga portuaria amenaza contenedores",
+   "headline": "Half a Million Containers Hang on 250 Watchmen as LA/LB Port Strike Threat Looms",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/trade/thailand-us-trade-deal-forced-labor-duties-tariffs-apec-asean-1239429007/",
+   "link": "https://wwd.com/sourcing-journal/logistics/los-angeles-long-beach-250-watchmen-la-lb-port-strike-threat-saturday-pma-ilwu-1239461164/",
    "photo_credit": null
   },
   {
-   "title": "Walmart sube su previsión anual",
-   "headline": "Walmart Raises Outlook Despite Slower-Than-Expected Q3 Sales",
+   "title": "Zara renueva tienda en Quinta Avenida",
+   "headline": "Zara’s Fifth Avenue Flagship Gets a Royal Overhaul",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/financial/walmart-q3-2026-earnings-outlook-raised-1239427127/",
+   "link": "https://wwd.com/business-news/retail/zaras-fifth-avenue-flagship-overhaul-1239429653/",
    "photo_credit": null
   },
   {
-   "title": "Tony Bianco abre pop-up en Los Ángeles",
-   "headline": "Tony Bianco Opens First L.A. Pop-Up",
-   "source": "Fashionista",
-   "link": "https://fashionista.com/2026/11/tony-bianco-los-angeles-pop-up",
+   "title": "Tingit se luce en Francia",
+   "headline": "Repair Marketplace Tingit Gets Spotlight in France Through Vinted Go Campaign",
+   "source": "WWD",
+   "link": "https://wwd.com/sustainability/business/repair-marketplace-tingit-france-vinted-go-campaign-1239428175/",
    "photo_credit": null
   },
   {
-   "title": "Nuevo liderazgo en Famous Footwear",
-   "headline": "David Law Will Take the Reins at Famous Footwear as Brian Costello Retires",
+   "title": "Maggie Ellis y la libertad absurda",
+   "headline": "Maggie Ellis Finds Freedom in the Absurd",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-industry-news/famous-footwear-division-president-david-law-brian-costello-1239428972/",
+   "link": "https://wwd.com/eye/people/maggie-ellis-chaos-bewitched-charles-moffet-1239394188/",
    "photo_credit": null
   },
   {
-   "title": "Simon estrena campaña navideña",
-   "headline": "Simon Launches Its Largest Holiday Campaign",
+   "title": "Air Jordan de diciembre",
+   "headline": "Every Air Jordan Sneaker Releasing in December",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/real-estate/simon-largest-holiday-campaign-1239426201/",
+   "link": "https://wwd.com/footwear-news/sneaker-news/air-jordan-release-date-calendar-december-2026-1239460421/",
    "photo_credit": null
   }
  ]

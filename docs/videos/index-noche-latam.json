@@ -1,43 +1,43 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "edition": "latam",
- "duration": 70.0,
+ "duration": 71.8,
  "script_source": "IA (deepseek-chat)",
- "hook": "Moda, negocios y desfiles marcan la agenda de hoy en Latinoamérica",
+ "hook": "México desfila entre innovación, moda y calles saturadas este 20 de noviembre",
  "items": [
   {
-   "title": "Ibagué apuesta por la moda",
-   "headline": "Ibagué espera negocios por más de $14.000 millones con su feria de moda",
-   "source": "Portafolio.co",
-   "link": "https://www.portafolio.co/negocios/empresas/ibague-espera-negocios-por-mas-de-14-000-millones-con-su-feria-de-moda-506714",
-   "photo_credit": null
-  },
-  {
-   "title": "Desfile revolucionario en CDMX",
-   "headline": "Desfile de la Revolución Mexicana 2026 en CDMX: horario, ruta y alternativas viales",
+   "title": "Puebla innova con desfile tecnológico",
+   "headline": "Puebla agradece a presidenta Sheinbaum capacidad de innovación tecnológica; Olinia encabeza desfile revolucionario",
    "source": "El Economista",
-   "link": "https://www.eleconomista.com.mx/politica/desfile-revolucion-mexicana-2026-cdmx-horario-ruta-alternativas-viales-20261119-844849.html",
+   "link": "https://www.eleconomista.com.mx/politica/puebla-agradece-presidenta-sheinbaum-capacidad-innovacion-tecnologica-olinia-encabeza-desfile-revolucionario-20261120-845095.html",
    "photo_credit": null
   },
   {
-   "title": "Valentino brilla en el polo",
-   "headline": "María Vázquez causó impacto en el Campo Argentino de Polo con una tote bag Valentino: el accesorio de lujo que completó su look boho chic",
+   "title": "Caro Molinari y su pasado modelo",
+   "headline": "Quién es Caro Molinari, la panelista de LAM: su pasado como modelo, su historia con Mariano Pavone y sus dos hijos",
    "source": "Para Ti",
-   "link": "https://www.parati.com.ar/moda/maria-vazquez-causo-impacto-en-el-campo-argentino-de-polo-con-una-tote-bag-valentino-el-accesorio-de-lujo-que-completo-su-look-boho-chic/",
+   "link": "https://www.parati.com.ar/news/quien-es-caro-molinari-la-panelista-de-lam-su-pasado-como-modelo-su-historia-con-mariano-pavone-y-sus-dos-hijos/",
    "photo_credit": null
   },
   {
-   "title": "Nike alista el Pegasus Fly",
-   "headline": "More than 40 years ago, Nike created the Pegasus—a running shoe that sold millions of pairs—and is now preparing the Pegasus Fly for 2027",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/more-than-40-years-ago-nike-created-the-pegasus-a-running-shoe-that-sold-millions-of-pairs-and-is-now-preparing-the-pegasus-fly-for-2027/",
+   "title": "Desfile revolucionario en San Luis Potosí",
+   "headline": "Ricardo Gallardo encabeza desfile de la Revolución Mexicana ante miles de familias potosinas",
+   "source": "El Economista",
+   "link": "https://www.eleconomista.com.mx/politica/ricardo-gallardo-encabeza-desfile-revolucion-mexicana-miles-familias-potosinas-20261120-845023.html",
    "photo_credit": null
   },
   {
-   "title": "De creadora a empresaria",
-   "headline": "CNMD 2026: Marian Krawstor pasó de recomendar maquillaje a lanzar Marok y explicó qué cambia cuando una creadora abre su propio negocio",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/cnmd-2026-marian-krawstor-paso-de-recomendar-maquillaje-a-lanzar-marok-y-explico-que-cambia-cuando-una-creadora-abre-su-propio-negocio/",
+   "title": "CDMX con movilidad complicada hoy",
+   "headline": "Marchas, desfile del 20 de noviembre y eventos masivos complicarán la movilidad en la CDMX",
+   "source": "El Economista",
+   "link": "https://www.eleconomista.com.mx/politica/marchas-desfile-20-noviembre-eventos-masivos-complicaran-movilidad-cdmx-20261120-844997.html",
+   "photo_credit": null
+  },
+  {
+   "title": "Alfredo Martínez cierra en Quito",
+   "headline": "Diseñador mexicano Alfredo Martínez en Quito Fashion Week: Nos invita a un mundo de fantasía y “soñar despiertos”, con su colección primavera - verano 2027",
+   "source": "El Universo",
+   "link": "https://www.eluniverso.com/entretenimiento/gente/disenador-mexicano-alfredo-martinez-en-quito-fashion-week-nos-invita-a-un-mundo-de-fantasia-y-sonar-despiertos-con-su-coleccion-primavera-verano-2027-nota/",
    "photo_credit": null
   }
  ]
