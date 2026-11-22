@@ -1,36 +1,36 @@
 {
- "date": "2026-11-21",
+ "date": "2026-11-22",
  "edition": "latam",
- "duration": 57.2,
+ "duration": 51.6,
  "script_source": "IA (deepseek-chat)",
- "hook": "MIA Beauty Bar llega a diez tiendas en Perú y el desfile navideño vuelve a Lima",
+ "hook": "Moda argentina y mexicana brillan hoy en pasarelas internacionales",
  "items": [
   {
-   "title": "MIA Beauty Bar abre en Jockey Plaza",
-   "headline": "Mia Beauty Bar alcanza las 10 tiendas en su primer año: ¿dónde abrió un nuevo local?",
-   "source": "Perú Retail",
-   "link": "https://www.peru-retail.com/mia-beauty-bar-alcanza-las-10-tiendas-con-una-nueva-apertura-donde-se-ubica-y-que-ofrece/",
-   "photo_credit": null
-  },
-  {
-   "title": "Vuelve el Gran Corso a Lima",
-   "headline": "El Gran Corso de Wong y Metro vuelve tras 7 años: ¿cuándo y dónde será el desfile navideño?",
-   "source": "Perú Retail",
-   "link": "https://www.peru-retail.com/gran-corso-de-wong-y-metro-regresa-despues-de-siete-anos-cuando-y-donde-sera-el-desfile-navideno/",
-   "photo_credit": null
-  },
-  {
-   "title": "Nicki Nicole apuesta por calzado híbrido",
-   "headline": "Nicki Nicole llevó una de las tendencias más audaces en calzado con un diseño híbrido en Otro día perdido",
+   "title": "Jorge Rey en Aruba Fashion Week",
+   "headline": "Jorge Rey presentó su colección de alta costura en Aruba Fashion Week y llevó la moda argentina a la pasarela internacional",
    "source": "Para Ti",
-   "link": "https://www.parati.com.ar/moda/nicki-nicole-llevo-una-de-las-tendencias-mas-audaces-en-calzado-con-un-diseno-hibrido-en-otro-dia-perdido/",
+   "link": "https://www.parati.com.ar/moda/jorge-rey-presento-su-coleccion-en-aruba-fashion-week-y-llevo-la-moda-argentina-a-la-pasarela-internacional/",
    "photo_credit": null
   },
   {
-   "title": "Oreiro brilla en verde esmeralda",
-   "headline": "El sofisticado look de Natalia Oreiro en los Martín Fierro de Uruguay: llevó un impactante diseño verde esmeralda",
-   "source": "Para Ti",
-   "link": "https://www.parati.com.ar/moda/el-sofisticado-look-de-natalia-oreiro-en-los-martin-fierro-de-uruguay-llevo-un-impactante-diseno-verde-esmeralda/",
+   "title": "Nohemi Pecina en Frankfurt",
+   "headline": "La joven diseñadora mexicana Nohemi Pecina",
+   "source": "DW.com",
+   "link": "https://www.dw.com/es/la-joven-dise%C3%B1adora-mexicana-nohemi-pecina/g-36079335",
+   "photo_credit": null
+  },
+  {
+   "title": "Trajes típicos de Miss Universo",
+   "headline": "Miss Universo 2026: Estos fueron los looks de trajes típicos que robaron cámara en la pasarela",
+   "source": "Chic Magazine",
+   "link": "https://www.chicmagazine.com.mx/personajes/mejores-trajes-tipicos-de-miss-universo-2026",
+   "photo_credit": null
+  },
+  {
+   "title": "Ginny y Georgia temporada 4",
+   "headline": "Netflix confirma la temporada 4 de ‘Ginny y Georgia’",
+   "source": "Marie Claire MX",
+   "link": "https://marieclaire.com.mx/ginny-y-georgia-temporada-4-fecha-estreno/",
    "photo_credit": null
   }
  ]
