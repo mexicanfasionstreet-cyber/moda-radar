@@ -1,43 +1,43 @@
 {
- "date": "2026-11-20",
+ "date": "2026-11-21",
  "edition": "general",
- "duration": 71.5,
+ "duration": 63.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "Huelga portuaria en Los Ángeles amenaza la cadena de suministro de moda",
+ "hook": "Kate Middleton comparte su viaje de sanación en un documental íntimo",
  "items": [
   {
-   "title": "Huelga portuaria amenaza contenedores",
-   "headline": "Half a Million Containers Hang on 250 Watchmen as LA/LB Port Strike Threat Looms",
-   "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/logistics/los-angeles-long-beach-250-watchmen-la-lb-port-strike-threat-saturday-pma-ilwu-1239461164/",
+   "title": "Kate Middleton y su documental Heal",
+   "headline": "‘Cancer Does Change You’: Kate Middleton Shares Her Healing Journey in ‘Deeply Personal’ Documentary",
+   "source": "Vogue",
+   "link": "https://www.vogue.com/article/kate-middleton-shares-her-healing-journey-in-deeply-personal-documentary-heal-2026-11-21",
    "photo_credit": null
   },
   {
-   "title": "Zara renueva tienda en Quinta Avenida",
-   "headline": "Zara’s Fifth Avenue Flagship Gets a Royal Overhaul",
+   "title": "Quinta Brunson en Magda Butrym x H&M",
+   "headline": "Quinta Brunson Attends Abbott Elementary 100 Episode Celebration in Modified Magda Butrym x H&M Dress",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/retail/zaras-fifth-avenue-flagship-overhaul-1239429653/",
+   "link": "https://wwd.com/pop-culture/celebrity-news/quinta-brunson-100-episode-magda-butrym-x-hm-dress-1239461547/",
    "photo_credit": null
   },
   {
-   "title": "Tingit se luce en Francia",
-   "headline": "Repair Marketplace Tingit Gets Spotlight in France Through Vinted Go Campaign",
+   "title": "Janelle James con Balmain rubí",
+   "headline": "Janelle James Attends Abbot Elementary 100 Episode Celebration in Balmain Ruby Monogram Slingback Pumps",
    "source": "WWD",
-   "link": "https://wwd.com/sustainability/business/repair-marketplace-tingit-france-vinted-go-campaign-1239428175/",
+   "link": "https://wwd.com/footwear-news/shoe-trends/janelle-james-balmain-ruby-monogram-slingback-pumps-1239461553/",
    "photo_credit": null
   },
   {
-   "title": "Maggie Ellis y la libertad absurda",
-   "headline": "Maggie Ellis Finds Freedom in the Absurd",
+   "title": "Ganni cierra su tienda en Tmall",
+   "headline": "Ganni Girl Shutters Tmall Store, Ending Four-Year China Retail Presence",
    "source": "WWD",
-   "link": "https://wwd.com/eye/people/maggie-ellis-chaos-bewitched-charles-moffet-1239394188/",
+   "link": "https://wwd.com/business-news/retail/ganni-shutters-tmall-store-china-retail-exit-1239429144/",
    "photo_credit": null
   },
   {
-   "title": "Air Jordan de diciembre",
-   "headline": "Every Air Jordan Sneaker Releasing in December",
+   "title": "Sheryl Lee Ralph con Sergio Hudson",
+   "headline": "Sheryl Lee Ralph Turns Heads in Bright Blue Sergio Hudson Trench Coat Dress at ‘Abbott Elementary’ 100th Episode Event",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/air-jordan-release-date-calendar-december-2026-1239460421/",
+   "link": "https://wwd.com/pop-culture/celebrity-news/sheryl-lee-ralph-sergio-hudson-abbott-elementary-100-event-1239461421/",
    "photo_credit": null
   }
  ]
