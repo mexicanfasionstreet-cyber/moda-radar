@@ -1,36 +1,36 @@
 {
- "date": "2026-11-21",
+ "date": "2026-11-22",
  "edition": "latam",
- "duration": 60.1,
+ "duration": 51.7,
  "script_source": "IA (deepseek-chat)",
- "hook": "Pasarelas colombianas y mexicanas marcan la agenda de moda",
+ "hook": "Olinia eléctrico mexicano desfila y la moda nacional se expande",
  "items": [
   {
-   "title": "Cersele en pasarela de Ibagué",
-   "headline": "Diseñadora ibaguereña presentará su colección inspirada en la mujer colombiana",
-   "source": "La Voz Del Pueblo",
-   "link": "https://vozdelpueblo920am.com/disenadora-ibaguerena-presentara-su-coleccion-inspirada-en-la-mujer-colombiana/",
-   "photo_credit": "Foto: medea_material · CC BY 2.0"
-  },
-  {
-   "title": "Mujeres Valientes llevan sus diseños",
-   "headline": "Mujeres del Tolima llevarán sus diseños a las pasarelas de la feria de moda",
-   "source": "La Voz Del Pueblo",
-   "link": "https://vozdelpueblo920am.com/mujeres-del-tolima-llevaran-sus-disenos-a-las-pasarelas-de-la-feria-de-moda/",
-   "photo_credit": "Foto: Ahron de Leeuw · CC BY 2.0"
-  },
-  {
-   "title": "La mezclilla conquista la pasarela",
-   "headline": "La mezclilla en México encuentra otra vida en la pasarela",
-   "source": "Fast Company México",
-   "link": "https://fastcompany.mx/2026/11/20/mezclilla-en-mexico-pasarela-diseno/",
+   "title": "Olinia rueda en Puebla",
+   "headline": "Olinia sale a las calles, Gobierno revela imágenes del auto eléctrico mexicano circulando en Puebla durante el desfile del 20 de noviembre",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/olinia-sale-a-las-calles-gobierno-revela-imagenes-del-auto-electrico-mexicano-circulando-en-puebla-durante-el-desfile-del-20-de-noviembre/",
    "photo_credit": null
   },
   {
-   "title": "Julianne Moore estrena The Debut",
-   "headline": "‘The Debut’: La nueva película protagonizada por Julianne Moore",
-   "source": "Marie Claire MX",
-   "link": "https://marieclaire.com.mx/the-debut-pelicula-a24-reparto-estreno/",
+   "title": "Saravia conquista Colombia",
+   "headline": "La diseñadora mexicana Lorena Saravia llega a Colombia de la mano de ST DOM",
+   "source": "LaRepublica.co",
+   "link": "https://www.larepublica.co/ocio/la-disenadora-mexicana-lorena-saravia-llega-a-colombia-de-la-mano-de-st-dom-4527499",
+   "photo_credit": null
+  },
+  {
+   "title": "Trueque de ropa y libros",
+   "headline": "Cambia víveres por ropa y libros en la tercera edición del Bazar del Trueque",
+   "source": "vanguardia.com.mx",
+   "link": "https://vanguardia.com.mx/coahuila/saltillo/cambia-viveres-por-ropa-y-libros-en-la-tercera-edicion-del-bazar-del-trueque-CJ24968695",
+   "photo_credit": "Foto: BarbieFantasies · CC BY 2.0"
+  },
+  {
+   "title": "Traje nacional de María Vargas",
+   "headline": "Desfile de Trajes Nacionales Miss Universo 2026: Así fue el vestido que utilizó María Vargas",
+   "source": "El Financiero",
+   "link": "https://www.elfinanciero.com.mx/entretenimiento/2026/11/21/miss-universo-2026-hoy-detalles-de-la-competencia-de-trajes-nacionales-con-maria-vargas/",
    "photo_credit": null
   }
  ]
