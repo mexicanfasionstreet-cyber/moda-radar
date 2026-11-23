@@ -1,43 +1,43 @@
 {
- "date": "2026-11-22",
+ "date": "2026-11-23",
  "edition": "general",
- "duration": 66.5,
+ "duration": 65.8,
  "script_source": "IA (deepseek-chat)",
- "hook": "Nike reinventa el Air Force 1 y Air Jordan apuesta por un giro punk",
+ "hook": "India busca 100 mil millones en exportaciones textiles",
  "items": [
   {
-   "title": "Air Force 1 ahora sin talón",
-   "headline": "First Look: Nike Is Giving Its Classic Air Force 1 a New Mule Makeover",
+   "title": "India apunta a 100 mil millones",
+   "headline": "India Has the Yarn. Can It Win More Clothing Orders?",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/nike-air-force-1-mule-release-date-1239461664/",
+   "link": "https://wwd.com/sourcing-journal/industry-news/india-textile-machinery-apparel-exports-1239462736/",
    "photo_credit": null
   },
   {
-   "title": "Stick de colágeno en oferta",
-   "headline": "Lo stick al collagene Medicube è il segreto per avere subito la pelle luminosa effetto dewy (anche per le più pigre) e ora è scontato al Black Friday 2026",
-   "source": "Vogue IT",
-   "link": "https://www.vogue.it/article/stick-al-collagene-medicube-black-friday-2026",
+   "title": "Prada abre tienda solo para hombres",
+   "headline": "Prada Opens Men’s-Only Store in Miami’s Design District",
+   "source": "WWD",
+   "link": "https://wwd.com/business-news/retail/prada-mens-only-store-miamis-design-district-1239425411/",
    "photo_credit": null
   },
   {
-   "title": "Muere la modelo Liz Daly Byrne",
-   "headline": "Liz Daly Byrne, Model and Wife of PMC Vice Chairman Gerry Byrne, Dies at 81",
+   "title": "Nike Air Force 1 sin venta online",
+   "headline": "A Ma Maniére Just Released Its Six Nike Air Force 1s — but You Can’t Buy Them Online",
    "source": "WWD",
-   "link": "https://wwd.com/fashion-news/designer-luxury/liz-daly-byrne-model-wife-pmc-vice-chairman-gerry-byrne-dies-1239461756/",
+   "link": "https://wwd.com/footwear-news/sneaker-news/a-ma-maniere-nike-air-force-1-never-launching-release-info-1239462658/",
    "photo_credit": null
   },
   {
-   "title": "El estilo de James Bond",
-   "headline": "James Bond’s Style Through the Years",
-   "source": "WWD",
-   "link": "https://wwd.com/pop-culture/celebrity-news/james-bonds-style-through-the-years-pattinson-fashion-1239461235/",
+   "title": "Sin acuerdo salarial en Bangladesh",
+   "headline": "Sin acuerdo en Bangladesh: la subida salarial, lejos de las demandas de los trabajadores",
+   "source": "Modaes",
+   "link": "https://www.modaes.com/entorno/sin-acuerdo-en-bangladesh-la-subida-salarial-lejos-de-las-demandas-de-los-trabajadores",
    "photo_credit": null
   },
   {
-   "title": "Air Jordan con giro punk",
-   "headline": "Michael Jordan’s Most Popular Air Jordan Sneaker Is Getting a New Punk Rock-Inspired Update",
+   "title": "Dior ficha a Nicole Orofino",
+   "headline": "EXCLUSIVE: Dior Names Nicole Orofino Head of Innovation for Communication and Image",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/air-jordan-4-retro-punk-release-date-jv3877-104-1239461510/",
+   "link": "https://wwd.com/business-news/human-resources/dior-nicole-orofino-global-director-innovation-communication-image-1239462098/",
    "photo_credit": null
   }
  ]

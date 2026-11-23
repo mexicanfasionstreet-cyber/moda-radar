@@ -1,36 +1,43 @@
 {
- "date": "2026-11-22",
+ "date": "2026-11-23",
  "edition": "latam",
- "duration": 51.6,
+ "duration": 70.5,
  "script_source": "IA (deepseek-chat)",
- "hook": "Moda argentina y mexicana brillan hoy en pasarelas internacionales",
+ "hook": "Cortes rizados, mezclilla mexicana y ofertas marcan la agenda de moda",
  "items": [
   {
-   "title": "Jorge Rey en Aruba Fashion Week",
-   "headline": "Jorge Rey presentó su colección de alta costura en Aruba Fashion Week y llevó la moda argentina a la pasarela internacional",
-   "source": "Para Ti",
-   "link": "https://www.parati.com.ar/moda/jorge-rey-presento-su-coleccion-en-aruba-fashion-week-y-llevo-la-moda-argentina-a-la-pasarela-internacional/",
+   "title": "Seis cortes para pelo rizado",
+   "headline": "6 cortes de cabello para pelo rizado con los que brillarás en esta temporada de fiestas 2026",
+   "source": "Vogue MX",
+   "link": "https://www.vogue.mx/articulo/cortes-de-cabello-para-rizado-para-diciembre-2026",
    "photo_credit": null
   },
   {
-   "title": "Nohemi Pecina en Frankfurt",
-   "headline": "La joven diseñadora mexicana Nohemi Pecina",
-   "source": "DW.com",
-   "link": "https://www.dw.com/es/la-joven-dise%C3%B1adora-mexicana-nohemi-pecina/g-36079335",
+   "title": "Levi’s y talento mexicano",
+   "headline": "Denim Reimagined, la pasarela de Levi’s con 13 diseñadores mexicanos",
+   "source": "El Universal",
+   "link": "https://www.eluniversal.com.mx/de-ultima/denim-reimagined-la-pasarela-de-levis-con-13-disenadores-mexicanos/",
    "photo_credit": null
   },
   {
-   "title": "Trajes típicos de Miss Universo",
-   "headline": "Miss Universo 2026: Estos fueron los looks de trajes típicos que robaron cámara en la pasarela",
-   "source": "Chic Magazine",
-   "link": "https://www.chicmagazine.com.mx/personajes/mejores-trajes-tipicos-de-miss-universo-2026",
+   "title": "Venta Nocturna en Liverpool",
+   "headline": "Mientras las tiendas departamentales se preparan para el Black Friday, Liverpool revela la fecha de su última Venta Nocturna de 2026",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/mientras-las-tiendas-departamentales-se-preparan-para-el-black-friday-liverpool-revela-la-fecha-de-su-ultima-venta-nocturna-de-2026/",
    "photo_credit": null
   },
   {
-   "title": "Ginny y Georgia temporada 4",
-   "headline": "Netflix confirma la temporada 4 de ‘Ginny y Georgia’",
-   "source": "Marie Claire MX",
-   "link": "https://marieclaire.com.mx/ginny-y-georgia-temporada-4-fecha-estreno/",
+   "title": "Samba OG con aire tropical",
+   "headline": "Los adidas Samba OG Miami parecen salidos de GTA 6 gracias a su diseño tropical y detalles en rosa neón",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/tenis-adidas-samba-og-miami-lm7548-precio-fotos-lanzamiento-23-11-2026",
+   "photo_credit": null
+  },
+  {
+   "title": "Seiko edición limitada",
+   "headline": "Seiko Prospex Marinemaster 1968 Heritage Save the Ocean: Los manglares de Okinawa en un reloj de edición limitada",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/reloj-seiko-prospex-marinemaster-1968-heritage-save-the-ocean-limited-edition-hbf003j1-precio-disponibilidad-23-11-2026",
    "photo_credit": null
   }
  ]
