@@ -1,43 +1,43 @@
 {
- "date": "2026-11-22",
+ "date": "2026-11-23",
  "edition": "general",
- "duration": 66.0,
+ "duration": 64.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "Amazon lanza ofertas de Black Friday en moda y belleza",
+ "hook": "Milly abre flagship y la moda se rinde ante la inteligencia artificial",
  "items": [
   {
-   "title": "Ofertas de moda en Amazon",
-   "headline": "Amazon al Black Friday 2026: le migliori offerte tra moda, beauty e casa secondo le editor di Vogue",
-   "source": "Vogue IT",
-   "link": "https://www.vogue.it/article/amazon-black-friday-22-11-2026-migliori-offerte",
-   "photo_credit": null
-  },
-  {
-   "title": "Gap mejora pero baja previsión",
-   "headline": "Gap Inc. Posts Q3 Top- and Bottom-Line Gains but Lowers Outlook",
+   "title": "Milly abre tienda en Upper East Side",
+   "headline": "Milly Opens Upper East Side Flagship",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/retail/gap-inc-q3-results-outlook-athleta-change-1239428469/",
+   "link": "https://wwd.com/business-news/retail/milly-retail-new-york-upper-east-side-flagship-shop-fashion-1239420957/",
    "photo_credit": null
   },
   {
-   "title": "Letizia apuesta por Massimo Dutti",
-   "headline": "Queen Letizia of Spain Wears Massimo Dutti Derby Loafers While Visiting Madrid Artistic Residency",
+   "title": "Paquetes chinos al Reino Unido se cuadruplican",
+   "headline": "Value of Chinese low-value parcel imports into UK more than quadruples in two years",
+   "source": "The Industry",
+   "link": "https://www.theindustry.fashion/value-of-chinese-low-value-parcel-imports-into-uk-more-than-quadruples-in-two-years/",
+   "photo_credit": null
+  },
+  {
+   "title": "NEXT investiga ciberataque a proveedor",
+   "headline": "NEXT investigates cyber incident after supplier data breach",
+   "source": "The Industry",
+   "link": "https://www.theindustry.fashion/next-investigates-cyber-incident-after-supplier-data-breach/",
+   "photo_credit": null
+  },
+  {
+   "title": "La IA quiere ser árbitro del gusto",
+   "headline": "Talk To My Agent: Can AI Be A Tastemaker?",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-trends/queen-letizia-massimo-dutti-derby-loafers-madrid-1239461529/",
+   "link": "https://wwd.com/sourcing-journal/industry-news/croissant-daydream-spangle-first-insight-threedium-1239460518/",
    "photo_credit": null
   },
   {
-   "title": "Suben salario en calzado",
-   "headline": "Govt raises minimum wage for leather and footwear workers by 68%",
-   "source": "Textile Today",
-   "link": "https://textiletoday.com.bd/govt-raises-minimum-wage-for-leather-and-footwear-workers-by-68",
-   "photo_credit": null
-  },
-  {
-   "title": "Homenaje a Gloria Steinem",
-   "headline": "At Gloria Steinem Memorial, Michelle Obama, Hillary Clinton and More Big Names Gather",
-   "source": "NYT",
-   "link": "https://www.nytimes.com/2026/11/18/style/gloria-steinem-memorial-photos.html",
+   "title": "Nuevo CEO en Galeries Lafayette",
+   "headline": "CEO TALKS: Galeries Lafayette’s Arthur Lemoine on Luxury, Loyalty and That Christmas Tree",
+   "source": "WWD",
+   "link": "https://wwd.com/business-news/retail/ceo-arthur-lemoine-galeries-lafayette-luxury-loyalty-christmas-tree-1239429667/",
    "photo_credit": null
   }
  ]
