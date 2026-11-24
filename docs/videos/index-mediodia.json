@@ -1,43 +1,43 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "edition": "general",
- "duration": 65.8,
+ "duration": 69.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "India busca 100 mil millones en exportaciones textiles",
+ "hook": "Authentic compra O'Neill y Saks abre sus vitrinas entre protestas",
  "items": [
   {
-   "title": "India apunta a 100 mil millones",
-   "headline": "India Has the Yarn. Can It Win More Clothing Orders?",
-   "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/industry-news/india-textile-machinery-apparel-exports-1239462736/",
+   "title": "Authentic adquiere la marca O'Neill",
+   "headline": "Authentic expands outdoor portfolio with acquisition of O’Neill IP",
+   "source": "The Industry",
+   "link": "https://www.theindustry.fashion/authentic-brands-group-acquires-oneill-ip/",
    "photo_credit": null
   },
   {
-   "title": "Prada abre tienda solo para hombres",
-   "headline": "Prada Opens Men’s-Only Store in Miami’s Design District",
+   "title": "Vitrinas de Saks bajo protesta",
+   "headline": "Saks Fifth Avenue Unveils Holiday Windows Amid Protests Over Alleged Employee Treatment",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/retail/prada-mens-only-store-miamis-design-district-1239425411/",
+   "link": "https://wwd.com/business-news/retail/saks-fifth-avenue-unveils-holiday-windows-amid-protests-1239462356/",
    "photo_credit": null
   },
   {
-   "title": "Nike Air Force 1 sin venta online",
-   "headline": "A Ma Maniére Just Released Its Six Nike Air Force 1s — but You Can’t Buy Them Online",
+   "title": "20 años de Blue Jeans Go Green",
+   "headline": "20 Years In, Cotton Incorporated’s Blue Jeans Go Green™ Program Continues to Boost Circularity",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/a-ma-maniere-nike-air-force-1-never-launching-release-info-1239462658/",
+   "link": "https://wwd.com/sourcing-journal/sj-denim/blue-jeans-go-green-cotton-incorporated-20-year-milestone-1239464179/",
    "photo_credit": null
   },
   {
-   "title": "Sin acuerdo salarial en Bangladesh",
-   "headline": "Sin acuerdo en Bangladesh: la subida salarial, lejos de las demandas de los trabajadores",
-   "source": "Modaes",
-   "link": "https://www.modaes.com/entorno/sin-acuerdo-en-bangladesh-la-subida-salarial-lejos-de-las-demandas-de-los-trabajadores",
+   "title": "Lululemon ficha a Paula Conhain",
+   "headline": "Lululemon Taps Paula Conhain to Lead Communications",
+   "source": "WWD",
+   "link": "https://wwd.com/business-news/human-resources/lululemon-appoints-paula-conhain-chief-communications-1239464205/",
    "photo_credit": null
   },
   {
-   "title": "Dior ficha a Nicole Orofino",
-   "headline": "EXCLUSIVE: Dior Names Nicole Orofino Head of Innovation for Communication and Image",
+   "title": "Bangladesh usa flete aéreo de emergencia",
+   "headline": "‘Costly’ Air Freight is Bangladesh Apparel Exporters’ Fallback Option as Orders Slip",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/human-resources/dior-nicole-orofino-global-director-innovation-communication-image-1239462098/",
+   "link": "https://wwd.com/sourcing-journal/logistics/bangladesh-apparel-exporters-air-cargo-freight-bgmea-wage-unrest-1239464371/",
    "photo_credit": null
   }
  ]
