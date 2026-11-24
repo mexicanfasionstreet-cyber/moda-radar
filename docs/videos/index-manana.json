@@ -1,43 +1,43 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "edition": "general",
- "duration": 64.0,
+ "duration": 71.9,
  "script_source": "IA (deepseek-chat)",
- "hook": "Milly abre flagship y la moda se rinde ante la inteligencia artificial",
+ "hook": "Authentic compra O'Neill y la moda mira el Black Friday",
  "items": [
   {
-   "title": "Milly abre tienda en Upper East Side",
-   "headline": "Milly Opens Upper East Side Flagship",
+   "title": "Authentic compra la marca O'Neill",
+   "headline": "Authentic Brands Group Acquires O’Neill Surf and Lifestyle Brand",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/retail/milly-retail-new-york-upper-east-side-flagship-shop-fashion-1239420957/",
+   "link": "https://wwd.com/business-news/mergers-acquisitions/authentic-brands-group-acquires-oneill-surf-1239425947/",
    "photo_credit": null
   },
   {
-   "title": "Paquetes chinos al Reino Unido se cuadruplican",
-   "headline": "Value of Chinese low-value parcel imports into UK more than quadruples in two years",
-   "source": "The Industry",
-   "link": "https://www.theindustry.fashion/value-of-chinese-low-value-parcel-imports-into-uk-more-than-quadruples-in-two-years/",
-   "photo_credit": null
-  },
-  {
-   "title": "NEXT investiga ciberataque a proveedor",
-   "headline": "NEXT investigates cyber incident after supplier data breach",
-   "source": "The Industry",
-   "link": "https://www.theindustry.fashion/next-investigates-cyber-incident-after-supplier-data-breach/",
-   "photo_credit": null
-  },
-  {
-   "title": "La IA quiere ser árbitro del gusto",
-   "headline": "Talk To My Agent: Can AI Be A Tastemaker?",
+   "title": "Black Friday, clave para el retail",
+   "headline": "How Crucial Is Black Friday Weekend to Retailers?",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/industry-news/croissant-daydream-spangle-first-insight-threedium-1239460518/",
+   "link": "https://wwd.com/sourcing-journal/industry-news/circana-deluxe-black-friday-weekend-last-minute-1239462878/",
    "photo_credit": null
   },
   {
-   "title": "Nuevo CEO en Galeries Lafayette",
-   "headline": "CEO TALKS: Galeries Lafayette’s Arthur Lemoine on Luxury, Loyalty and That Christmas Tree",
+   "title": "Taiwán y su cadena textil",
+   "headline": "From Circular Materials to Performance Products: Taiwan’s Textile Supply Chain in Action",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/retail/ceo-arthur-lemoine-galeries-lafayette-luxury-loyalty-christmas-tree-1239429667/",
+   "link": "https://wwd.com/sourcing-journal/sustainability/circular-materials-performance-products-taiwan-textile-supply-chain-1239461222/",
+   "photo_credit": null
+  },
+  {
+   "title": "Aranceles: ahorro para hogares",
+   "headline": "Report: Repealing All of Trump’s Tariffs Would Save Households Over $1K Annually",
+   "source": "WWD",
+   "link": "https://wwd.com/sourcing-journal/trade/tax-policy-center-report-tariffs-section-301-232-338-canada-1239461523/",
+   "photo_credit": null
+  },
+  {
+   "title": "Marimekko y Comme des Garçons",
+   "headline": "EXCLUSIVE: Marimekko Collaborates With Comme des Garçons on Colorful Tote Bags",
+   "source": "WWD",
+   "link": "https://wwd.com/fashion-news/fashion-features/marimekko-comme-des-garcons-holiday-cxollaboration-1239462606/",
    "photo_credit": null
   }
  ]

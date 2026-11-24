@@ -1,29 +1,43 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "edition": "latam",
- "duration": 48.5,
+ "duration": 71.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "Diseño, curiosidad y sneakers marcan la agenda de hoy",
+ "hook": "Moda masculina española crece y apunta a Colombia este 2026",
  "items": [
   {
-   "title": "Oficina de diseño en Recoleta",
-   "headline": "Así es la oficina de diseño de la interiorista Gabriela López Monzón",
-   "source": "Para Ti",
-   "link": "https://www.parati.com.ar/deco/asi-es-la-oficina-de-diseno-de-la-interiorista-gabriela-lopez-monzon/",
+   "title": "Núñez de Arenas llega a Colombia",
+   "headline": "Núñez de Arenas apunta a 16 millones en 2026 y prepara su desembarco en Colombia",
+   "source": "Modaes",
+   "link": "https://www.modaes.com/empresas/nunez-de-arenas-apunta-a-16-millones-en-2026-y-prepara-su-desembarco-en-colombia",
    "photo_credit": null
   },
   {
-   "title": "Curiosidad y aprendizaje siempre",
-   "headline": "Albert Einstein sobre la educación y aprendizaje: “El estudio, la búsqueda de la verdad y la belleza constituyen una esfera de actividad en la que podemos seguir siendo niños durante toda nuestra vida”",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/albert-einstein-sobre-la-educacion-y-aprendizaje-el-estudio-la-busqueda-de-la-verdad-y-la-belleza-constituyen-una-esfera-de-actividad-en-la-que-podemos-seguir-siendo-ninos-durante-toda-nuestra-vid/",
+   "title": "Humpuss Intermoda y sus resultados",
+   "headline": "PT Humpuss Intermoda Transportasi Tbk Estimates – IDX:HITS",
+   "source": "TradingView",
+   "link": "https://es.tradingview.com/symbols/IDX-HITS/financials-estimates/",
    "photo_credit": null
   },
   {
-   "title": "Sneakers españoles en México",
-   "headline": "Sneakers españoles llegan a México con propuesta de diseño e identidad propia",
-   "source": "Publimetro México",
-   "link": "https://www.publimetro.com.mx/plus/2026/11/20/coolway-llega-a-mexico-con-sneakers-que-apuestan-por-el-diseno-y-la-identidad-propia/",
+   "title": "Cersele en Ibagué Negocios y Moda",
+   "headline": "Diseñadora ibaguereña presentará su colección inspirada en la mujer colombiana",
+   "source": "La Voz Del Pueblo",
+   "link": "https://vozdelpueblo920am.com/disenadora-ibaguerena-presentara-su-coleccion-inspirada-en-la-mujer-colombiana/",
+   "photo_credit": "Foto: francisco_osorio · CC BY 2.0"
+  },
+  {
+   "title": "Mujeres Valientes en la pasarela",
+   "headline": "Mujeres del Tolima llevarán sus diseños a las pasarelas de la feria de moda",
+   "source": "La Voz Del Pueblo",
+   "link": "https://vozdelpueblo920am.com/mujeres-del-tolima-llevaran-sus-disenos-a-las-pasarelas-de-la-feria-de-moda/",
+   "photo_credit": "Foto: Ahron de Leeuw · CC BY 2.0"
+  },
+  {
+   "title": "La mezclilla mexicana sube a pasarela",
+   "headline": "La mezclilla en México encuentra otra vida en la pasarela",
+   "source": "Fast Company México",
+   "link": "https://fastcompany.mx/2026/11/20/mezclilla-en-mexico-pasarela-diseno/",
    "photo_credit": null
   }
  ]
