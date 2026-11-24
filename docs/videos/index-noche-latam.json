@@ -1,43 +1,43 @@
 {
- "date": "2026-11-22",
+ "date": "2026-11-23",
  "edition": "latam",
- "duration": 68.8,
+ "duration": 65.6,
  "script_source": "IA (deepseek-chat)",
- "hook": "Ibagué se alista para una feria de moda con 100 marcas",
+ "hook": "Harry Potter llega al maquillaje y la moda brilla en los Emmy Internacionales",
  "items": [
   {
-   "title": "Feria de moda en Ibagué",
-   "headline": "Ibagué se prepara para feria de moda con 100 marcas y una meta de negocios de $14.500 millones",
-   "source": "La Voz Del Pueblo",
-   "link": "https://vozdelpueblo920am.com/ibague-se-prepara-para-feria-de-moda-con-100-marcas-y-una-meta-de-negocios-de-14-500-millones/",
-   "photo_credit": "Foto: maveric2003 · CC BY 2.0"
-  },
-  {
-   "title": "Nike lanza Pegasus Fly en 2027",
-   "headline": "More than 40 years ago, Nike created the Pegasus—a running shoe that sold millions of pairs—and is now preparing the Pegasus Fly for 2027",
+   "title": "SHEGLAM lanza colección Harry Potter",
+   "headline": "SHEGLAM convierte el universo de Harry Potter en una colección de maquillaje coleccionable",
    "source": "Merca2.0",
-   "link": "https://www.merca20.com/more-than-40-years-ago-nike-created-the-pegasus-a-running-shoe-that-sold-millions-of-pairs-and-is-now-preparing-the-pegasus-fly-for-2027/",
+   "link": "https://www.merca20.com/sheglam-convierte-el-universo-de-harry-potter-en-una-coleccion-de-maquillaje-coleccionable/",
    "photo_credit": null
   },
   {
-   "title": "Coolway llega a México",
-   "headline": "Coolway: la esencia del streetwear español llega a México",
-   "source": "Roastbrief",
-   "link": "https://roastbrief.com.mx/2026/11/coolway-la-esencia-del-streetwear-espanol-llega-a-mexico/",
+   "title": "Florencia Bas brilla en los Emmy",
+   "headline": "Florencia Bas deslumbró en los Emmy Internacionales 2026 con un vestido color Marrakech de diseño argentino",
+   "source": "Para Ti",
+   "link": "https://www.parati.com.ar/moda/florencia-bas-deslumbro-en-los-emmy-internacionales-2026-con-un-vestido-color-marrakech-de-diseno-argentino/",
    "photo_credit": null
   },
   {
-   "title": "De creadora a empresaria de belleza",
-   "headline": "CNMD 2026: Marian Krawstor pasó de recomendar maquillaje a lanzar Marok y explicó qué cambia cuando una creadora abre su propio negocio",
+   "title": "Ibagué reúne a 350 empresarios",
+   "headline": "Ibagué reunirá a más de 350 empresarios en feria de moda",
+   "source": "tolima7dias.com.co",
+   "link": "https://tolima7dias.com.co/actualidad/ibague-reunira-a-mas-de-350-empresarios-en-feria-de-moda",
+   "photo_credit": null
+  },
+  {
+   "title": "Adidas y Avengers lanzan sneakers",
+   "headline": "Adidas launches sneakers inspired by Avengers: Doomsday, Marvel’s upcoming release",
    "source": "Merca2.0",
-   "link": "https://www.merca20.com/cnmd-2026-marian-krawstor-paso-de-recomendar-maquillaje-a-lanzar-marok-y-explico-que-cambia-cuando-una-creadora-abre-su-propio-negocio/",
+   "link": "https://www.merca20.com/adidas-launches-sneakers-inspired-by-avengers-doomsday-marvels-upcoming-release/",
    "photo_credit": null
   },
   {
-   "title": "Maxton Hall temporada 3 en diciembre",
-   "headline": "Maxton Hall temporada 3: Todo lo que debes saber sobre la entrega",
-   "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/maxton-hall-temporada-3",
+   "title": "Abrigos glamorosos tendencia 2026",
+   "headline": "¡Pasarela de abrigos glamorosos! Luce espectacular en tus fiestas de Navidad y fin de año con las tendencias 2026",
+   "source": "TV Azteca",
+   "link": "https://www.tvazteca.com/aztecauno/venga-la-alegria/pasarela-de-abrigos-glamorosos-luce-espectacular-en-tus-fiestas-de-navidad-y-fin-de-ano-con-las-tendencias-2026/",
    "photo_credit": null
   }
  ]
