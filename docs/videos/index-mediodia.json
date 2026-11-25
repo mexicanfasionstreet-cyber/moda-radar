@@ -1,43 +1,43 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "edition": "general",
- "duration": 69.0,
+ "duration": 59.2,
  "script_source": "IA (deepseek-chat)",
- "hook": "Authentic compra O'Neill y Saks abre sus vitrinas entre protestas",
+ "hook": "Muere Veruschka, icono de la moda, y Coach arrasa en Black Friday",
  "items": [
   {
-   "title": "Authentic adquiere la marca O'Neill",
-   "headline": "Authentic expands outdoor portfolio with acquisition of O’Neill IP",
-   "source": "The Industry",
-   "link": "https://www.theindustry.fashion/authentic-brands-group-acquires-oneill-ip/",
+   "title": "Coach con descuentos récord",
+   "headline": "We’re Eyeing These Coach Handbags & Accessories This Black Friday — Especially Now That They’re Over 80% Off",
+   "source": "WWD",
+   "link": "https://wwd.com/shop/shop-fashion/coach-black-friday-handbags-accessories-sale-2026-1239466136/",
    "photo_credit": null
   },
   {
-   "title": "Vitrinas de Saks bajo protesta",
-   "headline": "Saks Fifth Avenue Unveils Holiday Windows Amid Protests Over Alleged Employee Treatment",
+   "title": "K-Way ficha a Edouard Gros",
+   "headline": "K-Way Beefs Up Management With Chief Product Officer Appointment",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/retail/saks-fifth-avenue-unveils-holiday-windows-amid-protests-1239462356/",
+   "link": "https://wwd.com/business-news/human-resources/k-way-names-edouard-gros-chief-product-officer-1239465617/",
    "photo_credit": null
   },
   {
-   "title": "20 años de Blue Jeans Go Green",
-   "headline": "20 Years In, Cotton Incorporated’s Blue Jeans Go Green™ Program Continues to Boost Circularity",
-   "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/sj-denim/blue-jeans-go-green-cotton-incorporated-20-year-milestone-1239464179/",
+   "title": "Adiós a Veruschka",
+   "headline": "Veruschka, the Shape-Shifting Supermodel Who Defined an Era, Has Died at 87",
+   "source": "Vogue",
+   "link": "https://www.vogue.com/article/veruschka-obituary",
    "photo_credit": null
   },
   {
-   "title": "Lululemon ficha a Paula Conhain",
-   "headline": "Lululemon Taps Paula Conhain to Lead Communications",
+   "title": "Alianza naviera norte-sur",
+   "headline": "North-South Shipping Could Get its First Global Vessel-Sharing Alliance",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/human-resources/lululemon-appoints-paula-conhain-chief-communications-1239464205/",
+   "link": "https://wwd.com/sourcing-journal/logistics/maersk-one-north-south-shipping-vessel-sharing-alliance-ocean-carriers-1239466190/",
    "photo_credit": null
   },
   {
-   "title": "Bangladesh usa flete aéreo de emergencia",
-   "headline": "‘Costly’ Air Freight is Bangladesh Apparel Exporters’ Fallback Option as Orders Slip",
+   "title": "Air Force 1 metálica",
+   "headline": "Nike’s Remastered Air Force 1 Sneaker Is Getting a Limited-Edition Metallic Makeover",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/logistics/bangladesh-apparel-exporters-air-cargo-freight-bgmea-wage-unrest-1239464371/",
+   "link": "https://wwd.com/footwear-news/sneaker-news/nike-air-force-1-01-low-qs-metallic-platinum-release-date-ja0247-001-1239466239/",
    "photo_credit": null
   }
  ]

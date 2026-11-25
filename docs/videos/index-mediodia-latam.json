@@ -1,36 +1,43 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "edition": "latam",
- "duration": 56.2,
+ "duration": 73.4,
  "script_source": "IA (deepseek-chat)",
- "hook": "El vestido tubo gris domina la moda y Beckham demanda a Coty",
+ "hook": "Moda hoy: convocatoria en Copenhague, pasarela contra el estigma y lanzamientos",
  "items": [
   {
-   "title": "Vestido tubo gris arrasa",
-   "headline": "El vestido tubo gris, el único que puedes llevar del día a la noche en esta temporada de fiestas",
-   "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/como-llevar-vestido-tubo-gris-en-fiestas-de-otono-invierno-2026",
+   "title": "ICEX convoca para CIFF Copenhague 2027",
+   "headline": "ICEX convoca al Pabellón España para la feria de moda CIFF Copenhague 2027",
+   "source": "empresa Exterior",
+   "link": "https://empresaexterior.com/icex-abre-la-convocatoria-para-el-pabellon-espana-en-la-feria-de-moda-de-copenhague-ciff-2027/",
    "photo_credit": null
   },
   {
-   "title": "Beckham demanda a Coty",
-   "headline": "David Beckham demanda a Coty porque vendió sus perfumes en gasolineras y ahora reclama 41 millones de dólares por daño a su marca",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/david-beckham-demanda-a-coty-porque-vendio-sus-perfumes-en-gasolineras-y-ahora-reclama-41-millones-de-dolares-por-dano-a-su-marca/",
+   "title": "Pasarela contra el estigma del VIH",
+   "headline": "Pasarela en Guadalajara busca romper estigmas sobre el VIH",
+   "source": "Quadratin Jalisco",
+   "link": "https://jalisco.quadratin.com.mx/sucesos/pasarela-en-guadalajara-busca-romper-estigmas-sobre-el-vih/",
    "photo_credit": null
   },
   {
-   "title": "Palacio de Hierro innova en Navidad",
-   "headline": "Mientras en Alemania los mercaditos navideños tienen siglos de historia, El Palacio de Hierro convierte esta tradición europea en una estrategia comercial para México",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/mientras-en-alemania-los-mercaditos-navidenos-tienen-siglos-de-historia-el-palacio-de-hierro-convierte-esta-tradicion-europea-en-una-estrategia-comercial-para-mexico/",
+   "title": "G-SHOCK y HIDDEN.NY lanzan reloj",
+   "headline": "G-SHOCK y HIDDEN.NY lanzan un reloj metálico de caja octagonal inspirado en Nueva York y la Estatua de la Libertad",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/reloj-g-shock-gm-2110hdn-8a-precio-fotos-lanzamiento-25-11-2026",
    "photo_credit": null
   },
   {
-   "title": "Vuelve el Gran Corso",
-   "headline": "El Gran Corso de Wong y Metro vuelve tras 7 años: ¿cuándo y dónde será el desfile navideño?",
-   "source": "Perú Retail",
-   "link": "https://www.peru-retail.com/gran-corso-de-wong-y-metro-regresa-despues-de-siete-anos-cuando-y-donde-sera-el-desfile-navideno/",
+   "title": "Estudio AAFA sobre reciclaje textil",
+   "headline": "Nuevo Estudio de AAFA Identifica Oportunidades para Fortalecer el Reciclaje de Textil a Textil en la Región del CAFTA-DR",
+   "source": "Textiles Panam.",
+   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/nuevo-estudio-de-aafa-identifica-oportunidades-para-fortalecer-el-reciclaje-de-textil-a-textil-en-la-region-del-cafta-dr/",
+   "photo_credit": "Foto: cuteheels · CC BY-NC-ND 2.0"
+  },
+  {
+   "title": "Nike LeBron 24 Christmas fosforescentes",
+   "headline": "Nike LeBron 24 Christmas: Los tenis de basquetbol fosforescentes con diseño futurista que brillan de día y de noche",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/tenis-nike-lebron-24-christmas-precio-fotos-lanzamiento-25-11-2026",
    "photo_credit": null
   }
  ]
