@@ -1,43 +1,43 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "edition": "general",
- "duration": 71.9,
+ "duration": 66.7,
  "script_source": "IA (deepseek-chat)",
- "hook": "Authentic compra O'Neill y la moda mira el Black Friday",
+ "hook": "Shein cae en Europa mientras la moda apuesta por IA y sostenibilidad",
  "items": [
   {
-   "title": "Authentic compra la marca O'Neill",
-   "headline": "Authentic Brands Group Acquires O’Neill Surf and Lifestyle Brand",
-   "source": "WWD",
-   "link": "https://wwd.com/business-news/mergers-acquisitions/authentic-brands-group-acquires-oneill-surf-1239425947/",
+   "title": "Shein cae en Europa por arancel",
+   "headline": "Shein’s European revenue falls after EU introduces parcel duty",
+   "source": "The Industry",
+   "link": "https://www.theindustry.fashion/sheins-european-revenue-falls-after-eu-introduces-parcel-duty/",
    "photo_credit": null
   },
   {
-   "title": "Black Friday, clave para el retail",
-   "headline": "How Crucial Is Black Friday Weekend to Retailers?",
+   "title": "Pangaia planta árboles en Black Friday",
+   "headline": "Pangaia Is Taking Its Clothes Off the Market for Black Friday",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/industry-news/circana-deluxe-black-friday-weekend-last-minute-1239462878/",
+   "link": "https://wwd.com/sourcing-journal/industry-news/pangaia-black-friday-tree-planting-ecodrive-1239465101/",
    "photo_credit": null
   },
   {
-   "title": "Taiwán y su cadena textil",
-   "headline": "From Circular Materials to Performance Products: Taiwan’s Textile Supply Chain in Action",
+   "title": "Victoria's Secret cambia de presidenta",
+   "headline": "Victoria’s Secret’s Switch at the Top, Chair Donna James Steps Down",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/sustainability/circular-materials-performance-products-taiwan-textile-supply-chain-1239461222/",
+   "link": "https://wwd.com/business-news/human-resources/victorias-secret-donna-james-steps-down-rod-little-new-chair-1239464114/",
    "photo_credit": null
   },
   {
-   "title": "Aranceles: ahorro para hogares",
-   "headline": "Report: Repealing All of Trump’s Tariffs Would Save Households Over $1K Annually",
-   "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/trade/tax-policy-center-report-tariffs-section-301-232-338-canada-1239461523/",
+   "title": "Retailers británicos prueban IA de Meta",
+   "headline": "M&S, Asos and JD Sports join UK launch of Meta’s AI agent",
+   "source": "Drapers",
+   "link": "https://www.drapersonline.com/news/ms-asos-and-jd-sports-join-uk-launch-of-metas-ai-agent",
    "photo_credit": null
   },
   {
-   "title": "Marimekko y Comme des Garçons",
-   "headline": "EXCLUSIVE: Marimekko Collaborates With Comme des Garçons on Colorful Tote Bags",
+   "title": "Greenblatt contra el acoso callejero",
+   "headline": "Ariana Greenblatt Talks Feminism and What It Means to Be a Gen Z Role Model",
    "source": "WWD",
-   "link": "https://wwd.com/fashion-news/fashion-features/marimekko-comme-des-garcons-holiday-cxollaboration-1239462606/",
+   "link": "https://wwd.com/pop-culture/celebrity-news/ariana-greenblatt-loreal-stand-up-feminism-gen-z-1239463929/",
    "photo_credit": null
   }
  ]

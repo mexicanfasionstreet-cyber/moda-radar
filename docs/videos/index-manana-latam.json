@@ -1,43 +1,43 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "edition": "latam",
- "duration": 71.0,
+ "duration": 70.2,
  "script_source": "IA (deepseek-chat)",
- "hook": "Moda masculina española crece y apunta a Colombia este 2026",
+ "hook": "Moda latinoamericana crece y la industria textil alerta en Argentina",
  "items": [
   {
-   "title": "Núñez de Arenas llega a Colombia",
-   "headline": "Núñez de Arenas apunta a 16 millones en 2026 y prepara su desembarco en Colombia",
+   "title": "Ventas departamentales suben 4% en la región",
+   "headline": "Las tiendas departamentales latinoamericanas mejoran sus ventas un 4% hasta septiembre",
    "source": "Modaes",
-   "link": "https://www.modaes.com/empresas/nunez-de-arenas-apunta-a-16-millones-en-2026-y-prepara-su-desembarco-en-colombia",
+   "link": "https://www.modaes.com/empresas/las-tiendas-departamentales-latinoamericanas-mejoran-sus-ventas-un-4-hasta-septiembre",
    "photo_credit": null
   },
   {
-   "title": "Humpuss Intermoda y sus resultados",
-   "headline": "PT Humpuss Intermoda Transportasi Tbk Estimates – IDX:HITS",
-   "source": "TradingView",
-   "link": "https://es.tradingview.com/symbols/IDX-HITS/financials-estimates/",
+   "title": "Textil argentino alerta por caída de actividad",
+   "headline": "PROTEXTIL 2026: La cadena agroindustrial textil advirtió sobre la caída de la actividad y reclamó igualdad para producir",
+   "source": "Textiles Panam.",
+   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/protextil-2026-la-cadena-agroindustrial-textil-advirtio-sobre-la-caida-de-la-actividad-y-reclamo-igualdad-para-producir/",
+   "photo_credit": "Foto: Laura Tabakman · CC BY-NC-ND 2.0"
+  },
+  {
+   "title": "Polémica por polvo sobre vestido de Salgado",
+   "headline": "VIDEO: ¿Polvos del bienestar? Captan a diputada rociando una sustancia sobre el vestido de Evelyn Salgado",
+   "source": "El Financiero",
+   "link": "https://www.elfinanciero.com.mx/estados/2026/11/24/video-polvos-del-bienestar-captan-a-diputada-rociando-una-sustancia-sobre-el-vestido-de-evelyn-salgado/",
    "photo_credit": null
   },
   {
-   "title": "Cersele en Ibagué Negocios y Moda",
-   "headline": "Diseñadora ibaguereña presentará su colección inspirada en la mujer colombiana",
-   "source": "La Voz Del Pueblo",
-   "link": "https://vozdelpueblo920am.com/disenadora-ibaguerena-presentara-su-coleccion-inspirada-en-la-mujer-colombiana/",
-   "photo_credit": "Foto: francisco_osorio · CC BY 2.0"
+   "title": "SOURCE Honduras 2027 confirma marcas",
+   "headline": "Marcas Líderes de Indumentaria Confirmaron su Participación en SOURCE: Honduras 2027 de AAPN",
+   "source": "Textiles Panam.",
+   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/marcas-lideres-de-indumentaria-confirmaron-su-participacion-en-source-honduras-2027-de-aapn/",
+   "photo_credit": "Foto: BarbieFantasies · CC BY 2.0"
   },
   {
-   "title": "Mujeres Valientes en la pasarela",
-   "headline": "Mujeres del Tolima llevarán sus diseños a las pasarelas de la feria de moda",
-   "source": "La Voz Del Pueblo",
-   "link": "https://vozdelpueblo920am.com/mujeres-del-tolima-llevaran-sus-disenos-a-las-pasarelas-de-la-feria-de-moda/",
-   "photo_credit": "Foto: Ahron de Leeuw · CC BY 2.0"
-  },
-  {
-   "title": "La mezclilla mexicana sube a pasarela",
-   "headline": "La mezclilla en México encuentra otra vida en la pasarela",
-   "source": "Fast Company México",
-   "link": "https://fastcompany.mx/2026/11/20/mezclilla-en-mexico-pasarela-diseno/",
+   "title": "Diseño de oficinas inspira nuevas formas de trabajar",
+   "headline": "Oficinas de diseño: arquitectura e interiorismo inspiran nuevas formas de trabajar",
+   "source": "Para Ti",
+   "link": "https://www.parati.com.ar/deco/oficinas-de-diseno-arquitectura-e-interiorismo-inspiran-nuevas-formas-de-trabajar/",
    "photo_credit": null
   }
  ]
