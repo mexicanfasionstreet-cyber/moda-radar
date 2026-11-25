@@ -1,43 +1,43 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "edition": "general",
- "duration": 62.8,
+ "duration": 63.5,
  "script_source": "IA (deepseek-chat)",
- "hook": "La moda busca ropa usada en los armarios de los consumidores",
+ "hook": "Marc Jacobs factura 509 millones y sus nuevos dueños buscan duplicarla",
  "items": [
   {
-   "title": "La reventa busca stock en armarios",
-   "headline": "Fashion’s Resale Supply Hunt Leads to Shoppers’ Closets",
+   "title": "Marc Jacobs busca duplicar ventas",
+   "headline": "Marc Jacobs Sales Hit $509M in Its Last Year Under LVMH",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/sustainability/ellen-macarthur-foundation-wardrobe-clearouts-resale-1239460502/",
+   "link": "https://wwd.com/business-news/financial/marc-jacobs-giii-whp-global-revenue-strategy-1239464631/",
    "photo_credit": null
   },
   {
-   "title": "Dior aprueba fusion con Agache",
-   "headline": "Dior board approves Agache merger",
-   "source": "Drapers",
-   "link": "https://www.drapersonline.com/news/dior-board-approves-agache-merger",
+   "title": "Menos unidades y más calidad",
+   "headline": "By the Numbers: Men’s Retailers Choosing Quality Over Quantity, Buying More Outerwear: Joor",
+   "source": "WWD",
+   "link": "https://wwd.com/menswear-news/mens-fashion/mens-retailers-quality-over-quantity-buying-outerwear-joor-1239464007/",
    "photo_credit": null
   },
   {
-   "title": "Salario minimo estanca a Bangladesh",
-   "headline": "What Wage Unrest Has Cost Bangladesh’s Garment Industry",
+   "title": "Acusan a fábrica de reprimir sindicatos",
+   "headline": "A Watchdog Calls Bangladesh Factory This Decade’s Worst Union Buster. Some Brands Haven’t Walked Away.",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/sustainability/bangladesh-minimum-wage-garment-workers-loss-1239463170/",
+   "link": "https://wwd.com/sourcing-journal/sustainability/worker-rights-consortium-libas-textiles-primark-next-1239465329/",
    "photo_credit": null
   },
   {
-   "title": "Michelle Randolph cambia de registro",
-   "headline": "Michelle Randolph Is Growing Up Alongside Her Characters",
+   "title": "Uggs de Taylor Swift reabren debate",
+   "headline": "Taylor Swift’s Three Pairs of Uggs Have FN Editors Revisiting the Footwear Politics of the 2000s",
    "source": "WWD",
-   "link": "https://wwd.com/eye/people/michelle-randolph-clashing-through-the-snow-landman-1239462503/",
+   "link": "https://wwd.com/footwear-news/shoe-features/taylor-swift-ugg-boots-2000s-millennial-fashion-1239464654/",
    "photo_credit": null
   },
   {
-   "title": "Medias y plataformas en Las Vegas",
-   "headline": "Mckenna Grace Gives Socks and Heels a Sheer Twist With $140 Aldo Platforms in Las Vegas",
+   "title": "Esque/By debuta con sastrería",
+   "headline": "Emerging Tailoring Brand Esque/By Launches First Collection",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-trends/mckenna-grace-socks-heels-aldo-platforms-las-vegas-1239463486/",
+   "link": "https://wwd.com/fashion-news/fashion-features/esque-by-bespoke-tailoring-brand-fashion-collection-1239464115/",
    "photo_credit": null
   }
  ]
