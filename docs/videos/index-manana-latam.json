@@ -1,44 +1,44 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "edition": "latam",
- "duration": 70.2,
+ "duration": 71.4,
  "script_source": "IA (deepseek-chat)",
- "hook": "Moda latinoamericana crece y la industria textil alerta en Argentina",
+ "hook": "Diseño, relojes y retail digital marcan la agenda de hoy",
  "items": [
   {
-   "title": "Ventas departamentales suben 4% en la región",
-   "headline": "Las tiendas departamentales latinoamericanas mejoran sus ventas un 4% hasta septiembre",
-   "source": "Modaes",
-   "link": "https://www.modaes.com/empresas/las-tiendas-departamentales-latinoamericanas-mejoran-sus-ventas-un-4-hasta-septiembre",
-   "photo_credit": null
-  },
-  {
-   "title": "Textil argentino alerta por caída de actividad",
-   "headline": "PROTEXTIL 2026: La cadena agroindustrial textil advirtió sobre la caída de la actividad y reclamó igualdad para producir",
-   "source": "Textiles Panam.",
-   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/protextil-2026-la-cadena-agroindustrial-textil-advirtio-sobre-la-caida-de-la-actividad-y-reclamo-igualdad-para-producir/",
-   "photo_credit": "Foto: Laura Tabakman · CC BY-NC-ND 2.0"
-  },
-  {
-   "title": "Polémica por polvo sobre vestido de Salgado",
-   "headline": "VIDEO: ¿Polvos del bienestar? Captan a diputada rociando una sustancia sobre el vestido de Evelyn Salgado",
-   "source": "El Financiero",
-   "link": "https://www.elfinanciero.com.mx/estados/2026/11/24/video-polvos-del-bienestar-captan-a-diputada-rociando-una-sustancia-sobre-el-vestido-de-evelyn-salgado/",
-   "photo_credit": null
-  },
-  {
-   "title": "SOURCE Honduras 2027 confirma marcas",
-   "headline": "Marcas Líderes de Indumentaria Confirmaron su Participación en SOURCE: Honduras 2027 de AAPN",
-   "source": "Textiles Panam.",
-   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/marcas-lideres-de-indumentaria-confirmaron-su-participacion-en-source-honduras-2027-de-aapn/",
-   "photo_credit": "Foto: BarbieFantasies · CC BY 2.0"
-  },
-  {
-   "title": "Diseño de oficinas inspira nuevas formas de trabajar",
-   "headline": "Oficinas de diseño: arquitectura e interiorismo inspiran nuevas formas de trabajar",
+   "title": "Patricia Urquiola, referente del diseño",
+   "headline": "Retrato de Patricia Urquiola: la diseñadora que transforma el diseño contemporáneo",
    "source": "Para Ti",
-   "link": "https://www.parati.com.ar/deco/oficinas-de-diseno-arquitectura-e-interiorismo-inspiran-nuevas-formas-de-trabajar/",
+   "link": "https://www.parati.com.ar/deco/retrato-de-patricia-urquiola-la-disenadora-que-transforma-el-diseno-contemporaneo/",
    "photo_credit": null
+  },
+  {
+   "title": "Inscripciones abiertas para Texprocess",
+   "headline": "El Futuro de la Fabricación de Productos Confeccionados Comienza Aquí: las Inscripciones para Texprocess Americas 2027están abiertas",
+   "source": "Textiles Panam.",
+   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/el-futuro-de-la-fabricacion-de-productos-confeccionados-comienza-aqui-las-inscripciones-para-texprocess-americas-2027estan-abiertas/",
+   "photo_credit": "Foto: Crossett Library Bennington College · CC BY-NC-SA 2.0"
+  },
+  {
+   "title": "MoonSwatch de Snoopy solo con nieve",
+   "headline": "MoonSwatch Mission to Earthphase-Silver Snowflake: El reloj de Snoopy con diseño único que solo se vende cuando nieva",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/reloj-moonswatch-mission-to-earthphase-silver-snowflake-ssx01b701-precio-disponibilidad-25-11-2026",
+   "photo_credit": null
+  },
+  {
+   "title": "Tissot PRX edición Lee Dong Wook",
+   "headline": "Tissot PRX 35 milímetros Lee Dong Wook Special Edition: El reloj vintage con cristal de zafiro que brilla en la oscuridad",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/reloj-tissot-prx-35-milimetros-lee-dong-wook-special-edition-t1372101101100-precio-disponibilidad-24-11-2026",
+   "photo_credit": null
+  },
+  {
+   "title": "Cuatro países lideran atención digital",
+   "headline": "Brasil, España, México y Argentina concentran el 68 % de la atención digital del comercio iberoamericano",
+   "source": "FashionNetwork España",
+   "link": "https://es.fashionnetwork.com/news/Brasil-espana-mexico-y-argentina-concentran-el-68-de-la-atencion-digital-del-comercio-iberoamericano,1888549.html",
+   "photo_credit": "Foto: bittermelon · CC BY-NC 2.0"
   }
  ]
 }

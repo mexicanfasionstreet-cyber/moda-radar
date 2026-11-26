@@ -1,43 +1,43 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "edition": "general",
- "duration": 66.7,
+ "duration": 73.9,
  "script_source": "IA (deepseek-chat)",
- "hook": "Shein cae en Europa mientras la moda apuesta por IA y sostenibilidad",
+ "hook": "Moda hoy: alianzas de lujo, nuevas fábricas y creatividad navideña",
  "items": [
   {
-   "title": "Shein cae en Europa por arancel",
-   "headline": "Shein’s European revenue falls after EU introduces parcel duty",
+   "title": "Alianza de lujo en Asia",
+   "headline": "Swire Properties’ Qiantan Taikoo Li Forms Partnership With Siam Piwat",
+   "source": "WWD",
+   "link": "https://wwd.com/business-news/retail/qiantan-taikoo-li-partnership-siam-piwat-1239466662/",
+   "photo_credit": null
+  },
+  {
+   "title": "Lujo accesible en oferta",
+   "headline": "Cashmere, Caviar, and Supple Leather Are on Our Quince Black Friday Shopping List (and Many Finds Are Under $100)",
+   "source": "WWD",
+   "link": "https://wwd.com/shop/shop-fashion/quince-black-friday-sale-2026-cashmere-leather-luxury-deals-1239466622/",
+   "photo_credit": null
+  },
+  {
+   "title": "Nuevo líder creativo",
+   "headline": "How I started in fashion: Duke + Dexter Creative Director, Connor Boon",
    "source": "The Industry",
-   "link": "https://www.theindustry.fashion/sheins-european-revenue-falls-after-eu-introduces-parcel-duty/",
+   "link": "https://www.theindustry.fashion/how-i-started-in-fashion-duke-dexter-creative-director-connor-boon/",
    "photo_credit": null
   },
   {
-   "title": "Pangaia planta árboles en Black Friday",
-   "headline": "Pangaia Is Taking Its Clothes Off the Market for Black Friday",
+   "title": "Zegna amplía producción",
+   "headline": "Ermenegildo Zegna Group Unveils New Footwear, Leather Goods Facility in Italy",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/industry-news/pangaia-black-friday-tree-planting-ecodrive-1239465101/",
+   "link": "https://wwd.com/business-news/business-features/ermenegildo-zegna-group-new-footwear-leather-goods-plant-1239466752/",
    "photo_credit": null
   },
   {
-   "title": "Victoria's Secret cambia de presidenta",
-   "headline": "Victoria’s Secret’s Switch at the Top, Chair Donna James Steps Down",
+   "title": "Árbol navideño emplumado",
+   "headline": "16Arlington Gives The London Edition’s Christmas Tree a Feathered Makeover",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/human-resources/victorias-secret-donna-james-steps-down-rod-little-new-chair-1239464114/",
-   "photo_credit": null
-  },
-  {
-   "title": "Retailers británicos prueban IA de Meta",
-   "headline": "M&S, Asos and JD Sports join UK launch of Meta’s AI agent",
-   "source": "Drapers",
-   "link": "https://www.drapersonline.com/news/ms-asos-and-jd-sports-join-uk-launch-of-metas-ai-agent",
-   "photo_credit": null
-  },
-  {
-   "title": "Greenblatt contra el acoso callejero",
-   "headline": "Ariana Greenblatt Talks Feminism and What It Means to Be a Gen Z Role Model",
-   "source": "WWD",
-   "link": "https://wwd.com/pop-culture/celebrity-news/ariana-greenblatt-loreal-stand-up-feminism-gen-z-1239463929/",
+   "link": "https://wwd.com/eye/scoops/the-london-edition-christmas-tree-16arlington-marco-capaldo-1239466775/",
    "photo_credit": null
   }
  ]
