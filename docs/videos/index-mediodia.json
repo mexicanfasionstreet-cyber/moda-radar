@@ -1,43 +1,43 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "edition": "general",
- "duration": 59.2,
+ "duration": 70.1,
  "script_source": "IA (deepseek-chat)",
- "hook": "Muere Veruschka, icono de la moda, y Coach arrasa en Black Friday",
+ "hook": "Moda hoy: Soho Home, Songmont, Crillon, Veruschka y JW Anderson",
  "items": [
   {
-   "title": "Coach con descuentos récord",
-   "headline": "We’re Eyeing These Coach Handbags & Accessories This Black Friday — Especially Now That They’re Over 80% Off",
-   "source": "WWD",
-   "link": "https://wwd.com/shop/shop-fashion/coach-black-friday-handbags-accessories-sale-2026-1239466136/",
+   "title": "Soho Home Black Friday",
+   "headline": "The Best Of Soho Home’s Black Friday Sale",
+   "source": "Vogue UK",
+   "link": "https://www.vogue.co.uk/article/soho-home-sale",
    "photo_credit": null
   },
   {
-   "title": "K-Way ficha a Edouard Gros",
-   "headline": "K-Way Beefs Up Management With Chief Product Officer Appointment",
+   "title": "Songmont y Arnault en Nueva York",
+   "headline": "Songmont Founder Shares Snaps with Bernard Arnault Ahead of Louis Vuitton’s Shanghai Concert",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/human-resources/k-way-names-edouard-gros-chief-product-officer-1239465617/",
+   "link": "https://wwd.com/fashion-news/fashion-scoops/songmont-founder-bernard-arnault-louis-vuitton-shanghai-concert-1239466797/",
    "photo_credit": null
   },
   {
-   "title": "Adiós a Veruschka",
-   "headline": "Veruschka, the Shape-Shifting Supermodel Who Defined an Era, Has Died at 87",
+   "title": "Crillon y Kujten en invierno",
+   "headline": "Hôtel de Crillon Taps French Cashmere Brand Kujten for Terrasse Holiday Takeover",
+   "source": "WWD",
+   "link": "https://wwd.com/fashion-news/fashion-scoops/hotel-de-crillon-kujten-french-cashmere-holiday-takeover-1239467110/",
+   "photo_credit": null
+  },
+  {
+   "title": "Homenaje a Veruschka",
+   "headline": "The Art of Being Veruschka: Fashion Pays Tribute to a Legend",
    "source": "Vogue",
-   "link": "https://www.vogue.com/article/veruschka-obituary",
+   "link": "https://www.vogue.com/article/veruschka-tributes",
    "photo_credit": null
   },
   {
-   "title": "Alianza naviera norte-sur",
-   "headline": "North-South Shipping Could Get its First Global Vessel-Sharing Alliance",
+   "title": "JW Anderson lanza Anchor",
+   "headline": "Dree Hemingway and Conor Sánchez Help Launch JW Anderson’s New Anchor Sneaker",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/logistics/maersk-one-north-south-shipping-vessel-sharing-alliance-ocean-carriers-1239466190/",
-   "photo_credit": null
-  },
-  {
-   "title": "Air Force 1 metálica",
-   "headline": "Nike’s Remastered Air Force 1 Sneaker Is Getting a Limited-Edition Metallic Makeover",
-   "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/nike-air-force-1-01-low-qs-metallic-platinum-release-date-ja0247-001-1239466239/",
+   "link": "https://wwd.com/footwear-news/sneaker-news/jw-anderson-anchor-sneaker-dree-hemingway-conor-sanchez-1239466885/",
    "photo_credit": null
   }
  ]

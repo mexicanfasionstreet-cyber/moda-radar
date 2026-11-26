@@ -1,43 +1,43 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "edition": "latam",
- "duration": 73.4,
+ "duration": 68.9,
  "script_source": "IA (deepseek-chat)",
- "hook": "Moda hoy: convocatoria en Copenhague, pasarela contra el estigma y lanzamientos",
+ "hook": "Neymar se suma a una fragancia y Jordan vuelve por Black Friday",
  "items": [
   {
-   "title": "ICEX convoca para CIFF Copenhague 2027",
-   "headline": "ICEX convoca al Pabellón España para la feria de moda CIFF Copenhague 2027",
-   "source": "empresa Exterior",
-   "link": "https://empresaexterior.com/icex-abre-la-convocatoria-para-el-pabellon-espana-en-la-feria-de-moda-de-copenhague-ciff-2027/",
+   "title": "Armaf se alía con Neymar Jr",
+   "headline": "Dubai-based Fragrance Brand Armaf Inks Partnership With Brazilian Soccer Player, Neymar Jr.",
+   "source": "WWD",
+   "link": "https://wwd.com/beauty-industry-news/fragrance/armaf-fragrance-brand-neymar-jr-partnership-new-launch-2027-1239466914/",
    "photo_credit": null
   },
   {
-   "title": "Pasarela contra el estigma del VIH",
-   "headline": "Pasarela en Guadalajara busca romper estigmas sobre el VIH",
-   "source": "Quadratin Jalisco",
-   "link": "https://jalisco.quadratin.com.mx/sucesos/pasarela-en-guadalajara-busca-romper-estigmas-sobre-el-vih/",
-   "photo_credit": null
-  },
-  {
-   "title": "G-SHOCK y HIDDEN.NY lanzan reloj",
-   "headline": "G-SHOCK y HIDDEN.NY lanzan un reloj metálico de caja octagonal inspirado en Nueva York y la Estatua de la Libertad",
+   "title": "Air Jordan 4 Bred vuelve en Black Friday",
+   "headline": "Air Jordan 4 Bred 2026: Los legendarios tenis de Michael Jordan regresan en Black Friday con su diseño de 1989",
    "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/reloj-g-shock-gm-2110hdn-8a-precio-fotos-lanzamiento-25-11-2026",
+   "link": "https://www.gq.com.mx/articulo/tenis-nike-air-jordan-4-bred-2026-ix8180-001-precio-fotos-lanzamiento-26-11-2026",
    "photo_credit": null
   },
   {
-   "title": "Estudio AAFA sobre reciclaje textil",
-   "headline": "Nuevo Estudio de AAFA Identifica Oportunidades para Fortalecer el Reciclaje de Textil a Textil en la Región del CAFTA-DR",
-   "source": "Textiles Panam.",
-   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/nuevo-estudio-de-aafa-identifica-oportunidades-para-fortalecer-el-reciclaje-de-textil-a-textil-en-la-region-del-cafta-dr/",
-   "photo_credit": "Foto: cuteheels · CC BY-NC-ND 2.0"
+   "title": "Hugo Boss renueva dirección en América",
+   "headline": "Hugo Boss renueva su dirección en América y mercados emergentes, con foco en Brasil y el Golfo",
+   "source": "Modaes",
+   "link": "https://www.modaes.com/empresas/hugo-boss-renueva-su-direccion-en-america-y-mercados-emergentes-con-foco-en-brasil-y-el-golfo",
+   "photo_credit": null
   },
   {
-   "title": "Nike LeBron 24 Christmas fosforescentes",
-   "headline": "Nike LeBron 24 Christmas: Los tenis de basquetbol fosforescentes con diseño futurista que brillan de día y de noche",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/tenis-nike-lebron-24-christmas-precio-fotos-lanzamiento-25-11-2026",
+   "title": "Prendas tendencia de la temporada",
+   "headline": "Las prendas que son tendencia esta temporada y no pueden faltar en tu guardarropa",
+   "source": "Para Ti",
+   "link": "https://www.parati.com.ar/galeria/las-prendas-que-son-tendencia-esta-temporada-y-no-pueden-faltar-en-tu-guardarropa/",
+   "photo_credit": null
+  },
+  {
+   "title": "Amazon remata papel higiénico en Black Friday",
+   "headline": "Amazon remata papel higiénico Kleenex Cottonelle Elegance; Regio Just 1, Luxury Almond y Suspiros de Lavanda; Pétalo Maxi Resist y Elite Cuidado Clásico de 12, 18 y 32 rollos",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/amazon-remata-papel-higienico-kleenex-cottonelle-elegance-regio-just-1-luxury-almond-y-suspiros-de-lavanda-petalo-maxi-resist-y-elite-cuidado-clasico-de-12-18-y-32-rollos/",
    "photo_credit": null
   }
  ]
