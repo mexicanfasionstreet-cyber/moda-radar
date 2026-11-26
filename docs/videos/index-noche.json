@@ -1,43 +1,43 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "edition": "general",
- "duration": 63.5,
+ "duration": 68.1,
  "script_source": "IA (deepseek-chat)",
- "hook": "Marc Jacobs factura 509 millones y sus nuevos dueños buscan duplicarla",
+ "hook": "Muere Veruschka, ícono de los sesenta, y suben costos del combustible",
  "items": [
   {
-   "title": "Marc Jacobs busca duplicar ventas",
-   "headline": "Marc Jacobs Sales Hit $509M in Its Last Year Under LVMH",
+   "title": "Combustible presiona márgenes minoristas",
+   "headline": "Higher Fuel Costs Weigh on Apparel Retail Earnings",
    "source": "WWD",
-   "link": "https://wwd.com/business-news/financial/marc-jacobs-giii-whp-global-revenue-strategy-1239464631/",
+   "link": "https://wwd.com/sourcing-journal/logistics/fuel-costs-diesel-freight-burlington-abercrombie-fitch-kohls-urban-outfitters-gap-dollar-tree-1239466545/",
    "photo_credit": null
   },
   {
-   "title": "Menos unidades y más calidad",
-   "headline": "By the Numbers: Men’s Retailers Choosing Quality Over Quantity, Buying More Outerwear: Joor",
-   "source": "WWD",
-   "link": "https://wwd.com/menswear-news/mens-fashion/mens-retailers-quality-over-quantity-buying-outerwear-joor-1239464007/",
+   "title": "Rubartelli revela sus shoots de Vogue",
+   "headline": "Photographer Franco Rubartelli Shares the Stories Behind Some of Vogue’s Most Famous ‘60s Shoots",
+   "source": "Vogue",
+   "link": "https://www.vogue.com/article/from-the-archives-fashion-photographer-franco-rubartelli-veruschka-1960s-supermodels",
    "photo_credit": null
   },
   {
-   "title": "Acusan a fábrica de reprimir sindicatos",
-   "headline": "A Watchdog Calls Bangladesh Factory This Decade’s Worst Union Buster. Some Brands Haven’t Walked Away.",
+   "title": "Salario textil de Bangladesh divide",
+   "headline": "Too Much, Too Little: Bangladesh’s Wage Hike Pleases No One",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/sustainability/worker-rights-consortium-libas-textiles-primark-next-1239465329/",
+   "link": "https://wwd.com/sourcing-journal/sustainability/bangladesh-minimum-wage-increase-garment-workers-1239466520/",
    "photo_credit": null
   },
   {
-   "title": "Uggs de Taylor Swift reabren debate",
-   "headline": "Taylor Swift’s Three Pairs of Uggs Have FN Editors Revisiting the Footwear Politics of the 2000s",
-   "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-features/taylor-swift-ugg-boots-2000s-millennial-fashion-1239464654/",
+   "title": "Muere Veruschka a los 87 años",
+   "headline": "Veruschka, One of the World’s First Supermodels, Has Died",
+   "source": "NYT",
+   "link": "https://www.nytimes.com/2026/11/25/style/veruschka-dead.html",
    "photo_credit": null
   },
   {
-   "title": "Esque/By debuta con sastrería",
-   "headline": "Emerging Tailoring Brand Esque/By Launches First Collection",
+   "title": "Libro reúne imágenes inéditas de Veruschka",
+   "headline": "In Acclaimed 2014 Photography Book, Veruschka Called Herself An ‘Avatar for Metamorphosis’",
    "source": "WWD",
-   "link": "https://wwd.com/fashion-news/fashion-features/esque-by-bespoke-tailoring-brand-fashion-collection-1239464115/",
+   "link": "https://wwd.com/shop/shop-fashion/veruschka-model-photography-book-biography-buy-read-online-1239465432/",
    "photo_credit": null
   }
  ]

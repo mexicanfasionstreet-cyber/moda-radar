@@ -1,44 +1,44 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "edition": "latam",
- "duration": 68.2,
+ "duration": 75.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "Lenzing invierte 31 millones de dólares para ampliar fibras especiales en Alabama",
+ "hook": "Moda mexicana y latina se mueve entre pasarelas, textiles y diseño de escenarios",
  "items": [
   {
-   "title": "Lenzing amplía planta en Alabama",
-   "headline": "Lenzing Invierte 31 Millones de Dólares para Fortalecer las Capacidades de Fibras Especiales para No Tejidos en Mobile, Estados Unidos",
-   "source": "Textiles Panam.",
-   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/lenzing-invierte-31-millones-de-dolares-para-fortalecer-las-capacidades-de-fibras-especiales-para-no-tejidos-en-mobile-estados-unidos/",
-   "photo_credit": "Foto: Gostalgia: local history from Gosford Library · CC BY-NC 2.0"
-  },
-  {
-   "title": "SGS amplía pruebas para Walmart",
-   "headline": "Walmart US Amplía los Servicios de Prueba Autorizados de SGS a Más Departamentos de Moda",
-   "source": "Textiles Panam.",
-   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/walmart-us-amplia-los-servicios-de-prueba-autorizados-de-sgs-a-mas-departamentos-de-moda/",
+   "title": "El Trapo 2026 en Puebla",
+   "headline": "Ana De Velasco y Giselle Aboudib presentes en El Trapo 2026: moda y diseño en Puebla",
+   "source": "Chic Magazine",
+   "link": "https://www.chicmagazine.com.mx/sociedad/ana-velasco-giselle-aboudib-trapo-2026-moda-diseno",
    "photo_credit": null
   },
   {
-   "title": "Nuevo CEO en Rieter",
-   "headline": "Georg Stausberg asume el cargo de CEO del Grupo Rieter de manera inmediata",
+   "title": "Acabado textil sostenible en Asia",
+   "headline": "Brückner Presenta Tecnologías Sostenibles para el Futuro del Acabado Textil en ITMA ASIA 2026",
    "source": "Textiles Panam.",
-   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/georg-stausberg-asume-el-cargo-de-ceo-del-grupo-rieter-de-manera-inmediata/",
+   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/bruckner-presenta-tecnologias-sostenibles-para-el-futuro-del-acabado-textil-en-itma-asia-2026/",
+   "photo_credit": "Foto: Crossett Library Bennington College · CC BY-NC-SA 2.0"
+  },
+  {
+   "title": "Pasarela CECC 2026 Aitheria",
+   "headline": "Lydia Lavín y Atros Arriaga, los invitados especiales de la pasarela CECC 2026: Aitheria",
+   "source": "Capital CDMX",
+   "link": "https://capital-cdmx.org/lydia-lavin-y-atros-arriaga-los-invitados-especiales-de-la-pasarela-cecc-2026-aitheria/",
    "photo_credit": null
   },
   {
-   "title": "Instagram y Shein se alían",
-   "headline": "Instagram y Shein se unen: ahora los creadores pueden ganar dinero con enlaces de afiliados",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/instagram-y-shein-se-unen-ahora-los-creadores-pueden-ganar-dinero-con-enlaces-de-afiliados/",
+   "title": "Javier Pita en el Teatro Colón",
+   "headline": "Javier Pita, el diseñador que transformó la escalinata del Teatro Colón en una Venecia imaginaria: \"Me gusta trabajar con pocos elementos\"",
+   "source": "Para Ti",
+   "link": "https://www.parati.com.ar/news/javier-pita-el-disenador-que-transformo-la-escalinata-del-teatro-colon-en-una-venecia-imaginaria-me-gusta-trabajar-con-pocos-elementos/",
    "photo_credit": null
   },
   {
-   "title": "Preinscripción para ITMA 2027",
-   "headline": "Tome la Delantera para ITMA 2027: Preinscríbase en las Delegaciones de Tecnología Textil en Alemania",
+   "title": "Alianza por Kevlar EXO",
+   "headline": "Arclin y KINETIXX Amplían su Exclusiva Alianza para Impulsar la Tecnología Kevlar® EXO™",
    "source": "Textiles Panam.",
-   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/tome-la-delantera-para-itma-2027-preinscribase-en-las-delegaciones-de-tecnologia-textil-en-alemania/",
-   "photo_credit": null
+   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/arclin-y-kinetixx-amplian-su-exclusiva-alianza-para-impulsar-la-tecnologia-kevlar-exo/",
+   "photo_credit": "Foto: BarbieFantasies · CC BY 2.0"
   }
  ]
 }
