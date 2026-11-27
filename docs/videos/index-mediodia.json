@@ -1,43 +1,43 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "edition": "general",
- "duration": 70.1,
+ "duration": 67.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "Moda hoy: Soho Home, Songmont, Crillon, Veruschka y JW Anderson",
+ "hook": "Black Friday de lujo y una nueva era en The White Company",
  "items": [
   {
-   "title": "Soho Home Black Friday",
-   "headline": "The Best Of Soho Home’s Black Friday Sale",
+   "title": "Augustinus Bader con 25 por ciento off",
+   "headline": "Get Augustinus Bader at Duty-Free Prices, With This 25% Off Deal for Black Friday",
+   "source": "WWD",
+   "link": "https://wwd.com/shop/shop-beauty/augustinus-bader-black-friday-sale-2026-rich-cream-discount-1239461358/",
+   "photo_credit": null
+  },
+  {
+   "title": "DeMellier y su venta de Black Friday",
+   "headline": "Shop The DeMellier Black Friday Sale 2026",
    "source": "Vogue UK",
-   "link": "https://www.vogue.co.uk/article/soho-home-sale",
+   "link": "https://www.vogue.co.uk/article/demellier-black-friday-sale",
    "photo_credit": null
   },
   {
-   "title": "Songmont y Arnault en Nueva York",
-   "headline": "Songmont Founder Shares Snaps with Bernard Arnault Ahead of Louis Vuitton’s Shanghai Concert",
+   "title": "McQueen Pre-Fall 2027",
+   "headline": "McQueen Pre-Fall 2027: Midnight in the Garden",
    "source": "WWD",
-   "link": "https://wwd.com/fashion-news/fashion-scoops/songmont-founder-bernard-arnault-louis-vuitton-shanghai-concert-1239466797/",
+   "link": "https://wwd.com/runway/pre-fall-2027/london/alexander-mcqueen/review/",
    "photo_credit": null
   },
   {
-   "title": "Crillon y Kujten en invierno",
-   "headline": "Hôtel de Crillon Taps French Cashmere Brand Kujten for Terrasse Holiday Takeover",
+   "title": "Iris Van Herpen en Design Miami",
+   "headline": "Iris Van Herpen Will Unveil a New Sculpture at Design Miami",
    "source": "WWD",
-   "link": "https://wwd.com/fashion-news/fashion-scoops/hotel-de-crillon-kujten-french-cashmere-holiday-takeover-1239467110/",
+   "link": "https://wwd.com/fashion-news/designer-luxury/iris-van-herpen-design-miami-perrier-1239467559/",
    "photo_credit": null
   },
   {
-   "title": "Homenaje a Veruschka",
-   "headline": "The Art of Being Veruschka: Fashion Pays Tribute to a Legend",
-   "source": "Vogue",
-   "link": "https://www.vogue.com/article/veruschka-tributes",
-   "photo_credit": null
-  },
-  {
-   "title": "JW Anderson lanza Anchor",
-   "headline": "Dree Hemingway and Conor Sánchez Help Launch JW Anderson’s New Anchor Sneaker",
-   "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/jw-anderson-anchor-sneaker-dree-hemingway-conor-sanchez-1239466885/",
+   "title": "Jo Jenkins lidera The White Company",
+   "headline": "Jo Jenkins takes up CEO role at The White Company",
+   "source": "The Industry",
+   "link": "https://www.theindustry.fashion/jo-jenkins-takes-up-ceo-role-at-the-white-company/",
    "photo_credit": null
   }
  ]

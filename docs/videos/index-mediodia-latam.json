@@ -1,43 +1,43 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "edition": "latam",
- "duration": 68.9,
+ "duration": 66.1,
  "script_source": "IA (deepseek-chat)",
- "hook": "Neymar se suma a una fragancia y Jordan vuelve por Black Friday",
+ "hook": "Bolsos, desfiles y perfumes marcan la agenda de moda hoy",
  "items": [
   {
-   "title": "Armaf se alía con Neymar Jr",
-   "headline": "Dubai-based Fragrance Brand Armaf Inks Partnership With Brazilian Soccer Player, Neymar Jr.",
-   "source": "WWD",
-   "link": "https://wwd.com/beauty-industry-news/fragrance/armaf-fragrance-brand-neymar-jr-partnership-new-launch-2027-1239466914/",
+   "title": "El bolso que todas quieren",
+   "headline": "Kate Middleton llevó primero ESTE elegante bolso que ahora llevan ahora todas las celebridades",
+   "source": "Vogue MX",
+   "link": "https://www.vogue.mx/articulo/como-llevar-bolsos-elegantes-demellier-como-kate-middleton-y-las-celebridades",
    "photo_credit": null
   },
   {
-   "title": "Air Jordan 4 Bred vuelve en Black Friday",
-   "headline": "Air Jordan 4 Bred 2026: Los legendarios tenis de Michael Jordan regresan en Black Friday con su diseño de 1989",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/tenis-nike-air-jordan-4-bred-2026-ix8180-001-precio-fotos-lanzamiento-26-11-2026",
-   "photo_credit": null
-  },
-  {
-   "title": "Hugo Boss renueva dirección en América",
-   "headline": "Hugo Boss renueva su dirección en América y mercados emergentes, con foco en Brasil y el Golfo",
-   "source": "Modaes",
-   "link": "https://www.modaes.com/empresas/hugo-boss-renueva-su-direccion-en-america-y-mercados-emergentes-con-foco-en-brasil-y-el-golfo",
-   "photo_credit": null
-  },
-  {
-   "title": "Prendas tendencia de la temporada",
-   "headline": "Las prendas que son tendencia esta temporada y no pueden faltar en tu guardarropa",
-   "source": "Para Ti",
-   "link": "https://www.parati.com.ar/galeria/las-prendas-que-son-tendencia-esta-temporada-y-no-pueden-faltar-en-tu-guardarropa/",
-   "photo_credit": null
-  },
-  {
-   "title": "Amazon remata papel higiénico en Black Friday",
-   "headline": "Amazon remata papel higiénico Kleenex Cottonelle Elegance; Regio Just 1, Luxury Almond y Suspiros de Lavanda; Pétalo Maxi Resist y Elite Cuidado Clásico de 12, 18 y 32 rollos",
+   "title": "Navidad retail en México",
+   "headline": "Mientras Liverpool convierte el desfile navideño Bolo Fest en un escaparate para LEGO, Mattel y Disney, El Palacio de Hierro apuesta por su Mercado de Navidad europeo",
    "source": "Merca2.0",
-   "link": "https://www.merca20.com/amazon-remata-papel-higienico-kleenex-cottonelle-elegance-regio-just-1-luxury-almond-y-suspiros-de-lavanda-petalo-maxi-resist-y-elite-cuidado-clasico-de-12-18-y-32-rollos/",
+   "link": "https://www.merca20.com/mientras-liverpool-convierte-el-desfile-navideno-bolo-fest-en-un-escaparate-para-lego-mattel-y-disney-el-palacio-de-hierro-apuesta-por-su-mercado-de-navidad-europeo/",
+   "photo_credit": null
+  },
+  {
+   "title": "Versace Bright Crystal en oferta",
+   "headline": "El perfume Versace para mujeres que prefieren los aromas frescos y sofisticados en lugar de las fragancias demasiado dulces",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/el-perfume-versace-para-mujeres-que-prefieren-los-aromas-frescos-y-sofisticados-en-lugar-de-las-fragancias-demasiado-dulces/",
+   "photo_credit": null
+  },
+  {
+   "title": "Mido Commander 1959 retro",
+   "headline": "Mido Commander 1959: El reloj automático suizo de diseño retro inspirado en un clásico de los años 50",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/relojes-mido-commander-1959-m842947711-m842932721-precio-disponibilidad-27-11-2026",
+   "photo_credit": null
+  },
+  {
+   "title": "Guess 1981 por menos de 400",
+   "headline": "El perfume que es perfecto para las mujeres que aman los aromas florales, frescos y elegantes, puede durar hasta seis horas y cuesta menos de 400 pesos",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/el-perfume-que-es-perfecto-para-las-mujeres-que-aman-los-aromas-florales-frescos-y-elegantes-puede-durar-hasta-seis-horas-y-cuesta-menos-de-400-pesos/",
    "photo_credit": null
   }
  ]
