@@ -1,43 +1,43 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "edition": "general",
- "duration": 68.1,
+ "duration": 69.7,
  "script_source": "IA (deepseek-chat)",
- "hook": "Muere Veruschka, ícono de los sesenta, y suben costos del combustible",
+ "hook": "Zara agota su Black Friday mientras Zegna estrena polo de calzado en Parma",
  "items": [
   {
-   "title": "Combustible presiona márgenes minoristas",
-   "headline": "Higher Fuel Costs Weigh on Apparel Retail Earnings",
-   "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/logistics/fuel-costs-diesel-freight-burlington-abercrombie-fitch-kohls-urban-outfitters-gap-dollar-tree-1239466545/",
-   "photo_credit": null
-  },
-  {
-   "title": "Rubartelli revela sus shoots de Vogue",
-   "headline": "Photographer Franco Rubartelli Shares the Stories Behind Some of Vogue’s Most Famous ‘60s Shoots",
+   "title": "Zara Black Friday se agota rápido",
+   "headline": "Zara’s Black Friday Sale Is Here—And the Best Finds Won’t Stay in Stock for Long",
    "source": "Vogue",
-   "link": "https://www.vogue.com/article/from-the-archives-fashion-photographer-franco-rubartelli-veruschka-1960s-supermodels",
+   "link": "https://www.vogue.com/article/zara-black-friday-sale-11-26-2026",
    "photo_credit": null
   },
   {
-   "title": "Salario textil de Bangladesh divide",
-   "headline": "Too Much, Too Little: Bangladesh’s Wage Hike Pleases No One",
+   "title": "Pasquale Bruni abre flagship en París",
+   "headline": "Pasquale Bruni Opens Paris Flagship on Faubourg Saint-Honoré",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/sustainability/bangladesh-minimum-wage-increase-garment-workers-1239466520/",
+   "link": "https://wwd.com/accessories-news/jewelry/pasquale-bruni-paris-flagship-opening-european-expansion-1239466929/",
    "photo_credit": null
   },
   {
-   "title": "Muere Veruschka a los 87 años",
-   "headline": "Veruschka, One of the World’s First Supermodels, Has Died",
-   "source": "NYT",
-   "link": "https://www.nytimes.com/2026/11/25/style/veruschka-dead.html",
-   "photo_credit": null
-  },
-  {
-   "title": "Libro reúne imágenes inéditas de Veruschka",
-   "headline": "In Acclaimed 2014 Photography Book, Veruschka Called Herself An ‘Avatar for Metamorphosis’",
+   "title": "Puma ficha a ex Adidas",
+   "headline": "Puma Taps Adidas Alum Will Newton to Run New Emerging Markets Region",
    "source": "WWD",
-   "link": "https://wwd.com/shop/shop-fashion/veruschka-model-photography-book-biography-buy-read-online-1239465432/",
+   "link": "https://wwd.com/footwear-news/shoe-industry-news/puma-emerging-markets-will-newton-managing-director-1239466893/",
+   "photo_credit": null
+  },
+  {
+   "title": "The Hunting Wives vuelve más intensa",
+   "headline": "Jaime Ray Newman Is ‘Bigger, Bolder and Badder’ in Season Two of ‘The Hunting Wives’",
+   "source": "WWD",
+   "link": "https://wwd.com/eye/people/jaime-ray-newman-season-2-the-hunting-wives-netflix-1239463090/",
+   "photo_credit": null
+  },
+  {
+   "title": "Zegna abre polo en Parma",
+   "headline": "Apre il polo produttivo di Zegna a Parma. Impiegherà oltre 300 persone",
+   "source": "Pambianco",
+   "link": "https://www.pambianconews.com/2026/11/26/apre-il-polo-produttivo-di-zegna-a-parma-ospitera-fino-a-300-persone-502225/",
    "photo_credit": null
   }
  ]

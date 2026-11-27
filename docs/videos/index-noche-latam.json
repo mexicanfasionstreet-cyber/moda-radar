@@ -1,44 +1,44 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "edition": "latam",
- "duration": 75.0,
+ "duration": 69.3,
  "script_source": "IA (deepseek-chat)",
- "hook": "Moda mexicana y latina se mueve entre pasarelas, textiles y diseño de escenarios",
+ "hook": "Tenis de archivo, relojes de Marvel y moda que mueve negocios en la región",
  "items": [
   {
-   "title": "El Trapo 2026 en Puebla",
-   "headline": "Ana De Velasco y Giselle Aboudib presentes en El Trapo 2026: moda y diseño en Puebla",
-   "source": "Chic Magazine",
-   "link": "https://www.chicmagazine.com.mx/sociedad/ana-velasco-giselle-aboudib-trapo-2026-moda-diseno",
+   "title": "New Balance 991 hechos a mano",
+   "headline": "New Balance 991v1 Lost Proto: Los tenis de papá hechos a mano que rescatan un diseño que nunca salió a la venta",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/tenis-new-balance-991v1-lost-proto-m9915zp-precio-fotos-lanzamiento-26-11-2026",
    "photo_credit": null
   },
   {
-   "title": "Acabado textil sostenible en Asia",
-   "headline": "Brückner Presenta Tecnologías Sostenibles para el Futuro del Acabado Textil en ITMA ASIA 2026",
-   "source": "Textiles Panam.",
-   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/bruckner-presenta-tecnologias-sostenibles-para-el-futuro-del-acabado-textil-en-itma-asia-2026/",
-   "photo_credit": "Foto: Crossett Library Bennington College · CC BY-NC-SA 2.0"
-  },
-  {
-   "title": "Pasarela CECC 2026 Aitheria",
-   "headline": "Lydia Lavín y Atros Arriaga, los invitados especiales de la pasarela CECC 2026: Aitheria",
-   "source": "Capital CDMX",
-   "link": "https://capital-cdmx.org/lydia-lavin-y-atros-arriaga-los-invitados-especiales-de-la-pasarela-cecc-2026-aitheria/",
+   "title": "Coolway llega a CDMX",
+   "headline": "Coolway los sneakers españoles en México: De un flechazo en Madrid a conquistar los pies de CDMX",
+   "source": "Grupo Animal",
+   "link": "https://grupoanimal.mx/estilo-de-vida/coolway-llega-a-mexico-entrevista-sneakers-valencia-modelos-2027",
    "photo_credit": null
   },
   {
-   "title": "Javier Pita en el Teatro Colón",
-   "headline": "Javier Pita, el diseñador que transformó la escalinata del Teatro Colón en una Venecia imaginaria: \"Me gusta trabajar con pocos elementos\"",
-   "source": "Para Ti",
-   "link": "https://www.parati.com.ar/news/javier-pita-el-disenador-que-transformo-la-escalinata-del-teatro-colon-en-una-venecia-imaginaria-me-gusta-trabajar-con-pocos-elementos/",
+   "title": "Relojes Fossil de Avengers",
+   "headline": "Relojes Fossil de Avengers: Doomsday, así son los 4 modelos de edición limitada dedicados a los personajes",
+   "source": "GQ MX",
+   "link": "https://www.gq.com.mx/articulo/relojes-fossil-avengers-doomsday-limited-edition-doctor-doom-thor-mr-fantastic-gambit-precio-disponibilidad-25-11-2026",
    "photo_credit": null
   },
   {
-   "title": "Alianza por Kevlar EXO",
-   "headline": "Arclin y KINETIXX Amplían su Exclusiva Alianza para Impulsar la Tecnología Kevlar® EXO™",
-   "source": "Textiles Panam.",
-   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/arclin-y-kinetixx-amplian-su-exclusiva-alianza-para-impulsar-la-tecnologia-kevlar-exo/",
-   "photo_credit": "Foto: BarbieFantasies · CC BY 2.0"
+   "title": "Feria de moda en Ibagué",
+   "headline": "Ibagué reunirá a más de 350 empresarios en feria de moda -",
+   "source": "Ferias",
+   "link": "https://tolima7dias.com.co/actualidad/ibague-reunira-a-mas-de-350-empresarios-en-feria-de-moda",
+   "photo_credit": null
+  },
+  {
+   "title": "PANAM y tenis de Friends",
+   "headline": "FRIENDS arrives at PANAM with new sneakers in a special edition for fans of the series",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/friends-arrives-at-panam-with-new-sneakers-in-a-special-edition-for-fans-of-the-series/",
+   "photo_credit": null
   }
  ]
 }
