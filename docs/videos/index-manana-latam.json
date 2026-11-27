@@ -1,44 +1,44 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "edition": "latam",
- "duration": 71.4,
+ "duration": 67.1,
  "script_source": "IA (deepseek-chat)",
- "hook": "Diseño, relojes y retail digital marcan la agenda de hoy",
+ "hook": "La moda define entrevistas, relojes y pasarelas mexicanas",
  "items": [
   {
-   "title": "Patricia Urquiola, referente del diseño",
-   "headline": "Retrato de Patricia Urquiola: la diseñadora que transforma el diseño contemporáneo",
-   "source": "Para Ti",
-   "link": "https://www.parati.com.ar/deco/retrato-de-patricia-urquiola-la-disenadora-que-transforma-el-diseno-contemporaneo/",
-   "photo_credit": null
+   "title": "Ropa clave para entrevista laboral",
+   "headline": "Gráfica del día: ¿Qué ropa usar para una entrevista de trabajo?",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/grafica-del-dia-que-ropa-usar-para-una-entrevista-de-trabajo/",
+   "photo_credit": "Foto: Gostalgia: local history from Gosford Library · CC BY-NC 2.0"
   },
   {
-   "title": "Inscripciones abiertas para Texprocess",
-   "headline": "El Futuro de la Fabricación de Productos Confeccionados Comienza Aquí: las Inscripciones para Texprocess Americas 2027están abiertas",
-   "source": "Textiles Panam.",
-   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/el-futuro-de-la-fabricacion-de-productos-confeccionados-comienza-aqui-las-inscripciones-para-texprocess-americas-2027estan-abiertas/",
-   "photo_credit": "Foto: Crossett Library Bennington College · CC BY-NC-SA 2.0"
-  },
-  {
-   "title": "MoonSwatch de Snoopy solo con nieve",
-   "headline": "MoonSwatch Mission to Earthphase-Silver Snowflake: El reloj de Snoopy con diseño único que solo se vende cuando nieva",
+   "title": "Reverso clásico en oro rosa",
+   "headline": "Jaeger-LeCoultre Reverso Classic Monoface Small Seconds: El reloj de oro rosa que recupera un elegante diseño de 1931",
    "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/reloj-moonswatch-mission-to-earthphase-silver-snowflake-ssx01b701-precio-disponibilidad-25-11-2026",
+   "link": "https://www.gq.com.mx/articulo/reloj-jaeger-lecoultre-reverso-classic-monoface-small-seconds-q3862520-precio-disponibilidad-26-11-2026",
    "photo_credit": null
   },
   {
-   "title": "Tissot PRX edición Lee Dong Wook",
-   "headline": "Tissot PRX 35 milímetros Lee Dong Wook Special Edition: El reloj vintage con cristal de zafiro que brilla en la oscuridad",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/reloj-tissot-prx-35-milimetros-lee-dong-wook-special-edition-t1372101101100-precio-disponibilidad-24-11-2026",
+   "title": "Adidas renueva sus clásicos",
+   "headline": "While the Adidas Samba and Superstar continue to attract consumer interest, the brand is betting on new versions of its classic sneakers",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/while-the-adidas-samba-and-superstar-continue-to-attract-consumer-interest-the-brand-is-betting-on-new-versions-of-its-classic-sneakers/",
    "photo_credit": null
   },
   {
-   "title": "Cuatro países lideran atención digital",
-   "headline": "Brasil, España, México y Argentina concentran el 68 % de la atención digital del comercio iberoamericano",
-   "source": "FashionNetwork España",
-   "link": "https://es.fashionnetwork.com/news/Brasil-espana-mexico-y-argentina-concentran-el-68-de-la-atencion-digital-del-comercio-iberoamericano,1888549.html",
-   "photo_credit": "Foto: bittermelon · CC BY-NC 2.0"
+   "title": "Maquillaje de Harry Potter",
+   "headline": "SHEGLAM convierte el universo de Harry Potter en una colección de maquillaje coleccionable",
+   "source": "Merca2.0",
+   "link": "https://www.merca20.com/sheglam-convierte-el-universo-de-harry-potter-en-una-coleccion-de-maquillaje-coleccionable/",
+   "photo_credit": null
+  },
+  {
+   "title": "Levi’s y talento mexicano",
+   "headline": "Denim Reimagined, la pasarela de Levi’s con 13 diseñadores mexicanos",
+   "source": "El Universal",
+   "link": "https://www.eluniversal.com.mx/de-ultima/denim-reimagined-la-pasarela-de-levis-con-13-disenadores-mexicanos/",
+   "photo_credit": null
   }
  ]
 }

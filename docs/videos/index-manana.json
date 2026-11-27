@@ -1,43 +1,43 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "edition": "general",
- "duration": 73.9,
+ "duration": 67.7,
  "script_source": "IA (deepseek-chat)",
- "hook": "Moda hoy: alianzas de lujo, nuevas fábricas y creatividad navideña",
+ "hook": "Black Friday, premios de moda y el gasto como arma política marcan el día",
  "items": [
   {
-   "title": "Alianza de lujo en Asia",
-   "headline": "Swire Properties’ Qiantan Taikoo Li Forms Partnership With Siam Piwat",
-   "source": "WWD",
-   "link": "https://wwd.com/business-news/retail/qiantan-taikoo-li-partnership-siam-piwat-1239466662/",
+   "title": "Ofertas de ropa por Black Friday",
+   "headline": "Best Black Friday Clothing Deals 2026—Net-a-Porter, Nordstrom & More",
+   "source": "Vogue",
+   "link": "https://www.vogue.com/slideshow/best-black-friday-clothing-deals-11-27-2026",
    "photo_credit": null
   },
   {
-   "title": "Lujo accesible en oferta",
-   "headline": "Cashmere, Caviar, and Supple Leather Are on Our Quince Black Friday Shopping List (and Many Finds Are Under $100)",
+   "title": "Fashion Awards honran a Yamamoto",
+   "headline": "Fashion Awards 2026: Yohji Yamamoto, Sandra Choi Among Honorees, Ncuti Gatwa to Host",
    "source": "WWD",
-   "link": "https://wwd.com/shop/shop-fashion/quince-black-friday-sale-2026-cashmere-leather-luxury-deals-1239466622/",
+   "link": "https://wwd.com/fashion-news/designer-luxury/fashion-awards-2026-yohji-yamamoto-sandra-choi-ncuti-gatwa-1239467155/",
    "photo_credit": null
   },
   {
-   "title": "Nuevo líder creativo",
-   "headline": "How I started in fashion: Duke + Dexter Creative Director, Connor Boon",
-   "source": "The Industry",
-   "link": "https://www.theindustry.fashion/how-i-started-in-fashion-duke-dexter-creative-director-connor-boon/",
+   "title": "El gasto como postura política",
+   "headline": "Americans Are Making Political Statements With Their Spending",
+   "source": "WWD",
+   "link": "https://wwd.com/sourcing-journal/industry-news/americans-making-political-statements-with-their-spending-1239466388/",
    "photo_credit": null
   },
   {
-   "title": "Zegna amplía producción",
-   "headline": "Ermenegildo Zegna Group Unveils New Footwear, Leather Goods Facility in Italy",
-   "source": "WWD",
-   "link": "https://wwd.com/business-news/business-features/ermenegildo-zegna-group-new-footwear-leather-goods-plant-1239466752/",
+   "title": "Regatta ficha a Emma Harnett",
+   "headline": "Regatta appoints marketing director",
+   "source": "Drapers",
+   "link": "https://www.drapersonline.com/news/regatta-appoints-marketing-director",
    "photo_credit": null
   },
   {
-   "title": "Árbol navideño emplumado",
-   "headline": "16Arlington Gives The London Edition’s Christmas Tree a Feathered Makeover",
+   "title": "Nike anuncia lanzamientos de diciembre",
+   "headline": "The Best Nike Sneakers Releasing in December",
    "source": "WWD",
-   "link": "https://wwd.com/eye/scoops/the-london-edition-christmas-tree-16arlington-marco-capaldo-1239466775/",
+   "link": "https://wwd.com/footwear-news/sneaker-news/nike-sneaker-release-date-calendar-december-2026-1239464370/",
    "photo_credit": null
   }
  ]
