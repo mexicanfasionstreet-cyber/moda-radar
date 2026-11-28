@@ -1,43 +1,29 @@
 {
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "edition": "latam",
- "duration": 66.1,
+ "duration": 44.9,
  "script_source": "IA (deepseek-chat)",
- "hook": "Bolsos, desfiles y perfumes marcan la agenda de moda hoy",
+ "hook": "La moda textil argentina alerta y Honduras se prepara para recibir marcas",
  "items": [
   {
-   "title": "El bolso que todas quieren",
-   "headline": "Kate Middleton llevó primero ESTE elegante bolso que ahora llevan ahora todas las celebridades",
-   "source": "Vogue MX",
-   "link": "https://www.vogue.mx/articulo/como-llevar-bolsos-elegantes-demellier-como-kate-middleton-y-las-celebridades",
-   "photo_credit": null
+   "title": "Alerta textil en Argentina",
+   "headline": "PROTEXTIL 2026: La cadena agroindustrial textil advirtió sobre la caída de la actividad y reclamó igualdad para producir",
+   "source": "Textiles Panam.",
+   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/protextil-2026-la-cadena-agroindustrial-textil-advirtio-sobre-la-caida-de-la-actividad-y-reclamo-igualdad-para-producir/",
+   "photo_credit": "Foto: Prayitno / Thank you for (12 millions +) view · CC BY 2.0"
   },
   {
-   "title": "Navidad retail en México",
-   "headline": "Mientras Liverpool convierte el desfile navideño Bolo Fest en un escaparate para LEGO, Mattel y Disney, El Palacio de Hierro apuesta por su Mercado de Navidad europeo",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/mientras-liverpool-convierte-el-desfile-navideno-bolo-fest-en-un-escaparate-para-lego-mattel-y-disney-el-palacio-de-hierro-apuesta-por-su-mercado-de-navidad-europeo/",
-   "photo_credit": null
+   "title": "Honduras reúne a marcas líderes",
+   "headline": "Marcas Líderes de Indumentaria Confirmaron su Participación en SOURCE: Honduras 2027 de AAPN",
+   "source": "Textiles Panam.",
+   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/marcas-lideres-de-indumentaria-confirmaron-su-participacion-en-source-honduras-2027-de-aapn/",
+   "photo_credit": "Foto: BarbieFantasies · CC BY 2.0"
   },
   {
-   "title": "Versace Bright Crystal en oferta",
-   "headline": "El perfume Versace para mujeres que prefieren los aromas frescos y sofisticados en lugar de las fragancias demasiado dulces",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/el-perfume-versace-para-mujeres-que-prefieren-los-aromas-frescos-y-sofisticados-en-lugar-de-las-fragancias-demasiado-dulces/",
-   "photo_credit": null
-  },
-  {
-   "title": "Mido Commander 1959 retro",
-   "headline": "Mido Commander 1959: El reloj automático suizo de diseño retro inspirado en un clásico de los años 50",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/relojes-mido-commander-1959-m842947711-m842932721-precio-disponibilidad-27-11-2026",
-   "photo_credit": null
-  },
-  {
-   "title": "Guess 1981 por menos de 400",
-   "headline": "El perfume que es perfecto para las mujeres que aman los aromas florales, frescos y elegantes, puede durar hasta seis horas y cuesta menos de 400 pesos",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/el-perfume-que-es-perfecto-para-las-mujeres-que-aman-los-aromas-florales-frescos-y-elegantes-puede-durar-hasta-seis-horas-y-cuesta-menos-de-400-pesos/",
+   "title": "Adiós a Fátima Bosch",
+   "headline": "Así fue la última pasarela de Fátima Bosch como Miss Universo",
+   "source": "MUNDIARIO",
+   "link": "https://www.mundiario.com/gente/fatima-bosch-despide-miss-universo-emotivo-mensaje/20261125185529454901.html",
    "photo_credit": null
   }
  ]

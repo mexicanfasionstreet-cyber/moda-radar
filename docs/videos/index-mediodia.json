@@ -1,43 +1,43 @@
 {
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "edition": "general",
- "duration": 67.0,
+ "duration": 61.6,
  "script_source": "IA (deepseek-chat)",
- "hook": "Black Friday de lujo y una nueva era en The White Company",
+ "hook": "Bolsos DeMellier, famosos y royals marcan la agenda de moda",
  "items": [
   {
-   "title": "Augustinus Bader con 25 por ciento off",
-   "headline": "Get Augustinus Bader at Duty-Free Prices, With This 25% Off Deal for Black Friday",
+   "title": "DeMellier arrasa en Black Friday",
+   "headline": "Le borse DeMellier scontate al Black Friday 2026: sono le più desiderate da fashioniste e star (incluse le royal)",
+   "source": "Vogue IT",
+   "link": "https://www.vogue.it/article/borse-demellier-tendenza-black-friday-2026",
+   "photo_credit": null
+  },
+  {
+   "title": "Hailey y Jack marcan estilo",
+   "headline": "Hailey Bieber Shares a Cute New Look at Son Jack Channeling Justin’s Signature Style",
+   "source": "Elle",
+   "link": "https://www.elle.com/culture/celebrities/a74554078/hailey-justin-bieber-son-jack-photo-golf-course-2026/",
+   "photo_credit": null
+  },
+  {
+   "title": "Kate Middleton apuesta al layering",
+   "headline": "Kate Middleton Masters Layering in Oversized Barbour x Alexa Chung Coat & Cozy Cashmere Sweater While Visiting Scotland",
    "source": "WWD",
-   "link": "https://wwd.com/shop/shop-beauty/augustinus-bader-black-friday-sale-2026-rich-cream-discount-1239461358/",
+   "link": "https://wwd.com/pop-culture/celebrity-news/kate-middleton-barbour-alexa-chung-cashmere-scotland-1239468073/",
    "photo_credit": null
   },
   {
-   "title": "DeMellier y su venta de Black Friday",
-   "headline": "Shop The DeMellier Black Friday Sale 2026",
-   "source": "Vogue UK",
-   "link": "https://www.vogue.co.uk/article/demellier-black-friday-sale",
-   "photo_credit": null
-  },
-  {
-   "title": "McQueen Pre-Fall 2027",
-   "headline": "McQueen Pre-Fall 2027: Midnight in the Garden",
+   "title": "Adidas Stan Smith en televisión",
+   "headline": "Amy Poehler Hangs with Pal Tina Fey in Adidas Stan Smith Sneakers on ‘Late Night With Seth Meyers’",
    "source": "WWD",
-   "link": "https://wwd.com/runway/pre-fall-2027/london/alexander-mcqueen/review/",
+   "link": "https://wwd.com/footwear-news/shoe-trends/amy-poehler-adidas-stan-smith-late-night-with-seth-meyers-1239468106/",
    "photo_credit": null
   },
   {
-   "title": "Iris Van Herpen en Design Miami",
-   "headline": "Iris Van Herpen Will Unveil a New Sculpture at Design Miami",
+   "title": "Bellucci reinventa el vestido negro",
+   "headline": "Monica Bellucci Upgrades the LBD in Sparkling Slinky Off-The-Shoulder Fendi Gown at the 23rd Marrakech International Film Festival",
    "source": "WWD",
-   "link": "https://wwd.com/fashion-news/designer-luxury/iris-van-herpen-design-miami-perrier-1239467559/",
-   "photo_credit": null
-  },
-  {
-   "title": "Jo Jenkins lidera The White Company",
-   "headline": "Jo Jenkins takes up CEO role at The White Company",
-   "source": "The Industry",
-   "link": "https://www.theindustry.fashion/jo-jenkins-takes-up-ceo-role-at-the-white-company/",
+   "link": "https://wwd.com/pop-culture/celebrity-news/monica-bellucci-fendi-gown-marrakech-film-festival-1239468079/",
    "photo_credit": null
   }
  ]
