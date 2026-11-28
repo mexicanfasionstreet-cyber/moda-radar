@@ -1,43 +1,43 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "edition": "general",
- "duration": 69.7,
+ "duration": 63.0,
  "script_source": "IA (deepseek-chat)",
- "hook": "Zara agota su Black Friday mientras Zegna estrena polo de calzado en Parma",
+ "hook": "Puig compra Parfums de Marly y refuerza su perfume nicho",
  "items": [
   {
-   "title": "Zara Black Friday se agota rápido",
-   "headline": "Zara’s Black Friday Sale Is Here—And the Best Finds Won’t Stay in Stock for Long",
+   "title": "Puig compra Parfums de Marly",
+   "headline": "Puig to Acquire 75 Percent of Parfums de Marly, Initio for 1.2 Billion Euros",
+   "source": "WWD",
+   "link": "https://wwd.com/beauty-industry-news/fragrance/puig-acquire-75-percent-parfums-de-marly-initio-1-2-billion-1239467775/",
+   "photo_credit": null
+  },
+  {
+   "title": "Reformation rebaja 25 por ciento",
+   "headline": "Stylish Winter Staples to Secure From Reformation’s Black Friday Sale",
    "source": "Vogue",
-   "link": "https://www.vogue.com/article/zara-black-friday-sale-11-26-2026",
+   "link": "https://www.vogue.com/article/reformation-black-friday-sale-11-27-2026",
    "photo_credit": null
   },
   {
-   "title": "Pasquale Bruni abre flagship en París",
-   "headline": "Pasquale Bruni Opens Paris Flagship on Faubourg Saint-Honoré",
+   "title": "Adidas descuenta hasta 60 por ciento",
+   "headline": "There’s More to Adidas Than the Samba, and Its Black Friday Sale Is Proof — With Shoes Up to 60% Off",
    "source": "WWD",
-   "link": "https://wwd.com/accessories-news/jewelry/pasquale-bruni-paris-flagship-opening-european-expansion-1239466929/",
+   "link": "https://wwd.com/shop/shop-shoes/adidas-black-friday-sale-trending-sneaker-deals-1239467792/",
    "photo_credit": null
   },
   {
-   "title": "Puma ficha a ex Adidas",
-   "headline": "Puma Taps Adidas Alum Will Newton to Run New Emerging Markets Region",
+   "title": "Disney estrena filme navideño gratis",
+   "headline": "Where to Watch ‘Holiday Ever After: A Disney World Wish Come True’ Streaming Online Free",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/shoe-industry-news/puma-emerging-markets-will-newton-managing-director-1239466893/",
+   "link": "https://wwd.com/shop/shop-home/watch-holiday-ever-after-disney-world-wish-come-true-online-1239467704/",
    "photo_credit": null
   },
   {
-   "title": "The Hunting Wives vuelve más intensa",
-   "headline": "Jaime Ray Newman Is ‘Bigger, Bolder and Badder’ in Season Two of ‘The Hunting Wives’",
-   "source": "WWD",
-   "link": "https://wwd.com/eye/people/jaime-ray-newman-season-2-the-hunting-wives-netflix-1239463090/",
-   "photo_credit": null
-  },
-  {
-   "title": "Zegna abre polo en Parma",
-   "headline": "Apre il polo produttivo di Zegna a Parma. Impiegherà oltre 300 persone",
-   "source": "Pambianco",
-   "link": "https://www.pambianconews.com/2026/11/26/apre-il-polo-produttivo-di-zegna-a-parma-ospitera-fino-a-300-persone-502225/",
+   "title": "Nau Verde abre fábrica de lino",
+   "headline": "Nau Verde abre en Portugal la mayor fábrica europea de hilado de lino",
+   "source": "Modaes",
+   "link": "https://www.modaes.com/equipamiento/nau-verde-abre-en-portugal-la-mayor-fabrica-europea-de-hilado-de-lino",
    "photo_credit": null
   }
  ]
