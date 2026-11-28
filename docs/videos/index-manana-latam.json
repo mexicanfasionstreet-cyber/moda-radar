@@ -1,44 +1,44 @@
 {
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "edition": "latam",
- "duration": 67.1,
+ "duration": 72.9,
  "script_source": "IA (deepseek-chat)",
- "hook": "La moda define entrevistas, relojes y pasarelas mexicanas",
+ "hook": "Lenzing invierte 31 millones de dólares y Shein se alía con Instagram",
  "items": [
   {
-   "title": "Ropa clave para entrevista laboral",
-   "headline": "Gráfica del día: ¿Qué ropa usar para una entrevista de trabajo?",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/grafica-del-dia-que-ropa-usar-para-una-entrevista-de-trabajo/",
+   "title": "Lenzing amplía planta en Alabama",
+   "headline": "Lenzing Invierte 31 Millones de Dólares para Fortalecer las Capacidades de Fibras Especiales para No Tejidos en Mobile, Estados Unidos",
+   "source": "Textiles Panam.",
+   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/lenzing-invierte-31-millones-de-dolares-para-fortalecer-las-capacidades-de-fibras-especiales-para-no-tejidos-en-mobile-estados-unidos/",
    "photo_credit": "Foto: Gostalgia: local history from Gosford Library · CC BY-NC 2.0"
   },
   {
-   "title": "Reverso clásico en oro rosa",
-   "headline": "Jaeger-LeCoultre Reverso Classic Monoface Small Seconds: El reloj de oro rosa que recupera un elegante diseño de 1931",
-   "source": "GQ MX",
-   "link": "https://www.gq.com.mx/articulo/reloj-jaeger-lecoultre-reverso-classic-monoface-small-seconds-q3862520-precio-disponibilidad-26-11-2026",
-   "photo_credit": null
+   "title": "SGS amplía pruebas para Walmart",
+   "headline": "Walmart US Amplía los Servicios de Prueba Autorizados de SGS a Más Departamentos de Moda",
+   "source": "Textiles Panam.",
+   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/walmart-us-amplia-los-servicios-de-prueba-autorizados-de-sgs-a-mas-departamentos-de-moda/",
+   "photo_credit": "Foto: Department of Environmental Protection Recycling a · CC BY 2.0"
   },
   {
-   "title": "Adidas renueva sus clásicos",
-   "headline": "While the Adidas Samba and Superstar continue to attract consumer interest, the brand is betting on new versions of its classic sneakers",
+   "title": "Nuevo CEO en Rieter",
+   "headline": "Georg Stausberg asume el cargo de CEO del Grupo Rieter de manera inmediata",
+   "source": "Textiles Panam.",
+   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/georg-stausberg-asume-el-cargo-de-ceo-del-grupo-rieter-de-manera-inmediata/",
+   "photo_credit": "Foto: BarbieFantasies · CC BY 2.0"
+  },
+  {
+   "title": "Shein e Instagram, afiliados",
+   "headline": "Instagram y Shein se unen: ahora los creadores pueden ganar dinero con enlaces de afiliados",
    "source": "Merca2.0",
-   "link": "https://www.merca20.com/while-the-adidas-samba-and-superstar-continue-to-attract-consumer-interest-the-brand-is-betting-on-new-versions-of-its-classic-sneakers/",
+   "link": "https://www.merca20.com/instagram-y-shein-se-unen-ahora-los-creadores-pueden-ganar-dinero-con-enlaces-de-afiliados/",
    "photo_credit": null
   },
   {
-   "title": "Maquillaje de Harry Potter",
-   "headline": "SHEGLAM convierte el universo de Harry Potter en una colección de maquillaje coleccionable",
-   "source": "Merca2.0",
-   "link": "https://www.merca20.com/sheglam-convierte-el-universo-de-harry-potter-en-una-coleccion-de-maquillaje-coleccionable/",
-   "photo_credit": null
-  },
-  {
-   "title": "Levi’s y talento mexicano",
-   "headline": "Denim Reimagined, la pasarela de Levi’s con 13 diseñadores mexicanos",
-   "source": "El Universal",
-   "link": "https://www.eluniversal.com.mx/de-ultima/denim-reimagined-la-pasarela-de-levis-con-13-disenadores-mexicanos/",
-   "photo_credit": null
+   "title": "Preinscripción para ITMA 2027",
+   "headline": "Tome la Delantera para ITMA 2027: Preinscríbase en las Delegaciones de Tecnología Textil en Alemania",
+   "source": "Textiles Panam.",
+   "link": "https://textilespanamericanos.com/textiles-panamericanos/2026/11/tome-la-delantera-para-itma-2027-preinscribase-en-las-delegaciones-de-tecnologia-textil-en-alemania/",
+   "photo_credit": "Foto: Crossett Library Bennington College · CC BY-NC-SA 2.0"
   }
  ]
 }

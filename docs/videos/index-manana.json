@@ -1,43 +1,43 @@
 {
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "edition": "general",
- "duration": 67.7,
+ "duration": 63.8,
  "script_source": "IA (deepseek-chat)",
- "hook": "Black Friday, premios de moda y el gasto como arma política marcan el día",
+ "hook": "Blumarine y David Koma separan caminos tras dos años de colaboración creativa",
  "items": [
   {
-   "title": "Ofertas de ropa por Black Friday",
-   "headline": "Best Black Friday Clothing Deals 2026—Net-a-Porter, Nordstrom & More",
-   "source": "Vogue",
-   "link": "https://www.vogue.com/slideshow/best-black-friday-clothing-deals-11-27-2026",
+   "title": "Oferta LED de CurrentBody en Black Friday",
+   "headline": "This Currentbody Black Friday Bundle Deal Has Caught Our Attention",
+   "source": "Vogue UK",
+   "link": "https://www.vogue.co.uk/article/best-currentbody-black-friday-28-11-26",
    "photo_credit": null
   },
   {
-   "title": "Fashion Awards honran a Yamamoto",
-   "headline": "Fashion Awards 2026: Yohji Yamamoto, Sandra Choi Among Honorees, Ncuti Gatwa to Host",
+   "title": "Los mejores descuentos de moda",
+   "headline": "The Best Black Friday Fashion Deals, According to My Most Stylish Colleagues",
    "source": "WWD",
-   "link": "https://wwd.com/fashion-news/designer-luxury/fashion-awards-2026-yohji-yamamoto-sandra-choi-ncuti-gatwa-1239467155/",
+   "link": "https://wwd.com/shop/shop-fashion/black-friday-cyber-monday-2026-clothing-deals-editor-picks-1239467857/",
    "photo_credit": null
   },
   {
-   "title": "El gasto como postura política",
-   "headline": "Americans Are Making Political Statements With Their Spending",
+   "title": "Blumarine y Koma se separan",
+   "headline": "EXCLUSIVE: Blumarine and David Koma Part Ways",
    "source": "WWD",
-   "link": "https://wwd.com/sourcing-journal/industry-news/americans-making-political-statements-with-their-spending-1239466388/",
+   "link": "https://wwd.com/fashion-news/designer-luxury/blumarine-david-koma-creative-director-designer-exit-brand-1239395298/",
    "photo_credit": null
   },
   {
-   "title": "Regatta ficha a Emma Harnett",
-   "headline": "Regatta appoints marketing director",
-   "source": "Drapers",
-   "link": "https://www.drapersonline.com/news/regatta-appoints-marketing-director",
+   "title": "Capital humano en la moda",
+   "headline": "Il Venice Sustainable Fashion Forum 2026 è stato una riflessione sul capitale umano: «Quando parliamo del bello, del ben fatto, devi trasmettere emozione, e l'emozione, non può che passare dalle persone»",
+   "source": "Vogue IT",
+   "link": "https://www.vogue.it/article/venice-sustainable-fashion-forum-2026-intervista-luca-sburlati",
    "photo_credit": null
   },
   {
-   "title": "Nike anuncia lanzamientos de diciembre",
-   "headline": "The Best Nike Sneakers Releasing in December",
+   "title": "Calzado invernal de celebridades",
+   "headline": "Cozy Winter Shoe Styling Inspiration From Jennifer Lawrence, Timothée Chalamet and More Celebrities",
    "source": "WWD",
-   "link": "https://wwd.com/footwear-news/sneaker-news/nike-sneaker-release-date-calendar-december-2026-1239464370/",
+   "link": "https://wwd.com/footwear-news/shoe-trends/cozy-winter-shoe-inspiration-celebrity-style-1239464883/",
    "photo_credit": null
   }
  ]
